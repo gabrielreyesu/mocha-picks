@@ -184,3 +184,8 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,qb_home,qb_away,qb_h
 2026-11-15T19:26:36.460850+00:00,401873063,2026-11-15T21:25Z,Dallas Cowboys,San Francisco 49ers,0.34746,0.36765,2577417,4361741,Dak Prescott,Brock Purdy,0,0,0.0,1,118.0
 2026-11-15T19:26:36.460850+00:00,401873064,2026-11-16T01:20Z,Cincinnati Bengals,Pittsburgh Steelers,0.48719,0.54698,3915511,8439,Joe Burrow,Aaron Rodgers,0,0,0.0,1,353.0
 2026-11-15T19:26:36.460850+00:00,401873065,2026-11-17T01:15Z,Baltimore Ravens,Los Angeles Chargers,0.70761,0.6864,2578570,4038941,Jacoby Brissett,Justin Herbert,1,0,0.221,1,1788.0
+2026-11-15T20:17:20.765530+00:00,401873061,2026-11-15T21:05Z,Arizona Cardinals,Los Angeles Rams,0.26313,0.17859,4430841,12483,Carson Beck,Matthew Stafford,1,0,-0.882,1,48.0
+2026-11-15T20:17:20.765530+00:00,401873062,2026-11-15T21:05Z,Las Vegas Raiders,Seattle Seahawks,0.25864,0.22553,4837248,3924327,Fernando Mendoza,Drew Lock,1,1,-1.078,1,48.0
+2026-11-15T20:17:20.765530+00:00,401873063,2026-11-15T21:25Z,Dallas Cowboys,San Francisco 49ers,0.34746,0.36765,2577417,4361741,Dak Prescott,Brock Purdy,0,0,0.0,1,68.0
+2026-11-15T20:17:20.765530+00:00,401873064,2026-11-16T01:20Z,Cincinnati Bengals,Pittsburgh Steelers,0.48719,0.54698,3915511,8439,Joe Burrow,Aaron Rodgers,0,0,0.0,1,303.0
+2026-11-15T20:17:20.765530+00:00,401873065,2026-11-17T01:15Z,Baltimore Ravens,Los Angeles Chargers,0.70761,0.6864,2578570,4038941,Jacoby Brissett,Justin Herbert,1,0,0.221,1,1738.0
