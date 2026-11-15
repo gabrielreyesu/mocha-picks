@@ -193,3 +193,12 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-15T01:50:33.689567+00:00,401909991,2026-11-16T00:00Z,Washington Wizards,Houston Rockets,0.19568,0.17472,-3.13,-11.677,Justin Champagnie,Clint Capela; Marcus Smart; Fred VanVleet,4,1329.0
 2026-11-15T01:50:33.689567+00:00,401909992,2026-11-16T01:00Z,Milwaukee Bucks,Atlanta Hawks,0.26216,0.26098,-0.771,-6.723,Ousmane Dieng,Asa Newell; Kingston Flemings,3,1389.0
 2026-11-15T01:50:33.689567+00:00,401909993,2026-11-16T02:00Z,Sacramento Kings,Oklahoma City Thunder,0.18401,0.20911,1.424,-6.399,,Jaylin Williams,6,1449.0
+2026-11-15T03:34:27.168996+00:00,401909985,2026-11-15T18:00Z,Philadelphia 76ers,Indiana Pacers,0.76818,0.75102,-1.839,3.742,Joel Embiid; Adem Bona,Tyrese Haliburton,4,866.0
+2026-11-15T03:34:27.168996+00:00,401909986,2026-11-15T21:00Z,Phoenix Suns,Los Angeles Lakers,0.39765,0.37273,0.114,-7.628,,Austin Reaves,1,1046.0
+2026-11-15T03:34:27.168996+00:00,401909987,2026-11-15T21:30Z,LA Clippers,Charlotte Hornets,0.56147,0.56264,-1.524,1.465,,Dennis Schroder; Kon Knueppel,4,1076.0
+2026-11-15T03:34:27.168996+00:00,401909988,2026-11-15T22:00Z,Utah Jazz,San Antonio Spurs,0.08889,0.09148,-0.961,-13.428,Jaren Jackson Jr.; Lauri Markkanen; Jaxson Hayes,,4,1106.0
+2026-11-15T03:34:27.168996+00:00,401909989,2026-11-15T23:00Z,Boston Celtics,Dallas Mavericks,0.8673,0.83508,0.145,0.41,,Sergio de Larrea; Daniel Gafford; Max Christie,2,1166.0
+2026-11-15T03:34:27.168996+00:00,401909990,2026-11-15T23:00Z,Toronto Raptors,New York Knicks,0.33414,0.34464,-0.397,-3.884,Scottie Barnes,,2,1166.0
+2026-11-15T03:34:27.168996+00:00,401909991,2026-11-16T00:00Z,Washington Wizards,Houston Rockets,0.19585,0.175,-3.129,-11.675,Justin Champagnie,Clint Capela; Marcus Smart; Fred VanVleet,4,1226.0
+2026-11-15T03:34:27.168996+00:00,401909992,2026-11-16T01:00Z,Milwaukee Bucks,Atlanta Hawks,0.26238,0.26125,-0.77,-6.722,Ousmane Dieng,Asa Newell; Kingston Flemings,3,1286.0
+2026-11-15T03:34:27.168996+00:00,401909993,2026-11-16T02:00Z,Sacramento Kings,Oklahoma City Thunder,0.18406,0.20912,1.424,-6.399,,Jaylin Williams,6,1346.0
