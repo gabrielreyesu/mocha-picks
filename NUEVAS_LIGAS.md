@@ -94,3 +94,24 @@ las casas sin margen o de Kalshi. Si no hay cuotas, no hay pick. Nunca se public
    v1 debe tener su extremo superior por encima de 0, y las 15 ligas deben seguir pasando. Si no, las ligas siguen con v1 y
    v2 se usa solo para copas.
 3. **MLS y Sudamericana:** se reevalúan con v2 bajo la regla original.
+
+### Resultado de la segunda prueba (v2)
+- **Copas (todas juntas):** el modelo mejora con claridad a la referencia.
+  - (a) con historial: +0,071 [+0,044; +0,097], n = 1.521.
+  - (b) todos los partidos: +0,040 [+0,018; +0,064], n = 2.375.
+  - Pero está **mal calibrado**: ECE 0,117 y 0,135, frente al máximo de 0,05. → **No pasa.**
+  - La Coppa Italia empeora a la referencia (−0,079 [−0,134; −0,024]).
+- **Ligas, v2 frente a v1:** −0,0004 [−0,0009; +0,0001] en 29.266 partidos. Son equivalentes, el extremo superior queda por
+  encima de 0 y las 15 ligas siguen pasando. → **Se adopta v2** para todo el grupo.
+- **MLS** (+0,011 [+0,0001; +0,023], ECE 0,016) y **Sudamericana** (+0,042 [+0,008; +0,077], ECE 0,031) **pasan con v2**. La
+  MLS pasa por muy poco.
+
+## Tercera prueba: calibración para copas (pre-registrada, escrita tras ver que v2 falla SOLO por calibración)
+- **Cambio:** a las probabilidades de v2 en copas nacionales se les aplica una recalibración multinomial,
+  `p_c ∝ exp(a_c + T · log p_c)`, con a_H = 0 y tres parámetros (T, a_D, a_A).
+- **Sin fugas:** para cada temporada, la recalibración se ajusta SOLO con predicciones fuera de muestra de copas de
+  temporadas anteriores (desde 2020/21). Se exigen al menos 200 partidos para ajustarla.
+- **Evaluación y regla:** la misma de la segunda prueba (copas juntas, subconjuntos a y b, referencia por copa; n ≥ 300,
+  IC 95% > 0 y ECE ≤ 0,05). La Coppa Italia queda excluida por empeorar en v2.
+- **Aviso honesto:** las temporadas evaluadas son las mismas que en la segunda prueba. Por eso, si pasa, las copas se
+  publican marcadas como «en sombra»: con pick y seguimiento prospectivo, y se revisa con 200 partidos nuevos.
