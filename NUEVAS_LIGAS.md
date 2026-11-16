@@ -68,3 +68,29 @@ las casas sin margen o de Kalshi. Si no hay cuotas, no hay pick. Nunca se public
 **Siguientes pasos:**
 - Ajustar el modelo para copas: la diferencia de categoría y la sede, con más temporadas.
 - Repetir la validación cada temporada.
+
+## Segunda prueba: copas nacionales (protocolo pre-registrado, escrito antes de ver resultados)
+**Cambios del modelo (variante v2, solo en el grupo `ligas`):**
+- **Más datos de equipos pequeños:** se agregan al Elo League Two (eng.4), National League (eng.5), Scottish Championship
+  (sco.2) y la segunda de Países Bajos (ned.2). Son las divisiones inferiores que publica ESPN.
+- **Diferencia de categoría:** nivel de la última liga de cada equipo (1 = primera, 2 = segunda…; sin liga conocida = 6).
+  Nueva variable `tier_diff` = nivel del visitante − nivel del local.
+- **Indicador de copa nacional:** variable `cup`.
+
+**Evaluación:** el mismo walk-forward (temporadas 2021/22 en adelante, partidos a 90 minutos).
+- **Copas:** se evalúan **todas juntas**, en dos subconjuntos:
+  - (a) ambos equipos con al menos 10 partidos previos;
+  - (b) todos los partidos.
+
+  La referencia es la de cada copa (frecuencias H/D/A de sus temporadas anteriores).
+- **Ligas:** se evalúan de nuevo con v2.
+
+**Reglas:**
+1. **Copas:** se aplica la misma regla de antes al conjunto de copas: n ≥ 300, IC 95% de la mejora > 0 y ECE ≤ 0,05.
+   - Si (b) pasa, se publican todos los partidos de copa.
+   - Si solo pasa (a), se publican solo los partidos con historial suficiente.
+   - Se excluye cualquier copa cuya mejora individual sea significativamente negativa (IC 95% < 0).
+2. **Ligas:** v2 se usa para todo el grupo solo si, en las ligas, v2 no es peor que v1: el IC 95% de la mejora de v2 sobre
+   v1 debe tener su extremo superior por encima de 0, y las 15 ligas deben seguir pasando. Si no, las ligas siguen con v1 y
+   v2 se usa solo para copas.
+3. **MLS y Sudamericana:** se reevalúan con v2 bajo la regla original.
