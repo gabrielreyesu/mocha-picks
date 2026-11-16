@@ -40,6 +40,9 @@ jobs:
         run: |
           python -m kalshi_intl.cli evaluate
           python -m kalshi_intl.cli predict
+      - name: Escudos, banderas y logos (catálogo de ESPN; si falla no detiene el resto)
+        continue-on-error: true
+        run: python -m kalshi_nba.logos
       - name: Qué se juega cada equipo (aviso informativo; si falla no detiene el resto)
         continue-on-error: true
         run: python -m kalshi_lineup.stakes_now

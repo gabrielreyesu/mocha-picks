@@ -14,12 +14,15 @@ import numpy as np
 import pandas as pd
 
 from .injuries import OUT
+from .logos import Logos
+from .marcadores import LIGA_CODE, fetch as fetch_scores, hit
 from .picks import soccer_picks, us_picks, us_snapshot
 from kalshi_external.final_shadow import kalshi3, source_label
 from .final_pick import combine3, load_weights
 from .resumen import TZ, _bajas_fut, _lat, _when
 
 P = Path("predictions")
+WINDOW_DAYS = 3                 # también se muestran los partidos de los últimos días (con resultado)
 SPORT = {"nba": "NBA", "nfl": "NFL", "liga": "Ligas", "club": "Copas", "intl": "Selecciones"}
 
 
@@ -68,7 +71,7 @@ def games_us(lg: str, now, finals) -> list:
     r = pd.read_csv(reg, dtype={"event_id": str, "home_id": str, "away_id": str})
     r = (r.sort_values("created_utc") if "created_utc" in r else r).drop_duplicates("event_id", keep="last")
     r["t"] = _when(r["kickoff_utc"])
-    r = r[r["t"] > now].sort_values("t")
+    r = r[r["t"] > now - pd.Timedelta(days=WINDOW_DAYS)].sort_values("t")
     s = pd.DataFrame()
     snap = P / f"{lg}_kalshi_snapshots.csv"
     if snap.exists():
@@ -90,7 +93,7 @@ def games_us(lg: str, now, finals) -> list:
         else:
             final, src = model, "modelo"
         pick, prob = _pick([x.home, x.away], final)
-        out.append({"sport": lg, "comp": SPORT[lg], "t": x.t.isoformat(), "home": x.home, "away": x.away, "three": False,
+        out.append({"sport": lg, "id": x.event_id, "comp": SPORT[lg], "t": x.t.isoformat(), "home": x.home, "away": x.away, "three": False,
                     "pick": pick, "prob": prob, "src": src,
                     "rows": [["Modelo", model], ["Casas", [bh, None if bh is None else 1 - bh]],
                              ["Kalshi", [kh, None if kh is None else 1 - kh]], ["Polymarket", [ph, None if ph is None else 1 - ph]]],
@@ -119,7 +122,7 @@ def games_ligas(now) -> list:
     r = pd.read_csv(reg)
     r = r.drop_duplicates("match_id", keep="last") if "match_id" in r else r
     r["t"] = _when(r["kickoff_utc"])
-    r = r[r["t"] > now].sort_values("t")
+    r = r[r["t"] > now - pd.Timedelta(days=WINDOW_DAYS)].sort_values("t")
     lat = _lat()
     out = []
     for x in r.itertuples():
@@ -132,7 +135,8 @@ def games_ligas(now) -> list:
         final, src = combine3(k3, None, model, load_weights("futbol")) if all(v is not None for v in model) else (model, "modelo")
         final = [round(v, 4) for v in final] if final else model
         pick, prob = _pick([x.home, "Empate", x.away], final)
-        out.append({"sport": "liga", "comp": x.competition, "t": x.t.isoformat(), "home": x.home, "away": x.away, "three": True,
+        out.append({"sport": "liga", "id": str(getattr(x, "match_id", "")), "code": LIGA_CODE.get(x.competition), "comp": x.competition,
+                    "t": x.t.isoformat(), "home": x.home, "away": x.away, "three": True,
                     "pick": pick, "prob": prob, "src": src,
                     "rows": [["Modelo", model], ["Kalshi", kal]],
                     "extra": _soccer_extra(x, cal=True) + [["Bajas local / visita", _bajas_fut(x, lat)]], "inj": None,
@@ -171,7 +175,7 @@ def games_intl(now, finals) -> list:
         for c in [c for c in s.columns if c.startswith(("k_mid_", "k_bid_", "k_ask_", "mkt_", "p_over_1_5", "p_over_3_5", "p_home_m1_5", "p_away_m1_5"))]:
             r[c] = r["event_id"].map(s[c]).combine_first(r[c] if c in r else pd.Series(np.nan, index=r.index))
     r["t"] = _when(r["kickoff_utc"])
-    r = r[r["t"] > now].sort_values("t")
+    r = r[r["t"] > now - pd.Timedelta(days=WINDOW_DAYS)].sort_values("t")
     lat = _lat()
     stakes = _stakes()
     out = []
@@ -187,7 +191,7 @@ def games_intl(now, finals) -> list:
         extra = _soccer_extra(x, cal=False) + [["Bajas local / visita", _bajas_fut(x, lat)]]
         if sport == "intl":
             extra.append(["Aviso", "En selecciones, los mercados de goles del modelo son poco fiables."])
-        out.append({"sport": sport, "comp": x.competicion + (" · sede neutral" if x.neutral else ""), "t": x.t.isoformat(),
+        out.append({"sport": sport, "id": x.event_id, "code": x.code, "comp": x.competicion + (" · sede neutral" if x.neutral else ""), "t": x.t.isoformat(),
                     "home": x.home, "away": x.away, "three": True, "pick": pick, "prob": prob, "src": src,
                     "rows": [["Modelo", model], ["Casas", books], ["Kalshi", _tri(x, ["k_mid_H", "k_mid_D", "k_mid_A"])]],
                     "extra": extra, "inj": None, "nostake": stakes.get(x.event_id, []),
@@ -199,7 +203,7 @@ def games_intl(now, finals) -> list:
     return out
 
 
-def collect(now=None) -> dict:
+def collect(now=None, score_getter=None) -> dict:
     global P
     from . import resumen as _r
     P = _r.P                                   # misma carpeta que PREDICCIONES.md (las pruebas la cambian)
@@ -207,6 +211,21 @@ def collect(now=None) -> dict:
     finals = _final_picks()
     games = games_us("nba", now, finals) + games_us("nfl", now, finals) + games_ligas(now) + games_intl(now, finals)
     games.sort(key=lambda g: g["t"])
+    try:
+        scores = fetch_scores(games, now, getter=score_getter) if score_getter is not False else {}
+    except Exception:  # noqa: BLE001 - sin marcadores, la página sigue funcionando
+        scores = {}
+    logos = Logos.load(P / "logos.json")
+    for g in games:
+        g["hlogo"], g["alogo"] = logos.team(g["sport"], g["home"]), logos.team(g["sport"], g["away"])
+        g["clogo"] = logos.comp(g["sport"], g.get("code"))
+    for g in games:
+        sc = scores.get(f"{g['sport']}:{g.get('id')}")
+        started = pd.Timestamp(g["t"]) <= now
+        g["state"] = sc["state"] if sc else ("in" if started and pd.Timestamp(g["t"]) > now - pd.Timedelta(hours=3) else ("post" if started else "pre"))
+        g["score"] = [sc["hs"], sc["as"]] if sc and sc["hs"] is not None and sc["state"] != "pre" else None
+        g["detail"] = sc["detail"] if sc else ""
+        g["hit"] = hit(g, sc)
     return {"updated": now.isoformat(), "tz": TZ, "games": games}
 
 
@@ -215,225 +234,7 @@ def render(data: dict) -> str:
     return TEMPLATE.replace("__DATA__", payload).replace("__UPDATED__", html.escape(pd.Timestamp(data["updated"]).strftime("%d %b %Y %H:%M")))
 
 
-TEMPLATE = r"""<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="robots" content="noindex">
-<meta name="theme-color" content="#6f4e37">
-<meta name="apple-mobile-web-app-title" content="Mocha Picks">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%E2%98%95%3C/text%3E%3C/svg%3E">
-<title>Mocha Picks</title>
-<style>
-:root{--bg:#f6f7f9;--card:#fff;--ink:#0f172a;--muted:#5b6474;--line:#e3e6eb;--accent:#2563eb;--home:#2563eb;--draw:#9aa3af;--away:#e11d48;
---hi:#15803d;--mid:#b45309;--lo:#6b7280;--chip:#eef1f5;--onaccent:#fff}
-@media (prefers-color-scheme:dark){:root{--bg:#0b1020;--card:#141a2e;--ink:#e8ecf4;--muted:#9aa4b8;--line:#232b45;--accent:#60a5fa;--home:#60a5fa;
---draw:#6b7280;--away:#fb7185;--hi:#4ade80;--mid:#fbbf24;--lo:#9ca3af;--chip:#1c2440;--onaccent:#0b1020}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-header{padding:12px 16px 4px}.sticky{position:sticky;top:0;z-index:5;background:var(--bg);padding:6px 16px 8px;border-bottom:1px solid var(--line)}
-h1{font-size:18px;margin:0}.sub{color:var(--muted);font-size:12px;margin-top:2px}
-.bar{display:flex;gap:6px;overflow-x:auto;margin-top:6px;scrollbar-width:none}.bar::-webkit-scrollbar{display:none}
-button.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 11px;font:inherit;font-size:13px}
-button.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--onaccent);font-weight:600}
-input[type=search]{width:100%;margin-top:8px;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit}
-main{padding:12px 16px 40px;max-width:720px;margin:0 auto}
-.day{font-weight:700;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin:18px 2px 8px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
-.top{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted)}
-.teams{font-weight:650;font-size:16px;margin:6px 0 8px}.teams small{font-weight:400;color:var(--muted)}
-.pick{display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--chip);border-radius:10px;padding:8px 10px}
-.pick b{font-size:16px}.pct{font-size:20px;font-weight:750;font-variant-numeric:tabular-nums}
-.conf{font-size:11px;font-weight:700;border-radius:999px;padding:2px 8px;border:1px solid currentColor}
-.c-Alta{color:var(--hi)}.c-Media{color:var(--mid)}.c-Baja{color:var(--lo)}
-.src{font-size:11px;color:var(--muted)}.warn{display:inline-block;margin-top:6px;font-size:11px;color:var(--mid)}.count{color:var(--muted);font-size:12px;margin:10px 2px 0}
-details{margin-top:8px}summary{cursor:pointer;color:var(--accent);font-size:13px;list-style:none}summary::-webkit-details-marker{display:none}
-.row{display:grid;grid-template-columns:78px 1fr;gap:8px;align-items:center;margin:7px 0;font-size:12px}
-.stack{display:flex;height:20px;border-radius:6px;overflow:hidden;background:var(--chip);font-size:11px;font-weight:650;color:#fff}
-.stack span{display:flex;align-items:center;justify-content:center;min-width:0;white-space:nowrap;overflow:hidden}
-.h{background:var(--home)}.d{background:var(--draw)}.a{background:var(--away)}.na{color:var(--muted);font-size:12px}
-.legend{display:flex;gap:12px;font-size:11px;color:var(--muted);margin-top:4px}.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px}
-dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px;margin:8px 0 0}dt{color:var(--muted)}dd{margin:0;text-align:right}
-.inj{font-size:12px;color:var(--muted);margin-top:6px}
-.mk{margin-top:8px;border-top:1px solid var(--line)}.mk>div{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0;border-bottom:1px solid var(--line)}
-.mk>div:last-child{border-bottom:0}.mk .r{text-align:right}.mk .lab{font-size:11px;color:var(--muted)}.mk .ch{font-size:14px;font-weight:600}
-.mk .pp{text-align:right;font-weight:700;font-variant-numeric:tabular-nums}.mk .meta{text-align:right;font-size:11px;color:var(--muted)}
-.view{display:flex;background:var(--chip);border-radius:10px;padding:3px;margin-top:8px}
-.view button{flex:1;border:0;background:transparent;color:var(--ink);font:inherit;font-size:14px;padding:7px;border-radius:8px}
-.view button[aria-pressed=true]{background:var(--card);font-weight:650;box-shadow:0 1px 2px rgba(0,0,0,.15)}
-.pk{display:grid;grid-template-columns:56px 1fr;gap:10px;align-items:center}.pk .big{font-size:20px;font-weight:750;font-variant-numeric:tabular-nums;text-align:center}
-.pk .t1{font-weight:650}.pk .t2{font-size:12px;color:var(--muted)}.empty{color:var(--muted);text-align:center;padding:40px 0}
-footer{color:var(--muted);font-size:12px;padding:0 16px 30px;max-width:720px;margin:0 auto}footer a{color:var(--accent)}
-</style>
-</head>
-<body>
-<header>
-  <h1>☕ Mocha Picks</h1>
-  <div class="sub">Actualizado __UPDATED__ (Chicago) · horas en tu zona horaria</div>
-  <div class="view" id="view"><button data-v="games">Partidos</button><button data-v="picks">Mejores picks</button></div>
-  <input type="search" id="q" placeholder="Buscar equipo o competición" aria-label="Buscar">
-</header>
-<div class="sticky">
-  <div class="bar" id="sports"></div>
-  <div class="bar" id="when"></div>
-  <div class="bar" id="mkts"></div>
-</div>
-<main id="list"></main>
-<footer>
-  <p><b>Pick</b>: resultado más probable. Usa el consenso de casas (sin margen) cuando existe y el modelo propio si no; está en prueba.
-  <b>Confianza</b>: Alta ≥ 70%, Media 55–69%, Baja &lt; 55%. Kalshi y Polymarket: precio ≈ probabilidad (62¢ ≈ 62%).</p>
-  <p><b>Mercados</b>: Hándicap = ganar por más de X puntos (o "+X": ganar o perder por menos de X). Total = puntos o goles del partido.
-  "Línea segura" = la línea más exigente que aún tiene ≥ 70–75% de probabilidad. Doble oportunidad = uno de dos resultados.
-  En hándicap y totales la probabilidad viene de las casas: el modelo propio no mostró ventaja ahí.</p>
-  <p>Bajas: informativas; el modelo de producción todavía no las usa. Esto no es una recomendación de apuesta.</p>
-  <p><a href="progreso.html">Progreso del modelo y pruebas en curso →</a></p>
-</footer>
-<script>
-const DATA = __DATA__;
-const S = {sport: "all", when: "48h", q: "", hi: "0", view: "games", mkt: "all"};
-const MKTS = [["all","Todos los mercados"],["Ganador","Ganador"],["Doble","Doble oportunidad"],["Hándicap","Hándicap"],["Total","Totales"],["Goles","Goles"],["Ambos","Ambos anotan"]];
-const isMkt = (m, p) => m === "all" || (m === "Total" ? /^(Total|Puntos)/.test(p.mercado) : p.mercado.startsWith(m));
-const mktOk = p => isMkt(S.mkt, p);
-const SPORT_NAME = {nba: "NBA", nfl: "NFL", liga: "Ligas", club: "Copas", intl: "Selecciones"};
-const save = () => { try { localStorage.setItem("kai-filters", JSON.stringify({sport: S.sport, when: S.when, hi: S.hi, view: S.view, mkt: S.mkt})); } catch (e) {} };
-const SPORTS = [["all","Todo"],["nba","NBA"],["nfl","NFL"],["liga","Ligas"],["club","Copas"],["intl","Selecciones"]];
-const WHEN = [["24h","Hoy"],["48h","Hoy y mañana"],["7d","7 días"],["all","Todo"]];
-const HI = [["0","Toda confianza"],["1","Solo Alta"]];
-try { const s = JSON.parse(localStorage.getItem("kai-filters") || "{}"); Object.assign(S, s, {q: ""}); } catch (e) {}
-const pc = v => v == null ? "—" : Math.round(100 * v) + "%";
-const level = v => v >= .70 ? "Alta" : v >= .55 ? "Media" : "Baja";
-const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function chips(id, items, key) {
-  const el = document.getElementById(id);
-  el.innerHTML = items.map(([v, l]) => `<button class="chip" data-v="${v}" aria-pressed="${S[key] === v}">${l}</button>`).join("");
-  el.onclick = e => { const b = e.target.closest("button"); if (!b) return; S[key] = b.dataset.v;
-    try { localStorage.setItem("kai-filters", JSON.stringify({sport: S.sport, when: S.when, hi: S.hi, view: S.view, mkt: S.mkt})); } catch (e) {}
-    chips(id, items, key); draw(); };
-}
-function stack(v, three) {
-  if (!v || v.every(x => x == null)) return `<span class="na">sin dato</span>`;
-  const parts = three ? [["h", v[0]], ["d", v[1]], ["a", v[2]]] : [["h", v[0]], ["a", v[1]]];
-  return `<div class="stack">${parts.map(([c, p]) => p == null ? "" : `<span class="${c}" style="width:${(100 * p).toFixed(1)}%">${p >= .12 ? pc(p) : ""}</span>`).join("")}</div>`;
-}
-function card(g) {
-  const t = new Date(g.t);
-  const hour = t.toLocaleTimeString("es", {hour: "2-digit", minute: "2-digit"});
-  const lv = g.prob == null ? "Baja" : level(g.prob);
-  const vs = g.sport === "nba" || g.sport === "nfl" ? `${esc(g.away)} <small>en</small> ${esc(g.home)}` : `${esc(g.home)} <small>vs</small> ${esc(g.away)}`;
-  const legend = `<div class="legend"><span><i class="h"></i>${esc(g.home)}</span>${g.three ? '<span><i class="d"></i>Empate</span>' : ""}<span><i class="a"></i>${esc(g.away)}</span></div>`;
-  const inj = g.inj && (g.inj.home.length || g.inj.away.length)
-    ? `<div class="inj"><b>Bajas ${esc(g.home)}:</b> ${esc(g.inj.home.join(", ") || "ninguna")}<br><b>Bajas ${esc(g.away)}:</b> ${esc(g.inj.away.join(", ") || "ninguna")}</div>` : "";
-  return `<article class="card">
-    <div class="top"><span>${esc(g.comp)}</span><span>${hour}</span></div>
-    <div class="teams">${vs}</div>
-    <div class="pick"><div><div class="src">Pick (${esc(g.src)})</div><b>${esc(g.pick ?? "—")}</b></div>
-      <div style="text-align:right"><div class="pct">${pc(g.prob)}</div><span class="conf c-${lv}">${lv}</span></div></div>
-    ${gap(g)}
-    ${(g.nostake || []).map(t => `<span class="warn">⚑ ${esc(t)} ya no se juega nada en el grupo/tabla (informativo; no cambia la probabilidad)</span>`).join("<br>")}
-    ${mk(g)}
-    <details><summary>Ver comparación y detalles</summary>
-      ${g.rows.map(([n, v]) => `<div class="row"><span>${esc(n)}</span>${stack(v, g.three)}</div>`).join("")}${legend}
-      <dl>${g.extra.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>${inj}
-    </details></article>`;
-}
-const money = v => v == null ? "" : ` · Kalshi ${Math.round(100 * v)}¢`;
-function mk(g) {
-  const extra = (g.picks || []).filter(p => p.mercado !== "Ganador");
-  if (!extra.length) return "";
-  return `<div class="mk">${extra.map(p => `<div><span><span class="lab">${esc(p.mercado)}</span><br><span class="ch">${esc(p.pick)}</span></span>
-    <span class="r"><span class="pp">${pc(p.prob)}</span><br><span class="meta">${level(p.prob ?? 0)} · ${esc(p.fuente)}${money(p.precio)}</span></span></div>`).join("")}</div>`;
-}
-function pickRow(g, p) {
-  const t = new Date(g.t), lv = level(p.prob ?? 0);
-  const when = t.toLocaleDateString("es", {weekday: "short", day: "numeric"}) + " " + t.toLocaleTimeString("es", {hour: "2-digit", minute: "2-digit"});
-  const vs = g.sport === "nba" || g.sport === "nfl" ? `${esc(g.away)} en ${esc(g.home)}` : `${esc(g.home)} vs ${esc(g.away)}`;
-  return `<article class="card pk"><div><div class="big">${pc(p.prob)}</div><div style="text-align:center"><span class="conf c-${lv}">${lv}</span></div></div>
-    <div><div class="t2">${esc(p.mercado)} · ${esc(g.comp)}</div><div class="t1">${esc(p.pick)}</div>
-    <div class="t2">${vs} · ${when}</div><div class="t2">Fuente: ${esc(p.fuente)}${money(p.precio)}</div></div></article>`;
-}
-function gap(g) {
-  const m = g.rows.find(r => r[0] === "Modelo"), c = g.rows.find(r => r[0] === "Casas");
-  if (!m || !c || c[1].some(v => v == null) || m[1].some(v => v == null)) return "";
-  const d = Math.max(...m[1].map((v, i) => Math.abs(v - c[1][i])));
-  return d >= 0.10 ? `<span class="warn">⚠ El modelo difiere ${Math.round(100 * d)} pts de las casas (posible baja o noticia no incorporada)</span>` : "";
-}
-function emptyPicks(now, lim) {
-  const label = (MKTS.find(m => m[0] === S.mkt) || ["", "este mercado"])[1];
-  const all = DATA.games.filter(g => Date.parse(g.t) > now - 3 * 3600e3).flatMap(g => (g.picks || []).filter(p => p.prob != null && mktOk(p)).map(p => [g, p]));
-  const fix = (k, v, t) => `<button class="chip" data-fix="${k}" data-v="${v}">${t}</button>`;
-  let why = "No hay picks con estos filtros.", btn = "";
-  if (!all.length) why = `${esc(label)}: no hay picks publicados por ahora.`;
-  else {
-    const sports = [...new Set(all.map(([g]) => g.sport))];
-    const inSport = all.filter(([g]) => S.sport === "all" || g.sport === S.sport);
-    if (!inSport.length) { why = `${esc(label)} solo existe en: ${sports.map(x => SPORT_NAME[x] || x).join(", ")}.`; btn = fix("sport", "all", "Ver todos los deportes"); }
-    else {
-      const inTime = inSport.filter(([g]) => Date.parse(g.t) - now <= lim);
-      if (!inTime.length) {
-        const next = new Date(Math.min(...inSport.map(([g]) => Date.parse(g.t))));
-        why = `No hay partidos con ${esc(label)} en este periodo. El próximo es el ${next.toLocaleDateString("es", {weekday: "long", day: "numeric", month: "short"})}.`;
-        btn = fix("when", "all", "Ver todas las fechas");
-      } else if (S.hi === "1" && !inTime.some(([g, p]) => p.prob >= .70)) {
-        why = `Ningún pick de ${esc(label)} llega a confianza Alta (70%) en este periodo.`; btn = fix("hi", "0", "Mostrar toda confianza");
-      } else if (S.q) { why = "Ningún equipo o competición coincide con la búsqueda."; }
-    }
-  }
-  return `<div class="empty"><p>${why}</p>${btn}</div>`;
-}
-function draw() {
-  const now = Date.now(), lim = {"24h": 24, "48h": 48, "7d": 168, "all": 1e9}[S.when] * 3600e3, q = S.q.trim().toLowerCase();
-  const gs = DATA.games.filter(g => { const t = Date.parse(g.t);
-    return t > now - 3 * 3600e3 && t - now <= lim && (S.sport === "all" || g.sport === S.sport)
-      && (S.view === "picks" || S.hi !== "1" || (g.prob ?? 0) >= .70)
-      && (!q || (g.home + " " + g.away + " " + g.comp).toLowerCase().includes(q)); });
-  const el = document.getElementById("list");
-  if (S.view === "picks") {
-    const base = gs.flatMap(g => (g.picks || []).map(p => [g, p])).filter(([g, p]) => p.prob != null && (S.hi !== "1" || p.prob >= .70));
-    document.getElementById("mkts").innerHTML = MKTS.map(([v, l]) =>
-      `<button class="chip" data-v="${v}" aria-pressed="${S.mkt === v}">${l} (${base.filter(([g, p]) => isMkt(v, p)).length})</button>`).join("");
-    const ps = base.filter(([g, p]) => mktOk(p)).sort((a, b) => b[1].prob - a[1].prob);
-    el.innerHTML = ps.length ? `<p class="count">${ps.length} picks, de mayor a menor probabilidad</p>` + ps.map(([g, p]) => pickRow(g, p)).join("")
-      : emptyPicks(now, lim);
-    return;
-  }
-  if (!gs.length) { el.innerHTML = `<p class="empty">No hay partidos con estos filtros.</p>`; return; }
-  let html = `<p class="count">${gs.length} partido${gs.length === 1 ? "" : "s"}</p>`, last = "";
-  for (const g of gs) {
-    const d = new Date(g.t).toLocaleDateString("es", {weekday: "long", day: "numeric", month: "short"});
-    if (d !== last) { html += `<div class="day">${d}</div>`; last = d; }
-    html += card(g);
-  }
-  el.innerHTML = html;
-}
-const viewBar = document.getElementById("view");
-function drawView() {
-  for (const b of viewBar.querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.v === S.view));
-  document.getElementById("mkts").style.display = S.view === "picks" ? "flex" : "none";
-}
-viewBar.onclick = e => { const b = e.target.closest("button"); if (!b) return; S.view = b.dataset.v;
-  try { localStorage.setItem("kai-filters", JSON.stringify({sport: S.sport, when: S.when, hi: S.hi, view: S.view, mkt: S.mkt})); } catch (e) {}
-  drawView(); draw(); };
-chips("sports", SPORTS, "sport");
-document.getElementById("mkts").onclick = e => { const b = e.target.closest("button"); if (!b) return; S.mkt = b.dataset.v; save(); draw(); };
-document.getElementById("list").onclick = e => { const b = e.target.closest("button[data-fix]"); if (!b) return;
-  S[b.dataset.fix] = b.dataset.v; save(); chips("sports", SPORTS, "sport"); chipsWhen(); draw(); };
-drawView();
-const whenBar = document.getElementById("when");
-function chipsWhen() {
-  whenBar.innerHTML = WHEN.map(([v, l]) => `<button class="chip" data-k="when" data-v="${v}" aria-pressed="${S.when === v}">${l}</button>`).join("")
-    + HI.slice(1).map(([v, l]) => `<button class="chip" data-k="hi" data-v="${S.hi === "1" ? "0" : "1"}" aria-pressed="${S.hi === "1"}">${l}</button>`).join("");
-}
-whenBar.onclick = e => { const b = e.target.closest("button"); if (!b) return; S[b.dataset.k] = b.dataset.v;
-  try { localStorage.setItem("kai-filters", JSON.stringify({sport: S.sport, when: S.when, hi: S.hi, view: S.view, mkt: S.mkt})); } catch (e) {}
-  chipsWhen(); draw(); };
-chipsWhen();
-document.getElementById("q").oninput = e => { S.q = e.target.value; draw(); };
-draw();
-</script>
-</body>
-</html>
-"""
+TEMPLATE = Path(__file__).with_name("pagina_template.html").read_text(encoding="utf-8")
 
 
 def main(out="docs/index.html"):
