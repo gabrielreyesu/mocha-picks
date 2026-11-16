@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 16 Nov 2026 13:47 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 16 Nov 2026 14:01 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -285,10 +285,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Mon 16 Nov 18:00 | NBA | Orlando Magic en Boston Celtics | Ganador | Boston Celtics | 77% | Alta | Kalshi + casas + modelo | 76¢ |
-| Mon 16 Nov 18:00 | NBA | Orlando Magic en Boston Celtics | Hándicap | Boston Celtics gana por más de 8.5 | 50% | Baja | casas | 50¢ |
-| Mon 16 Nov 18:00 | NBA | Orlando Magic en Boston Celtics | Total de puntos | Menos de 213.5 | 52% | Baja | casas | 52¢ |
-| Mon 16 Nov 18:00 | NBA | Orlando Magic en Boston Celtics | Puntos (línea segura) | Más de 199.5 | 77% | Alta | casas | 79¢ |
 | Mon 16 Nov 18:00 | NBA | Chicago Bulls en Cleveland Cavaliers | Ganador | Cleveland Cavaliers | 76% | Alta | Kalshi + casas + modelo | 76¢ |
 | Mon 16 Nov 18:00 | NBA | Chicago Bulls en Cleveland Cavaliers | Hándicap | Cleveland Cavaliers gana por más de 8.5 | 50% | Baja | casas | 50¢ |
 | Mon 16 Nov 18:00 | NBA | Chicago Bulls en Cleveland Cavaliers | Total de puntos | Más de 241.5 | 50% | Baja | casas | 48¢ |
@@ -297,6 +293,10 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 16 Nov 18:00 | NBA | Memphis Grizzlies en Washington Wizards | Hándicap | Memphis Grizzlies gana por más de 3.5 | 50% | Baja | casas | 50¢ |
 | Mon 16 Nov 18:00 | NBA | Memphis Grizzlies en Washington Wizards | Total de puntos | Más de 232.5 | 50% | Baja | casas | 50¢ |
 | Mon 16 Nov 18:00 | NBA | Memphis Grizzlies en Washington Wizards | Puntos (línea segura) | Más de 218.5 | 78% | Alta | casas | 79¢ |
+| Mon 16 Nov 18:00 | NBA | Orlando Magic en Boston Celtics | Ganador | Boston Celtics | 77% | Alta | Kalshi + casas + modelo | 76¢ |
+| Mon 16 Nov 18:00 | NBA | Orlando Magic en Boston Celtics | Hándicap | Boston Celtics gana por más de 8.5 | 50% | Baja | casas | 50¢ |
+| Mon 16 Nov 18:00 | NBA | Orlando Magic en Boston Celtics | Total de puntos | Menos de 213.5 | 52% | Baja | casas | 52¢ |
+| Mon 16 Nov 18:00 | NBA | Orlando Magic en Boston Celtics | Puntos (línea segura) | Más de 199.5 | 77% | Alta | casas | 79¢ |
 | Mon 16 Nov 18:30 | NBA | Philadelphia 76ers en Brooklyn Nets | Ganador | Philadelphia 76ers | 67% | Media | Kalshi + casas + modelo | 66¢ |
 | Mon 16 Nov 18:30 | NBA | Philadelphia 76ers en Brooklyn Nets | Hándicap | Philadelphia 76ers gana por más de 4.5 | 50% | Baja | casas | 52¢ |
 | Mon 16 Nov 18:30 | NBA | Philadelphia 76ers en Brooklyn Nets | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 52¢ |
@@ -305,11 +305,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 16 Nov 18:30 | NBA | Houston Rockets en Miami Heat | Hándicap | Houston Rockets gana por más de 1.5 | 50% | Baja | casas | 52¢ |
 | Mon 16 Nov 18:30 | NBA | Houston Rockets en Miami Heat | Total de puntos | Menos de 232.5 | 52% | Baja | casas | 51¢ |
 | Mon 16 Nov 18:30 | NBA | Houston Rockets en Miami Heat | Puntos (línea segura) | Más de 218.5 | 77% | Alta | casas | 76¢ |
+| Mon 16 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 65% | Media | modelo | — |
 | Mon 16 Nov 19:00 | NBA | Golden State Warriors en New Orleans Pelicans | Ganador | Golden State Warriors | 60% | Media | Kalshi + casas + modelo | 60¢ |
 | Mon 16 Nov 19:00 | NBA | Golden State Warriors en New Orleans Pelicans | Hándicap | Golden State Warriors gana por más de 3.5 | 50% | Baja | casas | 50¢ |
 | Mon 16 Nov 19:00 | NBA | Golden State Warriors en New Orleans Pelicans | Total de puntos | Más de 223.5 | 50% | Baja | casas | 51¢ |
 | Mon 16 Nov 19:00 | NBA | Golden State Warriors en New Orleans Pelicans | Puntos (línea segura) | Más de 209.5 | 78% | Alta | casas | 80¢ |
-| Mon 16 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 65% | Media | modelo | — |
 | Mon 16 Nov 19:15 | NFL | Los Angeles Chargers en Baltimore Ravens | Ganador | Baltimore Ravens | 67% | Media | Kalshi + casas + modelo | 68¢ |
 | Mon 16 Nov 19:15 | NFL | Los Angeles Chargers en Baltimore Ravens | Hándicap | Baltimore Ravens gana por más de 4.5 | 50% | Baja | casas | 50¢ |
 | Mon 16 Nov 19:15 | NFL | Los Angeles Chargers en Baltimore Ravens | Total de puntos | Más de 39.5 | 50% | Baja | casas | 48¢ |
@@ -349,6 +349,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
 | Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Ganador | Iran | 45% | Baja | modelo | 55¢ |
 | Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Doble oportunidad | Iran o empate | 75% | Alta | modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Ganador | Republic of Ireland | 45% | Baja | Kalshi + casas + modelo | 46¢ |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Doble oportunidad | Republic of Ireland o empate | 75% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Ganador | Ukraine | 44% | Baja | Kalshi + casas + modelo | 44¢ |
 | Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Doble oportunidad | Ukraine o empate | 72% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
@@ -366,9 +369,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Ganador | Bosnia-Herzegovina | 55% | Baja | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Doble oportunidad | Bosnia-Herzegovina o empate | 79% | Alta | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Ganador | Republic of Ireland | 45% | Baja | Kalshi + casas + modelo | 46¢ |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Doble oportunidad | Republic of Ireland o empate | 75% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Ganador | Portugal | 74% | Alta | Kalshi + casas + modelo | 68¢ |
 | Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Doble oportunidad | Portugal o empate | 90% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Ganador | Honduras | 55% | Baja | Kalshi + casas + modelo | 50¢ |
@@ -379,11 +379,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Ganador | Argentina | 92% | Alta | Kalshi + casas + modelo | 90¢ |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Doble oportunidad | Argentina o empate | 98% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 91% | Alta | Kalshi + casas + modelo | 90¢ |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Ganador | Ecuador | 87% | Alta | Kalshi + casas + modelo | 82¢ |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Doble oportunidad | Ecuador o empate | 96% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 91% | Alta | Kalshi + casas + modelo | 90¢ |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Ganador | New York Knicks | 62% | Media | Kalshi + modelo | 60¢ |
 | Tue 17 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 66% | Media | modelo | — |
 | Tue 17 Nov 19:00 | NBA | Detroit Pistons en San Antonio Spurs | Ganador | San Antonio Spurs | 76% | Alta | Kalshi + modelo | 76¢ |
