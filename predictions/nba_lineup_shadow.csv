@@ -285,3 +285,11 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-16T00:34:41.227193+00:00,401909999,2026-11-17T01:00Z,Minnesota Timberwolves,Portland Trail Blazers,0.62458,0.60845,-0.157,-0.869,Anthony Edwards; Jaylen Clark,Vit Krejci; Chris Youngblood; Ja Morant,2,1465.0
 2026-11-16T00:34:41.227193+00:00,401910000,2026-11-17T01:00Z,New Orleans Pelicans,Golden State Warriors,0.28114,0.39339,4.682,4.676,Trendon Watford; Dejounte Murray; Trey Murphy III; Bryce McGowens; Bennedict Mathurin,Brandon Williams; Stephen Curry,3,1465.0
 2026-11-16T00:34:41.227193+00:00,401910001,2026-11-17T02:00Z,Denver Nuggets,Phoenix Suns,0.75493,0.77688,-1.648,9.107,,,2,1525.0
+2026-11-16T02:11:19.248764+00:00,401909994,2026-11-17T00:00Z,Boston Celtics,Orlando Magic,0.75413,0.74501,-0.055,4.333,,,4,1309.0
+2026-11-16T02:11:19.248764+00:00,401909995,2026-11-17T00:00Z,Cleveland Cavaliers,Chicago Bulls,0.77392,0.7639,-1.668,5.548,Evan Mobley; Sam Merrill,Caleb Wilson; Tobe Awaka,1,1309.0
+2026-11-16T02:11:19.248764+00:00,401909996,2026-11-17T00:00Z,Washington Wizards,Memphis Grizzlies,0.35793,0.44669,5.61,1.541,Tre Johnson; Justin Champagnie,Quinten Post; Scotty Pippen Jr.; Ty Jerome; GG Jackson,4,1309.0
+2026-11-16T02:11:19.248764+00:00,401909997,2026-11-17T00:30Z,Brooklyn Nets,Philadelphia 76ers,0.36168,0.30617,-2.757,-11.437,,Adem Bona,2,1339.0
+2026-11-16T02:11:19.248764+00:00,401909998,2026-11-17T00:30Z,Miami Heat,Houston Rockets,0.44222,0.39882,-4.725,-4.9,,Marcus Smart; Fred VanVleet; Clint Capela,0,1339.0
+2026-11-16T02:11:19.248764+00:00,401909999,2026-11-17T01:00Z,Minnesota Timberwolves,Portland Trail Blazers,0.62459,0.60847,-0.157,-0.869,Jaylen Clark; Anthony Edwards,Vit Krejci; Chris Youngblood; Ja Morant,2,1369.0
+2026-11-16T02:11:19.248764+00:00,401910000,2026-11-17T01:00Z,New Orleans Pelicans,Golden State Warriors,0.28095,0.39308,4.681,4.676,Bennedict Mathurin; Dejounte Murray; Trey Murphy III; Trendon Watford; Bryce McGowens,Brandon Williams; Stephen Curry,3,1369.0
+2026-11-16T02:11:19.248764+00:00,401910001,2026-11-17T02:00Z,Denver Nuggets,Phoenix Suns,0.75502,0.77696,-1.647,9.107,,,2,1429.0
