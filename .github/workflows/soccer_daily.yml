@@ -39,6 +39,8 @@ jobs:
           key: intl-data-${{ github.run_id }}
           restore-keys: intl-data-
       - name: Copas europeas y selecciones (evaluar y predecir)
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}     # opcional: cuotas de copas nacionales (the-odds-api.com)
         run: |
           python -m kalshi_intl.cli evaluate
           python -m kalshi_intl.cli predict

@@ -16,10 +16,12 @@ import pandas as pd
 
 MIN_N, MAX_ECE, MIN_PREV = 300, 0.05, 10
 REPORT = Path("reports/nuevas_ligas.json")
-# Resultado de la validación del 16/11/2026 (reports/nuevas_ligas.json; ver NUEVAS_LIGAS.md). Las demás competiciones del
-# grupo se muestran, pero su pick sale SOLO de las casas/Kalshi (nunca del modelo solo); sin cuotas, no hay pick.
-PUBLICAR: set = {"arg.1", "bel.1", "bra.1", "conmebol.libertadores", "eng.2", "esp.2", "fra.2", "ger.2", "ita.2", "ksa.1",
-                 "mex.1", "ned.1", "por.1", "sco.1", "tur.1"}
+# Resultado de la validación (NUEVAS_LIGAS.md, segunda prueba con el 1X2 a 90' corregido; modelo v2). Las demás
+# competiciones del grupo se muestran, pero su pick sale SOLO de las casas/Kalshi (nunca del modelo solo).
+LIGAS_OK = {"arg.1", "bel.1", "bra.1", "eng.2", "esp.2", "fra.2", "ger.2", "ita.2", "ksa.1", "mex.1", "ned.1", "por.1",
+            "sco.1", "tur.1", "usa.1"}
+COPAS_OK = {"eng.fa", "eng.league_cup", "esp.copa_del_rey", "ita.coppa_italia", "ger.dfb_pokal", "fra.coupe_de_france"}
+PUBLICAR: set = LIGAS_OK | COPAS_OK
 
 
 def is_cup(code: str) -> bool:
@@ -28,15 +30,8 @@ def is_cup(code: str) -> bool:
 
 
 def publishable(code: str, n_home, n_away) -> bool:
-    """¿Se publica este partido? Competición validada y, en copas, ambos equipos con historial suficiente."""
-    if code not in PUBLICAR:
-        return False
-    if is_cup(code):
-        try:
-            return min(int(n_home), int(n_away)) >= MIN_PREV
-        except (TypeError, ValueError):
-            return False
-    return True
+    """¿Se publica el pick del modelo? Competición validada (las copas pasaron con TODOS los partidos, subconjunto b)."""
+    return code in PUBLICAR
 
 
 def market_only(k3, books):
@@ -67,6 +62,7 @@ def evaluate(r: pd.DataFrame, f: pd.DataFrame) -> list:
     r = r.assign(y=y)
     fin = f[f["final"]].copy()
     fin["res"] = np.where(fin["hs"] > fin["as_"], "H", np.where(fin["hs"] == fin["as_"], "D", "A"))
+    fin.loc[fin["status"].isin({"STATUS_FINAL_AET", "STATUS_FINAL_PEN"}), "res"] = "D"      # 1X2 a 90 minutos
     out = []
     for code, d in r.groupby("code"):
         if is_cup(code):
@@ -100,7 +96,7 @@ def main(pickle=None):
     from .model import CONFIGS, GROUP_FEATURES, IntlEngine, walk_forward
     g = pd.read_pickle(pickle) if pickle else load_group("ligas")
     f = IntlEngine(CONFIGS["ligas"]).process(g)
-    r = walk_forward(f, first_year=2020, features=GROUP_FEATURES["ligas"])
+    r = walk_forward(f, first_year=2020, features=GROUP_FEATURES["ligas"], et_as_draw=True)  # v2
     res = evaluate(r, f)
     REPORT.parent.mkdir(exist_ok=True)
     REPORT.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -111,3 +107,29 @@ def main(pickle=None):
 if __name__ == "__main__":
     import sys
     main(sys.argv[1] if len(sys.argv) > 1 else None)
+
+
+# ------------------------------------------------------------------ recalibración de copas (tercera prueba, NUEVAS_LIGAS.md)
+CUP_CAL = Path(__file__).with_name("cup_calibration.json")
+
+
+def apply_cal(P, prm) -> np.ndarray:
+    """p_c ∝ exp(a_c + T·log p_c), a_H = 0. prm = [T, a_D, a_A]."""
+    P = np.clip(np.asarray(P, float), 1e-9, 1)
+    z = prm[0] * np.log(P) + np.array([0.0, prm[1], prm[2]])
+    z = np.exp(z - z.max(1, keepdims=True))
+    return z / z.sum(1, keepdims=True)
+
+
+def fit_cal(P, y) -> list:
+    from scipy.optimize import minimize
+    P, y = np.asarray(P, float), np.asarray(y, int)
+    f = lambda w: -np.log(apply_cal(P, w)[np.arange(len(y)), y]).mean()
+    return [float(v) for v in minimize(f, [1.0, 0.0, 0.0], method="Nelder-Mead", options={"xatol": 1e-4, "fatol": 1e-7}).x]
+
+
+def load_cal():
+    try:
+        return json.loads(CUP_CAL.read_text())["param"]
+    except (OSError, ValueError, KeyError):
+        return None

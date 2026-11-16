@@ -115,3 +115,41 @@ las casas sin margen o de Kalshi. Si no hay cuotas, no hay pick. Nunca se public
   IC 95% > 0 y ECE ≤ 0,05). La Coppa Italia queda excluida por empeorar en v2.
 - **Aviso honesto:** las temporadas evaluadas son las mismas que en la segunda prueba. Por eso, si pasa, las copas se
   publican marcadas como «en sombra»: con pick y seguimiento prospectivo, y se revisa con 200 partidos nuevos.
+
+### ⚠ Corrección de un error de evaluación (detectado al ver la tercera prueba)
+La tercera prueba dio una mejora imposible: +0,18, y la recalibración aplastaba el empate (a_D = −2,26). La causa es un
+error en la evaluación.
+- **El error:** «partidos a 90 minutos» se implementó **descartando** los partidos que terminaron en prórroga o penales.
+  Pero esos partidos son justamente **empates a los 90'**. Descartarlos deja fuera casi todos los empates de las
+  eliminatorias, sesga la evaluación contra el empate y hace que un modelo que subestima el empate parezca descalibrado o
+  demasiado bueno.
+- **La corrección** (`walk_forward(..., et_as_draw=True)`): los partidos con prórroga o penales cuentan como **empate a los
+  90'**, que es como se liquida el 1X2. Las referencias usan la misma regla.
+- **Alcance:** afecta a las copas y a las eliminatorias de la Libertadores y la Sudamericana. Las ligas no tienen
+  prórroga y no cambian.
+- Se repitieron la segunda y la tercera prueba con la corrección. **Los resultados de arriba de las pruebas 2 y 3 quedan
+  anulados y sustituidos por estos.**
+
+### Resultado corregido de la segunda prueba (v2)
+- **Copas, todas juntas:**
+  - (a) con historial: +0,091 [+0,069; +0,113], ECE 0,017, n = 1.914. **Pasa.**
+  - (b) todos los partidos: +0,081 [+0,063; +0,099], ECE 0,014, n = 2.993. **Pasa.**
+  - Ninguna copa empeora de forma significativa. La más floja es la Coppa Italia: +0,007 [−0,038; +0,051].
+  - → **Se publican todos los partidos de las seis copas nacionales** con el modelo v2, sin recalibración. La tercera
+    prueba ya no hace falta y queda solo como registro.
+- **Ligas, v2 frente a v1:** −0,0004 [−0,0009; +0,0002]. Son equivalentes y las 15 siguen pasando. → **Se adopta v2.**
+- **MLS:** +0,012 [+0,001; +0,024], ECE 0,011. **Pasa.**
+- **Libertadores** (ECE 0,056) y **Sudamericana** (ECE 0,052): **no pasan** por calibración, aunque mejoran a la
+  referencia.
+  - La Libertadores había pasado en la primera prueba **por el mismo error**. Se corrige y pasa a BETA (pick solo con
+    casas o Kalshi).
+
+**Publicadas con el modelo:**
+- 15 ligas: Championship, LaLiga 2, Serie B, 2. Bundesliga, Ligue 2, Portugal, Eredivisie, Bélgica, Turquía, Escocia, Liga
+  MX, Brasil, Argentina, Arabia Saudí y MLS.
+- 6 copas: FA Cup, Copa de la Liga, Copa del Rey, Coppa Italia, Copa de Alemania y Copa de Francia.
+
+**En BETA:** Libertadores y Sudamericana.
+
+**Pendiente:** el mismo sesgo puede afectar a las evaluaciones antiguas de las eliminatorias de copas europeas (grupo
+`clubes`). Hay que revisarlas con `et_as_draw=True`.

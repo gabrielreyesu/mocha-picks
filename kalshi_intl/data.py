@@ -40,7 +40,8 @@ GROUPS = {
                    "ita.coppa_italia": "Coppa Italia", "ger.dfb_pokal": "Copa de Alemania", "fra.coupe_de_france": "Copa de Francia",
                    "conmebol.libertadores": "Copa Libertadores", "conmebol.sudamericana": "Copa Sudamericana"},
         "feed": ["eng.1", "esp.1", "ita.1", "ger.1", "fra.1", "eng.3", "uefa.champions", "uefa.europa", "uefa.europa.conf",
-                 "aut.1", "sui.1", "gre.1", "den.1", "nor.1", "swe.1", "col.1", "chi.1"],
+                 "aut.1", "sui.1", "gre.1", "den.1", "nor.1", "swe.1", "col.1", "chi.1",
+                 "eng.4", "eng.5", "sco.2", "ned.2"],                       # divisiones inferiores (v2: equipos de copa)
         "first_year": 2018,
         "league_targets": ["eng.2", "esp.2", "ita.2", "ger.2", "fra.2", "por.1", "ned.1", "bel.1", "tur.1", "sco.1", "usa.1",
                            "mex.1", "bra.1", "arg.1", "ksa.1"],

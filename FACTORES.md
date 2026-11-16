@@ -48,5 +48,8 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Prórrogas en entrenamiento (90 min) | selecciones | ❌ | Empeora | PR #3 |
 | Distribución real de márgenes (números clave 3/7) para hándicaps | NFL | ❌ | +0,0001 [−0,0010; +0,0012] frente a la normal: se mantiene la normal | `NFL_MARGINS.md` |
 | Promedios de tiros, tiros a puerta, córners y tarjetas (últimos 10, ESPN) | fútbol | ⏳ | Solo informativos en la página (ventana del partido y «Estadísticas»); falta probarlos frente a las casas antes de usarlos en picks | `kalshi_nba/estadisticas.py` |
-| Nuevas ligas (segundas divisiones, Portugal, P. Bajos, Bélgica, Turquía, Escocia, Liga MX, Brasil, Argentina, Arabia, Libertadores) | fútbol | ✅ | 15 de 23 pasan la validación pre-registrada frente a la referencia de cada liga | `NUEVAS_LIGAS.md` |
-| Copas nacionales, MLS, Sudamericana con el modelo | fútbol | ❌ | No pasan (pocos datos / mal calibradas / mejora no significativa): pick solo con casas o Kalshi (BETA) | `NUEVAS_LIGAS.md` |
+| Nuevas ligas (segundas divisiones, Portugal, P. Bajos, Bélgica, Turquía, Escocia, Liga MX, Brasil, Argentina, Arabia, MLS) | fútbol | ✅ | Pasan la validación pre-registrada frente a la referencia de cada liga (modelo v2) | `NUEVAS_LIGAS.md` |
+| Copas nacionales con categoría del equipo + divisiones inferiores (v2) | fútbol | ✅ | Todas juntas +0,081 [+0,063; +0,099], ECE 0,014 (2.993 partidos) | `NUEVAS_LIGAS.md` |
+| Libertadores y Sudamericana con el modelo | fútbol | ❌ | Mejoran a la referencia pero descalibradas (ECE 0,056 / 0,052): pick solo con casas o Kalshi (BETA) | `NUEVAS_LIGAS.md` |
+| Cuotas de The Odds API para copas y ligas nuevas | fútbol | ⏳ | Conectado; se activa con el secreto ODDS_API_KEY | `kalshi_intl/odds_api.py` |
+| Revisar eliminatorias europeas con prórroga = empate a 90' | fútbol | ⏳ | El mismo sesgo de evaluación puede afectar a backtests antiguos del grupo clubes | `NUEVAS_LIGAS.md` |

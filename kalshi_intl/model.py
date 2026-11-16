@@ -20,7 +20,17 @@ FEATS = ["elo_diff", "neutral", "gf_h", "ga_h", "gf_a", "ga_a", "friendly"]
 # Variables adicionales, probadas fuera de muestra (reports/variables_extra_futbol.txt)
 EXTRA = ["rest_diff", "g21_diff", "h2h_gd", "split_gd", "pts5_diff"]
 # Resultado: en selecciones ayudan enfrentamientos directos y rendimiento casa/fuera; en clubes ninguna aporta.
-GROUP_FEATURES = {"clubes": FEATS, "selecciones": FEATS + ["h2h_gd", "split_gd"], "ligas": FEATS}
+# Variante v2 (NUEVAS_LIGAS.md, segunda prueba): categoría de cada equipo y copa nacional. Adoptada para el grupo "ligas".
+FEATS_V2 = FEATS + ["tier_diff", "cup"]
+GROUP_FEATURES = {"clubes": FEATS, "selecciones": FEATS + ["h2h_gd", "split_gd"], "ligas": FEATS_V2}
+NATIONAL_CUPS = {"eng.fa", "eng.league_cup", "esp.copa_del_rey", "ita.coppa_italia", "ger.dfb_pokal", "fra.coupe_de_france"}
+UNKNOWN_TIER = 6
+
+
+def league_level(code: str):
+    """'eng.2' -> 2; competiciones que no son ligas -> None."""
+    tail = str(code).rsplit(".", 1)[-1]
+    return int(tail) if tail.isdigit() and code not in NATIONAL_CUPS else None
 _DC = EngineConfig()
 _GOALS = np.arange(_DC.max_goals + 1)
 
@@ -59,6 +69,7 @@ class IntlEngine:
         self.dates = defaultdict(lambda: deque(maxlen=12))             # fechas de los últimos partidos
         self.h2h = defaultdict(lambda: deque(maxlen=6))                # diferencia de goles vista desde el equipo "menor"
         self.at_home = defaultdict(lambda: deque(maxlen=8)); self.on_road = defaultdict(lambda: deque(maxlen=8))
+        self.tier: dict = {}                                            # nivel de la última liga jugada (v2)
 
     def _extra(self, date, home, away):
         mean = lambda d: float(np.mean(d)) if len(d) else 0.0
@@ -121,10 +132,15 @@ class IntlEngine:
             for r in day.to_dict("records"):
                 fr = r["code"] == "fifa.friendly"
                 pre = self.predict(date, r["home_id"], r["away_id"], r["neutral"], fr)
+                pre["tier_diff"] = self.tier.get(r["away_id"], UNKNOWN_TIER) - self.tier.get(r["home_id"], UNKNOWN_TIER)
+                pre["cup"] = int(r["code"] in NATIONAL_CUPS)
                 rows.append({**r, **pre})
                 if r["final"]:
                     pend.append((r, pre, fr))
             for r, pre, fr in pend:
+                lv = league_level(r["code"])
+                if lv is not None and r["code"] not in ("fifa.friendly",):
+                    self.tier[r["home_id"]] = self.tier[r["away_id"]] = lv
                 self.update(r["home_id"], r["away_id"], r["hs"], r["as_"], pre, r["code"], not r["target"] or bool(r.get("is_league", False)), fr, date)
         return pd.DataFrame(rows)
 
@@ -151,10 +167,14 @@ class IntlModel:
         return out
 
 
-def walk_forward(f: pd.DataFrame, first_year: int = 2020, min_train: int = 1500, features=None, eval_col: str = "target") -> pd.DataFrame:
+def walk_forward(f: pd.DataFrame, first_year: int = 2020, min_train: int = 1500, features=None, eval_col: str = "target",
+                 et_as_draw: bool = False) -> pd.DataFrame:
     """Entrena con todo lo anterior al 1 de julio del año y evalúa la temporada siguiente, solo en competiciones objetivo."""
     out = []
     regular = f["status"].isin({"STATUS_FULL_TIME", "STATUS_FINAL"})      # sin prórroga: el mercado 1X2 es a 90 min
+    et = f["status"].isin({"STATUS_FINAL_AET", "STATUS_FINAL_PEN"})
+    if et_as_draw:          # copas: prórroga/penales = EMPATE a los 90' (así se liquida el 1X2). Excluirlos sesga contra el empate.
+        regular = regular | et
     for y in range(first_year, int(f["date"].dt.year.max()) + 1):
         a, b = pd.Timestamp(f"{y}-07-01"), pd.Timestamp(f"{y + 1}-07-01")
         tr = f[f["final"] & (f["date"] < a)]
@@ -173,4 +193,6 @@ def walk_forward(f: pd.DataFrame, first_year: int = 2020, min_train: int = 1500,
         out.append(rec)
     r = pd.concat(out, ignore_index=True)
     r["res"] = np.where(r["hs"] > r["as_"], "H", np.where(r["hs"] == r["as_"], "D", "A"))
+    if et_as_draw:
+        r.loc[r["status"].isin({"STATUS_FINAL_AET", "STATUS_FINAL_PEN"}).to_numpy(), "res"] = "D"
     return r
