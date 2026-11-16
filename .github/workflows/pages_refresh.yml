@@ -9,6 +9,7 @@ on:
       - 'kalshi_nba/pagina.py'
       - 'kalshi_nba/pagina_template.html'
       - 'kalshi_nba/marcadores.py'
+      - 'kalshi_nba/estadisticas.py'
       - 'kalshi_nba/progreso.py'
       - 'kalshi_nba/picks.py'
       - 'kalshi_nba/resumen.py'
@@ -47,6 +48,14 @@ jobs:
       - name: Aviso "nada en juego" (si falla, no detiene el resto)
         continue-on-error: true
         run: python -m kalshi_lineup.stakes_now
+      - uses: actions/cache@v4
+        with:
+          path: data/stats
+          key: stats-data-${{ github.run_id }}
+          restore-keys: stats-data-
+      - name: Estadísticas de equipos para la página (ESPN; si falla no detiene el resto)
+        continue-on-error: true
+        run: python -m kalshi_nba.estadisticas
       - name: Regenerar páginas y tabla
         run: |
           python -m kalshi_external.final_shadow build
@@ -57,7 +66,7 @@ jobs:
         run: |
           git config user.name  "pages-bot"
           git config user.email "pages-bot@users.noreply.github.com"
-          git add PREDICCIONES.md docs/ predictions/final_shadow.csv; git add predictions/stakes_upcoming.csv 2>/dev/null || true
+          git add PREDICCIONES.md docs/ predictions/final_shadow.csv; git add predictions/stats.json 2>/dev/null || true; git add predictions/stakes_upcoming.csv 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "páginas $(date -u +%FT%H:%MZ)"
           for i in 1 2 3 4; do git pull --rebase -q && git push && exit 0; sleep $((i*15)); done

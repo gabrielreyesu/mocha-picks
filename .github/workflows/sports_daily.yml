@@ -38,6 +38,14 @@ jobs:
             python -m kalshi_nba.cli predict  --league $lg --days 7
             python -m kalshi_nba.injuries $lg
           done
+      - uses: actions/cache@v4
+        with:
+          path: data/stats
+          key: stats-data-${{ github.run_id }}
+          restore-keys: stats-data-
+      - name: Estadísticas de equipos para la página (ESPN; si falla no detiene el resto)
+        continue-on-error: true
+        run: python -m kalshi_nba.estadisticas
       - name: Guardar registro
         run: |
           git config user.name  "sports-bot"

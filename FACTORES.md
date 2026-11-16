@@ -47,3 +47,4 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Árbitro principal | fútbol | ❌ | Goles +0,0002 [−0,0001; +0,0005], local +0,0001 (3.396 partidos): el mercado ya lo incorpora | `REFEREES_RESEARCH.md` |
 | Prórrogas en entrenamiento (90 min) | selecciones | ❌ | Empeora | PR #3 |
 | Distribución real de márgenes (números clave 3/7) para hándicaps | NFL | ❌ | +0,0001 [−0,0010; +0,0012] frente a la normal: se mantiene la normal | `NFL_MARGINS.md` |
+| Promedios de tiros, tiros a puerta, córners y tarjetas (últimos 10, ESPN) | fútbol | ⏳ | Solo informativos en la página (ventana del partido y «Estadísticas»); falta probarlos frente a las casas antes de usarlos en picks | `kalshi_nba/estadisticas.py` |
