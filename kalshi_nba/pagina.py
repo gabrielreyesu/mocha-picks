@@ -16,7 +16,7 @@ import pandas as pd
 from .injuries import OUT
 from .logos import Logos
 from .marcadores import LIGA_CODE, fetch as fetch_scores, hit
-from .picks import soccer_picks, us_picks, us_snapshot
+from .picks import over25, soccer_picks, us_picks, us_snapshot
 from kalshi_external.final_shadow import kalshi3, source_label
 from .final_pick import combine3, load_weights
 from .resumen import TZ, _bajas_fut, _lat, _when
@@ -94,9 +94,10 @@ def games_us(lg: str, now, finals) -> list:
             final, src = model, "modelo"
         pick, prob = _pick([x.home, x.away], final)
         out.append({"sport": lg, "id": x.event_id, "comp": SPORT[lg], "t": x.t.isoformat(), "home": x.home, "away": x.away, "three": False,
-                    "pick": pick, "prob": prob, "src": src,
+                    "pick": pick, "prob": prob, "src": src, "fp": final,
                     "rows": [["Modelo", model], ["Casas", [bh, None if bh is None else 1 - bh]],
                              ["Kalshi", [kh, None if kh is None else 1 - kh]], ["Polymarket", [ph, None if ph is None else 1 - ph]]],
+                    "kp": {"margin": _f(x.mu_margin), "total": _f(x.mu_total)},
                     "extra": [["Diferencia esperada", f"{x.home if x.mu_margin >= 0 else x.away} por {abs(x.mu_margin):.1f} pts"],
                               ["Total esperado", f"{x.mu_total:.0f} pts"]],
                     "inj": {"home": inj.get(str(getattr(x, "home_id", "")), []), "away": inj.get(str(getattr(x, "away_id", "")), [])},
@@ -137,12 +138,28 @@ def games_ligas(now) -> list:
         pick, prob = _pick([x.home, "Empate", x.away], final)
         out.append({"sport": "liga", "id": str(getattr(x, "match_id", "")), "code": LIGA_CODE.get(x.competition), "comp": x.competition,
                     "t": x.t.isoformat(), "home": x.home, "away": x.away, "three": True,
-                    "pick": pick, "prob": prob, "src": src,
+                    "pick": pick, "prob": prob, "src": src, "fp": final,
                     "rows": [["Modelo", model], ["Kalshi", kal]],
+                    "kp": _kp(x, "_cal"),
                     "extra": _soccer_extra(x, cal=True) + [["Bajas local / visita", _bajas_fut(x, lat)]], "inj": None,
                     "picks": soccer_picks(x.home, x.away, final, src,
                                           {1.5: _f(getattr(x, "p_over_1_5_cal", None)), 2.5: _f(getattr(x, "p_over_2_5_cal", None))},
                                           _f(getattr(x, "p_btts_cal", None)), kalshi3=kal)})
+    return out
+
+
+def _kp(x, sfx, book_over=None, goals_ok=True) -> dict:
+    """Probabilidades clave de la ventana del partido (goles): modelo calibrado; más de 2,5 combinado con las casas."""
+    g = lambda c: _f(getattr(x, c, None))
+    o25, src = over25(g(f"p_over_2_5{sfx}"), book_over)
+    lh, la = g("lambda_h"), g("lambda_a")
+    out = {"o25": None if o25 is None else round(o25, 4), "o25src": src, "xg": None if lh is None or la is None else round(lh + la, 2), "xgh": lh, "xga": la}
+    if goals_ok:
+        out.update({"o15": g(f"p_over_1_5{sfx}"), "o35": g(f"p_over_3_5{sfx}"), "btts": g(f"p_btts{sfx}")})
+    else:                                                     # selecciones: los goles del modelo solos no son fiables
+        out.update({"xg": None, "xgh": None, "xga": None})
+        if src == "modelo":
+            out["o25"] = None
     return out
 
 
@@ -192,8 +209,9 @@ def games_intl(now, finals) -> list:
         if sport == "intl":
             extra.append(["Aviso", "En selecciones, los mercados de goles del modelo son poco fiables."])
         out.append({"sport": sport, "id": x.event_id, "code": x.code, "comp": x.competicion + (" · sede neutral" if x.neutral else ""), "t": x.t.isoformat(),
-                    "home": x.home, "away": x.away, "three": True, "pick": pick, "prob": prob, "src": src,
+                    "home": x.home, "away": x.away, "three": True, "pick": pick, "prob": prob, "src": src, "fp": final,
                     "rows": [["Modelo", model], ["Casas", books], ["Kalshi", _tri(x, ["k_mid_H", "k_mid_D", "k_mid_A"])]],
+                    "kp": _kp(x, "", book_over=_f(getattr(x, "mkt_over", None)), goals_ok=sport != "intl"),
                     "extra": extra, "inj": None, "nostake": stakes.get(x.event_id, []),
                     "picks": soccer_picks(x.home, x.away, final, src,
                                           {1.5: _f(getattr(x, "p_over_1_5", None)), 2.5: _f(getattr(x, "p_over_2_5", None))},
@@ -216,17 +234,24 @@ def collect(now=None, score_getter=None) -> dict:
     except Exception:  # noqa: BLE001 - sin marcadores, la página sigue funcionando
         scores = {}
     logos = Logos.load(P / "logos.json")
+    try:
+        stats = json.loads((P / "stats.json").read_text(encoding="utf-8")).get("games", {})
+    except (OSError, ValueError):
+        stats = {}
     for g in games:
         g["hlogo"], g["alogo"] = logos.team(g["sport"], g["home"]), logos.team(g["sport"], g["away"])
         g["clogo"] = logos.comp(g["sport"], g.get("code"))
+        g["st"] = stats.get(f"{g['sport']}:{g['id']}")
     for g in games:
         sc = scores.get(f"{g['sport']}:{g.get('id')}")
         started = pd.Timestamp(g["t"]) <= now
         g["state"] = sc["state"] if sc else ("in" if started and pd.Timestamp(g["t"]) > now - pd.Timedelta(hours=3) else ("post" if started else "pre"))
         g["score"] = [sc["hs"], sc["as"]] if sc and sc["hs"] is not None and sc["state"] != "pre" else None
         g["detail"] = sc["detail"] if sc else ""
+        g["ev"] = (sc or {}).get("ev") or []
         g["hit"] = hit(g, sc)
-    return {"updated": now.isoformat(), "tz": TZ, "games": games}
+    from .estadisticas import comp_names
+    return {"updated": now.isoformat(), "tz": TZ, "games": games, "codes": comp_names()}
 
 
 def render(data: dict) -> str:

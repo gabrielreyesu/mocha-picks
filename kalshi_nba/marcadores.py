@@ -21,7 +21,15 @@ def _parse(ev: dict) -> dict | None:
     st = (ev.get("status") or {}).get("type") or {}
     num = lambda t: float(t["score"]) if str(t.get("score", "")).replace(".", "").isdigit() else None
     state = "post" if st.get("name") in FINAL or st.get("state") == "post" else ("in" if st.get("state") == "in" else "pre")
-    return {"id": str(ev.get("id")), "state": state, "detail": st.get("shortDetail") or "",
+    ids = {(side[k].get("team") or {}).get("id"): k[0] for k in ("home", "away")}
+    evs = []
+    for d in c.get("details", []):                              # goles y expulsiones (fútbol)
+        k = ids.get((d.get("team") or {}).get("id"))
+        if k and (d.get("scoringPlay") or d.get("redCard")):
+            evs.append({"k": "g" if d.get("scoringPlay") else "r", "t": k, "m": (d.get("clock") or {}).get("displayValue", ""),
+                        "p": ((d.get("athletesInvolved") or [{}])[0]).get("shortName") or "",
+                        "pen": bool(d.get("penaltyKick")), "og": bool(d.get("ownGoal"))})
+    return {"id": str(ev.get("id")), "state": state, "ev": evs, "detail": st.get("shortDetail") or "",
             "hs": num(side["home"]), "as": num(side["away"]), "regular": st.get("name") in ("STATUS_FINAL", "STATUS_FULL_TIME"),
             "home": (side["home"].get("team") or {}).get("displayName", ""), "away": (side["away"].get("team") or {}).get("displayName", "")}
 
