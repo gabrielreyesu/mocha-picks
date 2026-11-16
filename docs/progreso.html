@@ -4,12 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#6f4e37">
+<meta name="theme-color" content="#000000">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%E2%98%95%3C/text%3E%3C/svg%3E">
 <title>Mocha Picks · Progreso</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--ink:#0f172a;--muted:#5b6474;--line:#e3e6eb;--accent:#2563eb;--good:#15803d;--bad:#b91c1c;--mid:#b45309;--chip:#eef1f5;--bar:#2563eb}
-@media (prefers-color-scheme:dark){:root{--bg:#0b1020;--card:#141a2e;--ink:#e8ecf4;--muted:#9aa4b8;--line:#232b45;--accent:#60a5fa;--good:#4ade80;--bad:#f87171;--mid:#fbbf24;--chip:#1c2440;--bar:#60a5fa}}
+:root{--bg:#000;--card:#0b0f17;--ink:#eef3fb;--muted:#8796ad;--line:#1c2738;--accent:#2f7bff;--good:#36d07f;--bad:#ff5d6c;--mid:#f5b942;--chip:#172235;--bar:#2f7bff}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 16px}header{padding-top:14px}
@@ -26,6 +25,9 @@ th{color:var(--muted);font-weight:600;font-size:12px}td.n{font-variant-numeric:t
 .bt{padding:9px 0;border-bottom:1px solid var(--line)}.bt:last-child{border-bottom:0}
 .list{padding-left:18px;margin:0}.list li{margin:6px 0}.tag{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;margin-right:6px}
 footer{color:var(--muted);font-size:12px;padding-bottom:30px}
+.lockf{display:flex;gap:8px;margin-top:10px}.lockf input{flex:1;min-width:0;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:#000;color:var(--ink);font:inherit}
+.btn{padding:10px 14px;border-radius:10px;border:0;background:var(--accent);color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--muted)}#priv{display:none}
 </style>
 </head>
 <body>
@@ -37,21 +39,24 @@ footer{color:var(--muted);font-size:12px;padding-bottom:30px}
 <main>
   <h2>¿Se cumplen nuestras probabilidades?</h2>
   <div class="card" id="fiab"></div>
+  <h2>Acierto real de los picks publicados</h2>
+  <div class="card" id="picks"></div>
+  <div id="lockbox"></div>
+  <div id="priv">
   <h2>Pruebas en sombra</h2>
   <p class="small">Cada prueba calcula, antes de cada partido, la probabilidad del modelo actual y la del modelo mejorado,
   sin cambiar los picks publicados. Se activa solo con 200 partidos, mejora con IC 95% por encima de 0 y tu autorización.</p>
   <div id="shadows"></div>
-  <h2>Acierto real de los picks publicados</h2>
-  <div class="card" id="picks"></div>
   <h2>Investigación histórica (backtests)</h2>
   <div class="card"><div id="bt"></div>
   <p class="small">Mejora = reducción de log loss frente al modelo actual en temporadas no usadas para elegir la variante, con IC 95% por fecha.</p></div>
   <h2>Qué sigue</h2>
   <div class="card"><ul class="list" id="next"></ul></div>
+  </div>
 </main>
 <footer><p>No es una recomendación de apuesta. Mocha Picks no ejecuta apuestas.</p></footer>
 <script>
-const D = {"updated": "2026-11-16T20:01:11.029379+00:00", "shadows": [{"id": "nba", "titulo": "NBA · jugadores disponibles", "que": "Modelo NBA + fuerza de los jugadores disponibles según el informe de lesiones antes del partido.", "n": 23, "objetivo": 200, "actualizado": "2026-11-16T18:34:28.701084+00:00", "acc_base": 0.7391, "acc_nuevo": 0.7391, "ll_base": 0.57299, "ll_nuevo": 0.55999, "mejora": 0.01301, "ic_inf": -0.00365, "ic_sup": 0.03771, "minutos_antes": 39.0}, {"id": "nfl", "titulo": "NFL · quarterback titular", "que": "Modelo NFL + nivel del QB titular previsto (depth chart y lesiones de ESPN).", "n": 12, "objetivo": 200, "actualizado": "2026-11-16T19:39:00.813574+00:00", "acc_base": 0.6667, "acc_nuevo": 0.75, "ll_base": 0.53364, "ll_nuevo": 0.50656, "mejora": 0.02708, "ic_inf": 0.01921, "ic_sup": 0.11368, "minutos_antes": 43.0}, {"id": "copas", "titulo": "Copas europeas · once titular", "que": "Motor de copas + continuidad del once oficial publicado antes del inicio.", "n": 0, "objetivo": 200, "actualizado": "2026-11-13T14:27:34.061645+00:00", "acc_base": null, "acc_nuevo": null, "ll_base": null, "ll_nuevo": null, "mejora": null, "ic_inf": null, "ic_sup": null, "minutos_antes": null}], "picks": [{"deporte": "Selecciones", "n": 52, "acierto": 0.71154, "logloss": 0.7502, "con_mercado": 45}, {"deporte": "NBA", "n": 27, "acierto": 0.77778, "logloss": 0.5719, "con_mercado": 27}, {"deporte": "NFL", "n": 13, "acierto": 0.76923, "logloss": 0.50586, "con_mercado": 13}], "picks_updated": "2026-11-16T18:43:01.294439+00:00", "fiabilidad": {"NBA": {"n": 1018, "desde": "2025-12-27", "hasta": "2026-11-12", "acierto_total": 0.71, "tramos": [{"tramo": "50–60%", "n": 313, "prob_media": 0.553, "acierto": 0.556}, {"tramo": "60–70%", "n": 289, "prob_media": 0.65, "acierto": 0.675}, {"tramo": "70–80%", "n": 205, "prob_media": 0.75, "acierto": 0.795}, {"tramo": "80–90%", "n": 158, "prob_media": 0.845, "acierto": 0.873}, {"tramo": "90–100%", "n": 53, "prob_media": 0.925, "acierto": 1.0}]}, "NFL": {"n": 246, "desde": "2025-11-23", "hasta": "2026-11-12", "acierto_total": 0.654, "tramos": [{"tramo": "50–60%", "n": 75, "prob_media": 0.555, "acierto": 0.52}, {"tramo": "60–70%", "n": 83, "prob_media": 0.642, "acierto": 0.651}, {"tramo": "70–80%", "n": 59, "prob_media": 0.753, "acierto": 0.678}, {"tramo": "80–90%", "n": 29, "prob_media": 0.849, "acierto": 0.966}]}}, "backtests": [{"prueba": "NBA · jugadores disponibles", "partidos": 2817, "acierto": "67,0% → 67,4%", "mejora": "0,0098 [0,0054; 0,0142]", "veredicto": "supera"}, {"prueba": "NFL · quarterback titular", "partidos": 707, "acierto": "65,9% → 66,9%", "mejora": "0,0133 [0,0037; 0,0237]", "veredicto": "supera"}, {"prueba": "Copas europeas · once titular", "partidos": 1234, "acierto": "56,7% → 56,8%", "mejora": "0,0030 [0,0002; 0,0059]", "veredicto": "supera (débil)"}, {"prueba": "Selecciones · once titular", "partidos": 1321, "acierto": "58,7% → 58,6%", "mejora": "0,0008 [−0,0001; 0,0017]", "veredicto": "descartada"}, {"prueba": "Selecciones · sede neutral", "partidos": 3714, "acierto": "57,9% → 58,0%", "mejora": "0,0000 [−0,0019; 0,0019]", "veredicto": "no concluyente"}, {"prueba": "Ligas · qué se juega cada equipo", "partidos": 5437, "acierto": "52,6% → 52,6%", "mejora": "0,0003 [−0,0004; 0,0010]", "veredicto": "no concluyente"}, {"prueba": "Nations League · qué se juega cada selección", "partidos": 495, "acierto": "63,4% → 63,4%", "mejora": "−0,0015 [−0,0040; 0,0004]", "veredicto": "descartada"}, {"prueba": "NBA · modelo+alineación vs Kalshi (60 min antes)", "partidos": 1559, "acierto": "Kalshi 68,7% · modelo 67,0%", "mejora": "−0,0159 [−0,0235; −0,0085]", "veredicto": "Kalshi gana"}, {"prueba": "NBA · Kalshi + modelo (mezcla)", "partidos": 1018, "acierto": "70,5% → 71,2%", "mejora": "−0,0004 [−0,0017; 0,0010]", "veredicto": "descartada"}, {"prueba": "NFL · modelo+QB vs Kalshi (60 min antes)", "partidos": 410, "acierto": "Kalshi 65,6% · modelo 65,6%", "mejora": "−0,0020 [−0,0110; 0,0071]", "veredicto": "empate"}, {"prueba": "NFL · Kalshi + modelo (mezcla)", "partidos": 245, "acierto": "64,5% → 64,1%", "mejora": "0,0027 [−0,0006; 0,0058]", "veredicto": "no concluyente"}, {"prueba": "NBA/NFL · viajes, husos y hora del partido", "partidos": 2817, "acierto": "67,0% → 67,3%", "mejora": "−0,0002 [−0,0010; 0,0006]", "veredicto": "descartada"}, {"prueba": "NBA/NFL · racha, forma, descanso, H2H, Elo vs mercado", "partidos": 2816, "acierto": "—", "mejora": "−0,0006 [−0,0017; 0,0006]", "veredicto": "descartada"}, {"prueba": "Fútbol · goles con casas + modelo", "partidos": 7769, "acierto": "—", "mejora": "+0,0113 vs modelo [0,0079; 0,0145]", "veredicto": "supera"}, {"prueba": "Fútbol · pick con Kalshi + casas + modelo", "partidos": 1794, "acierto": "55,5% → 57,1%", "mejora": "+0,0147 [0,0054; 0,0240]", "veredicto": "supera"}, {"prueba": "NBA · árbitros (totales)", "partidos": 2812, "acierto": "—", "mejora": "+0,50 pts² [−0,30; 1,31]", "veredicto": "no concluyente"}, {"prueba": "NFL · distribución real de márgenes", "partidos": 991, "acierto": "—", "mejora": "+0,0001 [−0,0010; 0,0012]", "veredicto": "descartada"}, {"prueba": "Selecciones · excluir prórrogas (V7)", "partidos": 3703, "acierto": "57,9% → 58,0%", "mejora": "−0,0003 [−0,0005; −0,0002]", "veredicto": "descartada"}], "next": [["En curso", "Acumular 200 partidos por prueba en sombra (NBA ~2–3 semanas; copas ~2 meses; NFL varios meses)."], ["Siguiente", "Mostrar en la página de picks la probabilidad ajustada por bajas, marcada como «en prueba», cuando NBA llegue a 200 partidos con mejora."], ["Hecho", "Comparación con precios reales de Kalshi: el mercado 60 min antes acierta más que el modelo; la mezcla no aporta (NBA) o no es concluyente (NFL)."], ["Siguiente", "Picks con el precio más reciente posible (Kalshi cerca del inicio), ya que el mercado mejora al acercarse el partido."], ["Siguiente", "Repetir con más partidos: árbitros (NBA/NFL), clima NFL frente a la línea de apertura y modelo de QB dentro del combinador."], ["Pendiente", "Repetir la sede neutral de selecciones cuando haya más partidos de torneo."]]};
+const D = {"updated": "2026-11-16T20:44:05.736304+00:00", "picks": [{"deporte": "Selecciones", "n": 52, "acierto": 0.71154, "logloss": 0.7502, "con_mercado": 45}, {"deporte": "NBA", "n": 27, "acierto": 0.77778, "logloss": 0.5719, "con_mercado": 27}, {"deporte": "NFL", "n": 13, "acierto": 0.76923, "logloss": 0.50586, "con_mercado": 13}], "picks_updated": "2026-11-16T18:43:01.294439+00:00", "fiabilidad": {"NBA": {"n": 1018, "desde": "2025-12-27", "hasta": "2026-11-12", "acierto_total": 0.71, "tramos": [{"tramo": "50–60%", "n": 313, "prob_media": 0.553, "acierto": 0.556}, {"tramo": "60–70%", "n": 289, "prob_media": 0.65, "acierto": 0.675}, {"tramo": "70–80%", "n": 205, "prob_media": 0.75, "acierto": 0.795}, {"tramo": "80–90%", "n": 158, "prob_media": 0.845, "acierto": 0.873}, {"tramo": "90–100%", "n": 53, "prob_media": 0.925, "acierto": 1.0}]}, "NFL": {"n": 246, "desde": "2025-11-23", "hasta": "2026-11-12", "acierto_total": 0.654, "tramos": [{"tramo": "50–60%", "n": 75, "prob_media": 0.555, "acierto": 0.52}, {"tramo": "60–70%", "n": 83, "prob_media": 0.642, "acierto": 0.651}, {"tramo": "70–80%", "n": 59, "prob_media": 0.753, "acierto": 0.678}, {"tramo": "80–90%", "n": 29, "prob_media": 0.849, "acierto": 0.966}]}}, "lock": {"salt": "l1AN9lJUlg8g695Bn7g9MQ==", "iv": "F5GVxjjlBVh/T6Ap", "ct": "DEMw0Fv7KXQJ+ZpSAysG/O8T9TJ9bFwIzdQqopwEgvizVDDfOpL31aKSKvyBn9khoK028+QbSyzIZwB6GDFSirYtzItbtSWNkZ1Df7kdwb0Q0a0/u/tDCzb4ViVVOovKF4oC+X/7K2adz9GTSluO6k0QkUEvcKW58c201UEsVUUDkWjE9sYz7fHmnmvZcdzl+gEWQJZ8YJYWXJaE70CkgQUE5Q356zuqVTsL42j2RRskDcUFo4d6Td6AbrvZxenDogVH2SZwBM4tPfA/sWt31NKCC/crIeFzZGgzKU2xiKaQm4TXZk0lwHSV0i7EKkpSx8Tf9GbUN6FGa9BBPdphOy0a+Q0+vX2DdAf5VJ+upTu0ur7rrurLzi1G0a7UNe+0HPsi+amPx1aSzpbXKpl0U7kP8mEwXl9N3IXLXXgj2DAsbgiHvwbq8XR+ukLvuTKIXoGAAgrEYvIT1GV70/NTyBiv/X+NXDbfgxmuYviejNUA7JFylzaA6hlE4W14cghAuDbUM0sQf549j55+ZG1zMvwREnxHQ2ebex+4/6iVIG8hkYe+onOQfmlizyL6rm3P5t4kclqNdqKEoJnMtCAirkZ2O4jzDc0L1+/H1fkZsPZrqEo9Xwo0aI0+UdAaKIRYr9IpT7ivKH+chLmjth8nAXsP9U63r/CWvw+LYqD5O5hlVHZjyfCxgVdX8lLL11Pew72olV+TeOu5vsppEqynECMLj34XrCgg0fFuRYS5zWDjyHpS1MxIWzPPDC/qeFdU2yQR9con52JpFN0nVY+UoS24/V4K4s6gwKvmnqgz1zDXH4uvOPYiJnx+QU6uQ68vBFYBiMKzXwNa5mOKYsmDxO6Pl0aZGkALlO9O+3jPm7sbhleQODDgNMho+NdVd2RLhEBu5mCJJddqAHk6Anty8Dr9bZ3Z7vu8QpJd2S3TWRRoNNq4rBJner7sdztDCbcjOgTm+po7orGlMnvJ540r+IToSTH+kaiUEDbkVCxFMDagmHM3yhfHcU/F6lOkO+jix1UO1N9yD3zl69DSqtE+S3oNIYage/3eoAXxLv5VX2LY/BlKaakNgv7VOAucC9ILSLgOnZ189A/9G7wb/Ey6jRb6Jq8fDfD8ARnly18QXcB+xSfKP8L/zWbufOrx+NuF4z/iOxcR9gEH6mp8dwWhf+PPG3VZWy/9FHkF7tH2a0yol+TubPzCro2h4IcEYX8xBxZSrfum8UOaEhduI82WCKLD1nTIoV8ehArlpyLf3VvCexs1ymiOrSvgIbA7M8T5BteWaUZwIUV4iJMRSpK6yRc4Xw4MvyWDiZeM+ZfJQq0XoNn7UUH8Ph3t1zjhgOIEahjvFnMA+gVe8pgon2loMcL6Ddf89XaZnqla29RNoccDkR3ri4CVQ+YmFICwvGJU2cRyVsXgneSzCofkuszorV8afu5F+FjMhR2WVtdcFJXy26UyIPffGuRKJY4l7cryzQ6w8j/ZCvxNvZeYSEv5Ie3fDnnC2uvN+o2SmTpecosTMTbKkGRkNZLYveCXci6Wfh+GKf61P59yEZepLKGOKC7y1KdFEwjOjWjPgtIS7kCUSlozvhSn0FoPiA8UKgE/8tVm0YQO1VunTZ5n2xE0HuKTkGGDEPeRvzBaAhx8X5eTkteTpoiuGv+v85XGYlBwRiss8xSpQ2DMoEFm/7KSDRPyUDFBRejID9ICfW1+zuAOyn2VbghFk+C6WRbBKiWCL8XzRvainJ2E+0QfJZ2VNuCu4pYYRAyQYZ2aJfTfRfUB1zRKlkyr/BNc0kj5RPZx86dSs80ycZ4qxoHzHDqlQHs3FA79WVpAaSbUKgwRlIUdxrW3wH7y1BOzE9OTUonEcNxADU5kuov4jkTYXzy+4332mgyLXvHhA6yFLGDuWs2j0Ql0Kus5g5NNRR+mheDY+B8mPW+whMXBoXSV+Dx8SRJSRoYHYQbJ6KVeZuzz1PPFWYudKTVheA8TFMWIn9dcM2lCVCSI7AC0thHqV4hf82LyNFzwhWADLi4/6KbxxdGqCaJxU2XKG9jd5gIaDpi7cNDG8RO97SOFUlPfWaVjJkXIU8Z86WE074JlFo8nlnqKxSi0JtQ24rtuhiKfKe+lSf6owg/0g6T5MTRYlbcsPN29gUN9wJ7+Ii/2c0YWIMKsqnLta7pwW+QW01h1Wnrn9nXWuwLC15EtpUB1Qi+QH1MEwimt9CY8juKJ4WqtHMP353zbdDzrD5tkZ7Dg+ahFW4duoOcDmXh+11j7QkHVAvuKArlf68F9+cAbA8/H1FHJfUwMFHeMgsdELDCXQEvYtjghYGpjg6mjR9yJU9AWxsQL6iS2LRYItS7S1jZXBa2AsuiLlczuqdT+8zTXRtOgsv/wvkPL7U+KlwwA0b/yN4IYAJdPpHAxEH5V75LE03uWf5t9IO3Cu/DGFTySY33A4KNMqY+1NHU/St4/1mmZOiskJWAB72MQqjTFU/q0FfyjiXx3Kwrg7PKNMGK9KELF69hZ7lF8+1qpcKHzA1v6WHIMTb+q5w3meR/Yr3xwaFkl4jSWx7bo44aBKhuf92BrVW54WW793JFyBJ5efFknTeQoRaLZa5Sd6HGy2uckTUWGuGgQnQgALquE0sd6EP6MtdkcmsK8rjJbLg+VPy1UuWebu/Fo05DaoEiGZ4sRHywrEGQgTCTpRPNqB+txqKlMALbhrGtoqMVFjoEdiqZJkwJqtsa9z4k9RAqBhwPXkhGDwCVw9NlevcxxHtQ4vLgYAL1Id4OIil1bwdXgy0QbXZ5/lzhGBXOncOc+SNht7Dqj9S8aAYtN2S9EMgoxviKjanux16piUCXSkSM97lAuA9FgPCxRThD2gT1XeRMCWDfexCfq2v+Eb1WYsQCDHbabh1b6eXHv+B7tvRnteiSPQYXwYDG5z//v87fJJCopN5CgcxzmGkF2IFMqDFVNO8+zuavi3JLRr8kf7544GIOIEHnp66zDHhLp/M4sj9V/7nvBALZB6GcW5qb+LM3Oirab69p4yMCbDKR/kbfKPv6JhIXRuwMUAkopvE126H6BxPR2geuuqtP3cy85OQmcZ4OXfzLpIbdGN3epFh5KvyhF55Kg8EHGiy5szP/bld/26hMw+taWGEZTImGdTacmCgBrx5XnlEnYfbOjSV1anR1rMoFcH/UgZnhReN/e2ToR1wRU1TNaIGnQHQZYH1utjAiqVRfx3twTrrU6y8bJtwTXdUupkwLStw9sMGtDNn72O7Z6DkhG0khV6Adr7z3kD1W1LTvoYfjDdbM9bJo3f3pU5RQ8T8QKAiIvWPjFJtMrDbz7BvPQ+rQRqJ8Ksx++uI+MlsxE4XvZmzHirFRXi7zcM/tX/8JD6FKH4auo5/M+77Xs99JZ+06LAVkX7XYso7BJpKDVIJmWVy8n0uOj8pKNASleVZgSFUDuadCQ1LdTaRzDK9NG7MoNZg+6V99MgTzRmiXHWxj6X/AnIhoytAW8w6E2aF443VSa/G9FIyNc92fivybdxeixM/QPtjnWrM9nZrolWgKW4fTZqrrGMqjgM0HOpYN28l/lU27kxvJ9b9dTbVwE9MILsMmg2OrLYvDiSU8c/RL9LogzpzwI6rAvUyYHojWdnJjRqwvLXaqx4mnNwq0YOvE7UfMqkltqhO/FiPbLwNX0PI35oyCBKxmw53jaglzaaVaPWPWVI90/CZEjw6HCzt7h14DKfRZDzN3TvI2zlv+LbWttN9WG4N8GrLP8dYQ0euekIconxnoyy9vEd/ggxRQDmHmRl8Owv0cx4ReenqSkAsfatAM+yvanMfWa60cxG0XsXGKeVLKnchsAcTPAcUFY4comuNEz16nzbNhQY/UyNSd6D8QRf9nQu9TlWd+0s5XyNGo6LbauWTbAvnDVvaJ4hvidGD0U1sVA0hEzsyyTvfYxCAMJ13PmjbZxH86AE1WJ5cNlIafz145b5Qppu65hMqO216L+lYPUGFnXtLdyUxUIpp+Ivb4gKjGHeGqxJT1Xj1q458RXfK0kPZWDhme8oud/1fuIWfb2lq/0BBGJKWU7LS/Or05ZY5qnKqz5l8P/+FLyF5EmHp74Vv3/YPHm6wmLdAGsY0nukwDLe129TgjtUUlUPCrz1CA3Iu/jdTE6xGmTzPjwCXiaArsXQix703QBwiKAfsa4nnTX6uj7oBfzKecpK+kPXysbeI20biB8lrQtlqOUyKx3IDvF9nXvVjuATbQwR+SIaGKvFudUD3t7BaxTUHieXRF8cPzcCphz+sO7ykgI6FsdZmzHFXWSz5QyGKX1dsXxzKJzpJ3VdTqp0VwIV0n5iUGMXttwdwAU5niGT+lX1zrFywq3WNkvrvtPPYTCVEs5XTckqgKu6GCEsPmu+23fKdMrD1kF/OfAnJnocXAo8myudKE7M9IreoOM8kyQyC1jpOhm5LLnYi2CTIHxPNW7Er1HUgptUR94N2h6C/hXlRb/9SDTiDVI8cB0ZWaUb0ral1EFvTFzl+NlRFHOKRnPLywQDIBxdPfoR9AN1oBseMO0jfbIHnqs8TXteYJJnTuYPPxDw7EuvuFI6X6tRlzK/UAh5lHDyQiNkIDOueEvxZk9BuswYS7z0Rk3fMS5Zc7tQxulbSAsWWrbpA8GqcKOfr6tgIcSbpoeTSKKm5lvlYAcVrR4po+1UkC06I7Plj+Lndx4m8CCXhWYxdw9c3zPQPgtoi/wcKdTVWeBBlUiW5mqt55jqFGTy7jmL1lK3a7w96yyLQR52/+/ADYGz0HUH5vUYivUpiRDihk01fv18N738O7YnWaVUa1M2z9MF2pDhCoqY68+9MVXlSdu2B8JzjDAngB6c5aa/KbHhmhQjF6LJU4qikcPNxlh03nneFKXDLmMhRbb4bvDvvkgf+z/ZOaa+zLT4iHq4DinqSlEOJQPqIROljEsjTRN4pN/6IUf3nWium9GPKqvTVv/jDn/GoD7iJhj5q9gM5xK7yuOhgxBISDA/Vs+BJcOBdGt5sx4dN8lYogyyXjZ+fIZ2vwkts2BM59ZjitDIPmgVOs4Iii72ZvdKKKAsBXScmKgb1ejcSmElL1dX2DHQshKUL1ZXOHlWjvLNhc1iA5DP8LuTjj414NGLApzBki5Jtacb5MV8SgB43dQfRyTj9RgU5UmYWQjhGerUmzd3J4JLMDDsqDbB6hSDAVkW4GTj3oF9+4NQ/o/igGBVv/HLn2U97Ha8lu/T01dQ3InWxbN4ZhkIVVArSrCbSDDY3LDIZ4YJDFoe2wGsXcadc0AaSESe9OQ8hJeg4afRYeX/Ue0+f2SsbED1x1z4vtG5u7Cxl49XF+BuZ93CxWYoauVQHYLALJRAmIhqKEqsc+Z+nYeclUhfJTAXYz/Y4WLAHl/28Www6d64/qXq7ogakTU8dGgILZRAc5jdrIq693bSvS7qt4PDQOmMWLGU/+Wow7dxU5nnLMcr/6GqzFNAGycCnkrMWeUAVgDRLw4G5npyFX5tFlBinLx/QUvPEfnbSVtQL+2rSbLX5tWhe+w2C91+WzKjil0ublR4iSTHtM0R6Awl+t95KvE7qkxbFSbtOxG5Hqj4Cz8ScBeXGL91ol35mp6CWEV5N7p6219rA+3hCcOSjiBZG+1RNSvqmMGd0fEp12GJsXlqPB4oaq7pd3ace1w0+JM/2xRyI5+SRt8s/JCocI9Zs6AgsXUurx7y0YkaibY9SD2ow2anaM0QnkFR0dvJSUHjVmcjMQkXbza4nPU2e6ioZKN73uFWZ/ia1NWHWLn5aHnaTdWT+B4cUn2BPuHgRzrWlb+e3hyrJ8ItP6b/HJ72NoTMso/cgLo/CwwfhaeWMCUk4wifS7DT7Op/0XaRCCIb/L50XC5eNZxDlScgewKlitzLM+ijWNLDvwe2dnADk8YLqhQvh+W8Kncpb0Jcw73NkseUI7F8PKIAdiE04AWG1PCcmP46o246kp97MXyEGPbWUghvGZGjVsIta+kwEmlii75LHCr8Crs9s4XyjcKO6HVjvR3znAmXZAW+yC1goGPzNtGZN8gDR87lwCO6Q0f2eJwQmBAsYteCNhZD288shyMvpbtlOD7OHxJlcu7gHqzwR+YMlNAv+Wb3SnIxfWm2Dc+zaybCTFkoUoogtUdbAfWjiQfQSmP6pG0LcO5eOXSCLMRXFYoy8c/Uqx6uPqXKdGQX79X5NxnNWwwSJu3boTYEmGy1ds/5E/qKtu6uBLnIAjSkY+/wHNx9ChpjRIl9Jj/+g8yx8bhGOziu/e3D920xDpvFvto8rhDwKwbs9XRUN5tI2Xe/8sO7DqUO3b0OyLni+FG1ne0As/MlJaTLNqBEMxlHqHh64jcD2KVqKpb2QkoCWhpNDfpxKTCwpKvbR3xE854uMEiD0vZqaI1xWEm5/jT+cX9hVhanBYE8tHFy2scQ1MMyX5Fkua67kqLvOH0O86kdNHdN87MWmyzLR4G/REIBHk64MWJLR4GChDo2dBVjnmnbIP8zxfkD5PSCJBSfMZIdKh8CFlF9BASjwB4/IYgY01TzUnolPV3ARYXmbUV/arxelb9k5IlACvhbsoHfU+x06HAWcmT0lngtnhfgeQzexxAAKz9iZnrNTZbxCYG4auCXu2JPl+PipzdsiWYbx6vqhGw4ju2mZictWTabvEB/YtwC75n2C8BM8XwweFoTjPhY0UpluHVSn1AvUhIhpeB6eMy3SpGt6ti", "iter": 250000}};
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pc = v => v == null ? "—" : (100 * v).toFixed(1) + "%";
 const f4 = v => v == null ? "—" : v.toFixed(4);
@@ -65,7 +70,8 @@ function status(s) {
   if (s.mejora != null && s.mejora < 0) return ["Por ahora no mejora", "mid"];
   return ["Acumulando partidos", "muted"];
 }
-document.getElementById("shadows").innerHTML = D.shadows.map(s => {
+function drawPrivate(X) {
+document.getElementById("shadows").innerHTML = X.shadows.map(s => {
   const [lab, cls] = status(s), p = Math.min(100, 100 * s.n / s.objetivo);
   const ci = s.ic_inf == null ? "" : ` [${f4(s.ic_inf)}; ${f4(s.ic_sup)}]`;
   return `<div class="card"><div class="row"><span class="t">${esc(s.titulo)}</span><span class="badge ${cls}">${lab}</span></div>
@@ -78,6 +84,7 @@ document.getElementById("shadows").innerHTML = D.shadows.map(s => {
       ${s.minutos_antes != null ? `<span>Minutos antes del inicio (mediana)</span><b>${Math.round(s.minutos_antes)}</b>` : ""}</div>` : ""}
   </div>`;
 }).join("");
+}
 const F = D.fiabilidad || {};
 document.getElementById("fiab").innerHTML = Object.keys(F).length ? Object.entries(F).map(([dep, x]) => `
   <div class="t" style="margin-top:6px">${esc(dep)} · ${x.n.toLocaleString("es")} partidos · acierto total ${pc(x.acierto_total)}</div>
@@ -92,10 +99,46 @@ document.getElementById("picks").innerHTML = pk.length
      <p class="small">Pick de ganador publicado (casas si existen, modelo si no), última foto antes del inicio. Actualizado ${when(D.picks_updated)}. Con pocos partidos el acierto varía mucho.</p>`
   : `<p class="small">Aún no hay partidos resueltos.</p>`;
 const vcls = v => v.startsWith("supera") ? "good" : (v === "descartada" || v === "Kalshi gana") ? "bad" : "mid";
-document.getElementById("bt").innerHTML = D.backtests.map(b => `<div class="bt"><div class="row"><span class="t">${esc(b.prueba)}</span>
+function drawPrivate2(X) {
+document.getElementById("bt").innerHTML = X.backtests.map(b => `<div class="bt"><div class="row"><span class="t">${esc(b.prueba)}</span>
   <span class="badge ${vcls(b.veredicto)}">${esc(b.veredicto)}</span></div>
   <div class="small">${b.partidos.toLocaleString("es")} partidos · acierto ${esc(b.acierto)} · mejora ${esc(b.mejora)}</div></div>`).join("");
-document.getElementById("next").innerHTML = D.next.map(([t, x]) => `<li><span class="tag">${esc(t)}</span>${esc(x)}</li>`).join("");
+document.getElementById("next").innerHTML = X.next.map(([t, x]) => `<li><span class="tag">${esc(t)}</span>${esc(x)}</li>`).join("");
+}
+const KEY = "mocha-progreso";
+const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+async function unlock(pw) {
+  const L = D.lock;
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+  const key = await crypto.subtle.deriveKey({name: "PBKDF2", salt: b64(L.salt), iterations: L.iter, hash: "SHA-256"}, base,
+    {name: "AES-GCM", length: 256}, false, ["decrypt"]);
+  return JSON.parse(new TextDecoder().decode(await crypto.subtle.decrypt({name: "AES-GCM", iv: b64(L.iv)}, key, b64(L.ct))));
+}
+function lockForm(msg) {
+  document.getElementById("priv").style.display = "none";
+  document.getElementById("lockbox").innerHTML = D.lock ? `<div class="card"><div class="t">🔒 Detalles privados</div>
+    <div class="small">Pruebas en sombra, investigación y próximos pasos. Solo con la clave.</div>
+    <form class="lockf" id="lockf"><input type="password" id="pw" placeholder="Clave" autocomplete="current-password" aria-label="Clave"><button class="btn">Ver</button></form>
+    <label class="small" style="display:block;margin-top:8px"><input type="checkbox" id="rem" checked> Recordar en este dispositivo</label>
+    ${msg ? `<div class="small bad" style="margin-top:6px">${esc(msg)}</div>` : ""}</div>` : "";
+  const f = document.getElementById("lockf");
+  if (f) f.onsubmit = async e => { e.preventDefault(); const pw = document.getElementById("pw").value; await tryOpen(pw, document.getElementById("rem").checked); };
+}
+async function tryOpen(pw, remember) {
+  try {
+    const X = await unlock(pw);
+    try { if (remember) localStorage.setItem(KEY, pw); } catch (e) {}
+    drawPrivate(X); drawPrivate2(X);
+    document.getElementById("priv").style.display = "block";
+    document.getElementById("lockbox").innerHTML = `<div class="card row"><span class="small">🔓 Detalles privados visibles</span><button class="btn ghost" id="lockbtn">Bloquear</button></div>`;
+    document.getElementById("lockbtn").onclick = () => { try { localStorage.removeItem(KEY); } catch (e) {} lockForm(); };
+  } catch (e) {
+    try { localStorage.removeItem(KEY); } catch (e2) {}
+    lockForm(pw ? "Clave incorrecta" : "");
+  }
+}
+let saved = null; try { saved = localStorage.getItem(KEY); } catch (e) {}
+if (D.lock && saved) tryOpen(saved, true); else lockForm();
 </script>
 </body>
 </html>
