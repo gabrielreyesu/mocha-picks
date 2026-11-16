@@ -14,6 +14,7 @@ import numpy as np
 import pandas as pd
 
 from .injuries import OUT
+from .logos import Logos
 from .marcadores import LIGA_CODE, fetch as fetch_scores, hit
 from .picks import soccer_picks, us_picks, us_snapshot
 from kalshi_external.final_shadow import kalshi3, source_label
@@ -214,6 +215,10 @@ def collect(now=None, score_getter=None) -> dict:
         scores = fetch_scores(games, now, getter=score_getter) if score_getter is not False else {}
     except Exception:  # noqa: BLE001 - sin marcadores, la página sigue funcionando
         scores = {}
+    logos = Logos.load(P / "logos.json")
+    for g in games:
+        g["hlogo"], g["alogo"] = logos.team(g["sport"], g["home"]), logos.team(g["sport"], g["away"])
+        g["clogo"] = logos.comp(g["sport"], g.get("code"))
     for g in games:
         sc = scores.get(f"{g['sport']}:{g.get('id')}")
         started = pd.Timestamp(g["t"]) <= now
