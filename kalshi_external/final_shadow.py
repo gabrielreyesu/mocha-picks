@@ -96,6 +96,7 @@ def kalshi3(x) -> list | None:
 
 
 def rows_intl(folder: Path) -> list:
+    from kalshi_intl.ligas import market_only, publishable
     snap = folder / "intl_kalshi_snapshots.csv"
     if not snap.exists():
         return []
@@ -110,7 +111,12 @@ def rows_intl(folder: Path) -> list:
         k3 = kalshi3(x)
         w = load_weights("futbol")
         mk = market if np.isfinite(np.asarray(market, float)).all() else None
-        if w:                                     # pick final = Kalshi + casas + modelo (combine3)
+        if getattr(x, "grupo", "") == "ligas" and not publishable(x.code, getattr(x, "partidos_previos_local", None),
+                                                                  getattr(x, "partidos_previos_visita", None)):
+            f, src = market_only(k3, (np.asarray(mk) / np.sum(mk)).tolist() if mk else None)   # modelo no validado: solo mercado
+            if f is None:
+                continue
+        elif w:                                   # pick final = Kalshi + casas + modelo (combine3)
             f, src = combine3(k3, (np.asarray(mk) / np.sum(mk)).tolist() if mk else None, model, w)
         else:
             f, src = _final(model, market)

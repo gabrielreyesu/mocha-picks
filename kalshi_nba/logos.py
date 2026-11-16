@@ -26,6 +26,10 @@ ALIASES = {"Man United": "Manchester United", "Man City": "Manchester City", "No
 CLUB_CODES = ["eng.1", "esp.1", "ita.1", "ger.1", "fra.1", "por.1", "ned.1", "uefa.champions", "uefa.europa", "uefa.europa.conf"]
 
 
+def _https(u):
+    return "https://" + u[len("http://"):] if isinstance(u, str) and u.startswith("http://") else u   # sin contenido mixto en Pages
+
+
 def _get(path, what, getter):
     try:
         return getter(API.format(path=path, what=what)) or {}
@@ -42,13 +46,13 @@ def _teams(j) -> dict:
             dark = [l for l in ls if set(l.get("rel") or []) == {"full", "dark"}]      # versión para fondo oscuro
             logo = (dark or ls)[0].get("href")
             if logo and t.get("displayName"):
-                out[t["displayName"]] = logo
+                out[t["displayName"]] = _https(logo)
     return out
 
 
 def _league_logo(j) -> str | None:
     lg = (j.get("leagues") or [{}])[0]
-    return (lg.get("logos") or [{}])[0].get("href")
+    return _https((lg.get("logos") or [{}])[0].get("href"))
 
 
 def build(getter=None) -> dict:
@@ -60,7 +64,9 @@ def build(getter=None) -> dict:
     for lg, path in (("nba", "basketball/nba"), ("nfl", "football/nfl")):
         data["teams"][lg] = _teams(_get(path, "teams", getter))
         data["comps"][lg] = _league_logo(_get(path, "scoreboard", getter))
-    for code in CLUB_CODES + national:
+    L = GROUPS.get("ligas", {})
+    clubs = list(dict.fromkeys(CLUB_CODES + list(L.get("target", {})) + L.get("feed", [])))
+    for code in clubs + national:
         teams = _teams(_get(f"soccer/{code}", "teams", getter))
         data["teams"]["national" if code in national else "soccer"].update(teams)
         data["comps"][code] = _league_logo(_get(f"soccer/{code}", "scoreboard", getter))

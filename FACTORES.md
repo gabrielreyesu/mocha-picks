@@ -48,3 +48,5 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Prórrogas en entrenamiento (90 min) | selecciones | ❌ | Empeora | PR #3 |
 | Distribución real de márgenes (números clave 3/7) para hándicaps | NFL | ❌ | +0,0001 [−0,0010; +0,0012] frente a la normal: se mantiene la normal | `NFL_MARGINS.md` |
 | Promedios de tiros, tiros a puerta, córners y tarjetas (últimos 10, ESPN) | fútbol | ⏳ | Solo informativos en la página (ventana del partido y «Estadísticas»); falta probarlos frente a las casas antes de usarlos en picks | `kalshi_nba/estadisticas.py` |
+| Nuevas ligas (segundas divisiones, Portugal, P. Bajos, Bélgica, Turquía, Escocia, Liga MX, Brasil, Argentina, Arabia, Libertadores) | fútbol | ✅ | 15 de 23 pasan la validación pre-registrada frente a la referencia de cada liga | `NUEVAS_LIGAS.md` |
+| Copas nacionales, MLS, Sudamericana con el modelo | fútbol | ❌ | No pasan (pocos datos / mal calibradas / mejora no significativa): pick solo con casas o Kalshi (BETA) | `NUEVAS_LIGAS.md` |

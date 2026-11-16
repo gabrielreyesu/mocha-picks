@@ -39,7 +39,9 @@ def live_outcomes(registry: pd.DataFrame) -> tuple[pd.DataFrame, list]:
                 g = load_league(sport, first_season=current_season(sport), with_odds=False, verbose=False)
             elif sport in ("intl", "club"):
                 from kalshi_intl.data import load_group
-                g = load_group("selecciones" if sport == "intl" else "clubes", first_year=pd.Timestamp.now().year - 1, verbose=False)
+                y = pd.Timestamp.now().year - 1
+                g = (load_group("selecciones", first_year=y, verbose=False) if sport == "intl" else
+                     pd.concat([load_group(x, first_year=y, verbose=False) for x in ("clubes", "ligas")], ignore_index=True))
             else:
                 continue
             o = outcomes_from_games(g, sport)
