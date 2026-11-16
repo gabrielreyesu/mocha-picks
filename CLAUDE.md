@@ -29,7 +29,7 @@ El pick final debe salir de combinar todas las fuentes disponibles, no de una so
 
 ## Dónde está cada cosa
 - `kalshi_nba/` NBA/NFL (motor, página `pagina.py`, progreso `progreso.py`, picks por mercado `picks.py`, pick final `final_pick.py`).
-- `kalshi_soccer/` ligas; `kalshi_intl/` copas y selecciones; `kalshi_external/` fuentes externas y pick final en sombra.
+- `kalshi_soccer/` 5 grandes ligas; `kalshi_intl/` copas, selecciones y grupo `ligas` (nuevas ligas y copas nacionales; validación en `kalshi_intl/ligas.py`, `NUEVAS_LIGAS.md`); `kalshi_external/` fuentes externas y pick final en sombra.
 - `kalshi_lineup/` investigación: alineaciones, QB, onces, sombras prospectivas, Kalshi histórico, clasificación.
 - Pick final: NBA/NFL `kalshi_nba/final_pick.py` (`combine`), fútbol `combine3`; pesos en `kalshi_nba/final_weights.json`
   (reentrenar: `python -m kalshi_nba.final_pick fit ...` y `python -m kalshi_lineup.soccer_kalshi_bench`).

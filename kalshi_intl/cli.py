@@ -19,7 +19,8 @@ from .odds import attach, fetch
 
 REG, SNAP = Path("predictions/intl_registry.csv"), Path("predictions/intl_kalshi_snapshots.csv")
 KALSHI = {"clubes": ["KXUCLGAME", "KXUELGAME", "KXUECLGAME"],
-          "selecciones": ["KXUEFANLGAME", "KXINTLFRIENDLYGAME", "KXWCGAME", "KXFIFAGAME"]}
+          "selecciones": ["KXUEFANLGAME", "KXINTLFRIENDLYGAME", "KXWCGAME", "KXFIFAGAME"],
+          "ligas": []}                                  # sin series de Kalshi conocidas por ahora
 
 
 def kalshi_events(series: list) -> list:

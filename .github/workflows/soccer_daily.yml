@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROGRESO_CLAVE: ${{ secrets.PROGRESO_CLAVE }}   # clave de los detalles privados de progreso.html
-    timeout-minutes: 20
+    timeout-minutes: 45         # la primera corrida descarga el historial de las nuevas ligas
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

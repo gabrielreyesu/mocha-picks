@@ -29,6 +29,21 @@ GROUPS = {
                    "conmebol.america": "Copa América", "fifa.friendly": "Amistoso"},
         "feed": ["fifa.worldq.concacaf", "fifa.worldq.afc", "fifa.worldq.caf", "concacaf.gold", "concacaf.nations.league",
                  "caf.nations", "afc.asian.cup"],
+    },    # Grupo nuevo (NUEVAS_LIGAS.md): más ligas y copas nacionales, con entrenamiento propio. Solo se publican las
+    # competiciones que pasan la validación pre-registrada (PUBLICAR en kalshi_intl/ligas.py).
+    "ligas": {
+        "target": {"eng.2": "Championship", "esp.2": "LaLiga 2", "ita.2": "Serie B", "ger.2": "2. Bundesliga", "fra.2": "Ligue 2",
+                   "por.1": "Liga Portugal", "ned.1": "Eredivisie", "bel.1": "Liga de Bélgica", "tur.1": "Superliga de Turquía",
+                   "sco.1": "Premiership de Escocia", "usa.1": "MLS", "mex.1": "Liga MX", "bra.1": "Brasileirão",
+                   "arg.1": "Liga Profesional Argentina", "ksa.1": "Liga Saudí",
+                   "eng.fa": "FA Cup", "eng.league_cup": "Copa de la Liga (Inglaterra)", "esp.copa_del_rey": "Copa del Rey",
+                   "ita.coppa_italia": "Coppa Italia", "ger.dfb_pokal": "Copa de Alemania", "fra.coupe_de_france": "Copa de Francia",
+                   "conmebol.libertadores": "Copa Libertadores", "conmebol.sudamericana": "Copa Sudamericana"},
+        "feed": ["eng.1", "esp.1", "ita.1", "ger.1", "fra.1", "eng.3", "uefa.champions", "uefa.europa", "uefa.europa.conf",
+                 "aut.1", "sui.1", "gre.1", "den.1", "nor.1", "swe.1", "col.1", "chi.1"],
+        "first_year": 2018,
+        "league_targets": ["eng.2", "esp.2", "ita.2", "ger.2", "fra.2", "por.1", "ned.1", "bel.1", "tur.1", "sco.1", "usa.1",
+                           "mex.1", "bra.1", "arg.1", "ksa.1"],
     },
 }
 _S = requests.Session()
@@ -87,8 +102,9 @@ def fetch_month(code: str, ym: str, cache: Path, today: date | None = None) -> l
     return rows
 
 
-def load_group(group: str, first_year: int = 2016, cache_dir: str = "data/intl", workers: int = 6, verbose=True) -> pd.DataFrame:
+def load_group(group: str, first_year: int | None = None, cache_dir: str = "data/intl", workers: int = 6, verbose=True) -> pd.DataFrame:
     G = GROUPS[group]
+    first_year = first_year or G.get("first_year", 2016)
     codes = list(G["target"]) + G["feed"]
     jobs = [(c, ym) for c in codes for ym in months(first_year)]
     cache = Path(cache_dir)
@@ -112,6 +128,8 @@ def load_group(group: str, first_year: int = 2016, cache_dir: str = "data/intl",
     g["target"] = g["code"].isin(G["target"])
     g["competicion"] = g["code"].map(G["target"]).fillna(g["code"])
     g["group"] = group
+    # grupo "ligas": las ligas objetivo también fijan la liga de cada equipo (para el ajuste de fuerza entre ligas en copas)
+    g["is_league"] = g["code"].isin(G.get("league_targets", []))
     if verbose:
         by = g.groupby("code").size()
         print(f"[{group}] partidos: {len(g)} ({int(g.final.sum())} finalizados) | {g.date.min().date()} -> {g.date.max().date()}")

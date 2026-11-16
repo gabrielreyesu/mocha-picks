@@ -35,7 +35,9 @@ MIN_N = 3            # mínimo de partidos con dato para mostrar un promedio
 def soccer_codes():
     from kalshi_intl.data import GROUPS
     from .logos import CLUB_CODES
-    clubs = list(dict.fromkeys(CLUB_CODES + list(GROUPS["clubes"]["target"]) + GROUPS["clubes"]["feed"]))
+    L = GROUPS.get("ligas", {})
+    clubs = list(dict.fromkeys(CLUB_CODES + list(GROUPS["clubes"]["target"]) + GROUPS["clubes"]["feed"]
+                               + list(L.get("target", {})) + L.get("feed", [])))
     nat = list(GROUPS["selecciones"]["target"]) + GROUPS["selecciones"]["feed"]
     return clubs, nat
 
@@ -295,7 +297,7 @@ def _resolve(events: list, g: dict, pool: str):
     from .logos import ALIASES
     by_id = {e["id"]: e for e in events}
     e = by_id.get(str(g.get("id")))
-    if e and (pool != "soccer" or g["sport"] != "liga"):
+    if e and (pool != "soccer" or g["sport"] != "liga" or g.get("espn")):
         return e["h"]["id"], e["a"]["id"], e
     names = {}
     for x in events:

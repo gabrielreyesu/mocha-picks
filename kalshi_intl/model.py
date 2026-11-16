@@ -20,7 +20,7 @@ FEATS = ["elo_diff", "neutral", "gf_h", "ga_h", "gf_a", "ga_a", "friendly"]
 # Variables adicionales, probadas fuera de muestra (reports/variables_extra_futbol.txt)
 EXTRA = ["rest_diff", "g21_diff", "h2h_gd", "split_gd", "pts5_diff"]
 # Resultado: en selecciones ayudan enfrentamientos directos y rendimiento casa/fuera; en clubes ninguna aporta.
-GROUP_FEATURES = {"clubes": FEATS, "selecciones": FEATS + ["h2h_gd", "split_gd"]}
+GROUP_FEATURES = {"clubes": FEATS, "selecciones": FEATS + ["h2h_gd", "split_gd"], "ligas": FEATS}
 _DC = EngineConfig()
 _GOALS = np.arange(_DC.max_goals + 1)
 
@@ -38,7 +38,8 @@ class IntlConfig:
 
 
 CONFIGS = {"clubes": IntlConfig(k=20, hfa=65, carry=0.85, k_league=4.0),
-           "selecciones": IntlConfig(k=30, k_friendly=15, hfa=80, carry=1.0, k_league=0.0)}
+           "selecciones": IntlConfig(k=30, k_friendly=15, hfa=80, carry=1.0, k_league=0.0),
+           "ligas": IntlConfig(k=20, hfa=65, carry=0.85, k_league=4.0)}          # misma configuración que clubes (sin ajustar)
 
 
 def _gmult(diff: float) -> float:
@@ -124,7 +125,7 @@ class IntlEngine:
                 if r["final"]:
                     pend.append((r, pre, fr))
             for r, pre, fr in pend:
-                self.update(r["home_id"], r["away_id"], r["hs"], r["as_"], pre, r["code"], not r["target"], fr, date)
+                self.update(r["home_id"], r["away_id"], r["hs"], r["as_"], pre, r["code"], not r["target"] or bool(r.get("is_league", False)), fr, date)
         return pd.DataFrame(rows)
 
 

@@ -19,6 +19,10 @@ from .marcadores import LIGA_CODE, fetch as fetch_scores, hit
 from .picks import over25, soccer_picks, us_picks, us_snapshot
 from kalshi_external.final_shadow import kalshi3, source_label
 from .final_pick import combine3, load_weights
+from kalshi_intl.data import GROUPS
+from kalshi_intl.ligas import PUBLICAR, market_only, publishable
+
+LEAGUE_TARGETS = set(GROUPS["ligas"].get("league_targets", []))
 from .resumen import TZ, _bajas_fut, _lat, _when
 
 P = Path("predictions")
@@ -197,27 +201,75 @@ def games_intl(now, finals) -> list:
     stakes = _stakes()
     out = []
     for x in r.itertuples():
-        sport = "intl" if x.grupo == "selecciones" else "club"
+        fsport = "intl" if x.grupo == "selecciones" else "club"           # deporte en final_shadow
+        valid = x.grupo != "ligas" or publishable(x.code, getattr(x, "partidos_previos_local", None), getattr(x, "partidos_previos_visita", None))
+        sport = "liga" if x.grupo == "ligas" and x.code in LEAGUE_TARGETS else fsport
         model, books = _tri(x, ["p_H", "p_D", "p_A"]), _norm(_tri(x, ["mkt_H", "mkt_D", "mkt_A"]))
-        fin = finals.get((sport, x.event_id))
-        if fin is not None and pd.notna(fin.final_H):
+        fin = finals.get((fsport, x.event_id))
+        if not valid:                                # competición aún sin validar: el pick sale solo del mercado
+            final, src = market_only(_tri(x, ["k_mid_H", "k_mid_D", "k_mid_A"]), books if all(v is not None for v in books) else None)
+            final = [round(v, 4) for v in final] if final else [None, None, None]
+        elif fin is not None and pd.notna(fin.final_H):
             final, src = [_f(fin.final_H), _f(fin.final_D), _f(fin.final_A)], source_label(fin.final_source)
         else:
             final, src = model, "modelo"
         pick, prob = _pick([x.home, "Empate", x.away], final)
-        extra = _soccer_extra(x, cal=False) + [["Bajas local / visita", _bajas_fut(x, lat)]]
+        extra = (_soccer_extra(x, cal=False) if valid else []) + [["Bajas local / visita", _bajas_fut(x, lat)]]
+        if not valid:
+            extra.append(["Aviso", "Competición nueva aún sin validar: el pick sale solo de las casas o Kalshi (NUEVAS_LIGAS.md)."])
         if sport == "intl":
             extra.append(["Aviso", "En selecciones, los mercados de goles del modelo son poco fiables."])
-        out.append({"sport": sport, "id": x.event_id, "code": x.code, "comp": x.competicion + (" · sede neutral" if x.neutral else ""), "t": x.t.isoformat(),
+        out.append({"sport": sport, "espn": True, "id": x.event_id, "code": x.code, "comp": x.competicion + (" · sede neutral" if x.neutral else ""), "t": x.t.isoformat(),
                     "home": x.home, "away": x.away, "three": True, "pick": pick, "prob": prob, "src": src, "fp": final,
-                    "rows": [["Modelo", model], ["Casas", books], ["Kalshi", _tri(x, ["k_mid_H", "k_mid_D", "k_mid_A"])]],
-                    "kp": _kp(x, "", book_over=_f(getattr(x, "mkt_over", None)), goals_ok=sport != "intl"),
+                    "rows": [["Modelo" if valid else "Modelo (en validación)", model], ["Casas", books], ["Kalshi", _tri(x, ["k_mid_H", "k_mid_D", "k_mid_A"])]],
+                    "kp": _kp(x, "", book_over=_f(getattr(x, "mkt_over", None)), goals_ok=sport != "intl" and valid),
                     "extra": extra, "inj": None, "nostake": stakes.get(x.event_id, []),
                     "picks": soccer_picks(x.home, x.away, final, src,
                                           {1.5: _f(getattr(x, "p_over_1_5", None)), 2.5: _f(getattr(x, "p_over_2_5", None))},
-                                          _f(getattr(x, "p_btts", None)), goals_ok=sport != "intl",
+                                          _f(getattr(x, "p_btts", None)), goals_ok=sport != "intl" and valid,
                                           book_over=_f(getattr(x, "mkt_over", None)),
                                           kalshi3=_tri(x, ["k_mid_H", "k_mid_D", "k_mid_A"]))})
+    return out
+
+
+# Catálogo de la sección «Ligas» (estilo Oddster): código -> (nombre, país, tipo). País = clave de COUNTRIES.
+CATALOG = [
+    ("esp.1", "LaLiga", "esp", "Primera división"), ("esp.2", "LaLiga 2", "esp", "Segunda división"), ("esp.copa_del_rey", "Copa del Rey", "esp", "Copa nacional"),
+    ("eng.1", "Premier League", "eng", "Primera división"), ("eng.2", "Championship", "eng", "Segunda división"),
+    ("eng.fa", "FA Cup", "eng", "Copa nacional"), ("eng.league_cup", "Copa de la Liga", "eng", "Copa nacional"),
+    ("ita.1", "Serie A", "ita", "Primera división"), ("ita.2", "Serie B", "ita", "Segunda división"), ("ita.coppa_italia", "Coppa Italia", "ita", "Copa nacional"),
+    ("ger.1", "Bundesliga", "ger", "Primera división"), ("ger.2", "2. Bundesliga", "ger", "Segunda división"), ("ger.dfb_pokal", "Copa de Alemania", "ger", "Copa nacional"),
+    ("fra.1", "Ligue 1", "fra", "Primera división"), ("fra.2", "Ligue 2", "fra", "Segunda división"), ("fra.coupe_de_france", "Copa de Francia", "fra", "Copa nacional"),
+    ("uefa.champions", "Champions League", "uefa", "Copa internacional"), ("uefa.europa", "Europa League", "uefa", "Copa internacional"),
+    ("uefa.europa.conf", "Conference League", "uefa", "Copa internacional"),
+    ("nba", "NBA", "usa", "Baloncesto"), ("nfl", "NFL", "usa", "Fútbol americano"), ("usa.1", "MLS", "usa", "Primera división"),
+    ("por.1", "Liga Portugal", "por", "Primera división"), ("ned.1", "Eredivisie", "ned", "Primera división"),
+    ("bel.1", "Liga de Bélgica", "bel", "Primera división"), ("tur.1", "Superliga", "tur", "Primera división"),
+    ("sco.1", "Premiership", "sco", "Primera división"), ("mex.1", "Liga MX", "mex", "Primera división"),
+    ("bra.1", "Brasileirão", "bra", "Primera división"), ("arg.1", "Liga Profesional", "arg", "Primera división"),
+    ("ksa.1", "Liga Saudí", "ksa", "Primera división"),
+    ("conmebol.libertadores", "Copa Libertadores", "conmebol", "Copa internacional"), ("conmebol.sudamericana", "Copa Sudamericana", "conmebol", "Copa internacional"),
+    ("fifa.world", "Mundial", "world", "Selecciones"), ("fifa.worldq.uefa", "Eliminatorias UEFA", "world", "Selecciones"),
+    ("fifa.worldq.conmebol", "Eliminatorias CONMEBOL", "world", "Selecciones"), ("uefa.nations", "Nations League", "world", "Selecciones"),
+    ("uefa.euro", "Eurocopa", "world", "Selecciones"), ("uefa.euroq", "Clasificación Eurocopa", "world", "Selecciones"),
+    ("conmebol.america", "Copa América", "world", "Selecciones"), ("fifa.friendly", "Amistosos", "world", "Selecciones"),
+]
+COUNTRIES = {"esp": "España", "eng": "Inglaterra", "ita": "Italia", "ger": "Alemania", "fra": "Francia", "uefa": "Europa (UEFA)",
+             "usa": "Estados Unidos", "por": "Portugal", "ned": "Países Bajos", "bel": "Bélgica", "tur": "Turquía", "sco": "Escocia",
+             "mex": "México", "bra": "Brasil", "arg": "Argentina", "ksa": "Arabia Saudí", "conmebol": "Sudamérica (CONMEBOL)",
+             "world": "Selecciones"}
+FLAG = "https://a.espncdn.com/i/teamlogos/countries/500/{}.png"
+
+
+def catalog(logos) -> list:
+    """Competiciones que cubre la página (las nuevas, solo si pasaron la validación)."""
+    out = []
+    for code, name, cc, tipo in CATALOG:
+        sport = code if code in ("nba", "nfl") else None
+        out.append({"code": code, "name": name, "cc": cc, "country": COUNTRIES[cc], "tipo": tipo,
+                    "beta": code in GROUPS["ligas"]["target"] and code not in PUBLICAR,
+                    "flag": FLAG.format(cc) if len(cc) == 3 and cc not in ("uefa",) else None,
+                    "logo": logos.comp(sport, code) if sport else logos.comp("soccer", code)})
     return out
 
 
@@ -251,7 +303,11 @@ def collect(now=None, score_getter=None) -> dict:
         g["ev"] = (sc or {}).get("ev") or []
         g["hit"] = hit(g, sc)
     from .estadisticas import comp_names
-    return {"updated": now.isoformat(), "tz": TZ, "games": games, "codes": comp_names()}
+    for g in games:                                      # código de competición también para NBA/NFL (sección Ligas)
+        g.setdefault("code", g["sport"] if g["sport"] in ("nba", "nfl") else None)
+        if not g.get("code"):
+            g["code"] = g["sport"]
+    return {"updated": now.isoformat(), "tz": TZ, "games": games, "codes": comp_names(), "catalog": catalog(logos)}
 
 
 def render(data: dict) -> str:
