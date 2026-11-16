@@ -16,13 +16,24 @@ class TestProgreso(unittest.TestCase):
                     "mejora_logloss": {"mejora": .01, "ic95_inf": -.01, "ic95_sup": .03}}}))
                 data = progreso.collect()
                 html = progreso.render(data)
+                locked = progreso.render(data, "clave-de-prueba")
             finally:
                 progreso.P = old
         d = json.loads(re.search(r"const D = (.*?);\n", html, re.S).group(1))
+        self.assertNotIn("shadows", d); self.assertIsNone(d["lock"])        # sin clave: lo privado no se publica
+        L = json.loads(re.search(r"const D = (.*?);\n", locked, re.S).group(1))["lock"]
+        self.assertNotIn("logloss_base", locked)
+        import base64
+        from cryptography.hazmat.primitives import hashes
+        from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+        from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+        b = base64.b64decode
+        key = PBKDF2HMAC(hashes.SHA256(), 32, b(L["salt"]), L["iter"]).derive(b"clave-de-prueba")
+        d = json.loads(AESGCM(key).decrypt(b(L["iv"]), b(L["ct"]), None))
         nba = d["shadows"][0]
         self.assertEqual((nba["n"], nba["mejora"], nba["ic_inf"]), (12, .01, -.01))
         self.assertEqual(d["shadows"][1]["n"], 0)                      # NFL sin archivo: 0, no error
-        self.assertEqual(d["picks"][0]["acierto"], 1.0)
+        self.assertEqual(data["picks"][0]["acierto"], 1.0)
         self.assertIn('href="./"', html)
 
 

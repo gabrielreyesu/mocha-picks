@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import math
 from pathlib import Path
 
@@ -100,8 +101,34 @@ def collect(now=None) -> dict:
             "backtests": BACKTESTS, "next": NEXT}
 
 
-def render(data: dict) -> str:
-    payload = json.dumps(data, ensure_ascii=False, allow_nan=False).replace("</", "<\\/")
+PRIVATE = ("shadows", "backtests", "next")       # solo con la clave del dueño
+CLAVE_ENV = "PROGRESO_CLAVE"                     # secreto de GitHub Actions; nunca se guarda en el repositorio
+ITER = 250_000
+
+
+def _b64(b: bytes) -> str:
+    import base64
+    return base64.b64encode(b).decode()
+
+
+def encrypt(obj, password: str) -> dict:
+    """AES-256-GCM con clave derivada por PBKDF2-SHA256: en la página solo queda el texto cifrado."""
+    from cryptography.hazmat.primitives import hashes
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+    salt, iv = os.urandom(16), os.urandom(12)
+    key = PBKDF2HMAC(hashes.SHA256(), 32, salt, ITER).derive(password.encode("utf-8"))
+    ct = AESGCM(key).encrypt(iv, json.dumps(obj, ensure_ascii=False, allow_nan=False).encode("utf-8"), None)
+    return {"salt": _b64(salt), "iv": _b64(iv), "ct": _b64(ct), "iter": ITER}
+
+
+def render(data: dict, password: str | None = None) -> str:
+    """Público: fiabilidad y acierto real. Privado (cifrado): pruebas en sombra, investigación y próximos pasos.
+    Sin clave configurada, la parte privada simplemente no se publica."""
+    pub = {k: v for k, v in data.items() if k not in PRIVATE}
+    priv = {k: data[k] for k in PRIVATE if k in data}
+    pub["lock"] = encrypt(priv, password) if password else None
+    payload = json.dumps(pub, ensure_ascii=False, allow_nan=False).replace("</", "<\\/")
     return TEMPLATE.replace("__DATA__", payload)
 
 
@@ -111,12 +138,11 @@ TEMPLATE = r"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#6f4e37">
+<meta name="theme-color" content="#000000">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%E2%98%95%3C/text%3E%3C/svg%3E">
 <title>Mocha Picks · Progreso</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--ink:#0f172a;--muted:#5b6474;--line:#e3e6eb;--accent:#2563eb;--good:#15803d;--bad:#b91c1c;--mid:#b45309;--chip:#eef1f5;--bar:#2563eb}
-@media (prefers-color-scheme:dark){:root{--bg:#0b1020;--card:#141a2e;--ink:#e8ecf4;--muted:#9aa4b8;--line:#232b45;--accent:#60a5fa;--good:#4ade80;--bad:#f87171;--mid:#fbbf24;--chip:#1c2440;--bar:#60a5fa}}
+:root{--bg:#000;--card:#0b0f17;--ink:#eef3fb;--muted:#8796ad;--line:#1c2738;--accent:#2f7bff;--good:#36d07f;--bad:#ff5d6c;--mid:#f5b942;--chip:#172235;--bar:#2f7bff}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 16px}header{padding-top:14px}
@@ -133,6 +159,9 @@ th{color:var(--muted);font-weight:600;font-size:12px}td.n{font-variant-numeric:t
 .bt{padding:9px 0;border-bottom:1px solid var(--line)}.bt:last-child{border-bottom:0}
 .list{padding-left:18px;margin:0}.list li{margin:6px 0}.tag{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;margin-right:6px}
 footer{color:var(--muted);font-size:12px;padding-bottom:30px}
+.lockf{display:flex;gap:8px;margin-top:10px}.lockf input{flex:1;min-width:0;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:#000;color:var(--ink);font:inherit}
+.btn{padding:10px 14px;border-radius:10px;border:0;background:var(--accent);color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--muted)}#priv{display:none}
 </style>
 </head>
 <body>
@@ -144,17 +173,20 @@ footer{color:var(--muted);font-size:12px;padding-bottom:30px}
 <main>
   <h2>¿Se cumplen nuestras probabilidades?</h2>
   <div class="card" id="fiab"></div>
+  <h2>Acierto real de los picks publicados</h2>
+  <div class="card" id="picks"></div>
+  <div id="lockbox"></div>
+  <div id="priv">
   <h2>Pruebas en sombra</h2>
   <p class="small">Cada prueba calcula, antes de cada partido, la probabilidad del modelo actual y la del modelo mejorado,
   sin cambiar los picks publicados. Se activa solo con 200 partidos, mejora con IC 95% por encima de 0 y tu autorización.</p>
   <div id="shadows"></div>
-  <h2>Acierto real de los picks publicados</h2>
-  <div class="card" id="picks"></div>
   <h2>Investigación histórica (backtests)</h2>
   <div class="card"><div id="bt"></div>
   <p class="small">Mejora = reducción de log loss frente al modelo actual en temporadas no usadas para elegir la variante, con IC 95% por fecha.</p></div>
   <h2>Qué sigue</h2>
   <div class="card"><ul class="list" id="next"></ul></div>
+  </div>
 </main>
 <footer><p>No es una recomendación de apuesta. Mocha Picks no ejecuta apuestas.</p></footer>
 <script>
@@ -172,7 +204,8 @@ function status(s) {
   if (s.mejora != null && s.mejora < 0) return ["Por ahora no mejora", "mid"];
   return ["Acumulando partidos", "muted"];
 }
-document.getElementById("shadows").innerHTML = D.shadows.map(s => {
+function drawPrivate(X) {
+document.getElementById("shadows").innerHTML = X.shadows.map(s => {
   const [lab, cls] = status(s), p = Math.min(100, 100 * s.n / s.objetivo);
   const ci = s.ic_inf == null ? "" : ` [${f4(s.ic_inf)}; ${f4(s.ic_sup)}]`;
   return `<div class="card"><div class="row"><span class="t">${esc(s.titulo)}</span><span class="badge ${cls}">${lab}</span></div>
@@ -185,6 +218,7 @@ document.getElementById("shadows").innerHTML = D.shadows.map(s => {
       ${s.minutos_antes != null ? `<span>Minutos antes del inicio (mediana)</span><b>${Math.round(s.minutos_antes)}</b>` : ""}</div>` : ""}
   </div>`;
 }).join("");
+}
 const F = D.fiabilidad || {};
 document.getElementById("fiab").innerHTML = Object.keys(F).length ? Object.entries(F).map(([dep, x]) => `
   <div class="t" style="margin-top:6px">${esc(dep)} · ${x.n.toLocaleString("es")} partidos · acierto total ${pc(x.acierto_total)}</div>
@@ -199,10 +233,46 @@ document.getElementById("picks").innerHTML = pk.length
      <p class="small">Pick de ganador publicado (casas si existen, modelo si no), última foto antes del inicio. Actualizado ${when(D.picks_updated)}. Con pocos partidos el acierto varía mucho.</p>`
   : `<p class="small">Aún no hay partidos resueltos.</p>`;
 const vcls = v => v.startsWith("supera") ? "good" : (v === "descartada" || v === "Kalshi gana") ? "bad" : "mid";
-document.getElementById("bt").innerHTML = D.backtests.map(b => `<div class="bt"><div class="row"><span class="t">${esc(b.prueba)}</span>
+function drawPrivate2(X) {
+document.getElementById("bt").innerHTML = X.backtests.map(b => `<div class="bt"><div class="row"><span class="t">${esc(b.prueba)}</span>
   <span class="badge ${vcls(b.veredicto)}">${esc(b.veredicto)}</span></div>
   <div class="small">${b.partidos.toLocaleString("es")} partidos · acierto ${esc(b.acierto)} · mejora ${esc(b.mejora)}</div></div>`).join("");
-document.getElementById("next").innerHTML = D.next.map(([t, x]) => `<li><span class="tag">${esc(t)}</span>${esc(x)}</li>`).join("");
+document.getElementById("next").innerHTML = X.next.map(([t, x]) => `<li><span class="tag">${esc(t)}</span>${esc(x)}</li>`).join("");
+}
+const KEY = "mocha-progreso";
+const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+async function unlock(pw) {
+  const L = D.lock;
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+  const key = await crypto.subtle.deriveKey({name: "PBKDF2", salt: b64(L.salt), iterations: L.iter, hash: "SHA-256"}, base,
+    {name: "AES-GCM", length: 256}, false, ["decrypt"]);
+  return JSON.parse(new TextDecoder().decode(await crypto.subtle.decrypt({name: "AES-GCM", iv: b64(L.iv)}, key, b64(L.ct))));
+}
+function lockForm(msg) {
+  document.getElementById("priv").style.display = "none";
+  document.getElementById("lockbox").innerHTML = D.lock ? `<div class="card"><div class="t">🔒 Detalles privados</div>
+    <div class="small">Pruebas en sombra, investigación y próximos pasos. Solo con la clave.</div>
+    <form class="lockf" id="lockf"><input type="password" id="pw" placeholder="Clave" autocomplete="current-password" aria-label="Clave"><button class="btn">Ver</button></form>
+    <label class="small" style="display:block;margin-top:8px"><input type="checkbox" id="rem" checked> Recordar en este dispositivo</label>
+    ${msg ? `<div class="small bad" style="margin-top:6px">${esc(msg)}</div>` : ""}</div>` : "";
+  const f = document.getElementById("lockf");
+  if (f) f.onsubmit = async e => { e.preventDefault(); const pw = document.getElementById("pw").value; await tryOpen(pw, document.getElementById("rem").checked); };
+}
+async function tryOpen(pw, remember) {
+  try {
+    const X = await unlock(pw);
+    try { if (remember) localStorage.setItem(KEY, pw); } catch (e) {}
+    drawPrivate(X); drawPrivate2(X);
+    document.getElementById("priv").style.display = "block";
+    document.getElementById("lockbox").innerHTML = `<div class="card row"><span class="small">🔓 Detalles privados visibles</span><button class="btn ghost" id="lockbtn">Bloquear</button></div>`;
+    document.getElementById("lockbtn").onclick = () => { try { localStorage.removeItem(KEY); } catch (e) {} lockForm(); };
+  } catch (e) {
+    try { localStorage.removeItem(KEY); } catch (e2) {}
+    lockForm(pw ? "Clave incorrecta" : "");
+  }
+}
+let saved = null; try { saved = localStorage.getItem(KEY); } catch (e) {}
+if (D.lock && saved) tryOpen(saved, true); else lockForm();
 </script>
 </body>
 </html>
@@ -211,7 +281,7 @@ document.getElementById("next").innerHTML = D.next.map(([t, x]) => `<li><span cl
 
 def main(out="docs/progreso.html"):
     p = Path(out); p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(render(collect()), encoding="utf-8")
+    p.write_text(render(collect(), os.environ.get(CLAVE_ENV) or None), encoding="utf-8")
     print(f"{out} generado")
 
 

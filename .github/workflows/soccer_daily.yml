@@ -15,6 +15,8 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:
+      PROGRESO_CLAVE: ${{ secrets.PROGRESO_CLAVE }}   # clave de los detalles privados de progreso.html
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
