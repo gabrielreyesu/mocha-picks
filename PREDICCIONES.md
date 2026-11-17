@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 17 Nov 2026 16:31 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 17 Nov 2026 17:27 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -17,11 +17,11 @@
 ## NBA
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 18:30 | New York Knicks en Toronto Raptors | New York Knicks | 64% | 60% | 60% | 62% | 4.0 pts | 221 pts | 2 / 0 |
-| Tue 17 Nov 19:00 | Portland Trail Blazers en Minnesota Timberwolves | Minnesota Timberwolves | 66% | 57% | 57% | 57% | 4.9 pts | 229 pts | 3 / 4 |
+| Tue 17 Nov 18:30 | New York Knicks en Toronto Raptors | New York Knicks | 64% | 56% | 56% | 56% | 4.0 pts | 221 pts | 2 / 0 |
+| Tue 17 Nov 19:00 | Portland Trail Blazers en Minnesota Timberwolves | Minnesota Timberwolves | 66% | 56% | 57% | 57% | 4.9 pts | 229 pts | 3 / 4 |
 | Tue 17 Nov 19:00 | Detroit Pistons en San Antonio Spurs | San Antonio Spurs | 67% | 78% | 78% | 78% | 5.3 pts | 222 pts | 2 / 5 |
 | Tue 17 Nov 21:30 | Utah Jazz en LA Clippers | LA Clippers | 76% | 68% | 68% | 68% | 8.5 pts | 235 pts | 4 / 3 |
-| Tue 17 Nov 22:00 | Charlotte Hornets en Los Angeles Lakers | Los Angeles Lakers | 77% | 72% | 72% | 71% | 9.3 pts | 226 pts | 0 / 2 |
+| Tue 17 Nov 22:00 | Charlotte Hornets en Los Angeles Lakers | Los Angeles Lakers | 77% | 72% | 72% | 72% | 9.3 pts | 226 pts | 0 / 2 |
 | Wed 18 Nov 18:00 | Memphis Grizzlies en Cleveland Cavaliers | Cleveland Cavaliers | 73% | 60% | 61% | — | 6.9 pts | 235 pts | 4 / 5 |
 | Wed 18 Nov 18:00 | Houston Rockets en Indiana Pacers | Houston Rockets | 75% | 70% | 70% | — | 7.8 pts | 223 pts | 3 / 4 |
 | Wed 18 Nov 18:00 | Milwaukee Bucks en Miami Heat | Miami Heat | 80% | 82% | 82% | — | 10.3 pts | 239 pts | 2 / 1 |
@@ -252,8 +252,6 @@ En selecciones, las columnas de goles son poco fiables: en el backtest el "más 
 
 | Fecha (hora Chicago) | Competición | Partido | Modelo: local / empate / visita | Kalshi | Casas | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | 15% / 24% / 61% | — / — / — | 24% / 29% / 47% | 73% / 48% / 25% | 47% | 4% / 36% | — |
-| Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | 91% / 7% / 2% | 92% / 4% / 4% | 90% / 6% / 4% | 91% / 77% / 57% | 39% | 77% / 1% | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | 86% / 11% / 3% | 86% / 11% / 4% | 83% / 12% / 6% | 85% / 63% / 44% | 32% | 71% / 0% | — |
 | Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | 69% / 20% / 10% | 92% / 6% / 2% | 88% / 7% / 5% | 79% / 54% / 33% | 45% | 47% / 3% | — |
 | Sat 28 Nov 11:00 | Amistoso | Spain vs Chile | 94% / 5% / 1% | — / — / — | — / — / — | 91% / 79% / 57% | 31% | 80% / 0% | — |
@@ -266,22 +264,17 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Ganador | Colombia | 55% | Media | casas + modelo | — |
-| Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Doble oportunidad | Colombia o empate | 83% | Alta | casas + modelo | — |
-| Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Ganador | Argentina | 95% | Alta | Kalshi + casas + modelo | 92¢ |
-| Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Doble oportunidad | Argentina o empate | 98% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 92% | Alta | Kalshi + casas + modelo | 92¢ |
 | Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 98% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Ganador | Ecuador | 89% | Alta | Kalshi + casas + modelo | 86¢ |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Doble oportunidad | Ecuador o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Ganador | New York Knicks | 62% | Media | Kalshi + casas + modelo | 62¢ |
-| Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Hándicap | New York Knicks gana por más de 4.5 | 50% | Baja | casas | 49¢ |
-| Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Total de puntos | Más de 214.5 | 50% | Baja | casas | 52¢ |
-| Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Puntos (línea segura) | Más de 200.5 | 78% | Alta | casas | 81¢ |
-| Tue 17 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 57% | Media | Kalshi + casas + modelo | 57¢ |
-| Tue 17 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Hándicap | Minnesota Timberwolves gana por más de 2.5 | 50% | Baja | casas | 52¢ |
+| Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Ganador | New York Knicks | 57% | Media | Kalshi + casas + modelo | 56¢ |
+| Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Hándicap | New York Knicks gana por más de 2.5 | 50% | Baja | casas | 50¢ |
+| Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Total de puntos | Menos de 216.5 | 52% | Baja | casas | 51¢ |
+| Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Puntos (línea segura) | Más de 202.5 | 77% | Alta | casas | 78¢ |
+| Tue 17 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 56% | Media | Kalshi + casas + modelo | 56¢ |
+| Tue 17 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Hándicap | Minnesota Timberwolves gana por más de 2.5 | 50% | Baja | casas | 53¢ |
 | Tue 17 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 55¢ |
 | Tue 17 Nov 19:00 | NBA | Portland Trail Blazers en Minnesota Timberwolves | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 78¢ |
 | Tue 17 Nov 19:00 | NBA | Detroit Pistons en San Antonio Spurs | Ganador | San Antonio Spurs | 79% | Alta | Kalshi + casas + modelo | 78¢ |
@@ -290,13 +283,13 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 19:00 | NBA | Detroit Pistons en San Antonio Spurs | Total de puntos | Menos de 222.5 | 52% | Baja | casas | 52¢ |
 | Tue 17 Nov 19:00 | NBA | Detroit Pistons en San Antonio Spurs | Puntos (línea segura) | Más de 208.5 | 77% | Alta | casas | 79¢ |
 | Tue 17 Nov 21:30 | NBA | Utah Jazz en LA Clippers | Ganador | LA Clippers | 67% | Media | Kalshi + casas + modelo | 68¢ |
-| Tue 17 Nov 21:30 | NBA | Utah Jazz en LA Clippers | Hándicap | LA Clippers gana por más de 6.5 | 50% | Baja | casas | 49¢ |
+| Tue 17 Nov 21:30 | NBA | Utah Jazz en LA Clippers | Hándicap | LA Clippers gana por más de 6.5 | 50% | Baja | casas | 48¢ |
 | Tue 17 Nov 21:30 | NBA | Utah Jazz en LA Clippers | Total de puntos | Más de 225.5 | 50% | Baja | casas | 52¢ |
 | Tue 17 Nov 21:30 | NBA | Utah Jazz en LA Clippers | Puntos (línea segura) | Más de 211.5 | 78% | Alta | casas | 80¢ |
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Ganador | Los Angeles Lakers | 72% | Alta | Kalshi + casas + modelo | 72¢ |
-| Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 7.5 | 50% | Baja | casas | 48¢ |
-| Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Total de puntos | Más de 222.5 | 50% | Baja | casas | 48¢ |
-| Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Puntos (línea segura) | Más de 208.5 | 78% | Alta | casas | 77¢ |
+| Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 6.5 | 50% | Baja | casas | 52¢ |
+| Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Total de puntos | Menos de 224.5 | 52% | Baja | casas | 56¢ |
+| Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Puntos (línea segura) | Más de 210.5 | 77% | Alta | casas | 76¢ |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ganador | CD Sabadell | 65% | Media | casas + modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Doble oportunidad | CD Sabadell o empate | 87% | Alta | casas + modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
