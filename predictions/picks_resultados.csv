@@ -276,3 +276,5 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,intl,401861190,Ganador,Ukraine,0.4566,Kalshi + casas + modelo,1
 2026-11-17,intl,401861190,Doble oportunidad,Ukraine o empate,0.7534,Kalshi + casas + modelo,1
 2026-11-17,intl,401861190,Goles,Menos de 2.5,0.5815,casas + modelo,1
+2026-11-17,intl,401861194,Ganador,Norway,0.4046,Kalshi + casas + modelo,1
+2026-11-17,intl,401861194,Doble oportunidad,Denmark o Norway (no empate),0.7776,Kalshi + casas + modelo,1
