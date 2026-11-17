@@ -52,14 +52,16 @@ jobs:
         run: |
           git config user.name  "sports-bot"
           git config user.email "sports-bot@users.noreply.github.com"
+          git config merge.keep.driver true        # ver .gitattributes: sin conflictos entre bots
           python -m kalshi_external.final_shadow build
           python -m kalshi_external.final_shadow evaluate || true
           git add predictions/
           git diff --cached --quiet || git commit -m "NBA/NFL $(date -u +%F)"
-          git pull --rebase -q
+          for i in 1 2 3 4; do git pull --rebase -q && break; git rebase --abort 2>/dev/null; sleep $((i*10)); done
           python -m kalshi_nba.resumen
           python -m kalshi_nba.pagina
           python -m kalshi_nba.progreso
           git add PREDICCIONES.md docs/
           git diff --cached --quiet || git commit -m "tabla $(date -u +%F)"
-          git push
+          for i in 1 2 3 4; do git pull --rebase -q && git push && exit 0; git rebase --abort 2>/dev/null; sleep $((i*15)); done
+          exit 1

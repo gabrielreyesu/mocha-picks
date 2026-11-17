@@ -1,0 +1,7 @@
+# Bots: los registros CSV son de solo-añadir -> al combinar se conservan las filas de ambos lados (merge union).
+# Los archivos generados se regeneran tras combinar -> se conserva la versión local sin conflicto (driver "keep",
+# configurado en cada workflow con: git config merge.keep.driver true).
+predictions/*.csv merge=union
+predictions/*.json merge=keep
+docs/*.html merge=keep
+PREDICCIONES.md merge=keep

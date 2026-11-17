@@ -59,6 +59,7 @@ jobs:
         run: |
           git config user.name  "soccer-shadow-bot"
           git config user.email "soccer-shadow-bot@users.noreply.github.com"
+          git config merge.keep.driver true        # ver .gitattributes: sin conflictos entre bots
           git add predictions/soccer_xi_shadow_scoreboard.json
           [ -f predictions/soccer_xi_shadow.csv ] && git add predictions/soccer_xi_shadow.csv
           git diff --cached --quiet && exit 0
