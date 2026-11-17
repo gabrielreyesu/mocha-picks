@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 17 Nov 2026 07:50 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 17 Nov 2026 07:57 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
