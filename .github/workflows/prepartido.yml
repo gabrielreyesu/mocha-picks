@@ -1,0 +1,85 @@
+name: prepartido
+
+# Foto de precios JUSTO ANTES de cada partido: cada 30 min mira si hay partidos que empiezan en las próximas 2,5 h y
+# si su última foto tiene más de 25 min. Si no hace falta, termina en segundos. El precio cercano al inicio ya incluye
+# alineaciones y bajas de última hora (KALSHI_BENCHMARK.md: Kalshi T-60 > modelo).
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kalshi-escritura
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PROGRESO_CLAVE: ${{ secrets.PROGRESO_CLAVE }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: ¿Hace falta foto?
+        id: due
+        run: |
+          pip install -q pandas
+          echo "sports=$(python -m kalshi_nba.prepartido)" >> "$GITHUB_OUTPUT"
+      - if: steps.due.outputs.sports != ''
+        run: pip install -r requirements.txt
+      - if: steps.due.outputs.sports != ''
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/nba
+            data/nfl
+          key: espn-data-${{ github.run_id }}
+          restore-keys: espn-data-
+      - if: steps.due.outputs.sports != ''
+        uses: actions/cache/restore@v4
+        with:
+          path: data/intl
+          key: intl-data-${{ github.run_id }}
+          restore-keys: intl-data-
+      - if: steps.due.outputs.sports != ''
+        uses: actions/cache/restore@v4
+        with:
+          path: data/stats
+          key: stats-data-${{ github.run_id }}
+          restore-keys: stats-data-
+      - name: Precios actuales (solo deportes con partidos inminentes)
+        if: steps.due.outputs.sports != ''
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          ODDS_API_KEY: ""                                  # no gastar créditos cada 30 min (la cuota diaria ya lo cubre)
+        run: |
+          S="${{ steps.due.outputs.sports }}"; echo "Deportes: $S"
+          for lg in nba nfl; do
+            if [[ " $S " == *" $lg "* ]]; then python -m kalshi_nba.cli predict --league $lg --days 1 || true; python -m kalshi_nba.injuries $lg || true; fi
+          done
+          if [[ " $S " == *" intl "* ]]; then python -m kalshi_intl.cli predict --days 1 || true; fi
+          if [[ " $S " == *" liga "* ]]; then python -m kalshi_soccer.cli predict --days 1 || true; fi
+      - name: Guardar y regenerar páginas
+        if: steps.due.outputs.sports != ''
+        run: |
+          git config user.name  "prepartido-bot"
+          git config user.email "prepartido-bot@users.noreply.github.com"
+          git config merge.keep.driver true        # ver .gitattributes
+          python -m kalshi_external.final_shadow build
+          git add predictions/
+          git diff --cached --quiet || git commit -q -m "precios prepartido $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3 4; do git pull --rebase -q && break; git rebase --abort 2>/dev/null; sleep $((i*10)); done
+          python -m kalshi_nba.resumen
+          python -m kalshi_nba.pagina
+          python -m kalshi_nba.progreso
+          git add PREDICCIONES.md docs/ predictions/combinadas.jsonl predictions/picks_resultados.csv 2>/dev/null || git add PREDICCIONES.md docs/
+          git diff --cached --quiet || git commit -q -m "páginas prepartido $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3 4; do git pull --rebase -q && git push && exit 0; git rebase --abort 2>/dev/null; sleep $((i*15)); done
+          exit 1
