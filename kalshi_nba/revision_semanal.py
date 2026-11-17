@@ -60,6 +60,14 @@ def report(now=None) -> tuple[str, list]:
         L += ["", f"## Picks de jugadores: {len(j)} resueltos, acierto {j['acierto'].mean():.1%} (Kalshi decía {j['p'].mean():.1%})"]
         if len(j.dropna(subset=['p_modelo'])) >= 300:
             alerts.append("Picks de jugadores: ya hay 300 resueltos con proyección → toca la prueba de JUGADORES_RESEARCH.md")
+    reg = P / "intl_registry.csv"
+    if reg.exists():
+        r = pd.read_csv(reg)
+        if "s_H" in r:
+            done = r[r["s_H"].notna() & (pd.to_datetime(r["kickoff_utc"], utc=True) < now)]
+            L += ["", f"## Sombra de tiros (fútbol): {len(done)} partidos ya jugados con sombra (objetivo 300)"]
+            if len(done) >= 300:
+                alerts.append("Sombra de tiros: ya hay 300 partidos jugados → evaluarla (TIROS_RESEARCH.md) y pedir autorización si mejora")
     L += ["", "## Combinadas"]
     from .combinadas import summary
     s = summary(P)

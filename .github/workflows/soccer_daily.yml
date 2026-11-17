@@ -38,6 +38,11 @@ jobs:
           path: data/intl
           key: intl-data-${{ github.run_id }}
           restore-keys: intl-data-
+      - uses: actions/cache@v4
+        with:
+          path: data/stats
+          key: stats-data-${{ github.run_id }}
+          restore-keys: stats-data-
       - name: Copas europeas y selecciones (evaluar y predecir)
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}     # opcional: cuotas de copas nacionales (the-odds-api.com)
@@ -55,11 +60,6 @@ jobs:
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python -m kalshi_intl.lesiones
-      - uses: actions/cache@v4
-        with:
-          path: data/stats
-          key: stats-data-${{ github.run_id }}
-          restore-keys: stats-data-
       - name: Estadísticas de equipos para la página (ESPN; si falla no detiene el resto)
         continue-on-error: true
         run: python -m kalshi_nba.estadisticas

@@ -14,7 +14,7 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho (aporta) · ❌ hecho (no a
 | # | Idea | Deporte | Por qué podría aportar | Estado |
 |---|---|---|---|---|
 | 1 | Eficiencia ofensiva/defensiva y ritmo desde las estadísticas de cada partido (box score), en vez de solo puntos | NBA | Mide la calidad real mejor que el Elo; puede cerrar la brecha | ❌ no aporta (EFICIENCIA_RESEARCH.md) |
-| 2 | Tiros y tiros a puerta como «xG aproximado» del equipo (ESPN), como variables del modelo de fútbol | fútbol | Los goles tienen mucho azar; los tiros predicen mejor la fuerza | ⬜ |
+| 2 | Tiros y tiros a puerta como «xG aproximado» del equipo (ESPN), como variables del modelo de fútbol | fútbol | Los goles tienen mucho azar; los tiros predicen mejor la fuerza | ✅ aporta al modelo (−18% de brecha); en sombra (TIROS_RESEARCH.md) |
 | 3 | Modelado del empate (Dixon-Coles / inflación de empates) por liga | fútbol | El 1X2 depende mucho de acertar el empate | ⬜ |
 | 4 | Ventaja de local variable por liga y por temporada (post-COVID) | todos | La ventaja de local cambió en los últimos años | ⬜ |
 | 5 | Ajuste de K y de la ventaja de local del Elo por liga (walk-forward) | fútbol | Hoy se usa una configuración común | ⬜ |
@@ -28,3 +28,5 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho (aporta) · ❌ hecho (no a
 | 13 | Viaje y husos horarios en copas europeas y selecciones | fútbol | Probado en NBA/NFL, no en fútbol internacional | ⬜ |
 | 14 | Mercado de córners y tarjetas con modelo propio frente a las casas (si hay cuotas) | fútbol | Mercados menos eficientes que el 1X2 | ⬜ |
 | 15 | Proyección propia de jugadores (NBA) frente a Kalshi en los picks de jugadores | NBA | Medir si nuestro modelo de jugador iguala al mercado (JUGADORES_RESEARCH.md) | ⏳ 300 picks resueltos |
+| 16 | Tiros en el modelo de las 5 grandes ligas (`kalshi_soccer`) y en copas europeas / selecciones | fútbol | Lo mismo que funcionó en el grupo `ligas` | ⬜ |
+| 17 | Activar la sombra de tiros del grupo `ligas` | fútbol | Pasó la prueba histórica | ⏳ 300 partidos resueltos con sombra |
