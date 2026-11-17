@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 17 Nov 2026 13:04 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 17 Nov 2026 15:29 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -252,19 +252,10 @@ En selecciones, las columnas de goles son poco fiables: en el backtest el "más 
 
 | Fecha (hora Chicago) | Competición | Partido | Modelo: local / empate / visita | Kalshi | Casas | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | 8% / 17% / 75% | 12% / 18% / 70% | 14% / 19% / 67% | 81% / 59% / 35% | 45% | 3% / 47% | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | 48% / 29% / 23% | 46% / 30% / 26% | 44% / 30% / 26% | 68% / 43% / 20% | 48% | 26% / 7% | — |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | 49% / 30% / 21% | 48% / 30% / 22% | 47% / 29% / 23% | 64% / 37% / 17% | 42% | 25% / 6% | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | 42% / 30% / 28% | 48% / 30% / 22% | 46% / 30% / 24% | 68% / 41% / 20% | 47% | 20% / 11% | — |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | 16% / 22% / 62% | 22% / 24% / 54% | 24% / 25% / 51% | 79% / 57% / 33% | 54% | 5% / 38% | — |
-| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | 43% / 26% / 31% | 38% / 22% / 40% | 37% / 24% / 40% | 80% / 56% / 34% | 60% | 25% / 12% | — |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | 38% / 28% / 34% | 42% / 24% / 32% | 40% / 25% / 35% | 78% / 51% / 31% | 56% | 16% / 18% | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | 61% / 24% / 15% | — / — / — | 46% / 27% / 27% | 76% / 50% / 29% | 48% | 34% / 6% | — |
-| Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | 22% / 28% / 50% | 23% / 28% / 50% | 24% / 27% / 49% | 72% / 45% / 24% | 49% | 10% / 23% | — |
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | 15% / 24% / 61% | — / — / — | 25% / 29% / 46% | 73% / 48% / 25% | 47% | 4% / 36% | — |
-| Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | 91% / 7% / 2% | 92% / 6% / 4% | 87% / 9% / 4% | 91% / 77% / 57% | 39% | 77% / 1% | — |
-| Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | 86% / 11% / 3% | 84% / 12% / 4% | 81% / 13% / 6% | 85% / 63% / 44% | 32% | 71% / 0% | — |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | 69% / 20% / 10% | 90% / 6% / 4% | 87% / 8% / 5% | 79% / 54% / 33% | 45% | 47% / 3% | — |
+| Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | 91% / 7% / 2% | 92% / 6% / 2% | 89% / 8% / 4% | 91% / 77% / 57% | 39% | 77% / 1% | — |
+| Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | 86% / 11% / 3% | 86% / 12% / 4% | 82% / 12% / 6% | 85% / 63% / 44% | 32% | 71% / 0% | — |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | 69% / 20% / 10% | 90% / 6% / 4% | 88% / 7% / 5% | 79% / 54% / 33% | 45% | 47% / 3% | — |
 | Sat 28 Nov 11:00 | Amistoso | Spain vs Chile | 94% / 5% / 1% | — / — / — | — / — / — | 91% / 79% / 57% | 31% | 80% / 0% | — |
 
 ## Resumen de picks de hoy y mañana
@@ -275,39 +266,16 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Ganador | Portugal | 76% | Alta | Kalshi + casas + modelo | 70¢ |
-| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Doble oportunidad | Portugal o empate | 91% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Ganador | Ukraine | 46% | Baja | Kalshi + casas + modelo | 46¢ |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Doble oportunidad | Ukraine o empate | 75% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Goles | Menos de 2.5 | 58% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Ganador | Bosnia-Herzegovina | 51% | Baja | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Doble oportunidad | Bosnia-Herzegovina o empate | 76% | Alta | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Ganador | Hungary | 49% | Baja | Kalshi + casas + modelo | 48¢ |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Doble oportunidad | Hungary o empate | 78% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Ganador | Republic of Ireland | 47% | Baja | Kalshi + casas + modelo | 48¢ |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Doble oportunidad | Republic of Ireland o empate | 77% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Ganador | Austria | 59% | Media | Kalshi + casas + modelo | 54¢ |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Doble oportunidad | Austria o empate | 81% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Ganador | Norway | 40% | Baja | Kalshi + casas + modelo | 40¢ |
-| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Doble oportunidad | Denmark o Norway (no empate) | 78% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Ganador | Poland | 40% | Baja | Kalshi + casas + modelo | 42¢ |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Doble oportunidad | Poland o Sweden (no empate) | 76% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Ganador | Honduras | 53% | Baja | Kalshi + casas + modelo | 50¢ |
-| Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Doble oportunidad | Honduras o empate | 79% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Ganador | Colombia | 54% | Baja | casas + modelo | — |
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Doble oportunidad | Colombia o empate | 82% | Alta | casas + modelo | — |
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Ganador | Argentina | 93% | Alta | Kalshi + casas + modelo | 92¢ |
+| Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Ganador | Argentina | 94% | Alta | Kalshi + casas + modelo | 92¢ |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Doble oportunidad | Argentina o empate | 98% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Ganador | Ecuador | 88% | Alta | Kalshi + casas + modelo | 84¢ |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 92% | Alta | Kalshi + casas + modelo | 90¢ |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 97% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Ganador | Ecuador | 89% | Alta | Kalshi + casas + modelo | 86¢ |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Doble oportunidad | Ecuador o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 91% | Alta | Kalshi + casas + modelo | 90¢ |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Ganador | New York Knicks | 63% | Media | Kalshi + casas + modelo | 62¢ |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Hándicap | New York Knicks gana por más de 4.5 | 50% | Baja | casas | 48¢ |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Total de puntos | Más de 214.5 | 50% | Baja | casas | 51¢ |
@@ -329,36 +297,36 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 7.5 | 50% | Baja | casas | 48¢ |
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Total de puntos | Menos de 222.5 | 52% | Baja | casas | 55¢ |
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Puntos (línea segura) | Más de 208.5 | 77% | Alta | casas | 75¢ |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ganador | Real Unión Irun | 41% | Baja | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Doble oportunidad | Portugalete o Real Unión Irun (no empate) | 71% | Alta | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ganador | CD Sabadell | 65% | Media | casas + modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Doble oportunidad | CD Sabadell o empate | 87% | Alta | casas + modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ambos anotan | Sí | 58% | Media | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ganador | Tenerife | 45% | Baja | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Doble oportunidad | Badajoz o Tenerife (no empate) | 75% | Alta | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles | Más de 2.5 | 56% | Media | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ganador | Real Unión Irun | 41% | Baja | casas + modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Doble oportunidad | Portugalete o Real Unión Irun (no empate) | 71% | Alta | casas + modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ganador | Mallorca | 66% | Media | casas + modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Doble oportunidad | Mallorca o empate | 87% | Alta | casas + modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles | Menos de 2.5 | 55% | Baja | casas + modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ganador | FC Cartagena | 37% | Baja | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Doble oportunidad | CD Minera o FC Cartagena (no empate) | 70% | Alta | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles | Menos de 2.5 | 63% | Media | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ambos anotan | Sí | 66% | Media | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ganador | Tenerife | 45% | Baja | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Doble oportunidad | Badajoz o Tenerife (no empate) | 75% | Alta | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles | Más de 2.5 | 56% | Media | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ganador | Barakaldo | 49% | Baja | casas + modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Doble oportunidad | Barakaldo o empate | 76% | Alta | casas + modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ganador | FC Cartagena | 37% | Baja | casas + modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Doble oportunidad | CD Minera o FC Cartagena (no empate) | 70% | Alta | casas + modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles | Menos de 2.5 | 63% | Media | casas + modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ambos anotan | Sí | 66% | Media | modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ganador | Santos | 49% | Baja | casas + modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Doble oportunidad | Coritiba o Santos (no empate) | 75% | Alta | casas + modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
@@ -369,16 +337,16 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ganador | Flamengo | 81% | Alta | casas + modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Doble oportunidad | Flamengo o empate | 93% | Alta | casas + modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Goles | Más de 2.5 | 64% | Media | modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ganador | Palmeiras | 40% | Baja | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Doble oportunidad | Cruzeiro o Palmeiras (no empate) | 73% | Alta | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ganador | Flamengo | 81% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Doble oportunidad | Flamengo o empate | 93% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Goles | Más de 2.5 | 64% | Media | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Ganador | Miami Heat | 81% | Alta | Kalshi + modelo | 81¢ |
 | Wed 18 Nov 18:00 | NBA | Houston Rockets en Indiana Pacers | Ganador | Houston Rockets | 71% | Alta | Kalshi + modelo | 70¢ |
 | Wed 18 Nov 18:00 | NBA | Philadelphia 76ers en Orlando Magic | Ganador | Philadelphia 76ers | 59% | Media | Kalshi + modelo | 58¢ |

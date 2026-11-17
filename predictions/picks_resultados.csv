@@ -255,3 +255,6 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,intl,401933615,Ganador,Iran,0.5287,Kalshi + casas + modelo,0
 2026-11-17,intl,401933615,Doble oportunidad,Iran o empate,0.8117,Kalshi + casas + modelo,1
 2026-11-17,intl,401933615,Goles,Menos de 2.5,0.5908,casas + modelo,1
+2026-11-17,intl,401931956,Ganador,Honduras,0.5314,Kalshi + casas + modelo,1
+2026-11-17,intl,401931956,Doble oportunidad,Honduras o empate,0.7945,Kalshi + casas + modelo,1
+2026-11-17,intl,401931956,Goles,Menos de 2.5,0.5229,casas + modelo,1
