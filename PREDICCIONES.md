@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 16 Nov 2026 21:43 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 17 Nov 2026 02:21 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -196,39 +196,39 @@
 | Tue 24 Nov 11:45 | Champions League | Bodo/Glimt vs LASK Linz | 65% / 20% / 15% | — / — / — | 62% / 19% / 19% | 86% / 66% / 44% | 60% | 43% / 6% | — |
 | Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | 25% / 23% / 52% | 35% / 25% / 40% | 35% / 26% / 39% | 85% / 65% / 43% | 64% | 11% / 31% | — |
 | Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | 67% / 21% / 12% | 71% / 18% / 12% | 68% / 19% / 13% | 80% / 56% / 34% | 50% | 43% / 4% | — |
-| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | 68% / 19% / 13% | 74% / 15% / 11% | 72% / 16% / 13% | 86% / 66% / 45% | 58% | 47% / 5% | — |
-| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | 11% / 19% / 70% | 10% / 15% / 76% | 11% / 16% / 73% | 84% / 62% / 40% | 52% | 4% / 48% | — |
+| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | 68% / 19% / 13% | 73% / 15% / 11% | 70% / 16% / 13% | 86% / 66% / 45% | 58% | 47% / 5% | — |
+| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | 11% / 19% / 70% | 10% / 14% / 76% | 11% / 16% / 73% | 84% / 62% / 40% | 52% | 4% / 48% | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | 73% / 16% / 11% | 82% / 11% / 8% | 79% / 12% / 9% | 89% / 72% / 51% | 60% | 53% / 4% | — |
-| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | 57% / 22% / 21% | 68% / 16% / 16% | 66% / 17% / 16% | 85% / 64% / 42% | 62% | 35% / 8% | — |
-| Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | 73% / 17% / 10% | 78% / 13% / 9% | 76% / 15% / 9% | 87% / 67% / 46% | 55% | 52% / 3% | — |
+| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | 57% / 22% / 21% | 68% / 16% / 15% | 66% / 17% / 16% | 85% / 64% / 42% | 62% | 35% / 8% | — |
+| Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | 73% / 17% / 10% | 78% / 13% / 8% | 76% / 15% / 9% | 87% / 67% / 46% | 55% | 52% / 3% | — |
 | Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | 23% / 25% / 51% | 32% / 24% / 44% | 31% / 24% / 44% | 79% / 55% / 32% | 56% | 9% / 29% | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | 3% / 8% / 89% | — / — / — | 6% / 8% / 86% | 95% / 84% / 67% | 53% | 1% / 76% | — |
 | Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | 13% / 19% / 67% | 12% / 15% / 73% | 13% / 16% / 70% | 85% / 64% / 42% | 56% | 5% / 45% | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | 63% / 21% / 16% | 68% / 16% / 16% | 65% / 18% / 17% | 84% / 62% / 40% | 57% | 41% / 6% | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | 63% / 21% / 16% | 68% / 16% / 15% | 65% / 18% / 17% | 84% / 62% / 40% | 57% | 41% / 6% | — |
 | Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | 33% / 26% / 41% | 36% / 27% / 36% | 36% / 27% / 37% | 79% / 55% / 33% | 59% | 15% / 21% | — |
-| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | 46% / 26% / 27% | 37% / 26% / 37% | 37% / 26% / 37% | 78% / 54% / 32% | 57% | 25% / 12% | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | 37% / 25% / 37% | 22% / 20% / 58% | 23% / 21% / 56% | 83% / 61% / 39% | 64% | 19% / 19% | — |
+| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | 46% / 26% / 27% | 38% / 26% / 37% | 37% / 26% / 37% | 78% / 54% / 32% | 57% | 25% / 12% | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | 37% / 25% / 37% | 21% / 20% / 58% | 23% / 21% / 56% | 83% / 61% / 39% | 64% | 19% / 19% | — |
 | Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | 56% / 23% / 21% | 88% / 8% / 4% | 85% / 9% / 5% | 84% / 63% / 41% | 62% | 35% / 8% | — |
 | Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | 68% / 18% / 15% | — / — / — | 71% / 16% / 13% | 90% / 73% / 52% | 64% | 47% / 6% | — |
 | Thu 26 Nov 09:30 | Conference League | Kairat Almaty vs Mjällby AIF | 36% / 29% / 35% | 42% / 27% / 31% | — / — / — | 72% / 45% / 24% | 51% | 16% / 15% | — |
 | Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | 32% / 27% / 41% | 36% / 26% / 38% | — / — / — | 79% / 55% / 32% | 59% | 15% / 21% | — |
-| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | 73% / 17% / 11% | 81% / 12% / 5% | — / — / — | 87% / 69% / 47% | 57% | 52% / 4% | — |
+| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | 73% / 17% / 11% | 81% / 12% / 6% | — / — / — | 87% / 69% / 47% | 57% | 52% / 4% | — |
 | Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | 82% / 13% / 5% | — / — / — | — / — / — | 86% / 67% / 45% | 45% | 62% / 1% | — |
-| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | 30% / 29% / 41% | 6% / 20% / 70% | — / — / — | 72% / 46% / 24% | 52% | 13% / 20% | — |
-| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | 42% / 28% / 30% | 30% / 26% / 42% | — / — / — | 75% / 49% / 27% | 54% | 21% / 13% | — |
+| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | 30% / 29% / 41% | 10% / 19% / 70% | — / — / — | 72% / 46% / 24% | 52% | 13% / 20% | — |
+| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | 42% / 28% / 30% | 30% / 27% / 42% | — / — / — | 75% / 49% / 27% | 54% | 21% / 13% | — |
 | Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | 20% / 24% / 56% | 17% / 20% / 62% | — / — / — | 81% / 58% / 35% | 57% | 8% / 34% | — |
-| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | 53% / 26% / 21% | 60% / 23% / 18% | — / — / — | 76% / 50% / 28% | 53% | 29% / 8% | — |
+| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | 53% / 26% / 21% | 59% / 23% / 18% | — / — / — | 76% / 50% / 28% | 53% | 29% / 8% | — |
 | Thu 26 Nov 11:45 | Conference League | SK Brann vs AGF | 41% / 28% / 31% | — / — / — | — / — / — | 75% / 49% / 27% | 54% | 20% / 13% | — |
 | Thu 26 Nov 11:45 | Europa League | Olympiacos vs AC Milan | 41% / 28% / 32% | 38% / 27% / 34% | 39% / 28% / 33% | 75% / 50% / 28% | 55% | 20% / 14% | — |
-| Thu 26 Nov 11:45 | Europa League | RB Salzburg vs Ararat-Armenia | 61% / 22% / 17% | 82% / 11% / 6% | 79% / 13% / 8% | 83% / 61% / 39% | 58% | 38% / 7% | — |
+| Thu 26 Nov 11:45 | Europa League | RB Salzburg vs Ararat-Armenia | 61% / 22% / 17% | 82% / 11% / 7% | 79% / 13% / 8% | 83% / 61% / 39% | 58% | 38% / 7% | — |
 | Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | 17% / 24% / 59% | 24% / 26% / 48% | 25% / 26% / 48% | 78% / 53% / 31% | 52% | 6% / 35% | — |
 | Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | 16% / 23% / 62% | 16% / 18% / 64% | 18% / 20% / 63% | 79% / 55% / 33% | 52% | 5% / 38% | — |
-| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | 23% / 25% / 52% | 21% / 21% / 56% | 22% / 22% / 55% | 81% / 58% / 35% | 59% | 9% / 30% | — |
+| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | 23% / 25% / 52% | 21% / 22% / 56% | 22% / 22% / 55% | 81% / 58% / 35% | 59% | 9% / 30% | — |
 | Thu 26 Nov 11:45 | Europa League | Union St.-Gilloise vs Lech Poznan | 75% / 16% / 9% | — / — / — | 67% / 19% / 14% | 86% / 66% / 44% | 52% | 54% / 3% | — |
 | Thu 26 Nov 11:45 | Europa League | Marseille vs Levski Sofia | 64% / 22% / 14% | 68% / 18% / 12% | 66% / 20% / 14% | 79% / 55% / 33% | 51% | 40% / 5% | — |
 | Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | 51% / 25% / 25% | — / — / — | 76% / 14% / 9% | 82% / 59% / 36% | 60% | 29% / 10% | — |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | 33% / 29% / 39% | 34% / 28% / 38% | — / — / — | 73% / 47% / 25% | 53% | 14% / 18% | — |
-| Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | 24% / 27% / 48% | 12% / 20% / 66% | — / — / — | 74% / 48% / 26% | 52% | 9% / 25% | — |
+| Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | 24% / 27% / 48% | 11% / 18% / 70% | — / — / — | 74% / 48% / 26% | 52% | 9% / 25% | — |
 | Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | 42% / 28% / 31% | — / — / — | — / — / — | 76% / 50% / 28% | 55% | 21% / 13% | — |
 | Thu 26 Nov 14:00 | Conference League | KAA Gent vs Red Star Belgrade | 48% / 28% / 24% | — / — / — | — / — / — | 71% / 44% / 23% | 49% | 24% / 9% | — |
 | Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | 22% / 25% / 53% | 18% / 24% / 57% | — / — / — | 79% / 54% / 32% | 55% | 8% / 31% | — |
@@ -237,14 +237,14 @@
 | Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | 21% / 26% / 53% | — / — / — | — / — / — | 77% / 52% / 30% | 53% | 8% / 30% | — |
 | Thu 26 Nov 14:00 | Europa League | Ferencvaros vs NK Celje | 56% / 24% / 20% | 71% / 16% / 12% | 69% / 18% / 13% | 80% / 56% / 33% | 56% | 33% / 7% | — |
 | Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | 29% / 26% / 46% | 31% / 24% / 44% | 32% / 25% / 44% | 80% / 57% / 34% | 60% | 13% / 24% | — |
-| Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | 38% / 28% / 34% | 36% / 27% / 37% | 36% / 26% / 38% | 76% / 50% / 28% | 55% | 18% / 15% | — |
+| Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | 38% / 28% / 34% | 36% / 26% / 36% | 36% / 26% / 38% | 76% / 50% / 28% | 55% | 18% / 15% | — |
 | Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | 60% / 24% / 16% | 77% / 15% / 8% | 74% / 16% / 9% | 75% / 50% / 28% | 48% | 36% / 5% | — |
 | Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | 31% / 26% / 42% | 21% / 22% / 54% | 22% / 23% / 54% | 80% / 56% / 34% | 60% | 14% / 22% | — |
 | Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | 46% / 25% / 29% | 46% / 23% / 28% | 46% / 24% / 30% | 83% / 60% / 38% | 62% | 26% / 13% | — |
 | Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | 29% / 28% / 42% | 22% / 24% / 52% | 23% / 25% / 52% | 73% / 47% / 25% | 52% | 12% / 21% | — |
-| Thu 26 Nov 14:00 | Europa League | Juventus vs Omonia Nicosia | 54% / 24% / 22% | 80% / 12% / 6% | 78% / 13% / 8% | 82% / 59% / 36% | 59% | 32% / 9% | — |
+| Thu 26 Nov 14:00 | Europa League | Juventus vs Omonia Nicosia | 54% / 24% / 22% | 81% / 12% / 6% | 78% / 13% / 8% | 82% / 59% / 36% | 59% | 32% / 9% | — |
 | Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | 72% / 18% / 10% | — / — / — | 78% / 13% / 8% | 83% / 61% / 39% | 50% | 50% / 3% | — |
-| Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | 60% / 22% / 18% | 72% / 15% / 12% | 70% / 17% / 13% | 82% / 60% / 38% | 57% | 37% / 7% | — |
+| Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | 60% / 22% / 18% | 72% / 16% / 12% | 70% / 17% / 13% | 82% / 60% / 38% | 57% | 37% / 7% | — |
 | Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | 30% / 26% / 44% | — / — / — | — / — / — | 81% / 58% / 35% | 61% | 13% / 24% | — |
 
 ## Fútbol: selecciones (UEFA y CONMEBOL)
@@ -252,32 +252,30 @@ En selecciones, las columnas de goles son poco fiables: en el backtest el "más 
 
 | Fecha (hora Chicago) | Competición | Partido | Modelo: local / empate / visita | Kalshi | Casas | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Mon 16 Nov 23:30 | Amistoso | Tahiti vs Cook Islands | 91% / 7% / 2% | 87% / 7% / 6% | — / — / — | 93% / 80% / 62% | 41% | 79% / 0% | — |
-| Tue 17 Nov 00:00 | Amistoso | Malaysia vs Yemen | 54% / 27% / 19% | — / — / — | — / — / — | 71% / 43% / 23% | 45% | 30% / 6% | — |
-| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | 2% / 5% / 93% | 0% / 2% / 98% | 1% / 5% / 94% | 95% / 84% / 68% | 43% | 0% / 81% | — |
-| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | 58% / 25% / 17% | — / — / — | 39% / 27% / 34% | 77% / 50% / 30% | 50% | 35% / 6% | — |
-| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | 44% / 31% / 25% | 50% / 28% / 22% | 49% / 28% / 23% | 67% / 37% / 19% | 44% | 23% / 8% | — |
-| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | 37% / 30% / 33% | 27% / 28% / 44% | — / — / — | 69% / 42% / 21% | 49% | 17% / 13% | — |
-| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | 72% / 19% / 9% | 57% / 24% / 18% | 57% / 24% / 19% | 77% / 52% / 30% | 41% | 47% / 2% | — |
-| Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | 19% / 27% / 54% | — / — / — | 15% / 21% / 64% | 72% / 44% / 24% | 47% | 7% / 29% | — |
+| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | 2% / 5% / 93% | 1% / 2% / 98% | — / — / — | 95% / 84% / 68% | 43% | 0% / 81% | — |
+| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | 58% / 25% / 17% | — / — / — | 38% / 27% / 35% | 77% / 50% / 30% | 50% | 35% / 6% | — |
+| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | 44% / 31% / 25% | 52% / 26% / 22% | 51% / 27% / 23% | 67% / 37% / 19% | 44% | 23% / 8% | — |
+| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | 37% / 30% / 33% | 26% / 29% / 44% | — / — / — | 69% / 42% / 21% | 49% | 17% / 13% | — |
+| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | 72% / 19% / 9% | 58% / 24% / 18% | 57% / 24% / 19% | 77% / 52% / 30% | 41% | 47% / 2% | — |
+| Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | 19% / 27% / 54% | — / — / — | 13% / 20% / 66% | 72% / 44% / 24% | 47% | 7% / 29% | — |
 | Tue 17 Nov 08:10 | Amistoso | United Arab Emirates vs Syria | 81% / 14% / 5% | — / — / — | 69% / 20% / 11% | 87% / 63% / 46% | 42% | 67% / 1% | — |
-| Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | 49% / 28% / 23% | 38% / 30% / 33% | 38% / 29% / 33% | 74% / 44% / 26% | 49% | 29% / 7% | — |
-| Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | 23% / 28% / 49% | 22% / 26% / 55% | 22% / 25% / 52% | 74% / 46% / 26% | 50% | 8% / 28% | — |
-| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | 68% / 21% / 11% | 64% / 22% / 16% | — / — / — | 77% / 51% / 30% | 44% | 44% / 3% | — |
-| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | 25% / 30% / 45% | 22% / 29% / 48% | — / — / — | 66% / 39% / 18% | 45% | 9% / 22% | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | 61% / 24% / 15% | — / — / — | 49% / 26% / 25% | 76% / 50% / 29% | 48% | 34% / 6% | — |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | 38% / 28% / 34% | 42% / 26% / 32% | 41% / 26% / 33% | 78% / 51% / 31% | 56% | 16% / 18% | — |
-| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | 43% / 26% / 31% | 42% / 24% / 34% | 41% / 25% / 34% | 80% / 56% / 34% | 60% | 25% / 12% | — |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | 16% / 22% / 62% | 22% / 24% / 52% | 23% / 25% / 51% | 79% / 57% / 33% | 54% | 5% / 38% | — |
-| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | 8% / 17% / 75% | 14% / 18% / 68% | 15% / 20% / 65% | 81% / 59% / 35% | 45% | 3% / 47% | — |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | 49% / 30% / 21% | 48% / 30% / 22% | 47% / 29% / 24% | 65% / 37% / 17% | 42% | 25% / 6% | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | 48% / 29% / 23% | 44% / 29% / 26% | 44% / 29% / 27% | 68% / 43% / 20% | 48% | 25% / 7% | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | 42% / 30% / 28% | 46% / 30% / 24% | 44% / 30% / 26% | 68% / 41% / 20% | 47% | 20% / 11% | — |
-| Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | 22% / 28% / 50% | 24% / 28% / 50% | 24% / 27% / 49% | 72% / 45% / 24% | 49% | 10% / 22% | — |
+| Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | 49% / 28% / 23% | 40% / 29% / 32% | 38% / 29% / 33% | 74% / 44% / 26% | 49% | 29% / 7% | — |
+| Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | 23% / 28% / 49% | 20% / 26% / 54% | 22% / 25% / 52% | 74% / 46% / 26% | 50% | 8% / 28% | — |
+| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | 68% / 21% / 11% | 64% / 20% / 16% | — / — / — | 77% / 51% / 30% | 44% | 44% / 3% | — |
+| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | 25% / 30% / 45% | 22% / 30% / 50% | 23% / 30% / 47% | 66% / 39% / 18% | 45% | 9% / 22% | — |
+| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | 61% / 24% / 15% | — / — / — | 45% / 27% / 28% | 76% / 50% / 29% | 48% | 34% / 6% | — |
+| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | 38% / 28% / 34% | 44% / 26% / 32% | 42% / 25% / 33% | 78% / 51% / 31% | 56% | 16% / 18% | — |
+| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | 43% / 26% / 31% | 40% / 24% / 36% | 39% / 24% / 36% | 80% / 56% / 34% | 60% | 25% / 12% | — |
+| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | 16% / 22% / 62% | 22% / 24% / 52% | 24% / 25% / 51% | 79% / 57% / 33% | 54% | 5% / 38% | — |
+| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | 48% / 29% / 23% | 46% / 30% / 26% | 44% / 29% / 27% | 68% / 43% / 20% | 48% | 25% / 7% | — |
+| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | 49% / 30% / 21% | 50% / 29% / 22% | 48% / 29% / 22% | 65% / 37% / 17% | 42% | 25% / 6% | — |
+| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | 8% / 17% / 75% | 14% / 18% / 68% | 14% / 19% / 66% | 81% / 59% / 35% | 45% | 3% / 47% | — |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | 42% / 30% / 28% | 46% / 30% / 24% | 45% / 30% / 25% | 68% / 41% / 21% | 47% | 20% / 11% | — |
+| Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | 22% / 28% / 50% | 23% / 28% / 50% | 24% / 27% / 49% | 72% / 45% / 24% | 49% | 10% / 22% | — |
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | 15% / 24% / 61% | — / — / — | 26% / 29% / 45% | 73% / 48% / 25% | 47% | 4% / 36% | — |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | 91% / 7% / 2% | 90% / 6% / 4% | 87% / 9% / 5% | 91% / 77% / 57% | 39% | 77% / 0% | — |
 | Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | 69% / 20% / 10% | 90% / 6% / 4% | 87% / 8% / 5% | 79% / 54% / 33% | 45% | 47% / 3% | — |
-| Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | 86% / 11% / 3% | 84% / 12% / 4% | 79% / 13% / 7% | 85% / 63% / 44% | 32% | 71% / 0% | — |
+| Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | 86% / 11% / 3% | 84% / 12% / 4% | 80% / 13% / 7% | 85% / 63% / 44% | 32% | 71% / 0% | — |
 | Sat 28 Nov 11:00 | Amistoso | Spain vs Chile | 94% / 5% / 1% | — / — / — | — / — / — | 91% / 79% / 57% | 31% | 80% / 0% | — |
 
 ## Resumen de picks de hoy y mañana
@@ -288,61 +286,57 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Mon 16 Nov 23:30 | Amistoso | Tahiti vs Cook Islands | Ganador | Tahiti | 90% | Alta | Kalshi + modelo | 87¢ |
-| Mon 16 Nov 23:30 | Amistoso | Tahiti vs Cook Islands | Doble oportunidad | Tahiti o empate | 95% | Alta | Kalshi + modelo | — |
-| Tue 17 Nov 00:00 | Amistoso | Malaysia vs Yemen | Ganador | Malaysia | 55% | Media | modelo | — |
-| Tue 17 Nov 00:00 | Amistoso | Malaysia vs Yemen | Doble oportunidad | Malaysia o empate | 81% | Alta | modelo | — |
-| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | Ganador | Brazil | 98% | Alta | Kalshi + casas + modelo | 98¢ |
-| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | Doble oportunidad | Brazil o empate | 100% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Ganador | Kyrgyz Republic | 44% | Baja | casas + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Doble oportunidad | Kyrgyz Republic o Vietnam (no empate) | 74% | Alta | casas + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | Ganador | China | 51% | Baja | Kalshi + casas + modelo | 50¢ |
-| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | Doble oportunidad | China o empate | 78% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | Ganador | Brazil | 98% | Alta | Kalshi + modelo | 98¢ |
+| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | Doble oportunidad | Brazil o empate | 99% | Alta | Kalshi + modelo | — |
+| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Ganador | Kyrgyz Republic | 42% | Baja | casas + modelo | — |
+| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Doble oportunidad | Kyrgyz Republic o Vietnam (no empate) | 73% | Alta | casas + modelo | — |
+| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
+| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | Ganador | China | 53% | Baja | Kalshi + casas + modelo | 52¢ |
+| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | Doble oportunidad | China o empate | 79% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
-| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | Ganador | Palestine | 44% | Baja | Kalshi + modelo | 44¢ |
-| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | Doble oportunidad | Palestine o empate | 73% | Alta | Kalshi + modelo | — |
-| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | Ganador | Japan | 62% | Media | Kalshi + casas + modelo | 57¢ |
+| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | Ganador | Palestine | 45% | Baja | Kalshi + modelo | 44¢ |
+| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | Doble oportunidad | Palestine o empate | 74% | Alta | Kalshi + modelo | — |
+| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | Ganador | Japan | 63% | Media | Kalshi + casas + modelo | 58¢ |
 | Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | Doble oportunidad | Japan o empate | 85% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
-| Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Ganador | South Korea | 70% | Media | casas + modelo | — |
-| Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Doble oportunidad | South Korea o empate | 89% | Alta | casas + modelo | — |
-| Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Ganador | South Korea | 72% | Alta | casas + modelo | — |
+| Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Doble oportunidad | South Korea o empate | 90% | Alta | casas + modelo | — |
+| Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Tue 17 Nov 08:10 | Amistoso | United Arab Emirates vs Syria | Ganador | United Arab Emirates | 79% | Alta | casas + modelo | — |
 | Tue 17 Nov 08:10 | Amistoso | United Arab Emirates vs Syria | Doble oportunidad | United Arab Emirates o empate | 94% | Alta | casas + modelo | — |
 | Tue 17 Nov 08:10 | Amistoso | United Arab Emirates vs Syria | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Ganador | Saudi Arabia | 40% | Baja | Kalshi + casas + modelo | 38¢ |
-| Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Doble oportunidad | Saudi Arabia o Uzbekistan (no empate) | 71% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Goles | Menos de 2.5 | 56% | Media | casas + modelo | — |
+| Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Ganador | Saudi Arabia | 41% | Baja | Kalshi + casas + modelo | 40¢ |
+| Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Doble oportunidad | Saudi Arabia o Uzbekistan (no empate) | 72% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
 | Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Ganador | Russia | 66% | Media | Kalshi + modelo | 64¢ |
 | Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Doble oportunidad | Russia o empate | 86% | Alta | Kalshi + modelo | — |
-| Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Ganador | Australia | 58% | Media | Kalshi + casas + modelo | 55¢ |
+| Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Ganador | Australia | 58% | Media | Kalshi + casas + modelo | 54¢ |
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Doble oportunidad | Australia o empate | 82% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
-| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Ganador | Iran | 49% | Baja | Kalshi + modelo | 48¢ |
-| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Doble oportunidad | Iran o empate | 78% | Alta | Kalshi + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Ganador | Portugal | 74% | Alta | Kalshi + casas + modelo | 68¢ |
+| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Ganador | Iran | 52% | Baja | Kalshi + casas + modelo | 50¢ |
+| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Doble oportunidad | Iran o empate | 81% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Ganador | Portugal | 75% | Alta | Kalshi + casas + modelo | 68¢ |
 | Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Doble oportunidad | Portugal o empate | 90% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Ganador | Hungary | 49% | Baja | Kalshi + casas + modelo | 48¢ |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Doble oportunidad | Hungary o empate | 78% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Ganador | Republic of Ireland | 45% | Baja | Kalshi + casas + modelo | 46¢ |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Doble oportunidad | Republic of Ireland o empate | 75% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Ganador | Austria | 59% | Media | Kalshi + casas + modelo | 52¢ |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Doble oportunidad | Austria o empate | 82% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Ganador | Denmark | 42% | Baja | Kalshi + casas + modelo | 42¢ |
-| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Doble oportunidad | Denmark o Norway (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Ganador | Poland | 40% | Baja | Kalshi + casas + modelo | 42¢ |
+| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Ganador | Poland | 41% | Baja | Kalshi + casas + modelo | 44¢ |
 | Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Doble oportunidad | Poland o Sweden (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Ganador | Bosnia-Herzegovina | 53% | Baja | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Doble oportunidad | Bosnia-Herzegovina o empate | 78% | Alta | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Ganador | Ukraine | 46% | Baja | Kalshi + casas + modelo | 44¢ |
+| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Ganador | Hungary | 50% | Baja | Kalshi + casas + modelo | 50¢ |
+| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Doble oportunidad | Hungary o empate | 79% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Goles | Menos de 2.5 | 61% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Ganador | Republic of Ireland | 46% | Baja | Kalshi + casas + modelo | 46¢ |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Doble oportunidad | Republic of Ireland o empate | 76% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Ganador | Austria | 59% | Media | Kalshi + casas + modelo | 52¢ |
+| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Doble oportunidad | Austria o empate | 81% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Ganador | Denmark | 41% | Baja | Kalshi + casas + modelo | 40¢ |
+| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Doble oportunidad | Denmark o Norway (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Ganador | Bosnia-Herzegovina | 50% | Baja | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Doble oportunidad | Bosnia-Herzegovina o empate | 75% | Alta | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Ganador | Ukraine | 46% | Baja | Kalshi + casas + modelo | 46¢ |
 | Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Doble oportunidad | Ukraine o empate | 75% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Goles | Menos de 2.5 | 56% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Ganador | Honduras | 53% | Baja | Kalshi + casas + modelo | 50¢ |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Doble oportunidad | Honduras o empate | 79% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
@@ -351,11 +345,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Ganador | Argentina | 93% | Alta | Kalshi + casas + modelo | 90¢ |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Doble oportunidad | Argentina o empate | 98% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Ganador | Ecuador | 87% | Alta | Kalshi + casas + modelo | 84¢ |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 91% | Alta | Kalshi + casas + modelo | 90¢ |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 97% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Ganador | Ecuador | 88% | Alta | Kalshi + casas + modelo | 84¢ |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Doble oportunidad | Ecuador o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 92% | Alta | Kalshi + casas + modelo | 90¢ |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Ganador | New York Knicks | 59% | Media | Kalshi + casas + modelo | 58¢ |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Hándicap | New York Knicks gana por más de 3.5 | 50% | Baja | casas | 48¢ |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Total de puntos | Más de 216.5 | 50% | Baja | casas | 49¢ |
@@ -373,4 +367,34 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 7.5 | 50% | Baja | casas | 52¢ |
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Total de puntos | Más de 218.5 | 50% | Baja | casas | 49¢ |
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Puntos (línea segura) | Más de 204.5 | 78% | Alta | casas | 80¢ |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ganador | Real Unión Irun | 37% | Baja | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Doble oportunidad | Portugalete o Real Unión Irun (no empate) | 73% | Alta | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles | Más de 2.5 | 51% | Baja | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ganador | CD Sabadell | 51% | Baja | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Doble oportunidad | Utebo o CD Sabadell (no empate) | 76% | Alta | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles | Más de 2.5 | 56% | Media | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ganador | Tenerife | 45% | Baja | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Doble oportunidad | Badajoz o Tenerife (no empate) | 75% | Alta | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles | Más de 2.5 | 56% | Media | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ganador | Mallorca | 51% | Baja | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Doble oportunidad | Alcoyano o Mallorca (no empate) | 77% | Alta | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles | Más de 2.5 | 61% | Media | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ambos anotan | Sí | 62% | Media | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ganador | CD Minera | 45% | Baja | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Doble oportunidad | CD Minera o FC Cartagena (no empate) | 77% | Alta | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles | Más de 2.5 | 65% | Media | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ambos anotan | Sí | 66% | Media | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ganador | Reus FC Reddis | 37% | Baja | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Doble oportunidad | Reus FC Reddis o Barakaldo (no empate) | 73% | Alta | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles | Más de 2.5 | 52% | Baja | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ambos anotan | Sí | 57% | Media | modelo | — |
 
