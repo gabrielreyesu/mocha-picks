@@ -366,3 +366,13 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-16T23:27:15.730097+00:00,401910004,2026-11-18T01:00Z,San Antonio Spurs,Detroit Pistons,0.70278,0.69629,-2.678,5.041,,Isaiah Joe; Ronald Holland II; Taurean Prince; Duncan Robinson,3,1533.0
 2026-11-16T23:27:15.730097+00:00,401910006,2026-11-18T03:30Z,LA Clippers,Utah Jazz,0.79621,0.75803,0.072,-1.012,,Lauri Markkanen,6,1683.0
 2026-11-16T23:27:15.730097+00:00,401910005,2026-11-18T04:00Z,Los Angeles Lakers,Charlotte Hornets,0.78993,0.82997,-0.357,15.014,,Kon Knueppel; Dennis Schroder,0,1713.0
+2026-11-17T00:28:29.346624+00:00,401909997,2026-11-17T00:30Z,Brooklyn Nets,Philadelphia 76ers,0.36161,0.3327,-0.641,-9.311,,Adem Bona; LeBron James,2,2.0
+2026-11-17T00:28:29.346624+00:00,401909998,2026-11-17T00:30Z,Miami Heat,Houston Rockets,0.51068,0.53072,0.135,-0.11,Nikola Jovic; Pelle Larsson,Marcus Smart; Steven Adams; Clint Capela; Amen Thompson,0,2.0
+2026-11-17T00:28:29.346624+00:00,401909999,2026-11-17T01:00Z,Minnesota Timberwolves,Portland Trail Blazers,0.62469,0.60859,-0.158,-0.866,Anthony Edwards; Jaylen Clark,Vit Krejci; Chris Youngblood; Ja Morant,2,32.0
+2026-11-17T00:28:29.346624+00:00,401910000,2026-11-17T01:00Z,New Orleans Pelicans,Golden State Warriors,0.2807,0.39272,4.672,4.674,Trey Murphy III; Trendon Watford; Dejounte Murray; Bennedict Mathurin; Bryce McGowens,Brandon Williams; Stephen Curry,3,32.0
+2026-11-17T00:28:29.346624+00:00,401910001,2026-11-17T02:00Z,Denver Nuggets,Phoenix Suns,0.75515,0.77698,-1.646,9.096,,,2,92.0
+2026-11-17T00:28:29.346624+00:00,401910002,2026-11-18T00:30Z,Toronto Raptors,New York Knicks,0.34426,0.39128,2.979,-1.782,,,2,1442.0
+2026-11-17T00:28:29.346624+00:00,401910003,2026-11-18T01:00Z,Minnesota Timberwolves,Portland Trail Blazers,0.62469,0.60859,-0.158,-0.866,Anthony Edwards; Jaylen Clark,Vit Krejci; Chris Youngblood; Ja Morant,2,1472.0
+2026-11-17T00:28:29.346624+00:00,401910004,2026-11-18T01:00Z,San Antonio Spurs,Detroit Pistons,0.70278,0.6963,-2.673,5.04,,Isaiah Joe; Duncan Robinson; Ronald Holland II; Taurean Prince,3,1472.0
+2026-11-17T00:28:29.346624+00:00,401910006,2026-11-18T03:30Z,LA Clippers,Utah Jazz,0.79621,0.75805,0.073,-1.009,,Lauri Markkanen,6,1622.0
+2026-11-17T00:28:29.346624+00:00,401910005,2026-11-18T04:00Z,Los Angeles Lakers,Charlotte Hornets,0.78993,0.82987,-0.355,14.99,,Dennis Schroder; Kon Knueppel,0,1652.0
