@@ -143,6 +143,11 @@ dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px;margi
 .gl{display:grid;grid-template-columns:22px 1fr auto;gap:8px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line);font-size:13px}.gl:last-child{border-bottom:0}
 .gl .o{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.gl .m{color:var(--muted);font-size:11px}.gl b{font-variant-numeric:tabular-nums}
 .two{display:grid;gap:10px}
+.an{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px 14px;margin-top:10px}
+.an h3{margin:0 0 4px;font-size:15px;display:flex;align-items:center;gap:6px}.an .tl{font-weight:700;margin-bottom:6px}
+.an ul{margin:4px 0 8px;padding-left:18px}.an li{margin:4px 0;font-size:14px;line-height:1.4}.an .k{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin-top:8px}
+.an .k.g{color:var(--good)}.an .k.w{color:var(--mid)}.an .k.m{color:var(--muted)}
+.an details summary{cursor:pointer;color:var(--away);font-weight:700;font-size:13px;margin-top:6px}
 .src{font-size:11px;color:var(--muted);margin:14px 2px 0;line-height:1.45}
 nav.bottom{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(5,1fr);background:rgba(11,13,16,.96);backdrop-filter:blur(8px);
 border-top:1px solid var(--line);padding:8px 0 calc(8px + env(safe-area-inset-bottom));z-index:10}
@@ -288,6 +293,15 @@ function scorers(g) {
   const col = k => ev.filter(e => e.t === k).map(e => e.k === "g" ? `⚽ ${esc(e.p)} ${esc(e.m)}${e.pen ? " (p)" : ""}${e.og ? " (pp)" : ""}` : `<span class="rc">▮ ${esc(e.p)} ${esc(e.m)}</span>`).join("<br>");
   return `<div class="scorers"><div>${col(s.lk)}</div><div>${col(s.rk)}</div></div>`;
 }
+function analysis(g) {
+  const a = g.an; if (!a) return "";
+  const ul = l => `<ul>${l.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+  return `<section class="an"><h3>📝 Análisis</h3><div class="tl">${esc(a.titular)}</div>
+    ${a.puntos.length ? `<div class="k g">Por qué</div>${ul(a.puntos)}` : ""}
+    ${a.contra.length ? `<div class="k w">A tener en cuenta</div>${ul(a.contra)}` : ""}
+    ${a.datos.length ? `<details${a.puntos.length + a.contra.length < 2 ? " open" : ""}><summary>Datos del partido (${a.datos.length})</summary>${ul(a.datos)}</details>` : ""}
+    <div class="src" style="margin-top:6px">Texto generado a partir de nuestros datos. No es una recomendación de apuesta.</div></section>`;
+}
 function kcard(icon, label, val, frac, lg, lgLabel) {
   return `<div class="kc"><div class="kl">${esc(label)}</div><div class="kv">${SV[icon] || ""}${val}</div>
     <div class="meter"><span style="width:${Math.max(0, Math.min(100, 100 * (frac ?? 0))).toFixed(0)}%"></span></div>
@@ -404,6 +418,7 @@ function detailHTML(g) {
       </div>${scorers(g)}
     </div>
     <div class="match" style="margin-top:10px;padding-top:10px">${pickStrip(g)}${gap(g)}</div>
+    ${analysis(g)}
     <div class="dtabs" role="tablist">${tabs.map(([k, l, ic]) => `<button data-tab="${k}" aria-current="${S.tab === k}">${SV[ic]}${l}</button>`).join("")}</div>
     ${body}
     <div class="src">Estadísticas: ESPN, últimos 10 partidos de cada equipo antes de este encuentro (todas las competiciones). Los valores

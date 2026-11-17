@@ -26,7 +26,7 @@ def oos(grp: str) -> pd.DataFrame:
     g = load_group(grp, verbose=False)
     f = IntlEngine(CONFIGS[grp]).process(g)
     f["eval"] = f["target"] | f["code"].isin(BIG5) if grp == "clubes" else f["target"]
-    r = walk_forward(f, first_year=2020, features=GROUP_FEATURES[grp], eval_col="eval")
+    r = walk_forward(f, first_year=2020, features=GROUP_FEATURES[grp], eval_col="eval", et_as_draw=True)   # 1X2 a 90' (CORRECCION_90MIN.md)
     return r[["event_id", "date", "code", "res", "p_H", "p_D", "p_A"]].assign(event_id=lambda x: x["event_id"].astype(str))
 
 

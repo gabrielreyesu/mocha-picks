@@ -52,4 +52,4 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Copas nacionales con categoría del equipo + divisiones inferiores (v2) | fútbol | ✅ | Todas juntas +0,081 [+0,063; +0,099], ECE 0,014 (2.993 partidos) | `NUEVAS_LIGAS.md` |
 | Libertadores y Sudamericana con el modelo | fútbol | ❌ | Mejoran a la referencia pero descalibradas (ECE 0,056 / 0,052): pick solo con casas o Kalshi (BETA) | `NUEVAS_LIGAS.md` |
 | Cuotas de The Odds API para copas y ligas nuevas | fútbol | ⏳ | Conectado; se activa con el secreto ODDS_API_KEY | `kalshi_intl/odds_api.py` |
-| Revisar eliminatorias europeas con prórroga = empate a 90' | fútbol | ⏳ | El mismo sesgo de evaluación puede afectar a backtests antiguos del grupo clubes | `NUEVAS_LIGAS.md` |
+| Eliminatorias con prórroga = empate a 90' (copas europeas y selecciones) | fútbol | ✅ | Revisado: 2% de partidos afectados; el modelo sigue pasando (ECE 0,028/0,030); etiquetas corregidas en aciertos y evaluación | `CORRECCION_90MIN.md` |

@@ -102,6 +102,7 @@ def games_us(lg: str, now, finals) -> list:
                     "rows": [["Modelo", model], ["Casas", [bh, None if bh is None else 1 - bh]],
                              ["Kalshi", [kh, None if kh is None else 1 - kh]], ["Polymarket", [ph, None if ph is None else 1 - ph]]],
                     "kp": {"margin": _f(x.mu_margin), "total": _f(x.mu_total)},
+                    "rest": [_f(getattr(x, "rest_h", None)), _f(getattr(x, "rest_a", None))],
                     "extra": [["Diferencia esperada", f"{x.home if x.mu_margin >= 0 else x.away} por {abs(x.mu_margin):.1f} pts"],
                               ["Total esperado", f"{x.mu_total:.0f} pts"]],
                     "inj": {"home": inj.get(str(getattr(x, "home_id", "")), []), "away": inj.get(str(getattr(x, "away_id", "")), [])},
@@ -302,6 +303,13 @@ def collect(now=None, score_getter=None) -> dict:
         g["detail"] = sc["detail"] if sc else ""
         g["ev"] = (sc or {}).get("ev") or []
         g["hit"] = hit(g, sc)
+    from .analisis import _fiab, analyze
+    fiab = _fiab()
+    for g in games:
+        try:
+            g["an"] = analyze(g, fiab)
+        except Exception:  # noqa: BLE001 - un análisis que falla no rompe la página
+            g["an"] = None
     from .estadisticas import comp_names
     for g in games:                                      # código de competición también para NBA/NFL (sección Ligas)
         g.setdefault("code", g["sport"] if g["sport"] in ("nba", "nfl") else None)

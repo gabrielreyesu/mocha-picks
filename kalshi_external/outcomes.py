@@ -8,7 +8,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-REGULATION = {"STATUS_FULL_TIME", "STATUS_FINAL"}          # fútbol: sin prórroga ni penales (mercado a 90 min)
+REGULATION = {"STATUS_FULL_TIME", "STATUS_FINAL"}          # fútbol: resultado a 90 minutos
+EXTRA_TIME = {"STATUS_FINAL_AET", "STATUS_FINAL_PEN"}      # prórroga/penales = EMPATE a los 90' (CORRECCION_90MIN.md)
 COLUMNS = ["event_id", "sport", "result"]
 
 
@@ -18,8 +19,9 @@ def outcomes_from_games(games: pd.DataFrame, sport: str) -> pd.DataFrame:
         return pd.DataFrame(columns=COLUMNS)
     g = games.copy()
     if sport in ("intl", "club"):
-        g = g[g["status"].isin(REGULATION) & g["hs"].notna() & g["as_"].notna()]
-        res = g.apply(lambda r: "H" if r.hs > r.as_ else ("D" if r.hs == r.as_ else "A"), axis=1) if len(g) else pd.Series(dtype=str)
+        g = g[g["status"].isin(REGULATION | EXTRA_TIME) & g["hs"].notna() & g["as_"].notna()]
+        res = g.apply(lambda r: "D" if r.status in EXTRA_TIME else ("H" if r.hs > r.as_ else ("D" if r.hs == r.as_ else "A")), axis=1) \
+            if len(g) else pd.Series(dtype=str)
     else:
         g = g[(g["status"] == "STATUS_FINAL") & g["hs"].notna() & g["as_"].notna() & (g["hs"] != g["as_"])]
         res = g.apply(lambda r: "H" if r.hs > r.as_ else "A", axis=1) if len(g) else pd.Series(dtype=str)

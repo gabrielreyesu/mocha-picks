@@ -10,6 +10,7 @@ on:
       - 'kalshi_nba/pagina_template.html'
       - 'kalshi_nba/marcadores.py'
       - 'kalshi_nba/estadisticas.py'
+      - 'kalshi_nba/analisis.py'
       - 'kalshi_nba/progreso.py'
       - 'kalshi_nba/picks.py'
       - 'kalshi_nba/resumen.py'
