@@ -56,3 +56,4 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Suspensiones (rojas y 5.ª amarilla) frente a las casas | fútbol | ❌ | -0.0000 [-0.0003; +0.0003] en 5,477 partidos: el mercado ya las incorpora | `SUSPENSIONES_RESEARCH.md` |
 | Ponderar casas (por casa) frente a la mediana | NBA/NFL | ❌ | NBA -0.0011, NFL -0.0010 (IC con 0). Lo que importa es el momento: la cuota de cierre gana a la de apertura | `CASAS_RESEARCH.md` |
 | Precios tomados justo antes del partido (flujo prepartido) | todos | ⏳ | Activado: foto cada 30 min en las 2,5 h previas; se medirá frente a la foto diaria | `.github/workflows/prepartido.yml` |
+| Eficiencia ofensiva/defensiva y ritmo (box score) en el modelo | NBA | ❌ | Confirmación +0.0005 [-0.0001; +0.0012]: el Elo y la forma ya lo recogen | `EFICIENCIA_RESEARCH.md` |

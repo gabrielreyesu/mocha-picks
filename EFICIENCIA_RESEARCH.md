@@ -26,5 +26,18 @@ El modelo NBA usa Elo, forma por puntos y descanso. ¿Mejora si sabe **cuántos 
 - **Si supera el criterio frente al modelo:** se propone en sombra para el modelo NBA, porque reduce la brecha con el
   mercado. Producción no cambia sin autorización.
 
-## Resultados
-(pendiente)
+## Resultados (17/11/2026)
+- **Cobertura:** box score en 14.180 de 14.184 partidos.
+- **Desarrollo** (2019–2024): A +0.00021 [-0.00005; +0.00047]. B y C quedan peor. Se elige A.
+- **Confirmación** (2025 en adelante, 2,834 partidos): +0.00050 [-0.00015; +0.00120],
+  Brier +0.00026. → **❌ NO SUPERA EL CRITERIO.** La mejora es pequeña y no confirmada.
+- **Frente al mercado:** mercado + eficiencia frente al mercado recalibrado, -0.00011 [-0.00031; +0.00010]. No aporta.
+- **Brecha actual del modelo** (mismos 10,246 partidos con mercado): modelo 0.6213 frente a mercado
+  0.5982, una diferencia de +0.0231.
+
+**Conclusión:** el Elo con margen y la forma por puntos (`net15_diff`) ya recogen casi toda la información de eficiencia.
+Los puntos por posesión no cierran la brecha. Lo que el mercado sabe y el modelo no está, sobre todo, en **quién juega**
+(lesiones, descansos, alineaciones): la idea 6, que ya está en sombra.
+
+Durante la ejecución se encontró y corrigió un error: las estadísticas vacías (NaN) de los jugadores que no jugaron
+contaminaban todos los promedios. La primera ejecución, con todas las variables vacías, se descartó.
