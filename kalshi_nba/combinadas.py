@@ -217,3 +217,22 @@ def picks_summary(folder: Path) -> list:
     for m, x in d.groupby("grupo"):
         out.append({"mercado": m, "n": int(len(x)), "prob_media": round(float(x["prob"].mean()), 4), "acierto": round(float(x["acierto"].mean()), 4)})
     return sorted(out, key=lambda r: -r["n"])
+
+
+def comp_summary(folder: Path, min_n: int = 10) -> list:
+    """Acierto del pick de GANADOR por competición (para saber en qué ligas confiar más)."""
+    path = folder / PICKS_FILE
+    if not path.exists():
+        return []
+    d = pd.read_csv(path, dtype={"id": str})
+    d = d[d["mercado"] == "Ganador"]
+    comp = {}
+    for f, idc, cc in (("intl_registry.csv", "event_id", "competicion"), ("registry.csv", "match_id", "competition")):
+        p = folder / f
+        if p.exists():
+            r = pd.read_csv(p, dtype={idc: str}, usecols=[idc, cc])
+            comp.update(dict(zip(r[idc].astype(str), r[cc])))
+    d["comp"] = [("NBA" if s == "nba" else "NFL" if s == "nfl" else comp.get(i, "Otras")) for s, i in zip(d["sport"], d["id"])]
+    out = [{"comp": c, "n": int(len(x)), "prob_media": round(float(x["prob"].mean()), 4), "acierto": round(float(x["acierto"].mean()), 4)}
+           for c, x in d.groupby("comp") if len(x) >= min_n]
+    return sorted(out, key=lambda r: -r["n"])

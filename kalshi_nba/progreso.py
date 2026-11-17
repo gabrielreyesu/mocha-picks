@@ -97,13 +97,13 @@ def collect(now=None) -> dict:
               "logloss": x.get("logloss_final"), "con_mercado": x.get("con_mercado")} for x in fs.get("by_sport", [])]
     fia = Path(__file__).with_name("fiabilidad.json")
     fiab = json.loads(fia.read_text()).get("deportes", {}) if fia.exists() else {}
-    from .combinadas import picks_summary, summary
+    from .combinadas import comp_summary, picks_summary, summary
     try:
-        mercados, combis = picks_summary(P), summary(P)
+        mercados, combis, comps = picks_summary(P), summary(P), comp_summary(P)
     except Exception:  # noqa: BLE001
-        mercados, combis = [], {}
+        mercados, combis, comps = [], {}, []
     return {"updated": now.isoformat(), "shadows": shadows, "picks": picks, "picks_updated": fs.get("updated_utc"), "fiabilidad": fiab,
-            "mercados": mercados, "combis": combis,
+            "mercados": mercados, "combis": combis, "comps": comps,
             "backtests": BACKTESTS, "next": NEXT}
 
 
@@ -183,6 +183,8 @@ footer{color:var(--muted);font-size:12px;padding-bottom:30px}
   <div class="card" id="picks"></div>
   <h2>Acierto por mercado</h2>
   <div class="card" id="mercados"></div>
+  <h2>Acierto por competición (ganador)</h2>
+  <div class="card" id="comps"></div>
   <h2>Combinadas publicadas</h2>
   <div class="card" id="combis"></div>
   <div id="lockbox"></div>
@@ -198,7 +200,7 @@ footer{color:var(--muted);font-size:12px;padding-bottom:30px}
   <div class="card"><ul class="list" id="next"></ul></div>
   </div>
 </main>
-<footer><p>No es una recomendación de apuesta. Mocha Picks no ejecuta apuestas.</p></footer>
+<footer><p>No es una recomendación de apuesta. Mocha Picks no ejecuta apuestas. <a href="legal.html">Aviso legal y juego responsable</a>.</p></footer>
 <script>
 const D = __DATA__;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -248,6 +250,12 @@ document.getElementById("mercados").innerHTML = M.length
      <td class="n ${Math.abs(x.acierto - x.prob_media) <= .05 ? "good" : "mid"}">${pc(x.acierto)}</td></tr>`).join("")}</table>
      <p class="small">Todas las jugadas publicadas ya resueltas (en fútbol, a 90 minutos). Si «acertó» ≈ «dijimos», las probabilidades de ese mercado son fiables. Con pocas jugadas varía mucho.</p>`
   : `<p class="small">Aún no hay jugadas resueltas registradas. Se empiezan a registrar desde esta versión.</p>`;
+const CP = D.comps || [];
+document.getElementById("comps").innerHTML = CP.length
+  ? `<table><tr><th>Competición</th><th>Partidos</th><th>Dijimos</th><th>Acertó</th></tr>${CP.map(x => `<tr><td>${esc(x.comp)}</td><td class="n">${x.n}</td><td class="n">${pc(x.prob_media)}</td>
+     <td class="n ${x.acierto >= x.prob_media - .05 ? "good" : "mid"}">${pc(x.acierto)}</td></tr>`).join("")}</table>
+     <p class="small">Solo competiciones con al menos 10 picks de ganador resueltos. Con pocos partidos, la diferencia entre «dijimos» y «acertó» es sobre todo azar.</p>`
+  : `<p class="small">Aún no hay suficientes picks resueltos por competición.</p>`;
 const C = (D.combis || {}).por_perfil || [];
 document.getElementById("combis").innerHTML = C.length
   ? `<table><tr><th>Combinada</th><th>Publicadas</th><th>Prob. media</th><th>Acertadas</th><th>Cuota media</th></tr>${C.map(x => `<tr><td>${esc(x.perfil)}</td><td class="n">${x.n}</td><td class="n">${pc(x.prob_media)}</td><td class="n">${x.aciertos} (${pc(x.acierto)})</td><td class="n">${x.cuota_media.toFixed(2)}</td></tr>`).join("")}</table>
