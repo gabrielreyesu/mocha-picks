@@ -233,3 +233,6 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,intl,401930880,Ganador,China,0.5303,Kalshi + casas + modelo,0
 2026-11-17,intl,401930880,Doble oportunidad,China o empate,0.788,Kalshi + casas + modelo,1
 2026-11-17,intl,401930880,Goles,Menos de 2.5,0.5423,casas + modelo,0
+2026-11-17,intl,401916336,Ganador,Japan,0.6304,Kalshi + casas + modelo,0
+2026-11-17,intl,401916336,Doble oportunidad,Japan o empate,0.8452,Kalshi + casas + modelo,0
+2026-11-17,intl,401916336,Goles,Más de 2.5,0.5339,casas + modelo,1

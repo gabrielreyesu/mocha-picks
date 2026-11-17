@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 17 Nov 2026 08:29 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 17 Nov 2026 09:18 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -282,14 +282,23 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Ganador | Saudi Arabia | 41% | Baja | Kalshi + casas + modelo | 40¢ |
 | Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Doble oportunidad | Saudi Arabia o Uzbekistan (no empate) | 72% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
+| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Ganador | Russia | 71% | Alta | Kalshi + modelo | 68¢ |
+| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Doble oportunidad | Russia o empate | 89% | Alta | Kalshi + modelo | — |
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Ganador | Australia | 62% | Media | Kalshi + casas + modelo | 57¢ |
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Doble oportunidad | Australia o empate | 84% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Goles | Menos de 2.5 | 50% | Baja | casas + modelo | — |
-| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Ganador | Russia | 71% | Alta | Kalshi + modelo | 68¢ |
-| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Doble oportunidad | Russia o empate | 89% | Alta | Kalshi + modelo | — |
 | Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Ganador | Iran | 53% | Baja | Kalshi + casas + modelo | 50¢ |
 | Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Doble oportunidad | Iran o empate | 81% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Ganador | Poland | 43% | Baja | Kalshi + casas + modelo | 44¢ |
+| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Doble oportunidad | Poland o Sweden (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Ganador | Norway | 40% | Baja | Kalshi + casas + modelo | 40¢ |
+| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Doble oportunidad | Denmark o Norway (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Ganador | Austria | 59% | Media | Kalshi + casas + modelo | 54¢ |
+| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Doble oportunidad | Austria o empate | 81% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Ganador | Republic of Ireland | 47% | Baja | Kalshi + casas + modelo | 46¢ |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Doble oportunidad | Republic of Ireland o empate | 77% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Ganador | Portugal | 75% | Alta | Kalshi + casas + modelo | 70¢ |
 | Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Doble oportunidad | Portugal o empate | 90% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Ganador | Ukraine | 46% | Baja | Kalshi + casas + modelo | 46¢ |
@@ -301,15 +310,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Ganador | Hungary | 50% | Baja | Kalshi + casas + modelo | 50¢ |
 | Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Doble oportunidad | Hungary o empate | 79% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Goles | Menos de 2.5 | 58% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Ganador | Republic of Ireland | 47% | Baja | Kalshi + casas + modelo | 46¢ |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Doble oportunidad | Republic of Ireland o empate | 77% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Ganador | Austria | 59% | Media | Kalshi + casas + modelo | 54¢ |
-| Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Doble oportunidad | Austria o empate | 81% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Ganador | Norway | 40% | Baja | Kalshi + casas + modelo | 40¢ |
-| Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Doble oportunidad | Denmark o Norway (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Ganador | Poland | 43% | Baja | Kalshi + casas + modelo | 44¢ |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Doble oportunidad | Poland o Sweden (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Ganador | Honduras | 53% | Baja | Kalshi + casas + modelo | 50¢ |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Doble oportunidad | Honduras o empate | 79% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
@@ -409,4 +409,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 19:00 | NBA | Detroit Pistons en New Orleans Pelicans | Ganador | Detroit Pistons | 70% | Media | Kalshi + modelo | 70¢ |
 | Wed 18 Nov 19:00 | NBA | Atlanta Hawks en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 67% | Media | Kalshi + modelo | 67¢ |
 | Wed 18 Nov 20:00 | NBA | Boston Celtics en Denver Nuggets | Ganador | Boston Celtics | 56% | Media | Kalshi + modelo | 56¢ |
+| Wed 18 Nov 20:30 | NBA | Golden State Warriors en Dallas Mavericks | Ganador | Dallas Mavericks | 63% | Media | Kalshi + modelo | 63¢ |
+| Wed 18 Nov 21:00 | NBA | Phoenix Suns en Sacramento Kings | Ganador | Phoenix Suns | 68% | Media | Kalshi + modelo | 67¢ |
+| Wed 18 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Ganador | Los Angeles Lakers | 87% | Alta | Kalshi + modelo | 86¢ |
 
