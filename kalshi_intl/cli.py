@@ -176,4 +176,8 @@ def cmd_backtest():
 
 
 if __name__ == "__main__":
-    {"predict": cmd_predict, "evaluate": cmd_evaluate, "backtest": cmd_backtest}[sys.argv[1] if len(sys.argv) > 1 else "predict"]()
+    cmd = sys.argv[1] if len(sys.argv) > 1 else "predict"
+    if cmd == "predict" and "--days" in sys.argv:            # p. ej. el refresco previo al partido: --days 1
+        cmd_predict(days=int(sys.argv[sys.argv.index("--days") + 1]))
+    else:
+        {"predict": cmd_predict, "evaluate": cmd_evaluate, "backtest": cmd_backtest}[cmd]()
