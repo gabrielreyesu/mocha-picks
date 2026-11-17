@@ -244,3 +244,11 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,intl,401932718,Ganador,United Arab Emirates,0.7953,casas + modelo,1
 2026-11-17,intl,401932718,Doble oportunidad,United Arab Emirates o empate,0.9391,casas + modelo,1
 2026-11-17,intl,401932718,Goles,Menos de 2.5,0.5078,casas + modelo,0
+2026-11-17,intl,401931495,Ganador,Saudi Arabia,0.4115,Kalshi + casas + modelo,0
+2026-11-17,intl,401931495,Doble oportunidad,Saudi Arabia o Uzbekistan (no empate),0.7211,Kalshi + casas + modelo,1
+2026-11-17,intl,401931495,Goles,Menos de 2.5,0.5546,casas + modelo,0
+2026-11-17,intl,401930978,Ganador,Russia,0.7098,Kalshi + modelo,1
+2026-11-17,intl,401930978,Doble oportunidad,Russia o empate,0.8876,Kalshi + modelo,1
+2026-11-17,intl,401919974,Ganador,Australia,0.6236,Kalshi + casas + modelo,0
+2026-11-17,intl,401919974,Doble oportunidad,Australia o empate,0.8429,Kalshi + casas + modelo,0
+2026-11-17,intl,401919974,Goles,Menos de 2.5,0.501,casas + modelo,1
