@@ -258,3 +258,21 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,intl,401931956,Ganador,Honduras,0.5314,Kalshi + casas + modelo,1
 2026-11-17,intl,401931956,Doble oportunidad,Honduras o empate,0.7945,Kalshi + casas + modelo,1
 2026-11-17,intl,401931956,Goles,Menos de 2.5,0.5229,casas + modelo,1
+2026-11-17,intl,401861189,Ganador,Portugal,0.7607,Kalshi + casas + modelo,1
+2026-11-17,intl,401861189,Doble oportunidad,Portugal o empate,0.9086,Kalshi + casas + modelo,1
+2026-11-17,intl,401861191,Ganador,Hungary,0.4904,Kalshi + casas + modelo,0
+2026-11-17,intl,401861191,Doble oportunidad,Hungary o empate,0.784,Kalshi + casas + modelo,1
+2026-11-17,intl,401861191,Goles,Menos de 2.5,0.5874,casas + modelo,1
+2026-11-17,intl,401861192,Ganador,Republic of Ireland,0.4745,Kalshi + casas + modelo,1
+2026-11-17,intl,401861192,Doble oportunidad,Republic of Ireland o empate,0.7693,Kalshi + casas + modelo,1
+2026-11-17,intl,401861192,Goles,Menos de 2.5,0.5958,casas + modelo,0
+2026-11-17,intl,401861193,Ganador,Austria,0.5931,Kalshi + casas + modelo,0
+2026-11-17,intl,401861193,Doble oportunidad,Austria o empate,0.8139,Kalshi + casas + modelo,1
+2026-11-17,intl,401861195,Ganador,Poland,0.3983,Kalshi + casas + modelo,0
+2026-11-17,intl,401861195,Doble oportunidad,Poland o Sweden (no empate),0.758,Kalshi + casas + modelo,0
+2026-11-17,intl,401861196,Ganador,Bosnia-Herzegovina,0.5051,casas + modelo,1
+2026-11-17,intl,401861196,Doble oportunidad,Bosnia-Herzegovina o empate,0.7619,casas + modelo,1
+2026-11-17,intl,401861196,Goles,Más de 2.5,0.567,casas + modelo,1
+2026-11-17,intl,401861190,Ganador,Ukraine,0.4566,Kalshi + casas + modelo,1
+2026-11-17,intl,401861190,Doble oportunidad,Ukraine o empate,0.7534,Kalshi + casas + modelo,1
+2026-11-17,intl,401861190,Goles,Menos de 2.5,0.5815,casas + modelo,1
