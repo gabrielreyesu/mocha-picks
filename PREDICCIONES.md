@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 17 Nov 2026 02:21 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 17 Nov 2026 07:14 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -252,11 +252,6 @@ En selecciones, las columnas de goles son poco fiables: en el backtest el "más 
 
 | Fecha (hora Chicago) | Competición | Partido | Modelo: local / empate / visita | Kalshi | Casas | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | 2% / 5% / 93% | 1% / 2% / 98% | — / — / — | 95% / 84% / 68% | 43% | 0% / 81% | — |
-| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | 58% / 25% / 17% | — / — / — | 38% / 27% / 35% | 77% / 50% / 30% | 50% | 35% / 6% | — |
-| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | 44% / 31% / 25% | 52% / 26% / 22% | 51% / 27% / 23% | 67% / 37% / 19% | 44% | 23% / 8% | — |
-| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | 37% / 30% / 33% | 26% / 29% / 44% | — / — / — | 69% / 42% / 21% | 49% | 17% / 13% | — |
-| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | 72% / 19% / 9% | 58% / 24% / 18% | 57% / 24% / 19% | 77% / 52% / 30% | 41% | 47% / 2% | — |
 | Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | 19% / 27% / 54% | — / — / — | 13% / 20% / 66% | 72% / 44% / 24% | 47% | 7% / 29% | — |
 | Tue 17 Nov 08:10 | Amistoso | United Arab Emirates vs Syria | 81% / 14% / 5% | — / — / — | 69% / 20% / 11% | 87% / 63% / 46% | 42% | 67% / 1% | — |
 | Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | 49% / 28% / 23% | 40% / 29% / 32% | 38% / 29% / 33% | 74% / 44% / 26% | 49% | 29% / 7% | — |
@@ -267,15 +262,15 @@ En selecciones, las columnas de goles son poco fiables: en el backtest el "más 
 | Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | 38% / 28% / 34% | 44% / 26% / 32% | 42% / 25% / 33% | 78% / 51% / 31% | 56% | 16% / 18% | — |
 | Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | 43% / 26% / 31% | 40% / 24% / 36% | 39% / 24% / 36% | 80% / 56% / 34% | 60% | 25% / 12% | — |
 | Tue 17 Nov 13:45 | Nations League | Israel vs Austria | 16% / 22% / 62% | 22% / 24% / 52% | 24% / 25% / 51% | 79% / 57% / 33% | 54% | 5% / 38% | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | 48% / 29% / 23% | 46% / 30% / 26% | 44% / 29% / 27% | 68% / 43% / 20% | 48% | 25% / 7% | — |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | 49% / 30% / 21% | 50% / 29% / 22% | 48% / 29% / 22% | 65% / 37% / 17% | 42% | 25% / 6% | — |
-| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | 8% / 17% / 75% | 14% / 18% / 68% | 14% / 19% / 66% | 81% / 59% / 35% | 45% | 3% / 47% | — |
 | Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | 42% / 30% / 28% | 46% / 30% / 24% | 45% / 30% / 25% | 68% / 41% / 21% | 47% | 20% / 11% | — |
+| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | 49% / 30% / 21% | 50% / 29% / 22% | 48% / 29% / 22% | 65% / 37% / 17% | 42% | 25% / 6% | — |
+| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | 48% / 29% / 23% | 46% / 30% / 26% | 44% / 29% / 27% | 68% / 43% / 20% | 48% | 25% / 7% | — |
+| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | 8% / 17% / 75% | 14% / 18% / 68% | 14% / 19% / 66% | 81% / 59% / 35% | 45% | 3% / 47% | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | 22% / 28% / 50% | 23% / 28% / 50% | 24% / 27% / 49% | 72% / 45% / 24% | 49% | 10% / 22% | — |
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | 15% / 24% / 61% | — / — / — | 26% / 29% / 45% | 73% / 48% / 25% | 47% | 4% / 36% | — |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | 91% / 7% / 2% | 90% / 6% / 4% | 87% / 9% / 5% | 91% / 77% / 57% | 39% | 77% / 0% | — |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | 69% / 20% / 10% | 90% / 6% / 4% | 87% / 8% / 5% | 79% / 54% / 33% | 45% | 47% / 3% | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | 86% / 11% / 3% | 84% / 12% / 4% | 80% / 13% / 7% | 85% / 63% / 44% | 32% | 71% / 0% | — |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | 69% / 20% / 10% | 90% / 6% / 4% | 87% / 8% / 5% | 79% / 54% / 33% | 45% | 47% / 3% | — |
 | Sat 28 Nov 11:00 | Amistoso | Spain vs Chile | 94% / 5% / 1% | — / — / — | — / — / — | 91% / 79% / 57% | 31% | 80% / 0% | — |
 
 ## Resumen de picks de hoy y mañana
@@ -286,19 +281,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | Ganador | Brazil | 98% | Alta | Kalshi + modelo | 98¢ |
-| Tue 17 Nov 04:00 | Amistoso | Singapore vs Brazil | Doble oportunidad | Brazil o empate | 99% | Alta | Kalshi + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Ganador | Kyrgyz Republic | 42% | Baja | casas + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Doble oportunidad | Kyrgyz Republic o Vietnam (no empate) | 73% | Alta | casas + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | Kyrgyz Republic vs Vietnam | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | Ganador | China | 53% | Baja | Kalshi + casas + modelo | 52¢ |
-| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | Doble oportunidad | China o empate | 79% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 06:00 | Amistoso | China vs Bahrain | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
-| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | Ganador | Palestine | 45% | Baja | Kalshi + modelo | 44¢ |
-| Tue 17 Nov 07:00 | Amistoso | Lebanon vs Palestine | Doble oportunidad | Palestine o empate | 74% | Alta | Kalshi + modelo | — |
-| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | Ganador | Japan | 63% | Media | Kalshi + casas + modelo | 58¢ |
-| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | Doble oportunidad | Japan o empate | 85% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 07:10 | Amistoso | Japan vs Paraguay | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Ganador | South Korea | 72% | Alta | casas + modelo | — |
 | Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Doble oportunidad | South Korea o empate | 90% | Alta | casas + modelo | — |
 | Tue 17 Nov 08:00 | Amistoso | Qatar vs South Korea | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
@@ -308,18 +290,22 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Ganador | Saudi Arabia | 41% | Baja | Kalshi + casas + modelo | 40¢ |
 | Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Doble oportunidad | Saudi Arabia o Uzbekistan (no empate) | 72% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 09:30 | Amistoso | Saudi Arabia vs Uzbekistan | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
-| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Ganador | Russia | 66% | Media | Kalshi + modelo | 64¢ |
-| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Doble oportunidad | Russia o empate | 86% | Alta | Kalshi + modelo | — |
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Ganador | Australia | 58% | Media | Kalshi + casas + modelo | 54¢ |
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Doble oportunidad | Australia o empate | 82% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
+| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Ganador | Russia | 66% | Media | Kalshi + modelo | 64¢ |
+| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Doble oportunidad | Russia o empate | 86% | Alta | Kalshi + modelo | — |
 | Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Ganador | Iran | 52% | Baja | Kalshi + casas + modelo | 50¢ |
 | Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Doble oportunidad | Iran o empate | 81% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Ganador | Portugal | 75% | Alta | Kalshi + casas + modelo | 68¢ |
 | Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | Doble oportunidad | Portugal o empate | 90% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Ganador | Poland | 41% | Baja | Kalshi + casas + modelo | 44¢ |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Doble oportunidad | Poland o Sweden (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Ganador | Bosnia-Herzegovina | 50% | Baja | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Doble oportunidad | Bosnia-Herzegovina o empate | 75% | Alta | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Ganador | Ukraine | 46% | Baja | Kalshi + casas + modelo | 46¢ |
+| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Doble oportunidad | Ukraine o empate | 75% | Alta | Kalshi + casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Ganador | Hungary | 50% | Baja | Kalshi + casas + modelo | 50¢ |
 | Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Doble oportunidad | Hungary o empate | 79% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | Goles | Menos de 2.5 | 61% | Media | casas + modelo | — |
@@ -331,12 +317,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 13:45 | Nations League | Israel vs Austria | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Ganador | Denmark | 41% | Baja | Kalshi + casas + modelo | 40¢ |
 | Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Doble oportunidad | Denmark o Norway (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Ganador | Bosnia-Herzegovina | 50% | Baja | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Doble oportunidad | Bosnia-Herzegovina o empate | 75% | Alta | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Ganador | Ukraine | 46% | Baja | Kalshi + casas + modelo | 46¢ |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Doble oportunidad | Ukraine o empate | 75% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
+| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Ganador | Poland | 41% | Baja | Kalshi + casas + modelo | 44¢ |
+| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Doble oportunidad | Poland o Sweden (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Ganador | Honduras | 53% | Baja | Kalshi + casas + modelo | 50¢ |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Doble oportunidad | Honduras o empate | 79% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
@@ -345,11 +327,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Ganador | Argentina | 93% | Alta | Kalshi + casas + modelo | 90¢ |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | Doble oportunidad | Argentina o empate | 98% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 91% | Alta | Kalshi + casas + modelo | 90¢ |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Ganador | Ecuador | 88% | Alta | Kalshi + casas + modelo | 84¢ |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Doble oportunidad | Ecuador o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Ganador | Uruguay | 91% | Alta | Kalshi + casas + modelo | 90¢ |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | Doble oportunidad | Uruguay o empate | 97% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Ganador | New York Knicks | 59% | Media | Kalshi + casas + modelo | 58¢ |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Hándicap | New York Knicks gana por más de 3.5 | 50% | Baja | casas | 48¢ |
 | Tue 17 Nov 18:30 | NBA | New York Knicks en Toronto Raptors | Total de puntos | Más de 216.5 | 50% | Baja | casas | 49¢ |
@@ -367,16 +349,16 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 7.5 | 50% | Baja | casas | 52¢ |
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Total de puntos | Más de 218.5 | 50% | Baja | casas | 49¢ |
 | Tue 17 Nov 22:00 | NBA | Charlotte Hornets en Los Angeles Lakers | Puntos (línea segura) | Más de 204.5 | 78% | Alta | casas | 80¢ |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ganador | Real Unión Irun | 37% | Baja | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Doble oportunidad | Portugalete o Real Unión Irun (no empate) | 73% | Alta | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles | Más de 2.5 | 51% | Baja | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ganador | CD Sabadell | 51% | Baja | modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Doble oportunidad | Utebo o CD Sabadell (no empate) | 76% | Alta | modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles | Más de 2.5 | 56% | Media | modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ganador | Real Unión Irun | 37% | Baja | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Doble oportunidad | Portugalete o Real Unión Irun (no empate) | 73% | Alta | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles | Más de 2.5 | 51% | Baja | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ganador | Tenerife | 45% | Baja | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Doble oportunidad | Badajoz o Tenerife (no empate) | 75% | Alta | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles | Más de 2.5 | 56% | Media | modelo | — |
@@ -397,4 +379,42 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles | Más de 2.5 | 52% | Baja | modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ganador | Santos | 49% | Baja | casas + modelo | — |
+| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Doble oportunidad | Coritiba o Santos (no empate) | 75% | Alta | casas + modelo | — |
+| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ganador | Remo | 62% | Media | casas + modelo | — |
+| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Doble oportunidad | Remo o empate | 83% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ambos anotan | Sí | 51% | Baja | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ganador | Palmeiras | 40% | Baja | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Doble oportunidad | Cruzeiro o Palmeiras (no empate) | 73% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ganador | Flamengo | 81% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Doble oportunidad | Flamengo o empate | 93% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Goles | Más de 2.5 | 64% | Media | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Ganador | Miami Heat | 80% | Alta | Kalshi + modelo | 80¢ |
+| Wed 18 Nov 18:00 | NBA | Houston Rockets en Indiana Pacers | Ganador | Houston Rockets | 72% | Alta | Kalshi + modelo | 72¢ |
+| Wed 18 Nov 18:00 | NBA | Philadelphia 76ers en Orlando Magic | Ganador | Philadelphia 76ers | 63% | Media | Kalshi + modelo | 62¢ |
+| Wed 18 Nov 18:00 | NBA | Memphis Grizzlies en Cleveland Cavaliers | Ganador | Cleveland Cavaliers | 64% | Media | Kalshi + modelo | 64¢ |
+| Wed 18 Nov 18:30 | NBA | Chicago Bulls en Brooklyn Nets | Ganador | Brooklyn Nets | 56% | Media | Kalshi + modelo | 56¢ |
+| Wed 18 Nov 18:30 | NBA | Washington Wizards en Toronto Raptors | Ganador | Toronto Raptors | 69% | Media | Kalshi + modelo | 70¢ |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ganador | Corinthians | 50% | Baja | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Doble oportunidad | Corinthians o empate | 76% | Alta | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ambos anotan | Sí | 51% | Baja | modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Ganador | Grêmio | 41% | Baja | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Doble oportunidad | Grêmio o Bahia (no empate) | 74% | Alta | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Wed 18 Nov 19:00 | NBA | Detroit Pistons en New Orleans Pelicans | Ganador | Detroit Pistons | 70% | Media | Kalshi + modelo | 70¢ |
+| Wed 18 Nov 19:00 | NBA | Atlanta Hawks en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 67% | Media | Kalshi + modelo | 67¢ |
 
