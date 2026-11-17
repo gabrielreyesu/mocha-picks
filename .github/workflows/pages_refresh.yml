@@ -59,18 +59,23 @@ jobs:
       - name: Estadísticas de equipos para la página (ESPN; si falla no detiene el resto)
         continue-on-error: true
         run: python -m kalshi_nba.estadisticas
-      - name: Regenerar páginas y tabla
-        run: |
-          python -m kalshi_external.final_shadow build
-          python -m kalshi_nba.resumen
-          python -m kalshi_nba.pagina
-          python -m kalshi_nba.progreso
-      - name: Guardar
+      - name: Regenerar y guardar (si otro bot escribió antes, se regenera sobre lo último, sin conflictos)
         run: |
           git config user.name  "pages-bot"
           git config user.email "pages-bot@users.noreply.github.com"
-          git add PREDICCIONES.md docs/ predictions/final_shadow.csv; git add predictions/stats.json 2>/dev/null || true; git add predictions/stakes_upcoming.csv 2>/dev/null || true
-          git diff --cached --quiet && exit 0
-          git commit -m "páginas $(date -u +%FT%H:%MZ)"
-          for i in 1 2 3 4; do git pull --rebase -q && git push && exit 0; sleep $((i*15)); done
+          mkdir -p /tmp/gen
+          cp predictions/stats.json predictions/stakes_upcoming.csv /tmp/gen/ 2>/dev/null || true   # calculados en pasos anteriores
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp /tmp/gen/* predictions/ 2>/dev/null || true
+            python -m kalshi_external.final_shadow build
+            python -m kalshi_nba.resumen
+            python -m kalshi_nba.pagina
+            python -m kalshi_nba.progreso
+            git add PREDICCIONES.md docs/ predictions/final_shadow.csv; git add predictions/stats.json predictions/stakes_upcoming.csv 2>/dev/null || true
+            git diff --cached --quiet && exit 0
+            git commit -q -m "páginas $(date -u +%FT%H:%MZ)"
+            git push && exit 0
+            sleep $((i*15))
+          done
           exit 1
