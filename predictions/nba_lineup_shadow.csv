@@ -438,3 +438,20 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-17T20:32:27.228758+00:00,401910015,2026-11-19T02:30Z,Denver Nuggets,Boston Celtics,0.41262,0.47279,-2.118,5.251,,,1,1798.0
 2026-11-17T20:32:27.228758+00:00,401910017,2026-11-19T03:00Z,Los Angeles Lakers,Utah Jazz,0.90794,0.89648,-1.81,9.026,Walker Kessler; Austin Reaves,Jaxson Hayes; Lauri Markkanen,2,1828.0
 2026-11-17T20:32:27.228758+00:00,401910018,2026-11-19T03:00Z,Sacramento Kings,Phoenix Suns,0.31103,0.31937,0.268,-5.555,,,3,1828.0
+2026-11-17T22:37:23.228611+00:00,401910002,2026-11-18T00:30Z,Toronto Raptors,New York Knicks,0.34437,0.39136,2.978,-1.782,,,2,113.0
+2026-11-17T22:37:23.228611+00:00,401910003,2026-11-18T01:00Z,Minnesota Timberwolves,Portland Trail Blazers,0.65866,0.65819,1.228,0.948,Jaylen Clark; Zyon Pullin; Jonathan Kuminga,Chris Youngblood; Vit Krejci; Ja Morant,3,143.0
+2026-11-17T22:37:23.228611+00:00,401910004,2026-11-18T01:00Z,San Antonio Spurs,Detroit Pistons,0.70276,0.69628,-2.674,5.038,,Taurean Prince; Ronald Holland II; Isaiah Joe; Duncan Robinson,3,143.0
+2026-11-17T22:37:23.228611+00:00,401910006,2026-11-18T03:30Z,LA Clippers,Utah Jazz,0.7961,0.76465,0.715,-0.366,,Lauri Markkanen; Jaxson Hayes,6,293.0
+2026-11-17T22:37:23.228611+00:00,401910005,2026-11-18T04:00Z,Los Angeles Lakers,Charlotte Hornets,0.78965,0.7992,-3.85,11.494,Austin Reaves; Walker Kessler,Kon Knueppel; Dennis Schroder,0,323.0
+2026-11-17T22:37:23.228611+00:00,401910007,2026-11-19T00:00Z,Cleveland Cavaliers,Memphis Grizzlies,0.66565,0.68862,1.566,3.901,Evan Mobley; Sam Merrill,GG Jackson; Scotty Pippen Jr.; Isaiah Stewart; Ty Jerome,2,1523.0
+2026-11-17T22:37:23.228611+00:00,401910008,2026-11-19T00:00Z,Indiana Pacers,Houston Rockets,0.27599,0.30388,1.751,-4.551,,Clint Capela,3,1523.0
+2026-11-17T22:37:23.228611+00:00,401910009,2026-11-19T00:00Z,Miami Heat,Milwaukee Bucks,0.84351,0.84116,-1.628,9.304,,Ousmane Dieng,0,1523.0
+2026-11-17T22:37:23.228611+00:00,401910010,2026-11-19T00:00Z,Orlando Magic,Philadelphia 76ers,0.49361,0.4705,1.367,-5.894,,Adem Bona; Jaylen Brown,6,1523.0
+2026-11-17T22:37:23.228611+00:00,401910011,2026-11-19T00:30Z,Brooklyn Nets,Chicago Bulls,0.53984,0.51295,-1.486,-2.752,,Caleb Wilson; Tobe Awaka,0,1553.0
+2026-11-17T22:37:23.228611+00:00,401910012,2026-11-19T00:30Z,Toronto Raptors,Washington Wizards,0.80681,0.78109,0.902,0.901,,,6,1553.0
+2026-11-17T22:37:23.228611+00:00,401910016,2026-11-19T01:00Z,Dallas Mavericks,Golden State Warriors,0.45311,0.53968,4.627,4.381,,Stephen Curry; Brandon Williams,6,1583.0
+2026-11-17T22:37:23.228611+00:00,401910013,2026-11-19T01:00Z,New Orleans Pelicans,Detroit Pistons,0.21469,0.2332,-2.312,-3.649,Trendon Watford; Bryce McGowens; Bennedict Mathurin; Dejounte Murray; Trey Murphy III,Taurean Prince; Ronald Holland II; Isaiah Joe; Duncan Robinson,1,1583.0
+2026-11-17T22:37:23.228611+00:00,401910014,2026-11-19T01:00Z,Oklahoma City Thunder,Atlanta Hawks,0.70179,0.66104,-2.108,-0.544,Jaylin Williams,CJ McCollum; Asa Newell,6,1583.0
+2026-11-17T22:37:23.228611+00:00,401910015,2026-11-19T02:30Z,Denver Nuggets,Boston Celtics,0.41262,0.47279,-2.118,5.251,,,1,1673.0
+2026-11-17T22:37:23.228611+00:00,401910017,2026-11-19T03:00Z,Los Angeles Lakers,Utah Jazz,0.90794,0.89648,-1.81,9.026,Austin Reaves; Walker Kessler,Lauri Markkanen; Jaxson Hayes,2,1703.0
+2026-11-17T22:37:23.228611+00:00,401910018,2026-11-19T03:00Z,Sacramento Kings,Phoenix Suns,0.31103,0.31937,0.268,-5.555,,,3,1703.0
