@@ -66,6 +66,13 @@ def report(now=None) -> tuple[str, list]:
     fs = _j(P / "final_shadow_scoreboard.json") or {}
     for x in fs.get("by_sport", []):
         L.append(f"- {x.get('sport')}: {x.get('n')} partidos, acierto {x.get('acierto_final')}, log loss {x.get('logloss_final')}")
+    L += ["", "## Meta: brecha del modelo propio frente al mercado (positivo = el modelo aún es peor)"]
+    for x in fs.get("by_sport", []):
+        if x.get("brecha") is not None:
+            L.append(f"- {x.get('sport')}: {x.get('brecha'):+.4f} [{x.get('brecha_ic95_inf')}; {x.get('brecha_ic95_sup')}] en {x.get('brecha_n')} partidos "
+                     f"(modelo {x.get('logloss_modelo_con_mercado'):.4f} vs mercado {x.get('logloss_mercado'):.4f})")
+            if (x.get("brecha_n") or 0) >= 200 and (x.get("brecha_ic95_sup") or 1) < 0:
+                alerts.append(f"{x.get('sport')}: el modelo propio ya supera al mercado con {x.get('brecha_n')} partidos (IC 95% < 0) → hito de la meta")
     poly = P / "nba_polymarket_snapshots.csv"
     if poly.exists():
         n = pd.read_csv(poly, usecols=["event_id"])["event_id"].nunique()

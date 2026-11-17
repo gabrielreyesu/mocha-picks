@@ -140,6 +140,28 @@ def build(folder: Path = P) -> int:
     return len(rows)
 
 
+def gap(g, y, cols, lm, days, bootstrap=2000, seed=7) -> dict:
+    """BRECHA del modelo propio frente al mercado (casas sin margen) en los partidos con mercado: log loss del modelo
+    menos log loss del mercado. Positivo = el modelo solo es peor. Es el indicador para «modelo fiable por sí mismo»."""
+    mcols = [f"market_{c}" for c in cols]
+    if not set(mcols) <= set(g.columns):
+        return {}
+    K = g[mcols].apply(pd.to_numeric, errors="coerce").to_numpy(float)
+    ok = np.isfinite(K).all(1) & (K > 0).all(1)
+    if ok.sum() < 5:
+        return {"brecha_n": int(ok.sum())}
+    K = K[ok] / K[ok].sum(1, keepdims=True); yy = y[ok]; i = np.arange(len(yy))
+    lk = -np.log(np.clip(K[i, yy], 1e-12, 1)); d = lm[ok] - lk; dd = days[ok]
+    lo = hi = np.nan
+    groups = [np.where(dd == u)[0] for u in np.unique(dd)]
+    if bootstrap and len(groups) > 1:
+        rng = np.random.default_rng(seed)
+        draws = [d[np.concatenate([groups[j] for j in rng.integers(0, len(groups), len(groups))])].mean() for _ in range(bootstrap)]
+        lo, hi = np.percentile(draws, [2.5, 97.5])
+    return dict(brecha_n=int(ok.sum()), logloss_modelo_con_mercado=float(lm[ok].mean()), logloss_mercado=float(lk.mean()),
+                acierto_mercado=float((K.argmax(1) == yy).mean()), brecha=float(d.mean()), brecha_ic95_inf=float(lo), brecha_ic95_sup=float(hi))
+
+
 def score(shadow: pd.DataFrame, outcomes: pd.DataFrame, bootstrap: int = 2000, seed: int = 7) -> pd.DataFrame:
     """Modelo vs final en los MISMOS partidos, usando la última foto anterior al inicio. IC por remuestreo de fechas."""
     s = shadow.copy()
@@ -165,10 +187,12 @@ def score(shadow: pd.DataFrame, outcomes: pd.DataFrame, bootstrap: int = 2000, s
             rng = np.random.default_rng(seed)
             draws = [diff[np.concatenate([groups[j] for j in rng.integers(0, len(groups), len(groups))])].mean() for _ in range(bootstrap)]
             lo, hi = np.percentile(draws, [2.5, 97.5])
-        out.append(dict(sport=sport, n=len(y), con_mercado=int((~g["final_source"].isin(["model_fallback", "modelo"])).sum()),
-                        acierto_modelo=float((M.argmax(1) == y).mean()), acierto_final=float((F.argmax(1) == y).mean()),
-                        logloss_modelo=float(lm.mean()), logloss_final=float(lf.mean()),
-                        mejora_logloss=float(diff.mean()), ic95_inf=float(lo), ic95_sup=float(hi)))
+        row = dict(sport=sport, n=len(y), con_mercado=int((~g["final_source"].isin(["model_fallback", "modelo"])).sum()),
+                   acierto_modelo=float((M.argmax(1) == y).mean()), acierto_final=float((F.argmax(1) == y).mean()),
+                   logloss_modelo=float(lm.mean()), logloss_final=float(lf.mean()),
+                   mejora_logloss=float(diff.mean()), ic95_inf=float(lo), ic95_sup=float(hi))
+        row.update(gap(g, y, cols, lm, days, bootstrap, seed))
+        out.append(row)
     return pd.DataFrame(out)
 
 

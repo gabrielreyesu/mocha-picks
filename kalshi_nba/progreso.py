@@ -94,7 +94,10 @@ def collect(now=None) -> dict:
     fs = _load("final_shadow_scoreboard.json") or {}
     names = {"nba": "NBA", "nfl": "NFL", "club": "Copas europeas", "intl": "Selecciones"}
     picks = [{"deporte": names.get(x.get("sport"), x.get("sport")), "n": x.get("n"), "acierto": x.get("acierto_final"),
-              "logloss": x.get("logloss_final"), "con_mercado": x.get("con_mercado")} for x in fs.get("by_sport", [])]
+              "logloss": x.get("logloss_final"), "con_mercado": x.get("con_mercado"),
+              "brecha_n": x.get("brecha_n"), "ll_modelo": x.get("logloss_modelo_con_mercado"), "ll_mercado": x.get("logloss_mercado"),
+              "acierto_modelo": x.get("acierto_modelo"), "acierto_mercado": x.get("acierto_mercado"),
+              "brecha": x.get("brecha"), "b_inf": x.get("brecha_ic95_inf"), "b_sup": x.get("brecha_ic95_sup")} for x in fs.get("by_sport", [])]
     fia = Path(__file__).with_name("fiabilidad.json")
     fiab = json.loads(fia.read_text()).get("deportes", {}) if fia.exists() else {}
     from .combinadas import comp_summary, picks_summary, summary
@@ -177,6 +180,8 @@ footer{color:var(--muted);font-size:12px;padding-bottom:30px}
   <div class="sub"><a href="./">← Volver a los picks</a></div>
 </header>
 <main>
+  <h2>Meta: ¿nuestro modelo ya es fiable por sí solo?</h2>
+  <div class="card" id="brecha"></div>
   <h2>¿Se cumplen nuestras probabilidades?</h2>
   <div class="card" id="fiab"></div>
   <h2>Acierto real de los picks publicados</h2>
@@ -244,6 +249,14 @@ document.getElementById("picks").innerHTML = pk.length
   ? `<table><tr><th>Deporte</th><th>Partidos</th><th>Acierto</th><th>Log loss</th></tr>${pk.map(x => `<tr><td>${esc(x.deporte)}</td><td class="n">${x.n}</td><td class="n">${pc(x.acierto)}</td><td class="n">${f4(x.logloss)}</td></tr>`).join("")}</table>
      <p class="small">Pick de ganador publicado (casas si existen, modelo si no), última foto antes del inicio. Actualizado ${when(D.picks_updated)}. Con pocos partidos el acierto varía mucho.</p>`
   : `<p class="small">Aún no hay partidos resueltos.</p>`;
+const BR = D.picks.filter(x => x.brecha_n >= 5);
+document.getElementById("brecha").innerHTML = BR.length
+  ? `<table><tr><th>Deporte</th><th>Partidos</th><th>Modelo solo</th><th>Mercado</th><th>Brecha</th></tr>${BR.map(x => `<tr><td>${esc(x.deporte)}</td><td class="n">${x.brecha_n}</td>
+     <td class="n">${f4(x.ll_modelo)}<br><span class="small">${pc(x.acierto_modelo)}</span></td><td class="n">${f4(x.ll_mercado)}<br><span class="small">${pc(x.acierto_mercado)}</span></td>
+     <td class="n ${x.b_sup != null && x.b_sup < 0 ? "good" : x.b_inf != null && x.b_inf > 0 ? "bad" : "mid"}">${x.brecha > 0 ? "+" : ""}${f4(x.brecha)}<br><span class="small">[${f4(x.b_inf)}; ${f4(x.b_sup)}]</span></td></tr>`).join("")}</table>
+     <p class="small">Log loss (menos es mejor) y acierto del modelo propio SIN mercado frente a las casas, en los mismos partidos. Brecha positiva = el modelo aún es peor que el mercado.
+     La meta es llevarla a 0 o por debajo, con un intervalo que lo confirme y cientos de partidos. Solo entonces el modelo sería fiable por sí solo.</p>`
+  : `<p class="small">Aún sin partidos suficientes con mercado.</p>`;
 const M = D.mercados || [];
 document.getElementById("mercados").innerHTML = M.length
   ? `<table><tr><th>Mercado</th><th>Jugadas</th><th>Dijimos</th><th>Acertó</th></tr>${M.map(x => `<tr><td>${esc(x.mercado)}</td><td class="n">${x.n}</td><td class="n">${pc(x.prob_media)}</td>
