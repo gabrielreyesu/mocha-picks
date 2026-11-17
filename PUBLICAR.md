@@ -1,5 +1,8 @@
 # Lista para convertir Mocha Picks en una página pública
 
+> **No está previsto publicarla.** El dueño solo lo consideraría cuando el modelo propio sea fiable sin depender del
+> mercado (ver CLAUDE.md). Esta lista queda como referencia para ese momento.
+
 Ya hecho:
 - [x] Aviso legal y juego responsable (`docs/legal.html`, enlazado desde las dos páginas).
 - [x] Acierto medido y publicado (Progreso): por mercado, por competición y en las combinadas.
