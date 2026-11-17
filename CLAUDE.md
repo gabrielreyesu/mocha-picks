@@ -10,6 +10,11 @@ clima, racha, enfrentamientos directos, hora del partido, contexto, alineaciones
 viajes, árbitros, motivación…). Seguir mejorando sin techo: cada factor se mide, y si aporta, se incorpora.
 El registro de factores y su estado está en `FACTORES.md`; mantenerlo al día en cada PR de investigación.
 
+**Decisión del dueño (17/11/2026):** la página es **privada** (uso propio y con amigos). Solo se consideraría hacerla
+pública cuando el **modelo propio sea fiable por sí mismo**, sin depender del mercado. Por eso, además del pick
+combinado, hay que medir siempre la **brecha modelo solo frente a mercado** (log loss del modelo frente a Kalshi y las
+casas, por deporte) y trabajar para cerrarla. Ese es el indicador que decidirá si algún día se publica (Progreso → «Meta», `final_shadow_scoreboard.json` → `brecha`).
+
 ## Principio central: juntar TODA la información útil
 El pick final debe salir de combinar todas las fuentes disponibles, no de una sola:
 - **Mercados**: precio de Kalshi (lo más cerca posible del inicio), consenso de casas sin margen, Polymarket.
