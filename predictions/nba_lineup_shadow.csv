@@ -376,3 +376,9 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-17T00:28:29.346624+00:00,401910004,2026-11-18T01:00Z,San Antonio Spurs,Detroit Pistons,0.70278,0.6963,-2.673,5.04,,Isaiah Joe; Duncan Robinson; Ronald Holland II; Taurean Prince,3,1472.0
 2026-11-17T00:28:29.346624+00:00,401910006,2026-11-18T03:30Z,LA Clippers,Utah Jazz,0.79621,0.75805,0.073,-1.009,,Lauri Markkanen,6,1622.0
 2026-11-17T00:28:29.346624+00:00,401910005,2026-11-18T04:00Z,Los Angeles Lakers,Charlotte Hornets,0.78993,0.82987,-0.355,14.99,,Dennis Schroder; Kon Knueppel,0,1652.0
+2026-11-17T01:56:52.519691+00:00,401910001,2026-11-17T02:00Z,Denver Nuggets,Phoenix Suns,0.75515,0.77698,-1.646,9.096,,,2,3.0
+2026-11-17T01:56:52.519691+00:00,401910002,2026-11-18T00:30Z,Toronto Raptors,New York Knicks,0.34426,0.39128,2.979,-1.782,,,2,1353.0
+2026-11-17T01:56:52.519691+00:00,401910003,2026-11-18T01:00Z,Minnesota Timberwolves,Portland Trail Blazers,0.62469,0.60859,-0.158,-0.866,Jaylen Clark; Anthony Edwards,Ja Morant; Chris Youngblood; Vit Krejci,2,1383.0
+2026-11-17T01:56:52.519691+00:00,401910004,2026-11-18T01:00Z,San Antonio Spurs,Detroit Pistons,0.70278,0.6963,-2.673,5.04,,Taurean Prince; Ronald Holland II; Duncan Robinson; Isaiah Joe,3,1383.0
+2026-11-17T01:56:52.519691+00:00,401910006,2026-11-18T03:30Z,LA Clippers,Utah Jazz,0.79621,0.76479,0.715,-0.366,,Jaxson Hayes; Lauri Markkanen,6,1533.0
+2026-11-17T01:56:52.519691+00:00,401910005,2026-11-18T04:00Z,Los Angeles Lakers,Charlotte Hornets,0.78993,0.79945,-3.851,11.494,Walker Kessler; Austin Reaves,Kon Knueppel; Dennis Schroder,0,1563.0
