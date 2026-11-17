@@ -382,3 +382,8 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-17T01:56:52.519691+00:00,401910004,2026-11-18T01:00Z,San Antonio Spurs,Detroit Pistons,0.70278,0.6963,-2.673,5.04,,Taurean Prince; Ronald Holland II; Duncan Robinson; Isaiah Joe,3,1383.0
 2026-11-17T01:56:52.519691+00:00,401910006,2026-11-18T03:30Z,LA Clippers,Utah Jazz,0.79621,0.76479,0.715,-0.366,,Jaxson Hayes; Lauri Markkanen,6,1533.0
 2026-11-17T01:56:52.519691+00:00,401910005,2026-11-18T04:00Z,Los Angeles Lakers,Charlotte Hornets,0.78993,0.79945,-3.851,11.494,Walker Kessler; Austin Reaves,Kon Knueppel; Dennis Schroder,0,1563.0
+2026-11-17T03:35:54.692959+00:00,401910002,2026-11-18T00:30Z,Toronto Raptors,New York Knicks,0.3444,0.3914,2.978,-1.782,,,2,1254.0
+2026-11-17T03:35:54.692959+00:00,401910003,2026-11-18T01:00Z,Minnesota Timberwolves,Portland Trail Blazers,0.65897,0.64354,0.09,-0.191,Jaylen Clark,Vit Krejci; Chris Youngblood; Ja Morant,3,1284.0
+2026-11-17T03:35:54.692959+00:00,401910004,2026-11-18T01:00Z,San Antonio Spurs,Detroit Pistons,0.70282,0.69641,-2.674,5.037,,Ronald Holland II; Isaiah Joe; Duncan Robinson; Taurean Prince,3,1284.0
+2026-11-17T03:35:54.692959+00:00,401910006,2026-11-18T03:30Z,LA Clippers,Utah Jazz,0.79623,0.76468,0.714,-0.367,,Lauri Markkanen; Jaxson Hayes,6,1434.0
+2026-11-17T03:35:54.692959+00:00,401910005,2026-11-18T04:00Z,Los Angeles Lakers,Charlotte Hornets,0.78973,0.79941,-3.85,11.494,Austin Reaves; Walker Kessler,Kon Knueppel; Dennis Schroder,0,1464.0
