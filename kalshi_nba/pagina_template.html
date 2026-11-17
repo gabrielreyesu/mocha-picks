@@ -147,6 +147,7 @@ dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px;margi
 .an h3{margin:0 0 4px;font-size:15px;display:flex;align-items:center;gap:6px}.an .tl{font-weight:700;margin-bottom:6px}
 .an ul{margin:4px 0 8px;padding-left:18px}.an li{margin:4px 0;font-size:14px;line-height:1.4}.an .k{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin-top:8px}
 .an .k.g{color:var(--good)}.an .k.w{color:var(--mid)}.an .k.m{color:var(--muted)}
+.an .ap{margin:4px 0 0;font-size:14px;line-height:1.5;color:var(--ink)}
 .an details summary{cursor:pointer;color:var(--away);font-weight:700;font-size:13px;margin-top:6px}
 .src{font-size:11px;color:var(--muted);margin:14px 2px 0;line-height:1.45}
 nav.bottom{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(5,1fr);background:rgba(11,13,16,.96);backdrop-filter:blur(8px);
@@ -220,8 +221,8 @@ const SV = {
   pts: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 9.8 0 12.8M18.4 5.6c-3 3-3 9.8 0 12.8"/></svg>',
   back: '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m15 6-6 6 6 6"/></svg>'
 };
-const S = {off: 0, status: "all", sport: "all", view: "games", mkt: "all", comp: null, q: "", metric: "goals", order: "hi", tab: "general", split: "all", sel: null, league: null, lq: "", lopen: {}};
-try { Object.assign(S, JSON.parse(localStorage.getItem("mocha-ui") || "{}"), {off: 0, comp: null, q: "", sel: null, tab: "general"}); } catch (e) {}
+const S = {off: 0, status: "all", sport: "all", view: "games", mkt: "all", comp: null, q: "", metric: "goals", order: "hi", tab: "analisis", split: "all", sel: null, league: null, lq: "", lopen: {}};
+try { Object.assign(S, JSON.parse(localStorage.getItem("mocha-ui") || "{}"), {off: 0, comp: null, q: "", sel: null, tab: "analisis"}); } catch (e) {}
 const save = () => { try { localStorage.setItem("mocha-ui", JSON.stringify({status: S.status, sport: S.sport, mkt: S.mkt, metric: S.metric, order: S.order, split: S.split})); } catch (e) {} };
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pc = v => v == null ? "—" : Math.round(100 * v) + "%";
@@ -299,7 +300,7 @@ function analysis(g) {
   return `<section class="an"><h3>📝 Análisis</h3><div class="tl">${esc(a.titular)}</div>
     ${a.puntos.length ? `<div class="k g">Por qué</div>${ul(a.puntos)}` : ""}
     ${a.contra.length ? `<div class="k w">A tener en cuenta</div>${ul(a.contra)}` : ""}
-    ${a.datos.length ? `<details${a.puntos.length + a.contra.length < 2 ? " open" : ""}><summary>Datos del partido (${a.datos.length})</summary>${ul(a.datos)}</details>` : ""}
+    ${(a.secciones || []).map(x => `<div class="k m" style="margin-top:12px">${esc(x.t)}</div><p class="ap">${esc(x.x)}</p>`).join("")}
     <div class="src" style="margin-top:6px">Texto generado a partir de nuestros datos. No es una recomendación de apuesta.</div></section>`;
 }
 function kcard(icon, label, val, frac, lg, lgLabel) {
@@ -388,15 +389,16 @@ function formTab(g) {
   return h;
 }
 const P = v => pc(v), F = v => n1(v), CN = c => (DATA.codes || {})[c] || c;
-const TABS_SOCCER = [["general", "General", "chart"], ["goals", "Goles", "ball"], ["shots", "Tiros", "shot"], ["corners", "Córners", "flag"], ["cards", "Tarjetas", "card"], ["form", "Forma", "form"]];
-const TABS_US = [["general", "General", "chart"], ["pts", "Puntos", "pts"], ["form", "Forma", "form"]];
+const TABS_SOCCER = [["analisis", "Análisis", "pick"], ["general", "General", "chart"], ["goals", "Goles", "ball"], ["shots", "Tiros", "shot"], ["corners", "Córners", "flag"], ["cards", "Tarjetas", "card"], ["form", "Forma", "form"]];
+const TABS_US = [["analisis", "Análisis", "pick"], ["general", "General", "chart"], ["pts", "Puntos", "pts"], ["form", "Forma", "form"]];
 function detailHTML(g) {
   const s = sides(g), st = g.st || {}, t = new Date(g.t);
   const when = t.toLocaleDateString("es", {weekday: "long", day: "numeric", month: "long"}) + " · " + hhmm(g.t) + (st.venue ? " · " + st.venue : "");
   const tabs = isUS(g) ? TABS_US : TABS_SOCCER;
-  if (!tabs.some(x => x[0] === S.tab)) S.tab = "general";
+  if (!tabs.some(x => x[0] === S.tab)) S.tab = "analisis";
   let body;
-  if (S.tab === "general") body = general(g);
+  if (S.tab === "analisis") body = analysis(g) || general(g);
+  else if (S.tab === "general") body = general(g);
   else if (S.tab === "form") body = formTab(g);
   else if (S.tab === "goals") body = statTab(g, [["Goles a favor", "gf", F], ["Goles en contra", "ga", F, true], ["Más de 2.5 goles", "o25", P], ["Más de 1.5 goles", "o15", P],
       ["Ambos anotan", "btts", P], ["Portería a cero", "cs", P], ["Sin marcar", "fts", P, true]], "goals", "ball", "Goles");
@@ -418,7 +420,6 @@ function detailHTML(g) {
       </div>${scorers(g)}
     </div>
     <div class="match" style="margin-top:10px;padding-top:10px">${pickStrip(g)}${gap(g)}</div>
-    ${analysis(g)}
     <div class="dtabs" role="tablist">${tabs.map(([k, l, ic]) => `<button data-tab="${k}" aria-current="${S.tab === k}">${SV[ic]}${l}</button>`).join("")}</div>
     ${body}
     <div class="src">Estadísticas: ESPN, últimos 10 partidos de cada equipo antes de este encuentro (todas las competiciones). Los valores
@@ -442,7 +443,7 @@ function drawDetail() {
   const m = document.querySelector(`#list .match[data-i="${S.sel}"]`); if (m) m.classList.add("sel");
 }
 function openGame(i) {
-  S.sel = i; S.tab = "general";
+  S.sel = i; S.tab = "analisis";
   if (!wide()) history.pushState({d: 1}, "", "#" + gkey(DATA.games[i]));
   else history.replaceState(null, "", "#" + gkey(DATA.games[i]));
   drawDetail();
