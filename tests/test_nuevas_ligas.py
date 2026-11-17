@@ -9,14 +9,15 @@ from kalshi_intl.data import GROUPS
 class TestNuevasLigas(unittest.TestCase):
     def test_publishable_rules(self):
         self.assertTrue(ligas.publishable("esp.2", 0, 0))                      # liga validada
-        self.assertFalse(ligas.publishable("usa.1", 50, 50))                   # no pasó la validación
-        self.assertFalse(ligas.publishable("eng.fa", 50, 50))                  # copa no validada
-        ligas.PUBLICAR.add("eng.fa")
-        try:
-            self.assertFalse(ligas.publishable("eng.fa", 50, 3))               # copa: equipo sin historial suficiente
-            self.assertTrue(ligas.publishable("eng.fa", 12, 10))
-        finally:
-            ligas.PUBLICAR.discard("eng.fa")
+        self.assertTrue(ligas.publishable("usa.1", 0, 0))                      # MLS pasa con v2
+        self.assertTrue(ligas.publishable("eng.fa", 3, 0))                     # copas: pasan con todos los partidos
+        self.assertFalse(ligas.publishable("conmebol.libertadores", 50, 50))   # descalibrada: solo mercado
+
+    def test_v2_features_only_in_new_group(self):
+        from kalshi_intl.model import FEATS, GROUP_FEATURES, league_level
+        self.assertEqual(GROUP_FEATURES["clubes"], FEATS)
+        self.assertIn("tier_diff", GROUP_FEATURES["ligas"])
+        self.assertEqual((league_level("eng.4"), league_level("eng.fa"), league_level("uefa.champions")), (4, None, None))
 
     def test_market_only_never_uses_model(self):
         p, src = ligas.market_only([0.5, 0.3, 0.3], [0.5, 0.25, 0.25])

@@ -111,6 +111,11 @@ def cmd_predict(days=14):
             "p_btts", "lambda_h", "lambda_a", "elo_diff", "partidos_previos_local", "partidos_previos_visita", "model_version",
             "created_utc", "k_event"] + [f"k_{a}_{c}" for a in ("bid", "ask", "mid") for c in "HDA"] + ["mkt_H", "mkt_D", "mkt_A", "mkt_over", "n_books"] + ["p_over_1_5", "p_over_3_5", "p_home_m1_5", "p_away_m1_5"]
     d = d.reindex(columns=cols)
+    try:                                            # cuotas de The Odds API donde ESPN no tiene (copas nacionales…)
+        from .odds_api import fill
+        d = fill(d)
+    except Exception as ex:  # noqa: BLE001 - nunca detiene las predicciones
+        print("AVISO The Odds API:", type(ex).__name__)
     REG.parent.mkdir(parents=True, exist_ok=True)
     seen = set(pd.read_csv(REG, dtype={"event_id": str})["event_id"]) if REG.exists() else set()
     new = d[~d["event_id"].isin(seen)]

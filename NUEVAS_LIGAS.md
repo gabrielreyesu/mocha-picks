@@ -68,3 +68,88 @@ las casas sin margen o de Kalshi. Si no hay cuotas, no hay pick. Nunca se public
 **Siguientes pasos:**
 - Ajustar el modelo para copas: la diferencia de categoría y la sede, con más temporadas.
 - Repetir la validación cada temporada.
+
+## Segunda prueba: copas nacionales (protocolo pre-registrado, escrito antes de ver resultados)
+**Cambios del modelo (variante v2, solo en el grupo `ligas`):**
+- **Más datos de equipos pequeños:** se agregan al Elo League Two (eng.4), National League (eng.5), Scottish Championship
+  (sco.2) y la segunda de Países Bajos (ned.2). Son las divisiones inferiores que publica ESPN.
+- **Diferencia de categoría:** nivel de la última liga de cada equipo (1 = primera, 2 = segunda…; sin liga conocida = 6).
+  Nueva variable `tier_diff` = nivel del visitante − nivel del local.
+- **Indicador de copa nacional:** variable `cup`.
+
+**Evaluación:** el mismo walk-forward (temporadas 2021/22 en adelante, partidos a 90 minutos).
+- **Copas:** se evalúan **todas juntas**, en dos subconjuntos:
+  - (a) ambos equipos con al menos 10 partidos previos;
+  - (b) todos los partidos.
+
+  La referencia es la de cada copa (frecuencias H/D/A de sus temporadas anteriores).
+- **Ligas:** se evalúan de nuevo con v2.
+
+**Reglas:**
+1. **Copas:** se aplica la misma regla de antes al conjunto de copas: n ≥ 300, IC 95% de la mejora > 0 y ECE ≤ 0,05.
+   - Si (b) pasa, se publican todos los partidos de copa.
+   - Si solo pasa (a), se publican solo los partidos con historial suficiente.
+   - Se excluye cualquier copa cuya mejora individual sea significativamente negativa (IC 95% < 0).
+2. **Ligas:** v2 se usa para todo el grupo solo si, en las ligas, v2 no es peor que v1: el IC 95% de la mejora de v2 sobre
+   v1 debe tener su extremo superior por encima de 0, y las 15 ligas deben seguir pasando. Si no, las ligas siguen con v1 y
+   v2 se usa solo para copas.
+3. **MLS y Sudamericana:** se reevalúan con v2 bajo la regla original.
+
+### Resultado de la segunda prueba (v2)
+- **Copas (todas juntas):** el modelo mejora con claridad a la referencia.
+  - (a) con historial: +0,071 [+0,044; +0,097], n = 1.521.
+  - (b) todos los partidos: +0,040 [+0,018; +0,064], n = 2.375.
+  - Pero está **mal calibrado**: ECE 0,117 y 0,135, frente al máximo de 0,05. → **No pasa.**
+  - La Coppa Italia empeora a la referencia (−0,079 [−0,134; −0,024]).
+- **Ligas, v2 frente a v1:** −0,0004 [−0,0009; +0,0001] en 29.266 partidos. Son equivalentes, el extremo superior queda por
+  encima de 0 y las 15 ligas siguen pasando. → **Se adopta v2** para todo el grupo.
+- **MLS** (+0,011 [+0,0001; +0,023], ECE 0,016) y **Sudamericana** (+0,042 [+0,008; +0,077], ECE 0,031) **pasan con v2**. La
+  MLS pasa por muy poco.
+
+## Tercera prueba: calibración para copas (pre-registrada, escrita tras ver que v2 falla SOLO por calibración)
+- **Cambio:** a las probabilidades de v2 en copas nacionales se les aplica una recalibración multinomial,
+  `p_c ∝ exp(a_c + T · log p_c)`, con a_H = 0 y tres parámetros (T, a_D, a_A).
+- **Sin fugas:** para cada temporada, la recalibración se ajusta SOLO con predicciones fuera de muestra de copas de
+  temporadas anteriores (desde 2020/21). Se exigen al menos 200 partidos para ajustarla.
+- **Evaluación y regla:** la misma de la segunda prueba (copas juntas, subconjuntos a y b, referencia por copa; n ≥ 300,
+  IC 95% > 0 y ECE ≤ 0,05). La Coppa Italia queda excluida por empeorar en v2.
+- **Aviso honesto:** las temporadas evaluadas son las mismas que en la segunda prueba. Por eso, si pasa, las copas se
+  publican marcadas como «en sombra»: con pick y seguimiento prospectivo, y se revisa con 200 partidos nuevos.
+
+### ⚠ Corrección de un error de evaluación (detectado al ver la tercera prueba)
+La tercera prueba dio una mejora imposible: +0,18, y la recalibración aplastaba el empate (a_D = −2,26). La causa es un
+error en la evaluación.
+- **El error:** «partidos a 90 minutos» se implementó **descartando** los partidos que terminaron en prórroga o penales.
+  Pero esos partidos son justamente **empates a los 90'**. Descartarlos deja fuera casi todos los empates de las
+  eliminatorias, sesga la evaluación contra el empate y hace que un modelo que subestima el empate parezca descalibrado o
+  demasiado bueno.
+- **La corrección** (`walk_forward(..., et_as_draw=True)`): los partidos con prórroga o penales cuentan como **empate a los
+  90'**, que es como se liquida el 1X2. Las referencias usan la misma regla.
+- **Alcance:** afecta a las copas y a las eliminatorias de la Libertadores y la Sudamericana. Las ligas no tienen
+  prórroga y no cambian.
+- Se repitieron la segunda y la tercera prueba con la corrección. **Los resultados de arriba de las pruebas 2 y 3 quedan
+  anulados y sustituidos por estos.**
+
+### Resultado corregido de la segunda prueba (v2)
+- **Copas, todas juntas:**
+  - (a) con historial: +0,091 [+0,069; +0,113], ECE 0,017, n = 1.914. **Pasa.**
+  - (b) todos los partidos: +0,081 [+0,063; +0,099], ECE 0,014, n = 2.993. **Pasa.**
+  - Ninguna copa empeora de forma significativa. La más floja es la Coppa Italia: +0,007 [−0,038; +0,051].
+  - → **Se publican todos los partidos de las seis copas nacionales** con el modelo v2, sin recalibración. La tercera
+    prueba ya no hace falta y queda solo como registro.
+- **Ligas, v2 frente a v1:** −0,0004 [−0,0009; +0,0002]. Son equivalentes y las 15 siguen pasando. → **Se adopta v2.**
+- **MLS:** +0,012 [+0,001; +0,024], ECE 0,011. **Pasa.**
+- **Libertadores** (ECE 0,056) y **Sudamericana** (ECE 0,052): **no pasan** por calibración, aunque mejoran a la
+  referencia.
+  - La Libertadores había pasado en la primera prueba **por el mismo error**. Se corrige y pasa a BETA (pick solo con
+    casas o Kalshi).
+
+**Publicadas con el modelo:**
+- 15 ligas: Championship, LaLiga 2, Serie B, 2. Bundesliga, Ligue 2, Portugal, Eredivisie, Bélgica, Turquía, Escocia, Liga
+  MX, Brasil, Argentina, Arabia Saudí y MLS.
+- 6 copas: FA Cup, Copa de la Liga, Copa del Rey, Coppa Italia, Copa de Alemania y Copa de Francia.
+
+**En BETA:** Libertadores y Sudamericana.
+
+**Pendiente:** el mismo sesgo puede afectar a las evaluaciones antiguas de las eliminatorias de copas europeas (grupo
+`clubes`). Hay que revisarlas con `et_as_draw=True`.
