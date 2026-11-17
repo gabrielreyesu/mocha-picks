@@ -78,6 +78,16 @@ dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px;margi
 .lg .n{margin-left:auto;color:var(--muted);font-weight:700}
 .empty{color:var(--muted);text-align:center;padding:36px 10px}.empty .chip{margin-top:12px}
 .filter{display:flex;align-items:center;gap:8px;margin:8px 4px 0;color:var(--muted);font-size:13px}
+/* ---- combinadas ---- */
+.tk{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:12px;margin-bottom:12px}
+.tk .th{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.tk .tn{font-weight:800;font-size:16px}.tk .ts{font-size:12px;color:var(--muted)}
+.tk .lg2{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:8px 2px;border-top:1px solid var(--line);width:100%;text-align:left}
+.tk .lg2 .m{font-size:11px;color:var(--muted)}.tk .lg2 b{font-size:14px}.tk .lg2 .r{text-align:right;font-variant-numeric:tabular-nums}
+.tk .sum{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px}
+.tk .sum div{background:var(--panel2);border-radius:10px;padding:8px;text-align:center}.tk .sum small{display:block;font-size:11px;color:var(--muted)}
+.tk .sum b{font-size:18px;font-variant-numeric:tabular-nums}.tk .v-good{color:var(--good)}.tk .v-mid{color:var(--mid)}
+.tgl{display:flex;gap:6px;margin:12px 4px 4px}
 /* ---- ligas por país ---- */
 .lsearch{width:100%;max-width:420px;padding:11px 14px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:inherit;margin:4px 0 6px}
 .ctry{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:12px;margin:10px 0}
@@ -198,7 +208,7 @@ No es una recomendación de apuesta.</footer>
 </div>
 <nav class="bottom">
   <button data-view="games"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M12 5v14M3 12h18"/></svg>Partidos</button>
-  <button data-view="top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>Top picks</button>
+  <button data-view="top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>Picks</button>
   <button data-view="stats"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 20V10M12 20V4M19 20v-7"/></svg>Estadísticas</button>
   <a href="progreso.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M4 19h16"/><path d="m7 15 4-4 3 3 5-6"/></svg>Progreso</a>
   <button data-view="leagues"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Ligas</button>
@@ -221,9 +231,9 @@ const SV = {
   pts: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 9.8 0 12.8M18.4 5.6c-3 3-3 9.8 0 12.8"/></svg>',
   back: '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m15 6-6 6 6 6"/></svg>'
 };
-const S = {off: 0, status: "all", sport: "all", view: "games", mkt: "all", comp: null, q: "", metric: "goals", order: "hi", tab: "analisis", split: "all", sel: null, league: null, lq: "", lopen: {}};
+const S = {off: 0, status: "all", sport: "all", view: "games", mkt: "all", comp: null, q: "", metric: "goals", order: "hi", tab: "analisis", split: "all", sel: null, league: null, lq: "", lopen: {}, topmode: "picks"};
 try { Object.assign(S, JSON.parse(localStorage.getItem("mocha-ui") || "{}"), {off: 0, comp: null, q: "", sel: null, tab: "analisis"}); } catch (e) {}
-const save = () => { try { localStorage.setItem("mocha-ui", JSON.stringify({status: S.status, sport: S.sport, mkt: S.mkt, metric: S.metric, order: S.order, split: S.split})); } catch (e) {} };
+const save = () => { try { localStorage.setItem("mocha-ui", JSON.stringify({status: S.status, sport: S.sport, mkt: S.mkt, metric: S.metric, order: S.order, split: S.split, topmode: S.topmode})); } catch (e) {} };
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pc = v => v == null ? "—" : Math.round(100 * v) + "%";
 const n1 = v => v == null ? "—" : (Math.round(10 * v) / 10).toLocaleString("es", {maximumFractionDigits: 1});
@@ -488,6 +498,82 @@ function statsView(gs) {
   return h;
 }
 
+/* ------------------------------------------------------------------ combinadas (1 a 5 por día) */
+// Jugadas candidatas: partidos del día que aún no empiezan, una jugada por partido y por combinada.
+// Cuota de cada jugada: precio de Kalshi si existe (pago real aproximado, sin comisiones); si no, cuota JUSTA = 1/probabilidad.
+// Probabilidad conjunta = producto (partidos distintos -> se asumen independientes).
+const COMBI_MKTS = /^(Ganador|Doble oportunidad|Goles|Ambos anotan|Hándicap|Total de puntos|Puntos)/;
+function legs(gs) {
+  const out = [];
+  for (const [g, i] of gs) {
+    if (g.state !== "pre") continue;
+    for (const p of g.picks || []) {
+      if (p.prob == null || p.prob < 0.55 || !COMBI_MKTS.test(p.mercado)) continue;
+      if (/modelo en validación/.test(p.fuente || "")) continue;
+      const real = p.precio != null && p.precio > 0.02 && p.precio < 0.99;
+      out.push({g, i, p, prob: p.prob, odds: real ? 1 / p.precio : 1 / p.prob, real});
+    }
+  }
+  return out.sort((a, b) => b.prob - a.prob);
+}
+function* choose(arr, k, start = 0, acc = [], used = new Set()) {
+  if (acc.length === k) { yield acc; return; }
+  for (let j = start; j <= arr.length - (k - acc.length); j++) {
+    const key = arr[j].g.sport + arr[j].g.id;
+    if (used.has(key)) continue;
+    used.add(key); acc.push(arr[j]);
+    yield* choose(arr, k, j + 1, acc, used);
+    acc.pop(); used.delete(key);
+  }
+}
+const SPECS = [
+  {n: "Más segura", d: "3 jugadas; la más probable que pague al menos 1,6 veces.", k: [3], minOdds: 1.6, obj: "p"},
+  {n: "Equilibrada", d: "4 jugadas; la más probable que pague al menos 2,5 veces.", k: [4], minOdds: 2.5, obj: "p"},
+  {n: "Con valor", d: "Jugadas donde nuestra probabilidad supera al precio de Kalshi (ventaja no probada todavía: en las pruebas, nuestro pick empata con el mercado).", k: [3, 4], minOdds: 1.5, obj: "ev", real: true, minP: 0.2},
+  {n: "Ambiciosa", d: "5 jugadas; la más probable que pague al menos 4 veces.", k: [5], minOdds: 4, obj: "p"},
+  {n: "Máxima", d: "6 jugadas; la más probable que pague al menos 6 veces.", k: [6], minOdds: 6, obj: "p"},
+];
+function combis(gs) {
+  const all = legs(gs), out = [], seen = new Set();
+  for (const sp of SPECS) {
+    let pool = (sp.real ? all.filter(l => l.real && l.prob * l.odds > 1.02) : all).slice(0, 22);
+    let best = null;
+    for (const k of sp.k) {
+      for (const c of choose(pool, k)) {
+        const P = c.reduce((a, l) => a * l.prob, 1), O = c.reduce((a, l) => a * l.odds, 1);
+        if (O < sp.minOdds || P < (sp.minP || 0)) continue;
+        const sig = c.map(l => l.g.id + l.p.mercado).sort().join("|");
+        if (seen.has(sig)) continue;
+        const score = sp.obj === "ev" ? P * O : P;
+        if (!best || score > best.score) best = {legs: [...c], P, O, score, sig};
+      }
+    }
+    if (best) { seen.add(best.sig); out.push({...sp, ...best}); }
+  }
+  return out;
+}
+function ticketHTML(t, n) {
+  const ev = t.P * t.O, real = t.legs.every(l => l.real);
+  const res = t.legs.every(l => l.p.mercado === "Ganador" && l.g.hit != null) ? (t.legs.every(l => l.g.hit) ? "✅ Acertada" : "❌ Fallada") : "";
+  return `<div class="tk"><div class="th"><div><div class="tn">#${n} · ${esc(t.n)}</div><div class="ts">${esc(t.d)}</div></div>${res ? `<span class="res ${res.startsWith("✅") ? "ok" : "ko"}">${res}</span>` : ""}</div>
+    ${t.legs.map(l => `<button class="lg2" data-open="${l.i}"><span><span class="m">${ICON[l.g.sport] || ""} ${esc(l.g.comp)} · ${hhmm(l.g.t)} · ${esc(isUS(l.g) ? l.g.away + " en " + l.g.home : l.g.home + " vs " + l.g.away)}</span><br>
+      <span class="m">${esc(l.p.mercado)}</span> <b>${esc(l.p.pick)}</b></span>
+      <span class="r"><b>${pc(l.prob)}</b><br><span class="m">cuota ${l.odds.toFixed(2)}${l.real ? " K" : ""}</span></span></button>`).join("")}
+    <div class="sum"><div><small>Prob. de acertar todas</small><b>${pc(t.P)}</b></div><div><small>Cuota total${real ? "" : " (aprox.)"}</small><b>${t.O.toFixed(2)}</b></div>
+      <div><small>Valor (prob × cuota)</small><b class="${ev > 1.02 ? "v-good" : "v-mid"}">${(Math.round(ev * 100) / 100).toFixed(2)}</b></div></div></div>`;
+}
+const topToggle = () => `<div class="tgl"><button class="chip" data-topmode="picks" aria-pressed="${S.topmode !== "combis"}">Mejores picks</button><button class="chip" data-topmode="combis" aria-pressed="${S.topmode === "combis"}">🎟️ Combinadas</button></div>`;
+function combisView(gs) {
+  const ts = combis(gs);
+  let h = `<div class="sthead"><h2>Combinadas del día</h2><p>De 1 a 5 combinadas de 3 a 6 jugadas de partidos distintos, ordenadas de más segura a más arriesgada.</p></div>`;
+  if (!ts.length) return h + emptyMsg("No hay suficientes jugadas próximas de alta probabilidad este día.");
+  h += ts.map((t, k) => ticketHTML(t, k + 1)).join("");
+  return h + `<div class="src"><b>Cómo leerlas.</b> La probabilidad de acertar todas es el producto de cada jugada (por ejemplo, 4 jugadas de 80% → 41%).
+    Cuota: precio de Kalshi cuando existe (marcado «K», sin comisiones); si no, cuota justa sin margen (1/probabilidad): las casas reales pagan algo menos.
+    Valor = probabilidad × cuota: por encima de 1 nuestra estimación es mejor que el precio; con cuotas justas es 1 por definición.
+    Más jugadas = más pago pero mucho menos probabilidad. No es una recomendación de apuesta.</div>`;
+}
+
 /* ------------------------------------------------------------------ ligas por país (estilo Oddster) */
 const upcoming = code => DATA.games.filter(g => g.code === code && (g.state !== "post" || Date.now() - Date.parse(g.t) < 864e5 * 3));
 const lgLogo = c => c.logo ? `<img src="${esc(c.logo)}" alt="" loading="lazy" onerror="this.outerHTML='⚽'">` : (c.code === "nba" ? "🏀" : c.code === "nfl" ? "🏈" : "⚽");
@@ -551,7 +637,7 @@ function drawHeader() {
   const all = dayGames();
   document.getElementById("sports").innerHTML = SPORTS.filter(([v]) => v === "all" || all.some(([g]) => g.sport === v) || S.sport === v)
     .map(([v, l]) => `<button class="chip small" data-v="${v}" aria-pressed="${S.sport === v}">${v === "all" ? "" : ICON[v] + " "}${l}</button>`).join("");
-  document.getElementById("mkts").style.display = S.view === "top" ? "flex" : "none";
+  document.getElementById("mkts").style.display = S.view === "top" && S.topmode !== "combis" ? "flex" : "none";
   document.getElementById("status").style.display = S.view === "games" ? "flex" : "none";
   const lv = S.view === "leagues";
   for (const id of ["dbar", "seg", "sports"]) document.getElementById(id).style.display = lv ? "none" : "";
@@ -571,18 +657,20 @@ function draw() {
     if (!S.league) { const i = document.getElementById("lq"); if (i) { i.value = S.lq; i.oninput = e => { S.lq = e.target.value; const p = i.selectionStart; draw(); const j = document.getElementById("lq"); j.focus(); j.setSelectionRange(p, p); }; } }
   } else if (S.view === "stats") {
     el.innerHTML = statsView(gs);
+  } else if (S.view === "top" && S.topmode === "combis") {
+    el.innerHTML = topToggle() + combisView(gs);
   } else if (S.view === "top") {
     const mk = document.getElementById("mkts");
     const base = gs.filter(([g]) => g.state === "pre").flatMap(([g, i]) => (g.picks || []).filter(p => p.prob != null).map(p => [g, p, i]));
     mk.innerHTML = MKTS.map(([v, l]) => `<button class="chip small" data-v="${v}" aria-pressed="${S.mkt === v}">${l} (${base.filter(([g, p]) => isMkt(v, p)).length})</button>`).join("");
     const ps = base.filter(([g, p]) => isMkt(S.mkt, p)).sort((a, b) => b[1].prob - a[1].prob);
-    el.innerHTML = ps.length ? `<div class="league">Mejores picks del día · ${ps.length}</div>` + ps.map(([g, p, i]) => {
+    el.innerHTML = topToggle() + (ps.length ? `<div class="league">Mejores picks del día · ${ps.length}</div>` + ps.map(([g, p, i]) => {
       const lv = level(p.prob);
       const vs = isUS(g) ? `${esc(g.away)} en ${esc(g.home)}` : `${esc(g.home)} vs ${esc(g.away)}`;
       return `<button class="tp" data-open="${i}"><div><div class="big">${pc(p.prob)}</div><div style="text-align:center"><span class="conf c-${lv}">${lv}</span></div></div>
         <div><div class="t2">${ICON[g.sport] || ""} ${esc(p.mercado)} · ${esc(g.comp)}</div><div class="t1">${esc(p.pick)}</div>
         <div class="t2">${vs} · ${hhmm(g.t)}</div><div class="t2">Fuente: ${esc(p.fuente)}${money(p.precio)}</div></div></button>`;
-    }).join("") : emptyMsg("No hay picks próximos con estos filtros.");
+    }).join("") : emptyMsg("No hay picks próximos con estos filtros."));
   } else {
     gs = gs.filter(([g]) => S.status === "all" || g.state === S.status);
     let html = S.comp ? `<div class="filter">Competición: <b>${esc(S.comp)}</b> <button class="chip small" data-clear="1">Quitar ✕</button></div>` : "";
@@ -623,6 +711,8 @@ document.getElementById("list").onclick = e => {
   if (mt) { S.metric = mt.dataset.metric; save(); draw(); return; }
   const or = e.target.closest("[data-order]");
   if (or) { S.order = or.dataset.order; save(); draw(); return; }
+  const tm = e.target.closest("[data-topmode]");
+  if (tm) { S.topmode = tm.dataset.topmode; save(); draw(); return; }
   const lb = e.target.closest("[data-league]");
   if (lb) { S.league = lb.dataset.league; draw(); window.scrollTo(0, 0); return; }
   if (e.target.closest("[data-lback]")) { S.league = null; draw(); return; }
