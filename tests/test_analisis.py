@@ -35,3 +35,20 @@ class TestAnalisis(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSecciones(unittest.TestCase):
+    def test_sections_extensive_and_safe(self):
+        from kalshi_nba.analisis import secciones
+        g = {"sport": "liga", "home": "A", "away": "B", "three": True, "pick": "A", "prob": 0.48, "src": "Kalshi + modelo",
+             "t": "2026-11-20T18:45Z", "comp": "Ligue 1", "fp": [0.48, 0.26, 0.26],
+             "rows": [["Modelo", [0.39, 0.3, 0.31]], ["Kalshi", [0.46, 0.27, 0.27]]], "kp": {"xg": 2.4},
+             "picks": [{"mercado": "Doble oportunidad", "pick": "A o empate", "prob": 0.74, "fuente": "Kalshi + modelo"}],
+             "st": {"venue": "Estadio", "form": {"h": [{"r": "G", "s": "2-0", "o": "C", "ha": "L", "c": "fra.1", "d": "2026-11-01"}], "a": []},
+                    "avg": {}, "vavg": {}, "h2h": [], "lg": {}}, "extra": []}
+        S = {s["t"]: s["x"] for s in secciones(g, {"fra.1": "Ligue 1"})}
+        self.assertIn("en Estadio", S["El partido"])
+        self.assertIn("menos optimista", S["Probabilidades y mercado"]); self.assertIn("46¢", S["Probabilidades y mercado"])
+        self.assertIn("ganó 2-0 ante C (en casa, Ligue 1)", S["Momento de forma"])
+        self.assertIn("A o empate", S["Conclusión"]); self.assertIn("5 no salen", S["Conclusión"])
+        self.assertIn("No hay enfrentamientos", S["Enfrentamientos directos"])

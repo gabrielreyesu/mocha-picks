@@ -304,10 +304,11 @@ def collect(now=None, score_getter=None) -> dict:
         g["ev"] = (sc or {}).get("ev") or []
         g["hit"] = hit(g, sc)
     from .analisis import _fiab, analyze
+    from .estadisticas import comp_names
     fiab = _fiab()
     for g in games:
         try:
-            g["an"] = analyze(g, fiab)
+            g["an"] = analyze(g, fiab, comp_names())
         except Exception:  # noqa: BLE001 - un análisis que falla no rompe la página
             g["an"] = None
     from .estadisticas import comp_names
