@@ -74,6 +74,7 @@ def hit(g: dict, sc: dict) -> bool | None:
     if not sc or sc["state"] != "post" or sc["hs"] is None or sc["as"] is None or not g.get("pick"):
         return None
     if g["three"] and not sc["regular"]:
-        return None                                            # prórroga/penaltis: el 1X2 se liquida a 90 min (desconocido aquí)
-    res = g["home"] if sc["hs"] > sc["as"] else (g["away"] if sc["as"] > sc["hs"] else "Empate")
+        res = "Empate"                                         # prórroga/penales: a los 90' iban empatados (así se liquida el 1X2)
+    else:
+        res = g["home"] if sc["hs"] > sc["as"] else (g["away"] if sc["as"] > sc["hs"] else "Empate")
     return g["pick"] == res

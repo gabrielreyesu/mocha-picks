@@ -10,12 +10,12 @@ from kalshi_external.outcomes import outcomes_from_games
 def test_outcomes_soccer_regulation_only_and_us_sports_no_ties():
     g = pd.DataFrame([
         dict(event_id="1", status="STATUS_FULL_TIME", hs=2.0, as_=1.0),
-        dict(event_id="2", status="STATUS_FINAL_AET", hs=2.0, as_=1.0),     # prórroga: fuera
+        dict(event_id="2", status="STATUS_FINAL_AET", hs=2.0, as_=1.0),     # prórroga: empate a los 90'
         dict(event_id="3", status="STATUS_FULL_TIME", hs=0.0, as_=0.0),
         dict(event_id="4", status="STATUS_SCHEDULED", hs=float("nan"), as_=float("nan")),
     ])
     o = outcomes_from_games(g, "intl").set_index("event_id")["result"].to_dict()
-    assert o == {"1": "H", "3": "D"}
+    assert o == {"1": "H", "2": "D", "3": "D"}
     u = pd.DataFrame([
         dict(event_id="7", status="STATUS_FINAL", hs=100.0, as_=110.0),
         dict(event_id="8", status="STATUS_FINAL", hs=20.0, as_=20.0),        # empate NFL: fuera

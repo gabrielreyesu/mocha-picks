@@ -30,7 +30,8 @@ class TestMarcadores(unittest.TestCase):
         self.assertTrue(hit(g, {"state": "post", "hs": 2, "as": 1, "regular": True}))
         self.assertFalse(hit({**g, "pick": "Empate"}, {"state": "post", "hs": 2, "as": 1, "regular": True}))
         self.assertTrue(hit({**g, "pick": "Empate"}, {"state": "post", "hs": 1, "as": 1, "regular": True}))
-        self.assertIsNone(hit(g, {"state": "post", "hs": 2, "as": 1, "regular": False}))       # prórroga: no se decide aquí
+        self.assertFalse(hit(g, {"state": "post", "hs": 2, "as": 1, "regular": False}))      # prórroga: a 90' fue empate
+        self.assertTrue(hit({**g, "pick": "Empate"}, {"state": "post", "hs": 2, "as": 1, "regular": False}))
         self.assertIsNone(hit(g, {"state": "in", "hs": 2, "as": 1, "regular": False}))
         self.assertIsNone(hit(g, None))
 
