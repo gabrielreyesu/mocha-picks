@@ -26,5 +26,22 @@ Los goles tienen mucho azar. ¿Mejora el modelo de fútbol si sabe cuántos **ti
   modelo frente a las casas.
 - **Si pasa frente al modelo:** se propone en sombra para el grupo `ligas`. Producción no cambia sin autorización.
 
-## Resultados
-(pendiente)
+## Resultados (17/11/2026)
+- **Cobertura:** el 76% de los partidos terminados tiene tiros en ESPN. Las ligas menores no los
+  miden; ahí la variable vale lo mismo para los dos equipos y no aporta nada.
+- **Desarrollo** (21,490 partidos): A +0.0019 [+0.0013; +0.0026], **B +0.0034 [+0.0024; +0.0045]**, C +0.0019 [+0.0013; +0.0026]. Se elige B.
+- **Confirmación** (17,254 partidos, 2024/25 en adelante, una sola vez): **+0.0050 [+0.0037; +0.0062]**.
+  Log loss 1.0144 → 1.0095, ECE 0.0069 → 0.0073. → **✅ SUPERA EL CRITERIO (sombra).**
+- **Frente al mercado** (5 grandes ligas, 7,494 partidos): casas + tiros frente a casas recalibradas, -0.0003 [-0.0008; +0.0002].
+  No aporta: las casas ya ven los tiros.
+- **Brecha del modelo frente a las casas** (5 grandes, 9,320 partidos): modelo 0.9912 → con tiros
+  0.9869, frente a casas 0.9669. La brecha baja de 0.0243 a
+  0.0200, alrededor de un 18% menos.
+
+**Decisión:** pasa a **sombra** en el grupo `ligas` (ligas nuevas y copas nacionales). `cli predict` registra `s_H/s_D/s_A`
+junto a la probabilidad actual, sin cambiar el pick.
+
+**Regla de activación (pre-registrada):** con al menos 300 partidos resueltos con sombra, log loss de la sombra frente al
+modelo actual con IC 95% > 0, y autorización del dueño.
+
+**Siguiente:** probar lo mismo en el modelo de las 5 grandes ligas (`kalshi_soccer`) y en copas europeas y selecciones.

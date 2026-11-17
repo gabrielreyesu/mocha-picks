@@ -57,3 +57,4 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Ponderar casas (por casa) frente a la mediana | NBA/NFL | ❌ | NBA -0.0011, NFL -0.0010 (IC con 0). Lo que importa es el momento: la cuota de cierre gana a la de apertura | `CASAS_RESEARCH.md` |
 | Precios tomados justo antes del partido (flujo prepartido) | todos | ⏳ | Activado: foto cada 30 min en las 2,5 h previas; se medirá frente a la foto diaria | `.github/workflows/prepartido.yml` |
 | Eficiencia ofensiva/defensiva y ritmo (box score) en el modelo | NBA | ❌ | Confirmación +0.0005 [-0.0001; +0.0012]: el Elo y la forma ya lo recogen | `EFICIENCIA_RESEARCH.md` |
+| Tiros y tiros a puerta (promedio exponencial) en el modelo | fútbol | 🟡 sombra | Confirmación +0.0050 [+0.0037; +0.0062] en 17,254 partidos; brecha con las casas −18%; frente al mercado no aporta | `TIROS_RESEARCH.md` |

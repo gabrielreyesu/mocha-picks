@@ -71,6 +71,24 @@ def match_kalshi(home: str, away: str, kick, events: list) -> dict:
     return out
 
 
+def _tiros_shadow(f, up) -> dict:
+    """SOMBRA (TIROS_RESEARCH.md): el mismo modelo + tiros y tiros a puerta. Se registra como s_H/s_D/s_A en el registro
+    y las fotos; NO cambia el pick publicado. Si algo falla, no hay sombra y todo sigue igual."""
+    try:
+        from .model import GROUP_FEATURES
+        from .tiros import VARIANTS, load_stats, shot_features
+        ev = load_stats(sorted(set(f["code"])))                # desde 2018, como en la prueba (caché en data/stats)
+        f2 = f.merge(shot_features(f, ev), on="event_id", how="left")
+        extra = VARIANTS["B_tp_tiros"]
+        f2[extra] = f2[extra].fillna(0.0)
+        m = IntlModel(GROUP_FEATURES["ligas"] + extra).fit(f2)
+        u2 = f2.set_index("event_id").loc[up["event_id"]].reset_index()
+        p = m.predict(u2)
+        return {e: {"s_H": a, "s_D": b, "s_A": c} for e, a, b, c in zip(u2["event_id"], p["p_H"], p["p_D"], p["p_A"])}
+    except Exception as ex:  # noqa: BLE001
+        print("AVISO sombra de tiros:", type(ex).__name__, ex); return {}
+
+
 def _fit(grp):
     g = load_group(grp, verbose=False)
     f = IntlEngine(CONFIGS[grp]).process(g)
@@ -94,6 +112,7 @@ def cmd_predict(days=14):
             events = kalshi_events(KALSHI[grp])
         except Exception as ex:  # noqa: BLE001
             print("AVISO Kalshi:", ex); events = []
+        shadow = _tiros_shadow(f, up) if grp == "ligas" else {}
         for (_, r), (_, p) in zip(up.iterrows(), pr.iterrows()):
             row = {"event_id": r["event_id"], "grupo": grp, "competicion": r["competicion"], "code": r["code"],
                    "kickoff_utc": r["kick"].isoformat(), "home": r["home"], "away": r["away"], "neutral": int(r["neutral"]),
@@ -102,6 +121,7 @@ def cmd_predict(days=14):
                    "lambda_h": p["lambda_h"], "lambda_a": p["lambda_a"], "elo_diff": r["elo_diff"],
                    "partidos_previos_local": r["n_home"], "partidos_previos_visita": r["n_away"],
                    "model_version": MODEL_VERSION, "created_utc": now.isoformat()}
+            row.update(shadow.get(r["event_id"], {}))
             row.update(match_kalshi(r["home"], r["away"], r["kick"], events))
             try:
                 row.update(fetch(r["code"], r["event_id"]))            # cuotas de casas actuales (sin caché)
@@ -113,7 +133,7 @@ def cmd_predict(days=14):
     d = pd.DataFrame(rows)
     cols = ["event_id", "grupo", "competicion", "code", "kickoff_utc", "home", "away", "neutral", "p_H", "p_D", "p_A", "p_over_2_5",
             "p_btts", "lambda_h", "lambda_a", "elo_diff", "partidos_previos_local", "partidos_previos_visita", "model_version",
-            "created_utc", "k_event"] + [f"k_{a}_{c}" for a in ("bid", "ask", "mid") for c in "HDA"] + ["mkt_H", "mkt_D", "mkt_A", "mkt_over", "n_books"] + ["p_over_1_5", "p_over_3_5", "p_home_m1_5", "p_away_m1_5"]
+            "created_utc", "k_event"] + [f"k_{a}_{c}" for a in ("bid", "ask", "mid") for c in "HDA"] + ["mkt_H", "mkt_D", "mkt_A", "mkt_over", "n_books"] + ["p_over_1_5", "p_over_3_5", "p_home_m1_5", "p_away_m1_5"] + ["s_H", "s_D", "s_A"]
     d = d.reindex(columns=cols)
     try:                                            # cuotas de The Odds API donde ESPN no tiene (copas nacionales…)
         from .odds_api import fill
