@@ -351,7 +351,7 @@ function general(g) {
   h += `</div>`;
   const ps = g.picks || [];
   if (ps.length) h += `<div class="sec">Picks del partido</div><div class="box mk">${ps.map(p => `<div><span><span class="l">${esc(p.mercado)}</span><br><span class="c">${esc(p.pick)}</span></span>
-      <span class="r"><span class="p">${pc(p.prob)}</span><br><span class="m">${level(p.prob ?? 0)} · ${esc(p.fuente)}${money(p.precio)}</span></span></div>`).join("")}</div>`;
+      <span class="r"><span class="p">${pc(p.prob)}${mark(p.hit)}</span><br><span class="m">${level(p.prob ?? 0)} · ${esc(p.fuente)}${money(p.precio)}</span></span></div>`).join("")}</div>`;
   const legend = `<div class="legend"><span><i class="h"></i>${esc(g.home)}</span>${g.three ? '<span><i class="d"></i>Empate</span>' : ""}<span><i class="a"></i>${esc(g.away)}</span></div>`;
   h += `<div class="sec">Fuentes</div><div class="box"><div class="bars">${g.rows.map(([n, v]) => `<div class="r"><span>${esc(n)}</span>${stack(v, g.three)}</div>`).join("")}${legend}</div>
     <dl>${g.extra.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
@@ -510,8 +510,9 @@ function legs(gs) {
     for (const p of g.picks || []) {
       if (p.prob == null || p.prob < 0.55 || !COMBI_MKTS.test(p.mercado)) continue;
       if (/modelo en validación/.test(p.fuente || "")) continue;
+      if (isUS(g) && p.fuente === "modelo") continue;                 // NBA/NFL: el modelo solo es peor que el mercado
       const real = p.precio != null && p.precio > 0.02 && p.precio < 0.99;
-      out.push({g, i, p, prob: p.prob, odds: real ? 1 / p.precio : 1 / p.prob, real});
+      out.push({g, i, p, prob: p.prob, odds: real ? 1 / p.precio : 1 / p.prob, real, mkt: /casas|Kalshi/.test(p.fuente || "")});
     }
   }
   return out.sort((a, b) => b.prob - a.prob);
@@ -536,7 +537,7 @@ const SPECS = [
 function combis(gs) {
   const all = legs(gs), out = [], seen = new Set();
   for (const sp of SPECS) {
-    let pool = (sp.real ? all.filter(l => l.real && l.prob * l.odds > 1.02) : all).slice(0, 22);
+    let pool = (sp.real ? all.filter(l => l.real && l.mkt && l.prob * l.odds > 1.02) : all).slice(0, 22);
     let best = null;
     for (const k of sp.k) {
       for (const c of choose(pool, k)) {
@@ -552,20 +553,35 @@ function combis(gs) {
   }
   return out;
 }
+const mark = h => h === true ? " ✅" : h === false ? " ❌" : "";
+function storedTickets(day) {
+  return day.tickets.map(t => {
+    const sp = SPECS.find(x => x.n === t.perfil) || {n: t.perfil, d: ""};
+    const legs = t.legs.map(l => {
+      const i = DATA.games.findIndex(g => g.sport === l.sport && String(g.id) === String(l.id));
+      const [h, a] = String(l.partido || "").split(" vs ");
+      const g = i >= 0 ? DATA.games[i] : {sport: l.sport, id: l.id, comp: l.comp, t: l.t, home: h, away: a};
+      return {g, i, p: {mercado: l.mercado, pick: l.pick, hit: l.hit}, prob: l.prob, odds: l.odds, real: l.real};
+    });
+    return {...sp, legs, P: t.P, O: t.O, acierto: t.acierto};
+  });
+}
 function ticketHTML(t, n) {
   const ev = t.P * t.O, real = t.legs.every(l => l.real);
-  const res = t.legs.every(l => l.p.mercado === "Ganador" && l.g.hit != null) ? (t.legs.every(l => l.g.hit) ? "✅ Acertada" : "❌ Fallada") : "";
+  const res = t.acierto === true ? "✅ Acertada" : t.acierto === false ? "❌ Fallada" : "";
   return `<div class="tk"><div class="th"><div><div class="tn">#${n} · ${esc(t.n)}</div><div class="ts">${esc(t.d)}</div></div>${res ? `<span class="res ${res.startsWith("✅") ? "ok" : "ko"}">${res}</span>` : ""}</div>
-    ${t.legs.map(l => `<button class="lg2" data-open="${l.i}"><span><span class="m">${ICON[l.g.sport] || ""} ${esc(l.g.comp)} · ${hhmm(l.g.t)} · ${esc(isUS(l.g) ? l.g.away + " en " + l.g.home : l.g.home + " vs " + l.g.away)}</span><br>
-      <span class="m">${esc(l.p.mercado)}</span> <b>${esc(l.p.pick)}</b></span>
+    ${t.legs.map(l => `<button class="lg2" ${l.i >= 0 ? `data-open="${l.i}"` : ""}><span><span class="m">${ICON[l.g.sport] || ""} ${esc(l.g.comp)} · ${hhmm(l.g.t)} · ${esc(isUS(l.g) ? l.g.away + " en " + l.g.home : l.g.home + " vs " + l.g.away)}</span><br>
+      <span class="m">${esc(l.p.mercado)}</span> <b>${esc(l.p.pick)}</b>${mark(l.p.hit)}</span>
       <span class="r"><b>${pc(l.prob)}</b><br><span class="m">cuota ${l.odds.toFixed(2)}${l.real ? " K" : ""}</span></span></button>`).join("")}
     <div class="sum"><div><small>Prob. de acertar todas</small><b>${pc(t.P)}</b></div><div><small>Cuota total${real ? "" : " (aprox.)"}</small><b>${t.O.toFixed(2)}</b></div>
       <div><small>Valor (prob × cuota)</small><b class="${ev > 1.02 ? "v-good" : "v-mid"}">${(Math.round(ev * 100) / 100).toFixed(2)}</b></div></div></div>`;
 }
 const topToggle = () => `<div class="tgl"><button class="chip" data-topmode="picks" aria-pressed="${S.topmode !== "combis"}">Mejores picks</button><button class="chip" data-topmode="combis" aria-pressed="${S.topmode === "combis"}">🎟️ Combinadas</button></div>`;
 function combisView(gs) {
-  const ts = combis(gs);
+  const day = (DATA.combis || {})[dayKey(selDate())];
+  const ts = day ? storedTickets(day) : combis(gs);
   let h = `<div class="sthead"><h2>Combinadas del día</h2><p>De 1 a 5 combinadas de 3 a 6 jugadas de partidos distintos, ordenadas de más segura a más arriesgada.</p></div>`;
+  if (day) h += `<div class="note" style="padding-left:2px">${day.congelada ? "🔒 Fijadas antes del primer partido del día: ya no cambian y se registran para medir su acierto." : "Se recalculan hasta que empiece el primer partido del día; entonces quedan fijadas y registradas."}</div>`;
   if (!ts.length) return h + emptyMsg("No hay suficientes jugadas próximas de alta probabilidad este día.");
   h += ts.map((t, k) => ticketHTML(t, k + 1)).join("");
   return h + `<div class="src"><b>Cómo leerlas.</b> La probabilidad de acertar todas es el producto de cada jugada (por ejemplo, 4 jugadas de 80% → 41%).

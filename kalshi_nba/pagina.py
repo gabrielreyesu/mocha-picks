@@ -15,7 +15,7 @@ import pandas as pd
 
 from .injuries import OUT
 from .logos import Logos
-from .marcadores import LIGA_CODE, fetch as fetch_scores, hit
+from .marcadores import LIGA_CODE, fetch as fetch_scores, hit, pick_hit
 from .picks import over25, soccer_picks, us_picks, us_snapshot
 from kalshi_external.final_shadow import kalshi3, source_label
 from .final_pick import combine3, load_weights
@@ -303,6 +303,8 @@ def collect(now=None, score_getter=None) -> dict:
         g["detail"] = sc["detail"] if sc else ""
         g["ev"] = (sc or {}).get("ev") or []
         g["hit"] = hit(g, sc)
+        for p in g.get("picks") or []:
+            p["hit"] = pick_hit(g, p, sc)
     from .analisis import _fiab, analyze
     from .estadisticas import comp_names
     fiab = _fiab()
@@ -316,7 +318,13 @@ def collect(now=None, score_getter=None) -> dict:
         g.setdefault("code", g["sport"] if g["sport"] in ("nba", "nfl") else None)
         if not g.get("code"):
             g["code"] = g["sport"]
-    return {"updated": now.isoformat(), "tz": TZ, "games": games, "codes": comp_names(), "catalog": catalog(logos)}
+    try:
+        from .combinadas import record_picks, update as combis_update
+        combis = combis_update(games, now, P, TZ)
+        record_picks(games, P, TZ)
+    except Exception as ex:  # noqa: BLE001 - sin registro de combinadas, la página calcula las suyas
+        print("AVISO combinadas:", type(ex).__name__, ex); combis = {}
+    return {"updated": now.isoformat(), "tz": TZ, "games": games, "codes": comp_names(), "catalog": catalog(logos), "combis": combis}
 
 
 def render(data: dict) -> str:

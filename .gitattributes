@@ -2,6 +2,7 @@
 # Los archivos generados se regeneran tras combinar -> se conserva la versión local sin conflicto (driver "keep",
 # configurado en cada workflow con: git config merge.keep.driver true).
 predictions/*.csv merge=union
+predictions/*.jsonl merge=union
 predictions/*.json merge=keep
 docs/*.html merge=keep
 PREDICCIONES.md merge=keep

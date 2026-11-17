@@ -11,6 +11,7 @@ on:
       - 'kalshi_nba/marcadores.py'
       - 'kalshi_nba/estadisticas.py'
       - 'kalshi_nba/analisis.py'
+      - 'kalshi_nba/combinadas.py'
       - 'kalshi_nba/progreso.py'
       - 'kalshi_nba/picks.py'
       - 'kalshi_nba/resumen.py'
@@ -72,7 +73,7 @@ jobs:
             python -m kalshi_nba.resumen
             python -m kalshi_nba.pagina
             python -m kalshi_nba.progreso
-            git add PREDICCIONES.md docs/ predictions/final_shadow.csv; git add predictions/stats.json predictions/stakes_upcoming.csv 2>/dev/null || true
+            git add PREDICCIONES.md docs/ predictions/final_shadow.csv; git add predictions/stats.json predictions/stakes_upcoming.csv predictions/combinadas.jsonl predictions/picks_resultados.csv 2>/dev/null || true
             git diff --cached --quiet && exit 0
             git commit -q -m "páginas $(date -u +%FT%H:%MZ)"
             git push && exit 0

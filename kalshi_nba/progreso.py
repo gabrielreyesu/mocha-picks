@@ -97,7 +97,13 @@ def collect(now=None) -> dict:
               "logloss": x.get("logloss_final"), "con_mercado": x.get("con_mercado")} for x in fs.get("by_sport", [])]
     fia = Path(__file__).with_name("fiabilidad.json")
     fiab = json.loads(fia.read_text()).get("deportes", {}) if fia.exists() else {}
+    from .combinadas import picks_summary, summary
+    try:
+        mercados, combis = picks_summary(P), summary(P)
+    except Exception:  # noqa: BLE001
+        mercados, combis = [], {}
     return {"updated": now.isoformat(), "shadows": shadows, "picks": picks, "picks_updated": fs.get("updated_utc"), "fiabilidad": fiab,
+            "mercados": mercados, "combis": combis,
             "backtests": BACKTESTS, "next": NEXT}
 
 
@@ -175,6 +181,10 @@ footer{color:var(--muted);font-size:12px;padding-bottom:30px}
   <div class="card" id="fiab"></div>
   <h2>Acierto real de los picks publicados</h2>
   <div class="card" id="picks"></div>
+  <h2>Acierto por mercado</h2>
+  <div class="card" id="mercados"></div>
+  <h2>Combinadas publicadas</h2>
+  <div class="card" id="combis"></div>
   <div id="lockbox"></div>
   <div id="priv">
   <h2>Pruebas en sombra</h2>
@@ -232,6 +242,17 @@ document.getElementById("picks").innerHTML = pk.length
   ? `<table><tr><th>Deporte</th><th>Partidos</th><th>Acierto</th><th>Log loss</th></tr>${pk.map(x => `<tr><td>${esc(x.deporte)}</td><td class="n">${x.n}</td><td class="n">${pc(x.acierto)}</td><td class="n">${f4(x.logloss)}</td></tr>`).join("")}</table>
      <p class="small">Pick de ganador publicado (casas si existen, modelo si no), última foto antes del inicio. Actualizado ${when(D.picks_updated)}. Con pocos partidos el acierto varía mucho.</p>`
   : `<p class="small">Aún no hay partidos resueltos.</p>`;
+const M = D.mercados || [];
+document.getElementById("mercados").innerHTML = M.length
+  ? `<table><tr><th>Mercado</th><th>Jugadas</th><th>Dijimos</th><th>Acertó</th></tr>${M.map(x => `<tr><td>${esc(x.mercado)}</td><td class="n">${x.n}</td><td class="n">${pc(x.prob_media)}</td>
+     <td class="n ${Math.abs(x.acierto - x.prob_media) <= .05 ? "good" : "mid"}">${pc(x.acierto)}</td></tr>`).join("")}</table>
+     <p class="small">Todas las jugadas publicadas ya resueltas (en fútbol, a 90 minutos). Si «acertó» ≈ «dijimos», las probabilidades de ese mercado son fiables. Con pocas jugadas varía mucho.</p>`
+  : `<p class="small">Aún no hay jugadas resueltas registradas. Se empiezan a registrar desde esta versión.</p>`;
+const C = (D.combis || {}).por_perfil || [];
+document.getElementById("combis").innerHTML = C.length
+  ? `<table><tr><th>Combinada</th><th>Publicadas</th><th>Prob. media</th><th>Acertadas</th><th>Cuota media</th></tr>${C.map(x => `<tr><td>${esc(x.perfil)}</td><td class="n">${x.n}</td><td class="n">${pc(x.prob_media)}</td><td class="n">${x.aciertos} (${pc(x.acierto)})</td><td class="n">${x.cuota_media.toFixed(2)}</td></tr>`).join("")}</table>
+     <p class="small">Combinadas fijadas antes del primer partido de cada día (${D.combis.dias} días). Si «acertadas» ≈ «prob. media», la probabilidad conjunta es fiable.</p>`
+  : `<p class="small">Aún no hay combinadas resueltas. Se registran desde esta versión.</p>`;
 const vcls = v => v.startsWith("supera") ? "good" : (v === "descartada" || v === "Kalshi gana") ? "bad" : "mid";
 function drawPrivate2(X) {
 document.getElementById("bt").innerHTML = X.backtests.map(b => `<div class="bt"><div class="row"><span class="t">${esc(b.prueba)}</span>

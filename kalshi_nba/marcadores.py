@@ -78,3 +78,54 @@ def hit(g: dict, sc: dict) -> bool | None:
     else:
         res = g["home"] if sc["hs"] > sc["as"] else (g["away"] if sc["as"] > sc["hs"] else "Empate")
     return g["pick"] == res
+
+
+def _num_in(s: str):
+    import re
+    m = re.search(r"(\d+(?:[.,]\d+)?)", s)
+    return float(m.group(1).replace(",", ".")) if m else None
+
+
+def pick_hit(g: dict, p: dict, sc: dict) -> bool | None:
+    """¿Acertó una jugada de cualquier mercado? None si el partido no terminó o no se puede saber.
+    Fútbol: todo se liquida a 90 minutos. Con prórroga/penales, a los 90' iba empate (ganador, doble oportunidad), pero
+    los goles exactos de los 90' no se conocen -> goles y ambos anotan quedan sin decidir. NBA/NFL: incluye la prórroga."""
+    if not sc or sc.get("state") != "post" or sc.get("hs") is None or sc.get("as") is None or not p or not p.get("pick"):
+        return None
+    hs, as_ = sc["hs"], sc["as"]
+    home, away, choice, mk = g["home"], g["away"], p["pick"], p.get("mercado", "")
+    et = bool(g.get("three")) and not sc.get("regular", True)
+    res = "D" if et else ("H" if hs > as_ else ("A" if as_ > hs else "D"))
+    name = {"H": home, "A": away, "D": "Empate"}[res]
+    if mk == "Ganador":
+        return choice == name
+    if mk.startswith("Doble oportunidad"):
+        if choice == f"{home} o empate":
+            return res in ("H", "D")
+        if choice == f"{away} o empate":
+            return res in ("A", "D")
+        if choice.startswith(f"{home} o {away}"):
+            return res != "D"
+        return None
+    if mk.startswith("Goles") or mk.startswith("Total de puntos") or mk.startswith("Puntos"):
+        if et:
+            return None
+        line = _num_in(choice)
+        if line is None:
+            return None
+        return (hs + as_ > line) if choice.startswith("Más") else (hs + as_ < line)
+    if mk.startswith("Ambos anotan"):
+        if et:
+            return None
+        both = hs > 0 and as_ > 0
+        return both if choice.startswith("Sí") else not both
+    if mk.startswith("Hándicap"):
+        line = _num_in(choice.split(" por ")[-1] if " por " in choice else choice)
+        if line is None:
+            return None
+        team = home if choice.startswith(home) else (away if choice.startswith(away) else None)
+        if team is None:
+            return None
+        margin = (hs - as_) if team == home else (as_ - hs)
+        return margin > line if "gana por más de" in choice else margin > -line
+    return None
