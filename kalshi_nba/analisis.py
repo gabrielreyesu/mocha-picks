@@ -208,10 +208,10 @@ def secciones(g: dict, comp_names: dict | None = None) -> list:
     S = []
 
     # 1) el partido
-    txt = f"{home} recibe a {away} {_when(g['t'])}"
+    txt = f"{home} recibe a {away}" + (f" {_when(g['t'])}" if g.get("t") else "")
     if st.get("venue"):
         txt += f" en {st['venue']}"
-    txt += f", por {g['comp']}."
+    txt += f", por {g['comp']}." if g.get("comp") else "."
     if "sede neutral" in str(g.get("comp", "")):
         txt += " Se juega en campo neutral, así que la ventaja de local cuenta menos."
     if us and st.get("rec") and all(st["rec"]):
