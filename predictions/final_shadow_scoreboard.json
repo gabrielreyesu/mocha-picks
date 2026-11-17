@@ -1,6 +1,6 @@
 {
   "status": "SHADOW_ONLY_PRODUCTION_UNCHANGED",
-  "updated_utc": "2026-11-17T00:39:15.814905+00:00",
+  "updated_utc": "2026-11-17T03:43:12.310007+00:00",
   "promotion_rule": "Por deporte: n >= 200 partidos resueltos con mercado e IC95% de mejora_logloss completamente > 0; la activación requiere autorización explícita.",
   "warnings": [],
   "by_sport": [
@@ -18,15 +18,15 @@
     },
     {
       "sport": "nba",
-      "n": 27,
-      "con_mercado": 27,
-      "acierto_modelo": 0.77778,
-      "acierto_final": 0.77778,
-      "logloss_modelo": 0.53745,
-      "logloss_final": 0.5719,
-      "mejora_logloss": -0.03445,
-      "ic95_inf": -0.08667,
-      "ic95_sup": 0.01865
+      "n": 33,
+      "con_mercado": 33,
+      "acierto_modelo": 0.75758,
+      "acierto_final": 0.72727,
+      "logloss_modelo": 0.57289,
+      "logloss_final": 0.60033,
+      "mejora_logloss": -0.02744,
+      "ic95_inf": -0.074,
+      "ic95_sup": 0.01629
     },
     {
       "sport": "nfl",
