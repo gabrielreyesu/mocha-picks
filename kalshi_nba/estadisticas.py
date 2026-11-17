@@ -279,7 +279,8 @@ def panel(rows: pd.DataFrame, hid: str, aid: str, kick, codes, soccer=True) -> d
     h, a = averages(th.tail(LAST), soccer), averages(ta.tail(LAST), soccer)
     hv, av = averages(th[th["ha"] == "L"].tail(LAST), soccer), averages(ta[ta["ha"] == "V"].tail(LAST), soccer)
     h2h = past[(past["team"] == hid) & (past["eid"].isin(ta["eid"]))].tail(5).iloc[::-1]
-    out = {"form": {"h": _form(th), "a": _form(ta)}, "avg": {"h": h, "a": a}, "vavg": {"h": hv, "a": av},
+    last = lambda t: {"eid": str(t.iloc[-1]["eid"]), "code": t.iloc[-1]["code"]} if len(t) else None
+    out = {"last": {"h": last(th), "a": last(ta)}, "form": {"h": _form(th), "a": _form(ta)}, "avg": {"h": h, "a": a}, "vavg": {"h": hv, "a": av},
            "h2h": [{"d": r.t.strftime("%Y-%m-%d"), "s": f"{r.gf:.0f}-{r.ga:.0f}", "ha": r.ha, "c": r.code} for r in h2h.itertuples()],
            "lg": league_avg(rows, codes, kick, soccer)}
     if soccer:
@@ -337,6 +338,7 @@ def build(games: list, events: dict) -> dict:
         codes = nat if pool == "national" else ([code] if code else clubs)
         p = panel(rows[pool], hid, aid, g["t"], codes, soccer)
         p["venue"] = (ev or {}).get("venue")
+        p["eid"] = (ev or {}).get("id")
         if pool in US_PATH and ev:
             p["rec"] = [ev["h"].get("rec"), ev["a"].get("rec")]
         out[f"{g['sport']}:{g['id']}"] = p
