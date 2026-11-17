@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 17 Nov 2026 09:44 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 17 Nov 2026 10:44 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -252,22 +252,19 @@ En selecciones, las columnas de goles son poco fiables: en el backtest el "más 
 
 | Fecha (hora Chicago) | Competición | Partido | Modelo: local / empate / visita | Kalshi | Casas | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | 23% / 28% / 49% | 18% / 24% / 57% | 20% / 24% / 56% | 74% / 46% / 26% | 50% | 8% / 28% | — |
-| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | 68% / 21% / 11% | 68% / 18% / 12% | — / — / — | 77% / 51% / 30% | 44% | 44% / 3% | — |
-| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | 25% / 30% / 45% | 22% / 30% / 50% | 23% / 29% / 48% | 66% / 39% / 18% | 45% | 9% / 22% | — |
-| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | 61% / 24% / 15% | — / — / — | 44% / 27% / 29% | 76% / 50% / 29% | 48% | 34% / 6% | — |
-| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | 38% / 28% / 34% | 44% / 26% / 30% | 44% / 25% / 31% | 78% / 51% / 31% | 56% | 16% / 18% | — |
+| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | 8% / 17% / 75% | 14% / 18% / 70% | 14% / 19% / 66% | 81% / 59% / 35% | 45% | 3% / 47% | — |
+| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | 48% / 29% / 23% | 46% / 30% / 24% | 44% / 29% / 27% | 68% / 43% / 20% | 48% | 26% / 7% | — |
+| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | 49% / 30% / 21% | 50% / 29% / 22% | 47% / 29% / 23% | 65% / 37% / 17% | 42% | 25% / 6% | — |
+| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | 42% / 30% / 28% | 46% / 30% / 22% | 46% / 29% / 24% | 68% / 41% / 20% | 47% | 20% / 11% | — |
 | Tue 17 Nov 13:45 | Nations League | Israel vs Austria | 16% / 22% / 62% | 22% / 24% / 54% | 24% / 24% / 52% | 79% / 57% / 33% | 54% | 5% / 38% | — |
 | Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | 43% / 26% / 31% | 38% / 24% / 40% | 38% / 24% / 38% | 80% / 56% / 34% | 60% | 25% / 12% | — |
-| Tue 17 Nov 13:45 | Nations League | Hungary vs Northern Ireland | 49% / 30% / 21% | 50% / 29% / 22% | 47% / 29% / 23% | 65% / 37% / 17% | 42% | 25% / 6% | — |
-| Tue 17 Nov 13:45 | Nations League | Ukraine vs Georgia | 48% / 29% / 23% | 46% / 30% / 24% | 44% / 29% / 27% | 68% / 43% / 20% | 48% | 26% / 7% | — |
-| Tue 17 Nov 13:45 | Nations League | Wales vs Portugal | 8% / 17% / 75% | 14% / 18% / 70% | 14% / 19% / 66% | 81% / 59% / 35% | 45% | 3% / 47% | — |
-| Tue 17 Nov 13:45 | Nations League | Republic of Ireland vs Kosovo | 42% / 30% / 28% | 46% / 30% / 22% | 46% / 29% / 24% | 68% / 41% / 20% | 47% | 20% / 11% | — |
+| Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | 38% / 28% / 34% | 44% / 26% / 30% | 44% / 25% / 31% | 78% / 51% / 31% | 56% | 16% / 18% | — |
+| Tue 17 Nov 13:45 | Nations League | Bosnia-Herzegovina vs Romania | 61% / 24% / 15% | — / — / — | 44% / 27% / 29% | 76% / 50% / 29% | 48% | 34% / 6% | — |
 | Tue 17 Nov 14:00 | Amistoso | Kuwait vs Honduras | 22% / 28% / 50% | 23% / 28% / 50% | 24% / 27% / 49% | 72% / 45% / 24% | 49% | 10% / 23% | — |
 | Tue 17 Nov 17:00 | Amistoso | Chile vs Colombia | 15% / 24% / 61% | — / — / — | 24% / 29% / 47% | 73% / 48% / 25% | 47% | 4% / 36% | — |
 | Tue 17 Nov 17:00 | Amistoso | Argentina vs Costa Rica | 91% / 7% / 2% | 92% / 6% / 2% | 87% / 9% / 4% | 91% / 77% / 57% | 39% | 77% / 1% | — |
-| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | 69% / 20% / 10% | 90% / 6% / 4% | 87% / 8% / 5% | 79% / 54% / 33% | 45% | 47% / 3% | — |
 | Tue 17 Nov 17:30 | Amistoso | Ecuador vs Bolivia | 86% / 11% / 3% | 84% / 12% / 4% | 80% / 13% / 7% | 85% / 63% / 44% | 32% | 71% / 0% | — |
+| Tue 17 Nov 17:30 | Amistoso | Uruguay vs Dominican Republic | 69% / 20% / 10% | 90% / 6% / 4% | 87% / 8% / 5% | 79% / 54% / 33% | 45% | 47% / 3% | — |
 | Sat 28 Nov 11:00 | Amistoso | Spain vs Chile | 94% / 5% / 1% | — / — / — | — / — / — | 91% / 79% / 57% | 31% | 80% / 0% | — |
 
 ## Resumen de picks de hoy y mañana
@@ -278,14 +275,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Ganador | Russia | 71% | Alta | Kalshi + modelo | 68¢ |
-| Tue 17 Nov 10:00 | Amistoso | Russia vs Venezuela | Doble oportunidad | Russia o empate | 89% | Alta | Kalshi + modelo | — |
-| Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Ganador | Australia | 62% | Media | Kalshi + casas + modelo | 57¢ |
-| Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Doble oportunidad | Australia o empate | 84% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 10:00 | Amistoso | Jordan vs Australia | Goles | Menos de 2.5 | 50% | Baja | casas + modelo | — |
-| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Ganador | Iran | 53% | Baja | Kalshi + casas + modelo | 50¢ |
-| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Doble oportunidad | Iran o empate | 81% | Alta | Kalshi + casas + modelo | — |
-| Tue 17 Nov 10:15 | Amistoso | Iraq vs Iran | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Ganador | Poland | 43% | Baja | Kalshi + casas + modelo | 44¢ |
 | Tue 17 Nov 13:45 | Nations League | Poland vs Sweden | Doble oportunidad | Poland o Sweden (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
 | Tue 17 Nov 13:45 | Nations League | Denmark vs Norway | Ganador | Norway | 40% | Baja | Kalshi + casas + modelo | 40¢ |

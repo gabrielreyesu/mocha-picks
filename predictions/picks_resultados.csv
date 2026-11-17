@@ -238,3 +238,9 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,intl,401916336,Goles,Más de 2.5,0.5339,casas + modelo,1
 2026-11-17,intl,401933635,Ganador,Palestine,0.4492,Kalshi + modelo,0
 2026-11-17,intl,401933635,Doble oportunidad,Palestine o empate,0.7395,Kalshi + modelo,1
+2026-11-17,intl,401931477,Ganador,South Korea,0.7355,casas + modelo,1
+2026-11-17,intl,401931477,Doble oportunidad,South Korea o empate,0.9044,casas + modelo,1
+2026-11-17,intl,401931477,Goles,Más de 2.5,0.5942,casas + modelo,0
+2026-11-17,intl,401932718,Ganador,United Arab Emirates,0.7953,casas + modelo,1
+2026-11-17,intl,401932718,Doble oportunidad,United Arab Emirates o empate,0.9391,casas + modelo,1
+2026-11-17,intl,401932718,Goles,Menos de 2.5,0.5078,casas + modelo,0
