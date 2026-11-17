@@ -295,6 +295,10 @@ def collect(now=None, score_getter=None) -> dict:
         lineups = json.loads((P / "lineups.json").read_text(encoding="utf-8")).get("games", {})
     except (OSError, ValueError):
         lineups = {}
+    try:
+        players = json.loads((P / "jugadores.json").read_text(encoding="utf-8")).get("picks", [])
+    except (OSError, ValueError):
+        players = []
     for g in games:
         g["hlogo"], g["alogo"] = logos.team(g["sport"], g["home"]), logos.team(g["sport"], g["away"])
         g["clogo"] = logos.comp(g["sport"], g.get("code"))
@@ -329,7 +333,9 @@ def collect(now=None, score_getter=None) -> dict:
         record_picks(games, P, TZ)
     except Exception as ex:  # noqa: BLE001 - sin registro de combinadas, la página calcula las suyas
         print("AVISO combinadas:", type(ex).__name__, ex); combis = {}
-    return {"updated": now.isoformat(), "tz": TZ, "games": games, "codes": comp_names(), "catalog": catalog(logos), "combis": combis}
+    return {"updated": now.isoformat(), "tz": TZ, "games": games, "codes": comp_names(), "catalog": catalog(logos), "combis": combis,
+            "players": [{k: p.get(k) for k in ("sport", "gid", "player", "stat", "line", "p", "bid", "ask", "team", "team_name", "logo",
+                                                "partido", "t", "proy", "p_modelo", "hit", "valor", "ticker")} for p in players]}
 
 
 def render(data: dict) -> str:
