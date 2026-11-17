@@ -44,6 +44,7 @@ jobs:
         run: |
           git config user.name  "nfl-shadow-bot"
           git config user.email "nfl-shadow-bot@users.noreply.github.com"
+          git config merge.keep.driver true        # ver .gitattributes: sin conflictos entre bots
           git add predictions/nfl_qb_shadow.csv predictions/nfl_qb_shadow_scoreboard.json
           git diff --cached --quiet && exit 0
           git commit -m "sombra QB NFL $(date -u +%FT%H:%MZ)"

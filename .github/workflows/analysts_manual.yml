@@ -42,6 +42,7 @@ jobs:
         run: |
           git config user.name  "analistas-bot"
           git config user.email "analistas-bot@users.noreply.github.com"
+          git config merge.keep.driver true        # ver .gitattributes: sin conflictos entre bots
           git add analysts/libro.csv analysts/rechazados.csv analysts/ESTADO.md
           git diff --cached --quiet || git commit -m "analistas $(date -u +%FT%H:%MZ)"
           git pull --rebase -q && git push

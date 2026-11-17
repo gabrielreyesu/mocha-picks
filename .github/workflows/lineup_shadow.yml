@@ -44,6 +44,7 @@ jobs:
         run: |
           git config user.name  "lineup-shadow-bot"
           git config user.email "lineup-shadow-bot@users.noreply.github.com"
+          git config merge.keep.driver true        # ver .gitattributes: sin conflictos entre bots
           git add predictions/nba_lineup_shadow.csv predictions/nba_lineup_shadow_scoreboard.json
           git diff --cached --quiet && exit 0
           git commit -m "sombra alineación NBA $(date -u +%FT%H:%MZ)"
