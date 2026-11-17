@@ -341,6 +341,7 @@ def main(out="docs/index.html"):
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(render(data), encoding="utf-8")
     (p.parent / ".nojekyll").write_text("", encoding="utf-8")
+    (p.parent / "legal.html").write_text(Path(__file__).with_name("legal.html").read_text(encoding="utf-8"), encoding="utf-8")
     print(f"{out} generado: {len(data['games'])} partidos")
 
 

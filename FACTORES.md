@@ -54,3 +54,5 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Cuotas de The Odds API para copas y ligas nuevas | fútbol | ⏳ | Conectado; se activa con el secreto ODDS_API_KEY | `kalshi_intl/odds_api.py` |
 | Eliminatorias con prórroga = empate a 90' (copas europeas y selecciones) | fútbol | ✅ | Revisado: 2% de partidos afectados; el modelo sigue pasando (ECE 0,028/0,030); etiquetas corregidas en aciertos y evaluación | `CORRECCION_90MIN.md` |
 | Suspensiones (rojas y 5.ª amarilla) frente a las casas | fútbol | ❌ | -0.0000 [-0.0003; +0.0003] en 5,477 partidos: el mercado ya las incorpora | `SUSPENSIONES_RESEARCH.md` |
+| Ponderar casas (por casa) frente a la mediana | NBA/NFL | ❌ | NBA -0.0011, NFL -0.0010 (IC con 0). Lo que importa es el momento: la cuota de cierre gana a la de apertura | `CASAS_RESEARCH.md` |
+| Precios tomados justo antes del partido (flujo prepartido) | todos | ⏳ | Activado: foto cada 30 min en las 2,5 h previas; se medirá frente a la foto diaria | `.github/workflows/prepartido.yml` |

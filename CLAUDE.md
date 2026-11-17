@@ -38,7 +38,7 @@ El pick final debe salir de combinar todas las fuentes disponibles, no de una so
   limita a ~1 petición/s sin clave (usar `prefetch_batch` para mercados recientes).
 - Resultados de investigación: `LINEUP_RESEARCH.md`, `KALSHI_BENCHMARK.md`, `STAKES_RESEARCH.md`, `TRAVEL_RESEARCH.md`,
   `WEATHER_RESEARCH.md`, `REFEREES_RESEARCH.md`, `NFL_MARGINS.md`, `NUEVAS_LIGAS.md`, `CORRECCION_90MIN.md`,
-  `SUSPENSIONES_RESEARCH.md`; resumen de todos en `FACTORES.md`.
+  `SUSPENSIONES_RESEARCH.md`, `CASAS_RESEARCH.md`; resumen de todos en `FACTORES.md`.
 - Lección aprendida: el mercado (Kalshi + casas) ya incorpora casi todo lo que ven los modelos (racha, descanso, viajes,
   H2H…); los factores nuevos deben probarse **frente al mercado**, no solo frente al modelo propio.
 - Datos privados: repositorio `gabrielreyesu/mocha-picks-data` (no publicar datos de terceros aquí).
