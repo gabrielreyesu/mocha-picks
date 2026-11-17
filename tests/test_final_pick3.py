@@ -42,3 +42,15 @@ class TestFinalPick3(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_brecha_modelo_vs_mercado():
+    import numpy as np
+    import pandas as pd
+    from kalshi_external.final_shadow import gap
+    g = pd.DataFrame({"market_H": [0.7, 0.6, 0.2, 0.5, 0.8, 0.3], "market_A": [0.3, 0.4, 0.8, 0.5, 0.2, 0.7]})
+    y = np.array([0, 0, 1, 0, 0, 1])
+    lm = np.full(6, np.log(2))                                       # modelo «moneda al aire»
+    days = pd.to_datetime(["2026-11-0%d" % (i + 1) for i in range(6)]).to_numpy()
+    r = gap(g, y, ["H", "A"], lm, days, bootstrap=200)
+    assert r["brecha_n"] == 6 and r["brecha"] > 0                   # el mercado acierta mejor que 50/50
