@@ -1,0 +1,235 @@
+fecha,sport,id,mercado,pick,prob,fuente,acierto
+2026-11-14,intl,401932237,Ganador,Iran,0.6575,casas,1
+2026-11-14,intl,401932237,Doble oportunidad,Iran o empate,0.8734,casas,1
+2026-11-14,intl,401932237,Goles,Menos de 2.5,0.5085,casas + modelo,1
+2026-11-14,intl,401861165,Ganador,Norway,0.756,casas,1
+2026-11-14,intl,401861165,Doble oportunidad,Norway o empate,0.9085,casas,1
+2026-11-14,intl,401861164,Ganador,Hungary,0.3711,casas,1
+2026-11-14,intl,401861164,Doble oportunidad,Hungary o empate,0.6856,casas,1
+2026-11-14,intl,401861164,Goles,Menos de 2.5,0.5943,casas + modelo,1
+2026-11-14,intl,401861169,Ganador,Northern Ireland,0.3691,casas,1
+2026-11-14,intl,401861169,Doble oportunidad,Northern Ireland o empate,0.6873,casas,1
+2026-11-14,intl,401861167,Ganador,Portugal,0.6098,casas,0
+2026-11-14,intl,401861167,Doble oportunidad,Portugal o empate,0.8243,casas,0
+2026-11-14,intl,401861166,Ganador,Sweden,0.6542,casas,1
+2026-11-14,intl,401861166,Doble oportunidad,Sweden o empate,0.8684,casas,1
+2026-11-14,intl,401861166,Goles,Más de 2.5,0.5692,casas + modelo,1
+2026-11-14,intl,401861168,Ganador,Poland,0.507,casas,0
+2026-11-14,intl,401861168,Doble oportunidad,Poland o empate,0.7617,casas,0
+2026-11-14,intl,401861168,Goles,Más de 2.5,0.5544,casas + modelo,1
+2026-11-14,intl,401861170,Ganador,Austria,0.5831,casas,1
+2026-11-14,intl,401861170,Doble oportunidad,Austria o empate,0.8236,casas,1
+2026-11-14,intl,401861170,Goles,Más de 2.5,0.5136,casas + modelo,0
+2026-11-14,nba,401909980,Ganador,Denver Nuggets,0.8588,Kalshi + casas + modelo,1
+2026-11-14,nba,401909980,Hándicap,Denver Nuggets gana por más de 12.5,0.5,casas,0
+2026-11-14,nba,401909980,Hándicap seguro,Denver Nuggets gana por más de 3.5,0.7491,casas,1
+2026-11-14,nba,401909980,Total de puntos,Menos de 237.5,0.5223,casas,1
+2026-11-14,nba,401909980,Puntos (línea segura),Más de 223.5,0.7662,casas,1
+2026-11-14,nba,401909981,Ganador,Dallas Mavericks,0.7848,Kalshi + casas + modelo,0
+2026-11-14,nba,401909981,Hándicap,Dallas Mavericks gana por más de 7.5,0.5297,casas,0
+2026-11-14,nba,401909981,Total de puntos,Menos de 229.5,0.5223,casas,0
+2026-11-14,nba,401909981,Puntos (línea segura),Más de 215.5,0.7662,casas,1
+2026-11-14,nba,401909984,Ganador,Minnesota Timberwolves,0.89,Kalshi + casas + modelo,0
+2026-11-14,nba,401909984,Hándicap,Minnesota Timberwolves gana por más de 16.5,0.5,casas,0
+2026-11-14,nba,401909984,Hándicap seguro,Minnesota Timberwolves gana por más de 8.5,0.7248,casas,0
+2026-11-14,nba,401909984,Total de puntos,Menos de 238.5,0.5223,casas,1
+2026-11-14,nba,401909984,Puntos (línea segura),Más de 224.5,0.7662,casas,0
+2026-11-14,nba,401909983,Ganador,Memphis Grizzlies,0.6369,Kalshi + casas + modelo,1
+2026-11-14,nba,401909983,Hándicap,Memphis Grizzlies gana por más de 4.5,0.5,casas,1
+2026-11-14,nba,401909983,Total de puntos,Menos de 224.5,0.5223,casas,0
+2026-11-14,nba,401909983,Puntos (línea segura),Más de 210.5,0.7662,casas,1
+2026-11-14,nba,401909982,Ganador,Detroit Pistons,0.618,Kalshi + casas + modelo,0
+2026-11-14,nba,401909982,Hándicap,Detroit Pistons gana por más de 4.5,0.5,casas,0
+2026-11-14,nba,401909982,Total de puntos,Menos de 229.5,0.5223,casas,0
+2026-11-14,nba,401909982,Puntos (línea segura),Más de 215.5,0.7662,casas,1
+2026-11-14,intl,401906463,Ganador,New Zealand,0.7132,modelo,1
+2026-11-14,intl,401906463,Doble oportunidad,New Zealand o empate,0.8968,modelo,1
+2026-11-15,intl,401861172,Ganador,Montenegro,0.4016,casas,1
+2026-11-15,intl,401861172,Doble oportunidad,Cyprus o Montenegro (no empate),0.7201,casas,1
+2026-11-15,intl,401861172,Goles,Más de 2.5,0.5173,casas + modelo,1
+2026-11-15,intl,401861171,Ganador,Armenia,0.4006,casas,0
+2026-11-15,intl,401861171,Doble oportunidad,Armenia o empate,0.7027,casas,1
+2026-11-15,intl,401861171,Goles,Menos de 2.5,0.5856,casas + modelo,1
+2026-11-15,nfl,401873053,Ganador,Detroit Lions,0.5446,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873053,Hándicap,New England Patriots +3.5 (gana o pierde por menos de 3.5),0.5157,casas,0
+2026-11-15,nfl,401873053,Total de puntos,Más de 49.5,0.5,casas,0
+2026-11-15,nfl,401873053,Puntos (línea segura),Más de 40.5,0.7556,casas,1
+2026-11-15,intl,401933837,Ganador,Suriname,0.7191,modelo,1
+2026-11-15,intl,401933837,Doble oportunidad,Suriname o empate,0.9168,modelo,1
+2026-11-15,intl,401861174,Ganador,Finland,0.9081,casas,1
+2026-11-15,intl,401861174,Doble oportunidad,Finland o empate,0.9743,casas,1
+2026-11-15,intl,401861173,Ganador,Albania,0.4507,modelo,1
+2026-11-15,intl,401861173,Doble oportunidad,Albania o empate,0.744,modelo,1
+2026-11-15,nba,401909985,Ganador,Philadelphia 76ers,0.7154,Kalshi + casas + modelo,1
+2026-11-15,nba,401909985,Hándicap,Philadelphia 76ers gana por más de 6.5,0.5,casas,1
+2026-11-15,nba,401909985,Total de puntos,Más de 225.5,0.5,casas,1
+2026-11-15,nba,401909985,Puntos (línea segura),Más de 211.5,0.7829,casas,1
+2026-11-15,nfl,401873055,Ganador,Carolina Panthers,0.5181,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873055,Hándicap,New Orleans Saints gana por más de 1.5,0.5,casas,0
+2026-11-15,nfl,401873055,Total de puntos,Más de 48.5,0.5,casas,0
+2026-11-15,nfl,401873055,Puntos (línea segura),Más de 38.5,0.7791,casas,0
+2026-11-15,nfl,401873057,Ganador,Jacksonville Jaguars,0.8641,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873057,Hándicap,Jacksonville Jaguars gana por más de 10.5,0.5,casas,1
+2026-11-15,nfl,401873057,Hándicap seguro,Jacksonville Jaguars gana por más de 3.5,0.7092,casas,1
+2026-11-15,nfl,401873057,Total de puntos,Más de 45.5,0.5,casas,1
+2026-11-15,nfl,401873057,Puntos (línea segura),Más de 36.5,0.7556,casas,1
+2026-11-15,nfl,401873054,Ganador,Buffalo Bills,0.8408,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873054,Hándicap,Buffalo Bills gana por más de 8.5,0.5,casas,1
+2026-11-15,nfl,401873054,Hándicap seguro,Buffalo Bills gana por más de 1.5,0.7092,casas,1
+2026-11-15,nfl,401873054,Total de puntos,Más de 50.5,0.5,casas,0
+2026-11-15,nfl,401873054,Puntos (línea segura),Más de 40.5,0.7791,casas,1
+2026-11-15,nfl,401873059,Ganador,Indianapolis Colts,0.6219,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873059,Hándicap,Indianapolis Colts gana por más de 4.5,0.5,casas,0
+2026-11-15,nfl,401873059,Total de puntos,Más de 36.5,0.5307,casas,1
+2026-11-15,nfl,401873059,Puntos (línea segura),Más de 27.5,0.7791,casas,1
+2026-11-15,nfl,401873060,Ganador,Green Bay Packers,0.5551,Kalshi + casas + modelo,0
+2026-11-15,nfl,401873060,Hándicap,Green Bay Packers gana por más de 2.5,0.5,casas,0
+2026-11-15,nfl,401873060,Total de puntos,Más de 42.5,0.5,casas,0
+2026-11-15,nfl,401873060,Puntos (línea segura),Más de 33.5,0.7556,casas,1
+2026-11-15,nfl,401873056,Ganador,Houston Texans,0.6914,Kalshi + casas + modelo,0
+2026-11-15,nfl,401873056,Hándicap,Houston Texans gana por más de 4.5,0.5,casas,0
+2026-11-15,nfl,401873056,Total de puntos,Más de 40.5,0.5,casas,1
+2026-11-15,nfl,401873056,Puntos (línea segura),Menos de 50.5,0.7791,casas,0
+2026-11-15,nfl,401873058,Ganador,Kansas City Chiefs,0.6598,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873058,Hándicap,Atlanta Falcons +3.5 (gana o pierde por menos de 3.5),0.5157,casas,0
+2026-11-15,nfl,401873058,Total de puntos,Más de 47.5,0.5,casas,1
+2026-11-15,nfl,401873058,Puntos (línea segura),Más de 37.5,0.7791,casas,1
+2026-11-15,intl,401861178,Ganador,Croatia,0.5934,casas,1
+2026-11-15,intl,401861178,Doble oportunidad,Croatia o empate,0.8242,casas,1
+2026-11-15,intl,401861178,Goles,Más de 2.5,0.5733,casas + modelo,1
+2026-11-15,intl,401861177,Ganador,France,0.7912,casas,1
+2026-11-15,intl,401861177,Doble oportunidad,France o empate,0.9231,casas,1
+2026-11-15,intl,401861176,Ganador,Belgium,0.4395,casas,1
+2026-11-15,intl,401861176,Doble oportunidad,Belgium o Italy (no empate),0.7325,casas,1
+2026-11-15,intl,401861176,Goles,Más de 2.5,0.5703,casas + modelo,1
+2026-11-15,intl,401861175,Ganador,Spain,0.4834,casas,0
+2026-11-15,intl,401861175,Doble oportunidad,Spain o England (no empate),0.7471,casas,1
+2026-11-15,intl,401861175,Goles,Más de 2.5,0.5914,casas + modelo,1
+2026-11-15,nba,401909986,Ganador,Los Angeles Lakers,0.6119,Kalshi + casas + modelo,1
+2026-11-15,nba,401909986,Hándicap,Los Angeles Lakers gana por más de 3.5,0.5,casas,1
+2026-11-15,nba,401909986,Total de puntos,Más de 226.5,0.5,casas,1
+2026-11-15,nba,401909986,Puntos (línea segura),Más de 212.5,0.7829,casas,1
+2026-11-15,nfl,401873062,Ganador,Seattle Seahawks,0.7644,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873062,Hándicap,Seattle Seahawks gana por más de 6.5,0.5,casas,1
+2026-11-15,nfl,401873062,Total de puntos,Más de 40.5,0.5,casas,0
+2026-11-15,nfl,401873062,Puntos (línea segura),Más de 31.5,0.7556,casas,1
+2026-11-15,nfl,401873061,Ganador,Los Angeles Rams,0.827,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873061,Hándicap,Los Angeles Rams gana por más de 9.5,0.5,casas,1
+2026-11-15,nfl,401873061,Hándicap seguro,Los Angeles Rams gana por más de 2.5,0.7092,casas,1
+2026-11-15,nfl,401873061,Total de puntos,Más de 38.5,0.5307,casas,1
+2026-11-15,nfl,401873061,Puntos (línea segura),Menos de 48.5,0.7556,casas,1
+2026-11-15,nfl,401873063,Ganador,San Francisco 49ers,0.697,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873063,Hándicap,San Francisco 49ers gana por más de 4.5,0.5,casas,1
+2026-11-15,nfl,401873063,Total de puntos,Más de 55.5,0.5,casas,1
+2026-11-15,nfl,401873063,Puntos (línea segura),Más de 46.5,0.7556,casas,1
+2026-11-15,nba,401909987,Ganador,LA Clippers,0.504,Kalshi + casas + modelo,1
+2026-11-15,nba,401909987,Hándicap,LA Clippers gana por más de 1.5,0.5,casas,1
+2026-11-15,nba,401909987,Total de puntos,Menos de 214.5,0.5223,casas,0
+2026-11-15,nba,401909987,Puntos (línea segura),Más de 200.5,0.7662,casas,1
+2026-11-15,nba,401909988,Ganador,San Antonio Spurs,0.8991,Kalshi + casas + modelo,1
+2026-11-15,nba,401909988,Hándicap,San Antonio Spurs gana por más de 14.5,0.5,casas,0
+2026-11-15,nba,401909988,Hándicap seguro,San Antonio Spurs gana por más de 6.5,0.7248,casas,1
+2026-11-15,nba,401909988,Total de puntos,Menos de 223.5,0.5223,casas,1
+2026-11-15,nba,401909988,Puntos (línea segura),Más de 209.5,0.7662,casas,1
+2026-11-15,nba,401909989,Ganador,Boston Celtics,0.8934,Kalshi + casas + modelo,1
+2026-11-15,nba,401909989,Hándicap,Boston Celtics gana por más de 15.5,0.5,casas,1
+2026-11-15,nba,401909989,Hándicap seguro,Boston Celtics gana por más de 7.5,0.7248,casas,1
+2026-11-15,nba,401909989,Total de puntos,Menos de 219.5,0.5223,casas,0
+2026-11-15,nba,401909989,Puntos (línea segura),Más de 205.5,0.7662,casas,1
+2026-11-15,nba,401909990,Ganador,New York Knicks,0.6305,Kalshi + casas + modelo,1
+2026-11-15,nba,401909990,Hándicap,New York Knicks gana por más de 4.5,0.5,casas,0
+2026-11-15,nba,401909990,Total de puntos,Menos de 218.5,0.5223,casas,0
+2026-11-15,nba,401909990,Puntos (línea segura),Más de 204.5,0.7662,casas,1
+2026-11-15,nba,401909991,Ganador,Houston Rockets,0.7546,Kalshi + casas + modelo,1
+2026-11-15,nba,401909991,Hándicap,Houston Rockets gana por más de 8.5,0.5,casas,1
+2026-11-15,nba,401909991,Total de puntos,Más de 223.5,0.5,casas,1
+2026-11-15,nba,401909991,Puntos (línea segura),Más de 209.5,0.7829,casas,1
+2026-11-15,nba,401909992,Ganador,Atlanta Hawks,0.7657,Kalshi + casas + modelo,1
+2026-11-15,nba,401909992,Hándicap,Atlanta Hawks gana por más de 8.5,0.5,casas,0
+2026-11-15,nba,401909992,Total de puntos,Más de 233.5,0.5,casas,0
+2026-11-15,nba,401909992,Puntos (línea segura),Más de 219.5,0.7829,casas,0
+2026-11-15,nfl,401873064,Ganador,Cincinnati Bengals,0.5857,Kalshi + casas + modelo,1
+2026-11-15,nfl,401873064,Hándicap,Cincinnati Bengals gana por más de 3.5,0.5,casas,1
+2026-11-15,nfl,401873064,Total de puntos,Más de 49.5,0.5,casas,1
+2026-11-15,nfl,401873064,Puntos (línea segura),Más de 39.5,0.7791,casas,1
+2026-11-15,nba,401909993,Ganador,Oklahoma City Thunder,0.8152,Kalshi + casas + modelo,1
+2026-11-15,nba,401909993,Hándicap,Oklahoma City Thunder gana por más de 11.5,0.5,casas,1
+2026-11-15,nba,401909993,Hándicap seguro,Oklahoma City Thunder gana por más de 3.5,0.7248,casas,1
+2026-11-15,nba,401909993,Total de puntos,Más de 223.5,0.5,casas,1
+2026-11-15,nba,401909993,Puntos (línea segura),Más de 209.5,0.7829,casas,1
+2026-11-16,intl,401861180,Ganador,Faroe Islands,0.5784,Kalshi + casas + modelo,1
+2026-11-16,intl,401861180,Doble oportunidad,Faroe Islands o empate,0.8387,Kalshi + casas + modelo,1
+2026-11-16,intl,401861180,Goles,Menos de 2.5,0.5877,casas + modelo,1
+2026-11-16,intl,401861181,Ganador,Slovakia,0.5673,Kalshi + casas + modelo,0
+2026-11-16,intl,401861181,Doble oportunidad,Slovakia o empate,0.8151,Kalshi + casas + modelo,1
+2026-11-16,intl,401861181,Goles,Más de 2.5,0.5045,casas + modelo,1
+2026-11-16,intl,401861183,Ganador,Estonia,0.4756,Kalshi + casas + modelo,1
+2026-11-16,intl,401861183,Doble oportunidad,Estonia o empate,0.7606,Kalshi + casas + modelo,1
+2026-11-16,intl,401861183,Goles,Menos de 2.5,0.579,casas + modelo,0
+2026-11-16,intl,401861184,Ganador,Lithuania,0.9096,Kalshi + casas + modelo,1
+2026-11-16,intl,401861184,Doble oportunidad,Lithuania o empate,0.9812,Kalshi + casas + modelo,1
+2026-11-16,intl,401861184,Goles,Más de 2.5,0.5031,casas + modelo,1
+2026-11-16,intl,401861182,Ganador,Iceland,0.8201,Kalshi + casas + modelo,1
+2026-11-16,intl,401861182,Doble oportunidad,Iceland o empate,0.9534,Kalshi + casas + modelo,1
+2026-11-16,intl,401861182,Goles,Más de 2.5,0.5766,casas + modelo,1
+2026-11-16,intl,401914292,Ganador,Azerbaijan,0.5539,Kalshi + casas + modelo,1
+2026-11-16,intl,401914292,Doble oportunidad,Azerbaijan o empate,0.8289,Kalshi + casas + modelo,1
+2026-11-16,intl,401861186,Ganador,Switzerland,0.6005,Kalshi + casas + modelo,1
+2026-11-16,intl,401861186,Doble oportunidad,Switzerland o empate,0.8386,Kalshi + casas + modelo,1
+2026-11-16,intl,401861186,Goles,Menos de 2.5,0.506,casas + modelo,0
+2026-11-16,intl,401861179,Ganador,Malta,0.6717,Kalshi + casas + modelo,0
+2026-11-16,intl,401861179,Doble oportunidad,Malta o empate,0.8985,Kalshi + casas + modelo,1
+2026-11-16,intl,401861185,Ganador,Germany,0.5084,Kalshi + casas + modelo,1
+2026-11-16,intl,401861185,Doble oportunidad,Germany o Netherlands (no empate),0.7901,Kalshi + casas + modelo,1
+2026-11-16,intl,401861188,Ganador,Greece,0.7006,Kalshi + casas + modelo,1
+2026-11-16,intl,401861188,Doble oportunidad,Greece o empate,0.8829,Kalshi + casas + modelo,1
+2026-11-16,intl,401861188,Goles,Más de 2.5,0.6013,casas + modelo,0
+2026-11-16,intl,401861187,Ganador,Slovenia,0.6777,Kalshi + casas + modelo,1
+2026-11-16,intl,401861187,Doble oportunidad,Slovenia o empate,0.8941,Kalshi + casas + modelo,1
+2026-11-16,intl,401861187,Goles,Menos de 2.5,0.5518,casas + modelo,0
+2026-11-16,nba,401909994,Ganador,Boston Celtics,0.7653,Kalshi + casas + modelo,0
+2026-11-16,nba,401909994,Hándicap,Boston Celtics gana por más de 8.5,0.5,casas,0
+2026-11-16,nba,401909994,Total de puntos,Menos de 213.5,0.5223,casas,0
+2026-11-16,nba,401909994,Puntos (línea segura),Más de 199.5,0.7662,casas,1
+2026-11-16,nba,401909996,Ganador,Memphis Grizzlies,0.5914,Kalshi + casas + modelo,1
+2026-11-16,nba,401909996,Hándicap,Memphis Grizzlies gana por más de 3.5,0.5,casas,1
+2026-11-16,nba,401909996,Total de puntos,Más de 232.5,0.5,casas,1
+2026-11-16,nba,401909996,Puntos (línea segura),Más de 218.5,0.7829,casas,1
+2026-11-16,nba,401909995,Ganador,Cleveland Cavaliers,0.7551,Kalshi + casas + modelo,1
+2026-11-16,nba,401909995,Hándicap,Cleveland Cavaliers gana por más de 8.5,0.5,casas,1
+2026-11-16,nba,401909995,Total de puntos,Más de 241.5,0.5,casas,0
+2026-11-16,nba,401909995,Puntos (línea segura),Más de 227.5,0.7829,casas,1
+2026-11-16,nba,401909998,Ganador,Houston Rockets,0.5619,Kalshi + casas + modelo,0
+2026-11-16,nba,401909998,Hándicap,Houston Rockets gana por más de 2.5,0.5,casas,0
+2026-11-16,nba,401909998,Total de puntos,Menos de 232.5,0.5223,casas,0
+2026-11-16,nba,401909998,Puntos (línea segura),Más de 218.5,0.7662,casas,1
+2026-11-16,nba,401909997,Ganador,Philadelphia 76ers,0.6831,Kalshi + casas + modelo,1
+2026-11-16,nba,401909997,Hándicap,Philadelphia 76ers gana por más de 4.5,0.5,casas,1
+2026-11-16,nba,401909997,Total de puntos,Más de 226.5,0.5,casas,1
+2026-11-16,nba,401909997,Puntos (línea segura),Más de 212.5,0.7829,casas,1
+2026-11-16,nba,401910000,Ganador,Golden State Warriors,0.5965,Kalshi + casas + modelo,0
+2026-11-16,nba,401910000,Hándicap,Golden State Warriors gana por más de 3.5,0.5,casas,0
+2026-11-16,nba,401910000,Total de puntos,Más de 223.5,0.5,casas,0
+2026-11-16,nba,401910000,Puntos (línea segura),Más de 209.5,0.7829,casas,0
+2026-11-16,nba,401909999,Ganador,Minnesota Timberwolves,0.6535,modelo,1
+2026-11-16,nfl,401873065,Ganador,Baltimore Ravens,0.6652,Kalshi + casas + modelo,0
+2026-11-16,nfl,401873065,Hándicap,Baltimore Ravens gana por más de 4.5,0.5,casas,0
+2026-11-16,nfl,401873065,Total de puntos,Más de 39.5,0.5,casas,1
+2026-11-16,nfl,401873065,Puntos (línea segura),Más de 29.5,0.7791,casas,1
+2026-11-16,nba,401910001,Ganador,Denver Nuggets,0.7956,Kalshi + casas + modelo,0
+2026-11-16,nba,401910001,Hándicap,Denver Nuggets gana por más de 9.5,0.5,casas,0
+2026-11-16,nba,401910001,Hándicap seguro,Denver Nuggets gana por más de 1.5,0.7248,casas,0
+2026-11-16,nba,401910001,Total de puntos,Menos de 230.5,0.5223,casas,1
+2026-11-16,nba,401910001,Puntos (línea segura),Más de 216.5,0.7662,casas,1
+2026-11-16,intl,401933879,Ganador,Tahiti,0.8955,Kalshi + modelo,0
+2026-11-16,intl,401933879,Doble oportunidad,Tahiti o empate,0.9538,Kalshi + modelo,1
+2026-11-17,intl,401930237,Ganador,Malaysia,0.5536,modelo,1
+2026-11-17,intl,401930237,Doble oportunidad,Malaysia o empate,0.8124,modelo,1
+2026-11-17,intl,401916335,Ganador,Brazil,0.9821,Kalshi + modelo,1
+2026-11-17,intl,401916335,Doble oportunidad,Brazil o empate,0.9932,Kalshi + modelo,1
+2026-11-17,intl,401930242,Ganador,Kyrgyz Republic,0.4228,casas + modelo,1
+2026-11-17,intl,401930242,Doble oportunidad,Kyrgyz Republic o Vietnam (no empate),0.7348,casas + modelo,1
+2026-11-17,intl,401930242,Goles,Menos de 2.5,0.5212,casas + modelo,0
+2026-11-17,intl,401930880,Ganador,China,0.5303,Kalshi + casas + modelo,0
+2026-11-17,intl,401930880,Doble oportunidad,China o empate,0.788,Kalshi + casas + modelo,1
+2026-11-17,intl,401930880,Goles,Menos de 2.5,0.5423,casas + modelo,0
