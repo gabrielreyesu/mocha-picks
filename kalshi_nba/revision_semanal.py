@@ -54,6 +54,12 @@ def report(now=None) -> tuple[str, list]:
             alerts.append("No se registró ninguna jugada resuelta en 7 días (¿bots parados?)")
     else:
         L.append("- Aún sin registro.")
+    jr = P / "jugadores_resultados.csv"
+    if jr.exists():
+        j = pd.read_csv(jr)
+        L += ["", f"## Picks de jugadores: {len(j)} resueltos, acierto {j['acierto'].mean():.1%} (Kalshi decía {j['p'].mean():.1%})"]
+        if len(j.dropna(subset=['p_modelo'])) >= 300:
+            alerts.append("Picks de jugadores: ya hay 300 resueltos con proyección → toca la prueba de JUGADORES_RESEARCH.md")
     L += ["", "## Combinadas"]
     from .combinadas import summary
     s = summary(P)

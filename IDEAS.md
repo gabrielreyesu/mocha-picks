@@ -27,3 +27,4 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho (aporta) · ❌ hecho (no a
 | 12 | Motivación de final de temporada (nada en juego / descenso / clasificación) | fútbol | Se descartó en ligas a mitad de temporada; revisar en mayo | ⏳ final de temporada |
 | 13 | Viaje y husos horarios en copas europeas y selecciones | fútbol | Probado en NBA/NFL, no en fútbol internacional | ⬜ |
 | 14 | Mercado de córners y tarjetas con modelo propio frente a las casas (si hay cuotas) | fútbol | Mercados menos eficientes que el 1X2 | ⬜ |
+| 15 | Proyección propia de jugadores (NBA) frente a Kalshi en los picks de jugadores | NBA | Medir si nuestro modelo de jugador iguala al mercado (JUGADORES_RESEARCH.md) | ⏳ 300 picks resueltos |

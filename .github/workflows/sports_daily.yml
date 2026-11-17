@@ -56,6 +56,9 @@ jobs:
       - name: Alineaciones (ESPN; si falla no detiene el resto)
         continue-on-error: true
         run: python -m kalshi_nba.alineaciones
+      - name: Picks de jugadores (Kalshi + proyección; si falla no detiene el resto)
+        continue-on-error: true
+        run: python -m kalshi_nba.jugadores
       - name: Guardar registro
         run: |
           git config user.name  "sports-bot"

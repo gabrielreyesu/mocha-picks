@@ -76,6 +76,10 @@ jobs:
         if: steps.due.outputs.sports != ''
         continue-on-error: true
         run: python -m kalshi_nba.alineaciones
+      - name: Picks de jugadores (precios cerca del inicio)
+        if: contains(steps.due.outputs.sports, 'nba') || contains(steps.due.outputs.sports, 'nfl')
+        continue-on-error: true
+        run: python -m kalshi_nba.jugadores
       - name: Guardar y regenerar páginas
         if: steps.due.outputs.sports != ''
         run: |

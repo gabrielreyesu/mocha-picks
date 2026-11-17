@@ -87,7 +87,7 @@ dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px;margi
 .tk .sum{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px}
 .tk .sum div{background:var(--panel2);border-radius:10px;padding:8px;text-align:center}.tk .sum small{display:block;font-size:11px;color:var(--muted)}
 .tk .sum b{font-size:18px;font-variant-numeric:tabular-nums}.tk .v-good{color:var(--good)}.tk .v-mid{color:var(--mid)}
-.tgl{display:flex;gap:6px;margin:12px 4px 4px}
+.tgl{display:flex;gap:6px;margin:12px 4px 4px;flex-wrap:wrap}.tgl .chip{padding:7px 12px}
 /* ---- ligas por país ---- */
 .lsearch{width:100%;max-width:420px;padding:11px 14px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:inherit;margin:4px 0 6px}
 .ctry{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:12px;margin:10px 0}
@@ -617,7 +617,61 @@ function ticketHTML(t, n) {
     <div class="sum"><div><small>Prob. de acertar todas</small><b>${pc(t.P)}</b></div><div><small>Cuota total${real ? "" : " (aprox.)"}</small><b>${t.O.toFixed(2)}</b></div>
       <div><small>Valor (prob × cuota)</small><b class="${ev > 1.02 ? "v-good" : "v-mid"}">${(Math.round(ev * 100) / 100).toFixed(2)}</b></div></div></div>`;
 }
-const topToggle = () => `<div class="tgl"><button class="chip" data-topmode="picks" aria-pressed="${S.topmode !== "combis"}">Mejores picks</button><button class="chip" data-topmode="combis" aria-pressed="${S.topmode === "combis"}">🎟️ Combinadas</button></div>`;
+const topToggle = () => `<div class="tgl"><button class="chip" data-topmode="picks" aria-pressed="${S.topmode === "picks" || !S.topmode}">Mejores picks</button><button class="chip" data-topmode="combis" aria-pressed="${S.topmode === "combis"}">🎟️ Combinadas</button><button class="chip" data-topmode="players" aria-pressed="${S.topmode === "players"}">👤 Jugadores</button></div>`;
+/* ---- jugadores ---- */
+const STAT_TXT = {"Puntos": "puntos", "Rebotes": "rebotes", "Asistencias": "asistencias", "Triples": "triples", "Yardas de pase": "yardas de pase",
+  "Yardas de carrera": "yardas de carrera", "Yardas de recepción": "yardas de recepción", "Anota touchdown": "touchdown", "Marca gol": "gol"};
+const propTxt = p => p.stat === "Anota touchdown" ? "Anota touchdown" : p.stat === "Marca gol" ? "Marca gol" : `${p.line}+ ${STAT_TXT[p.stat] || p.stat}`;
+function playerRow(p) {
+  const pr = p.proy ? `Proyección: ${n1(p.proy.media)} (últ. ${p.proy.partidos}, ${n1(p.proy.min)} min)${p.p_modelo != null ? " · modelo " + pc(p.p_modelo) : ""}` : "";
+  return `<div class="gl"><span class="sm">${p.logo ? `<img class="crest" src="${esc(p.logo)}" alt="" loading="lazy">` : ""}</span>
+    <div style="min-width:0"><div class="o"><b>${esc(p.player)}</b> · ${esc(propTxt(p))}${mark(p.hit)}${p.valor != null ? ` <span class="m">(hizo ${n1(p.valor)})</span>` : ""}</div>
+    <div class="m">${esc(p.partido)} · ${hhmm(p.t)}${pr ? " · " + esc(pr) : ""}</div></div>
+    <span style="text-align:right"><b>${pc(p.p)}</b><br><span class="m">Kalshi ${Math.round(100 * p.p)}¢</span></span></div>`;
+}
+function playerCombis(ps) {
+  const byGame = {};
+  for (const p of ps) (byGame[p.gid] = byGame[p.gid] || []).push(p);
+  const pool = Object.values(byGame).flatMap(v => v.sort((a, b) => b.p - a.p).slice(0, 4)).sort((a, b) => b.p - a.p).slice(0, 24);
+  const specs = [["Más segura", 3, 1.6], ["Equilibrada", 4, 2.5], ["Ambiciosa", 5, 4]];
+  const out = [], seen = new Set();
+  for (const [n, k, minO] of specs) {
+    let best = null;
+    const rec = (start, acc, games) => {
+      if (acc.length === k) { const P = acc.reduce((a, x) => a * x.p, 1), O = acc.reduce((a, x) => a / x.p, 1), sig = acc.map(x => x.ticker).sort().join("|");
+        if (O >= minO && !seen.has(sig) && (!best || P > best.P)) best = {n, P, O, legs: [...acc], sig}; return; }
+      for (let j = start; j <= pool.length - (k - acc.length); j++) { if (games.has(pool[j].gid)) continue;
+        games.add(pool[j].gid); acc.push(pool[j]); rec(j + 1, acc, games); acc.pop(); games.delete(pool[j].gid); }
+    };
+    rec(0, [], new Set());
+    if (best) { seen.add(best.sig); out.push(best); }
+  }
+  return out;
+}
+function playersView() {
+  const key = dayKey(selDate());
+  let ps = (DATA.players || []).filter(p => dayKey(new Date(p.t)) === key && (S.sport === "all" || p.sport === S.sport));
+  let h = `<div class="sthead"><h2>Jugadores</h2><p>Picks de jugadores con el precio de Kalshi (la probabilidad del mercado). Al lado, nuestra proyección con sus últimos partidos.</p></div>`;
+  if (!ps.length) return h + emptyMsg("No hay mercados de jugadores con precio fiable este día (Kalshi los abre cerca del partido).");
+  const top = [...ps].sort((a, b) => b.p - a.p).slice(0, 10);
+  h += `<div class="sec">Mejores picks de jugadores</div><div class="games">${top.map(playerRow).join("")}</div>`;
+  const cs = playerCombis(ps.filter(p => new Date(p.t) > new Date()));
+  if (cs.length) h += `<div class="sec">Combinadas de jugadores</div>` + cs.map((t, i) => `<div class="tk"><div class="th"><div><div class="tn">#${i + 1} · ${esc(t.n)}</div><div class="ts">Jugadores de partidos distintos</div></div></div>
+    ${t.legs.map(p => `<div class="lg2"><span><span class="m">${esc(p.partido)}</span><br><b>${esc(p.player)}</b> · ${esc(propTxt(p))}</span><span class="r"><b>${pc(p.p)}</b><br><span class="m">cuota ${(1 / p.p).toFixed(2)} K</span></span></div>`).join("")}
+    <div class="sum"><div><small>Prob. de acertar todas</small><b>${pc(t.P)}</b></div><div><small>Cuota total</small><b>${t.O.toFixed(2)}</b></div><div><small>Jugadas</small><b>${t.legs.length}</b></div></div></div>`).join("");
+  const teams = {};
+  for (const p of ps) { const k = p.team_name || p.partido; (teams[k] = teams[k] || {logo: p.logo, sport: p.sport, list: []}).list.push(p); }
+  h += `<div class="sec">Por equipo</div>`;
+  for (const sp of ["nba", "nfl", "soccer"]) {
+    const ks = Object.keys(teams).filter(k => teams[k].sport === sp).sort();
+    if (!ks.length) continue;
+    h += `<div class="league"><span class="ic">${ICON[sp] || "⚽"}</span>${sp === "nba" ? "NBA" : sp === "nfl" ? "NFL" : "Fútbol"}<span class="n">${ks.length} equipos</span></div>`;
+    for (const k of ks) h += `<details class="tk" style="padding:10px 12px"><summary style="cursor:pointer;display:flex;align-items:center;gap:10px;list-style:none"><span class="sm">${teams[k].logo ? `<img class="crest" src="${esc(teams[k].logo)}" alt="">` : ""}</span><b>${esc(k)}</b><span class="n" style="margin-left:auto;color:var(--muted);font-size:12px">${teams[k].list.length} picks ▾</span></summary>
+      <div class="games" style="margin-top:8px">${teams[k].list.sort((a, b) => a.player.localeCompare(b.player) || b.p - a.p).map(playerRow).join("")}</div></details>`;
+  }
+  return h + `<div class="src">Probabilidad = precio de Kalshi (punto medio, solo con diferencia compra-venta ≤ 10¢). Para cada jugador y estadística se muestra la línea más útil (entre 55% y 92%).
+    La proyección propia es informativa y se está probando en sombra. En fútbol, los mercados de goleadores aparecen cerca de cada jornada. No es una recomendación de apuesta.</div>`;
+}
 function combisView(gs) {
   const day = (DATA.combis || {})[dayKey(selDate())];
   const ts = day ? storedTickets(day) : combis(gs);
@@ -694,7 +748,7 @@ function drawHeader() {
   const all = dayGames();
   document.getElementById("sports").innerHTML = SPORTS.filter(([v]) => v === "all" || all.some(([g]) => g.sport === v) || S.sport === v)
     .map(([v, l]) => `<button class="chip small" data-v="${v}" aria-pressed="${S.sport === v}">${v === "all" ? "" : ICON[v] + " "}${l}</button>`).join("");
-  document.getElementById("mkts").style.display = S.view === "top" && S.topmode !== "combis" ? "flex" : "none";
+  document.getElementById("mkts").style.display = S.view === "top" && (S.topmode || "picks") === "picks" ? "flex" : "none";
   document.getElementById("status").style.display = S.view === "games" ? "flex" : "none";
   const lv = S.view === "leagues";
   for (const id of ["dbar", "seg", "sports"]) document.getElementById(id).style.display = lv ? "none" : "";
@@ -714,6 +768,8 @@ function draw() {
     if (!S.league) { const i = document.getElementById("lq"); if (i) { i.value = S.lq; i.oninput = e => { S.lq = e.target.value; const p = i.selectionStart; draw(); const j = document.getElementById("lq"); j.focus(); j.setSelectionRange(p, p); }; } }
   } else if (S.view === "stats") {
     el.innerHTML = statsView(gs);
+  } else if (S.view === "top" && S.topmode === "players") {
+    el.innerHTML = topToggle() + playersView();
   } else if (S.view === "top" && S.topmode === "combis") {
     el.innerHTML = topToggle() + combisView(gs);
   } else if (S.view === "top") {
