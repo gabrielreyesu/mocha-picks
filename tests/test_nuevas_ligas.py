@@ -11,7 +11,11 @@ class TestNuevasLigas(unittest.TestCase):
         self.assertTrue(ligas.publishable("esp.2", 0, 0))                      # liga validada
         self.assertTrue(ligas.publishable("usa.1", 0, 0))                      # MLS pasa con v2
         self.assertTrue(ligas.publishable("eng.fa", 3, 0))                     # copas: pasan con todos los partidos
-        self.assertFalse(ligas.publishable("conmebol.libertadores", 50, 50))   # descalibrada: solo mercado
+        self.assertTrue(ligas.publishable("conmebol.libertadores", 50, 50))    # pasa recalibrada (cuarta prueba)
+        self.assertFalse(ligas.publishable("uefa.champions", 50, 50))           # no es del grupo ligas
+        p = ligas.recalibrate("conmebol.libertadores", [0.6, 0.25, 0.15])
+        self.assertAlmostEqual(sum(p), 1.0); self.assertNotEqual(p, [0.6, 0.25, 0.15])
+        self.assertEqual(ligas.recalibrate("esp.2", [0.6, 0.25, 0.15]), [0.6, 0.25, 0.15])
 
     def test_v2_features_only_in_new_group(self):
         from kalshi_intl.model import FEATS, GROUP_FEATURES, league_level

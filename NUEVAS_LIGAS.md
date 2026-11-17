@@ -153,3 +153,26 @@ error en la evaluación.
 
 **Pendiente:** el mismo sesgo puede afectar a las evaluaciones antiguas de las eliminatorias de copas europeas (grupo
 `clubes`). Hay que revisarlas con `et_as_draw=True`.
+
+## Cuarta prueba: recalibración de Libertadores y Sudamericana (pre-registrada, escrita antes de ver resultados)
+- **Por qué:** con la evaluación corregida, ambas mejoran a la referencia pero quedan algo descalibradas (ECE 0,056 y
+  0,052, frente al máximo de 0,05).
+- **Cambio:** recalibración multinomial `p_c ∝ exp(a_c + T · log p_c)` sobre las predicciones del modelo v2, ajustada
+  con las dos competiciones juntas.
+- **Sin fugas:** para cada temporada se ajusta SOLO con predicciones fuera de muestra de temporadas anteriores (desde
+  2020/21), con un mínimo de 200 partidos.
+- **Evaluación:** temporadas 2021/22 en adelante, partidos a 90' (prórroga o penales = empate), referencia por competición.
+- **Regla:** la original, por competición: n ≥ 300, IC 95% > 0 y ECE ≤ 0,05. Solo se publica con el modelo la competición
+  que pase; si pasa, se usa el modelo recalibrado. La que no pase sigue en BETA.
+
+### Resultado de la cuarta prueba (17/11/2026)
+| Competición | Sin recalibrar | Recalibrado | Veredicto |
+|---|---|---|---|
+| Libertadores | +0.050 [+0.015; +0.084], ECE 0.052, n = 802 | +0.060 [+0.033; +0.085], ECE 0.016, n = 802 | ✅ pasa |
+| Sudamericana | +0.065 [+0.037; +0.093], ECE 0.041, n = 812 | +0.067 [+0.046; +0.089], ECE 0.025, n = 812 | ✅ pasa |
+
+- **Muestra distinta a la de antes:** aquí se evalúan todos los partidos, sin el filtro de «ambos con 10 partidos previos»
+  que se aplicaba a las copas en la primera prueba. Por eso la Sudamericana sin recalibrar ya rozaba el aprobado.
+- **Publicación:** ambas se publican con el modelo v2 **recalibrado**. Parámetros de producción (todas las temporadas):
+  T = 0.777, a_D = -0.065, a_A = -0.254
+  (`kalshi_intl/conmebol_calibration.json`). Dejan de ser BETA.

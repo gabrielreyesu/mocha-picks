@@ -71,3 +71,18 @@ class TestCombinadas(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestRevision(unittest.TestCase):
+    def test_report_runs_and_flags(self):
+        import json as _j
+        from kalshi_nba import revision_semanal as R
+        with tempfile.TemporaryDirectory() as d:
+            old = R.P; R.P = Path(d)
+            try:
+                Path(d, "nba_lineup_shadow_scoreboard.json").write_text(_j.dumps({"updated_utc": "2026-11-16T00:00Z", "resultado": {
+                    "n": 210, "mejora_logloss": {"mejora": .01, "ic95_inf": .002, "ic95_sup": .02}}}))
+                txt, alerts = R.report("2026-11-17T12:00Z")
+            finally:
+                R.P = old
+        self.assertIn("210/200", txt); self.assertTrue(any("autorización" in a for a in alerts))

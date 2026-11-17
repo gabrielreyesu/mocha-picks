@@ -21,7 +21,21 @@ REPORT = Path("reports/nuevas_ligas.json")
 LIGAS_OK = {"arg.1", "bel.1", "bra.1", "eng.2", "esp.2", "fra.2", "ger.2", "ita.2", "ksa.1", "mex.1", "ned.1", "por.1",
             "sco.1", "tur.1", "usa.1"}
 COPAS_OK = {"eng.fa", "eng.league_cup", "esp.copa_del_rey", "ita.coppa_italia", "ger.dfb_pokal", "fra.coupe_de_france"}
-PUBLICAR: set = LIGAS_OK | COPAS_OK
+# Cuarta prueba: Libertadores y Sudamericana pasan con el modelo RECALIBRADO (conmebol_calibration.json)
+CONMEBOL_OK = {"conmebol.libertadores", "conmebol.sudamericana"}
+PUBLICAR: set = LIGAS_OK | COPAS_OK | CONMEBOL_OK
+CONMEBOL_CAL = Path(__file__).with_name("conmebol_calibration.json")
+
+
+def recalibrate(code: str, probs):
+    """Aplica la recalibración validada a una competición que la necesita; si no aplica, devuelve probs igual."""
+    try:
+        cfg = json.loads(CONMEBOL_CAL.read_text())
+    except (OSError, ValueError):
+        return probs
+    if code not in cfg.get("codes", []):
+        return probs
+    return [float(v) for v in apply_cal(np.array([probs], float), cfg["param"])[0]]
 
 
 def is_cup(code: str) -> bool:
