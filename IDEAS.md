@@ -14,7 +14,7 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho (aporta) · ❌ hecho (no a
 | # | Idea | Deporte | Por qué podría aportar | Estado |
 |---|---|---|---|---|
 | 1 | Eficiencia ofensiva/defensiva y ritmo desde las estadísticas de cada partido (box score), en vez de solo puntos | NBA | Mide la calidad real mejor que el Elo; puede cerrar la brecha | ❌ no aporta (EFICIENCIA_RESEARCH.md) |
-| 2 | Tiros y tiros a puerta como «xG aproximado» del equipo (ESPN), como variables del modelo de fútbol | fútbol | Los goles tienen mucho azar; los tiros predicen mejor la fuerza | ⬜ |
+| 2 | Tiros y tiros a puerta como «xG aproximado» del equipo (ESPN), como variables del modelo de fútbol | fútbol | Los goles tienen mucho azar; los tiros predicen mejor la fuerza | 🔄 TIROS_RESEARCH.md |
 | 3 | Modelado del empate (Dixon-Coles / inflación de empates) por liga | fútbol | El 1X2 depende mucho de acertar el empate | ⬜ |
 | 4 | Ventaja de local variable por liga y por temporada (post-COVID) | todos | La ventaja de local cambió en los últimos años | ⬜ |
 | 5 | Ajuste de K y de la ventaja de local del Elo por liga (walk-forward) | fútbol | Hoy se usa una configuración común | ⬜ |
