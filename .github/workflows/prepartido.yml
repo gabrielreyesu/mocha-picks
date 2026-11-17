@@ -66,6 +66,16 @@ jobs:
           done
           if [[ " $S " == *" intl "* ]]; then python -m kalshi_intl.cli predict --days 1 || true; fi
           if [[ " $S " == *" liga "* ]]; then python -m kalshi_soccer.cli predict --days 1 || true; fi
+      - if: steps.due.outputs.sports != ''
+        uses: actions/cache@v4
+        with:
+          path: data/lineups
+          key: lineups-data-${{ github.run_id }}
+          restore-keys: lineups-data-
+      - name: Alineaciones (los onces oficiales salen ~1 h antes)
+        if: steps.due.outputs.sports != ''
+        continue-on-error: true
+        run: python -m kalshi_nba.alineaciones
       - name: Guardar y regenerar páginas
         if: steps.due.outputs.sports != ''
         run: |

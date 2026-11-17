@@ -159,6 +159,15 @@ dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px;margi
 .an .k.g{color:var(--good)}.an .k.w{color:var(--mid)}.an .k.m{color:var(--muted)}
 .an .ap{margin:4px 0 0;font-size:14px;line-height:1.5;color:var(--ink)}
 .an details summary{cursor:pointer;color:var(--away);font-weight:700;font-size:13px;margin-top:6px}
+.pitch{position:relative;background:linear-gradient(180deg,#071a33,#0a2445 50%,#071a33);border:1px solid var(--line);border-radius:16px;padding:10px 4px;margin-top:10px;overflow:hidden}
+.pitch:before{content:"";position:absolute;left:8px;right:8px;top:50%;border-top:1px solid rgba(159,195,255,.25)}
+.pitch:after{content:"";position:absolute;left:50%;top:50%;width:70px;height:70px;margin:-35px 0 0 -35px;border:1px solid rgba(159,195,255,.25);border-radius:50%}
+.prow{display:flex;justify-content:space-around;align-items:flex-start;margin:8px 0;position:relative;z-index:1}
+.pl{display:flex;flex-direction:column;align-items:center;gap:3px;width:62px;text-align:center}
+.pl i{font-style:normal;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:12px;background:var(--home);color:#fff;box-shadow:0 0 0 2px rgba(255,255,255,.15)}
+.pl.aw i{background:var(--away);color:#06142c}.pl span{font-size:10.5px;line-height:1.15;color:var(--ink);overflow:hidden;text-overflow:ellipsis;max-width:62px;white-space:nowrap}
+.fhead{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted);margin:0 8px;position:relative;z-index:1}
+.fhead b{color:var(--ink)}.tag2{font-size:10px;font-weight:800;border-radius:999px;padding:1px 7px;border:1px solid currentColor}.tag2.of{color:var(--good)}.tag2.pr{color:var(--mid)}
 .src{font-size:11px;color:var(--muted);margin:14px 2px 0;line-height:1.45}
 nav.bottom{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(5,1fr);background:rgba(11,13,16,.96);backdrop-filter:blur(8px);
 border-top:1px solid var(--line);padding:8px 0 calc(8px + env(safe-area-inset-bottom));z-index:10}
@@ -313,6 +322,37 @@ function analysis(g) {
     ${(a.secciones || []).map(x => `<div class="k m" style="margin-top:12px">${esc(x.t)}</div><p class="ap">${esc(x.x)}</p>`).join("")}
     <div class="src" style="margin-top:6px">Texto generado a partir de nuestros datos. No es una recomendación de apuesta.</div></section>`;
 }
+// ---- alineaciones ----
+const DEPTH = p => { p = (p || "").toUpperCase(); if (p === "G" || p === "GK") return 0; if (/^(RB|LB|CB|CD|SW|RWB|LWB|D)/.test(p)) return 1;
+  if (/^(DM|CDM)/.test(p)) return 2; if (/^AM/.test(p)) return 4; if (/^(LW|RW)$/.test(p)) return 4.5; if (/^(F|CF|ST|S)/.test(p)) return 5; return 3; };
+const SIDE = p => { p = (p || "").toUpperCase(); return /-L$|^L/.test(p) ? 0 : /-R$|^R/.test(p) ? 2 : 1; };
+function rows(t) {
+  const xi = t.xi || [], gk = xi.filter(x => DEPTH(x.pos) === 0), rest = xi.filter(x => DEPTH(x.pos) !== 0).sort((a, b) => DEPTH(a.pos) - DEPTH(b.pos));
+  const counts = String(t.formation || "").split("-").map(Number).filter(n => n > 0);
+  const out = [gk.length ? gk : rest.splice(0, 1)];
+  if (counts.reduce((a, b) => a + b, 0) === rest.length) { let i = 0; for (const c of counts) { out.push(rest.slice(i, i + c)); i += c; } }
+  else out.push(rest);
+  return out.map(r => [...r].sort((a, b) => SIDE(a.pos) - SIDE(b.pos)));
+}
+const pl = (x, aw) => `<div class="pl${aw ? " aw" : ""}"><i>${esc(x.num || "")}</i><span>${esc(x.n)}</span></div>`;
+function lineupTab(g) {
+  const L = g.xi, s = sides(g);
+  if (!L || (!L.h && !L.a)) return `<div class="empty">Todavía no hay alineación para este partido.<br>Los onces oficiales salen alrededor de 1 hora antes del inicio.</div>`;
+  const tag = t => t ? `<span class="tag2 ${t.tipo === "oficial" ? "of" : "pr"}">${t.tipo === "oficial" ? "OFICIAL" : "PROBABLE"}</span>` : "";
+  if (isUS(g)) {
+    const box = (t, name) => `<div class="sec">${esc(name)} ${tag(t)}</div>` + (t ? `<div class="games">${t.xi.map(x => `<div class="gl"><span></span><div class="o" style="${x.baja ? "color:var(--bad)" : ""}">${esc(x.n)}${x.baja ? " · baja" : ""}</div><span></span></div>`).join("")}</div><div class="pre">${esc(t.nota || "")}</div>` : `<div class="pre">Sin datos.</div>`);
+    return box(L[s.lk], s.L) + box(L[s.rk], s.R);
+  }
+  const H = L.h, A = L.a;
+  const half = (t, aw, flip) => { if (!t) return `<div class="pre" style="text-align:center">Sin alineación</div>`; const r = rows(t); return (flip ? r : [...r].reverse()).map(row => `<div class="prow">${row.map(x => pl(x, aw)).join("")}</div>`).join(""); };
+  let h = `<div class="pitch"><div class="fhead"><span><b>${esc(g.away)}</b> ${esc((A || {}).formation || "")}</span>${tag(A)}</div>
+    ${half(A, true, true)}${half(H, false, false)}
+    <div class="fhead"><span><b>${esc(g.home)}</b> ${esc((H || {}).formation || "")}</span>${tag(H)}</div></div>`;
+  const bench = (t, name) => t && t.bench && t.bench.length ? `<div class="sec">Suplentes · ${esc(name)}</div><div class="games">${t.bench.map(x => `<div class="gl"><b>${esc(x.num || "")}</b><div class="o">${esc(x.n)}</div><span class="m">${esc(x.pos === "SUB" ? "" : x.pos)}</span></div>`).join("")}</div>` : "";
+  h += bench(H, g.home) + bench(A, g.away);
+  h += `<div class="src">OFICIAL: once publicado por ESPN antes del partido. PROBABLE: el once de su último partido (puede cambiar). Las alineaciones no cambian el pick: se evalúan aparte en las pruebas en sombra.</div>`;
+  return h;
+}
 function kcard(icon, label, val, frac, lg, lgLabel) {
   return `<div class="kc"><div class="kl">${esc(label)}</div><div class="kv">${SV[icon] || ""}${val}</div>
     <div class="meter"><span style="width:${Math.max(0, Math.min(100, 100 * (frac ?? 0))).toFixed(0)}%"></span></div>
@@ -399,8 +439,8 @@ function formTab(g) {
   return h;
 }
 const P = v => pc(v), F = v => n1(v), CN = c => (DATA.codes || {})[c] || c;
-const TABS_SOCCER = [["analisis", "Análisis", "pick"], ["general", "General", "chart"], ["goals", "Goles", "ball"], ["shots", "Tiros", "shot"], ["corners", "Córners", "flag"], ["cards", "Tarjetas", "card"], ["form", "Forma", "form"]];
-const TABS_US = [["analisis", "Análisis", "pick"], ["general", "General", "chart"], ["pts", "Puntos", "pts"], ["form", "Forma", "form"]];
+const TABS_SOCCER = [["analisis", "Análisis", "pick"], ["xi", "Alineac.", "form"], ["general", "General", "chart"], ["goals", "Goles", "ball"], ["shots", "Tiros", "shot"], ["corners", "Córners", "flag"], ["cards", "Tarjetas", "card"], ["form", "Forma", "form"]];
+const TABS_US = [["analisis", "Análisis", "pick"], ["xi", "Alineac.", "form"], ["general", "General", "chart"], ["pts", "Puntos", "pts"], ["form", "Forma", "form"]];
 function detailHTML(g) {
   const s = sides(g), st = g.st || {}, t = new Date(g.t);
   const when = t.toLocaleDateString("es", {weekday: "long", day: "numeric", month: "long"}) + " · " + hhmm(g.t) + (st.venue ? " · " + st.venue : "");
@@ -409,6 +449,7 @@ function detailHTML(g) {
   let body;
   if (S.tab === "analisis") body = analysis(g) || general(g);
   else if (S.tab === "general") body = general(g);
+  else if (S.tab === "xi") body = lineupTab(g);
   else if (S.tab === "form") body = formTab(g);
   else if (S.tab === "goals") body = statTab(g, [["Goles a favor", "gf", F], ["Goles en contra", "ga", F, true], ["Más de 2.5 goles", "o25", P], ["Más de 1.5 goles", "o15", P],
       ["Ambos anotan", "btts", P], ["Portería a cero", "cs", P], ["Sin marcar", "fts", P, true]], "goals", "ball", "Goles");

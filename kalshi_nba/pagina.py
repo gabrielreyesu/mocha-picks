@@ -97,7 +97,7 @@ def games_us(lg: str, now, finals) -> list:
         else:
             final, src = model, "modelo"
         pick, prob = _pick([x.home, x.away], final)
-        out.append({"sport": lg, "id": x.event_id, "comp": SPORT[lg], "t": x.t.isoformat(), "home": x.home, "away": x.away, "three": False,
+        out.append({"sport": lg, "id": x.event_id, "home_id": str(getattr(x, "home_id", "")), "away_id": str(getattr(x, "away_id", "")), "comp": SPORT[lg], "t": x.t.isoformat(), "home": x.home, "away": x.away, "three": False,
                     "pick": pick, "prob": prob, "src": src, "fp": final,
                     "rows": [["Modelo", model], ["Casas", [bh, None if bh is None else 1 - bh]],
                              ["Kalshi", [kh, None if kh is None else 1 - kh]], ["Polymarket", [ph, None if ph is None else 1 - ph]]],
@@ -291,10 +291,15 @@ def collect(now=None, score_getter=None) -> dict:
         stats = json.loads((P / "stats.json").read_text(encoding="utf-8")).get("games", {})
     except (OSError, ValueError):
         stats = {}
+    try:
+        lineups = json.loads((P / "lineups.json").read_text(encoding="utf-8")).get("games", {})
+    except (OSError, ValueError):
+        lineups = {}
     for g in games:
         g["hlogo"], g["alogo"] = logos.team(g["sport"], g["home"]), logos.team(g["sport"], g["away"])
         g["clogo"] = logos.comp(g["sport"], g.get("code"))
         g["st"] = stats.get(f"{g['sport']}:{g['id']}")
+        g["xi"] = lineups.get(f"{g['sport']}:{g['id']}")
     for g in games:
         sc = scores.get(f"{g['sport']}:{g.get('id')}")
         started = pd.Timestamp(g["t"]) <= now
