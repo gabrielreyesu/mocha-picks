@@ -20,5 +20,17 @@
 3. **Regla:** solo se incorpora (primero en sombra) si mejora a las casas con IC 95% > 0. Si no, ❌ y se reporta.
 4. También se informa el efecto frente al modelo propio, como referencia.
 
-## Resultados
-(pendiente)
+## Resultados (17/11/2026)
+- **Muestra:** 9,253 partidos de las 5 grandes ligas con cuotas de casas (agosto 2021 – octubre 2026).
+  - 5,477 partidos evaluados fuera de muestra.
+  - En el 23% de los partidos el local llegaba con al menos una baja probable por sanción (0,27 por equipo de media).
+- **Casas recalibradas:** log loss 0.96183.
+- **Casas + suspensiones:** log loss 0.96183.
+- **Mejora:** -0.0000 [-0.0003; +0.0003]. → **❌ No aporta.**
+- **Coeficiente** (local / empate / visitante): [-0.0157, 0.0259, -0.0102]. Va en la dirección esperada (una baja del local le
+  resta un poco), pero es diminuto. El mercado ya lo sabe.
+- **Comparación con el modelo propio:** no se calculó. Frente al mercado el efecto es nulo, que es lo que decide; frente al
+  modelo solo informaría de algo que el pick final ya recibe de las casas.
+
+**Conclusión:** como en racha, descanso o viajes, las casas ya incorporan las sanciones conocidas. Habría que repetirlo solo
+con datos de alineaciones (si el sancionado era titular), lo que ya cubre la prueba de onces en sombra.

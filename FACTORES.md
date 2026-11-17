@@ -50,6 +50,7 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Promedios de tiros, tiros a puerta, córners y tarjetas (últimos 10, ESPN) | fútbol | ⏳ | Solo informativos en la página (ventana del partido y «Estadísticas»); falta probarlos frente a las casas antes de usarlos en picks | `kalshi_nba/estadisticas.py` |
 | Nuevas ligas (segundas divisiones, Portugal, P. Bajos, Bélgica, Turquía, Escocia, Liga MX, Brasil, Argentina, Arabia, MLS) | fútbol | ✅ | Pasan la validación pre-registrada frente a la referencia de cada liga (modelo v2) | `NUEVAS_LIGAS.md` |
 | Copas nacionales con categoría del equipo + divisiones inferiores (v2) | fútbol | ✅ | Todas juntas +0,081 [+0,063; +0,099], ECE 0,014 (2.993 partidos) | `NUEVAS_LIGAS.md` |
-| Libertadores y Sudamericana con el modelo | fútbol | ❌ | Mejoran a la referencia pero descalibradas (ECE 0,056 / 0,052): pick solo con casas o Kalshi (BETA) | `NUEVAS_LIGAS.md` |
+| Libertadores y Sudamericana con el modelo recalibrado | fútbol | ✅ | Recalibración sin fugas: ECE 0,016 / 0,025, mejora +0,060 / +0,067 frente a la referencia | `NUEVAS_LIGAS.md` |
 | Cuotas de The Odds API para copas y ligas nuevas | fútbol | ⏳ | Conectado; se activa con el secreto ODDS_API_KEY | `kalshi_intl/odds_api.py` |
 | Eliminatorias con prórroga = empate a 90' (copas europeas y selecciones) | fútbol | ✅ | Revisado: 2% de partidos afectados; el modelo sigue pasando (ECE 0,028/0,030); etiquetas corregidas en aciertos y evaluación | `CORRECCION_90MIN.md` |
+| Suspensiones (rojas y 5.ª amarilla) frente a las casas | fútbol | ❌ | -0.0000 [-0.0003; +0.0003] en 5,477 partidos: el mercado ya las incorpora | `SUSPENSIONES_RESEARCH.md` |

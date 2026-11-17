@@ -86,6 +86,10 @@ def cmd_predict(days=14):
         if up.empty:
             continue
         pr = model.predict(up)
+        if grp == "ligas":                              # recalibración validada (NUEVAS_LIGAS.md, cuarta prueba)
+            from .ligas import recalibrate
+            for ix, code in zip(pr.index, up["code"]):
+                pr.loc[ix, ["p_H", "p_D", "p_A"]] = recalibrate(code, pr.loc[ix, ["p_H", "p_D", "p_A"]].tolist())
         try:
             events = kalshi_events(KALSHI[grp])
         except Exception as ex:  # noqa: BLE001
