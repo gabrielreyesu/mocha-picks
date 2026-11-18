@@ -288,3 +288,16 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,intl,401930899,Ganador,Ecuador,0.891,Kalshi + casas + modelo,1
 2026-11-17,intl,401930899,Doble oportunidad,Ecuador o empate,0.9714,Kalshi + casas + modelo,1
 2026-11-17,intl,401930899,Goles,Más de 2.5,0.5928,casas + modelo,0
+2026-11-17,nba,401910002,Ganador,New York Knicks,0.5717,Kalshi + casas + modelo,1
+2026-11-17,nba,401910002,Hándicap,New York Knicks gana por más de 2.5,0.5,casas,1
+2026-11-17,nba,401910002,Total de puntos,Menos de 216.5,0.5223,casas,1
+2026-11-17,nba,401910002,Puntos (línea segura),Más de 202.5,0.7662,casas,1
+2026-11-17,nba,401910003,Ganador,Minnesota Timberwolves,0.6129,Kalshi + casas + modelo,1
+2026-11-17,nba,401910003,Hándicap,Minnesota Timberwolves gana por más de 4.5,0.5,casas,0
+2026-11-17,nba,401910003,Total de puntos,Menos de 226.5,0.5223,casas,1
+2026-11-17,nba,401910003,Puntos (línea segura),Más de 212.5,0.7662,casas,0
+2026-11-17,nba,401910004,Ganador,San Antonio Spurs,0.7938,Kalshi + casas + modelo,0
+2026-11-17,nba,401910004,Hándicap,San Antonio Spurs gana por más de 9.5,0.5,casas,0
+2026-11-17,nba,401910004,Hándicap seguro,San Antonio Spurs gana por más de 1.5,0.7248,casas,0
+2026-11-17,nba,401910004,Total de puntos,Menos de 222.5,0.5223,casas,1
+2026-11-17,nba,401910004,Puntos (línea segura),Más de 208.5,0.7662,casas,0
