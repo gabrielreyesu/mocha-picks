@@ -301,3 +301,11 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,nba,401910004,Hándicap seguro,San Antonio Spurs gana por más de 1.5,0.7248,casas,0
 2026-11-17,nba,401910004,Total de puntos,Menos de 222.5,0.5223,casas,1
 2026-11-17,nba,401910004,Puntos (línea segura),Más de 208.5,0.7662,casas,0
+2026-11-17,nba,401910006,Ganador,LA Clippers,0.6686,Kalshi + casas + modelo,0
+2026-11-17,nba,401910006,Hándicap,LA Clippers gana por más de 5.5,0.5,casas,0
+2026-11-17,nba,401910006,Total de puntos,Más de 227.5,0.5,casas,1
+2026-11-17,nba,401910006,Puntos (línea segura),Más de 213.5,0.7829,casas,1
+2026-11-17,nba,401910005,Ganador,Los Angeles Lakers,0.7214,Kalshi + casas + modelo,1
+2026-11-17,nba,401910005,Hándicap,Los Angeles Lakers gana por más de 7.5,0.5,casas,0
+2026-11-17,nba,401910005,Total de puntos,Más de 220.5,0.5,casas,1
+2026-11-17,nba,401910005,Puntos (línea segura),Más de 206.5,0.7829,casas,1
