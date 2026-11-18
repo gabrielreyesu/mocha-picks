@@ -278,3 +278,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,intl,401861190,Goles,Menos de 2.5,0.5815,casas + modelo,1
 2026-11-17,intl,401861194,Ganador,Norway,0.4046,Kalshi + casas + modelo,1
 2026-11-17,intl,401861194,Doble oportunidad,Denmark o Norway (no empate),0.7776,Kalshi + casas + modelo,1
+2026-11-17,intl,401921304,Ganador,Colombia,0.5537,casas + modelo,0
+2026-11-17,intl,401921304,Doble oportunidad,Colombia o empate,0.8252,casas + modelo,1
+2026-11-17,intl,401921304,Goles,Menos de 2.5,0.5863,casas + modelo,1
+2026-11-17,intl,401930895,Ganador,Argentina,0.9463,Kalshi + casas + modelo,1
+2026-11-17,intl,401930895,Doble oportunidad,Argentina o empate,0.9806,Kalshi + casas + modelo,1
+2026-11-17,intl,401932215,Ganador,Uruguay,0.9228,Kalshi + casas + modelo,1
+2026-11-17,intl,401932215,Doble oportunidad,Uruguay o empate,0.9769,Kalshi + casas + modelo,1
+2026-11-17,intl,401930899,Ganador,Ecuador,0.891,Kalshi + casas + modelo,1
+2026-11-17,intl,401930899,Doble oportunidad,Ecuador o empate,0.9714,Kalshi + casas + modelo,1
+2026-11-17,intl,401930899,Goles,Más de 2.5,0.5928,casas + modelo,0
