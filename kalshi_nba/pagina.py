@@ -329,8 +329,12 @@ def collect(now=None, score_getter=None) -> dict:
             g["code"] = g["sport"]
     try:
         from .combinadas import record_picks, update as combis_update
-        combis = combis_update(games, now, P, TZ)
-        record_picks(games, P, TZ)
+        # los registros (combinadas fijadas, aciertos) solo se escriben con la hora REAL: una simulación con otra fecha
+        # (pruebas, reconstrucciones) no debe crear ni resolver combinadas
+        real = abs(pd.Timestamp(now) - pd.Timestamp.now(tz=TZ)) < pd.Timedelta(minutes=30)
+        combis = combis_update(games, now, P, TZ, write=real)
+        if real:
+            record_picks(games, P, TZ)
     except Exception as ex:  # noqa: BLE001 - sin registro de combinadas, la página calcula las suyas
         print("AVISO combinadas:", type(ex).__name__, ex); combis = {}
     return {"updated": now.isoformat(), "tz": TZ, "games": games, "codes": comp_names(), "catalog": catalog(logos), "combis": combis,

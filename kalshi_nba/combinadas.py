@@ -102,7 +102,7 @@ def latest(rows: list) -> dict:
     return d
 
 
-def update(games: list, now, folder: Path, tz: str) -> dict:
+def update(games: list, now, folder: Path, tz: str, write: bool = True) -> dict:
     """Recalcula los días no congelados, resuelve los terminados y devuelve {fecha: {creado, congelada, tickets}}."""
     path = folder / FILE_NAME
     rows = load(path)
@@ -143,7 +143,7 @@ def update(games: list, now, folder: Path, tz: str) -> dict:
             new.append({"tipo": "resultado", "fecha": day, "creado": now.isoformat(),
                         "tickets": [{"perfil": t["perfil"], "P": t["P"], "O": t["O"], "n": len(t["legs"]), "acierto": h}
                                     for t, h in zip(r["tickets"], res)]})
-    if new:
+    if new and write:
         folder.mkdir(parents=True, exist_ok=True)
         with path.open("a", encoding="utf-8") as fh:
             for x in new:
