@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 18 Nov 2026 11:09 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 18 Nov 2026 12:26 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -270,19 +270,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ganador | Real Unión Irun | 41% | Baja | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Doble oportunidad | Portugalete o Real Unión Irun (no empate) | 72% | Alta | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ganador | CD Sabadell | 64% | Media | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Doble oportunidad | CD Sabadell o empate | 86% | Alta | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ambos anotan | Sí | 58% | Media | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ganador | Mallorca | 72% | Alta | casas + modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ganador | Mallorca | 73% | Alta | casas + modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Doble oportunidad | Mallorca o empate | 90% | Alta | casas + modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ganador | Tenerife | 45% | Baja | modelo | — |
@@ -290,9 +280,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles | Más de 2.5 | 56% | Media | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ganador | Barakaldo | 47% | Baja | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Doble oportunidad | Barakaldo o empate | 75% | Alta | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ganador | Barakaldo | 45% | Baja | casas + modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Doble oportunidad | Barakaldo o empate | 74% | Alta | casas + modelo | — |
+| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ganador | FC Cartagena | 37% | Baja | casas + modelo | — |
@@ -307,7 +297,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ganador | Remo | 68% | Media | casas + modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Doble oportunidad | Remo o empate | 87% | Alta | casas + modelo | — |
-| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ganador | Palmeiras | 40% | Baja | casas + modelo | — |
@@ -345,8 +335,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 18:30 | NBA | Washington Wizards en Toronto Raptors | Hándicap | Toronto Raptors gana por más de 6.5 | 50% | Baja | casas | 50¢ |
 | Wed 18 Nov 18:30 | NBA | Washington Wizards en Toronto Raptors | Total de puntos | Menos de 229.5 | 52% | Baja | casas | 53¢ |
 | Wed 18 Nov 18:30 | NBA | Washington Wizards en Toronto Raptors | Puntos (línea segura) | Más de 215.5 | 77% | Alta | casas | 77¢ |
-| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ganador | Corinthians | 53% | Baja | casas + modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Doble oportunidad | Corinthians o empate | 78% | Alta | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ganador | Corinthians | 54% | Baja | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Doble oportunidad | Corinthians o empate | 79% | Alta | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ambos anotan | Sí | 51% | Baja | modelo | — |
