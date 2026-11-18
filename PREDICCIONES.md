@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 18 Nov 2026 02:19 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 18 Nov 2026 07:32 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -364,4 +364,33 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 20:30 | NBA | Golden State Warriors en Dallas Mavericks | Ganador | Dallas Mavericks | 67% | Media | Kalshi + casas + modelo | 66¢ |
 | Wed 18 Nov 21:00 | NBA | Phoenix Suns en Sacramento Kings | Ganador | Phoenix Suns | 74% | Alta | Kalshi + modelo | 72¢ |
 | Wed 18 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Ganador | Los Angeles Lakers | 84% | Alta | Kalshi + modelo | 84¢ |
+| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Ganador | Vasco da Gama | 59% | Media | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Doble oportunidad | Vasco da Gama o empate | 82% | Alta | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Ganador | Red Bull Bragantino | 39% | Baja | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Doble oportunidad | Vitória o Red Bull Bragantino (no empate) | 73% | Alta | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Ganador | São Paulo | 38% | Baja | casas + modelo | — |
+| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Doble oportunidad | São Paulo o Fluminense (no empate) | 71% | Alta | casas + modelo | — |
+| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
+| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
+| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Ambos anotan | Sí | 51% | Baja | modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ganador | Orlando City SC | 39% | Baja | casas + modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Doble oportunidad | Orlando City SC o FC Cincinnati (no empate) | 77% | Alta | casas + modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles | Más de 2.5 | 63% | Media | modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ambos anotan | Sí | 64% | Media | modelo | — |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Ganador | San Antonio Spurs | 87% | Alta | Kalshi + modelo | 87¢ |
+| Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Ganador | New York Knicks | 54% | Baja | Kalshi + modelo | 54¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Ganador | Portland Trail Blazers | 81% | Alta | Kalshi + modelo | 80¢ |
+| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Ganador | Memphis Grizzlies | 62% | Media | Kalshi + modelo | 62¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Ganador | Houston Texans | 83% | Alta | Kalshi + casas + modelo | 84¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap | Indianapolis Colts +13.5 (gana o pierde por menos de 13.5) | 53% | Baja | casas | 55¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap seguro | Houston Texans gana por más de 5.5 | 71% | Alta | casas | 72¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Total de puntos | Más de 44.5 | 50% | Baja | casas | 50¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Puntos (línea segura) | Más de 35.5 | 76% | Alta | casas | 78¢ |
 
