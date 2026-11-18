@@ -36,6 +36,10 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .chip{flex:0 0 auto;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);font-weight:600;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
 .chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--on-accent);font-weight:800}
 .chip.small{padding:6px 11px;font-size:13px}.chip svg{width:16px;height:16px}
+.sortbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:2px 12px 6px;font-size:13px;color:var(--muted)}
+.sortbar select{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font:inherit;font-size:13px}
+.sortbar .grp{display:flex;align-items:center;gap:5px}
+.filter .ic img{width:16px;height:16px;object-fit:contain;vertical-align:middle}
 .note{color:var(--muted);font-size:13px;padding:4px 14px 8px}
 main{padding:0 10px}
 .league{display:flex;align-items:center;gap:10px;margin:16px 4px 8px;font-weight:800;color:var(--accent)}
@@ -204,6 +208,11 @@ footer{color:var(--muted);font-size:12px;padding:18px 16px 10px;line-height:1.5}
 </div>
 <div class="seg" id="seg"><button data-o="-1">Ayer</button><button data-o="0">Hoy</button><button data-o="1">Mañana</button></div>
 <div class="chips" id="status"></div>
+<div class="sortbar" id="sortbar"><label for="sort">Ordenar</label><select id="sort" aria-label="Ordenar">
+  <option value="hora">Por hora (normal)</option><option value="prob_desc">Probabilidad: de alta a baja</option>
+  <option value="prob_asc">Probabilidad: de baja a alta</option><option value="az">Alfabético: A → Z</option>
+  <option value="za">Alfabético: Z → A</option><option value="comp">Por competición</option></select>
+  <label class="grp"><input type="checkbox" id="grp"> Agrupar por competición</label></div>
 <div class="chips" id="sports"></div>
 <div class="chips" id="mkts" style="display:none"></div>
 <div class="note">Actualizado __UPDATED__ (Chicago) · horas en tu zona horaria</div>
@@ -240,9 +249,9 @@ const SV = {
   pts: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 9.8 0 12.8M18.4 5.6c-3 3-3 9.8 0 12.8"/></svg>',
   back: '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m15 6-6 6 6 6"/></svg>'
 };
-const S = {off: 0, status: "all", sport: "all", view: "games", mkt: "all", comp: null, q: "", metric: "goals", order: "hi", tab: "analisis", split: "all", sel: null, league: null, lq: "", lopen: {}, topmode: "picks"};
+const S = {off: 0, status: "all", sport: "all", view: "games", mkt: "all", comp: null, q: "", metric: "goals", order: "hi", tab: "analisis", split: "all", sel: null, league: null, lq: "", lopen: {}, topmode: "picks", sort: "hora", grp: true};
 try { Object.assign(S, JSON.parse(localStorage.getItem("mocha-ui") || "{}"), {off: 0, comp: null, q: "", sel: null, tab: "analisis"}); } catch (e) {}
-const save = () => { try { localStorage.setItem("mocha-ui", JSON.stringify({status: S.status, sport: S.sport, mkt: S.mkt, metric: S.metric, order: S.order, split: S.split, topmode: S.topmode})); } catch (e) {} };
+const save = () => { try { localStorage.setItem("mocha-ui", JSON.stringify({status: S.status, sport: S.sport, mkt: S.mkt, metric: S.metric, order: S.order, split: S.split, topmode: S.topmode, sort: S.sort, grp: S.grp})); } catch (e) {} };
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pc = v => v == null ? "—" : Math.round(100 * v) + "%";
 const n1 = v => v == null ? "—" : (Math.round(10 * v) / 10).toLocaleString("es", {maximumFractionDigits: 1});
@@ -653,7 +662,8 @@ function playersView() {
   let ps = (DATA.players || []).filter(p => dayKey(new Date(p.t)) === key && (S.sport === "all" || p.sport === S.sport));
   let h = `<div class="sthead"><h2>Jugadores</h2><p>Picks de jugadores con el precio de Kalshi (la probabilidad del mercado). Al lado, nuestra proyección con sus últimos partidos.</p></div>`;
   if (!ps.length) return h + emptyMsg("No hay mercados de jugadores con precio fiable este día (Kalshi los abre cerca del partido).");
-  const top = [...ps].sort((a, b) => b.p - a.p).slice(0, 10);
+  let top = [...ps].sort((a, b) => b.p - a.p).slice(0, 10);
+  if ((S.sort || "hora") !== "hora") top = sortBy(top, x => S.sort === "comp" ? x.partido : x.player, x => x.p, x => x.t);
   h += `<div class="sec">Mejores picks de jugadores</div><div class="games">${top.map(playerRow).join("")}</div>`;
   const cs = playerCombis(ps.filter(p => new Date(p.t) > new Date()));
   if (cs.length) h += `<div class="sec">Combinadas de jugadores</div>` + cs.map((t, i) => `<div class="tk"><div class="th"><div><div class="tn">#${i + 1} · ${esc(t.n)}</div><div class="ts">Jugadores de partidos distintos</div></div></div>
@@ -737,6 +747,17 @@ function currentList() {
   if (S.view === "stats") { const M = METRICS.find(m => m.k === S.metric) || METRICS[0]; gs = gs.filter(([g]) => isUS(g) !== M.soccer && M.v(g) != null).sort((a, b) => S.order === "hi" ? M.v(b[0]) - M.v(a[0]) : M.v(a[0]) - M.v(b[0])); }
   return gs;
 }
+// Orden opcional (por defecto, por hora). name: texto para orden alfabético; prob: probabilidad para ordenar.
+function sortBy(list, name, prob, time) {
+  const k = S.sort || "hora", a = [...list];
+  const cmpTxt = (x, y) => String(name(x)).localeCompare(String(name(y)), "es", {sensitivity: "base"});
+  if (k === "prob_desc") a.sort((x, y) => (prob(y) ?? -1) - (prob(x) ?? -1));
+  else if (k === "prob_asc") a.sort((x, y) => (prob(x) ?? 2) - (prob(y) ?? 2));
+  else if (k === "az") a.sort(cmpTxt);
+  else if (k === "za") a.sort((x, y) => -cmpTxt(x, y));
+  else if (k === "hora" && time) a.sort((x, y) => Date.parse(time(x)) - Date.parse(time(y)));
+  return a;
+}
 function drawHeader() {
   const d = selDate();
   document.getElementById("dateLabel").textContent = d.toLocaleDateString("es", {day: "2-digit", month: "2-digit", year: "numeric"}).replace(/\//g, ".");
@@ -750,6 +771,11 @@ function drawHeader() {
     .map(([v, l]) => `<button class="chip small" data-v="${v}" aria-pressed="${S.sport === v}">${v === "all" ? "" : ICON[v] + " "}${l}</button>`).join("");
   document.getElementById("mkts").style.display = S.view === "top" && (S.topmode || "picks") === "picks" ? "flex" : "none";
   document.getElementById("status").style.display = S.view === "games" ? "flex" : "none";
+  const sb = S.view === "games" || (S.view === "top" && S.topmode !== "combis");
+  document.getElementById("sortbar").style.display = sb ? "flex" : "none";
+  document.getElementById("sort").value = S.sort || "hora";
+  document.getElementById("grp").checked = S.grp !== false;
+  document.querySelector("#sortbar .grp").style.display = S.view === "games" ? "flex" : "none";
   const lv = S.view === "leagues";
   for (const id of ["dbar", "seg", "sports"]) document.getElementById(id).style.display = lv ? "none" : "";
   for (const b of document.querySelectorAll("[data-view]")) b.setAttribute("aria-current", String(b.dataset.view === S.view));
@@ -776,7 +802,8 @@ function draw() {
     const mk = document.getElementById("mkts");
     const base = gs.filter(([g]) => g.state === "pre").flatMap(([g, i]) => (g.picks || []).filter(p => p.prob != null).map(p => [g, p, i]));
     mk.innerHTML = MKTS.map(([v, l]) => `<button class="chip small" data-v="${v}" aria-pressed="${S.mkt === v}">${l} (${base.filter(([g, p]) => isMkt(v, p)).length})</button>`).join("");
-    const ps = base.filter(([g, p]) => isMkt(S.mkt, p)).sort((a, b) => b[1].prob - a[1].prob);
+    let ps = base.filter(([g, p]) => isMkt(S.mkt, p)).sort((a, b) => b[1].prob - a[1].prob);
+    if ((S.sort || "hora") !== "hora") ps = S.sort === "comp" ? sortBy(ps, x => x[0].comp, x => x[1].prob) : sortBy(ps, x => x[1].pick, x => x[1].prob);
     el.innerHTML = topToggle() + (ps.length ? `<div class="league">Mejores picks del día · ${ps.length}</div>` + ps.map(([g, p, i]) => {
       const lv = level(p.prob);
       const vs = isUS(g) ? `${esc(g.away)} en ${esc(g.home)}` : `${esc(g.home)} vs ${esc(g.away)}`;
@@ -790,12 +817,16 @@ function draw() {
     if (!gs.length) html += emptyMsg("No hay partidos con estos filtros.");
     else {
       const order = [], groups = {};
-      for (const [g, i] of gs) { if (!groups[g.comp]) { groups[g.comp] = []; order.push(g.comp); } groups[g.comp].push([g, i]); }
+      const nm = ([g]) => isUS(g) ? g.away + " " + g.home : g.home + " " + g.away;
+      gs = S.sort === "comp" ? sortBy(gs, ([g]) => g.comp + " " + g.t, ([g]) => g.prob) : sortBy(gs, nm, ([g]) => g.prob, ([g]) => g.t);
+      const grouped = S.grp !== false || S.sort === "comp";
+      if (!grouped) { order.push("__all"); groups.__all = gs; }
+      else for (const [g, i] of gs) { if (!groups[g.comp]) { groups[g.comp] = []; order.push(g.comp); } groups[g.comp].push([g, i]); }
       const done = gs.filter(([g]) => g.hit != null), ok = done.filter(([g]) => g.hit).length;
       if (done.length) html += `<div class="note">Picks resueltos este día: <b>${ok} de ${done.length}</b> acertados</div>`;
       for (const c of order) {
-        html += `<div class="league"><span class="ic">${compIcon(groups[c][0][0])}</span>${esc(c)}<span class="n">${groups[c].length}</span></div>`;
-        html += groups[c].map(([g, i]) => card(g, i)).join("");
+        if (c !== "__all") html += `<div class="league"><span class="ic">${compIcon(groups[c][0][0])}</span>${esc(c)}<span class="n">${groups[c].length}</span></div>`;
+        html += groups[c].map(([g, i]) => (c === "__all" ? `<div class="filter" style="margin:10px 4px 4px"><span class="ic">${compIcon(g)}</span> ${esc(g.comp)}</div>` : "") + card(g, i)).join("");
       }
     }
     el.innerHTML = html;
@@ -811,6 +842,8 @@ document.getElementById("next").onclick = () => { S.off++; draw(); };
 document.getElementById("seg").onclick = e => { const b = e.target.closest("button"); if (b) { S.off = +b.dataset.o; draw(); } };
 document.getElementById("status").onclick = e => { const b = e.target.closest("button"); if (b) { S.status = b.dataset.v; save(); draw(); } };
 document.getElementById("sports").onclick = e => { const b = e.target.closest("button"); if (b) { S.sport = b.dataset.v; S.comp = null; save(); draw(); } };
+document.getElementById("sort").onchange = e => { S.sort = e.target.value; save(); draw(); };
+document.getElementById("grp").onchange = e => { S.grp = e.target.checked; save(); draw(); };
 document.getElementById("mkts").onclick = e => { const b = e.target.closest("button"); if (b) { S.mkt = b.dataset.v; save(); draw(); } };
 const setView = v => { S.view = v; if (v === "leagues") S.league = null; draw(); window.scrollTo(0, 0); };
 document.querySelector("nav.bottom").onclick = e => { const b = e.target.closest("button[data-view]"); if (b) setView(b.dataset.view); };
