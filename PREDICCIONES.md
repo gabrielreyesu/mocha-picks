@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 18 Nov 2026 12:42 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 18 Nov 2026 14:35 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -270,26 +270,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ganador | Mallorca | 73% | Alta | casas + modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Doble oportunidad | Mallorca o empate | 90% | Alta | casas + modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ganador | Tenerife | 45% | Baja | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Doble oportunidad | Badajoz o Tenerife (no empate) | 75% | Alta | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles | Más de 2.5 | 56% | Media | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ganador | Barakaldo | 45% | Baja | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Doble oportunidad | Barakaldo o empate | 74% | Alta | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | Reus FC Reddis vs Barakaldo | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ganador | FC Cartagena | 37% | Baja | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Doble oportunidad | CD Minera o FC Cartagena (no empate) | 70% | Alta | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles | Menos de 2.5 | 65% | Media | casas + modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ambos anotan | Sí | 66% | Media | modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ganador | Santos | 51% | Baja | casas + modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Doble oportunidad | Santos o empate | 76% | Alta | casas + modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
@@ -297,19 +277,19 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ganador | Remo | 68% | Media | casas + modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Doble oportunidad | Remo o empate | 87% | Alta | casas + modelo | — |
-| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
+| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ganador | Palmeiras | 40% | Baja | casas + modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Doble oportunidad | Cruzeiro o Palmeiras (no empate) | 74% | Alta | casas + modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ambos anotan | Sí | 58% | Media | modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ganador | Flamengo | 83% | Alta | casas + modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Doble oportunidad | Flamengo o empate | 94% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ganador | Flamengo | 84% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Doble oportunidad | Flamengo o empate | 95% | Alta | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Goles | Más de 2.5 | 64% | Media | modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ganador | Palmeiras | 40% | Baja | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Doble oportunidad | Cruzeiro o Palmeiras (no empate) | 74% | Alta | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Ganador | Miami Heat | 85% | Alta | Kalshi + casas + modelo | 84¢ |
 | Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Hándicap | Miami Heat gana por más de 11.5 | 50% | Baja | casas | 52¢ |
 | Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Hándicap seguro | Miami Heat gana por más de 2.5 | 75% | Alta | casas | 80¢ |
@@ -335,16 +315,16 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 18:30 | NBA | Washington Wizards en Toronto Raptors | Hándicap | Toronto Raptors gana por más de 4.5 | 50% | Baja | casas | 50¢ |
 | Wed 18 Nov 18:30 | NBA | Washington Wizards en Toronto Raptors | Total de puntos | Más de 225.5 | 50% | Baja | casas | 48¢ |
 | Wed 18 Nov 18:30 | NBA | Washington Wizards en Toronto Raptors | Puntos (línea segura) | Más de 211.5 | 78% | Alta | casas | 80¢ |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Ganador | Grêmio | 37% | Baja | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Doble oportunidad | Grêmio o Bahia (no empate) | 74% | Alta | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ganador | Corinthians | 54% | Baja | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Doble oportunidad | Corinthians o empate | 79% | Alta | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Ganador | Grêmio | 38% | Baja | casas + modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Doble oportunidad | Grêmio o Bahia (no empate) | 74% | Alta | casas + modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 19:00 | NBA | Atlanta Hawks en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 70% | Media | Kalshi + casas + modelo | 70¢ |
 | Wed 18 Nov 19:00 | NBA | Atlanta Hawks en Oklahoma City Thunder | Hándicap | Oklahoma City Thunder gana por más de 6.5 | 50% | Baja | casas | 48¢ |
 | Wed 18 Nov 19:00 | NBA | Atlanta Hawks en Oklahoma City Thunder | Total de puntos | Menos de 229.5 | 52% | Baja | casas | 52¢ |

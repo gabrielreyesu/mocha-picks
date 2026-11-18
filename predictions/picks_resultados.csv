@@ -309,3 +309,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-17,nba,401910005,Hándicap,Los Angeles Lakers gana por más de 7.5,0.5,casas,0
 2026-11-17,nba,401910005,Total de puntos,Más de 220.5,0.5,casas,1
 2026-11-17,nba,401910005,Puntos (línea segura),Más de 206.5,0.7829,casas,1
+2026-11-18,club,401928497,Ganador,CD Sabadell,0.6412,casas + modelo,1
+2026-11-18,club,401928497,Doble oportunidad,CD Sabadell o empate,0.8634,casas + modelo,1
+2026-11-18,club,401928497,Goles,Menos de 2.5,0.5214,casas + modelo,0
+2026-11-18,club,401928497,Goles (línea segura),Más de 1.5,0.7959,modelo,1
+2026-11-18,club,401928497,Ambos anotan,Sí,0.5762,modelo,0
