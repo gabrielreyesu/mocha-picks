@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 18 Nov 2026 10:01 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 18 Nov 2026 11:09 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -270,19 +270,19 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ganador | CD Sabadell | 65% | Media | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Doble oportunidad | CD Sabadell o empate | 87% | Alta | casas + modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ganador | Real Unión Irun | 41% | Baja | casas + modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Doble oportunidad | Portugalete o Real Unión Irun (no empate) | 72% | Alta | casas + modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ganador | CD Sabadell | 64% | Media | casas + modelo | — |
+| Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Doble oportunidad | CD Sabadell o empate | 86% | Alta | casas + modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Wed 18 Nov 12:00 | Copa del Rey | Utebo vs CD Sabadell | Ambos anotan | Sí | 58% | Media | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ganador | Real Unión Irun | 41% | Baja | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Doble oportunidad | Portugalete o Real Unión Irun (no empate) | 72% | Alta | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Wed 18 Nov 12:00 | Copa del Rey | Portugalete vs Real Unión Irun | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ganador | Mallorca | 71% | Alta | casas + modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ganador | Mallorca | 72% | Alta | casas + modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Doble oportunidad | Mallorca o empate | 90% | Alta | casas + modelo | — |
-| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles | Más de 2.5 | 50% | Baja | casas + modelo | — |
+| Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Alcoyano vs Mallorca | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Wed 18 Nov 13:00 | Copa del Rey | Badajoz vs Tenerife | Ganador | Tenerife | 45% | Baja | modelo | — |
@@ -300,9 +300,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles | Menos de 2.5 | 65% | Media | casas + modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
 | Wed 18 Nov 13:30 | Copa del Rey | CD Minera vs FC Cartagena | Ambos anotan | Sí | 66% | Media | modelo | — |
-| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ganador | Santos | 50% | Baja | casas + modelo | — |
+| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ganador | Santos | 51% | Baja | casas + modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Doble oportunidad | Santos o empate | 76% | Alta | casas + modelo | — |
-| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ganador | Remo | 68% | Media | casas + modelo | — |
@@ -310,7 +310,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ganador | Palmeiras | 39% | Baja | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ganador | Palmeiras | 40% | Baja | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Doble oportunidad | Cruzeiro o Palmeiras (no empate) | 74% | Alta | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
