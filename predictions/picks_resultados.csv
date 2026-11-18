@@ -314,3 +314,10 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-18,club,401928497,Goles,Menos de 2.5,0.5214,casas + modelo,0
 2026-11-18,club,401928497,Goles (línea segura),Más de 1.5,0.7959,modelo,1
 2026-11-18,club,401928497,Ambos anotan,Sí,0.5762,modelo,0
+2026-11-18,club,401928518,Ganador,Real Unión Irun,0.4145,casas + modelo,0
+2026-11-18,club,401928518,Doble oportunidad,Portugalete o Real Unión Irun (no empate),0.7173,casas + modelo,0
+2026-11-18,club,401928532,Ganador,Tenerife,0.4524,modelo,1
+2026-11-18,club,401928532,Doble oportunidad,Badajoz o Tenerife (no empate),0.7483,modelo,1
+2026-11-18,club,401928532,Goles,Más de 2.5,0.5576,modelo,1
+2026-11-18,club,401928532,Goles (línea segura),Más de 1.5,0.7969,modelo,1
+2026-11-18,club,401928532,Ambos anotan,Sí,0.59,modelo,1

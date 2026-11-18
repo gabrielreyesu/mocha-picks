@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 18 Nov 2026 14:35 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 18 Nov 2026 15:31 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -277,7 +277,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 16:30 | Brasileirão | Coritiba vs Santos | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ganador | Remo | 68% | Media | casas + modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Doble oportunidad | Remo o empate | 87% | Alta | casas + modelo | — |
-| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 18 Nov 17:00 | Brasileirão | Remo vs Chapecoense | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ganador | Flamengo | 84% | Alta | casas + modelo | — |
@@ -287,14 +287,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 17:30 | Brasileirão | Flamengo vs Athletico-PR | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ganador | Palmeiras | 40% | Baja | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Doble oportunidad | Cruzeiro o Palmeiras (no empate) | 74% | Alta | casas + modelo | — |
-| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Wed 18 Nov 17:30 | Brasileirão | Cruzeiro vs Palmeiras | Ambos anotan | Sí | 58% | Media | modelo | — |
-| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Ganador | Miami Heat | 85% | Alta | Kalshi + casas + modelo | 84¢ |
-| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Hándicap | Miami Heat gana por más de 11.5 | 50% | Baja | casas | 52¢ |
-| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Hándicap seguro | Miami Heat gana por más de 2.5 | 75% | Alta | casas | 80¢ |
-| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Total de puntos | Más de 236.5 | 50% | Baja | casas | 50¢ |
-| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Puntos (línea segura) | Más de 222.5 | 78% | Alta | casas | 80¢ |
 | Wed 18 Nov 18:00 | NBA | Memphis Grizzlies en Cleveland Cavaliers | Ganador | Cleveland Cavaliers | 63% | Media | Kalshi + casas + modelo | 64¢ |
 | Wed 18 Nov 18:00 | NBA | Memphis Grizzlies en Cleveland Cavaliers | Hándicap | Cleveland Cavaliers gana por más de 4.5 | 50% | Baja | casas | 50¢ |
 | Wed 18 Nov 18:00 | NBA | Memphis Grizzlies en Cleveland Cavaliers | Total de puntos | Más de 237.5 | 50% | Baja | casas | 50¢ |
@@ -307,6 +302,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 18:00 | NBA | Philadelphia 76ers en Orlando Magic | Hándicap | Philadelphia 76ers gana por más de 1.5 | 50% | Baja | casas | 46¢ |
 | Wed 18 Nov 18:00 | NBA | Philadelphia 76ers en Orlando Magic | Total de puntos | Menos de 223.5 | 52% | Baja | casas | 54¢ |
 | Wed 18 Nov 18:00 | NBA | Philadelphia 76ers en Orlando Magic | Puntos (línea segura) | Más de 209.5 | 77% | Alta | casas | 77¢ |
+| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Ganador | Miami Heat | 85% | Alta | Kalshi + casas + modelo | 84¢ |
+| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Hándicap | Miami Heat gana por más de 11.5 | 50% | Baja | casas | 52¢ |
+| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Hándicap seguro | Miami Heat gana por más de 2.5 | 75% | Alta | casas | 80¢ |
+| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Total de puntos | Más de 236.5 | 50% | Baja | casas | 50¢ |
+| Wed 18 Nov 18:00 | NBA | Milwaukee Bucks en Miami Heat | Puntos (línea segura) | Más de 222.5 | 78% | Alta | casas | 80¢ |
 | Wed 18 Nov 18:30 | NBA | Chicago Bulls en Brooklyn Nets | Ganador | Brooklyn Nets | 57% | Media | Kalshi + casas + modelo | 56¢ |
 | Wed 18 Nov 18:30 | NBA | Chicago Bulls en Brooklyn Nets | Hándicap | Brooklyn Nets gana por más de 2.5 | 50% | Baja | casas | 50¢ |
 | Wed 18 Nov 18:30 | NBA | Chicago Bulls en Brooklyn Nets | Total de puntos | Menos de 240.5 | 52% | Baja | casas | 52¢ |
@@ -317,11 +317,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 18 Nov 18:30 | NBA | Washington Wizards en Toronto Raptors | Puntos (línea segura) | Más de 211.5 | 78% | Alta | casas | 80¢ |
 | Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Ganador | Grêmio | 37% | Baja | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Doble oportunidad | Grêmio o Bahia (no empate) | 74% | Alta | casas + modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Grêmio vs Bahia | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ganador | Corinthians | 54% | Baja | casas + modelo | — |
-| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Doble oportunidad | Corinthians o empate | 79% | Alta | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ganador | Corinthians | 55% | Media | casas + modelo | — |
+| Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Doble oportunidad | Corinthians o empate | 80% | Alta | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Wed 18 Nov 18:30 | Brasileirão | Corinthians vs Botafogo | Ambos anotan | Sí | 51% | Baja | modelo | — |
@@ -370,10 +370,10 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles | Más de 2.5 | 63% | Media | modelo | — |
 | Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
 | Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Ganador | San Antonio Spurs | 87% | Alta | Kalshi + modelo | 87¢ |
 | Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Ganador | New York Knicks | 52% | Baja | Kalshi + modelo | 52¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Ganador | Portland Trail Blazers | 83% | Alta | Kalshi + modelo | 81¢ |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Ganador | San Antonio Spurs | 87% | Alta | Kalshi + modelo | 87¢ |
 | Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Ganador | Memphis Grizzlies | 62% | Media | Kalshi + modelo | 62¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Ganador | Portland Trail Blazers | 83% | Alta | Kalshi + modelo | 81¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Ganador | Houston Texans | 83% | Alta | Kalshi + casas + modelo | 84¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap | Indianapolis Colts +13.5 (gana o pierde por menos de 13.5) | 53% | Baja | casas | 55¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap seguro | Houston Texans gana por más de 5.5 | 71% | Alta | casas | 71¢ |
