@@ -44,7 +44,16 @@ class TestPagina(unittest.TestCase):
     def test_real_predictions_render(self):
         if not Path("predictions/nba_registry.csv").exists():
             self.skipTest("sin datos")
-        data = pagina.collect(pd.Timestamp("2026-11-01", tz="America/Chicago"))
+        import shutil
+        import kalshi_nba.resumen as r
+        with tempfile.TemporaryDirectory() as d:                 # copia: nunca escribir en predictions/ reales
+            shutil.copytree("predictions", Path(d) / "p")
+            old, r_old = pagina.P, r.P
+            pagina.P = r.P = Path(d) / "p"
+            try:
+                data = pagina.collect(pd.Timestamp("2026-11-01", tz="America/Chicago"))
+            finally:
+                pagina.P, r.P = old, r_old
         json.dumps(data, allow_nan=False)
         self.assertGreater(len(data["games"]), 0)
 
