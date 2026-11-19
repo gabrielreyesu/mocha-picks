@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 19 Nov 2026 12:47 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 19 Nov 2026 14:57 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -270,22 +270,22 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Ganador | Vasco da Gama | 63% | Media | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Doble oportunidad | Vasco da Gama o empate | 84% | Alta | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Ganador | Vasco da Gama | 64% | Media | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Doble oportunidad | Vasco da Gama o empate | 85% | Alta | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Ganador | Red Bull Bragantino | 40% | Baja | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Doble oportunidad | Vitória o Red Bull Bragantino (no empate) | 73% | Alta | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Ganador | Red Bull Bragantino | 38% | Baja | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Doble oportunidad | Vitória o Red Bull Bragantino (no empate) | 72% | Alta | casas + modelo | — |
+| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Ganador | São Paulo | 37% | Baja | casas + modelo | — |
-| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Doble oportunidad | São Paulo o Fluminense (no empate) | 71% | Alta | casas + modelo | — |
+| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Ganador | São Paulo | 36% | Baja | casas + modelo | — |
+| Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Doble oportunidad | São Paulo o Fluminense (no empate) | 70% | Alta | casas + modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ganador | Orlando City SC | 40% | Baja | casas + modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ganador | Orlando City SC | 41% | Baja | casas + modelo | — |
 | Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Doble oportunidad | Orlando City SC o FC Cincinnati (no empate) | 77% | Alta | casas + modelo | — |
 | Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles | Más de 2.5 | 63% | Media | modelo | — |
 | Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
@@ -313,59 +313,59 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap seguro | Houston Texans gana por más de 5.5 | 71% | Alta | casas | 72¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Total de puntos | Más de 44.5 | 50% | Baja | casas | 48¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Puntos (línea segura) | Más de 35.5 | 76% | Alta | casas | 78¢ |
-| Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Ganador | Seattle Sounders FC | 50% | Baja | casas + modelo | — |
-| Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Doble oportunidad | Seattle Sounders FC o Real Salt Lake (no empate) | 76% | Alta | casas + modelo | — |
-| Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Goles | Más de 2.5 | 52% | Baja | modelo | — |
+| Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Ganador | Seattle Sounders FC | 47% | Baja | casas + modelo | — |
+| Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Doble oportunidad | Seattle Sounders FC o Real Salt Lake (no empate) | 75% | Alta | casas + modelo | — |
+| Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Ganador | Arminia Bielefeld | 41% | Baja | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Doble oportunidad | Arminia Bielefeld o 1. FC Magdeburg (no empate) | 74% | Alta | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Ganador | 1. FC Heidenheim 1846 | 46% | Baja | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Doble oportunidad | SV Darmstadt 98 o 1. FC Heidenheim 1846 (no empate) | 76% | Alta | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Goles | Más de 2.5 | 54% | Baja | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Ganador | Al Nassr | 50% | Baja | casas + modelo | — |
+| Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Ganador | Al Nassr | 51% | Baja | casas + modelo | — |
 | Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Doble oportunidad | Al Ahli o Al Nassr (no empate) | 78% | Alta | casas + modelo | — |
 | Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Goles | Más de 2.5 | 67% | Media | modelo | — |
 | Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
 | Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Ambos anotan | Sí | 68% | Media | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Ganador | Guingamp | 46% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Doble oportunidad | Guingamp o Rodez Aveyron (no empate) | 75% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Ganador | Arminia Bielefeld | 42% | Baja | casas + modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Doble oportunidad | Arminia Bielefeld o 1. FC Magdeburg (no empate) | 75% | Alta | casas + modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Ambos anotan | Sí | 61% | Media | modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Ganador | 1. FC Heidenheim 1846 | 47% | Baja | casas + modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Doble oportunidad | SV Darmstadt 98 o 1. FC Heidenheim 1846 (no empate) | 76% | Alta | casas + modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Goles | Más de 2.5 | 54% | Baja | modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ganador | Annecy | 47% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Doble oportunidad | Annecy o empate | 75% | Alta | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ganador | Red Star FC 93 | 45% | Baja | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Doble oportunidad | Red Star FC 93 o Pau (no empate) | 73% | Alta | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ganador | AS Nancy Lorraine | 54% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Doble oportunidad | AS Nancy Lorraine o empate | 78% | Alta | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ganador | Metz | 45% | Baja | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Doble oportunidad | Metz o Boulogne (no empate) | 73% | Alta | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ambos anotan | Sí | 50% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ganador | AS Nancy Lorraine | 54% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Doble oportunidad | AS Nancy Lorraine o empate | 77% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ganador | Annecy | 46% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Doble oportunidad | Annecy o empate | 73% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Ganador | Guingamp | 46% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Doble oportunidad | Guingamp o Rodez Aveyron (no empate) | 75% | Alta | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Ganador | Bayern Munich | 91% | Alta | Kalshi + modelo | 90¢ |
 | Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Doble oportunidad | Bayern Munich o empate | 97% | Alta | Kalshi + modelo | — |
 | Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Goles | Más de 2.5 | 79% | Alta | modelo | — |
 | Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Goles (línea segura) | Más de 1.5 | 92% | Alta | modelo | — |
 | Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Ambos anotan | Sí | 55% | Baja | modelo | — |
-| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Ganador | Hellas Verona | 57% | Media | casas + modelo | — |
+| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Ganador | Hellas Verona | 59% | Media | casas + modelo | — |
 | Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Doble oportunidad | Hellas Verona o empate | 82% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Fri 20 Nov 13:30 | LaLiga 2 | FC Andorra vs Leganés | Ganador | FC Andorra | 52% | Baja | casas + modelo | — |
@@ -407,14 +407,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Ganador | Phoenix Suns | 63% | Media | Kalshi + modelo | 62¢ |
 | Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Ganador | Los Angeles Lakers | 86% | Alta | Kalshi + modelo | 86¢ |
 | Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Ganador | Denver Nuggets | 52% | Baja | Kalshi + modelo | 53¢ |
-| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ganador | Tijuana | 62% | Media | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Doble oportunidad | Tijuana o empate | 83% | Alta | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 49% | Baja | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | FC Juárez o Atlas (no empate) | 74% | Alta | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ganador | Tijuana | 62% | Media | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Doble oportunidad | Tijuana o empate | 83% | Alta | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ambos anotan | Sí | 54% | Baja | modelo | — |
 
