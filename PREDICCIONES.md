@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 19 Nov 2026 16:53 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 19 Nov 2026 17:48 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -18,7 +18,7 @@
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
 | Thu 19 Nov 19:00 | Golden State Warriors en Memphis Grizzlies | Golden State Warriors | 59% | 34% | 34% | 34% | 2.7 pts | 237 pts | 5 / 6 |
-| Thu 19 Nov 19:00 | Portland Trail Blazers en Milwaukee Bucks | Portland Trail Blazers | 77% | 82% | 82% | 80% | 9.0 pts | 232 pts | 2 / 5 |
+| Thu 19 Nov 19:00 | Portland Trail Blazers en Milwaukee Bucks | Portland Trail Blazers | 77% | 82% | 82% | 81% | 9.0 pts | 232 pts | 2 / 5 |
 | Thu 19 Nov 19:00 | New York Knicks en Minnesota Timberwolves | New York Knicks | 51% | 50% | 50% | 51% | 0.1 pts | 221 pts | 3 / 0 |
 | Thu 19 Nov 19:00 | LA Clippers en San Antonio Spurs | San Antonio Spurs | 85% | 88% | 88% | 87% | 13.1 pts | 229 pts | 3 / 3 |
 | Fri 20 Nov 18:00 | Charlotte Hornets en Atlanta Hawks | Atlanta Hawks | 66% | 62% | 64% | — | 5.1 pts | 223 pts | 6 / 2 |
@@ -283,11 +283,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ambos anotan | Sí | 64% | Media | modelo | — |
 | Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Ganador | Memphis Grizzlies | 66% | Media | Kalshi + casas + modelo | 66¢ |
 | Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Hándicap | Memphis Grizzlies gana por más de 5.5 | 50% | Baja | casas | 50¢ |
-| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Total de puntos | Más de 225.5 | 50% | Baja | casas | 48¢ |
-| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Puntos (línea segura) | Más de 211.5 | 78% | Alta | casas | 78¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Ganador | Portland Trail Blazers | 82% | Alta | Kalshi + casas + modelo | 82¢ |
+| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 53¢ |
+| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 78¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Ganador | Portland Trail Blazers | 83% | Alta | Kalshi + casas + modelo | 82¢ |
 | Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap | Portland Trail Blazers gana por más de 11.5 | 50% | Baja | casas | 50¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap seguro | Portland Trail Blazers gana por más de 3.5 | 72% | Alta | casas | 75¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap seguro | Portland Trail Blazers gana por más de 3.5 | 72% | Alta | casas | 76¢ |
 | Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Total de puntos | Menos de 231.5 | 52% | Baja | casas | 52¢ |
 | Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Puntos (línea segura) | Más de 217.5 | 77% | Alta | casas | 78¢ |
 | Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Ganador | New York Knicks | 51% | Baja | Kalshi + casas + modelo | 50¢ |
@@ -297,8 +297,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Ganador | San Antonio Spurs | 88% | Alta | Kalshi + casas + modelo | 88¢ |
 | Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Hándicap | San Antonio Spurs gana por más de 15.5 | 50% | Baja | casas | 50¢ |
 | Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Hándicap seguro | San Antonio Spurs gana por más de 6.5 | 75% | Alta | casas | 77¢ |
-| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 54¢ |
-| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 78¢ |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 52¢ |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 77¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Ganador | Houston Texans | 82% | Alta | Kalshi + casas + modelo | 84¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap | Indianapolis Colts +13.5 (gana o pierde por menos de 13.5) | 53% | Baja | casas | 55¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap seguro | Houston Texans gana por más de 5.5 | 71% | Alta | casas | 71¢ |
