@@ -595,3 +595,13 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-18T23:34:12.321925+00:00,401910020,2026-11-20T01:00Z,Milwaukee Bucks,Portland Trail Blazers,0.22406,0.25427,0.883,-4.93,Ryan Rollins; Ousmane Dieng,Vit Krejci; Robert Williams III; Chris Youngblood,2,1526.0
 2026-11-18T23:34:12.321925+00:00,401910021,2026-11-20T01:00Z,Minnesota Timberwolves,New York Knicks,0.46015,0.4809,2.11,-1.069,Jaylen Clark,,2,1526.0
 2026-11-18T23:34:12.321925+00:00,401910022,2026-11-20T01:00Z,San Antonio Spurs,LA Clippers,0.86573,0.8778,-1.105,13.849,Dylan Harper,,5,1526.0
+2026-11-19T00:37:32.088508+00:00,401910016,2026-11-19T01:00Z,Dallas Mavericks,Golden State Warriors,0.45304,0.53863,4.553,4.318,Tobi Lawal,Brandon Williams; Stephen Curry; Al Horford,6,22.0
+2026-11-19T00:37:32.088508+00:00,401910013,2026-11-19T01:00Z,New Orleans Pelicans,Detroit Pistons,0.25487,0.35352,4.355,2.793,Trendon Watford; Trey Murphy III; Bryce McGowens; Bennedict Mathurin; Dejounte Murray,Ronald Holland II; Taurean Prince; Duncan Robinson; Cade Cunningham,2,22.0
+2026-11-19T00:37:32.088508+00:00,401910014,2026-11-19T01:00Z,Oklahoma City Thunder,Atlanta Hawks,0.70157,0.62483,-4.818,-3.257,,Jock Landale; CJ McCollum; Kingston Flemings; Asa Newell,6,22.0
+2026-11-19T00:37:32.088508+00:00,401910015,2026-11-19T02:30Z,Denver Nuggets,Boston Celtics,0.4124,0.4727,-2.111,5.243,,,1,112.0
+2026-11-19T00:37:32.088508+00:00,401910017,2026-11-19T03:00Z,Los Angeles Lakers,Utah Jazz,0.89227,0.8783,-2.195,7.797,Austin Reaves,Lauri Markkanen,2,142.0
+2026-11-19T00:37:32.088508+00:00,401910018,2026-11-19T03:00Z,Sacramento Kings,Phoenix Suns,0.31097,0.31939,0.268,-5.542,,,3,142.0
+2026-11-19T00:37:32.088508+00:00,401910019,2026-11-20T01:00Z,Memphis Grizzlies,Golden State Warriors,0.52809,0.58056,1.531,5.009,GG Jackson; Scotty Pippen Jr.; Isaiah Stewart; Ty Jerome,Brandon Williams; Stephen Curry; Al Horford,4,1462.0
+2026-11-19T00:37:32.088508+00:00,401910020,2026-11-20T01:00Z,Milwaukee Bucks,Portland Trail Blazers,0.22406,0.25431,0.881,-4.922,Ousmane Dieng; Ryan Rollins,Vit Krejci; Chris Youngblood; Robert Williams III,2,1462.0
+2026-11-19T00:37:32.088508+00:00,401910021,2026-11-20T01:00Z,Minnesota Timberwolves,New York Knicks,0.46015,0.48083,2.106,-1.075,Jaylen Clark,,2,1462.0
+2026-11-19T00:37:32.088508+00:00,401910022,2026-11-20T01:00Z,San Antonio Spurs,LA Clippers,0.86573,0.87777,-1.103,13.837,Dylan Harper,,5,1462.0
