@@ -327,3 +327,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-18,club,401928500,Doble oportunidad,Barakaldo o empate,0.7402,casas + modelo,1
 2026-11-18,club,401928524,Ganador,FC Cartagena,0.3686,casas + modelo,0
 2026-11-18,club,401928524,Doble oportunidad,CD Minera o FC Cartagena (no empate),0.7028,casas + modelo,0
+2026-11-18,liga,401841315,Ganador,Santos,0.5014,casas + modelo,1
+2026-11-18,liga,401841315,Doble oportunidad,Santos o empate,0.7592,casas + modelo,1
+2026-11-18,liga,401841315,Goles,Más de 2.5,0.5687,casas + modelo,0
+2026-11-18,liga,401841315,Goles (línea segura),Más de 1.5,0.7682,modelo,0
+2026-11-18,liga,401841315,Ambos anotan,Sí,0.5596,modelo,0
