@@ -605,3 +605,10 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-19T00:37:32.088508+00:00,401910020,2026-11-20T01:00Z,Milwaukee Bucks,Portland Trail Blazers,0.22406,0.25431,0.881,-4.922,Ousmane Dieng; Ryan Rollins,Vit Krejci; Chris Youngblood; Robert Williams III,2,1462.0
 2026-11-19T00:37:32.088508+00:00,401910021,2026-11-20T01:00Z,Minnesota Timberwolves,New York Knicks,0.46015,0.48083,2.106,-1.075,Jaylen Clark,,2,1462.0
 2026-11-19T00:37:32.088508+00:00,401910022,2026-11-20T01:00Z,San Antonio Spurs,LA Clippers,0.86573,0.87777,-1.103,13.837,Dylan Harper,,5,1462.0
+2026-11-19T02:00:02.373349+00:00,401910015,2026-11-19T02:30Z,Denver Nuggets,Boston Celtics,0.4124,0.4727,-2.111,5.243,,,1,30.0
+2026-11-19T02:00:02.373349+00:00,401910017,2026-11-19T03:00Z,Los Angeles Lakers,Utah Jazz,0.89227,0.8783,-2.195,7.797,Austin Reaves,Lauri Markkanen,2,60.0
+2026-11-19T02:00:02.373349+00:00,401910018,2026-11-19T03:00Z,Sacramento Kings,Phoenix Suns,0.31097,0.31939,0.268,-5.542,,,3,60.0
+2026-11-19T02:00:02.373349+00:00,401910019,2026-11-20T01:00Z,Memphis Grizzlies,Golden State Warriors,0.52809,0.58056,1.531,5.009,Scotty Pippen Jr.; Isaiah Stewart; Ty Jerome; GG Jackson,Brandon Williams; Stephen Curry; Al Horford,4,1380.0
+2026-11-19T02:00:02.373349+00:00,401910020,2026-11-20T01:00Z,Milwaukee Bucks,Portland Trail Blazers,0.22406,0.25431,0.881,-4.922,Ryan Rollins; Ousmane Dieng,Chris Youngblood; Vit Krejci; Robert Williams III,2,1380.0
+2026-11-19T02:00:02.373349+00:00,401910021,2026-11-20T01:00Z,Minnesota Timberwolves,New York Knicks,0.46015,0.48083,2.106,-1.075,Jaylen Clark,,2,1380.0
+2026-11-19T02:00:02.373349+00:00,401910022,2026-11-20T01:00Z,San Antonio Spurs,LA Clippers,0.86573,0.87777,-1.103,13.837,Dylan Harper,,5,1380.0
