@@ -394,3 +394,16 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-18,nba,401910016,Hándicap,Dallas Mavericks gana por más de 4.5,0.5,casas,1
 2026-11-18,nba,401910016,Total de puntos,Menos de 224.5,0.5223,casas,1
 2026-11-18,nba,401910016,Puntos (línea segura),Más de 210.5,0.7662,casas,0
+2026-11-18,nba,401910015,Ganador,Boston Celtics,0.5636,Kalshi + casas + modelo,0
+2026-11-18,nba,401910015,Hándicap,Boston Celtics gana por más de 2.5,0.5,casas,0
+2026-11-18,nba,401910015,Total de puntos,Más de 218.5,0.5,casas,0
+2026-11-18,nba,401910015,Puntos (línea segura),Más de 204.5,0.7829,casas,1
+2026-11-18,nba,401910017,Ganador,Los Angeles Lakers,0.826,Kalshi + casas + modelo,0
+2026-11-18,nba,401910017,Hándicap,Los Angeles Lakers gana por más de 11.5,0.5,casas,0
+2026-11-18,nba,401910017,Hándicap seguro,Los Angeles Lakers gana por más de 2.5,0.7491,casas,0
+2026-11-18,nba,401910017,Total de puntos,Más de 229.5,0.5,casas,0
+2026-11-18,nba,401910017,Puntos (línea segura),Más de 215.5,0.7829,casas,0
+2026-11-18,nba,401910018,Ganador,Phoenix Suns,0.7256,Kalshi + casas + modelo,1
+2026-11-18,nba,401910018,Hándicap,Phoenix Suns gana por más de 7.5,0.5,casas,1
+2026-11-18,nba,401910018,Total de puntos,Menos de 227.5,0.5223,casas,0
+2026-11-18,nba,401910018,Puntos (línea segura),Más de 213.5,0.7662,casas,1
