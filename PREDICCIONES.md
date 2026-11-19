@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 19 Nov 2026 15:55 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 19 Nov 2026 16:53 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -20,7 +20,7 @@
 | Thu 19 Nov 19:00 | Golden State Warriors en Memphis Grizzlies | Golden State Warriors | 59% | 34% | 34% | 34% | 2.7 pts | 237 pts | 5 / 6 |
 | Thu 19 Nov 19:00 | Portland Trail Blazers en Milwaukee Bucks | Portland Trail Blazers | 77% | 82% | 82% | 80% | 9.0 pts | 232 pts | 2 / 5 |
 | Thu 19 Nov 19:00 | New York Knicks en Minnesota Timberwolves | New York Knicks | 51% | 50% | 50% | 51% | 0.1 pts | 221 pts | 3 / 0 |
-| Thu 19 Nov 19:00 | LA Clippers en San Antonio Spurs | San Antonio Spurs | 85% | 88% | 88% | 88% | 13.1 pts | 229 pts | 3 / 3 |
+| Thu 19 Nov 19:00 | LA Clippers en San Antonio Spurs | San Antonio Spurs | 85% | 88% | 88% | 87% | 13.1 pts | 229 pts | 3 / 3 |
 | Fri 20 Nov 18:00 | Charlotte Hornets en Atlanta Hawks | Atlanta Hawks | 66% | 62% | 64% | — | 5.1 pts | 223 pts | 6 / 2 |
 | Fri 20 Nov 18:30 | Orlando Magic en Brooklyn Nets | Orlando Magic | 62% | 66% | 66% | — | 3.3 pts | 221 pts | 0 / 4 |
 | Fri 20 Nov 18:30 | Indiana Pacers en Cleveland Cavaliers | Cleveland Cavaliers | 79% | 66% | 68% | — | 9.4 pts | 230 pts | 4 / 4 |
@@ -271,16 +271,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Ganador | Vasco da Gama | 64% | Media | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Doble oportunidad | Vasco da Gama o empate | 85% | Alta | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vasco da Gama vs Internacional | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Ganador | Red Bull Bragantino | 38% | Baja | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Doble oportunidad | Vitória o Red Bull Bragantino (no empate) | 72% | Alta | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
-| Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Ganador | São Paulo | 36% | Baja | casas + modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Doble oportunidad | São Paulo o Fluminense (no empate) | 70% | Alta | casas + modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Goles | Menos de 2.5 | 55% | Baja | casas + modelo | — |
@@ -293,13 +283,13 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ambos anotan | Sí | 64% | Media | modelo | — |
 | Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Ganador | Memphis Grizzlies | 66% | Media | Kalshi + casas + modelo | 66¢ |
 | Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Hándicap | Memphis Grizzlies gana por más de 5.5 | 50% | Baja | casas | 50¢ |
-| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 53¢ |
-| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 78¢ |
+| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Total de puntos | Más de 225.5 | 50% | Baja | casas | 48¢ |
+| Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Puntos (línea segura) | Más de 211.5 | 78% | Alta | casas | 78¢ |
 | Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Ganador | Portland Trail Blazers | 82% | Alta | Kalshi + casas + modelo | 82¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap | Portland Trail Blazers gana por más de 10.5 | 50% | Baja | casas | 52¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap seguro | Portland Trail Blazers gana por más de 1.5 | 75% | Alta | casas | 79¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Total de puntos | Menos de 231.5 | 52% | Baja | casas | 54¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Puntos (línea segura) | Más de 217.5 | 77% | Alta | casas | 77¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap | Portland Trail Blazers gana por más de 11.5 | 50% | Baja | casas | 50¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap seguro | Portland Trail Blazers gana por más de 3.5 | 72% | Alta | casas | 75¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Total de puntos | Menos de 231.5 | 52% | Baja | casas | 52¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Puntos (línea segura) | Más de 217.5 | 77% | Alta | casas | 78¢ |
 | Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Ganador | New York Knicks | 51% | Baja | Kalshi + casas + modelo | 50¢ |
 | Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Hándicap | New York Knicks gana por más de 1.5 | 50% | Baja | casas | 48¢ |
 | Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Total de puntos | Menos de 217.5 | 52% | Baja | casas | 54¢ |
@@ -307,13 +297,13 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Ganador | San Antonio Spurs | 88% | Alta | Kalshi + casas + modelo | 88¢ |
 | Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Hándicap | San Antonio Spurs gana por más de 15.5 | 50% | Baja | casas | 50¢ |
 | Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Hándicap seguro | San Antonio Spurs gana por más de 6.5 | 75% | Alta | casas | 77¢ |
-| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 52¢ |
-| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 79¢ |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 54¢ |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 78¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Ganador | Houston Texans | 82% | Alta | Kalshi + casas + modelo | 84¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap | Indianapolis Colts +13.5 (gana o pierde por menos de 13.5) | 53% | Baja | casas | 55¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap seguro | Houston Texans gana por más de 5.5 | 71% | Alta | casas | 71¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Total de puntos | Más de 44.5 | 50% | Baja | casas | 48¢ |
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Puntos (línea segura) | Más de 35.5 | 76% | Alta | casas | 77¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Puntos (línea segura) | Más de 35.5 | 76% | Alta | casas | 78¢ |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Ganador | Seattle Sounders FC | 47% | Baja | casas + modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Doble oportunidad | Seattle Sounders FC o Real Salt Lake (no empate) | 75% | Alta | casas + modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
@@ -418,4 +408,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Ganador | Genclerbirligi | 41% | Baja | casas + modelo | — |
+| Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Doble oportunidad | Genclerbirligi o Gaziantep FK (no empate) | 73% | Alta | casas + modelo | — |
+| Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Ambos anotan | Sí | 53% | Baja | modelo | — |
 
