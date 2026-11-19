@@ -347,3 +347,50 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-18,liga,401841314,Goles,Más de 2.5,0.5798,casas + modelo,1
 2026-11-18,liga,401841314,Goles (línea segura),Más de 1.5,0.78,modelo,1
 2026-11-18,liga,401841314,Ambos anotan,Sí,0.5787,modelo,1
+2026-11-18,nba,401910007,Ganador,Cleveland Cavaliers,0.6262,Kalshi + casas + modelo,0
+2026-11-18,nba,401910007,Hándicap,Cleveland Cavaliers gana por más de 4.5,0.5,casas,0
+2026-11-18,nba,401910007,Total de puntos,Menos de 239.5,0.5223,casas,0
+2026-11-18,nba,401910007,Puntos (línea segura),Más de 225.5,0.7662,casas,1
+2026-11-18,nba,401910008,Ganador,Houston Rockets,0.7683,Kalshi + casas + modelo,1
+2026-11-18,nba,401910008,Hándicap,Houston Rockets gana por más de 8.5,0.5,casas,1
+2026-11-18,nba,401910008,Total de puntos,Más de 224.5,0.5,casas,0
+2026-11-18,nba,401910008,Puntos (línea segura),Más de 210.5,0.7829,casas,1
+2026-11-18,nba,401910009,Ganador,Miami Heat,0.8572,Kalshi + casas + modelo,1
+2026-11-18,nba,401910009,Hándicap,Miami Heat gana por más de 11.5,0.5,casas,0
+2026-11-18,nba,401910009,Hándicap seguro,Miami Heat gana por más de 2.5,0.7491,casas,1
+2026-11-18,nba,401910009,Total de puntos,Menos de 236.5,0.5223,casas,0
+2026-11-18,nba,401910009,Puntos (línea segura),Más de 222.5,0.7662,casas,1
+2026-11-18,nba,401910010,Ganador,Orlando Magic,0.5467,Kalshi + casas + modelo,0
+2026-11-18,nba,401910010,Hándicap,Orlando Magic gana por más de 2.5,0.5,casas,0
+2026-11-18,nba,401910010,Total de puntos,Menos de 221.5,0.5223,casas,0
+2026-11-18,nba,401910010,Puntos (línea segura),Más de 207.5,0.7662,casas,1
+2026-11-18,nba,401910012,Ganador,Toronto Raptors,0.6064,Kalshi + casas + modelo,0
+2026-11-18,nba,401910012,Hándicap,Toronto Raptors gana por más de 4.5,0.5,casas,0
+2026-11-18,nba,401910012,Total de puntos,Menos de 225.5,0.5223,casas,1
+2026-11-18,nba,401910012,Puntos (línea segura),Más de 211.5,0.7662,casas,0
+2026-11-18,nba,401910011,Ganador,Brooklyn Nets,0.5273,Kalshi + casas + modelo,0
+2026-11-18,nba,401910011,Hándicap,Brooklyn Nets gana por más de 1.5,0.5,casas,0
+2026-11-18,nba,401910011,Total de puntos,Menos de 240.5,0.5223,casas,0
+2026-11-18,nba,401910011,Puntos (línea segura),Más de 226.5,0.7662,casas,1
+2026-11-18,liga,401841312,Ganador,Grêmio,0.3737,casas + modelo,0
+2026-11-18,liga,401841312,Doble oportunidad,Grêmio o Bahia (no empate),0.7403,casas + modelo,0
+2026-11-18,liga,401841312,Goles,Más de 2.5,0.5937,casas + modelo,0
+2026-11-18,liga,401841312,Goles (línea segura),Más de 1.5,0.7666,modelo,0
+2026-11-18,liga,401841312,Ambos anotan,Sí,0.5641,modelo,0
+2026-11-18,liga,401841316,Ganador,Corinthians,0.5538,casas + modelo,1
+2026-11-18,liga,401841316,Doble oportunidad,Corinthians o empate,0.802,casas + modelo,1
+2026-11-18,liga,401841316,Goles,Más de 2.5,0.5307,casas + modelo,1
+2026-11-18,liga,401841316,Goles (línea segura),Más de 1.5,0.7179,modelo,1
+2026-11-18,liga,401841316,Ambos anotan,Sí,0.5125,modelo,0
+2026-11-18,nba,401910014,Ganador,Oklahoma City Thunder,0.705,Kalshi + casas + modelo,0
+2026-11-18,nba,401910014,Hándicap,Oklahoma City Thunder gana por más de 6.5,0.5,casas,0
+2026-11-18,nba,401910014,Total de puntos,Menos de 229.5,0.5223,casas,1
+2026-11-18,nba,401910014,Puntos (línea segura),Más de 215.5,0.7662,casas,1
+2026-11-18,nba,401910013,Ganador,Detroit Pistons,0.6122,Kalshi + casas + modelo,1
+2026-11-18,nba,401910013,Hándicap,Detroit Pistons gana por más de 3.5,0.5,casas,1
+2026-11-18,nba,401910013,Total de puntos,Menos de 225.5,0.5223,casas,0
+2026-11-18,nba,401910013,Puntos (línea segura),Más de 211.5,0.7662,casas,1
+2026-11-18,nba,401910016,Ganador,Dallas Mavericks,0.6433,Kalshi + casas + modelo,1
+2026-11-18,nba,401910016,Hándicap,Dallas Mavericks gana por más de 4.5,0.5,casas,1
+2026-11-18,nba,401910016,Total de puntos,Menos de 224.5,0.5223,casas,1
+2026-11-18,nba,401910016,Puntos (línea segura),Más de 210.5,0.7662,casas,0
