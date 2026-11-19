@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 19 Nov 2026 09:49 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 19 Nov 2026 12:47 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -21,68 +21,69 @@
 | Thu 19 Nov 19:00 | Portland Trail Blazers en Milwaukee Bucks | Portland Trail Blazers | 77% | 80% | 80% | 79% | 9.0 pts | 232 pts | 2 / 5 |
 | Thu 19 Nov 19:00 | New York Knicks en Minnesota Timberwolves | New York Knicks | 51% | 50% | 50% | 51% | 0.1 pts | 221 pts | 3 / 0 |
 | Thu 19 Nov 19:00 | LA Clippers en San Antonio Spurs | San Antonio Spurs | 85% | 88% | 88% | 88% | 13.1 pts | 229 pts | 3 / 3 |
-| Fri 20 Nov 18:00 | Charlotte Hornets en Atlanta Hawks | Atlanta Hawks | 66% | 64% | 64% | — | 5.1 pts | 223 pts | 6 / 2 |
+| Fri 20 Nov 18:00 | Charlotte Hornets en Atlanta Hawks | Atlanta Hawks | 66% | 63% | 64% | — | 5.1 pts | 223 pts | 6 / 2 |
 | Fri 20 Nov 18:30 | Orlando Magic en Brooklyn Nets | Orlando Magic | 62% | 66% | 66% | — | 3.3 pts | 221 pts | 0 / 4 |
-| Fri 20 Nov 18:30 | Indiana Pacers en Cleveland Cavaliers | Cleveland Cavaliers | 79% | 67% | 66% | — | 9.4 pts | 230 pts | 4 / 4 |
-| Fri 20 Nov 18:30 | Toronto Raptors en Detroit Pistons | Detroit Pistons | 74% | 68% | 66% | — | 7.7 pts | 227 pts | 5 / 4 |
+| Fri 20 Nov 18:30 | Indiana Pacers en Cleveland Cavaliers | Cleveland Cavaliers | 79% | 66% | 66% | — | 9.4 pts | 230 pts | 4 / 4 |
+| Fri 20 Nov 18:30 | Toronto Raptors en Detroit Pistons | Detroit Pistons | 74% | 67% | 66% | — | 7.7 pts | 227 pts | 5 / 4 |
 | Fri 20 Nov 19:00 | Washington Wizards en Chicago Bulls | Chicago Bulls | 58% | 57% | 59% | — | 2.1 pts | 239 pts | 2 / 4 |
-| Fri 20 Nov 19:00 | New Orleans Pelicans en Oklahoma City Thunder | Oklahoma City Thunder | 86% | 82% | 82% | — | 13.0 pts | 236 pts | 4 / 5 |
+| Fri 20 Nov 19:00 | New Orleans Pelicans en Oklahoma City Thunder | Oklahoma City Thunder | 86% | 80% | 82% | — | 13.0 pts | 236 pts | 4 / 5 |
 | Fri 20 Nov 20:30 | Phoenix Suns en Utah Jazz | Phoenix Suns | 71% | 62% | 64% | — | 6.4 pts | 233 pts | 3 / 1 |
-| Fri 20 Nov 21:00 | Houston Rockets en Denver Nuggets | Houston Rockets | 51% | 46% | 46% | — | 0.6 pts | 223 pts | 1 / 1 |
+| Fri 20 Nov 21:00 | Houston Rockets en Denver Nuggets | Houston Rockets | 51% | 47% | 48% | — | 0.6 pts | 223 pts | 1 / 1 |
 | Fri 20 Nov 21:00 | Sacramento Kings en Los Angeles Lakers | Los Angeles Lakers | 87% | 86% | 86% | — | 14.2 pts | 237 pts | 1 / 2 |
 | Sat 21 Nov 12:00 | Milwaukee Bucks en Philadelphia 76ers | Philadelphia 76ers | 84% | 84% | 84% | — | 12.1 pts | 226 pts | 6 / 2 |
-| Sat 21 Nov 18:30 | Portland Trail Blazers en New York Knicks | New York Knicks | 69% | 67% | 68% | — | 5.7 pts | 222 pts | 0 / 5 |
+| Sat 21 Nov 18:30 | Portland Trail Blazers en New York Knicks | New York Knicks | 69% | 67% | 66% | — | 5.7 pts | 222 pts | 0 / 5 |
 | Sat 21 Nov 19:00 | LA Clippers en Dallas Mavericks | Dallas Mavericks | 54% | 64% | 64% | — | 1.5 pts | 234 pts | 4 / 3 |
 | Sat 21 Nov 19:00 | Memphis Grizzlies en Minnesota Timberwolves | Minnesota Timberwolves | 72% | 68% | 68% | — | 6.8 pts | 233 pts | 3 / 5 |
 | Sat 21 Nov 19:00 | New Orleans Pelicans en San Antonio Spurs | San Antonio Spurs | 93% | 90% | 92% | — | 19.1 pts | 235 pts | 3 / 5 |
-| Sat 21 Nov 21:00 | Boston Celtics en Sacramento Kings | Boston Celtics | 85% | 88% | 88% | — | 12.9 pts | 225 pts | 2 / 0 |
+| Sat 21 Nov 21:00 | Boston Celtics en Sacramento Kings | Boston Celtics | 85% | 87% | 88% | — | 12.9 pts | 225 pts | 2 / 0 |
 | Sun 22 Nov 14:30 | Detroit Pistons en Atlanta Hawks | Detroit Pistons | 58% | 56% | 60% | — | 2.4 pts | 233 pts | 6 / 5 |
-| Sun 22 Nov 17:00 | Oklahoma City Thunder en Miami Heat | Oklahoma City Thunder | 58% | 48% | 48% | — | 2.0 pts | 233 pts | 1 / 4 |
-| Sun 22 Nov 18:00 | Dallas Mavericks en Utah Jazz | Dallas Mavericks | 68% | 57% | 55% | — | 5.7 pts | 232 pts | 3 / 4 |
-| Sun 22 Nov 18:00 | Orlando Magic en Washington Wizards | Orlando Magic | 67% | 59% | 60% | — | 4.8 pts | 225 pts | 4 / 4 |
+| Sun 22 Nov 17:00 | Oklahoma City Thunder en Miami Heat | Oklahoma City Thunder | 58% | 50% | 49% | — | 2.0 pts | 233 pts | 1 / 4 |
+| Sun 22 Nov 18:00 | Dallas Mavericks en Utah Jazz | Dallas Mavericks | 68% | 57% | 56% | — | 5.7 pts | 232 pts | 3 / 4 |
+| Sun 22 Nov 18:00 | Orlando Magic en Washington Wizards | Orlando Magic | 67% | 58% | 55% | — | 4.8 pts | 225 pts | 4 / 4 |
 | Sun 22 Nov 18:00 | Denver Nuggets en Chicago Bulls | Denver Nuggets | 69% | 70% | 72% | — | 6.1 pts | 237 pts | 2 / 1 |
-| Sun 22 Nov 19:00 | Indiana Pacers en New York Knicks | New York Knicks | 87% | 80% | 79% | — | 13.8 pts | 222 pts | 0 / 4 |
-| Sun 22 Nov 19:30 | Boston Celtics en Golden State Warriors | Boston Celtics | 62% | 71% | 72% | — | 3.4 pts | 225 pts | 6 / 0 |
+| Sun 22 Nov 19:00 | Indiana Pacers en New York Knicks | New York Knicks | 87% | 80% | 78% | — | 13.8 pts | 222 pts | 0 / 4 |
+| Sun 22 Nov 19:30 | Boston Celtics en Golden State Warriors | Boston Celtics | 62% | 72% | 72% | — | 3.4 pts | 225 pts | 6 / 0 |
 | Mon 23 Nov 18:00 | Memphis Grizzlies en Charlotte Hornets | Charlotte Hornets | 51% | 38% | 45% | — | 0.3 pts | 225 pts | 2 / 5 |
-| Mon 23 Nov 18:00 | Portland Trail Blazers en Philadelphia 76ers | Philadelphia 76ers | 54% | — | 57% | — | 1.2 pts | 230 pts | 6 / 5 |
-| Mon 23 Nov 18:30 | Oklahoma City Thunder en Indiana Pacers | Oklahoma City Thunder | 77% | — | 68% | — | 8.4 pts | 226 pts | 4 / 4 |
-| Mon 23 Nov 18:30 | Brooklyn Nets en Minnesota Timberwolves | Minnesota Timberwolves | 85% | 74% | 78% | — | 12.7 pts | 229 pts | 3 / 0 |
-| Mon 23 Nov 18:30 | Milwaukee Bucks en Toronto Raptors | Toronto Raptors | 80% | 69% | 74% | — | 10.6 pts | 228 pts | 4 / 2 |
-| Mon 23 Nov 19:00 | Cleveland Cavaliers en Chicago Bulls | Cleveland Cavaliers | 70% | 67% | 66% | — | 6.3 pts | 243 pts | 2 / 4 |
-| Mon 23 Nov 19:00 | Phoenix Suns en New Orleans Pelicans | Phoenix Suns | 63% | 66% | 64% | — | 3.7 pts | 239 pts | 5 / 1 |
-| Mon 23 Nov 19:30 | LA Clippers en Houston Rockets | Houston Rockets | 73% | 84% | 78% | — | 7.6 pts | 231 pts | 1 / 3 |
-| Mon 23 Nov 21:00 | San Antonio Spurs en Sacramento Kings | San Antonio Spurs | 89% | — | 84% | — | 15.6 pts | 229 pts | 2 / 3 |
-| Mon 23 Nov 21:00 | Utah Jazz en Los Angeles Lakers | Los Angeles Lakers | 90% | 84% | 79% | — | 16.4 pts | 234 pts | 1 / 3 |
+| Mon 23 Nov 18:00 | Portland Trail Blazers en Philadelphia 76ers | Philadelphia 76ers | 54% | 58% | 60% | — | 1.2 pts | 230 pts | 6 / 5 |
+| Mon 23 Nov 18:30 | Oklahoma City Thunder en Indiana Pacers | Oklahoma City Thunder | 77% | — | 66% | — | 8.4 pts | 226 pts | 4 / 4 |
+| Mon 23 Nov 18:30 | Brooklyn Nets en Minnesota Timberwolves | Minnesota Timberwolves | 85% | 78% | 78% | — | 12.7 pts | 229 pts | 3 / 0 |
+| Mon 23 Nov 18:30 | Milwaukee Bucks en Toronto Raptors | Toronto Raptors | 80% | 70% | 75% | — | 10.6 pts | 228 pts | 4 / 2 |
+| Mon 23 Nov 19:00 | Cleveland Cavaliers en Chicago Bulls | Cleveland Cavaliers | 70% | 69% | 68% | — | 6.3 pts | 243 pts | 2 / 4 |
+| Mon 23 Nov 19:00 | Phoenix Suns en New Orleans Pelicans | Phoenix Suns | 63% | 70% | 66% | — | 3.7 pts | 239 pts | 5 / 1 |
+| Mon 23 Nov 19:30 | LA Clippers en Houston Rockets | Houston Rockets | 73% | 86% | 84% | — | 7.6 pts | 231 pts | 1 / 3 |
+| Mon 23 Nov 21:00 | San Antonio Spurs en Sacramento Kings | San Antonio Spurs | 89% | — | 85% | — | 15.6 pts | 229 pts | 2 / 3 |
+| Mon 23 Nov 21:00 | Utah Jazz en Los Angeles Lakers | Los Angeles Lakers | 90% | 75% | 79% | — | 16.4 pts | 234 pts | 1 / 3 |
 | Tue 24 Nov 18:00 | Detroit Pistons en Orlando Magic | Detroit Pistons | 58% | — | 57% | — | 2.4 pts | 223 pts | 4 / 5 |
 | Tue 24 Nov 19:00 | Boston Celtics en Washington Wizards | Boston Celtics | 85% | — | 71% | — | 13.0 pts | 227 pts | 4 / 0 |
 | Tue 24 Nov 21:00 | Dallas Mavericks en Denver Nuggets | Denver Nuggets | 72% | — | 72% | — | 6.6 pts | 231 pts | 1 / 4 |
-| Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | — | 58% | — | 2.8 pts | 236 pts | 6 / 1 |
+| Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | — | 60% | — | 2.8 pts | 236 pts | 6 / 1 |
 | Wed 25 Nov 18:00 | Chicago Bulls en Charlotte Hornets | Charlotte Hornets | 65% | — | 59% | — | 4.4 pts | 229 pts | 2 / 2 |
 | Wed 25 Nov 18:30 | Cleveland Cavaliers en New York Knicks | New York Knicks | 71% | — | 66% | — | 6.4 pts | 225 pts | 0 / 4 |
-| Wed 25 Nov 18:30 | Minnesota Timberwolves en Oklahoma City Thunder | Oklahoma City Thunder | 60% | — | 64% | — | 2.6 pts | 223 pts | 4 / 3 |
+| Wed 25 Nov 18:30 | Minnesota Timberwolves en Oklahoma City Thunder | Oklahoma City Thunder | 60% | — | 63% | — | 2.6 pts | 223 pts | 4 / 3 |
 | Wed 25 Nov 19:00 | LA Clippers en Memphis Grizzlies | Memphis Grizzlies | 65% | — | 68% | — | 5.0 pts | 236 pts | 5 / 3 |
 | Wed 25 Nov 19:00 | Brooklyn Nets en Milwaukee Bucks | Milwaukee Bucks | 54% | — | 53% | — | 1.2 pts | 232 pts | 2 / 0 |
 | Wed 25 Nov 19:30 | Phoenix Suns en Houston Rockets | Houston Rockets | 70% | — | 74% | — | 6.3 pts | 232 pts | 1 / 1 |
-| Wed 25 Nov 21:00 | Sacramento Kings en Golden State Warriors | Golden State Warriors | 77% | — | 75% | — | 9.1 pts | 231 pts | 6 / 2 |
+| Wed 25 Nov 21:00 | Sacramento Kings en Golden State Warriors | Golden State Warriors | 77% | — | 77% | — | 9.1 pts | 231 pts | 6 / 2 |
 | Wed 25 Nov 21:00 | San Antonio Spurs en Portland Trail Blazers | San Antonio Spurs | 63% | — | 60% | — | 3.8 pts | 228 pts | 5 / 3 |
 
 ## NFL
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Thu 19 Nov 19:15 | Indianapolis Colts en Houston Texans | Houston Texans | 76% | 84% | 84% | 85% | 8.5 pts | 47 pts | 6 / 8 |
+| Thu 19 Nov 19:15 | Indianapolis Colts en Houston Texans | Houston Texans | 76% | 84% | 84% | 84% | 8.5 pts | 47 pts | 6 / 8 |
 | Sun 22 Nov 12:00 | Miami Dolphins en Buffalo Bills | Buffalo Bills | 86% | 92% | 92% | 90% | 13.8 pts | 48 pts | 1 / 3 |
-| Sun 22 Nov 12:00 | Baltimore Ravens en Carolina Panthers | Carolina Panthers | 52% | 56% | 58% | 55% | 1.2 pts | 46 pts | 3 / 1 |
-| Sun 22 Nov 12:00 | New Orleans Saints en Chicago Bears | Chicago Bears | 78% | 84% | 84% | 82% | 9.5 pts | 45 pts | 2 / 4 |
+| Sun 22 Nov 12:00 | Baltimore Ravens en Carolina Panthers | Carolina Panthers | 52% | 57% | 58% | 57% | 1.2 pts | 46 pts | 3 / 1 |
+| Sun 22 Nov 12:00 | New Orleans Saints en Chicago Bears | Chicago Bears | 78% | 84% | 84% | 83% | 9.5 pts | 45 pts | 2 / 4 |
 | Sun 22 Nov 12:00 | Tennessee Titans en Dallas Cowboys | Dallas Cowboys | 73% | 76% | 78% | 76% | 7.6 pts | 47 pts | 4 / 2 |
-| Sun 22 Nov 12:00 | Tampa Bay Buccaneers en Detroit Lions | Detroit Lions | 63% | 74% | 74% | 74% | 4.3 pts | 46 pts | 2 / 1 |
+| Sun 22 Nov 12:00 | Tampa Bay Buccaneers en Detroit Lions | Detroit Lions | 63% | 72% | 72% | 71% | 4.3 pts | 46 pts | 2 / 1 |
 | Sun 22 Nov 12:00 | Arizona Cardinals en Kansas City Chiefs | Kansas City Chiefs | 78% | 92% | 92% | 90% | 9.7 pts | 46 pts | 1 / 4 |
-| Sun 22 Nov 12:00 | Pittsburgh Steelers en Philadelphia Eagles | Pittsburgh Steelers | 72% | 66% | 66% | 66% | 6.5 pts | 41 pts | 1 / 4 |
-| Sun 22 Nov 15:05 | New York Jets en Los Angeles Chargers | Los Angeles Chargers | 65% | 60% | 60% | 59% | 4.1 pts | 43 pts | 2 / 1 |
+| Sun 22 Nov 12:00 | Pittsburgh Steelers en Philadelphia Eagles | Pittsburgh Steelers | 72% | 68% | 66% | 66% | 6.5 pts | 41 pts | 1 / 4 |
+| Sun 22 Nov 15:05 | New York Jets en Los Angeles Chargers | Los Angeles Chargers | 65% | 60% | 60% | 60% | 4.1 pts | 43 pts | 2 / 1 |
 | Sun 22 Nov 15:25 | Las Vegas Raiders en Denver Broncos | Denver Broncos | 82% | 82% | 84% | 82% | 11.1 pts | 48 pts | 2 / 0 |
 | Sun 22 Nov 15:25 | Jacksonville Jaguars en New York Giants | Jacksonville Jaguars | 69% | 70% | 72% | 70% | 5.4 pts | 46 pts | 1 / 2 |
 | Sun 22 Nov 19:20 | Minnesota Vikings en San Francisco 49ers | San Francisco 49ers | 53% | 60% | 60% | 60% | 1.5 pts | 47 pts | 2 / 3 |
-| Mon 23 Nov 19:15 | Cincinnati Bengals en Washington Commanders | Cincinnati Bengals | 64% | 72% | 72% | 73% | 4.6 pts | 48 pts | 2 / 3 |
+| Mon 23 Nov 19:15 | Cincinnati Bengals en Washington Commanders | Cincinnati Bengals | 64% | 72% | 72% | 72% | 4.6 pts | 48 pts | 2 / 3 |
 | Wed 25 Nov 19:00 | Green Bay Packers en Los Angeles Rams | Los Angeles Rams | 64% | — | 62% | — | 4.6 pts | 47 pts | 4 / 5 |
+| Thu 26 Nov 12:00 | Chicago Bears en Detroit Lions | Detroit Lions | 53% | 44% | 42% | 44% | 1.6 pts | 47 pts | 2 / 2 |
 
 ## Fútbol: ligas (Premier, La Liga, Serie A, Bundesliga, Ligue 1)
 | Fecha (hora Chicago) | Liga | Partido | Modelo: local / empate / visita | Kalshi: local / empate / visita | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
@@ -279,16 +280,16 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Thu 19 Nov 16:30 | Brasileirão | Vitória vs Red Bull Bragantino | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ganador | Orlando City SC | 40% | Baja | casas + modelo | — |
-| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Doble oportunidad | Orlando City SC o FC Cincinnati (no empate) | 77% | Alta | casas + modelo | — |
-| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles | Más de 2.5 | 63% | Media | modelo | — |
-| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
-| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ambos anotan | Sí | 64% | Media | modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Ganador | São Paulo | 37% | Baja | casas + modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Doble oportunidad | São Paulo o Fluminense (no empate) | 71% | Alta | casas + modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Thu 19 Nov 18:30 | Brasileirão | São Paulo vs Fluminense | Ambos anotan | Sí | 51% | Baja | modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ganador | Orlando City SC | 40% | Baja | casas + modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Doble oportunidad | Orlando City SC o FC Cincinnati (no empate) | 77% | Alta | casas + modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles | Más de 2.5 | 63% | Media | modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
+| Thu 19 Nov 18:30 | MLS | Orlando City SC vs FC Cincinnati | Ambos anotan | Sí | 64% | Media | modelo | — |
 | Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Ganador | Memphis Grizzlies | 69% | Media | Kalshi + casas + modelo | 68¢ |
 | Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Hándicap | Memphis Grizzlies gana por más de 6.5 | 50% | Baja | casas | 50¢ |
 | Thu 19 Nov 19:00 | NBA | Golden State Warriors en Memphis Grizzlies | Total de puntos | Más de 225.5 | 50% | Baja | casas | 50¢ |
@@ -296,22 +297,22 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Ganador | Portland Trail Blazers | 82% | Alta | Kalshi + casas + modelo | 80¢ |
 | Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap | Portland Trail Blazers gana por más de 10.5 | 50% | Baja | casas | 51¢ |
 | Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Hándicap seguro | Portland Trail Blazers gana por más de 1.5 | 75% | Alta | casas | 78¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Total de puntos | Más de 229.5 | 50% | Baja | casas | 48¢ |
-| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Puntos (línea segura) | Más de 215.5 | 78% | Alta | casas | 78¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Total de puntos | Menos de 231.5 | 52% | Baja | casas | 52¢ |
+| Thu 19 Nov 19:00 | NBA | Portland Trail Blazers en Milwaukee Bucks | Puntos (línea segura) | Más de 217.5 | 77% | Alta | casas | 77¢ |
 | Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Ganador | New York Knicks | 51% | Baja | Kalshi + casas + modelo | 50¢ |
 | Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Hándicap | New York Knicks gana por más de 1.5 | 50% | Baja | casas | 48¢ |
-| Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Total de puntos | Menos de 217.5 | 52% | Baja | casas | 52¢ |
-| Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Puntos (línea segura) | Más de 203.5 | 77% | Alta | casas | 79¢ |
+| Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Total de puntos | Menos de 217.5 | 52% | Baja | casas | 54¢ |
+| Thu 19 Nov 19:00 | NBA | New York Knicks en Minnesota Timberwolves | Puntos (línea segura) | Más de 203.5 | 77% | Alta | casas | 80¢ |
 | Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Ganador | San Antonio Spurs | 88% | Alta | Kalshi + casas + modelo | 88¢ |
 | Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Hándicap | San Antonio Spurs gana por más de 15.5 | 50% | Baja | casas | 50¢ |
-| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Hándicap seguro | San Antonio Spurs gana por más de 6.5 | 75% | Alta | casas | 76¢ |
-| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Total de puntos | Más de 225.5 | 50% | Baja | casas | 50¢ |
-| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Puntos (línea segura) | Más de 211.5 | 78% | Alta | casas | 79¢ |
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Ganador | Houston Texans | 83% | Alta | Kalshi + casas + modelo | 84¢ |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Hándicap seguro | San Antonio Spurs gana por más de 6.5 | 75% | Alta | casas | 77¢ |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 52¢ |
+| Thu 19 Nov 19:00 | NBA | LA Clippers en San Antonio Spurs | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 79¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Ganador | Houston Texans | 82% | Alta | Kalshi + casas + modelo | 84¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap | Indianapolis Colts +13.5 (gana o pierde por menos de 13.5) | 53% | Baja | casas | 55¢ |
 | Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap seguro | Houston Texans gana por más de 5.5 | 71% | Alta | casas | 72¢ |
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Total de puntos | Más de 43.5 | 50% | Baja | casas | 52¢ |
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Puntos (línea segura) | Menos de 53.5 | 78% | Alta | casas | 76¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Total de puntos | Más de 44.5 | 50% | Baja | casas | 48¢ |
+| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Puntos (línea segura) | Más de 35.5 | 76% | Alta | casas | 78¢ |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Ganador | Seattle Sounders FC | 50% | Baja | casas + modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Doble oportunidad | Seattle Sounders FC o Real Salt Lake (no empate) | 76% | Alta | casas + modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Goles | Más de 2.5 | 52% | Baja | modelo | — |
@@ -332,31 +333,31 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Goles | Más de 2.5 | 67% | Media | modelo | — |
 | Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
 | Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Ambos anotan | Sí | 68% | Media | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ganador | Annecy | 46% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Doble oportunidad | Annecy o empate | 73% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ganador | Red Star FC 93 | 45% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Doble oportunidad | Red Star FC 93 o Pau (no empate) | 73% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ganador | AS Nancy Lorraine | 54% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Doble oportunidad | AS Nancy Lorraine o empate | 77% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ganador | Metz | 45% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Doble oportunidad | Metz o Boulogne (no empate) | 73% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ambos anotan | Sí | 50% | Baja | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Ganador | Guingamp | 46% | Baja | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Doble oportunidad | Guingamp o Rodez Aveyron (no empate) | 75% | Alta | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ganador | Red Star FC 93 | 45% | Baja | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Doble oportunidad | Red Star FC 93 o Pau (no empate) | 73% | Alta | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ganador | Metz | 45% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Doble oportunidad | Metz o Boulogne (no empate) | 73% | Alta | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ambos anotan | Sí | 50% | Baja | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ganador | AS Nancy Lorraine | 54% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Doble oportunidad | AS Nancy Lorraine o empate | 77% | Alta | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ganador | Annecy | 46% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Doble oportunidad | Annecy o empate | 73% | Alta | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Ganador | Bayern Munich | 91% | Alta | Kalshi + modelo | 90¢ |
 | Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Doble oportunidad | Bayern Munich o empate | 97% | Alta | Kalshi + modelo | — |
 | Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Goles | Más de 2.5 | 79% | Alta | modelo | — |
@@ -392,28 +393,28 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles | Menos de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Ganador | Atlanta Hawks | 63% | Media | Kalshi + modelo | 64¢ |
+| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Ganador | Atlanta Hawks | 62% | Media | Kalshi + modelo | 63¢ |
 | Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Ganador | Orlando Magic | 66% | Media | Kalshi + modelo | 66¢ |
-| Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Ganador | Cleveland Cavaliers | 66% | Media | Kalshi + modelo | 67¢ |
-| Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Ganador | Detroit Pistons | 67% | Media | Kalshi + modelo | 68¢ |
+| Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Ganador | Cleveland Cavaliers | 65% | Media | Kalshi + modelo | 66¢ |
+| Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Ganador | Detroit Pistons | 66% | Media | Kalshi + modelo | 67¢ |
 | Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Ganador | Chicago Bulls | 56% | Media | Kalshi + modelo | 57¢ |
-| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 82% | Alta | Kalshi + modelo | 82¢ |
+| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 80% | Alta | Kalshi + modelo | 80¢ |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Ganador | Atlético de San Luis | 37% | Baja | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Doble oportunidad | Puebla o Atlético de San Luis (no empate) | 73% | Alta | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Ganador | Phoenix Suns | 62% | Media | Kalshi + modelo | 62¢ |
+| Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Ganador | Phoenix Suns | 63% | Media | Kalshi + modelo | 62¢ |
 | Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Ganador | Los Angeles Lakers | 86% | Alta | Kalshi + modelo | 86¢ |
-| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Ganador | Denver Nuggets | 53% | Baja | Kalshi + modelo | 54¢ |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 49% | Baja | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | FC Juárez o Atlas (no empate) | 74% | Alta | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Ganador | Denver Nuggets | 52% | Baja | Kalshi + modelo | 53¢ |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ganador | Tijuana | 62% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Doble oportunidad | Tijuana o empate | 83% | Alta | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 49% | Baja | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | FC Juárez o Atlas (no empate) | 74% | Alta | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ambos anotan | Sí | 58% | Media | modelo | — |
 
