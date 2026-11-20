@@ -703,3 +703,12 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-20T01:55:28.105851+00:00,401909311,2026-11-21T02:30Z,Utah Jazz,Phoenix Suns,0.32737,0.34273,0.402,-3.662,Lauri Markkanen,,3,1475.0
 2026-11-20T01:55:28.105851+00:00,401909312,2026-11-21T03:00Z,Denver Nuggets,Houston Rockets,0.50563,0.52517,-1.314,1.577,,Clint Capela,1,1505.0
 2026-11-20T01:55:28.105851+00:00,401909313,2026-11-21T03:00Z,Los Angeles Lakers,Sacramento Kings,0.8756,0.8709,-1.685,10.086,Austin Reaves,,2,1505.0
+2026-11-20T03:36:40.148758+00:00,401909305,2026-11-21T00:00Z,Atlanta Hawks,Charlotte Hornets,0.68781,0.73556,0.626,10.321,CJ McCollum; Jock Landale; Asa Newell,Grant Williams; Kon Knueppel; Dennis Schroder; Grayson Allen,2,1223.0
+2026-11-20T03:36:40.148758+00:00,401909306,2026-11-21T00:30Z,Brooklyn Nets,Orlando Magic,0.30087,0.33012,-0.515,-1.814,,,5,1253.0
+2026-11-20T03:36:40.148758+00:00,401909307,2026-11-21T00:30Z,Cleveland Cavaliers,Indiana Pacers,0.77341,0.75295,-2.203,3.883,Evan Mobley; Jaylon Tyson,,4,1253.0
+2026-11-20T03:36:40.148758+00:00,401909308,2026-11-21T00:30Z,Detroit Pistons,Toronto Raptors,0.77096,0.77906,1.871,5.525,Ebuka Okorie; Ronald Holland II; Duncan Robinson; Taurean Prince,RJ Barrett; Collin Murray-Boyles,3,1253.0
+2026-11-20T03:36:40.148758+00:00,401909309,2026-11-21T01:00Z,Chicago Bulls,Washington Wizards,0.68407,0.65935,-0.238,-0.076,Caleb Wilson; Tobe Awaka,,4,1283.0
+2026-11-20T03:36:40.148758+00:00,401909310,2026-11-21T01:00Z,Oklahoma City Thunder,New Orleans Pelicans,0.87557,0.82713,-3.385,0.392,,Bryce McGowens; Trey Murphy III; Dejounte Murray; Bennedict Mathurin; Trendon Watford,4,1283.0
+2026-11-20T03:36:40.148758+00:00,401909311,2026-11-21T02:30Z,Utah Jazz,Phoenix Suns,0.3272,0.34255,0.403,-3.662,Lauri Markkanen,,3,1373.0
+2026-11-20T03:36:40.148758+00:00,401909312,2026-11-21T03:00Z,Denver Nuggets,Houston Rockets,0.50555,0.52514,-1.314,1.576,,Clint Capela,1,1403.0
+2026-11-20T03:36:40.148758+00:00,401909313,2026-11-21T03:00Z,Los Angeles Lakers,Sacramento Kings,0.87566,0.87096,-1.686,10.086,Austin Reaves,,2,1403.0
