@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 20 Nov 2026 11:35 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 20 Nov 2026 12:37 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -276,9 +276,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ganador | AS Nancy Lorraine | 57% | Media | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Doble oportunidad | AS Nancy Lorraine o Dijon FCO (no empate) | 79% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ganador | AS Nancy Lorraine | 55% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Doble oportunidad | AS Nancy Lorraine o empate | 78% | Alta | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ganador | Metz | 41% | Baja | casas + modelo | — |
@@ -476,7 +476,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Ambos anotan | No | 50% | Baja | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ganador | Benevento | 37% | Baja | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Doble oportunidad | Sampdoria o Benevento (no empate) | 71% | Alta | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Ganador | Modena | 62% | Media | casas + modelo | — |
@@ -666,11 +666,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 11:30 | LaLiga 2 | Castellón vs Eldense | Ambos anotan | No | 52% | Baja | modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Ganador | Heart of Midlothian | 49% | Baja | casas + modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Doble oportunidad | Dundee o Heart of Midlothian (no empate) | 76% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Ganador | Feyenoord Rotterdam | 83% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Doble oportunidad | Feyenoord Rotterdam o empate | 93% | Alta | casas + modelo | — |
+| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Ganador | Feyenoord Rotterdam | 85% | Alta | casas + modelo | — |
+| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Doble oportunidad | Feyenoord Rotterdam o empate | 94% | Alta | casas + modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Goles | Más de 2.5 | 72% | Alta | modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Ambos anotan | Sí | 61% | Media | modelo | — |
@@ -682,7 +682,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Ganador | Philadelphia 76ers | 76% | Alta | Kalshi + modelo | 76¢ |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Ganador | Defensa y Justicia | 46% | Baja | casas + modelo | — |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Doble oportunidad | Defensa y Justicia o empate | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
+| Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Goles | Menos de 2.5 | 61% | Media | casas + modelo | — |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Goles (línea segura) | Más de 1.5 | 70% | Media | modelo | — |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Ambos anotan | No | 52% | Baja | modelo | — |
 | Sat 21 Nov 12:30 | Serie B | Empoli vs Pisa | Ganador | Pisa | 52% | Baja | casas + modelo | — |
