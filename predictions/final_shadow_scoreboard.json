@@ -1,6 +1,6 @@
 {
   "status": "SHADOW_ONLY_PRODUCTION_UNCHANGED",
-  "updated_utc": "2026-11-20T08:21:34.492123+00:00",
+  "updated_utc": "2026-11-20T15:47:15.614810+00:00",
   "promotion_rule": "Por deporte: n >= 200 partidos resueltos con mercado e IC95% de mejora_logloss completamente > 0; la activación requiere autorización explícita.",
   "warnings": [],
   "by_sport": [
