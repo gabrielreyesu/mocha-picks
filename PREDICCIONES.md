@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 20 Nov 2026 15:39 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 20 Nov 2026 15:52 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -269,9 +269,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Ganador | Vélez Sarsfield | 42% | Baja | casas + modelo | — |
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Doble oportunidad | Vélez Sarsfield o empate | 72% | Alta | casas + modelo | — |
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
+| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Ganador | Vélez Sarsfield | 41% | Baja | casas + modelo | — |
+| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Doble oportunidad | Vélez Sarsfield o empate | 71% | Alta | casas + modelo | — |
+| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles | Menos de 2.5 | 56% | Media | casas + modelo | — |
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Ganador | Atlanta Hawks | 69% | Media | Kalshi + casas + modelo | 70¢ |
@@ -317,14 +317,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Hándicap | Denver Nuggets gana por más de 1.5 | 50% | Baja | casas | 50¢ |
 | Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Total de puntos | Menos de 227.5 | 52% | Baja | casas | 51¢ |
 | Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Puntos (línea segura) | Más de 213.5 | 77% | Alta | casas | 78¢ |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 51% | Baja | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | Atlas o empate | 76% | Alta | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 52% | Baja | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | Atlas o empate | 77% | Alta | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ganador | Tijuana | 64% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Doble oportunidad | Tijuana o empate | 85% | Alta | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Ganador | Genclerbirligi | 41% | Baja | casas + modelo | — |
@@ -427,8 +427,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Ganador | Modena | 62% | Media | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Doble oportunidad | Modena o empate | 84% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Ganador | Modena | 60% | Media | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Doble oportunidad | Modena o empate | 83% | Alta | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Ambos anotan | Sí | 53% | Baja | modelo | — |
@@ -679,7 +679,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 13:45 | Ligue 1 | Monaco vs Auxerre | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Monaco vs Auxerre | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ganador | Club Brugge | 76% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Doble oportunidad | Club Brugge o empate | 90% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Doble oportunidad | Club Brugge o empate | 91% | Alta | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Goles | Más de 2.5 | 65% | Media | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ambos anotan | Sí | 56% | Media | modelo | — |

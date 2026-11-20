@@ -502,3 +502,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-20,liga,401883112,Goles,Más de 2.5,0.5616,casas + modelo,1
 2026-11-20,liga,401883112,Goles (línea segura),Más de 1.5,0.7533,modelo,1
 2026-11-20,liga,401883112,Ambos anotan,Sí,0.5349,modelo,1
+2026-11-20,liga,559622,Ganador,Troyes,0.4781,Kalshi + modelo,1
+2026-11-20,liga,559622,Doble oportunidad,Troyes o empate,0.7409,Kalshi + modelo,1
+2026-11-20,liga,559622,Goles,Menos de 2.5,0.5333,modelo,0
+2026-11-20,liga,559622,Goles (línea segura),Más de 1.5,0.7194,modelo,1
+2026-11-20,liga,559622,Ambos anotan,Sí,0.5162,modelo,1
+2026-11-20,liga,401878937,Ganador,Cercle Brugge KSV,0.4389,casas + modelo,1
+2026-11-20,liga,401878937,Doble oportunidad,Cercle Brugge KSV o KVC Westerlo (no empate),0.766,casas + modelo,1
+2026-11-20,liga,401878937,Goles,Más de 2.5,0.6427,modelo,0
+2026-11-20,liga,401878937,Goles (línea segura),Más de 1.5,0.8506,modelo,0
+2026-11-20,liga,401878937,Ambos anotan,Sí,0.6624,modelo,0
