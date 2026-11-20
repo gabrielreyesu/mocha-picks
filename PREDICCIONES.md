@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 20 Nov 2026 16:52 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 20 Nov 2026 17:51 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -18,14 +18,14 @@
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
 | Fri 20 Nov 18:00 | Charlotte Hornets en Atlanta Hawks | Atlanta Hawks | 66% | 70% | 70% | 70% | 5.1 pts | 223 pts | 5 / 4 |
-| Fri 20 Nov 18:30 | Orlando Magic en Brooklyn Nets | Orlando Magic | 62% | 70% | 70% | 70% | 3.3 pts | 221 pts | 1 / 4 |
-| Fri 20 Nov 18:30 | Indiana Pacers en Cleveland Cavaliers | Cleveland Cavaliers | 79% | 68% | 68% | 67% | 9.4 pts | 230 pts | 3 / 3 |
-| Fri 20 Nov 18:30 | Toronto Raptors en Detroit Pistons | Detroit Pistons | 74% | 72% | 72% | 70% | 7.7 pts | 227 pts | 5 / 4 |
-| Fri 20 Nov 19:00 | Washington Wizards en Chicago Bulls | Chicago Bulls | 58% | 55% | 56% | 54% | 2.1 pts | 239 pts | 2 / 4 |
-| Fri 20 Nov 19:00 | New Orleans Pelicans en Oklahoma City Thunder | Oklahoma City Thunder | 86% | 84% | 82% | 82% | 13.0 pts | 236 pts | 4 / 5 |
-| Fri 20 Nov 20:30 | Phoenix Suns en Utah Jazz | Phoenix Suns | 71% | 63% | 62% | 62% | 6.4 pts | 233 pts | 3 / 1 |
-| Fri 20 Nov 21:00 | Houston Rockets en Denver Nuggets | Houston Rockets | 51% | 46% | 46% | 47% | 0.6 pts | 223 pts | 1 / 1 |
-| Fri 20 Nov 21:00 | Sacramento Kings en Los Angeles Lakers | Los Angeles Lakers | 87% | 88% | 88% | 86% | 14.2 pts | 237 pts | 1 / 2 |
+| Fri 20 Nov 18:30 | Orlando Magic en Brooklyn Nets | Orlando Magic | 62% | 70% | 70% | 69% | 3.3 pts | 221 pts | 1 / 4 |
+| Fri 20 Nov 18:30 | Indiana Pacers en Cleveland Cavaliers | Cleveland Cavaliers | 79% | 68% | 66% | 67% | 9.4 pts | 230 pts | 3 / 3 |
+| Fri 20 Nov 18:30 | Toronto Raptors en Detroit Pistons | Detroit Pistons | 74% | 72% | 70% | 70% | 7.7 pts | 227 pts | 5 / 4 |
+| Fri 20 Nov 19:00 | Washington Wizards en Chicago Bulls | Chicago Bulls | 58% | 54% | 55% | 55% | 2.1 pts | 239 pts | 2 / 4 |
+| Fri 20 Nov 19:00 | New Orleans Pelicans en Oklahoma City Thunder | Oklahoma City Thunder | 86% | 82% | 82% | 79% | 13.0 pts | 236 pts | 4 / 5 |
+| Fri 20 Nov 20:30 | Phoenix Suns en Utah Jazz | Phoenix Suns | 71% | 62% | 62% | 62% | 6.4 pts | 233 pts | 3 / 1 |
+| Fri 20 Nov 21:00 | Houston Rockets en Denver Nuggets | Houston Rockets | 51% | 48% | 48% | 47% | 0.6 pts | 223 pts | 1 / 1 |
+| Fri 20 Nov 21:00 | Sacramento Kings en Los Angeles Lakers | Los Angeles Lakers | 87% | 86% | 88% | 86% | 14.2 pts | 237 pts | 1 / 2 |
 | Sat 21 Nov 12:00 | Milwaukee Bucks en Philadelphia 76ers | Philadelphia 76ers | 84% | 86% | 86% | — | 12.1 pts | 226 pts | 4 / 3 |
 | Sat 21 Nov 18:30 | Portland Trail Blazers en New York Knicks | New York Knicks | 69% | 66% | 66% | — | 5.7 pts | 222 pts | 0 / 6 |
 | Sat 21 Nov 19:00 | LA Clippers en Dallas Mavericks | Dallas Mavericks | 54% | 64% | 64% | — | 1.5 pts | 234 pts | 3 / 3 |
@@ -269,74 +269,64 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Ganador | Vélez Sarsfield | 41% | Baja | casas + modelo | — |
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Doble oportunidad | Vélez Sarsfield o empate | 71% | Alta | casas + modelo | — |
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Ganador | Atlanta Hawks | 71% | Alta | Kalshi + casas + modelo | 70¢ |
-| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Hándicap | Atlanta Hawks gana por más de 7.5 | 50% | Baja | casas | 50¢ |
+| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Hándicap | Atlanta Hawks gana por más de 7.5 | 50% | Baja | casas | 49¢ |
 | Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Total de puntos | Más de 219.5 | 50% | Baja | casas | 48¢ |
-| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Puntos (línea segura) | Más de 205.5 | 78% | Alta | casas | 80¢ |
+| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Puntos (línea segura) | Más de 205.5 | 78% | Alta | casas | 78¢ |
 | Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Ganador | Orlando Magic | 71% | Alta | Kalshi + casas + modelo | 70¢ |
 | Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Hándicap | Orlando Magic gana por más de 6.5 | 50% | Baja | casas | 50¢ |
-| Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 57¢ |
-| Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 75¢ |
+| Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 56¢ |
+| Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 76¢ |
 | Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Ganador | Cleveland Cavaliers | 67% | Media | Kalshi + casas + modelo | 68¢ |
 | Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Hándicap | Cleveland Cavaliers gana por más de 5.5 | 50% | Baja | casas | 52¢ |
-| Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Total de puntos | Más de 234.5 | 50% | Baja | casas | 50¢ |
-| Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Puntos (línea segura) | Más de 220.5 | 78% | Alta | casas | 80¢ |
+| Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Total de puntos | Menos de 236.5 | 52% | Baja | casas | 55¢ |
+| Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Puntos (línea segura) | Más de 222.5 | 77% | Alta | casas | 76¢ |
 | Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Ganador | Detroit Pistons | 71% | Alta | Kalshi + casas + modelo | 72¢ |
 | Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Hándicap | Detroit Pistons gana por más de 6.5 | 50% | Baja | casas | 52¢ |
-| Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Total de puntos | Menos de 217.5 | 52% | Baja | casas | 52¢ |
+| Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Total de puntos | Menos de 217.5 | 52% | Baja | casas | 54¢ |
 | Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Puntos (línea segura) | Más de 203.5 | 77% | Alta | casas | 78¢ |
-| Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Ganador | Chicago Bulls | 53% | Baja | Kalshi + casas + modelo | 55¢ |
-| Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Hándicap | Chicago Bulls gana por más de 2.5 | 50% | Baja | casas | 48¢ |
+| Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Ganador | Chicago Bulls | 53% | Baja | Kalshi + casas + modelo | 54¢ |
+| Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Hándicap | Chicago Bulls gana por más de 1.5 | 50% | Baja | casas | 52¢ |
 | Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Total de puntos | Más de 238.5 | 50% | Baja | casas | 48¢ |
 | Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Puntos (línea segura) | Más de 224.5 | 78% | Alta | casas | 78¢ |
-| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 84% | Alta | Kalshi + casas + modelo | 84¢ |
-| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Hándicap | Oklahoma City Thunder gana por más de 11.5 | 50% | Baja | casas | 52¢ |
-| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Hándicap seguro | Oklahoma City Thunder gana por más de 2.5 | 75% | Alta | casas | 79¢ |
-| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Total de puntos | Más de 227.5 | 50% | Baja | casas | 51¢ |
-| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Puntos (línea segura) | Más de 213.5 | 78% | Alta | casas | 80¢ |
+| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 81% | Alta | Kalshi + casas + modelo | 82¢ |
+| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Hándicap | Oklahoma City Thunder gana por más de 11.5 | 50% | Baja | casas | 48¢ |
+| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Hándicap seguro | Oklahoma City Thunder gana por más de 2.5 | 75% | Alta | casas | 78¢ |
+| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Total de puntos | Más de 229.5 | 50% | Baja | casas | 48¢ |
+| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Puntos (línea segura) | Más de 215.5 | 78% | Alta | casas | 78¢ |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Ganador | Atlético de San Luis | 38% | Baja | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Doble oportunidad | Puebla o Atlético de San Luis (no empate) | 74% | Alta | casas + modelo | — |
-| Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
+| Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Ganador | Phoenix Suns | 64% | Media | Kalshi + casas + modelo | 62¢ |
 | Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Hándicap | Phoenix Suns gana por más de 4.5 | 50% | Baja | casas | 50¢ |
 | Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 54¢ |
-| Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 79¢ |
-| Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Ganador | Los Angeles Lakers | 88% | Alta | Kalshi + casas + modelo | 88¢ |
-| Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 14.5 | 50% | Baja | casas | 48¢ |
-| Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Hándicap seguro | Los Angeles Lakers gana por más de 6.5 | 72% | Alta | casas | 74¢ |
+| Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 78¢ |
+| Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Ganador | Los Angeles Lakers | 87% | Alta | Kalshi + casas + modelo | 86¢ |
+| Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 14.5 | 50% | Baja | casas | 50¢ |
+| Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Hándicap seguro | Los Angeles Lakers gana por más de 6.5 | 72% | Alta | casas | 76¢ |
 | Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Total de puntos | Menos de 230.5 | 52% | Baja | casas | 54¢ |
 | Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Puntos (línea segura) | Más de 216.5 | 77% | Alta | casas | 78¢ |
-| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Ganador | Denver Nuggets | 53% | Baja | Kalshi + casas + modelo | 54¢ |
+| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Ganador | Denver Nuggets | 52% | Baja | Kalshi + casas + modelo | 52¢ |
 | Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Hándicap | Denver Nuggets gana por más de 1.5 | 50% | Baja | casas | 51¢ |
-| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Total de puntos | Menos de 227.5 | 52% | Baja | casas | 52¢ |
-| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Puntos (línea segura) | Más de 213.5 | 77% | Alta | casas | 78¢ |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 52% | Baja | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | Atlas o empate | 77% | Alta | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Total de puntos | Menos de 229.5 | 52% | Baja | casas | 54¢ |
+| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Puntos (línea segura) | Más de 215.5 | 77% | Alta | casas | 76¢ |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ganador | Tijuana | 64% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Doble oportunidad | Tijuana o empate | 85% | Alta | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 52% | Baja | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | Atlas o empate | 77% | Alta | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Ganador | Genclerbirligi | 41% | Baja | casas + modelo | — |
 | Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Doble oportunidad | Genclerbirligi o Gaziantep FK (no empate) | 74% | Alta | casas + modelo | — |
 | Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Ganador | 1. FC Nürnberg | 62% | Media | casas + modelo | — |
-| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Doble oportunidad | 1. FC Nürnberg o empate | 82% | Alta | casas + modelo | — |
-| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Goles | Más de 2.5 | 64% | Media | modelo | — |
-| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 06:00 | 2. Bundesliga | Hannover 96 vs SpVgg Greuther Fürth | Ganador | Hannover 96 | 58% | Media | casas + modelo | — |
 | Sat 21 Nov 06:00 | 2. Bundesliga | Hannover 96 vs SpVgg Greuther Fürth | Doble oportunidad | Hannover 96 o empate | 79% | Alta | casas + modelo | — |
 | Sat 21 Nov 06:00 | 2. Bundesliga | Hannover 96 vs SpVgg Greuther Fürth | Goles | Más de 2.5 | 55% | Media | modelo | — |
@@ -347,11 +337,21 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 06:00 | 2. Bundesliga | VfL Wolfsburg vs Holstein Kiel | Goles | Más de 2.5 | 59% | Media | modelo | — |
 | Sat 21 Nov 06:00 | 2. Bundesliga | VfL Wolfsburg vs Holstein Kiel | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 21 Nov 06:00 | 2. Bundesliga | VfL Wolfsburg vs Holstein Kiel | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Ganador | 1. FC Nürnberg | 62% | Media | casas + modelo | — |
+| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Doble oportunidad | 1. FC Nürnberg o empate | 82% | Alta | casas + modelo | — |
+| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Goles | Más de 2.5 | 64% | Media | modelo | — |
+| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Sat 21 Nov 06:00 | 2. Bundesliga | 1. FC Nürnberg vs TSV Eintracht Braunschweig | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 06:30 | Premier League | Man City vs Fulham | Ganador | Man City | 71% | Alta | Kalshi + modelo | 68¢ |
 | Sat 21 Nov 06:30 | Premier League | Man City vs Fulham | Doble oportunidad | Man City o empate | 88% | Alta | Kalshi + modelo | — |
 | Sat 21 Nov 06:30 | Premier League | Man City vs Fulham | Goles | Más de 2.5 | 53% | Baja | modelo | — |
 | Sat 21 Nov 06:30 | Premier League | Man City vs Fulham | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sat 21 Nov 06:30 | Premier League | Man City vs Fulham | Ambos anotan | No | 50% | Baja | modelo | — |
+| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Ganador | Queens Park Rangers | 37% | Baja | casas + modelo | — |
+| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Doble oportunidad | Millwall o Queens Park Rangers (no empate) | 74% | Alta | casas + modelo | — |
+| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Sat 21 Nov 06:30 | Championship | Norwich City vs Cardiff City | Ganador | Norwich City | 56% | Media | casas + modelo | — |
 | Sat 21 Nov 06:30 | Championship | Norwich City vs Cardiff City | Doble oportunidad | Norwich City o Cardiff City (no empate) | 80% | Alta | casas + modelo | — |
 | Sat 21 Nov 06:30 | Championship | Norwich City vs Cardiff City | Goles | Más de 2.5 | 64% | Media | modelo | — |
@@ -362,21 +362,16 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 06:30 | Championship | Southampton vs Derby County | Goles | Más de 2.5 | 56% | Media | modelo | — |
 | Sat 21 Nov 06:30 | Championship | Southampton vs Derby County | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sat 21 Nov 06:30 | Championship | Southampton vs Derby County | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Ganador | Queens Park Rangers | 37% | Baja | casas + modelo | — |
-| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Doble oportunidad | Millwall o Queens Park Rangers (no empate) | 74% | Alta | casas + modelo | — |
-| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
-| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
-| Sat 21 Nov 06:30 | Championship | Millwall vs Queens Park Rangers | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Sat 21 Nov 07:00 | La Liga | Alaves vs La Coruna | Ganador | Alaves | 47% | Baja | Kalshi + modelo | 46¢ |
 | Sat 21 Nov 07:00 | La Liga | Alaves vs La Coruna | Doble oportunidad | Alaves o empate | 74% | Alta | Kalshi + modelo | — |
 | Sat 21 Nov 07:00 | La Liga | Alaves vs La Coruna | Goles | Más de 2.5 | 51% | Baja | modelo | — |
 | Sat 21 Nov 07:00 | La Liga | Alaves vs La Coruna | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sat 21 Nov 07:00 | La Liga | Alaves vs La Coruna | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Ganador | Amed SFK | 59% | Media | casas + modelo | — |
-| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Doble oportunidad | Amed SFK o empate | 80% | Alta | casas + modelo | — |
-| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
-| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
-| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Ganador | Nantes | 66% | Media | casas + modelo | — |
+| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Doble oportunidad | Nantes o empate | 87% | Alta | casas + modelo | — |
+| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
+| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sat 21 Nov 07:00 | Superliga de Turquía | Galatasaray vs Samsunspor | Ganador | Galatasaray | 78% | Alta | modelo | — |
 | Sat 21 Nov 07:00 | Superliga de Turquía | Galatasaray vs Samsunspor | Doble oportunidad | Galatasaray o empate | 92% | Alta | modelo | — |
 | Sat 21 Nov 07:00 | Superliga de Turquía | Galatasaray vs Samsunspor | Goles | Más de 2.5 | 70% | Alta | modelo | — |
@@ -392,11 +387,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 07:00 | LaLiga 2 | CD Sabadell vs Granada | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Sat 21 Nov 07:00 | LaLiga 2 | CD Sabadell vs Granada | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sat 21 Nov 07:00 | LaLiga 2 | CD Sabadell vs Granada | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Ganador | Nantes | 66% | Media | casas + modelo | — |
-| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Doble oportunidad | Nantes o empate | 87% | Alta | casas + modelo | — |
-| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
-| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Sat 21 Nov 07:00 | Ligue 2 | Nantes vs Grenoble | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Ganador | Amed SFK | 59% | Media | casas + modelo | — |
+| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Doble oportunidad | Amed SFK o empate | 80% | Alta | casas + modelo | — |
+| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
+| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
+| Sat 21 Nov 07:00 | Superliga de Turquía | Amed SFK vs Caykur Rizespor | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | Ganador | Lazio | 74% | Alta | Kalshi + modelo | 70¢ |
 | Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | Doble oportunidad | Lazio o empate | 91% | Alta | Kalshi + modelo | — |
 | Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
@@ -407,31 +402,31 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Goles | Más de 2.5 | 52% | Baja | modelo | — |
 | Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Ambos anotan | Sí | 50% | Baja | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Ganador | Carrarese | 40% | Baja | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Doble oportunidad | Carrarese o empate | 72% | Alta | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles | Menos de 2.5 | 55% | Baja | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles (línea segura) | Más de 1.5 | 69% | Media | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Ambos anotan | No | 52% | Baja | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Ganador | Ascoli | 58% | Media | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Doble oportunidad | Ascoli o empate | 82% | Alta | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Ganador | Cremonese | 46% | Baja | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Doble oportunidad | Cremonese o empate | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Goles (línea segura) | Más de 1.5 | 70% | Alta | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Ambos anotan | No | 50% | Baja | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ganador | Benevento | 37% | Baja | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Doble oportunidad | Sampdoria o Benevento (no empate) | 71% | Alta | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Ganador | Modena | 60% | Media | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Doble oportunidad | Modena o empate | 83% | Alta | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ganador | Benevento | 37% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Doble oportunidad | Sampdoria o Benevento (no empate) | 71% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Ganador | Cremonese | 46% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Doble oportunidad | Cremonese o empate | 75% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Goles (línea segura) | Más de 1.5 | 70% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Ambos anotan | No | 50% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Ganador | Ascoli | 58% | Media | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Doble oportunidad | Ascoli o empate | 82% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Ganador | Carrarese | 40% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Doble oportunidad | Carrarese o empate | 72% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles | Menos de 2.5 | 55% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles (línea segura) | Más de 1.5 | 69% | Media | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Ambos anotan | No | 52% | Baja | modelo | — |
 | Sat 21 Nov 08:30 | Bundesliga | Ein Frankfurt vs Hoffenheim | Ganador | Ein Frankfurt | 40% | Baja | Kalshi + modelo | 40¢ |
 | Sat 21 Nov 08:30 | Bundesliga | Ein Frankfurt vs Hoffenheim | Doble oportunidad | Ein Frankfurt o Hoffenheim (no empate) | 76% | Alta | Kalshi + modelo | — |
 | Sat 21 Nov 08:30 | Bundesliga | Ein Frankfurt vs Hoffenheim | Goles | Más de 2.5 | 64% | Media | modelo | — |
@@ -482,66 +477,66 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 09:00 | Premier League | Coventry vs Crystal Palace | Goles | Más de 2.5 | 55% | Media | modelo | — |
 | Sat 21 Nov 09:00 | Premier League | Coventry vs Crystal Palace | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 09:00 | Premier League | Coventry vs Crystal Palace | Ambos anotan | Sí | 55% | Baja | modelo | — |
-| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Ganador | West Ham United | 83% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Doble oportunidad | West Ham United o empate | 94% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Goles | Más de 2.5 | 68% | Media | modelo | — |
-| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Ganador | Wolverhampton Wanderers | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Doble oportunidad | Wolverhampton Wanderers o empate | 91% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Ambos anotan | No | 53% | Baja | modelo | — |
-| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Ganador | Royal Charleroi SC | 49% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Doble oportunidad | Royal Charleroi SC o Sint-Truidense (no empate) | 76% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Goles | Más de 2.5 | 60% | Media | modelo | — |
-| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Ganador | Celtic | 86% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Doble oportunidad | Celtic o empate | 95% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Goles | Más de 2.5 | 62% | Media | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Ganador | Falkirk | 53% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Doble oportunidad | Falkirk o empate | 78% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Ganador | Hibernian | 49% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Doble oportunidad | Hibernian o Dundee United (no empate) | 76% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Ganador | Sheffield United | 64% | Media | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Doble oportunidad | Sheffield United o empate | 85% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Ganador | Kilmarnock | 38% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Doble oportunidad | Kilmarnock o Aberdeen (no empate) | 74% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Ganador | Swansea City | 37% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Doble oportunidad | Swansea City o West Bromwich Albion (no empate) | 72% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Ganador | Portsmouth | 41% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Doble oportunidad | Bolton Wanderers o Portsmouth (no empate) | 73% | Alta | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
-| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
-| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Sat 21 Nov 09:00 | Championship | Lincoln City vs Wrexham | Ganador | Lincoln City | 36% | Baja | casas + modelo | — |
 | Sat 21 Nov 09:00 | Championship | Lincoln City vs Wrexham | Doble oportunidad | Lincoln City o Wrexham (no empate) | 71% | Alta | casas + modelo | — |
 | Sat 21 Nov 09:00 | Championship | Lincoln City vs Wrexham | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
 | Sat 21 Nov 09:00 | Championship | Lincoln City vs Wrexham | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 09:00 | Championship | Lincoln City vs Wrexham | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Ganador | West Ham United | 83% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Doble oportunidad | West Ham United o empate | 94% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Goles | Más de 2.5 | 68% | Media | modelo | — |
+| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Championship | West Ham United vs Preston North End | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Ganador | Swansea City | 37% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Doble oportunidad | Swansea City o West Bromwich Albion (no empate) | 72% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Championship | Swansea City vs West Bromwich Albion | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Ganador | Celtic | 86% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Doble oportunidad | Celtic o empate | 95% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Goles | Más de 2.5 | 62% | Media | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Celtic vs St Mirren | Ambos anotan | No | 51% | Baja | modelo | — |
+| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Ganador | Royal Charleroi SC | 49% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Doble oportunidad | Royal Charleroi SC o Sint-Truidense (no empate) | 76% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Goles | Más de 2.5 | 60% | Media | modelo | — |
+| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Liga de Bélgica | Royal Charleroi SC vs Sint-Truidense | Ambos anotan | Sí | 61% | Media | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Ganador | Falkirk | 53% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Doble oportunidad | Falkirk o empate | 78% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Falkirk vs St Johnstone | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Ganador | Wolverhampton Wanderers | 75% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Doble oportunidad | Wolverhampton Wanderers o empate | 91% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Championship | Wolverhampton Wanderers vs Charlton Athletic | Ambos anotan | No | 53% | Baja | modelo | — |
 | Sat 21 Nov 09:00 | Championship | Stoke City vs Birmingham City | Ganador | Birmingham City | 41% | Baja | casas + modelo | — |
 | Sat 21 Nov 09:00 | Championship | Stoke City vs Birmingham City | Doble oportunidad | Stoke City o Birmingham City (no empate) | 71% | Alta | casas + modelo | — |
 | Sat 21 Nov 09:00 | Championship | Stoke City vs Birmingham City | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
 | Sat 21 Nov 09:00 | Championship | Stoke City vs Birmingham City | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sat 21 Nov 09:00 | Championship | Stoke City vs Birmingham City | Ambos anotan | Sí | 55% | Media | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Ganador | Kilmarnock | 38% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Doble oportunidad | Kilmarnock o Aberdeen (no empate) | 74% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Kilmarnock vs Aberdeen | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Ganador | Sheffield United | 64% | Media | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Doble oportunidad | Sheffield United o empate | 85% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Championship | Sheffield United vs Watford | Ambos anotan | No | 51% | Baja | modelo | — |
+| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Ganador | Portsmouth | 41% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Doble oportunidad | Bolton Wanderers o Portsmouth (no empate) | 73% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Championship | Bolton Wanderers vs Portsmouth | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Ganador | Hibernian | 49% | Baja | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Doble oportunidad | Hibernian o Dundee United (no empate) | 76% | Alta | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Sat 21 Nov 09:00 | Premiership de Escocia | Hibernian vs Dundee United | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sat 21 Nov 09:00 | Championship | Middlesbrough vs Bristol City | Ganador | Middlesbrough | 73% | Alta | casas + modelo | — |
 | Sat 21 Nov 09:00 | Championship | Middlesbrough vs Bristol City | Doble oportunidad | Middlesbrough o empate | 90% | Alta | casas + modelo | — |
 | Sat 21 Nov 09:00 | Championship | Middlesbrough vs Bristol City | Goles | Más de 2.5 | 57% | Media | modelo | — |
@@ -612,17 +607,17 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Ganador | FC Utrecht | 50% | Baja | casas + modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Doble oportunidad | FC Utrecht o SC Cambuur (no empate) | 78% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Goles | Más de 2.5 | 69% | Media | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Ambos anotan | Sí | 70% | Media | modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Ganador | Feyenoord Rotterdam | 85% | Alta | casas + modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Doble oportunidad | Feyenoord Rotterdam o empate | 94% | Alta | casas + modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Goles | Más de 2.5 | 72% | Alta | modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Ganador | Philadelphia 76ers | 87% | Alta | Kalshi + modelo | 86¢ |
+| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Ganador | FC Utrecht | 50% | Baja | casas + modelo | — |
+| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Doble oportunidad | FC Utrecht o SC Cambuur (no empate) | 78% | Alta | casas + modelo | — |
+| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Goles | Más de 2.5 | 69% | Media | modelo | — |
+| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
+| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Ambos anotan | Sí | 70% | Media | modelo | — |
+| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Ganador | Philadelphia 76ers | 86% | Alta | Kalshi + modelo | 86¢ |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Ganador | Defensa y Justicia | 46% | Baja | casas + modelo | — |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Doble oportunidad | Defensa y Justicia o empate | 75% | Alta | casas + modelo | — |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Goles | Menos de 2.5 | 61% | Media | casas + modelo | — |
@@ -633,24 +628,24 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 12:30 | Serie B | Empoli vs Pisa | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Sat 21 Nov 12:30 | Serie B | Empoli vs Pisa | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sat 21 Nov 12:30 | Serie B | Empoli vs Pisa | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ganador | Philadelphia Union | 46% | Baja | casas + modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Doble oportunidad | New England Revolution o Philadelphia Union (no empate) | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Ganador | Saint-Étienne | 44% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Doble oportunidad | Stade de Reims o Saint-Étienne (no empate) | 73% | Alta | casas + modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ganador | Philadelphia Union | 46% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Doble oportunidad | New England Revolution o Philadelphia Union (no empate) | 75% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Ganador | St. Pauli | 44% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Doble oportunidad | St. Pauli o VfL Bochum (no empate) | 75% | Alta | casas + modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Ganador | Flamengo | 53% | Baja | casas + modelo | — |
-| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Doble oportunidad | Flamengo o empate | 78% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Ganador | Flamengo | 51% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Doble oportunidad | Flamengo o empate | 77% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Lille vs Lyon | Ganador | Lille | 41% | Baja | Kalshi + modelo | 40¢ |
@@ -678,46 +673,46 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 13:45 | Ligue 1 | Monaco vs Auxerre | Goles | Más de 2.5 | 60% | Media | modelo | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Monaco vs Auxerre | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Monaco vs Auxerre | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ganador | Club Brugge | 76% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Doble oportunidad | Club Brugge o empate | 91% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Goles | Más de 2.5 | 65% | Media | modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Ganador | Zulte-Waregem | 43% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Doble oportunidad | Zulte-Waregem o Antwerp (no empate) | 75% | Alta | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ganador | Club Brugge | 76% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Doble oportunidad | Club Brugge o empate | 91% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Goles | Más de 2.5 | 65% | Media | modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Ganador | Real Madrid | 85% | Alta | Kalshi + modelo | 82¢ |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Doble oportunidad | Real Madrid o empate | 95% | Alta | Kalshi + modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Goles | Menos de 2.5 | 53% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Ambos anotan | No | 50% | Baja | modelo | — |
-| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Ganador | Argentinos Juniors | 50% | Baja | casas + modelo | — |
-| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Doble oportunidad | Argentinos Juniors o empate | 79% | Alta | casas + modelo | — |
-| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
-| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Goles (línea segura) | Más de 1.5 | 69% | Media | modelo | — |
-| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Ambos anotan | No | 54% | Baja | modelo | — |
-| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Ganador | Mallorca | 45% | Baja | casas + modelo | — |
-| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Doble oportunidad | Mallorca o empate | 74% | Alta | casas + modelo | — |
-| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
-| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Ganador | Rangers | 66% | Media | casas + modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Doble oportunidad | Rangers o empate | 84% | Alta | casas + modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ganador | Telstar | 47% | Baja | casas + modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Doble oportunidad | Telstar o PEC Zwolle (no empate) | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Ganador | Mallorca | 45% | Baja | casas + modelo | — |
+| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Doble oportunidad | Mallorca o empate | 74% | Alta | casas + modelo | — |
+| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
+| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Ambos anotan | Sí | 51% | Baja | modelo | — |
+| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Ganador | Argentinos Juniors | 50% | Baja | casas + modelo | — |
+| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Doble oportunidad | Argentinos Juniors o empate | 79% | Alta | casas + modelo | — |
+| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
+| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Goles (línea segura) | Más de 1.5 | 69% | Media | modelo | — |
+| Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Ambos anotan | No | 54% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Ganador | Heerenveen | 40% | Baja | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Doble oportunidad | FC Groningen o Heerenveen (no empate) | 76% | Alta | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Goles | Más de 2.5 | 66% | Media | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Ambos anotan | Sí | 68% | Media | modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ganador | Telstar | 47% | Baja | casas + modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Doble oportunidad | Telstar o PEC Zwolle (no empate) | 75% | Alta | casas + modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Ganador | Bahia | 67% | Media | casas + modelo | — |
 | Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Doble oportunidad | Bahia o empate | 86% | Alta | casas + modelo | — |
 | Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Goles | Más de 2.5 | 56% | Media | modelo | — |
@@ -734,20 +729,20 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Ganador | Toluca | 43% | Baja | casas + modelo | — |
-| Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Doble oportunidad | Pachuca o Toluca (no empate) | 78% | Alta | casas + modelo | — |
+| Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Doble oportunidad | Pachuca o Toluca (no empate) | 77% | Alta | casas + modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Goles | Más de 2.5 | 60% | Media | modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Ambos anotan | Sí | 63% | Media | modelo | — |
+| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Ganador | Santos | 40% | Baja | casas + modelo | — |
+| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Doble oportunidad | Santos o León (no empate) | 75% | Alta | casas + modelo | — |
+| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Goles | Más de 2.5 | 50% | Baja | modelo | — |
+| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
+| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Ambos anotan | Sí | 55% | Media | modelo | — |
 | Sat 21 Nov 17:00 | MLS | Inter Miami CF vs Columbus Crew | Ganador | Inter Miami CF | 62% | Media | casas + modelo | — |
 | Sat 21 Nov 17:00 | MLS | Inter Miami CF vs Columbus Crew | Doble oportunidad | Inter Miami CF o Columbus Crew (no empate) | 81% | Alta | casas + modelo | — |
 | Sat 21 Nov 17:00 | MLS | Inter Miami CF vs Columbus Crew | Goles | Más de 2.5 | 61% | Media | modelo | — |
 | Sat 21 Nov 17:00 | MLS | Inter Miami CF vs Columbus Crew | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Sat 21 Nov 17:00 | MLS | Inter Miami CF vs Columbus Crew | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Ganador | Santos | 38% | Baja | casas + modelo | — |
-| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Doble oportunidad | Santos o León (no empate) | 76% | Alta | casas + modelo | — |
-| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Goles | Más de 2.5 | 50% | Baja | modelo | — |
-| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Ambos anotan | Sí | 55% | Media | modelo | — |
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Ganador | Cruzeiro | 73% | Alta | casas + modelo | — |
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Doble oportunidad | Cruzeiro o empate | 90% | Alta | casas + modelo | — |
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Goles | Más de 2.5 | 59% | Media | modelo | — |
@@ -773,4 +768,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Ganador | FC Twente | 92% | Alta | casas + modelo | — |
+| Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Doble oportunidad | FC Twente o empate | 97% | Alta | casas + modelo | — |
+| Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Goles | Más de 2.5 | 77% | Alta | modelo | — |
+| Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Goles (línea segura) | Más de 1.5 | 91% | Alta | modelo | — |
+| Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Ganador | Juventus | 75% | Alta | Kalshi + modelo | 72¢ |
+| Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Doble oportunidad | Juventus o empate | 91% | Alta | Kalshi + modelo | — |
+| Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Goles | Más de 2.5 | 52% | Baja | modelo | — |
+| Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Ambos anotan | No | 51% | Baja | modelo | — |
 
