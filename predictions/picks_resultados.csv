@@ -467,3 +467,15 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-20,liga,401900905,Goles,Más de 2.5,0.672,modelo,1
 2026-11-20,liga,401900905,Goles (línea segura),Más de 1.5,0.8675,modelo,1
 2026-11-20,liga,401900905,Ambos anotan,Sí,0.6837,modelo,1
+2026-11-20,liga,401876685,Ganador,Red Star FC 93,0.4481,modelo,0
+2026-11-20,liga,401876685,Doble oportunidad,Red Star FC 93 o Pau (no empate),0.7324,modelo,0
+2026-11-20,liga,401876688,Ganador,Metz,0.4144,casas + modelo,1
+2026-11-20,liga,401876688,Doble oportunidad,Metz o Boulogne (no empate),0.7207,casas + modelo,1
+2026-11-20,liga,401876688,Goles,Más de 2.5,0.5077,casas + modelo,1
+2026-11-20,liga,401876688,Goles (línea segura),Más de 1.5,0.7152,modelo,1
+2026-11-20,liga,401876688,Ambos anotan,Sí,0.5038,modelo,1
+2026-11-20,liga,401876690,Ganador,Guingamp,0.457,casas + modelo,0
+2026-11-20,liga,401876690,Doble oportunidad,Guingamp o Rodez Aveyron (no empate),0.7464,casas + modelo,1
+2026-11-20,liga,401876690,Goles,Más de 2.5,0.6042,casas + modelo,1
+2026-11-20,liga,401876690,Goles (línea segura),Más de 1.5,0.7631,modelo,1
+2026-11-20,liga,401876690,Ambos anotan,Sí,0.5586,modelo,1
