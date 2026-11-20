@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 19 Nov 2026 19:06 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 19 Nov 2026 20:17 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -65,7 +65,6 @@
 ## NFL
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Thu 19 Nov 19:15 | Indianapolis Colts en Houston Texans | Houston Texans | 76% | 84% | 84% | 85% | 8.5 pts | 47 pts | 8 / 9 |
 | Sun 22 Nov 12:00 | Miami Dolphins en Buffalo Bills | Buffalo Bills | 86% | 92% | 92% | 90% | 13.8 pts | 48 pts | 1 / 4 |
 | Sun 22 Nov 12:00 | Baltimore Ravens en Carolina Panthers | Carolina Panthers | 52% | 58% | 58% | 57% | 1.2 pts | 46 pts | 3 / 2 |
 | Sun 22 Nov 12:00 | New Orleans Saints en Chicago Bears | Chicago Bears | 78% | 84% | 84% | 82% | 9.5 pts | 45 pts | 2 / 4 |
@@ -267,14 +266,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Ganador | Houston Texans | 83% | Alta | Kalshi + casas + modelo | 84¢ |
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap | Indianapolis Colts +13.5 (gana o pierde por menos de 13.5) | 53% | Baja | casas | 55¢ |
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Hándicap seguro | Houston Texans gana por más de 5.5 | 71% | Alta | casas | 70¢ |
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Total de puntos | Más de 44.5 | 50% | Baja | casas | 48¢ |
-| Thu 19 Nov 19:15 | NFL | Indianapolis Colts en Houston Texans | Puntos (línea segura) | Más de 35.5 | 76% | Alta | casas | 77¢ |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Ganador | Seattle Sounders FC | 48% | Baja | casas + modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Doble oportunidad | Seattle Sounders FC o Real Salt Lake (no empate) | 75% | Alta | casas + modelo | — |
-| Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
+| Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Thu 19 Nov 21:00 | MLS | Seattle Sounders FC vs Real Salt Lake | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Ganador | Al Nassr | 51% | Baja | casas + modelo | — |
@@ -461,4 +455,39 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 07:00 | Ligue 2 | Stade Laval vs Montpellier | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Sat 21 Nov 07:00 | Ligue 2 | Stade Laval vs Montpellier | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sat 21 Nov 07:00 | Ligue 2 | Stade Laval vs Montpellier | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | Ganador | Lazio | 74% | Alta | Kalshi + modelo | 70¢ |
+| Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | Doble oportunidad | Lazio o empate | 91% | Alta | Kalshi + modelo | — |
+| Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Ganador | Como | 77% | Alta | Kalshi + modelo | 74¢ |
+| Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Doble oportunidad | Como o empate | 91% | Alta | Kalshi + modelo | — |
+| Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Goles | Más de 2.5 | 52% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Ambos anotan | Sí | 50% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Ganador | Ascoli | 56% | Media | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Doble oportunidad | Ascoli o empate | 82% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Ganador | Cremonese | 45% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Doble oportunidad | Cremonese o empate | 74% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Goles | Menos de 2.5 | 55% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Goles (línea segura) | Más de 1.5 | 70% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sudtirol vs Cremonese | Ambos anotan | No | 50% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ganador | Benevento | 37% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Doble oportunidad | Sampdoria o Benevento (no empate) | 71% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Sampdoria vs Benevento | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Ganador | Modena | 60% | Media | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Doble oportunidad | Modena o empate | 83% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Modena vs Juve Stabia | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Ganador | Carrarese | 40% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Doble oportunidad | Carrarese o empate | 70% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles | Menos de 2.5 | 55% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles (línea segura) | Más de 1.5 | 69% | Media | modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Ambos anotan | No | 52% | Baja | modelo | — |
 
