@@ -479,3 +479,26 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-20,liga,401876690,Goles,Más de 2.5,0.6042,casas + modelo,1
 2026-11-20,liga,401876690,Goles (línea segura),Más de 1.5,0.7631,modelo,1
 2026-11-20,liga,401876690,Ambos anotan,Sí,0.5586,modelo,1
+2026-11-20,liga,401876685,Goles,Menos de 2.5,0.5122,modelo,0
+2026-11-20,liga,401876685,Goles (línea segura),Más de 1.5,0.7472,modelo,1
+2026-11-20,liga,401876685,Ambos anotan,Sí,0.5365,modelo,1
+2026-11-20,liga,401876687,Ganador,AS Nancy Lorraine,0.5491,casas + modelo,1
+2026-11-20,liga,401876687,Doble oportunidad,AS Nancy Lorraine o empate,0.7762,casas + modelo,1
+2026-11-20,liga,401876687,Goles,Más de 2.5,0.592,casas + modelo,0
+2026-11-20,liga,401876687,Goles (línea segura),Más de 1.5,0.7839,modelo,0
+2026-11-20,liga,401876687,Ambos anotan,Sí,0.5698,modelo,0
+2026-11-20,liga,401876691,Ganador,Annecy,0.4304,casas + modelo,1
+2026-11-20,liga,401876691,Doble oportunidad,Annecy o Clermont Foot (no empate),0.7207,casas + modelo,1
+2026-11-20,liga,401876691,Goles,Menos de 2.5,0.5122,casas + modelo,0
+2026-11-20,liga,401876691,Goles (línea segura),Más de 1.5,0.7452,modelo,1
+2026-11-20,liga,401876691,Ambos anotan,Sí,0.5279,modelo,1
+2026-11-20,liga,401899543,Ganador,Hellas Verona,0.6074,casas + modelo,0
+2026-11-20,liga,401899543,Doble oportunidad,Hellas Verona o empate,0.8379,casas + modelo,0
+2026-11-20,liga,401899543,Goles,Más de 2.5,0.5575,casas + modelo,0
+2026-11-20,liga,401899543,Goles (línea segura),Más de 1.5,0.7521,modelo,1
+2026-11-20,liga,401899543,Ambos anotan,Sí,0.5294,modelo,0
+2026-11-20,liga,401883112,Ganador,FC Andorra,0.5228,casas + modelo,0
+2026-11-20,liga,401883112,Doble oportunidad,FC Andorra o empate,0.7687,casas + modelo,0
+2026-11-20,liga,401883112,Goles,Más de 2.5,0.5616,casas + modelo,1
+2026-11-20,liga,401883112,Goles (línea segura),Más de 1.5,0.7533,modelo,1
+2026-11-20,liga,401883112,Ambos anotan,Sí,0.5349,modelo,1
