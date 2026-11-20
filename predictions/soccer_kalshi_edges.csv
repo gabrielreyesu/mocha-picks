@@ -1,48 +1,46 @@
 liga,kickoff_utc,partido,resultado,p_modelo,ask,ventaja_bruta,volumen_evento
-Bundesliga,2026-11-21T14:30:00+00:00,Elversberg - Freiburg,Elversberg,0.4221,0.27,0.1521,4372.09
-La Liga,2026-11-21T20:00:00+00:00,Real Madrid - Celta,Empate,0.217,0.11,0.107,377596.66
-Premier League,2026-11-21T15:00:00+00:00,Tottenham - Ipswich,Ipswich,0.2561,0.16,0.0961,24258.600000000002
-Premier League,2026-11-21T15:00:00+00:00,Coventry - Crystal Palace,Coventry,0.4793,0.39,0.0893,12720.27
-Bundesliga,2026-11-21T14:30:00+00:00,Union Berlin - RB Leipzig,Union Berlin,0.2476,0.16,0.0876,13688.26
-La Liga,2026-11-21T13:00:00+00:00,Alaves - La Coruna,Alaves,0.5217,0.44,0.0817,9848.29
-La Liga,2026-11-20T20:00:00+00:00,Ath Bilbao - Espanol,Empate,0.2823,0.21,0.0723,215177.32
-Bundesliga,2026-11-21T14:30:00+00:00,Leverkusen - Paderborn,Empate,0.2109,0.14,0.0709,2681.6400000000003
-La Liga,2026-11-20T20:00:00+00:00,Ath Bilbao - Espanol,Espanol,0.2045,0.14,0.0645,215177.32
-Serie A,2026-11-21T14:00:00+00:00,Como - Cagliari,Empate,0.2194,0.16,0.0594,19164.68
-Bundesliga,2026-11-21T14:30:00+00:00,Union Berlin - RB Leipzig,Empate,0.2593,0.2,0.0593,13688.26
-Serie A,2026-11-21T17:00:00+00:00,Parma - Roma,Parma,0.1456,0.09,0.0556,15762.57
+Bundesliga,2026-11-21T14:30:00+00:00,Elversberg - Freiburg,Elversberg,0.4221,0.27,0.1521,5090.61
+La Liga,2026-11-21T20:00:00+00:00,Real Madrid - Celta,Empate,0.217,0.11,0.107,387788.22
+Premier League,2026-11-21T15:00:00+00:00,Tottenham - Ipswich,Ipswich,0.2561,0.16,0.0961,25380.53
+Premier League,2026-11-21T15:00:00+00:00,Coventry - Crystal Palace,Coventry,0.4793,0.39,0.0893,13597.669999999998
+Bundesliga,2026-11-21T14:30:00+00:00,Union Berlin - RB Leipzig,Union Berlin,0.2476,0.16,0.0876,13722.44
+La Liga,2026-11-20T20:00:00+00:00,Ath Bilbao - Espanol,Espanol,0.2045,0.12,0.0845,326348.84
+La Liga,2026-11-20T20:00:00+00:00,Ath Bilbao - Espanol,Empate,0.2823,0.2,0.0823,326348.84
+La Liga,2026-11-21T13:00:00+00:00,Alaves - La Coruna,Alaves,0.5217,0.44,0.0817,10309.380000000001
+Bundesliga,2026-11-21T14:30:00+00:00,Leverkusen - Paderborn,Empate,0.2109,0.14,0.0709,2689.83
+Serie A,2026-11-21T14:00:00+00:00,Como - Cagliari,Empate,0.2194,0.16,0.0594,19541.710000000003
+Bundesliga,2026-11-21T14:30:00+00:00,Union Berlin - RB Leipzig,Empate,0.2593,0.2,0.0593,13722.44
+Serie A,2026-11-21T17:00:00+00:00,Parma - Roma,Parma,0.1456,0.09,0.0556,16089.18
 Ligue 1,2026-11-21T19:45:00+00:00,Strasbourg - Brest,Strasbourg,0.4812,0.43,0.0512,879.74
-Serie A,2026-11-21T14:00:00+00:00,Lazio - Lecce,Empate,0.241,0.19,0.051,28190.809999999998
-Serie A,2026-11-21T17:00:00+00:00,Parma - Roma,Empate,0.2074,0.16,0.0474,15762.57
-Serie A,2026-11-21T19:45:00+00:00,Napoli - Torino,Empate,0.257,0.21,0.047,2983.07
-Ligue 1,2026-11-21T19:45:00+00:00,Lille - Lyon,Lille,0.4753,0.43,0.0453,1779.0
-Premier League,2026-11-21T15:00:00+00:00,Tottenham - Ipswich,Empate,0.2592,0.22,0.0392,24258.600000000002
-Premier League,2026-11-21T15:00:00+00:00,Aston Villa - Sunderland,Aston Villa,0.5881,0.55,0.0381,36634.34
-Ligue 1,2026-11-20T19:45:00+00:00,Troyes - Le Havre,Le Havre,0.3218,0.29,0.0318,120429.69
-Serie A,2026-11-21T14:00:00+00:00,Como - Cagliari,Cagliari,0.1302,0.1,0.0302,19164.68
-Ligue 1,2026-11-21T16:15:00+00:00,Nice - Paris SG,Empate,0.2202,0.19,0.0302,68034.61
+Serie A,2026-11-21T14:00:00+00:00,Lazio - Lecce,Empate,0.241,0.19,0.051,28733.66
+Serie A,2026-11-21T17:00:00+00:00,Parma - Roma,Empate,0.2074,0.16,0.0474,16089.18
+Serie A,2026-11-21T19:45:00+00:00,Napoli - Torino,Empate,0.257,0.21,0.047,3222.26
+Ligue 1,2026-11-21T19:45:00+00:00,Lille - Lyon,Lille,0.4753,0.43,0.0453,1829.23
+Ligue 1,2026-11-20T19:45:00+00:00,Troyes - Le Havre,Le Havre,0.3218,0.28,0.0418,162474.91999999998
+Premier League,2026-11-21T15:00:00+00:00,Tottenham - Ipswich,Empate,0.2592,0.22,0.0392,25380.53
+Premier League,2026-11-21T15:00:00+00:00,Aston Villa - Sunderland,Aston Villa,0.5881,0.55,0.0381,37049.59
+Serie A,2026-11-21T14:00:00+00:00,Como - Cagliari,Cagliari,0.1302,0.1,0.0302,19541.710000000003
+Ligue 1,2026-11-21T16:15:00+00:00,Nice - Paris SG,Empate,0.2202,0.19,0.0302,69711.81999999999
 Ligue 1,2026-11-21T19:45:00+00:00,Monaco - Auxerre,Empate,0.2199,0.19,0.0299,1582.75
-Bundesliga,2026-11-21T14:30:00+00:00,M'gladbach - Dortmund,Dortmund,0.6489,0.62,0.0289,26790.010000000002
-Ligue 1,2026-11-21T16:15:00+00:00,Nice - Paris SG,Nice,0.1879,0.16,0.0279,68034.61
-Premier League,2026-11-21T12:30:00+00:00,Man City - Fulham,Empate,0.2071,0.18,0.0271,217445.29
-La Liga,2026-11-21T20:00:00+00:00,Real Madrid - Celta,Celta,0.0865,0.06,0.0265,377596.66
-Premier League,2026-11-21T15:00:00+00:00,Bournemouth - Nott'm Forest,Bournemouth,0.5261,0.5,0.0261,75329.68
-Bundesliga,2026-11-21T17:30:00+00:00,Schalke 04 - Stuttgart,Stuttgart,0.5543,0.53,0.0243,1589.1399999999999
+Bundesliga,2026-11-21T14:30:00+00:00,M'gladbach - Dortmund,Dortmund,0.6489,0.62,0.0289,27437.120000000003
+Ligue 1,2026-11-21T16:15:00+00:00,Nice - Paris SG,Nice,0.1879,0.16,0.0279,69711.81999999999
+Premier League,2026-11-21T12:30:00+00:00,Man City - Fulham,Empate,0.2071,0.18,0.0271,221081.58
+La Liga,2026-11-21T20:00:00+00:00,Real Madrid - Celta,Celta,0.0865,0.06,0.0265,387788.22
+Premier League,2026-11-21T15:00:00+00:00,Bournemouth - Nott'm Forest,Bournemouth,0.5261,0.5,0.0261,75796.05
+Bundesliga,2026-11-21T17:30:00+00:00,Schalke 04 - Stuttgart,Stuttgart,0.5543,0.53,0.0243,1593.09
 Bundesliga,2026-11-21T14:30:00+00:00,Ein Frankfurt - Hoffenheim,Empate,0.273,0.25,0.023,1520.01
-La Liga,2026-11-21T15:15:00+00:00,Vallecano - Valencia,Empate,0.2912,0.27,0.0212,31210.21
-Premier League,2026-11-21T15:00:00+00:00,Chelsea - Leeds,Leeds,0.2694,0.25,0.0194,89988.96
-Ligue 1,2026-11-21T19:45:00+00:00,Lens - Toulouse,Lens,0.5292,0.51,0.0192,3453.55
-Ligue 1,2026-11-21T19:45:00+00:00,Lens - Toulouse,Empate,0.2566,0.24,0.0166,3453.55
-Serie A,2026-11-21T19:45:00+00:00,Napoli - Torino,Torino,0.1641,0.15,0.0141,2983.07
-Bundesliga,2026-11-20T19:30:00+00:00,Bayern Munich - FC Koln,Empate,0.0738,0.06,0.0138,731047.26
-La Liga,2026-11-21T17:30:00+00:00,Sevilla - Betis,Betis,0.4236,0.41,0.0136,63970.69
-Bundesliga,2026-11-21T14:30:00+00:00,Leverkusen - Paderborn,Paderborn,0.1135,0.1,0.0135,2681.6400000000003
+La Liga,2026-11-21T15:15:00+00:00,Vallecano - Valencia,Empate,0.2912,0.27,0.0212,31500.39
+Ligue 1,2026-11-21T19:45:00+00:00,Lens - Toulouse,Lens,0.5292,0.51,0.0192,3455.4300000000003
+Ligue 1,2026-11-21T19:45:00+00:00,Lens - Toulouse,Empate,0.2566,0.24,0.0166,3455.4300000000003
+Serie A,2026-11-21T19:45:00+00:00,Napoli - Torino,Torino,0.1641,0.15,0.0141,3222.26
+La Liga,2026-11-21T17:30:00+00:00,Sevilla - Betis,Betis,0.4236,0.41,0.0136,64653.54
+Bundesliga,2026-11-21T14:30:00+00:00,Leverkusen - Paderborn,Paderborn,0.1135,0.1,0.0135,2689.83
 Ligue 1,2026-11-21T19:45:00+00:00,Monaco - Auxerre,Auxerre,0.1518,0.14,0.0118,1582.75
-Bundesliga,2026-11-20T19:30:00+00:00,Bayern Munich - FC Koln,FC Koln,0.041,0.03,0.011,731047.26
-Premier League,2026-11-21T17:30:00+00:00,Newcastle - Arsenal,Newcastle,0.1704,0.16,0.0104,116573.65
-La Liga,2026-11-21T17:30:00+00:00,Sevilla - Betis,Empate,0.2878,0.28,0.0078,63970.69
-Bundesliga,2026-11-21T14:30:00+00:00,Elversberg - Freiburg,Empate,0.2566,0.25,0.0066,4372.09
-Serie A,2026-11-21T14:00:00+00:00,Lazio - Lecce,Lecce,0.1133,0.11,0.0033,28190.809999999998
-Premier League,2026-11-21T15:00:00+00:00,Chelsea - Leeds,Empate,0.2626,0.26,0.0026,89988.96
+Premier League,2026-11-21T17:30:00+00:00,Newcastle - Arsenal,Newcastle,0.1704,0.16,0.0104,121084.67
+Premier League,2026-11-21T15:00:00+00:00,Chelsea - Leeds,Leeds,0.2694,0.26,0.0094,92423.6
+La Liga,2026-11-21T17:30:00+00:00,Sevilla - Betis,Empate,0.2878,0.28,0.0078,64653.54
+Bundesliga,2026-11-21T14:30:00+00:00,Elversberg - Freiburg,Empate,0.2566,0.25,0.0066,5090.61
+Serie A,2026-11-21T14:00:00+00:00,Lazio - Lecce,Lecce,0.1133,0.11,0.0033,28733.66
+Premier League,2026-11-21T15:00:00+00:00,Chelsea - Leeds,Empate,0.2626,0.26,0.0026,92423.6
 Bundesliga,2026-11-21T14:30:00+00:00,Ein Frankfurt - Hoffenheim,Ein Frankfurt,0.4017,0.4,0.0017,1520.01
 Ligue 1,2026-11-21T19:45:00+00:00,Strasbourg - Brest,Empate,0.2604,0.26,0.0004,879.74
