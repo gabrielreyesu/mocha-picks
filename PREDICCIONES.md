@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 20 Nov 2026 10:33 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 20 Nov 2026 11:35 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -271,21 +271,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Ganador | Arminia Bielefeld | 43% | Baja | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Doble oportunidad | Arminia Bielefeld o 1. FC Magdeburg (no empate) | 74% | Alta | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | Arminia Bielefeld vs 1. FC Magdeburg | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Ganador | 1. FC Heidenheim 1846 | 47% | Baja | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Doble oportunidad | SV Darmstadt 98 o 1. FC Heidenheim 1846 (no empate) | 76% | Alta | casas + modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Goles | Más de 2.5 | 54% | Baja | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 20 Nov 11:30 | 2. Bundesliga | SV Darmstadt 98 vs 1. FC Heidenheim 1846 | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Ganador | Al Nassr | 46% | Baja | casas + modelo | — |
-| Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Doble oportunidad | Al Ahli o Al Nassr (no empate) | 77% | Alta | casas + modelo | — |
-| Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Goles | Más de 2.5 | 67% | Media | modelo | — |
-| Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
-| Fri 20 Nov 11:30 | Liga Saudí | Al Ahli vs Al Nassr | Ambos anotan | Sí | 68% | Media | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ganador | Red Star FC 93 | 45% | Baja | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Doble oportunidad | Red Star FC 93 o Pau (no empate) | 73% | Alta | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
@@ -296,7 +281,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ganador | Metz | 42% | Baja | casas + modelo | — |
+| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ganador | Metz | 41% | Baja | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Doble oportunidad | Metz o Boulogne (no empate) | 72% | Alta | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
@@ -373,7 +358,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Puntos (línea segura) | Más de 215.5 | 77% | Alta | casas | 78¢ |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Ganador | Atlético de San Luis | 38% | Baja | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Doble oportunidad | Puebla o Atlético de San Luis (no empate) | 74% | Alta | casas + modelo | — |
-| Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Ganador | Phoenix Suns | 64% | Media | Kalshi + casas + modelo | 62¢ |
@@ -394,9 +379,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | Tijuana vs Atlante | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 50% | Baja | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | FC Juárez o Atlas (no empate) | 75% | Alta | casas + modelo | — |
-| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 51% | Baja | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | Atlas o empate | 76% | Alta | casas + modelo | — |
+| Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Sat 21 Nov 04:30 | Superliga de Turquía | Genclerbirligi vs Gaziantep FK | Ganador | Genclerbirligi | 41% | Baja | casas + modelo | — |
@@ -654,9 +639,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
 | Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Ganador | Racing Genk | 70% | Alta | casas + modelo | — |
+| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Ganador | Racing Genk | 71% | Alta | casas + modelo | — |
 | Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Doble oportunidad | Racing Genk o empate | 88% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
+| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sat 21 Nov 11:30 | La Liga | Sevilla vs Betis | Ganador | Betis | 44% | Baja | Kalshi + modelo | 43¢ |
