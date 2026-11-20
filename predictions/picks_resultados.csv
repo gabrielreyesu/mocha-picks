@@ -417,3 +417,31 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-19,liga,401841317,Goles,Más de 2.5,0.5141,casas + modelo,1
 2026-11-19,liga,401841317,Goles (línea segura),Más de 1.5,0.7361,modelo,1
 2026-11-19,liga,401841317,Ambos anotan,Sí,0.5317,modelo,1
+2026-11-19,liga,401841309,Ganador,São Paulo,0.3581,casas + modelo,0
+2026-11-19,liga,401841309,Doble oportunidad,São Paulo o Fluminense (no empate),0.7024,casas + modelo,1
+2026-11-19,liga,401841309,Goles,Menos de 2.5,0.5482,casas + modelo,1
+2026-11-19,liga,401841309,Goles (línea segura),Más de 1.5,0.7155,modelo,0
+2026-11-19,liga,401841309,Ambos anotan,Sí,0.5119,modelo,0
+2026-11-19,liga,401933535,Ganador,Orlando City SC,0.4071,casas + modelo,0
+2026-11-19,liga,401933535,Doble oportunidad,Orlando City SC o FC Cincinnati (no empate),0.7732,casas + modelo,1
+2026-11-19,liga,401933535,Goles,Más de 2.5,0.6284,modelo,1
+2026-11-19,liga,401933535,Goles (línea segura),Más de 1.5,0.842,modelo,1
+2026-11-19,liga,401933535,Ambos anotan,Sí,0.643,modelo,1
+2026-11-19,nba,401910021,Ganador,New York Knicks,0.5199,Kalshi + casas + modelo,1
+2026-11-19,nba,401910021,Hándicap,New York Knicks gana por más de 1.5,0.5,casas,1
+2026-11-19,nba,401910021,Total de puntos,Menos de 217.5,0.5223,casas,1
+2026-11-19,nba,401910021,Puntos (línea segura),Más de 203.5,0.7662,casas,0
+2026-11-19,nba,401910022,Ganador,San Antonio Spurs,0.8837,Kalshi + casas + modelo,1
+2026-11-19,nba,401910022,Hándicap,San Antonio Spurs gana por más de 15.5,0.5,casas,0
+2026-11-19,nba,401910022,Hándicap seguro,San Antonio Spurs gana por más de 6.5,0.7491,casas,1
+2026-11-19,nba,401910022,Total de puntos,Menos de 225.5,0.5223,casas,0
+2026-11-19,nba,401910022,Puntos (línea segura),Más de 211.5,0.7662,casas,1
+2026-11-19,nba,401910019,Ganador,Memphis Grizzlies,0.6661,Kalshi + casas + modelo,1
+2026-11-19,nba,401910019,Hándicap,Memphis Grizzlies gana por más de 5.5,0.5,casas,1
+2026-11-19,nba,401910019,Total de puntos,Menos de 225.5,0.5223,casas,1
+2026-11-19,nba,401910019,Puntos (línea segura),Más de 211.5,0.7662,casas,1
+2026-11-19,nba,401910020,Ganador,Portland Trail Blazers,0.7908,Kalshi + casas + modelo,1
+2026-11-19,nba,401910020,Hándicap,Portland Trail Blazers gana por más de 10.5,0.5,casas,0
+2026-11-19,nba,401910020,Hándicap seguro,Portland Trail Blazers gana por más de 1.5,0.7491,casas,1
+2026-11-19,nba,401910020,Total de puntos,Menos de 229.5,0.5223,casas,0
+2026-11-19,nba,401910020,Puntos (línea segura),Más de 215.5,0.7662,casas,1
