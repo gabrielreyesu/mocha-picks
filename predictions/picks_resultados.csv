@@ -452,3 +452,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-19,nfl,401873066,Puntos (línea segura),Más de 35.5,0.7556,casas,0
 2026-11-19,liga,401933555,Ganador,Seattle Sounders FC,0.4848,casas + modelo,0
 2026-11-19,liga,401933555,Doble oportunidad,Seattle Sounders FC o Real Salt Lake (no empate),0.7549,casas + modelo,0
+2026-11-20,liga,401885049,Ganador,Arminia Bielefeld,0.4318,casas + modelo,0
+2026-11-20,liga,401885049,Doble oportunidad,Arminia Bielefeld o 1. FC Magdeburg (no empate),0.7372,casas + modelo,1
+2026-11-20,liga,401885049,Goles,Más de 2.5,0.5404,casas + modelo,1
+2026-11-20,liga,401885049,Goles (línea segura),Más de 1.5,0.8109,modelo,1
+2026-11-20,liga,401885049,Ambos anotan,Sí,0.6137,modelo,1
+2026-11-20,liga,401885053,Ganador,1. FC Heidenheim 1846,0.4717,casas + modelo,0
+2026-11-20,liga,401885053,Doble oportunidad,SV Darmstadt 98 o 1. FC Heidenheim 1846 (no empate),0.7622,casas + modelo,1
+2026-11-20,liga,401885053,Goles,Más de 2.5,0.5369,modelo,1
+2026-11-20,liga,401885053,Goles (línea segura),Más de 1.5,0.7827,modelo,1
+2026-11-20,liga,401885053,Ambos anotan,Sí,0.574,modelo,1
+2026-11-20,liga,401900905,Ganador,Al Nassr,0.4627,casas + modelo,0
+2026-11-20,liga,401900905,Doble oportunidad,Al Ahli o Al Nassr (no empate),0.7747,casas + modelo,1
+2026-11-20,liga,401900905,Goles,Más de 2.5,0.672,modelo,1
+2026-11-20,liga,401900905,Goles (línea segura),Más de 1.5,0.8675,modelo,1
+2026-11-20,liga,401900905,Ambos anotan,Sí,0.6837,modelo,1

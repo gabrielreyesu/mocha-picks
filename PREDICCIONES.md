@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 20 Nov 2026 12:47 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 20 Nov 2026 13:41 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -85,41 +85,40 @@
 ## Fútbol: ligas (Premier, La Liga, Serie A, Bundesliga, Ligue 1)
 | Fecha (hora Chicago) | Liga | Partido | Modelo: local / empate / visita | Kalshi: local / empate / visita | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|
-| Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | 89% / 7% / 4% | 90% / 7% / 4% | 92% / 79% / 62% | 55% | 72% / 1% | — |
 | Fri 20 Nov 13:45 | Ligue 1 | Troyes vs Le Havre | 39% / 29% / 32% | 46% / 26% / 26% | 72% / 47% / 25% | 52% | 14% / 18% | — |
 | Fri 20 Nov 14:00 | La Liga | Ath Bilbao vs Espanol | 51% / 28% / 20% | 66% / 20% / 13% | 72% / 47% / 25% | 53% | 19% / 11% | — |
 | Sat 21 Nov 06:30 | Premier League | Man City vs Fulham | 67% / 21% / 12% | 68% / 18% / 14% | 78% / 53% / 31% | 50% | 40% / 5% | — |
 | Sat 21 Nov 07:00 | La Liga | Alaves vs La Coruna | 52% / 27% / 21% | 46% / 27% / 26% | 76% / 51% / 28% | 53% | 30% / 6% | — |
 | Sat 21 Nov 08:00 | Serie A | Lazio vs Lecce | 65% / 24% / 11% | 70% / 17% / 11% | 75% / 49% / 26% | 53% | 23% / 9% | — |
 | Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | 65% / 22% / 13% | 74% / 15% / 10% | 77% / 52% / 29% | 50% | 38% / 4% | — |
-| Sat 21 Nov 08:30 | Bundesliga | Ein Frankfurt vs Hoffenheim | 40% / 27% / 33% | 40% / 24% / 36% | 85% / 64% / 43% | 63% | 19% / 20% | — |
-| Sat 21 Nov 08:30 | Bundesliga | M'gladbach vs Dortmund | 15% / 21% / 65% | 19% / 21% / 60% | 80% / 57% / 34% | 57% | 8% / 34% | — |
 | Sat 21 Nov 08:30 | Bundesliga | Elversberg vs Freiburg | 42% / 26% / 32% | 26% / 25% / 47% | 86% / 66% / 45% | 62% | 34% / 10% | — |
-| Sat 21 Nov 08:30 | Bundesliga | Leverkusen vs Paderborn | 68% / 21% / 11% | 78% / 12% / 8% | 81% / 56% / 35% | 55% | 39% / 6% | — |
+| Sat 21 Nov 08:30 | Bundesliga | M'gladbach vs Dortmund | 15% / 21% / 65% | 19% / 21% / 60% | 80% / 57% / 34% | 57% | 8% / 34% | — |
+| Sat 21 Nov 08:30 | Bundesliga | Ein Frankfurt vs Hoffenheim | 40% / 27% / 33% | 40% / 24% / 36% | 85% / 64% / 43% | 63% | 19% / 20% | — |
 | Sat 21 Nov 08:30 | Bundesliga | Union Berlin vs RB Leipzig | 25% / 26% / 49% | 18% / 20% / 61% | 81% / 57% / 35% | 59% | 16% / 21% | — |
+| Sat 21 Nov 08:30 | Bundesliga | Leverkusen vs Paderborn | 68% / 21% / 11% | 78% / 12% / 8% | 81% / 56% / 35% | 55% | 39% / 6% | — |
+| Sat 21 Nov 09:00 | Premier League | Coventry vs Crystal Palace | 48% / 26% / 26% | 39% / 26% / 34% | 79% / 55% / 33% | 55% | 26% / 11% | — |
+| Sat 21 Nov 09:00 | Premier League | Chelsea vs Leeds | 47% / 26% / 27% | 51% / 25% / 24% | 79% / 55% / 33% | 55% | 27% / 11% | — |
 | Sat 21 Nov 09:00 | Premier League | Aston Villa vs Sunderland | 59% / 23% / 18% | 56% / 24% / 20% | 80% / 57% / 34% | 54% | 33% / 8% | — |
 | Sat 21 Nov 09:00 | Premier League | Bournemouth vs Nott'm Forest | 53% / 26% / 22% | 48% / 26% / 26% | 78% / 55% / 32% | 55% | 20% / 16% | — |
 | Sat 21 Nov 09:00 | Premier League | Tottenham vs Ipswich | 48% / 26% / 26% | 62% / 20% / 16% | 81% / 60% / 37% | 58% | 19% / 18% | — |
-| Sat 21 Nov 09:00 | Premier League | Chelsea vs Leeds | 47% / 26% / 27% | 51% / 25% / 24% | 79% / 55% / 33% | 55% | 27% / 11% | — |
-| Sat 21 Nov 09:00 | Premier League | Coventry vs Crystal Palace | 48% / 26% / 26% | 39% / 26% / 34% | 79% / 55% / 33% | 55% | 26% / 11% | — |
 | Sat 21 Nov 09:15 | La Liga | Vallecano vs Valencia | 49% / 29% / 22% | 49% / 26% / 24% | 71% / 45% / 23% | 51% | 21% / 9% | — |
 | Sat 21 Nov 10:15 | Ligue 1 | Nice vs Paris SG | 19% / 22% / 59% | 15% / 16% / 68% | 77% / 54% / 31% | 53% | 6% / 36% | — |
 | Sat 21 Nov 11:00 | Serie A | Parma vs Roma | 15% / 21% / 65% | 9% / 16% / 75% | 74% / 49% / 26% | 52% | 6% / 30% | — |
 | Sat 21 Nov 11:30 | La Liga | Sevilla vs Betis | 29% / 29% / 42% | 30% / 26% / 43% | 71% / 45% / 23% | 52% | 14% / 15% | — |
-| Sat 21 Nov 11:30 | Premier League | Newcastle vs Arsenal | 17% / 21% / 62% | 16% / 22% / 62% | 78% / 55% / 32% | 54% | 10% / 28% | — |
 | Sat 21 Nov 11:30 | Bundesliga | Schalke 04 vs Stuttgart | 21% / 24% / 55% | 24% / 23% / 52% | 85% / 67% / 45% | 60% | 6% / 42% | — |
-| Sat 21 Nov 13:45 | Ligue 1 | Lille vs Lyon | 48% / 29% / 24% | 40% / 29% / 30% | 72% / 46% / 25% | 51% | 19% / 12% | — |
-| Sat 21 Nov 13:45 | Ligue 1 | Lens vs Toulouse | 53% / 26% / 21% | 50% / 24% / 24% | 78% / 54% / 32% | 54% | 30% / 8% | — |
-| Sat 21 Nov 13:45 | Ligue 1 | Strasbourg vs Brest | 48% / 26% / 26% | 42% / 25% / 31% | 79% / 55% / 33% | 55% | 31% / 8% | — |
+| Sat 21 Nov 11:30 | Premier League | Newcastle vs Arsenal | 17% / 21% / 62% | 16% / 22% / 62% | 78% / 55% / 32% | 54% | 10% / 28% | — |
 | Sat 21 Nov 13:45 | Serie A | Napoli vs Torino | 58% / 26% / 16% | 64% / 20% / 14% | 76% / 50% / 27% | 52% | 29% / 7% | — |
+| Sat 21 Nov 13:45 | Ligue 1 | Strasbourg vs Brest | 48% / 26% / 26% | 42% / 25% / 31% | 79% / 55% / 33% | 55% | 31% / 8% | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Monaco vs Auxerre | 63% / 22% / 15% | 70% / 16% / 12% | 82% / 60% / 38% | 56% | 36% / 7% | — |
+| Sat 21 Nov 13:45 | Ligue 1 | Lens vs Toulouse | 53% / 26% / 21% | 50% / 24% / 24% | 78% / 54% / 32% | 54% | 30% / 8% | — |
+| Sat 21 Nov 13:45 | Ligue 1 | Lille vs Lyon | 48% / 29% / 24% | 40% / 29% / 30% | 72% / 46% / 25% | 51% | 19% / 12% | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | 70% / 22% / 9% | 82% / 11% / 6% | 73% / 47% / 25% | 50% | 29% / 6% | — |
 | Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | 72% / 19% / 9% | 72% / 16% / 11% | 77% / 52% / 29% | 49% | 40% / 3% | — |
 | Sun 22 Nov 07:00 | La Liga | Barcelona vs Villarreal | 76% / 16% / 8% | 81% / 11% / 8% | 81% / 59% / 36% | 52% | 47% / 3% | — |
-| Sun 22 Nov 08:00 | Serie A | Bologna vs Udinese | 53% / 26% / 21% | 56% / 24% / 18% | 76% / 52% / 28% | 55% | 10% / 23% | — |
-| Sun 22 Nov 08:00 | Premier League | Hull vs Brighton | 25% / 25% / 50% | 15% / 21% / 64% | 79% / 57% / 34% | 56% | 15% / 21% | — |
 | Sun 22 Nov 08:00 | Ligue 1 | Paris FC vs Angers | 65% / 22% / 13% | 72% / 17% / 10% | 77% / 53% / 31% | 52% | 34% / 6% | — |
+| Sun 22 Nov 08:00 | Serie A | Bologna vs Udinese | 53% / 26% / 21% | 56% / 24% / 18% | 76% / 52% / 28% | 55% | 10% / 23% | — |
 | Sun 22 Nov 08:00 | Serie A | Sassuolo vs Genoa | 37% / 29% / 35% | 37% / 28% / 34% | 77% / 52% / 29% | 56% | 17% / 15% | — |
+| Sun 22 Nov 08:00 | Premier League | Hull vs Brighton | 25% / 25% / 50% | 15% / 21% / 64% | 79% / 57% / 34% | 56% | 15% / 21% | — |
 | Sun 22 Nov 08:30 | Bundesliga | Augsburg vs Mainz | 41% / 28% / 32% | 34% / 24% / 40% | 82% / 60% / 38% | 61% | 18% / 20% | — |
 | Sun 22 Nov 09:15 | La Liga | Santander vs Sociedad | 39% / 28% / 33% | 30% / 22% / 46% | 81% / 59% / 36% | 59% | 17% / 15% | — |
 | Sun 22 Nov 10:15 | Ligue 1 | Lorient vs Rennes | 40% / 27% / 34% | 34% / 26% / 38% | 82% / 62% / 39% | 59% | 25% / 12% | — |
@@ -136,42 +135,42 @@
 | Fri 27 Nov 13:30 | Bundesliga | Werder Bremen vs M'gladbach | 51% / 27% / 22% | 55% / 22% / 24% | 82% / 58% / 36% | 60% | 22% / 16% | — |
 | Fri 27 Nov 13:45 | Serie A | Venezia vs Bologna | 18% / 23% / 59% | 27% / 26% / 48% | 73% / 48% / 25% | 51% | 6% / 30% | — |
 | Fri 27 Nov 13:45 | Ligue 1 | Brest vs Paris FC | 35% / 29% / 36% | 30% / 26% / 40% | 73% / 48% / 26% | 52% | 19% / 13% | — |
-| Fri 27 Nov 14:00 | La Liga | Levante vs Santander | 50% / 25% / 25% | 45% / 24% / 31% | 82% / 61% / 38% | 56% | 36% / 5% | — |
 | Fri 27 Nov 14:00 | Premier League | Nott'm Forest vs Chelsea | 35% / 28% / 37% | 36% / 26% / 38% | 73% / 48% / 26% | 51% | 17% / 16% | — |
+| Fri 27 Nov 14:00 | La Liga | Levante vs Santander | 50% / 25% / 25% | 45% / 24% / 31% | 82% / 61% / 38% | 56% | 36% / 5% | — |
 | Sat 28 Nov 07:00 | La Liga | Betis vs Vallecano | 64% / 22% / 13% | 62% / 20% / 16% | 77% / 52% / 29% | 52% | 36% / 5% | — |
 | Sat 28 Nov 08:00 | Serie A | Frosinone vs Parma | 47% / 28% / 24% | 64% / 19% / 16% | 76% / 51% / 28% | 55% | 22% / 10% | — |
-| Sat 28 Nov 08:30 | Bundesliga | Hamburg vs Bayern Munich | 12% / 19% / 69% | 6% / 6% / 85% | 83% / 62% / 40% | 58% | 5% / 44% | — |
-| Sat 28 Nov 08:30 | Bundesliga | Paderborn vs Schalke 04 | 43% / 28% / 29% | 39% / 28% / 32% | 81% / 57% / 35% | 59% | 20% / 17% | — |
 | Sat 28 Nov 08:30 | Bundesliga | FC Koln vs Elversberg | 33% / 27% / 40% | 48% / 24% / 26% | 83% / 60% / 39% | 61% | 24% / 15% | — |
 | Sat 28 Nov 08:30 | Bundesliga | Mainz vs Union Berlin | 48% / 27% / 25% | 64% / 20% / 15% | 82% / 59% / 37% | 60% | 26% / 13% | — |
+| Sat 28 Nov 08:30 | Bundesliga | Paderborn vs Schalke 04 | 43% / 28% / 29% | 39% / 28% / 32% | 81% / 57% / 35% | 59% | 20% / 17% | — |
+| Sat 28 Nov 08:30 | Bundesliga | Hamburg vs Bayern Munich | 12% / 19% / 69% | 6% / 6% / 85% | 83% / 62% / 40% | 58% | 5% / 44% | — |
 | Sat 28 Nov 09:00 | Premier League | Man United vs Brentford | 47% / 25% / 28% | 48% / 25% / 26% | 82% / 61% / 38% | 57% | 30% / 11% | — |
 | Sat 28 Nov 09:00 | Premier League | Leeds vs Coventry | 54% / 25% / 21% | 60% / 22% / 16% | 78% / 53% / 30% | 51% | 36% / 6% | — |
 | Sat 28 Nov 09:15 | La Liga | Malaga vs Ath Bilbao | 24% / 27% / 49% | 20% / 24% / 55% | 71% / 46% / 24% | 52% | 11% / 19% | — |
 | Sat 28 Nov 10:15 | Ligue 1 | Angers vs Lens | 22% / 24% / 54% | 20% / 24% / 55% | 76% / 52% / 29% | 54% | 8% / 29% | — |
 | Sat 28 Nov 11:00 | Serie A | Torino vs Lazio | 21% / 24% / 55% | 24% / 28% / 45% | 74% / 50% / 27% | 54% | 8% / 26% | — |
-| Sat 28 Nov 11:30 | Bundesliga | Stuttgart vs Ein Frankfurt | 52% / 25% / 23% | 56% / 20% / 22% | 86% / 65% / 44% | 62% | 33% / 10% | — |
 | Sat 28 Nov 11:30 | Premier League | Ipswich vs Aston Villa | 21% / 22% / 57% | 28% / 24% / 48% | 80% / 59% / 36% | 54% | 7% / 37% | — |
 | Sat 28 Nov 11:30 | La Liga | Elche vs Ath Madrid | 21% / 25% / 54% | 18% / 22% / 61% | 75% / 51% / 28% | 55% | 11% / 21% | — |
+| Sat 28 Nov 11:30 | Bundesliga | Stuttgart vs Ein Frankfurt | 52% / 25% / 23% | 56% / 20% / 22% | 86% / 65% / 44% | 62% | 33% / 10% | — |
+| Sat 28 Nov 13:45 | Ligue 1 | Le Havre vs Strasbourg | 26% / 26% / 48% | 32% / 24% / 41% | 76% / 52% / 30% | 55% | 13% / 21% | — |
+| Sat 28 Nov 13:45 | Ligue 1 | Nice vs Troyes | 61% / 24% / 15% | 56% / 24% / 18% | 80% / 57% / 34% | 56% | 28% / 9% | — |
+| Sat 28 Nov 13:45 | Ligue 1 | Paris SG vs Lorient | 68% / 22% / 11% | 78% / 13% / 8% | 75% / 50% / 28% | 50% | 34% / 5% | — |
 | Sat 28 Nov 13:45 | Serie A | Inter vs Genoa | 76% / 17% / 7% | 77% / 15% / 8% | 80% / 57% / 33% | 52% | 42% / 4% | — |
 | Sat 28 Nov 13:45 | Ligue 1 | Le Mans vs Lille | 23% / 25% / 51% | 21% / 26% / 51% | 74% / 49% / 27% | 53% | 11% / 22% | — |
-| Sat 28 Nov 13:45 | Ligue 1 | Nice vs Troyes | 61% / 24% / 15% | 56% / 24% / 18% | 80% / 57% / 34% | 56% | 28% / 9% | — |
-| Sat 28 Nov 13:45 | Ligue 1 | Le Havre vs Strasbourg | 26% / 26% / 48% | 32% / 24% / 41% | 76% / 52% / 30% | 55% | 13% / 21% | — |
-| Sat 28 Nov 13:45 | Ligue 1 | Paris SG vs Lorient | 68% / 22% / 11% | 78% / 13% / 8% | 75% / 50% / 28% | 50% | 34% / 5% | — |
 | Sat 28 Nov 14:00 | La Liga | Real Madrid vs Alaves | 81% / 13% / 6% | 84% / 10% / 6% | 82% / 60% / 38% | 51% | 52% / 2% | — |
 | Sun 29 Nov 05:30 | Serie A | Udinese vs Fiorentina | 32% / 28% / 40% | 29% / 26% / 45% | 75% / 51% / 27% | 55% | 12% / 20% | — |
 | Sun 29 Nov 06:00 | Premier League | Everton vs Liverpool | 33% / 26% / 41% | 27% / 26% / 46% | 81% / 59% / 36% | 57% | 15% / 22% | — |
 | Sun 29 Nov 07:00 | La Liga | Valencia vs Osasuna | 46% / 29% / 25% | 44% / 29% / 28% | 74% / 48% / 26% | 54% | 17% / 13% | — |
 | Sun 29 Nov 08:00 | Ligue 1 | Auxerre vs Marseille | 27% / 27% / 47% | 24% / 24% / 52% | 73% / 48% / 26% | 52% | 13% / 19% | — |
 | Sun 29 Nov 08:00 | Serie A | Sassuolo vs Napoli | 22% / 25% / 53% | 21% / 22% / 56% | 77% / 54% / 30% | 57% | 11% / 23% | — |
-| Sun 29 Nov 08:05 | Premier League | Sunderland vs Tottenham | 40% / 29% / 31% | 29% / 29% / 42% | 71% / 46% / 24% | 49% | 17% / 15% | — |
 | Sun 29 Nov 08:05 | Premier League | Fulham vs Bournemouth | 35% / 26% / 39% | 37% / 26% / 37% | 81% / 59% / 36% | 57% | 24% / 14% | — |
-| Sun 29 Nov 08:05 | Premier League | Crystal Palace vs Hull | 44% / 28% / 28% | 52% / 24% / 22% | 73% / 47% / 25% | 48% | 28% / 8% | — |
 | Sun 29 Nov 08:05 | Premier League | Brighton vs Newcastle | 60% / 23% / 17% | 62% / 22% / 18% | 79% / 54% / 32% | 51% | 38% / 6% | — |
+| Sun 29 Nov 08:05 | Premier League | Sunderland vs Tottenham | 40% / 29% / 31% | 29% / 29% / 42% | 71% / 46% / 24% | 49% | 17% / 15% | — |
+| Sun 29 Nov 08:05 | Premier League | Crystal Palace vs Hull | 44% / 28% / 28% | 52% / 24% / 22% | 73% / 47% / 25% | 48% | 28% / 8% | — |
 | Sun 29 Nov 08:30 | Bundesliga | Freiburg vs RB Leipzig | 41% / 27% / 32% | 38% / 24% / 39% | 83% / 61% / 39% | 60% | 29% / 12% | — |
 | Sun 29 Nov 09:15 | La Liga | La Coruna vs Barcelona | 11% / 19% / 71% | 10% / 16% / 74% | 79% / 58% / 34% | 53% | 4% / 40% | — |
 | Sun 29 Nov 10:15 | Ligue 1 | Toulouse vs Rennes | 38% / 27% / 35% | 46% / 46% / 46% | 80% / 59% / 36% | 58% | 21% / 15% | — |
-| Sun 29 Nov 10:30 | Bundesliga | Hoffenheim vs Augsburg | 57% / 22% / 21% | 58% / 20% / 20% | 86% / 66% / 46% | 60% | 43% / 6% | — |
 | Sun 29 Nov 10:30 | Premier League | Arsenal vs Man City | 53% / 26% / 21% | 46% / 26% / 26% | 77% / 52% / 30% | 52% | 28% / 10% | — |
+| Sun 29 Nov 10:30 | Bundesliga | Hoffenheim vs Augsburg | 57% / 22% / 21% | 58% / 20% / 20% | 86% / 66% / 46% | 60% | 43% / 6% | — |
 | Sun 29 Nov 11:00 | Serie A | Roma vs Monza | 88% / 9% / 4% | 79% / 14% / 8% | 85% / 65% / 42% | 47% | 65% / 1% | — |
 | Sun 29 Nov 11:30 | La Liga | Celta vs Villarreal | 38% / 29% / 33% | 36% / 28% / 37% | 76% / 51% / 28% | 56% | 16% / 15% | — |
 | Sun 29 Nov 12:30 | Bundesliga | Dortmund vs Leverkusen | 56% / 24% / 20% | 44% / 24% / 31% | 85% / 64% / 42% | 61% | 35% / 9% | — |
@@ -183,14 +182,14 @@
 | Mon 30 Nov 14:00 | La Liga | Espanol vs Getafe | 39% / 33% / 28% | 44% / 32% / 26% | 64% / 39% / 18% | 45% | 16% / 8% | — |
 | Tue 01 Dec 14:00 | Premier League | Coventry vs Ipswich | 51% / 25% / 24% | — / — / — | 83% / 62% / 39% | 58% | 24% / 14% | — |
 | Wed 02 Dec 12:00 | La Liga | Sociedad vs Real Madrid | 21% / 25% / 54% | 49% / 49% / 52% | 77% / 55% / 31% | 56% | 9% / 25% | — |
-| Wed 02 Dec 13:30 | Premier League | Man City vs Leeds | 67% / 20% / 14% | 48% / 50% / 49% | 81% / 57% / 35% | 51% | 44% / 4% | — |
-| Wed 02 Dec 13:30 | Premier League | Hull vs Nott'm Forest | 37% / 26% / 36% | 49% / 50% / 48% | 81% / 60% / 38% | 58% | 16% / 22% | — |
 | Wed 02 Dec 13:30 | Premier League | Liverpool vs Sunderland | 61% / 23% / 15% | 50% / 50% / 49% | 78% / 54% / 32% | 53% | 32% / 8% | — |
+| Wed 02 Dec 13:30 | Premier League | Hull vs Nott'm Forest | 37% / 26% / 36% | 49% / 50% / 48% | 81% / 60% / 38% | 58% | 16% / 22% | — |
 | Wed 02 Dec 13:30 | Premier League | Chelsea vs Crystal Palace | 57% / 24% / 19% | 49% / 50% / 49% | 80% / 57% / 35% | 55% | 32% / 9% | — |
-| Wed 02 Dec 14:15 | Premier League | Aston Villa vs Everton | 46% / 28% / 26% | 49% / 50% / 48% | 74% / 49% / 27% | 52% | 20% / 14% | — |
-| Wed 02 Dec 14:15 | Premier League | Brentford vs Arsenal | 22% / 25% / 53% | 48% / 50% / 49% | 75% / 50% / 28% | 53% | 16% / 18% | — |
-| Wed 02 Dec 14:15 | Premier League | Newcastle vs Man United | 37% / 26% / 37% | — / — / — | 81% / 59% / 36% | 57% | 16% / 21% | — |
+| Wed 02 Dec 13:30 | Premier League | Man City vs Leeds | 67% / 20% / 14% | 48% / 50% / 49% | 81% / 57% / 35% | 51% | 44% / 4% | — |
 | Wed 02 Dec 14:15 | Premier League | Bournemouth vs Brighton | 39% / 27% / 33% | 49% / 50% / 48% | 76% / 52% / 29% | 54% | 19% / 16% | — |
+| Wed 02 Dec 14:15 | Premier League | Brentford vs Arsenal | 22% / 25% / 53% | 48% / 50% / 49% | 75% / 50% / 28% | 53% | 16% / 18% | — |
+| Wed 02 Dec 14:15 | Premier League | Aston Villa vs Everton | 46% / 28% / 26% | 49% / 50% / 48% | 74% / 49% / 27% | 52% | 20% / 14% | — |
+| Wed 02 Dec 14:15 | Premier League | Newcastle vs Man United | 37% / 26% / 37% | — / — / — | 81% / 59% / 36% | 57% | 16% / 21% | — |
 | Wed 02 Dec 14:30 | La Liga | Barcelona vs Ath Madrid | 68% / 19% / 12% | 52% / 48% / 52% | 81% / 58% / 35% | 52% | 45% / 3% | — |
 | Thu 03 Dec 14:00 | Premier League | Tottenham vs Fulham | 38% / 28% / 35% | 7% / 51% / 6% | 74% / 49% / 27% | 52% | 16% / 18% | — |
 | Fri 04 Dec 13:30 | Bundesliga | Bayern Munich vs Paderborn | 86% / 10% / 4% | 49% / 50% / 49% | 88% / 70% / 50% | 54% | 63% / 2% | — |
@@ -271,46 +270,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ganador | Red Star FC 93 | 45% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Doble oportunidad | Red Star FC 93 o Pau (no empate) | 73% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Red Star FC 93 vs Pau | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ganador | AS Nancy Lorraine | 55% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Doble oportunidad | AS Nancy Lorraine o empate | 78% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | AS Nancy Lorraine vs Dijon FCO | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ganador | Metz | 41% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Doble oportunidad | Metz o Boulogne (no empate) | 72% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Metz vs Boulogne | Ambos anotan | Sí | 50% | Baja | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Ganador | Guingamp | 46% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Doble oportunidad | Guingamp o Rodez Aveyron (no empate) | 75% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Guingamp vs Rodez Aveyron | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ganador | Annecy | 43% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Doble oportunidad | Annecy o Clermont Foot (no empate) | 72% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Fri 20 Nov 13:00 | Ligue 2 | Annecy vs Clermont Foot | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Ganador | Bayern Munich | 91% | Alta | Kalshi + modelo | 90¢ |
-| Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Doble oportunidad | Bayern Munich o empate | 97% | Alta | Kalshi + modelo | — |
-| Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Goles | Más de 2.5 | 79% | Alta | modelo | — |
-| Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Goles (línea segura) | Más de 1.5 | 92% | Alta | modelo | — |
-| Fri 20 Nov 13:30 | Bundesliga | Bayern Munich vs FC Koln | Ambos anotan | Sí | 55% | Baja | modelo | — |
-| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Ganador | Hellas Verona | 61% | Media | casas + modelo | — |
-| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Doble oportunidad | Hellas Verona o empate | 84% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Fri 20 Nov 13:30 | Serie B | Hellas Verona vs Cesena | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Fri 20 Nov 13:30 | LaLiga 2 | FC Andorra vs Leganés | Ganador | FC Andorra | 52% | Baja | casas + modelo | — |
-| Fri 20 Nov 13:30 | LaLiga 2 | FC Andorra vs Leganés | Doble oportunidad | FC Andorra o empate | 77% | Alta | casas + modelo | — |
-| Fri 20 Nov 13:30 | LaLiga 2 | FC Andorra vs Leganés | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Fri 20 Nov 13:30 | LaLiga 2 | FC Andorra vs Leganés | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Fri 20 Nov 13:30 | LaLiga 2 | FC Andorra vs Leganés | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Fri 20 Nov 13:45 | Ligue 1 | Troyes vs Le Havre | Ganador | Troyes | 48% | Baja | Kalshi + modelo | 46¢ |
 | Fri 20 Nov 13:45 | Ligue 1 | Troyes vs Le Havre | Doble oportunidad | Troyes o empate | 74% | Alta | Kalshi + modelo | — |
 | Fri 20 Nov 13:45 | Ligue 1 | Troyes vs Le Havre | Goles | Menos de 2.5 | 53% | Baja | modelo | — |
