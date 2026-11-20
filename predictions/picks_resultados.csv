@@ -407,3 +407,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-18,nba,401910018,Hándicap,Phoenix Suns gana por más de 7.5,0.5,casas,1
 2026-11-18,nba,401910018,Total de puntos,Menos de 227.5,0.5223,casas,0
 2026-11-18,nba,401910018,Puntos (línea segura),Más de 213.5,0.7662,casas,1
+2026-11-19,liga,401841308,Ganador,Vasco da Gama,0.6435,casas + modelo,1
+2026-11-19,liga,401841308,Doble oportunidad,Vasco da Gama o empate,0.848,casas + modelo,1
+2026-11-19,liga,401841308,Goles,Más de 2.5,0.5589,casas + modelo,1
+2026-11-19,liga,401841308,Goles (línea segura),Más de 1.5,0.763,modelo,1
+2026-11-19,liga,401841308,Ambos anotan,Sí,0.5349,modelo,1
+2026-11-19,liga,401841317,Ganador,Red Bull Bragantino,0.377,casas + modelo,0
+2026-11-19,liga,401841317,Doble oportunidad,Vitória o Red Bull Bragantino (no empate),0.7203,casas + modelo,1
+2026-11-19,liga,401841317,Goles,Más de 2.5,0.5141,casas + modelo,1
+2026-11-19,liga,401841317,Goles (línea segura),Más de 1.5,0.7361,modelo,1
+2026-11-19,liga,401841317,Ambos anotan,Sí,0.5317,modelo,1
