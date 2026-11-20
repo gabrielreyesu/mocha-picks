@@ -445,3 +445,10 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-19,nba,401910020,Hándicap seguro,Portland Trail Blazers gana por más de 1.5,0.7491,casas,1
 2026-11-19,nba,401910020,Total de puntos,Menos de 229.5,0.5223,casas,0
 2026-11-19,nba,401910020,Puntos (línea segura),Más de 215.5,0.7662,casas,1
+2026-11-19,nfl,401873066,Ganador,Houston Texans,0.8261,Kalshi + casas + modelo,1
+2026-11-19,nfl,401873066,Hándicap,Indianapolis Colts +13.5 (gana o pierde por menos de 13.5),0.5314,casas,0
+2026-11-19,nfl,401873066,Hándicap seguro,Houston Texans gana por más de 5.5,0.7092,casas,1
+2026-11-19,nfl,401873066,Total de puntos,Más de 44.5,0.5,casas,0
+2026-11-19,nfl,401873066,Puntos (línea segura),Más de 35.5,0.7556,casas,0
+2026-11-19,liga,401933555,Ganador,Seattle Sounders FC,0.4848,casas + modelo,0
+2026-11-19,liga,401933555,Doble oportunidad,Seattle Sounders FC o Real Salt Lake (no empate),0.7549,casas + modelo,0
