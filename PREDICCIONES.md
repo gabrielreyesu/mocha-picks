@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 20 Nov 2026 15:52 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 20 Nov 2026 16:52 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -17,13 +17,13 @@
 ## NBA
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Fri 20 Nov 18:00 | Charlotte Hornets en Atlanta Hawks | Atlanta Hawks | 66% | 70% | 70% | 69% | 5.1 pts | 223 pts | 5 / 4 |
+| Fri 20 Nov 18:00 | Charlotte Hornets en Atlanta Hawks | Atlanta Hawks | 66% | 70% | 70% | 70% | 5.1 pts | 223 pts | 5 / 4 |
 | Fri 20 Nov 18:30 | Orlando Magic en Brooklyn Nets | Orlando Magic | 62% | 70% | 70% | 70% | 3.3 pts | 221 pts | 1 / 4 |
 | Fri 20 Nov 18:30 | Indiana Pacers en Cleveland Cavaliers | Cleveland Cavaliers | 79% | 68% | 68% | 67% | 9.4 pts | 230 pts | 3 / 3 |
 | Fri 20 Nov 18:30 | Toronto Raptors en Detroit Pistons | Detroit Pistons | 74% | 72% | 72% | 70% | 7.7 pts | 227 pts | 5 / 4 |
-| Fri 20 Nov 19:00 | Washington Wizards en Chicago Bulls | Chicago Bulls | 58% | 56% | 56% | 55% | 2.1 pts | 239 pts | 2 / 4 |
-| Fri 20 Nov 19:00 | New Orleans Pelicans en Oklahoma City Thunder | Oklahoma City Thunder | 86% | 84% | 84% | 82% | 13.0 pts | 236 pts | 4 / 5 |
-| Fri 20 Nov 20:30 | Phoenix Suns en Utah Jazz | Phoenix Suns | 71% | 64% | 62% | 62% | 6.4 pts | 233 pts | 3 / 1 |
+| Fri 20 Nov 19:00 | Washington Wizards en Chicago Bulls | Chicago Bulls | 58% | 55% | 56% | 54% | 2.1 pts | 239 pts | 2 / 4 |
+| Fri 20 Nov 19:00 | New Orleans Pelicans en Oklahoma City Thunder | Oklahoma City Thunder | 86% | 84% | 82% | 82% | 13.0 pts | 236 pts | 4 / 5 |
+| Fri 20 Nov 20:30 | Phoenix Suns en Utah Jazz | Phoenix Suns | 71% | 63% | 62% | 62% | 6.4 pts | 233 pts | 3 / 1 |
 | Fri 20 Nov 21:00 | Houston Rockets en Denver Nuggets | Houston Rockets | 51% | 46% | 46% | 47% | 0.6 pts | 223 pts | 1 / 1 |
 | Fri 20 Nov 21:00 | Sacramento Kings en Los Angeles Lakers | Los Angeles Lakers | 87% | 88% | 88% | 86% | 14.2 pts | 237 pts | 1 / 2 |
 | Sat 21 Nov 12:00 | Milwaukee Bucks en Philadelphia 76ers | Philadelphia 76ers | 84% | 86% | 86% | — | 12.1 pts | 226 pts | 4 / 3 |
@@ -271,17 +271,17 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 |---|---|---|---|---|---|---|---|---|
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Ganador | Vélez Sarsfield | 41% | Baja | casas + modelo | — |
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Doble oportunidad | Vélez Sarsfield o empate | 71% | Alta | casas + modelo | — |
-| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles | Menos de 2.5 | 56% | Media | casas + modelo | — |
+| Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 20 Nov 17:00 | Liga Profesional Argentina | Vélez Sarsfield vs Belgrano (Córdoba) | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Ganador | Atlanta Hawks | 69% | Media | Kalshi + casas + modelo | 70¢ |
+| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Ganador | Atlanta Hawks | 71% | Alta | Kalshi + casas + modelo | 70¢ |
 | Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Hándicap | Atlanta Hawks gana por más de 7.5 | 50% | Baja | casas | 50¢ |
-| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Total de puntos | Menos de 219.5 | 52% | Baja | casas | 52¢ |
-| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Puntos (línea segura) | Más de 205.5 | 77% | Alta | casas | 79¢ |
+| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Total de puntos | Más de 219.5 | 50% | Baja | casas | 48¢ |
+| Fri 20 Nov 18:00 | NBA | Charlotte Hornets en Atlanta Hawks | Puntos (línea segura) | Más de 205.5 | 78% | Alta | casas | 80¢ |
 | Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Ganador | Orlando Magic | 71% | Alta | Kalshi + casas + modelo | 70¢ |
 | Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Hándicap | Orlando Magic gana por más de 6.5 | 50% | Baja | casas | 50¢ |
-| Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Total de puntos | Más de 223.5 | 50% | Baja | casas | 48¢ |
-| Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Puntos (línea segura) | Más de 209.5 | 78% | Alta | casas | 78¢ |
+| Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 57¢ |
+| Fri 20 Nov 18:30 | NBA | Orlando Magic en Brooklyn Nets | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 75¢ |
 | Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Ganador | Cleveland Cavaliers | 67% | Media | Kalshi + casas + modelo | 68¢ |
 | Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Hándicap | Cleveland Cavaliers gana por más de 5.5 | 50% | Baja | casas | 52¢ |
 | Fri 20 Nov 18:30 | NBA | Indiana Pacers en Cleveland Cavaliers | Total de puntos | Más de 234.5 | 50% | Baja | casas | 50¢ |
@@ -289,33 +289,33 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Ganador | Detroit Pistons | 71% | Alta | Kalshi + casas + modelo | 72¢ |
 | Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Hándicap | Detroit Pistons gana por más de 6.5 | 50% | Baja | casas | 52¢ |
 | Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Total de puntos | Menos de 217.5 | 52% | Baja | casas | 52¢ |
-| Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Puntos (línea segura) | Más de 203.5 | 77% | Alta | casas | 77¢ |
-| Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Ganador | Chicago Bulls | 54% | Baja | Kalshi + casas + modelo | 56¢ |
+| Fri 20 Nov 18:30 | NBA | Toronto Raptors en Detroit Pistons | Puntos (línea segura) | Más de 203.5 | 77% | Alta | casas | 78¢ |
+| Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Ganador | Chicago Bulls | 53% | Baja | Kalshi + casas + modelo | 55¢ |
 | Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Hándicap | Chicago Bulls gana por más de 2.5 | 50% | Baja | casas | 48¢ |
 | Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Total de puntos | Más de 238.5 | 50% | Baja | casas | 48¢ |
 | Fri 20 Nov 19:00 | NBA | Washington Wizards en Chicago Bulls | Puntos (línea segura) | Más de 224.5 | 78% | Alta | casas | 78¢ |
 | Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 84% | Alta | Kalshi + casas + modelo | 84¢ |
-| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Hándicap | Oklahoma City Thunder gana por más de 11.5 | 50% | Baja | casas | 51¢ |
+| Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Hándicap | Oklahoma City Thunder gana por más de 11.5 | 50% | Baja | casas | 52¢ |
 | Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Hándicap seguro | Oklahoma City Thunder gana por más de 2.5 | 75% | Alta | casas | 79¢ |
 | Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Total de puntos | Más de 227.5 | 50% | Baja | casas | 51¢ |
 | Fri 20 Nov 19:00 | NBA | New Orleans Pelicans en Oklahoma City Thunder | Puntos (línea segura) | Más de 213.5 | 78% | Alta | casas | 80¢ |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Ganador | Atlético de San Luis | 38% | Baja | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Doble oportunidad | Puebla o Atlético de San Luis (no empate) | 74% | Alta | casas + modelo | — |
-| Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 20 Nov 19:00 | Liga MX | Puebla vs Atlético de San Luis | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Ganador | Phoenix Suns | 64% | Media | Kalshi + casas + modelo | 63¢ |
+| Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Ganador | Phoenix Suns | 64% | Media | Kalshi + casas + modelo | 62¢ |
 | Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Hándicap | Phoenix Suns gana por más de 4.5 | 50% | Baja | casas | 50¢ |
 | Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 54¢ |
-| Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 78¢ |
+| Fri 20 Nov 20:30 | NBA | Phoenix Suns en Utah Jazz | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 79¢ |
 | Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Ganador | Los Angeles Lakers | 88% | Alta | Kalshi + casas + modelo | 88¢ |
 | Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 14.5 | 50% | Baja | casas | 48¢ |
 | Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Hándicap seguro | Los Angeles Lakers gana por más de 6.5 | 72% | Alta | casas | 74¢ |
-| Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Total de puntos | Menos de 230.5 | 52% | Baja | casas | 55¢ |
+| Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Total de puntos | Menos de 230.5 | 52% | Baja | casas | 54¢ |
 | Fri 20 Nov 21:00 | NBA | Sacramento Kings en Los Angeles Lakers | Puntos (línea segura) | Más de 216.5 | 77% | Alta | casas | 78¢ |
 | Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Ganador | Denver Nuggets | 53% | Baja | Kalshi + casas + modelo | 54¢ |
-| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Hándicap | Denver Nuggets gana por más de 1.5 | 50% | Baja | casas | 50¢ |
-| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Total de puntos | Menos de 227.5 | 52% | Baja | casas | 51¢ |
+| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Hándicap | Denver Nuggets gana por más de 1.5 | 50% | Baja | casas | 51¢ |
+| Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Total de puntos | Menos de 227.5 | 52% | Baja | casas | 52¢ |
 | Fri 20 Nov 21:00 | NBA | Houston Rockets en Denver Nuggets | Puntos (línea segura) | Más de 213.5 | 77% | Alta | casas | 78¢ |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Ganador | Atlas | 52% | Baja | casas + modelo | — |
 | Fri 20 Nov 21:00 | Liga MX | FC Juárez vs Atlas | Doble oportunidad | Atlas o empate | 77% | Alta | casas + modelo | — |
@@ -408,8 +408,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sat 21 Nov 08:00 | Serie A | Como vs Cagliari | Ambos anotan | Sí | 50% | Baja | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Ganador | Carrarese | 40% | Baja | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Doble oportunidad | Carrarese o empate | 70% | Alta | casas + modelo | — |
-| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Doble oportunidad | Carrarese o empate | 72% | Alta | casas + modelo | — |
+| Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles | Menos de 2.5 | 55% | Baja | casas + modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Goles (línea segura) | Más de 1.5 | 69% | Media | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Carrarese vs Virtus Entella | Ambos anotan | No | 52% | Baja | modelo | — |
 | Sat 21 Nov 08:00 | Serie B | Ascoli vs Vicenza | Ganador | Ascoli | 58% | Media | casas + modelo | — |
@@ -633,7 +633,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 12:30 | Serie B | Empoli vs Pisa | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Sat 21 Nov 12:30 | Serie B | Empoli vs Pisa | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sat 21 Nov 12:30 | Serie B | Empoli vs Pisa | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ganador | Philadelphia Union | 47% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ganador | Philadelphia Union | 46% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Doble oportunidad | New England Revolution o Philadelphia Union (no empate) | 75% | Alta | casas + modelo | — |
 | Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
@@ -768,4 +768,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 21:00 | Liga MX | Tigres UANL vs América | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sat 21 Nov 21:00 | Liga MX | Tigres UANL vs América | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 21:00 | Liga MX | Tigres UANL vs América | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Ganador | Goztepe | 42% | Baja | casas + modelo | — |
+| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Doble oportunidad | Erzurum BB o Goztepe (no empate) | 72% | Alta | casas + modelo | — |
+| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
+| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Ambos anotan | Sí | 57% | Media | modelo | — |
 
