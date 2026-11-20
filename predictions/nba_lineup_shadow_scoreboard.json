@@ -1,8 +1,8 @@
 {
   "status": "SHADOW_ONLY_PRODUCTION_UNCHANGED",
-  "updated_utc": "2026-11-20T03:36:40.148758+00:00",
+  "updated_utc": "2026-11-20T16:41:47.064364+00:00",
   "regla": "Activar solo con n >= 200, IC95% de mejora_logloss > 0 y autorización explícita.",
-  "nuevas_filas": 9,
+  "nuevas_filas": 15,
   "resultado": {
     "n": 52,
     "acierto_base": 0.6538,
