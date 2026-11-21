@@ -787,3 +787,14 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-20T23:29:15.088744+00:00,401910026,2026-11-22T01:00Z,Minnesota Timberwolves,Memphis Grizzlies,0.68401,0.68949,4.106,0.235,Jaylen Clark,Javon Small; Ty Jerome; GG Jackson; Cameron Boozer,4,1531.0
 2026-11-20T23:29:15.088744+00:00,401910027,2026-11-22T01:00Z,San Antonio Spurs,New Orleans Pelicans,0.91308,0.89865,-1.455,8.349,Dylan Harper,Dejounte Murray; Trendon Watford; Bennedict Mathurin; Trey Murphy III; Bryce McGowens,2,1531.0
 2026-11-20T23:29:15.088744+00:00,401910028,2026-11-22T03:00Z,Sacramento Kings,Boston Celtics,0.16101,0.18409,0.228,-7.083,Precious Achiuwa,,2,1651.0
+2026-11-21T00:32:32.148621+00:00,401909309,2026-11-21T01:00Z,Chicago Bulls,Washington Wizards,0.68407,0.63959,-1.741,-1.58,Caleb Wilson; Jalen Smith; Tobe Awaka,,4,27.0
+2026-11-21T00:32:32.148621+00:00,401909310,2026-11-21T01:00Z,Oklahoma City Thunder,New Orleans Pelicans,0.87557,0.82369,-3.799,-0.022,Nikola Topic; Alex Caruso,Bennedict Mathurin; Bryce McGowens; Trendon Watford; Dejounte Murray,4,27.0
+2026-11-21T00:32:32.148621+00:00,401909311,2026-11-21T02:30Z,Utah Jazz,Phoenix Suns,0.3272,0.34256,0.403,-3.66,Lauri Markkanen,,3,117.0
+2026-11-21T00:32:32.148621+00:00,401909312,2026-11-21T03:00Z,Denver Nuggets,Houston Rockets,0.50555,0.52515,-1.312,1.576,,Clint Capela,1,147.0
+2026-11-21T00:32:32.148621+00:00,401909313,2026-11-21T03:00Z,Los Angeles Lakers,Sacramento Kings,0.87566,0.87337,-1.302,10.452,Austin Reaves,Precious Achiuwa,2,147.0
+2026-11-21T00:32:32.148621+00:00,401910023,2026-11-21T18:00Z,Philadelphia 76ers,Milwaukee Bucks,0.85532,0.8647,1.41,10.293,Dean Wade; Adem Bona; Jaylen Brown,Ousmane Dieng,2,1047.0
+2026-11-21T00:32:32.148621+00:00,401910024,2026-11-22T00:30Z,New York Knicks,Portland Trail Blazers,0.7078,0.6908,-0.937,1.695,Jordan Clarkson,Vit Krejci; Chris Youngblood,2,1437.0
+2026-11-21T00:32:32.148621+00:00,401910025,2026-11-22T01:00Z,Dallas Mavericks,LA Clippers,0.59168,0.63582,0.828,5.995,,,6,1467.0
+2026-11-21T00:32:32.148621+00:00,401910026,2026-11-22T01:00Z,Minnesota Timberwolves,Memphis Grizzlies,0.68401,0.68947,4.094,0.24,Jaylen Clark,Cameron Boozer; Javon Small; GG Jackson; Ty Jerome,4,1467.0
+2026-11-21T00:32:32.148621+00:00,401910027,2026-11-22T01:00Z,San Antonio Spurs,New Orleans Pelicans,0.91308,0.89221,-2.643,7.155,Dylan Harper,Bennedict Mathurin; Bryce McGowens; Trendon Watford; Dejounte Murray,2,1467.0
+2026-11-21T00:32:32.148621+00:00,401910028,2026-11-22T03:00Z,Sacramento Kings,Boston Celtics,0.16101,0.18415,0.228,-7.072,Precious Achiuwa,,2,1587.0
