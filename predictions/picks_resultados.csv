@@ -824,3 +824,21 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401878337,Goles,Más de 2.5,0.5657,casas + modelo,1
 2026-11-21,liga,401878337,Goles (línea segura),Más de 1.5,0.7924,modelo,1
 2026-11-21,liga,401878337,Ambos anotan,Sí,0.5917,modelo,0
+2026-11-21,liga,401875544,Goles,Más de 2.5,0.6927,modelo,1
+2026-11-21,liga,401875544,Goles (línea segura),Más de 1.5,0.8789,modelo,1
+2026-11-21,liga,401875544,Ambos anotan,Sí,0.6972,modelo,1
+2026-11-21,nba,401910023,Ganador,Philadelphia 76ers,0.8387,Kalshi + casas + modelo,1
+2026-11-21,nba,401910023,Hándicap,Philadelphia 76ers gana por más de 11.5,0.5,casas,0
+2026-11-21,nba,401910023,Hándicap seguro,Philadelphia 76ers gana por más de 2.5,0.7491,casas,1
+2026-11-21,nba,401910023,Total de puntos,Más de 231.5,0.5,casas,1
+2026-11-21,nba,401910023,Puntos (línea segura),Más de 217.5,0.7829,casas,1
+2026-11-21,liga,401933758,Ganador,Defensa y Justicia,0.5131,casas + modelo,0
+2026-11-21,liga,401933758,Doble oportunidad,Defensa y Justicia o empate,0.7856,casas + modelo,0
+2026-11-21,liga,401933758,Goles,Menos de 2.5,0.528,casas + modelo,1
+2026-11-21,liga,401933758,Goles (línea segura),Más de 1.5,0.6954,modelo,0
+2026-11-21,liga,401933758,Ambos anotan,No,0.518,modelo,1
+2026-11-21,liga,401899544,Ganador,Pisa,0.5357,casas + modelo,1
+2026-11-21,liga,401899544,Doble oportunidad,Pisa o empate,0.7793,casas + modelo,1
+2026-11-21,liga,401899544,Goles,Más de 2.5,0.5687,casas + modelo,0
+2026-11-21,liga,401899544,Goles (línea segura),Más de 1.5,0.7684,modelo,0
+2026-11-21,liga,401899544,Ambos anotan,Sí,0.566,modelo,0
