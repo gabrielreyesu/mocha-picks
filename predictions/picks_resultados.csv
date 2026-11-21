@@ -587,3 +587,33 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401885056,Goles,Más de 2.5,0.587,modelo,1
 2026-11-21,liga,401885056,Goles (línea segura),Más de 1.5,0.816,modelo,1
 2026-11-21,liga,401885056,Ambos anotan,Sí,0.5863,modelo,0
+2026-11-21,liga,401880153,Ganador,Southampton,0.7095,casas + modelo,1
+2026-11-21,liga,401880153,Doble oportunidad,Southampton o empate,0.8872,casas + modelo,1
+2026-11-21,liga,401880153,Goles,Más de 2.5,0.6003,casas + modelo,0
+2026-11-21,liga,401880153,Goles (línea segura),Más de 1.5,0.7969,modelo,1
+2026-11-21,liga,401880153,Ambos anotan,No,0.5099,modelo,1
+2026-11-21,liga,401880155,Ganador,Norwich City,0.6031,casas + modelo,1
+2026-11-21,liga,401880155,Doble oportunidad,Norwich City o Cardiff City (no empate),0.8063,casas + modelo,1
+2026-11-21,liga,401880155,Goles,Más de 2.5,0.6422,modelo,1
+2026-11-21,liga,401880155,Goles (línea segura),Más de 1.5,0.8503,modelo,1
+2026-11-21,liga,401880155,Ambos anotan,Sí,0.6506,modelo,1
+2026-11-21,liga,401880156,Ganador,Millwall,0.3727,casas + modelo,0
+2026-11-21,liga,401880156,Doble oportunidad,Millwall o Queens Park Rangers (no empate),0.7339,casas + modelo,1
+2026-11-21,liga,401880156,Goles,Más de 2.5,0.5468,casas + modelo,0
+2026-11-21,liga,401880156,Goles (línea segura),Más de 1.5,0.774,modelo,0
+2026-11-21,liga,401880156,Ambos anotan,Sí,0.5653,modelo,0
+2026-11-21,liga,401888369,Ganador,Amed SFK,0.5406,casas + modelo,0
+2026-11-21,liga,401888369,Doble oportunidad,Amed SFK o Caykur Rizespor (no empate),0.7745,casas + modelo,1
+2026-11-21,liga,401888369,Goles,Más de 2.5,0.5902,casas + modelo,0
+2026-11-21,liga,401888369,Goles (línea segura),Más de 1.5,0.8197,modelo,1
+2026-11-21,liga,401888369,Ambos anotan,Sí,0.5915,modelo,0
+2026-11-21,liga,401888245,Ganador,Galatasaray,0.7763,modelo,1
+2026-11-21,liga,401888245,Doble oportunidad,Galatasaray o empate,0.9175,modelo,1
+2026-11-21,liga,401888245,Goles,Más de 2.5,0.7017,modelo,1
+2026-11-21,liga,401888245,Goles (línea segura),Más de 1.5,0.8818,modelo,1
+2026-11-21,liga,401888245,Ambos anotan,Sí,0.5425,modelo,1
+2026-11-21,liga,401876689,Ganador,Montpellier,0.4948,casas + modelo,0
+2026-11-21,liga,401876689,Doble oportunidad,Montpellier o empate,0.7534,casas + modelo,0
+2026-11-21,liga,401876689,Goles,Más de 2.5,0.5433,casas + modelo,0
+2026-11-21,liga,401876689,Goles (línea segura),Más de 1.5,0.7605,modelo,0
+2026-11-21,liga,401876689,Ambos anotan,Sí,0.5397,modelo,0
