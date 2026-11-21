@@ -922,3 +922,186 @@ fecha,sport,gid,player,stat,line,p,p_modelo,valor,acierto
 2026-11-20,nba,401909305,Ryan Kalkbrenner,Rebotes,4,0.635,0.674,6.0,1
 2026-11-20,nba,401909305,Sion James,Rebotes,4,0.605,0.651,1.0,0
 2026-11-20,nba,401909305,Ryan Kalkbrenner,Puntos,5,0.555,0.482,6.0,1
+2026-11-20,nba,401909309,AJ Dybantsa,Puntos,15,0.915,0.5905,20.0,1
+2026-11-20,nba,401909309,Anthony Davis,Puntos,30,0.885,0.3005,36.0,1
+2026-11-20,nba,401909306,Franz Wagner,Puntos,35,0.875,0.1545,35.0,1
+2026-11-20,nba,401909309,Kyshawn George,Rebotes,6,0.865,0.3008,7.0,1
+2026-11-20,nba,401909309,Anthony Davis,Rebotes,8,0.855,0.7749,11.0,1
+2026-11-20,nba,401909309,AJ Dybantsa,Rebotes,10,0.84,0.1447,10.0,1
+2026-11-20,nba,401909306,Wendell Carter Jr.,Rebotes,6,0.83,0.8743,8.0,1
+2026-11-20,nba,401909306,Julius Randle,Rebotes,8,0.83,0.2087,9.0,1
+2026-11-20,nba,401909306,Franz Wagner,Asistencias,6,0.825,0.8444,7.0,1
+2026-11-20,nba,401909310,Derik Queen,Puntos,5,0.82,0.9377,11.0,1
+2026-11-20,nba,401909306,Anthony Black,Puntos,15,0.805,0.6088,13.0,0
+2026-11-20,nba,401909309,Tre Jones,Asistencias,6,0.8,0.1151,7.0,1
+2026-11-20,nba,401909310,Shai Gilgeous-Alexander,Asistencias,4,0.795,0.6734,8.0,1
+2026-11-20,nba,401909309,Matas Buzelis,Rebotes,4,0.78,0.7829,5.0,1
+2026-11-20,nba,401909309,Trae Young,Puntos,15,0.765,0.5428,16.0,1
+2026-11-20,nba,401909310,Saddiq Bey,Rebotes,4,0.755,0.6819,6.0,1
+2026-11-20,nba,401909306,Michael Porter Jr.,Rebotes,4,0.75,0.9377,4.0,1
+2026-11-20,nba,401909309,Matas Buzelis,Puntos,10,0.745,0.8394,9.0,0
+2026-11-20,nba,401909309,Kyshawn George,Asistencias,6,0.74,0.3225,5.0,0
+2026-11-20,nba,401909308,Cade Cunningham,Puntos,25,0.735,0.5934,23.0,0
+2026-11-20,nba,401909308,Ausar Thompson,Puntos,10,0.715,0.6652,13.0,1
+2026-11-20,nba,401909310,Isaiah Hartenstein,Rebotes,8,0.715,0.8751,8.0,1
+2026-11-20,nba,401909309,Tre Jones,Puntos,10,0.68,0.6441,12.0,1
+2026-11-20,nba,401909308,Ja'Kobe Walter,Puntos,10,0.67,0.6645,8.0,0
+2026-11-20,nba,401909310,Isaiah Hartenstein,Puntos,5,0.67,0.6842,5.0,1
+2026-11-20,nba,401909309,Bilal Coulibaly,Rebotes,2,0.67,0.914,5.0,1
+2026-11-20,nba,401909308,Immanuel Quickley,Asistencias,10,0.67,0.0222,10.0,1
+2026-11-20,nba,401909307,James Harden,Puntos,45,0.665,0.0,51.0,1
+2026-11-20,nba,401909307,Pascal Siakam,Puntos,20,0.66,0.7293,21.0,1
+2026-11-20,nba,401909309,Buddy Hield,Rebotes,2,0.66,0.6796,4.0,1
+2026-11-20,nba,401909306,Michael Porter Jr.,Puntos,20,0.655,0.5463,16.0,0
+2026-11-20,nba,401909309,Norman Powell,Puntos,20,0.655,0.6167,16.0,0
+2026-11-20,nba,401909306,Anthony Black,Rebotes,6,0.655,0.4418,7.0,1
+2026-11-20,nba,401909310,Aday Mara,Puntos,15,0.635,0.1495,22.0,1
+2026-11-20,nba,401909306,Julius Randle,Puntos,25,0.635,0.201,27.0,1
+2026-11-20,nba,401909310,Trey Murphy III,Puntos,10,0.625,0.7996,17.0,1
+2026-11-20,nba,401909310,Shai Gilgeous-Alexander,Puntos,35,0.625,0.4509,40.0,1
+2026-11-20,nba,401909306,Jalen Suggs,Asistencias,2,0.62,0.9836,2.0,1
+2026-11-20,nba,401909309,Josh Giddey,Asistencias,8,0.615,0.6646,7.0,0
+2026-11-20,nba,401909309,Isaac Okoro,Rebotes,6,0.61,0.1099,7.0,1
+2026-11-20,nba,401909306,Jalen Suggs,Rebotes,4,0.59,0.7771,6.0,1
+2026-11-20,nba,401909306,Franz Wagner,Rebotes,6,0.59,0.7637,5.0,0
+2026-11-20,nba,401909309,Trae Young,Asistencias,6,0.59,0.7791,5.0,0
+2026-11-20,nba,401909309,Buddy Hield,Puntos,10,0.585,0.3385,15.0,1
+2026-11-20,nba,401909310,Yves Missi,Rebotes,8,0.585,0.5629,7.0,0
+2026-11-20,nba,401909307,James Harden,Rebotes,6,0.575,0.3752,6.0,1
+2026-11-20,nba,401909308,Ja'Kobe Walter,Rebotes,4,0.575,0.6061,3.0,0
+2026-11-20,nba,401909309,Josh Giddey,Rebotes,8,0.575,0.3717,6.0,0
+2026-11-20,nba,401909310,Zion Williamson,Asistencias,4,0.575,0.2969,7.0,1
+2026-11-20,nba,401909309,Norman Powell,Asistencias,2,0.57,0.7511,2.0,1
+2026-11-20,nba,401909306,Desmond Bane,Puntos,20,0.565,0.5,21.0,1
+2026-11-20,nba,401909306,Day'Ron Sharpe,Rebotes,10,0.56,0.2538,11.0,1
+2026-11-20,nba,401909310,Saddiq Bey,Puntos,20,0.555,0.3647,21.0,1
+2026-11-20,nba,401909310,Zion Williamson,Puntos,25,0.555,0.2874,22.0,0
+2026-11-20,nba,401909310,Herbert Jones,Puntos,10,0.555,0.192,14.0,1
+2026-11-20,nba,401909309,Nic Claxton,Rebotes,4,0.555,0.705,7.0,1
+2026-11-20,nba,401909306,Moritz Wagner,Rebotes,4,0.55,0.5331,5.0,1
+2026-11-20,nba,401909306,Julius Randle,Rebotes,4,0.91,0.7056,9.0,1
+2026-11-20,nba,401909307,Quenton Jackson,Puntos,5,0.905,0.8727,3.0,0
+2026-11-20,nba,401909306,Nolan Traore,Asistencias,2,0.9,0.8569,2.0,1
+2026-11-20,nba,401909308,John Collins,Rebotes,6,0.875,0.415,6.0,1
+2026-11-20,nba,401909309,Kyshawn George,Asistencias,2,0.875,0.9166,5.0,1
+2026-11-20,nba,401909306,Desmond Bane,Asistencias,2,0.875,0.8143,3.0,1
+2026-11-20,nba,401909308,Scottie Barnes,Asistencias,4,0.865,0.7678,5.0,1
+2026-11-20,nba,401909306,Anthony Black,Asistencias,6,0.865,0.5319,6.0,1
+2026-11-20,nba,401909308,Daniss Jenkins,Rebotes,2,0.86,0.8207,4.0,1
+2026-11-20,nba,401909308,Kevin Huerter,Puntos,10,0.845,0.6279,20.0,1
+2026-11-20,nba,401909309,Kyshawn George,Puntos,10,0.845,0.9214,11.0,1
+2026-11-20,nba,401909306,Anthony Black,Puntos,10,0.845,0.842,13.0,1
+2026-11-20,nba,401909306,Moritz Wagner,Rebotes,2,0.845,0.8193,5.0,1
+2026-11-20,nba,401909306,Mikel Brown Jr.,Asistencias,2,0.845,0.9374,0.0,0
+2026-11-20,nba,401909310,Aday Mara,Puntos,5,0.84,0.9731,22.0,1
+2026-11-20,nba,401909310,Jeremiah Fears,Puntos,10,0.835,0.9426,22.0,1
+2026-11-20,nba,401909307,Andrew Nembhard,Puntos,10,0.825,0.9272,12.0,1
+2026-11-20,nba,401909310,Saddiq Bey,Puntos,10,0.825,0.89,21.0,1
+2026-11-20,nba,401909310,Aday Mara,Rebotes,4,0.825,0.9256,16.0,1
+2026-11-20,nba,401909309,Norman Powell,Rebotes,2,0.825,0.7475,3.0,1
+2026-11-20,nba,401909308,Jamison Battle,Puntos,5,0.82,0.812,10.0,1
+2026-11-20,nba,401909306,Jalen Suggs,Puntos,10,0.82,0.5,8.0,0
+2026-11-20,nba,401909309,AJ Dybantsa,Rebotes,4,0.82,0.931,10.0,1
+2026-11-20,nba,401909310,Jared McCain,Puntos,10,0.815,0.8219,18.0,1
+2026-11-20,nba,401909307,Jarrett Allen,Puntos,10,0.81,0.6748,6.0,0
+2026-11-20,nba,401909308,Jamison Battle,Rebotes,2,0.81,0.6356,5.0,1
+2026-11-20,nba,401909307,Jarrett Allen,Rebotes,8,0.805,0.6472,8.0,1
+2026-11-20,nba,401909307,Andrew Nembhard,Asistencias,4,0.805,0.8589,8.0,1
+2026-11-20,nba,401909310,Trey Murphy III,Rebotes,2,0.8,0.9725,4.0,1
+2026-11-20,nba,401909306,Julius Randle,Asistencias,4,0.8,0.6375,6.0,1
+2026-11-20,nba,401909308,Scottie Barnes,Puntos,25,0.795,0.4739,29.0,1
+2026-11-20,nba,401909310,Jared McCain,Rebotes,2,0.795,0.8627,3.0,1
+2026-11-20,nba,401909309,Alex Sarr,Rebotes,4,0.795,0.9168,3.0,0
+2026-11-20,nba,401909309,Isaac Okoro,Rebotes,2,0.795,0.7227,7.0,1
+2026-11-20,nba,401909307,James Harden,Rebotes,2,0.79,0.9332,6.0,1
+2026-11-20,nba,401909306,Day'Ron Sharpe,Rebotes,6,0.79,0.7255,11.0,1
+2026-11-20,nba,401909306,Michael Porter Jr.,Puntos,15,0.785,0.8004,16.0,1
+2026-11-20,nba,401909308,Immanuel Quickley,Asistencias,4,0.785,0.91,10.0,1
+2026-11-20,nba,401909307,Kelly Oubre Jr.,Rebotes,4,0.775,0.4736,6.0,1
+2026-11-20,nba,401909308,Ja'Kobe Walter,Rebotes,2,0.775,0.8782,3.0,1
+2026-11-20,nba,401909308,Jamal Shead,Asistencias,4,0.775,0.8493,4.0,1
+2026-11-20,nba,401909308,Kevin Huerter,Asistencias,2,0.77,0.7492,3.0,1
+2026-11-20,nba,401909307,Kelly Oubre Jr.,Puntos,10,0.765,0.7381,17.0,1
+2026-11-20,nba,401909309,Josh Giddey,Puntos,10,0.76,0.6979,2.0,0
+2026-11-20,nba,401909307,Ivica Zubac,Puntos,10,0.755,0.5189,21.0,1
+2026-11-20,nba,401909308,Kevin Huerter,Rebotes,4,0.75,0.3225,3.0,0
+2026-11-20,nba,401909310,Jeremiah Fears,Asistencias,4,0.75,0.8657,5.0,1
+2026-11-20,nba,401909307,James Harden,Puntos,25,0.745,0.1047,51.0,1
+2026-11-20,nba,401909306,Julius Randle,Puntos,20,0.745,0.529,27.0,1
+2026-11-20,nba,401909308,Ausar Thompson,Rebotes,6,0.745,0.8566,6.0,1
+2026-11-20,nba,401909308,Ja'Kobe Walter,Asistencias,4,0.74,0.2386,3.0,0
+2026-11-20,nba,401909310,Zion Williamson,Puntos,15,0.735,0.9152,22.0,1
+2026-11-20,nba,401909308,Scottie Barnes,Rebotes,4,0.735,0.8316,5.0,1
+2026-11-20,nba,401909308,Jakob Poeltl,Rebotes,4,0.735,0.8831,9.0,1
+2026-11-20,nba,401909307,Pascal Siakam,Asistencias,4,0.73,0.5829,2.0,0
+2026-11-20,nba,401909308,Daniss Jenkins,Puntos,15,0.725,0.5334,14.0,0
+2026-11-20,nba,401909309,Anthony Davis,Puntos,20,0.725,0.7649,36.0,1
+2026-11-20,nba,401909309,Trae Young,Asistencias,8,0.725,0.5704,5.0,0
+2026-11-20,nba,401909306,Goga Bitadze,Puntos,5,0.715,0.5733,4.0,0
+2026-11-20,nba,401909307,Ivica Zubac,Rebotes,6,0.715,0.6794,10.0,1
+2026-11-20,nba,401909306,Michael Porter Jr.,Asistencias,2,0.715,0.5,5.0,1
+2026-11-20,nba,401909308,Jamal Shead,Rebotes,2,0.71,0.6051,1.0,0
+2026-11-20,nba,401909308,Cade Cunningham,Rebotes,4,0.71,0.8638,5.0,1
+2026-11-20,nba,401909307,Donovan Mitchell,Asistencias,4,0.71,0.7949,3.0,0
+2026-11-20,nba,401909307,James Harden,Asistencias,6,0.705,0.6413,6.0,1
+2026-11-20,nba,401909308,Jakob Poeltl,Puntos,10,0.7,0.5071,10.0,1
+2026-11-20,nba,401909307,Donovan Mitchell,Puntos,20,0.685,0.7245,20.0,1
+2026-11-20,nba,401909308,Paul Reed,Rebotes,6,0.685,0.7573,7.0,1
+2026-11-20,nba,401909308,Cade Cunningham,Asistencias,6,0.685,0.8514,9.0,1
+2026-11-20,nba,401909308,Javonte Green,Rebotes,2,0.68,0.7321,1.0,0
+2026-11-20,nba,401909310,Ajay Mitchell,Puntos,15,0.675,0.7063,8.0,0
+2026-11-20,nba,401909309,Matas Buzelis,Puntos,15,0.675,0.571,9.0,0
+2026-11-20,nba,401909309,Josh Giddey,Rebotes,6,0.655,0.57,6.0,1
+2026-11-20,nba,401909306,Day'Ron Sharpe,Asistencias,2,0.655,0.8475,2.0,1
+2026-11-20,nba,401909307,Pascal Siakam,Rebotes,6,0.65,0.4868,7.0,1
+2026-11-20,nba,401909306,Wendell Carter Jr.,Asistencias,2,0.65,0.3949,2.0,1
+2026-11-20,nba,401909310,Shai Gilgeous-Alexander,Puntos,30,0.645,0.7416,40.0,1
+2026-11-20,nba,401909306,Franz Wagner,Puntos,20,0.645,0.8006,35.0,1
+2026-11-20,nba,401909309,Alex Sarr,Puntos,10,0.64,0.6303,3.0,0
+2026-11-20,nba,401909310,Yves Missi,Rebotes,6,0.64,0.6952,7.0,1
+2026-11-20,nba,401909308,Immanuel Quickley,Puntos,15,0.635,0.7065,18.0,1
+2026-11-20,nba,401909310,Saddiq Bey,Asistencias,2,0.625,0.8112,3.0,1
+2026-11-20,nba,401909307,Aaron Nesmith,Puntos,10,0.615,0.6204,2.0,0
+2026-11-20,nba,401909308,Paul Reed,Puntos,10,0.615,0.6302,8.0,0
+2026-11-20,nba,401909309,Nic Claxton,Rebotes,6,0.615,0.255,7.0,1
+2026-11-20,nba,401909306,Tristan da Silva,Puntos,10,0.605,0.8815,6.0,0
+2026-11-20,nba,401909310,Isaiah Hartenstein,Asistencias,4,0.605,0.6939,4.0,1
+2026-11-20,nba,401909307,Tyrese Proctor,Asistencias,2,0.6,0.6934,2.0,1
+2026-11-20,nba,401909310,Aday Mara,Asistencias,2,0.59,0.6327,2.0,1
+2026-11-20,nba,401909309,Nic Claxton,Puntos,10,0.585,0.4689,11.0,1
+2026-11-20,nba,401909308,Ausar Thompson,Asistencias,4,0.585,0.7777,3.0,0
+2026-11-20,nba,401909307,Tyrese Proctor,Puntos,10,0.58,0.6556,5.0,0
+2026-11-20,nba,401909306,Moritz Wagner,Puntos,5,0.565,0.919,3.0,0
+2026-11-20,nba,401909307,Sam Merrill,Puntos,5,0.56,0.7791,6.0,1
+2026-11-20,nba,401909308,Immanuel Quickley,Rebotes,4,0.56,0.5637,3.0,0
+2026-11-20,nba,401909308,John Collins,Asistencias,2,0.56,0.2969,1.0,0
+2026-11-20,nba,401909308,Daniss Jenkins,Asistencias,4,0.555,0.7195,1.0,0
+2026-11-20,nba,401909310,Ajay Mitchell,Asistencias,4,0.555,0.5408,4.0,1
+2026-11-20,nba,401909310,Jaylin Williams,Puntos,5,0.55,0.2231,3.0,0
+2026-11-20,nba,401909306,Wendell Carter Jr.,Rebotes,4,0.9,0.9688,8.0,1
+2026-11-20,nba,401909307,James Harden,Puntos,10,0.89,0.8052,51.0,1
+2026-11-20,nba,401909306,Desmond Bane,Puntos,10,0.88,0.9764,21.0,1
+2026-11-20,nba,401909307,Pascal Siakam,Asistencias,2,0.865,0.8955,2.0,1
+2026-11-20,nba,401909308,Scottie Barnes,Puntos,15,0.815,0.8078,29.0,1
+2026-11-20,nba,401909307,Pascal Siakam,Rebotes,4,0.81,0.7347,7.0,1
+2026-11-20,nba,401909308,Daniss Jenkins,Puntos,10,0.8,0.7282,14.0,1
+2026-11-20,nba,401909306,Tristan da Silva,Rebotes,2,0.795,0.8151,1.0,0
+2026-11-20,nba,401909306,Julius Randle,Puntos,15,0.77,0.8373,27.0,1
+2026-11-20,nba,401909307,Andrew Nembhard,Asistencias,6,0.72,0.7046,8.0,1
+2026-11-20,nba,401909306,Anthony Black,Rebotes,4,0.695,0.7211,7.0,1
+2026-11-20,nba,401909306,Anthony Black,Asistencias,4,0.675,0.8106,6.0,1
+2026-11-20,nba,401909307,Ivica Zubac,Rebotes,8,0.645,0.531,10.0,1
+2026-11-20,nba,401909308,John Collins,Puntos,10,0.63,0.5793,3.0,0
+2026-11-20,nba,401909306,Jalen Suggs,Asistencias,4,0.555,0.7881,2.0,0
+2026-11-20,nba,401909306,Mikel Brown Jr.,Puntos,10,0.55,0.6342,18.0,1
+2026-11-20,nba,401909306,Noah Clowney,Rebotes,2,0.8,0.8155,2.0,1
+2026-11-20,nba,401909306,Day'Ron Sharpe,Puntos,5,0.765,0.8009,17.0,1
+2026-11-20,nba,401909306,Desmond Bane,Puntos,15,0.745,0.8394,21.0,1
+2026-11-20,nba,401909306,Goga Bitadze,Rebotes,4,0.715,0.5361,4.0,1
+2026-11-20,nba,401909306,Wendell Carter Jr.,Puntos,10,0.695,0.711,8.0,0
+2026-11-20,nba,401909306,Michael Porter Jr.,Rebotes,6,0.67,0.7842,4.0,0
+2026-11-20,nba,401909306,Noah Clowney,Puntos,5,0.635,0.7028,0.0,0
+2026-11-20,nba,401909306,Nolan Traore,Puntos,10,0.625,0.928,4.0,0
+2026-11-20,nba,401909306,Desmond Bane,Rebotes,4,0.615,0.6554,2.0,0
+2026-11-20,nba,401909306,Mikel Brown Jr.,Rebotes,2,0.595,0.5793,1.0,0
+2026-11-20,nba,401909306,Nolan Traore,Rebotes,2,0.585,0.553,0.0,0

@@ -518,3 +518,29 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-20,nba,401909305,Hándicap,Atlanta Hawks gana por más de 7.5,0.5,casas,1
 2026-11-20,nba,401909305,Total de puntos,Más de 219.5,0.5,casas,0
 2026-11-20,nba,401909305,Puntos (línea segura),Más de 205.5,0.7829,casas,1
+2026-11-20,nba,401909306,Ganador,Orlando Magic,0.7066,Kalshi + casas + modelo,1
+2026-11-20,nba,401909306,Hándicap,Orlando Magic gana por más de 6.5,0.5,casas,0
+2026-11-20,nba,401909306,Total de puntos,Menos de 225.5,0.5223,casas,1
+2026-11-20,nba,401909306,Puntos (línea segura),Más de 211.5,0.7662,casas,1
+2026-11-20,nba,401909307,Ganador,Cleveland Cavaliers,0.6704,Kalshi + casas + modelo,1
+2026-11-20,nba,401909307,Hándicap,Cleveland Cavaliers gana por más de 5.5,0.5,casas,1
+2026-11-20,nba,401909307,Total de puntos,Menos de 236.5,0.5223,casas,0
+2026-11-20,nba,401909307,Puntos (línea segura),Más de 222.5,0.7662,casas,1
+2026-11-20,nba,401909308,Ganador,Detroit Pistons,0.7075,Kalshi + casas + modelo,0
+2026-11-20,nba,401909308,Hándicap,Detroit Pistons gana por más de 6.5,0.5,casas,0
+2026-11-20,nba,401909308,Total de puntos,Menos de 217.5,0.5223,casas,1
+2026-11-20,nba,401909308,Puntos (línea segura),Más de 203.5,0.7662,casas,1
+2026-11-20,nba,401909309,Ganador,Chicago Bulls,0.5327,Kalshi + casas + modelo,0
+2026-11-20,nba,401909309,Hándicap,Chicago Bulls gana por más de 1.5,0.5,casas,0
+2026-11-20,nba,401909309,Total de puntos,Menos de 238.5,0.5223,casas,1
+2026-11-20,nba,401909309,Puntos (línea segura),Más de 224.5,0.7662,casas,0
+2026-11-20,nba,401909310,Ganador,Oklahoma City Thunder,0.8044,Kalshi + casas + modelo,1
+2026-11-20,nba,401909310,Hándicap,Oklahoma City Thunder gana por más de 11.5,0.5,casas,0
+2026-11-20,nba,401909310,Hándicap seguro,Oklahoma City Thunder gana por más de 2.5,0.7491,casas,1
+2026-11-20,nba,401909310,Total de puntos,Más de 229.5,0.5,casas,1
+2026-11-20,nba,401909310,Puntos (línea segura),Más de 215.5,0.7829,casas,1
+2026-11-20,liga,401877054,Ganador,Atlético de San Luis,0.3796,casas + modelo,0
+2026-11-20,liga,401877054,Doble oportunidad,Puebla o Atlético de San Luis (no empate),0.7413,casas + modelo,0
+2026-11-20,liga,401877054,Goles,Más de 2.5,0.594,casas + modelo,0
+2026-11-20,liga,401877054,Goles (línea segura),Más de 1.5,0.7272,modelo,1
+2026-11-20,liga,401877054,Ambos anotan,Sí,0.5236,modelo,1
