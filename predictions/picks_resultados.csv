@@ -567,3 +567,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-20,liga,401877053,Goles,Más de 2.5,0.5756,casas + modelo,1
 2026-11-20,liga,401877053,Goles (línea segura),Más de 1.5,0.7816,modelo,1
 2026-11-20,liga,401877053,Ambos anotan,Sí,0.58,modelo,1
+2026-11-21,liga,401888247,Ganador,Genclerbirligi,0.3973,casas + modelo,1
+2026-11-21,liga,401888247,Doble oportunidad,Genclerbirligi o Gaziantep FK (no empate),0.7417,casas + modelo,1
+2026-11-21,liga,401888247,Goles,Más de 2.5,0.6081,casas + modelo,0
+2026-11-21,liga,401888247,Goles (línea segura),Más de 1.5,0.7483,modelo,0
+2026-11-21,liga,401888247,Ambos anotan,Sí,0.5329,modelo,0
