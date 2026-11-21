@@ -512,3 +512,9 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-20,liga,401878937,Goles,Más de 2.5,0.6427,modelo,0
 2026-11-20,liga,401878937,Goles (línea segura),Más de 1.5,0.8506,modelo,0
 2026-11-20,liga,401878937,Ambos anotan,Sí,0.6624,modelo,0
+2026-11-20,liga,401933760,Ganador,Vélez Sarsfield,0.411,casas + modelo,0
+2026-11-20,liga,401933760,Doble oportunidad,Vélez Sarsfield o empate,0.7094,casas + modelo,1
+2026-11-20,nba,401909305,Ganador,Atlanta Hawks,0.7056,Kalshi + casas + modelo,1
+2026-11-20,nba,401909305,Hándicap,Atlanta Hawks gana por más de 7.5,0.5,casas,1
+2026-11-20,nba,401909305,Total de puntos,Más de 219.5,0.5,casas,0
+2026-11-20,nba,401909305,Puntos (línea segura),Más de 205.5,0.7829,casas,1
