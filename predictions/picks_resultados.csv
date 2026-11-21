@@ -789,3 +789,38 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,558526,Goles,Menos de 2.5,0.5068,modelo,0
 2026-11-21,liga,558526,Goles (línea segura),Más de 1.5,0.7367,modelo,1
 2026-11-21,liga,558526,Ambos anotan,Sí,0.5214,modelo,1
+2026-11-21,liga,401878939,Ganador,Racing Genk,0.7141,casas + modelo,1
+2026-11-21,liga,401878939,Doble oportunidad,Racing Genk o empate,0.8835,casas + modelo,1
+2026-11-21,liga,401878939,Goles,Más de 2.5,0.6026,modelo,1
+2026-11-21,liga,401878939,Goles (línea segura),Más de 1.5,0.8248,modelo,1
+2026-11-21,liga,401878939,Ambos anotan,Sí,0.5434,modelo,0
+2026-11-21,liga,560651,Ganador,Arsenal,0.6426,Kalshi + modelo,0
+2026-11-21,liga,560651,Doble oportunidad,Arsenal o empate,0.8488,Kalshi + modelo,1
+2026-11-21,liga,560651,Goles,Más de 2.5,0.5493,modelo,1
+2026-11-21,liga,560651,Goles (línea segura),Más de 1.5,0.7805,modelo,1
+2026-11-21,liga,560651,Ambos anotan,Sí,0.544,modelo,1
+2026-11-21,liga,564756,Ganador,Betis,0.4441,Kalshi + modelo,0
+2026-11-21,liga,564756,Doble oportunidad,Sevilla o Betis (no empate),0.7424,Kalshi + modelo,0
+2026-11-21,liga,564756,Goles,Menos de 2.5,0.553,modelo,1
+2026-11-21,liga,564756,Goles (línea segura),Más de 1.5,0.7053,modelo,1
+2026-11-21,liga,564756,Ambos anotan,Sí,0.516,modelo,1
+2026-11-21,liga,565861,Ganador,Stuttgart,0.5455,Kalshi + modelo,0
+2026-11-21,liga,565861,Doble oportunidad,Stuttgart o empate,0.7736,Kalshi + modelo,1
+2026-11-21,liga,565861,Goles,Más de 2.5,0.6726,modelo,0
+2026-11-21,liga,565861,Goles (línea segura),Más de 1.5,0.8519,modelo,0
+2026-11-21,liga,565861,Ambos anotan,Sí,0.6024,modelo,0
+2026-11-21,liga,401882301,Ganador,Castellón,0.7259,casas + modelo,1
+2026-11-21,liga,401882301,Doble oportunidad,Castellón o empate,0.8954,casas + modelo,1
+2026-11-21,liga,401882301,Goles,Más de 2.5,0.5887,casas + modelo,0
+2026-11-21,liga,401882301,Goles (línea segura),Más de 1.5,0.7826,modelo,1
+2026-11-21,liga,401882301,Ambos anotan,No,0.5167,modelo,1
+2026-11-21,liga,401875543,Ganador,Feyenoord Rotterdam,0.8403,casas + modelo,0
+2026-11-21,liga,401875543,Doble oportunidad,Feyenoord Rotterdam o empate,0.9414,casas + modelo,0
+2026-11-21,liga,401875543,Goles,Más de 2.5,0.715,modelo,1
+2026-11-21,liga,401875543,Goles (línea segura),Más de 1.5,0.8895,modelo,1
+2026-11-21,liga,401875543,Ambos anotan,Sí,0.6135,modelo,1
+2026-11-21,liga,401878337,Ganador,Heart of Midlothian,0.4584,casas + modelo,1
+2026-11-21,liga,401878337,Doble oportunidad,Dundee o Heart of Midlothian (no empate),0.7523,casas + modelo,1
+2026-11-21,liga,401878337,Goles,Más de 2.5,0.5657,casas + modelo,1
+2026-11-21,liga,401878337,Goles (línea segura),Más de 1.5,0.7924,modelo,1
+2026-11-21,liga,401878337,Ambos anotan,Sí,0.5917,modelo,0
