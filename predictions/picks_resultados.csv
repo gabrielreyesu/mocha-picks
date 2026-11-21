@@ -622,3 +622,78 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401882299,Goles,Menos de 2.5,0.5918,casas + modelo,1
 2026-11-21,liga,401882299,Goles (línea segura),Más de 1.5,0.7387,modelo,1
 2026-11-21,liga,401882299,Ambos anotan,Sí,0.525,modelo,1
+2026-11-21,liga,558528,Ganador,Lazio,0.7419,Kalshi + modelo,1
+2026-11-21,liga,558528,Doble oportunidad,Lazio o empate,0.9061,Kalshi + modelo,1
+2026-11-21,liga,558528,Goles,Menos de 2.5,0.5079,modelo,0
+2026-11-21,liga,558528,Goles (línea segura),Más de 1.5,0.7456,modelo,1
+2026-11-21,liga,558528,Ambos anotan,Sí,0.5312,modelo,0
+2026-11-21,liga,558525,Ganador,Como,0.7699,Kalshi + modelo,1
+2026-11-21,liga,558525,Doble oportunidad,Como o empate,0.9113,Kalshi + modelo,1
+2026-11-21,liga,558525,Goles,Más de 2.5,0.5222,modelo,0
+2026-11-21,liga,558525,Goles (línea segura),Más de 1.5,0.7728,modelo,1
+2026-11-21,liga,558525,Ambos anotan,Sí,0.5031,modelo,0
+2026-11-21,liga,401899546,Ganador,Carrarese,0.4332,casas + modelo,1
+2026-11-21,liga,401899546,Doble oportunidad,Carrarese o empate,0.7389,casas + modelo,1
+2026-11-21,liga,401899546,Goles,Menos de 2.5,0.5228,casas + modelo,1
+2026-11-21,liga,401899546,Goles (línea segura),Más de 1.5,0.6928,modelo,0
+2026-11-21,liga,401899546,Ambos anotan,No,0.517,modelo,1
+2026-11-21,liga,401899541,Ganador,Benevento,0.3931,casas + modelo,0
+2026-11-21,liga,401899541,Doble oportunidad,Sampdoria o Benevento (no empate),0.7079,casas + modelo,1
+2026-11-21,liga,401899541,Goles,Menos de 2.5,0.5241,casas + modelo,0
+2026-11-21,liga,401899541,Goles (línea segura),Más de 1.5,0.7264,modelo,1
+2026-11-21,liga,401899541,Ambos anotan,Sí,0.5225,modelo,1
+2026-11-21,liga,401899540,Ganador,Cremonese,0.4626,casas + modelo,0
+2026-11-21,liga,401899540,Doble oportunidad,Cremonese o empate,0.7601,casas + modelo,0
+2026-11-21,liga,401899540,Goles,Menos de 2.5,0.5404,casas + modelo,1
+2026-11-21,liga,401899540,Goles (línea segura),Más de 1.5,0.7006,modelo,0
+2026-11-21,liga,401899540,Ambos anotan,No,0.5027,modelo,1
+2026-11-21,liga,401899548,Ganador,Ascoli,0.6077,casas + modelo,0
+2026-11-21,liga,401899548,Doble oportunidad,Ascoli o empate,0.8427,casas + modelo,1
+2026-11-21,liga,401899548,Goles,Más de 2.5,0.5301,casas + modelo,1
+2026-11-21,liga,401899548,Goles (línea segura),Más de 1.5,0.7815,modelo,1
+2026-11-21,liga,401899548,Ambos anotan,Sí,0.529,modelo,1
+2026-11-21,liga,401899542,Ganador,Modena,0.5947,casas + modelo,1
+2026-11-21,liga,401899542,Doble oportunidad,Modena o empate,0.8239,casas + modelo,1
+2026-11-21,liga,401899542,Goles,Más de 2.5,0.55,casas + modelo,0
+2026-11-21,liga,401899542,Goles (línea segura),Más de 1.5,0.7534,modelo,1
+2026-11-21,liga,401899542,Ambos anotan,Sí,0.5271,modelo,0
+2026-11-21,liga,565858,Ganador,RB Leipzig,0.6368,Kalshi + modelo,1
+2026-11-21,liga,565858,Doble oportunidad,RB Leipzig o empate,0.8334,Kalshi + modelo,1
+2026-11-21,liga,565858,Goles,Más de 2.5,0.5675,modelo,1
+2026-11-21,liga,565858,Goles (línea segura),Más de 1.5,0.8056,modelo,1
+2026-11-21,liga,565858,Ambos anotan,Sí,0.593,modelo,1
+2026-11-21,liga,565860,Ganador,Freiburg,0.4817,Kalshi + modelo,1
+2026-11-21,liga,565860,Doble oportunidad,Elversberg o Freiburg (no empate),0.7487,Kalshi + modelo,1
+2026-11-21,liga,565860,Goles,Más de 2.5,0.661,modelo,0
+2026-11-21,liga,565860,Goles (línea segura),Más de 1.5,0.8589,modelo,0
+2026-11-21,liga,565860,Ambos anotan,Sí,0.6186,modelo,0
+2026-11-21,liga,565857,Ganador,Leverkusen,0.8091,Kalshi + modelo,1
+2026-11-21,liga,565857,Doble oportunidad,Leverkusen o empate,0.9257,Kalshi + modelo,1
+2026-11-21,liga,565857,Goles,Más de 2.5,0.5646,modelo,1
+2026-11-21,liga,565857,Goles (línea segura),Más de 1.5,0.8113,modelo,1
+2026-11-21,liga,565857,Ambos anotan,Sí,0.5476,modelo,0
+2026-11-21,liga,560644,Ganador,Aston Villa,0.5732,Kalshi + modelo,0
+2026-11-21,liga,560644,Doble oportunidad,Aston Villa o empate,0.8126,Kalshi + modelo,1
+2026-11-21,liga,560644,Goles,Más de 2.5,0.5664,modelo,0
+2026-11-21,liga,560644,Goles (línea segura),Más de 1.5,0.8008,modelo,0
+2026-11-21,liga,560644,Ambos anotan,Sí,0.5434,modelo,0
+2026-11-21,liga,401880158,Ganador,Wrexham,0.3592,casas + modelo,1
+2026-11-21,liga,401880158,Doble oportunidad,Lincoln City o Wrexham (no empate),0.7065,casas + modelo,1
+2026-11-21,liga,401880158,Goles,Menos de 2.5,0.575,casas + modelo,1
+2026-11-21,liga,401880158,Goles (línea segura),Más de 1.5,0.7524,modelo,0
+2026-11-21,liga,401880158,Ambos anotan,Sí,0.541,modelo,0
+2026-11-21,liga,401880157,Ganador,Middlesbrough,0.7332,casas + modelo,1
+2026-11-21,liga,401880157,Doble oportunidad,Middlesbrough o empate,0.8953,casas + modelo,1
+2026-11-21,liga,401880157,Goles,Más de 2.5,0.566,modelo,0
+2026-11-21,liga,401880157,Goles (línea segura),Más de 1.5,0.8014,modelo,1
+2026-11-21,liga,401880157,Ambos anotan,Sí,0.5334,modelo,0
+2026-11-21,liga,401878335,Ganador,Hibernian,0.4708,casas + modelo,0
+2026-11-21,liga,401878335,Doble oportunidad,Hibernian o Dundee United (no empate),0.766,casas + modelo,1
+2026-11-21,liga,401878335,Goles,Más de 2.5,0.6162,casas + modelo,1
+2026-11-21,liga,401878335,Goles (línea segura),Más de 1.5,0.7513,modelo,1
+2026-11-21,liga,401878335,Ambos anotan,Sí,0.5378,modelo,0
+2026-11-21,liga,401878336,Ganador,Falkirk,0.518,casas + modelo,1
+2026-11-21,liga,401878336,Doble oportunidad,Falkirk o empate,0.7732,casas + modelo,1
+2026-11-21,liga,401878336,Goles,Más de 2.5,0.5482,casas + modelo,1
+2026-11-21,liga,401878336,Goles (línea segura),Más de 1.5,0.7423,modelo,1
+2026-11-21,liga,401878336,Ambos anotan,Sí,0.5239,modelo,1
