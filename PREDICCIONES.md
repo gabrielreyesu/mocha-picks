@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 21 Nov 2026 09:35 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 21 Nov 2026 09:49 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -281,8 +281,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sat 21 Nov 10:00 | Superliga de Turquía | Kocaelispor vs Fenerbahce | Ganador | Fenerbahce | 64% | Media | casas + modelo | — |
-| Sat 21 Nov 10:00 | Superliga de Turquía | Kocaelispor vs Fenerbahce | Doble oportunidad | Fenerbahce o empate | 84% | Alta | casas + modelo | — |
+| Sat 21 Nov 10:00 | Superliga de Turquía | Kocaelispor vs Fenerbahce | Ganador | Fenerbahce | 65% | Media | casas + modelo | — |
+| Sat 21 Nov 10:00 | Superliga de Turquía | Kocaelispor vs Fenerbahce | Doble oportunidad | Fenerbahce o empate | 85% | Alta | casas + modelo | — |
 | Sat 21 Nov 10:00 | Superliga de Turquía | Kocaelispor vs Fenerbahce | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sat 21 Nov 10:00 | Superliga de Turquía | Kocaelispor vs Fenerbahce | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sat 21 Nov 10:00 | Superliga de Turquía | Kocaelispor vs Fenerbahce | Ambos anotan | Sí | 55% | Baja | modelo | — |
@@ -293,7 +293,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 10:15 | Ligue 1 | Nice vs Paris SG | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Sat 21 Nov 10:15 | Serie B | Catanzaro vs Palermo | Ganador | Palermo | 57% | Media | casas + modelo | — |
 | Sat 21 Nov 10:15 | Serie B | Catanzaro vs Palermo | Doble oportunidad | Palermo o empate | 80% | Alta | casas + modelo | — |
-| Sat 21 Nov 10:15 | Serie B | Catanzaro vs Palermo | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Sat 21 Nov 10:15 | Serie B | Catanzaro vs Palermo | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Sat 21 Nov 10:15 | Serie B | Catanzaro vs Palermo | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Sat 21 Nov 10:15 | Serie B | Catanzaro vs Palermo | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Ganador | Roma | 77% | Alta | Kalshi + modelo | 75¢ |
@@ -328,7 +328,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 11:30 | LaLiga 2 | Castellón vs Eldense | Ambos anotan | No | 52% | Baja | modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Ganador | Heart of Midlothian | 46% | Baja | casas + modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Doble oportunidad | Dundee o Heart of Midlothian (no empate) | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Ganador | FC Utrecht | 50% | Baja | casas + modelo | — |
@@ -362,8 +362,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ganador | Philadelphia Union | 46% | Baja | casas + modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Doble oportunidad | New England Revolution o Philadelphia Union (no empate) | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Doble oportunidad | New England Revolution o Philadelphia Union (no empate) | 74% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Ganador | Flamengo | 48% | Baja | casas + modelo | — |
@@ -408,7 +408,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Ganador | Zulte-Waregem | 39% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Doble oportunidad | Zulte-Waregem o Antwerp (no empate) | 74% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Ganador | Real Madrid | 85% | Alta | Kalshi + modelo | 82¢ |
@@ -416,7 +416,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Goles | Menos de 2.5 | 53% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Ambos anotan | No | 50% | Baja | modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Ganador | Heerenveen | 43% | Baja | casas + modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Ganador | Heerenveen | 42% | Baja | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Doble oportunidad | FC Groningen o Heerenveen (no empate) | 77% | Alta | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Goles | Más de 2.5 | 66% | Media | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
@@ -525,7 +525,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Ambos anotan | No | 51% | Baja | modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Ganador | Burnley | 48% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Doble oportunidad | Burnley o Blackburn Rovers (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Ganador | Kaiserslautern | 46% | Baja | casas + modelo | — |
@@ -563,9 +563,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Ganador | Kasimpasa | 51% | Baja | casas + modelo | — |
-| Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Doble oportunidad | Kasimpasa o empate | 77% | Alta | casas + modelo | — |
-| Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Ganador | Kasimpasa | 52% | Baja | casas + modelo | — |
+| Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Doble oportunidad | Kasimpasa o empate | 78% | Alta | casas + modelo | — |
+| Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Ambos anotan | No | 50% | Baja | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Ganador | AZ Alkmaar | 59% | Media | casas + modelo | — |
@@ -610,7 +610,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 08:30 | Bundesliga | Augsburg vs Mainz | Ambos anotan | Sí | 61% | Media | modelo | — |
 | Sun 22 Nov 09:00 | Liga de Bélgica | KV Kortrijk vs Union St.-Gilloise | Ganador | Union St.-Gilloise | 79% | Alta | casas + modelo | — |
 | Sun 22 Nov 09:00 | Liga de Bélgica | KV Kortrijk vs Union St.-Gilloise | Doble oportunidad | Union St.-Gilloise o empate | 93% | Alta | casas + modelo | — |
-| Sun 22 Nov 09:00 | Liga de Bélgica | KV Kortrijk vs Union St.-Gilloise | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Sun 22 Nov 09:00 | Liga de Bélgica | KV Kortrijk vs Union St.-Gilloise | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sun 22 Nov 09:00 | Liga de Bélgica | KV Kortrijk vs Union St.-Gilloise | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
 | Sun 22 Nov 09:00 | Liga de Bélgica | KV Kortrijk vs Union St.-Gilloise | Ambos anotan | No | 53% | Baja | modelo | — |
 | Sun 22 Nov 09:15 | La Liga | Santander vs Sociedad | Ganador | Sociedad | 48% | Baja | Kalshi + modelo | 46¢ |
@@ -620,11 +620,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 09:15 | La Liga | Santander vs Sociedad | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Ganador | Sporting Gijón | 45% | Baja | casas + modelo | — |
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Doble oportunidad | Sporting Gijón o Las Palmas (no empate) | 73% | Alta | casas + modelo | — |
-| Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Goles | Más de 2.5 | 50% | Baja | casas + modelo | — |
+| Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Ambos anotan | Sí | 55% | Baja | modelo | — |
-| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Ganador | Go Ahead Eagles | 58% | Media | casas + modelo | — |
-| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Doble oportunidad | Go Ahead Eagles o empate | 79% | Alta | casas + modelo | — |
+| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Ganador | Go Ahead Eagles | 56% | Media | casas + modelo | — |
+| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Doble oportunidad | Go Ahead Eagles o Fortuna Sittard (no empate) | 78% | Alta | casas + modelo | — |
 | Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Goles | Más de 2.5 | 62% | Media | modelo | — |
 | Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
 | Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Ambos anotan | Sí | 64% | Media | modelo | — |
