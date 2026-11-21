@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 21 Nov 2026 12:31 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 21 Nov 2026 12:52 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -275,24 +275,24 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ganador | Philadelphia Union | 46% | Baja | casas + modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Doble oportunidad | New England Revolution o Philadelphia Union (no empate) | 74% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ganador | Philadelphia Union | 47% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Doble oportunidad | New England Revolution o Philadelphia Union (no empate) | 76% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 21 Nov 13:00 | MLS | New England Revolution vs Philadelphia Union | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Ganador | Saint-Étienne | 45% | Baja | casas + modelo | — |
-| Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Doble oportunidad | Stade de Reims o Saint-Étienne (no empate) | 73% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Doble oportunidad | Stade de Reims o Saint-Étienne (no empate) | 74% | Alta | casas + modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sat 21 Nov 13:00 | Ligue 2 | Stade de Reims vs Saint-Étienne | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Ganador | Flamengo | 48% | Baja | casas + modelo | — |
-| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Doble oportunidad | Flamengo o empate | 74% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Ganador | Flamengo | 40% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Doble oportunidad | Palmeiras o Flamengo (no empate) | 72% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 13:30 | Brasileirão | Palmeiras vs Flamengo | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Ganador | St. Pauli | 43% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Doble oportunidad | St. Pauli o VfL Bochum (no empate) | 74% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Sat 21 Nov 13:30 | 2. Bundesliga | St. Pauli vs VfL Bochum | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Monaco vs Auxerre | Ganador | Monaco | 73% | Alta | Kalshi + modelo | 70¢ |
@@ -320,12 +320,12 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 13:45 | Ligue 1 | Strasbourg vs Brest | Goles | Más de 2.5 | 55% | Media | modelo | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Strasbourg vs Brest | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Strasbourg vs Brest | Ambos anotan | Sí | 55% | Baja | modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Ganador | Zulte-Waregem | 39% | Baja | casas + modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Doble oportunidad | Zulte-Waregem o Antwerp (no empate) | 74% | Alta | casas + modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Ganador | Zulte-Waregem | 38% | Baja | casas + modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Doble oportunidad | Zulte-Waregem o Antwerp (no empate) | 73% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | Zulte-Waregem vs Antwerp | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ganador | Club Brugge | 76% | Alta | casas + modelo | — |
+| Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Ganador | Club Brugge | 78% | Alta | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Doble oportunidad | Club Brugge o empate | 91% | Alta | casas + modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Goles | Más de 2.5 | 65% | Media | modelo | — |
 | Sat 21 Nov 13:45 | Liga de Bélgica | KV Mechelen vs Club Brugge | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
@@ -335,14 +335,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Goles | Menos de 2.5 | 53% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | Ambos anotan | No | 50% | Baja | modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Ganador | Heerenveen | 41% | Baja | casas + modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Ganador | Heerenveen | 42% | Baja | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Doble oportunidad | FC Groningen o Heerenveen (no empate) | 77% | Alta | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Goles | Más de 2.5 | 66% | Media | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | FC Groningen vs Heerenveen | Ambos anotan | Sí | 68% | Media | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ganador | Telstar | 46% | Baja | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Doble oportunidad | Telstar o PEC Zwolle (no empate) | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Ganador | Argentinos Juniors | 45% | Baja | casas + modelo | — |
@@ -352,11 +352,11 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Ambos anotan | No | 54% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Ganador | Mallorca | 42% | Baja | casas + modelo | — |
 | Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Doble oportunidad | Mallorca o empate | 73% | Alta | casas + modelo | — |
-| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Goles | Menos de 2.5 | 62% | Media | casas + modelo | — |
+| Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Goles | Menos de 2.5 | 61% | Media | casas + modelo | — |
 | Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | LaLiga 2 | Tenerife vs Mallorca | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Ganador | Rangers | 66% | Media | casas + modelo | — |
-| Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Doble oportunidad | Rangers o empate | 84% | Alta | casas + modelo | — |
+| Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Doble oportunidad | Rangers o empate | 85% | Alta | casas + modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | Premiership de Escocia | Motherwell vs Rangers | Ambos anotan | Sí | 53% | Baja | modelo | — |
@@ -587,9 +587,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Goles | Más de 2.5 | 55% | Baja | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Ganador | Anderlecht | 69% | Media | casas + modelo | — |
+| Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Ganador | Anderlecht | 68% | Media | casas + modelo | — |
 | Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Doble oportunidad | Anderlecht o empate | 87% | Alta | casas + modelo | — |
-| Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Goles | Menos de 2.5 | 50% | Baja | modelo | — |
+| Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Goles | Más de 2.5 | 63% | Media | casas + modelo | — |
 | Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Ambos anotan | No | 51% | Baja | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Ganador | Girona | 52% | Baja | casas + modelo | — |
@@ -628,9 +628,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 12:00 | NFL | Tennessee Titans en Dallas Cowboys | Hándicap | Dallas Cowboys gana por más de 7.5 | 50% | Baja | casas | 50¢ |
 | Sun 22 Nov 12:00 | NFL | Tennessee Titans en Dallas Cowboys | Total de puntos | Más de 54.5 | 50% | Baja | casas | 52¢ |
 | Sun 22 Nov 12:00 | NFL | Tennessee Titans en Dallas Cowboys | Puntos (línea segura) | Menos de 64.5 | 78% | Alta | casas | 75¢ |
-| Sun 22 Nov 12:15 | Liga de Bélgica | Lommel SK vs Standard Liege | Ganador | Standard Liege | 45% | Baja | casas + modelo | — |
+| Sun 22 Nov 12:15 | Liga de Bélgica | Lommel SK vs Standard Liege | Ganador | Standard Liege | 46% | Baja | casas + modelo | — |
 | Sun 22 Nov 12:15 | Liga de Bélgica | Lommel SK vs Standard Liege | Doble oportunidad | Lommel SK o Standard Liege (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 12:15 | Liga de Bélgica | Lommel SK vs Standard Liege | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Sun 22 Nov 12:15 | Liga de Bélgica | Lommel SK vs Standard Liege | Goles | Más de 2.5 | 63% | Media | casas + modelo | — |
 | Sun 22 Nov 12:15 | Liga de Bélgica | Lommel SK vs Standard Liege | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sun 22 Nov 12:15 | Liga de Bélgica | Lommel SK vs Standard Liege | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sun 22 Nov 13:00 | Liga Profesional Argentina | Rosario Central vs Gimnasia (Mendoza) | Ganador | Rosario Central | 72% | Alta | casas + modelo | — |

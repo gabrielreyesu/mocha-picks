@@ -784,3 +784,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401899545,Ambos anotan,Sí,0.5881,modelo,1
 2026-11-21,liga,401875544,Ganador,FC Utrecht,0.4908,casas + modelo,0
 2026-11-21,liga,401875544,Doble oportunidad,FC Utrecht o SC Cambuur (no empate),0.7781,casas + modelo,0
+2026-11-21,liga,558526,Ganador,Roma,0.7728,Kalshi + modelo,1
+2026-11-21,liga,558526,Doble oportunidad,Roma o empate,0.9216,Kalshi + modelo,1
+2026-11-21,liga,558526,Goles,Menos de 2.5,0.5068,modelo,0
+2026-11-21,liga,558526,Goles (línea segura),Más de 1.5,0.7367,modelo,1
+2026-11-21,liga,558526,Ambos anotan,Sí,0.5214,modelo,1
