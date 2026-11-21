@@ -697,3 +697,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401878336,Goles,Más de 2.5,0.5482,casas + modelo,1
 2026-11-21,liga,401878336,Goles (línea segura),Más de 1.5,0.7423,modelo,1
 2026-11-21,liga,401878336,Ambos anotan,Sí,0.5239,modelo,1
+2026-11-21,liga,401878334,Ganador,Kilmarnock,0.394,casas + modelo,0
+2026-11-21,liga,401878334,Doble oportunidad,Kilmarnock o Aberdeen (no empate),0.7407,casas + modelo,1
+2026-11-21,liga,401878334,Goles,Más de 2.5,0.6118,casas + modelo,1
+2026-11-21,liga,401878334,Goles (línea segura),Más de 1.5,0.7341,modelo,1
+2026-11-21,liga,401878334,Ambos anotan,Sí,0.526,modelo,1
+2026-11-21,liga,401880149,Ganador,Wolverhampton Wanderers,0.7888,casas + modelo,1
+2026-11-21,liga,401880149,Doble oportunidad,Wolverhampton Wanderers o empate,0.9337,casas + modelo,1
+2026-11-21,liga,401880149,Goles,Más de 2.5,0.6399,casas + modelo,1
+2026-11-21,liga,401880149,Goles (línea segura),Más de 1.5,0.7263,modelo,1
+2026-11-21,liga,401880149,Ambos anotan,No,0.5263,modelo,0
