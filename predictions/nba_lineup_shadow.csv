@@ -798,3 +798,12 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-21T00:32:32.148621+00:00,401910026,2026-11-22T01:00Z,Minnesota Timberwolves,Memphis Grizzlies,0.68401,0.68947,4.094,0.24,Jaylen Clark,Cameron Boozer; Javon Small; GG Jackson; Ty Jerome,4,1467.0
 2026-11-21T00:32:32.148621+00:00,401910027,2026-11-22T01:00Z,San Antonio Spurs,New Orleans Pelicans,0.91308,0.89221,-2.643,7.155,Dylan Harper,Bennedict Mathurin; Bryce McGowens; Trendon Watford; Dejounte Murray,2,1467.0
 2026-11-21T00:32:32.148621+00:00,401910028,2026-11-22T03:00Z,Sacramento Kings,Boston Celtics,0.16101,0.18415,0.228,-7.072,Precious Achiuwa,,2,1587.0
+2026-11-21T01:55:37.318012+00:00,401909311,2026-11-21T02:30Z,Utah Jazz,Phoenix Suns,0.3272,0.34256,0.403,-3.66,Lauri Markkanen,,3,34.0
+2026-11-21T01:55:37.318012+00:00,401909312,2026-11-21T03:00Z,Denver Nuggets,Houston Rockets,0.50555,0.52515,-1.312,1.576,,Clint Capela,1,64.0
+2026-11-21T01:55:37.318012+00:00,401909313,2026-11-21T03:00Z,Los Angeles Lakers,Sacramento Kings,0.87566,0.87337,-1.302,10.452,Austin Reaves,Precious Achiuwa,2,64.0
+2026-11-21T01:55:37.318012+00:00,401910023,2026-11-21T18:00Z,Philadelphia 76ers,Milwaukee Bucks,0.85532,0.8647,1.41,10.293,Adem Bona; Jaylen Brown; Dean Wade,Ousmane Dieng,2,964.0
+2026-11-21T01:55:37.318012+00:00,401910024,2026-11-22T00:30Z,New York Knicks,Portland Trail Blazers,0.7078,0.6908,-0.937,1.695,Jordan Clarkson,Vit Krejci; Chris Youngblood,2,1354.0
+2026-11-21T01:55:37.318012+00:00,401910025,2026-11-22T01:00Z,Dallas Mavericks,LA Clippers,0.59168,0.63582,0.828,5.995,,,6,1384.0
+2026-11-21T01:55:37.318012+00:00,401910026,2026-11-22T01:00Z,Minnesota Timberwolves,Memphis Grizzlies,0.68401,0.68947,4.094,0.24,Jaylen Clark,GG Jackson; Javon Small; Cameron Boozer; Ty Jerome,4,1384.0
+2026-11-21T01:55:37.318012+00:00,401910027,2026-11-22T01:00Z,San Antonio Spurs,New Orleans Pelicans,0.91308,0.89221,-2.643,7.155,Dylan Harper,Dejounte Murray; Trendon Watford; Bryce McGowens; Bennedict Mathurin,2,1384.0
+2026-11-21T01:55:37.318012+00:00,401910028,2026-11-22T03:00Z,Sacramento Kings,Boston Celtics,0.16101,0.18415,0.228,-7.072,Precious Achiuwa,,2,1504.0
