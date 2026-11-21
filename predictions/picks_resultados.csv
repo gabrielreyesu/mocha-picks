@@ -862,3 +862,33 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401841322,Goles,Más de 2.5,0.5291,casas + modelo,0
 2026-11-21,liga,401841322,Goles (línea segura),Más de 1.5,0.7541,modelo,1
 2026-11-21,liga,401841322,Ambos anotan,Sí,0.5401,modelo,1
+2026-11-21,liga,559623,Ganador,Lens,0.5245,Kalshi + modelo,0
+2026-11-21,liga,559623,Doble oportunidad,Lens o Toulouse (no empate),0.7641,Kalshi + modelo,0
+2026-11-21,liga,559623,Goles,Más de 2.5,0.5417,modelo,0
+2026-11-21,liga,559623,Goles (línea segura),Más de 1.5,0.7811,modelo,1
+2026-11-21,liga,559623,Ambos anotan,Sí,0.5431,modelo,1
+2026-11-21,liga,559624,Ganador,Lille,0.4076,Kalshi + modelo,0
+2026-11-21,liga,559624,Doble oportunidad,Lille o Lyon (no empate),0.7101,Kalshi + modelo,1
+2026-11-21,liga,559624,Goles,Menos de 2.5,0.537,modelo,1
+2026-11-21,liga,559624,Goles (línea segura),Más de 1.5,0.7184,modelo,0
+2026-11-21,liga,559624,Ambos anotan,Sí,0.5093,modelo,0
+2026-11-21,liga,558527,Ganador,Napoli,0.6815,Kalshi + modelo,1
+2026-11-21,liga,558527,Doble oportunidad,Napoli o empate,0.874,Kalshi + modelo,1
+2026-11-21,liga,558527,Goles,Más de 2.5,0.5037,modelo,0
+2026-11-21,liga,558527,Goles (línea segura),Más de 1.5,0.7566,modelo,0
+2026-11-21,liga,558527,Ambos anotan,Sí,0.5241,modelo,0
+2026-11-21,liga,559627,Ganador,Strasbourg,0.4392,Kalshi + modelo,0
+2026-11-21,liga,559627,Doble oportunidad,Strasbourg o Brest (no empate),0.7459,Kalshi + modelo,1
+2026-11-21,liga,559627,Goles,Más de 2.5,0.5542,modelo,0
+2026-11-21,liga,559627,Goles (línea segura),Más de 1.5,0.7892,modelo,0
+2026-11-21,liga,559627,Ambos anotan,Sí,0.5477,modelo,0
+2026-11-21,liga,401878938,Ganador,Zulte-Waregem,0.3787,casas + modelo,0
+2026-11-21,liga,401878938,Doble oportunidad,Zulte-Waregem o Antwerp (no empate),0.7303,casas + modelo,0
+2026-11-21,liga,401878938,Goles,Más de 2.5,0.51,casas + modelo,1
+2026-11-21,liga,401878938,Goles (línea segura),Más de 1.5,0.7926,modelo,1
+2026-11-21,liga,401878938,Ambos anotan,Sí,0.592,modelo,1
+2026-11-21,liga,401878935,Ganador,Club Brugge,0.7766,casas + modelo,1
+2026-11-21,liga,401878935,Doble oportunidad,Club Brugge o empate,0.9123,casas + modelo,1
+2026-11-21,liga,401878935,Goles,Más de 2.5,0.6462,modelo,1
+2026-11-21,liga,401878935,Goles (línea segura),Más de 1.5,0.8513,modelo,1
+2026-11-21,liga,401878935,Ambos anotan,Sí,0.5567,modelo,1

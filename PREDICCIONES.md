@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 21 Nov 2026 15:29 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 21 Nov 2026 15:43 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -269,12 +269,12 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Ganador | Boca Juniors | 44% | Baja | casas + modelo | — |
-| Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Doble oportunidad | Boca Juniors o empate | 76% | Alta | casas + modelo | — |
+| Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Ganador | Boca Juniors | 46% | Baja | casas + modelo | — |
+| Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Doble oportunidad | Boca Juniors o empate | 77% | Alta | casas + modelo | — |
 | Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Goles | Menos de 2.5 | 55% | Media | modelo | — |
 | Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Sat 21 Nov 16:30 | Copa Sudamericana | Atlético-MG vs Boca Juniors | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Ganador | Toluca | 41% | Baja | casas + modelo | — |
+| Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Ganador | Toluca | 40% | Baja | casas + modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Doble oportunidad | Pachuca o Toluca (no empate) | 77% | Alta | casas + modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Goles | Más de 2.5 | 60% | Media | modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
@@ -289,7 +289,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 17:00 | Liga MX | Santos vs León | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Sat 21 Nov 17:00 | Liga MX | Santos vs León | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sat 21 Nov 17:00 | Liga MX | Santos vs León | Ambos anotan | Sí | 55% | Media | modelo | — |
-| Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Ganador | Cruzeiro | 73% | Alta | casas + modelo | — |
+| Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Ganador | Cruzeiro | 72% | Alta | casas + modelo | — |
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Doble oportunidad | Cruzeiro o empate | 90% | Alta | casas + modelo | — |
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
@@ -583,7 +583,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 15:25 | NFL | Jacksonville Jaguars en New York Giants | Puntos (línea segura) | Más de 37.5 | 76% | Alta | casas | 74¢ |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Ganador | Fluminense | 60% | Media | casas + modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Doble oportunidad | Fluminense o empate | 83% | Alta | casas + modelo | — |
-| Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Ganador | River Plate | 60% | Media | casas + modelo | — |
