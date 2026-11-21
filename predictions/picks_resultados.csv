@@ -842,3 +842,23 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401899544,Goles,Más de 2.5,0.5687,casas + modelo,0
 2026-11-21,liga,401899544,Goles (línea segura),Más de 1.5,0.7684,modelo,0
 2026-11-21,liga,401899544,Ambos anotan,Sí,0.566,modelo,0
+2026-11-21,liga,401933733,Ganador,Philadelphia Union,0.4712,casas + modelo,0
+2026-11-21,liga,401933733,Doble oportunidad,New England Revolution o Philadelphia Union (no empate),0.7557,casas + modelo,1
+2026-11-21,liga,401933733,Goles,Más de 2.5,0.6108,casas + modelo,0
+2026-11-21,liga,401933733,Goles (línea segura),Más de 1.5,0.8225,modelo,1
+2026-11-21,liga,401933733,Ambos anotan,Sí,0.6239,modelo,0
+2026-11-21,liga,401876684,Ganador,Saint-Étienne,0.4505,casas + modelo,1
+2026-11-21,liga,401876684,Doble oportunidad,Stade de Reims o Saint-Étienne (no empate),0.7391,casas + modelo,1
+2026-11-21,liga,401876684,Goles,Más de 2.5,0.5126,casas + modelo,0
+2026-11-21,liga,401876684,Goles (línea segura),Más de 1.5,0.8016,modelo,0
+2026-11-21,liga,401876684,Ambos anotan,Sí,0.5945,modelo,0
+2026-11-21,liga,401885055,Ganador,St. Pauli,0.4341,casas + modelo,1
+2026-11-21,liga,401885055,Doble oportunidad,St. Pauli o VfL Bochum (no empate),0.736,casas + modelo,1
+2026-11-21,liga,401885055,Goles,Más de 2.5,0.5596,casas + modelo,0
+2026-11-21,liga,401885055,Goles (línea segura),Más de 1.5,0.7176,modelo,1
+2026-11-21,liga,401885055,Ambos anotan,Sí,0.5139,modelo,0
+2026-11-21,liga,401841322,Ganador,Flamengo,0.3996,casas + modelo,0
+2026-11-21,liga,401841322,Doble oportunidad,Palmeiras o Flamengo (no empate),0.725,casas + modelo,0
+2026-11-21,liga,401841322,Goles,Más de 2.5,0.5291,casas + modelo,0
+2026-11-21,liga,401841322,Goles (línea segura),Más de 1.5,0.7541,modelo,1
+2026-11-21,liga,401841322,Ambos anotan,Sí,0.5401,modelo,1

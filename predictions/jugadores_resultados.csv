@@ -1235,3 +1235,48 @@ fecha,sport,gid,player,stat,line,p,p_modelo,valor,acierto
 2026-11-20,nba,401909313,Keegan Murray,Puntos,10,0.575,0.535,13.0,1
 2026-11-20,nba,401909311,Dillon Brooks,Asistencias,2,0.57,0.6118,3.0,1
 2026-11-20,nba,401909313,Collin Sexton,Rebotes,2,0.55,0.5266,1.0,0
+2026-11-21,nba,401910023,Jaime Jaquez Jr.,Asistencias,2,0.905,0.8413,1.0,0
+2026-11-21,nba,401910023,Tyrese Maxey,Rebotes,2,0.89,0.8069,4.0,1
+2026-11-21,nba,401910023,Anfernee Simons,Puntos,10,0.875,0.5694,18.0,1
+2026-11-21,nba,401910023,VJ Edgecombe,Puntos,10,0.875,0.8371,16.0,1
+2026-11-21,nba,401910023,Myles Turner,Rebotes,4,0.855,0.845,6.0,1
+2026-11-21,nba,401910023,Jaime Jaquez Jr.,Puntos,10,0.845,0.7551,9.0,0
+2026-11-21,nba,401910023,Kentavious Caldwell-Pope,Puntos,5,0.835,0.5545,11.0,1
+2026-11-21,nba,401910023,Joel Embiid,Rebotes,10,0.835,0.3128,17.0,1
+2026-11-21,nba,401910023,Joel Embiid,Asistencias,6,0.825,0.1639,9.0,1
+2026-11-21,nba,401910023,Tyler Herro,Rebotes,6,0.795,0.1269,11.0,1
+2026-11-21,nba,401910023,Tyler Herro,Asistencias,4,0.785,0.5611,7.0,1
+2026-11-21,nba,401910023,LeBron James,Puntos,15,0.765,0.6003,21.0,1
+2026-11-21,nba,401910023,Ryan Rollins,Puntos,10,0.755,0.5353,8.0,0
+2026-11-21,nba,401910023,Jaime Jaquez Jr.,Rebotes,2,0.755,0.8591,0.0,0
+2026-11-21,nba,401910023,Ryan Rollins,Asistencias,2,0.755,0.882,1.0,0
+2026-11-21,nba,401910023,Brayden Burries,Asistencias,2,0.74,0.8092,4.0,1
+2026-11-21,nba,401910023,VJ Edgecombe,Rebotes,4,0.735,0.8537,3.0,0
+2026-11-21,nba,401910023,Myles Turner,Asistencias,4,0.73,0.3916,5.0,1
+2026-11-21,nba,401910023,VJ Edgecombe,Asistencias,4,0.705,0.7066,6.0,1
+2026-11-21,nba,401910023,Tyrese Maxey,Asistencias,4,0.695,0.8808,4.0,1
+2026-11-21,nba,401910023,Kyle Kuzma,Puntos,10,0.665,0.6636,12.0,1
+2026-11-21,nba,401910023,Joel Embiid,Puntos,20,0.655,0.5,26.0,1
+2026-11-21,nba,401910023,Tyrese Maxey,Puntos,20,0.645,0.8611,17.0,0
+2026-11-21,nba,401910023,Tyler Herro,Puntos,25,0.635,0.1614,50.0,1
+2026-11-21,nba,401910023,Myles Turner,Puntos,5,0.63,0.701,5.0,1
+2026-11-21,nba,401910023,Kentavious Caldwell-Pope,Rebotes,2,0.615,0.734,1.0,0
+2026-11-21,nba,401910023,Nate Ament,Puntos,5,0.61,0.7997,2.0,0
+2026-11-21,nba,401910023,LeBron James,Asistencias,6,0.605,0.7195,6.0,1
+2026-11-21,nba,401910023,Kyle Kuzma,Rebotes,6,0.575,0.1463,5.0,0
+2026-11-21,nba,401910023,LeBron James,Rebotes,8,0.57,0.3183,6.0,0
+2026-11-21,nba,401910023,Brayden Burries,Rebotes,4,0.57,0.8492,8.0,1
+2026-11-21,nba,401910023,Anfernee Simons,Rebotes,2,0.56,0.5793,0.0,0
+2026-11-21,nba,401910023,VJ Edgecombe,Asistencias,2,0.87,0.9485,6.0,1
+2026-11-21,nba,401910023,Nate Ament,Rebotes,2,0.83,0.7724,1.0,0
+2026-11-21,nba,401910023,Joel Embiid,Rebotes,6,0.8,0.7678,17.0,1
+2026-11-21,nba,401910023,Tyler Herro,Puntos,15,0.75,0.6569,50.0,1
+2026-11-21,nba,401910023,LeBron James,Rebotes,6,0.645,0.6236,6.0,1
+2026-11-21,nba,401910023,Kyle Kuzma,Asistencias,2,0.64,0.6796,1.0,0
+2026-11-21,nba,401910023,Kyle Kuzma,Rebotes,4,0.635,0.6038,5.0,1
+2026-11-21,nba,401910023,Jaime Jaquez Jr.,Rebotes,4,0.59,0.5712,0.0,0
+2026-11-21,nba,401910023,Tyler Herro,Rebotes,4,0.585,0.4783,11.0,1
+2026-11-21,nba,401910023,Anfernee Simons,Asistencias,2,0.565,0.447,1.0,0
+2026-11-21,nba,401910023,Joel Embiid,Asistencias,4,0.56,0.4492,9.0,1
+2026-11-21,nba,401910023,Brayden Burries,Puntos,10,0.555,0.6148,26.0,1
+2026-11-21,nba,401910023,Myles Turner,Asistencias,2,0.555,0.7396,5.0,1
