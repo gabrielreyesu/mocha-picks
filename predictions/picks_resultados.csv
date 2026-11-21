@@ -707,3 +707,68 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401880149,Goles,Más de 2.5,0.6399,casas + modelo,1
 2026-11-21,liga,401880149,Goles (línea segura),Más de 1.5,0.7263,modelo,1
 2026-11-21,liga,401880149,Ambos anotan,No,0.5263,modelo,0
+2026-11-21,liga,560642,Ganador,Chelsea,0.5239,Kalshi + modelo,0
+2026-11-21,liga,560642,Doble oportunidad,Chelsea o empate,0.7718,Kalshi + modelo,0
+2026-11-21,liga,560642,Goles,Más de 2.5,0.551,modelo,1
+2026-11-21,liga,560642,Goles (línea segura),Más de 1.5,0.7897,modelo,1
+2026-11-21,liga,560642,Ambos anotan,Sí,0.547,modelo,1
+2026-11-21,liga,560648,Ganador,Tottenham,0.6472,Kalshi + modelo,1
+2026-11-21,liga,560648,Doble oportunidad,Tottenham o empate,0.848,Kalshi + modelo,1
+2026-11-21,liga,560648,Goles,Más de 2.5,0.5996,modelo,0
+2026-11-21,liga,560648,Goles (línea segura),Más de 1.5,0.8139,modelo,1
+2026-11-21,liga,560648,Ambos anotan,Sí,0.5781,modelo,0
+2026-11-21,liga,560650,Ganador,Coventry,0.3984,Kalshi + modelo,1
+2026-11-21,liga,560650,Doble oportunidad,Coventry o Crystal Palace (no empate),0.7352,Kalshi + modelo,1
+2026-11-21,liga,560650,Goles,Más de 2.5,0.5503,modelo,1
+2026-11-21,liga,560650,Goles (línea segura),Más de 1.5,0.7891,modelo,1
+2026-11-21,liga,560650,Ambos anotan,Sí,0.5474,modelo,1
+2026-11-21,liga,401878940,Ganador,Royal Charleroi SC,0.4908,casas + modelo,0
+2026-11-21,liga,401878940,Doble oportunidad,Royal Charleroi SC o Sint-Truidense (no empate),0.7474,casas + modelo,0
+2026-11-21,liga,401878940,Goles,Más de 2.5,0.5507,casas + modelo,1
+2026-11-21,liga,401878940,Goles (línea segura),Más de 1.5,0.8266,modelo,1
+2026-11-21,liga,401878940,Ambos anotan,Sí,0.6071,modelo,1
+2026-11-21,liga,401878338,Ganador,Celtic,0.851,casas + modelo,1
+2026-11-21,liga,401878338,Doble oportunidad,Celtic o empate,0.9457,casas + modelo,1
+2026-11-21,liga,401878338,Goles,Más de 2.5,0.6161,modelo,1
+2026-11-21,liga,401878338,Goles (línea segura),Más de 1.5,0.8324,modelo,1
+2026-11-21,liga,401878338,Ambos anotan,No,0.5061,modelo,0
+2026-11-21,liga,401880160,Ganador,Bolton Wanderers,0.3671,casas + modelo,0
+2026-11-21,liga,401880160,Doble oportunidad,Bolton Wanderers o Portsmouth (no empate),0.729,casas + modelo,0
+2026-11-21,liga,401880160,Goles,Más de 2.5,0.5353,casas + modelo,0
+2026-11-21,liga,401880160,Goles (línea segura),Más de 1.5,0.7713,modelo,1
+2026-11-21,liga,401880160,Ambos anotan,Sí,0.5662,modelo,1
+2026-11-21,liga,401880154,Ganador,Sheffield United,0.6514,casas + modelo,1
+2026-11-21,liga,401880154,Doble oportunidad,Sheffield United o empate,0.858,casas + modelo,1
+2026-11-21,liga,401880154,Goles,Más de 2.5,0.5403,casas + modelo,1
+2026-11-21,liga,401880154,Goles (línea segura),Más de 1.5,0.7522,modelo,1
+2026-11-21,liga,401880154,Ambos anotan,No,0.5058,modelo,1
+2026-11-21,liga,401880150,Ganador,West Ham United,0.8162,casas + modelo,0
+2026-11-21,liga,401880150,Doble oportunidad,West Ham United o empate,0.9344,casas + modelo,1
+2026-11-21,liga,401880150,Goles,Más de 2.5,0.6757,modelo,0
+2026-11-21,liga,401880150,Goles (línea segura),Más de 1.5,0.8679,modelo,1
+2026-11-21,liga,401880150,Ambos anotan,Sí,0.5617,modelo,1
+2026-11-21,liga,401880152,Ganador,Birmingham City,0.3865,casas + modelo,0
+2026-11-21,liga,401880152,Doble oportunidad,Stoke City o Birmingham City (no empate),0.7095,casas + modelo,1
+2026-11-21,liga,401880152,Goles,Menos de 2.5,0.5509,casas + modelo,1
+2026-11-21,liga,401880152,Goles (línea segura),Más de 1.5,0.7565,modelo,0
+2026-11-21,liga,401880152,Ambos anotan,Sí,0.5535,modelo,0
+2026-11-21,liga,401880151,Ganador,Swansea City,0.3801,casas + modelo,0
+2026-11-21,liga,401880151,Doble oportunidad,Swansea City o West Bromwich Albion (no empate),0.7217,casas + modelo,0
+2026-11-21,liga,401880151,Goles,Más de 2.5,0.5084,casas + modelo,1
+2026-11-21,liga,401880151,Goles (línea segura),Más de 1.5,0.7346,modelo,1
+2026-11-21,liga,401880151,Ambos anotan,Sí,0.528,modelo,1
+2026-11-21,liga,564751,Ganador,Vallecano,0.5039,Kalshi + modelo,0
+2026-11-21,liga,564751,Doble oportunidad,Vallecano o empate,0.7689,Kalshi + modelo,0
+2026-11-21,liga,564751,Goles,Menos de 2.5,0.5528,modelo,1
+2026-11-21,liga,564751,Goles (línea segura),Más de 1.5,0.7087,modelo,0
+2026-11-21,liga,564751,Ambos anotan,Sí,0.5067,modelo,0
+2026-11-21,liga,401883108,Ganador,Real Sociedad II,0.5487,casas + modelo,0
+2026-11-21,liga,401883108,Doble oportunidad,Real Sociedad II o empate,0.7784,casas + modelo,0
+2026-11-21,liga,401883108,Goles,Más de 2.5,0.6038,casas + modelo,1
+2026-11-21,liga,401883108,Goles (línea segura),Más de 1.5,0.7646,modelo,1
+2026-11-21,liga,401883108,Ambos anotan,Sí,0.5585,modelo,0
+2026-11-21,liga,401875541,Ganador,PSV Eindhoven,0.6206,casas + modelo,1
+2026-11-21,liga,401875541,Doble oportunidad,NEC Nijmegen o PSV Eindhoven (no empate),0.8107,casas + modelo,1
+2026-11-21,liga,401875541,Goles,Más de 2.5,0.6037,modelo,1
+2026-11-21,liga,401875541,Goles (línea segura),Más de 1.5,0.8266,modelo,1
+2026-11-21,liga,401875541,Ambos anotan,Sí,0.6087,modelo,1
