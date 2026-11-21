@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 21 Nov 2026 10:52 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 21 Nov 2026 11:47 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -17,11 +17,11 @@
 ## NBA
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Sat 21 Nov 12:00 | Milwaukee Bucks en Philadelphia 76ers | Philadelphia 76ers | 84% | 82% | 82% | 81% | 12.1 pts | 226 pts | 5 / 1 |
-| Sat 21 Nov 18:30 | Portland Trail Blazers en New York Knicks | New York Knicks | 69% | 58% | 59% | 58% | 5.7 pts | 222 pts | 1 / 4 |
-| Sat 21 Nov 19:00 | LA Clippers en Dallas Mavericks | Dallas Mavericks | 54% | 66% | 66% | 66% | 1.5 pts | 234 pts | 3 / 3 |
+| Sat 21 Nov 12:00 | Milwaukee Bucks en Philadelphia 76ers | Philadelphia 76ers | 84% | 84% | 84% | 83% | 12.1 pts | 226 pts | 5 / 1 |
+| Sat 21 Nov 18:30 | Portland Trail Blazers en New York Knicks | New York Knicks | 69% | 59% | 60% | 58% | 5.7 pts | 222 pts | 1 / 4 |
+| Sat 21 Nov 19:00 | LA Clippers en Dallas Mavericks | Dallas Mavericks | 54% | 66% | 66% | 64% | 1.5 pts | 234 pts | 3 / 3 |
 | Sat 21 Nov 19:00 | Memphis Grizzlies en Minnesota Timberwolves | Minnesota Timberwolves | 72% | 68% | 68% | 68% | 6.8 pts | 233 pts | 3 / 6 |
-| Sat 21 Nov 19:00 | New Orleans Pelicans en San Antonio Spurs | San Antonio Spurs | 93% | 92% | 90% | 90% | 19.1 pts | 235 pts | 3 / 4 |
+| Sat 21 Nov 19:00 | New Orleans Pelicans en San Antonio Spurs | San Antonio Spurs | 93% | 90% | 90% | 90% | 19.1 pts | 235 pts | 3 / 4 |
 | Sat 21 Nov 21:00 | Boston Celtics en Sacramento Kings | Boston Celtics | 85% | 86% | 86% | 85% | 12.9 pts | 225 pts | 3 / 0 |
 | Sun 22 Nov 14:30 | Detroit Pistons en Atlanta Hawks | Detroit Pistons | 58% | 57% | 56% | — | 2.4 pts | 233 pts | 6 / 5 |
 | Sun 22 Nov 17:00 | Oklahoma City Thunder en Miami Heat | Oklahoma City Thunder | 58% | 48% | 46% | — | 2.0 pts | 233 pts | 0 / 6 |
@@ -88,27 +88,23 @@
 ## Fútbol: ligas (Premier, La Liga, Serie A, Bundesliga, Ligue 1)
 | Fecha (hora Chicago) | Liga | Partido | Modelo: local / empate / visita | Kalshi: local / empate / visita | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|
-| Sat 21 Nov 11:00 | Serie A | Parma vs Roma | 15% / 21% / 65% | 9% / 16% / 75% | 74% / 49% / 26% | 52% | 6% / 30% | — |
-| Sat 21 Nov 11:30 | Premier League | Newcastle vs Arsenal | 17% / 21% / 62% | 16% / 22% / 62% | 78% / 55% / 32% | 54% | 10% / 28% | — |
-| Sat 21 Nov 11:30 | La Liga | Sevilla vs Betis | 29% / 29% / 42% | 30% / 26% / 43% | 71% / 45% / 23% | 52% | 14% / 15% | — |
-| Sat 21 Nov 11:30 | Bundesliga | Schalke 04 vs Stuttgart | 21% / 24% / 55% | 24% / 23% / 52% | 85% / 67% / 45% | 60% | 6% / 42% | — |
-| Sat 21 Nov 13:45 | Ligue 1 | Strasbourg vs Brest | 48% / 26% / 26% | 42% / 25% / 31% | 79% / 55% / 33% | 55% | 31% / 8% | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Lille vs Lyon | 48% / 29% / 24% | 40% / 29% / 30% | 72% / 46% / 25% | 51% | 19% / 12% | — |
-| Sat 21 Nov 13:45 | Ligue 1 | Lens vs Toulouse | 53% / 26% / 21% | 50% / 24% / 24% | 78% / 54% / 32% | 54% | 30% / 8% | — |
 | Sat 21 Nov 13:45 | Ligue 1 | Monaco vs Auxerre | 63% / 22% / 15% | 70% / 16% / 12% | 82% / 60% / 38% | 56% | 36% / 7% | — |
+| Sat 21 Nov 13:45 | Ligue 1 | Lens vs Toulouse | 53% / 26% / 21% | 50% / 24% / 24% | 78% / 54% / 32% | 54% | 30% / 8% | — |
+| Sat 21 Nov 13:45 | Ligue 1 | Strasbourg vs Brest | 48% / 26% / 26% | 42% / 25% / 31% | 79% / 55% / 33% | 55% | 31% / 8% | — |
 | Sat 21 Nov 13:45 | Serie A | Napoli vs Torino | 58% / 26% / 16% | 64% / 20% / 14% | 76% / 50% / 27% | 52% | 29% / 7% | — |
 | Sat 21 Nov 14:00 | La Liga | Real Madrid vs Celta | 70% / 22% / 9% | 82% / 11% / 6% | 73% / 47% / 25% | 50% | 29% / 6% | — |
 | Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | 72% / 19% / 9% | 72% / 16% / 11% | 77% / 52% / 29% | 49% | 40% / 3% | — |
 | Sun 22 Nov 07:00 | La Liga | Barcelona vs Villarreal | 76% / 16% / 8% | 81% / 11% / 8% | 81% / 59% / 36% | 52% | 47% / 3% | — |
-| Sun 22 Nov 08:00 | Ligue 1 | Paris FC vs Angers | 65% / 22% / 13% | 72% / 17% / 10% | 77% / 53% / 31% | 52% | 34% / 6% | — |
-| Sun 22 Nov 08:00 | Serie A | Bologna vs Udinese | 53% / 26% / 21% | 56% / 24% / 18% | 76% / 52% / 28% | 55% | 10% / 23% | — |
 | Sun 22 Nov 08:00 | Serie A | Sassuolo vs Genoa | 37% / 29% / 35% | 37% / 28% / 34% | 77% / 52% / 29% | 56% | 17% / 15% | — |
+| Sun 22 Nov 08:00 | Serie A | Bologna vs Udinese | 53% / 26% / 21% | 56% / 24% / 18% | 76% / 52% / 28% | 55% | 10% / 23% | — |
 | Sun 22 Nov 08:00 | Premier League | Hull vs Brighton | 25% / 25% / 50% | 15% / 21% / 64% | 79% / 57% / 34% | 56% | 15% / 21% | — |
+| Sun 22 Nov 08:00 | Ligue 1 | Paris FC vs Angers | 65% / 22% / 13% | 72% / 17% / 10% | 77% / 53% / 31% | 52% | 34% / 6% | — |
 | Sun 22 Nov 08:30 | Bundesliga | Augsburg vs Mainz | 41% / 28% / 32% | 34% / 24% / 40% | 82% / 60% / 38% | 61% | 18% / 20% | — |
 | Sun 22 Nov 09:15 | La Liga | Santander vs Sociedad | 39% / 28% / 33% | 30% / 22% / 46% | 81% / 59% / 36% | 59% | 17% / 15% | — |
 | Sun 22 Nov 10:15 | Ligue 1 | Lorient vs Rennes | 40% / 27% / 34% | 34% / 26% / 38% | 82% / 62% / 39% | 59% | 25% / 12% | — |
-| Sun 22 Nov 10:30 | Bundesliga | Werder Bremen vs Hamburg | 45% / 28% / 27% | 57% / 21% / 20% | 80% / 56% / 34% | 59% | 23% / 14% | — |
 | Sun 22 Nov 10:30 | Premier League | Liverpool vs Man United | 48% / 27% / 25% | 56% / 22% / 22% | 77% / 52% / 29% | 54% | 19% / 16% | — |
+| Sun 22 Nov 10:30 | Bundesliga | Werder Bremen vs Hamburg | 45% / 28% / 27% | 57% / 21% / 20% | 80% / 56% / 34% | 59% | 23% / 14% | — |
 | Sun 22 Nov 11:00 | Serie A | Milan vs Frosinone | 64% / 23% / 14% | 62% / 20% / 16% | 80% / 57% / 34% | 56% | 33% / 6% | — |
 | Sun 22 Nov 11:30 | La Liga | Osasuna vs Malaga | 58% / 26% / 15% | 55% / 25% / 20% | 71% / 45% / 23% | 49% | 27% / 6% | — |
 | Sun 22 Nov 13:45 | Serie A | Atalanta vs Inter | 19% / 23% / 58% | 18% / 20% / 60% | 75% / 51% / 27% | 54% | 9% / 26% | — |
@@ -126,8 +122,8 @@
 | Sat 28 Nov 08:00 | Serie A | Frosinone vs Parma | 47% / 28% / 24% | 64% / 19% / 16% | 76% / 51% / 28% | 55% | 22% / 10% | — |
 | Sat 28 Nov 08:30 | Bundesliga | Hamburg vs Bayern Munich | 12% / 19% / 69% | 6% / 6% / 85% | 83% / 62% / 40% | 58% | 5% / 44% | — |
 | Sat 28 Nov 08:30 | Bundesliga | Paderborn vs Schalke 04 | 43% / 28% / 29% | 39% / 28% / 32% | 81% / 57% / 35% | 59% | 20% / 17% | — |
-| Sat 28 Nov 08:30 | Bundesliga | FC Koln vs Elversberg | 33% / 27% / 40% | 48% / 24% / 26% | 83% / 60% / 39% | 61% | 24% / 15% | — |
 | Sat 28 Nov 08:30 | Bundesliga | Mainz vs Union Berlin | 48% / 27% / 25% | 64% / 20% / 15% | 82% / 59% / 37% | 60% | 26% / 13% | — |
+| Sat 28 Nov 08:30 | Bundesliga | FC Koln vs Elversberg | 33% / 27% / 40% | 48% / 24% / 26% | 83% / 60% / 39% | 61% | 24% / 15% | — |
 | Sat 28 Nov 09:00 | Premier League | Man United vs Brentford | 47% / 25% / 28% | 48% / 25% / 26% | 82% / 61% / 38% | 57% | 30% / 11% | — |
 | Sat 28 Nov 09:00 | Premier League | Leeds vs Coventry | 54% / 25% / 21% | 60% / 22% / 16% | 78% / 53% / 30% | 51% | 36% / 6% | — |
 | Sat 28 Nov 09:15 | La Liga | Malaga vs Ath Bilbao | 24% / 27% / 49% | 20% / 24% / 55% | 71% / 46% / 24% | 52% | 11% / 19% | — |
@@ -147,10 +143,10 @@
 | Sun 29 Nov 07:00 | La Liga | Valencia vs Osasuna | 46% / 29% / 25% | 44% / 29% / 28% | 74% / 48% / 26% | 54% | 17% / 13% | — |
 | Sun 29 Nov 08:00 | Ligue 1 | Auxerre vs Marseille | 27% / 27% / 47% | 24% / 24% / 52% | 73% / 48% / 26% | 52% | 13% / 19% | — |
 | Sun 29 Nov 08:00 | Serie A | Sassuolo vs Napoli | 22% / 25% / 53% | 21% / 22% / 56% | 77% / 54% / 30% | 57% | 11% / 23% | — |
-| Sun 29 Nov 08:05 | Premier League | Crystal Palace vs Hull | 44% / 28% / 28% | 52% / 24% / 22% | 73% / 47% / 25% | 48% | 28% / 8% | — |
+| Sun 29 Nov 08:05 | Premier League | Fulham vs Bournemouth | 35% / 26% / 39% | 37% / 26% / 37% | 81% / 59% / 36% | 57% | 24% / 14% | — |
 | Sun 29 Nov 08:05 | Premier League | Sunderland vs Tottenham | 40% / 29% / 31% | 29% / 29% / 42% | 71% / 46% / 24% | 49% | 17% / 15% | — |
 | Sun 29 Nov 08:05 | Premier League | Brighton vs Newcastle | 60% / 23% / 17% | 62% / 22% / 18% | 79% / 54% / 32% | 51% | 38% / 6% | — |
-| Sun 29 Nov 08:05 | Premier League | Fulham vs Bournemouth | 35% / 26% / 39% | 37% / 26% / 37% | 81% / 59% / 36% | 57% | 24% / 14% | — |
+| Sun 29 Nov 08:05 | Premier League | Crystal Palace vs Hull | 44% / 28% / 28% | 52% / 24% / 22% | 73% / 47% / 25% | 48% | 28% / 8% | — |
 | Sun 29 Nov 08:30 | Bundesliga | Freiburg vs RB Leipzig | 41% / 27% / 32% | 38% / 24% / 39% | 83% / 61% / 39% | 60% | 29% / 12% | — |
 | Sun 29 Nov 09:15 | La Liga | La Coruna vs Barcelona | 11% / 19% / 71% | 10% / 16% / 74% | 79% / 58% / 34% | 53% | 4% / 40% | — |
 | Sun 29 Nov 10:15 | Ligue 1 | Toulouse vs Rennes | 38% / 27% / 35% | 46% / 46% / 46% | 80% / 59% / 36% | 58% | 21% / 15% | — |
@@ -167,10 +163,10 @@
 | Mon 30 Nov 14:00 | La Liga | Espanol vs Getafe | 39% / 33% / 28% | 44% / 32% / 26% | 64% / 39% / 18% | 45% | 16% / 8% | — |
 | Tue 01 Dec 14:00 | Premier League | Coventry vs Ipswich | 51% / 25% / 24% | — / — / — | 83% / 62% / 39% | 58% | 24% / 14% | — |
 | Wed 02 Dec 12:00 | La Liga | Sociedad vs Real Madrid | 21% / 25% / 54% | 49% / 49% / 52% | 77% / 55% / 31% | 56% | 9% / 25% | — |
+| Wed 02 Dec 13:30 | Premier League | Liverpool vs Sunderland | 61% / 23% / 15% | 50% / 50% / 49% | 78% / 54% / 32% | 53% | 32% / 8% | — |
 | Wed 02 Dec 13:30 | Premier League | Hull vs Nott'm Forest | 37% / 26% / 36% | 49% / 50% / 48% | 81% / 60% / 38% | 58% | 16% / 22% | — |
 | Wed 02 Dec 13:30 | Premier League | Chelsea vs Crystal Palace | 57% / 24% / 19% | 49% / 50% / 49% | 80% / 57% / 35% | 55% | 32% / 9% | — |
 | Wed 02 Dec 13:30 | Premier League | Man City vs Leeds | 67% / 20% / 14% | 48% / 50% / 49% | 81% / 57% / 35% | 51% | 44% / 4% | — |
-| Wed 02 Dec 13:30 | Premier League | Liverpool vs Sunderland | 61% / 23% / 15% | 50% / 50% / 49% | 78% / 54% / 32% | 53% | 32% / 8% | — |
 | Wed 02 Dec 14:15 | Premier League | Aston Villa vs Everton | 46% / 28% / 26% | 49% / 50% / 48% | 74% / 49% / 27% | 52% | 20% / 14% | — |
 | Wed 02 Dec 14:15 | Premier League | Brentford vs Arsenal | 22% / 25% / 53% | 48% / 50% / 49% | 75% / 50% / 28% | 53% | 16% / 18% | — |
 | Wed 02 Dec 14:15 | Premier League | Newcastle vs Man United | 37% / 26% / 37% | — / — / — | 81% / 59% / 36% | 57% | 16% / 21% | — |
@@ -184,24 +180,24 @@
 | Sat 05 Dec 06:30 | Premier League | Chelsea vs Liverpool | 35% / 26% / 39% | 50% / 50% / 50% | 82% / 61% / 38% | 58% | 19% / 19% | — |
 | Sat 05 Dec 07:00 | La Liga | Santander vs La Coruna | 56% / 25% / 19% | 50% / 50% / 49% | 79% / 56% / 33% | 55% | 33% / 6% | — |
 | Sat 05 Dec 08:00 | Serie A | Monza vs Como | 11% / 17% / 72% | 50% / 50% / 50% | 75% / 52% / 28% | 51% | 4% / 39% | — |
-| Sat 05 Dec 08:30 | Bundesliga | Freiburg vs Hoffenheim | 52% / 25% / 23% | 48% / 48% / 48% | 85% / 65% / 44% | 62% | 33% / 10% | — |
 | Sat 05 Dec 08:30 | Bundesliga | RB Leipzig vs Mainz | 63% / 21% / 15% | 48% / 48% / 48% | 87% / 68% / 47% | 61% | 41% / 7% | — |
+| Sat 05 Dec 08:30 | Bundesliga | Freiburg vs Hoffenheim | 52% / 25% / 23% | 48% / 48% / 48% | 85% / 65% / 44% | 62% | 33% / 10% | — |
 | Sat 05 Dec 08:30 | Bundesliga | Augsburg vs FC Koln | 51% / 26% / 22% | 47% / 48% / 48% | 82% / 58% / 36% | 59% | 29% / 11% | — |
 | Sat 05 Dec 08:30 | Bundesliga | Leverkusen vs M'gladbach | 71% / 18% / 11% | 47% / 47% / 48% | 86% / 65% / 43% | 57% | 47% / 5% | — |
 | Sat 05 Dec 08:30 | Bundesliga | Union Berlin vs Hamburg | 42% / 28% / 30% | 47% / 48% / 48% | 80% / 56% / 34% | 58% | 27% / 11% | — |
-| Sat 05 Dec 09:00 | Premier League | Leeds vs Ipswich | 60% / 23% / 17% | 50% / 50% / 50% | 82% / 59% / 37% | 55% | 35% / 8% | — |
-| Sat 05 Dec 09:00 | Premier League | Bournemouth vs Hull | 65% / 21% / 14% | 50% / 50% / 50% | 76% / 51% / 29% | 46% | 43% / 3% | — |
 | Sat 05 Dec 09:00 | Premier League | Aston Villa vs Crystal Palace | 62% / 23% / 16% | 50% / 50% / 50% | 79% / 55% / 33% | 53% | 34% / 8% | — |
+| Sat 05 Dec 09:00 | Premier League | Bournemouth vs Hull | 65% / 21% / 14% | 50% / 50% / 50% | 76% / 51% / 29% | 46% | 43% / 3% | — |
+| Sat 05 Dec 09:00 | Premier League | Leeds vs Ipswich | 60% / 23% / 17% | 50% / 50% / 50% | 82% / 59% / 37% | 55% | 35% / 8% | — |
 | Sat 05 Dec 09:00 | Premier League | Man United vs Coventry | 58% / 23% / 20% | 50% / 50% / 50% | 83% / 61% / 39% | 55% | 39% / 7% | — |
 | Sat 05 Dec 09:15 | La Liga | Vallecano vs Levante | 54% / 27% / 19% | 50% / 50% / 50% | 73% / 46% / 25% | 49% | 31% / 5% | — |
 | Sat 05 Dec 10:15 | Ligue 1 | Lille vs Auxerre | 66% / 22% / 12% | 48% / 48% / 47% | 77% / 52% / 30% | 53% | 32% / 7% | — |
 | Sat 05 Dec 11:00 | Serie A | Frosinone vs Inter | 14% / 21% / 65% | 50% / 50% / 50% | 79% / 57% / 33% | 56% | 7% / 31% | — |
 | Sat 05 Dec 11:30 | Bundesliga | Ein Frankfurt vs Werder Bremen | 45% / 28% / 27% | 48% / 48% / 48% | 81% / 57% / 35% | 59% | 24% / 14% | — |
-| Sat 05 Dec 11:30 | Premier League | Nott'm Forest vs Brighton | 28% / 27% / 46% | 50% / 50% / 50% | 72% / 47% / 25% | 50% | 14% / 18% | — |
 | Sat 05 Dec 11:30 | La Liga | Villarreal vs Sociedad | 52% / 26% / 22% | 50% / 50% / 50% | 81% / 60% / 36% | 58% | 29% / 8% | — |
-| Sat 05 Dec 13:45 | Ligue 1 | Lens vs Le Havre | 70% / 20% / 10% | 48% / 48% / 48% | 78% / 53% / 31% | 50% | 41% / 4% | — |
-| Sat 05 Dec 13:45 | Ligue 1 | Monaco vs Angers | 67% / 21% / 12% | 48% / 48% / 48% | 78% / 54% / 31% | 52% | 36% / 6% | — |
+| Sat 05 Dec 11:30 | Premier League | Nott'm Forest vs Brighton | 28% / 27% / 46% | 50% / 50% / 50% | 72% / 47% / 25% | 50% | 14% / 18% | — |
 | Sat 05 Dec 13:45 | Ligue 1 | Strasbourg vs Lorient | 44% / 28% / 28% | 48% / 48% / 48% | 75% / 50% / 28% | 53% | 22% / 11% | — |
+| Sat 05 Dec 13:45 | Ligue 1 | Monaco vs Angers | 67% / 21% / 12% | 48% / 48% / 48% | 78% / 54% / 31% | 52% | 36% / 6% | — |
+| Sat 05 Dec 13:45 | Ligue 1 | Lens vs Le Havre | 70% / 20% / 10% | 48% / 48% / 48% | 78% / 53% / 31% | 50% | 41% / 4% | — |
 | Sat 05 Dec 13:45 | Serie A | Napoli vs Lecce | 63% / 24% / 13% | 50% / 50% / 50% | 75% / 49% / 26% | 51% | 29% / 6% | — |
 | Sat 05 Dec 13:45 | Ligue 1 | Paris FC vs Le Mans | 57% / 25% / 18% | 47% / 48% / 48% | 79% / 56% / 34% | 56% | 29% / 9% | — |
 | Sat 05 Dec 14:00 | La Liga | Barcelona vs Celta | 76% / 18% / 6% | 54% / 50% / 50% | 75% / 49% / 27% | 49% | 37% / 4% | — |
@@ -280,59 +276,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Ganador | Roma | 77% | Alta | Kalshi + modelo | 75¢ |
-| Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Doble oportunidad | Roma o empate | 92% | Alta | Kalshi + modelo | — |
-| Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
-| Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
-| Sat 21 Nov 11:00 | Serie A | Parma vs Roma | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Ganador | Racing Genk | 71% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Doble oportunidad | Racing Genk o empate | 88% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Goles | Más de 2.5 | 60% | Media | modelo | — |
-| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
-| Sat 21 Nov 11:15 | Liga de Bélgica | Racing Genk vs RAAL La Louvière | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Sat 21 Nov 11:30 | Premier League | Newcastle vs Arsenal | Ganador | Arsenal | 64% | Media | Kalshi + modelo | 62¢ |
-| Sat 21 Nov 11:30 | Premier League | Newcastle vs Arsenal | Doble oportunidad | Arsenal o empate | 85% | Alta | Kalshi + modelo | — |
-| Sat 21 Nov 11:30 | Premier League | Newcastle vs Arsenal | Goles | Más de 2.5 | 55% | Baja | modelo | — |
-| Sat 21 Nov 11:30 | Premier League | Newcastle vs Arsenal | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Sat 21 Nov 11:30 | Premier League | Newcastle vs Arsenal | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Sat 21 Nov 11:30 | La Liga | Sevilla vs Betis | Ganador | Betis | 44% | Baja | Kalshi + modelo | 43¢ |
-| Sat 21 Nov 11:30 | La Liga | Sevilla vs Betis | Doble oportunidad | Sevilla o Betis (no empate) | 74% | Alta | Kalshi + modelo | — |
-| Sat 21 Nov 11:30 | La Liga | Sevilla vs Betis | Goles | Menos de 2.5 | 55% | Media | modelo | — |
-| Sat 21 Nov 11:30 | La Liga | Sevilla vs Betis | Goles (línea segura) | Más de 1.5 | 71% | Alta | modelo | — |
-| Sat 21 Nov 11:30 | La Liga | Sevilla vs Betis | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Sat 21 Nov 11:30 | Bundesliga | Schalke 04 vs Stuttgart | Ganador | Stuttgart | 55% | Baja | Kalshi + modelo | 52¢ |
-| Sat 21 Nov 11:30 | Bundesliga | Schalke 04 vs Stuttgart | Doble oportunidad | Stuttgart o empate | 77% | Alta | Kalshi + modelo | — |
-| Sat 21 Nov 11:30 | Bundesliga | Schalke 04 vs Stuttgart | Goles | Más de 2.5 | 67% | Media | modelo | — |
-| Sat 21 Nov 11:30 | Bundesliga | Schalke 04 vs Stuttgart | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Sat 21 Nov 11:30 | Bundesliga | Schalke 04 vs Stuttgart | Ambos anotan | Sí | 60% | Media | modelo | — |
-| Sat 21 Nov 11:30 | LaLiga 2 | Castellón vs Eldense | Ganador | Castellón | 73% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:30 | LaLiga 2 | Castellón vs Eldense | Doble oportunidad | Castellón o empate | 90% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:30 | LaLiga 2 | Castellón vs Eldense | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Sat 21 Nov 11:30 | LaLiga 2 | Castellón vs Eldense | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Sat 21 Nov 11:30 | LaLiga 2 | Castellón vs Eldense | Ambos anotan | No | 52% | Baja | modelo | — |
-| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Ganador | Heart of Midlothian | 46% | Baja | casas + modelo | — |
-| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Doble oportunidad | Dundee o Heart of Midlothian (no empate) | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
-| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
-| Sat 21 Nov 11:45 | Premiership de Escocia | Dundee vs Heart of Midlothian | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Ganador | FC Utrecht | 49% | Baja | casas + modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Doble oportunidad | FC Utrecht o SC Cambuur (no empate) | 78% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Goles | Más de 2.5 | 69% | Media | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | FC Utrecht vs SC Cambuur | Ambos anotan | Sí | 70% | Media | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Ganador | Feyenoord Rotterdam | 84% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Doble oportunidad | Feyenoord Rotterdam o empate | 94% | Alta | casas + modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Goles | Más de 2.5 | 72% | Alta | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
-| Sat 21 Nov 11:45 | Eredivisie | Feyenoord Rotterdam vs Excelsior | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Ganador | Philadelphia 76ers | 82% | Alta | Kalshi + casas + modelo | 82¢ |
+| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Ganador | Philadelphia 76ers | 84% | Alta | Kalshi + casas + modelo | 84¢ |
 | Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 11.5 | 50% | Baja | casas | 48¢ |
-| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Hándicap seguro | Philadelphia 76ers gana por más de 2.5 | 75% | Alta | casas | 77¢ |
-| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Total de puntos | Menos de 229.5 | 52% | Baja | casas | 52¢ |
-| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Puntos (línea segura) | Más de 215.5 | 77% | Alta | casas | 78¢ |
-| Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Ganador | Defensa y Justicia | 47% | Baja | casas + modelo | — |
-| Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Doble oportunidad | Defensa y Justicia o empate | 76% | Alta | casas + modelo | — |
-| Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Goles | Menos de 2.5 | 58% | Media | casas + modelo | — |
+| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Hándicap seguro | Philadelphia 76ers gana por más de 2.5 | 75% | Alta | casas | 78¢ |
+| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Total de puntos | Más de 231.5 | 50% | Baja | casas | 49¢ |
+| Sat 21 Nov 12:00 | NBA | Milwaukee Bucks en Philadelphia 76ers | Puntos (línea segura) | Más de 217.5 | 78% | Alta | casas | 78¢ |
+| Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Ganador | Defensa y Justicia | 51% | Baja | casas + modelo | — |
+| Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Doble oportunidad | Defensa y Justicia o empate | 79% | Alta | casas + modelo | — |
+| Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Goles (línea segura) | Más de 1.5 | 70% | Media | modelo | — |
 | Sat 21 Nov 12:00 | Liga Profesional Argentina | Defensa y Justicia vs Barracas Central | Ambos anotan | No | 52% | Baja | modelo | — |
 | Sat 21 Nov 12:30 | Serie B | Empoli vs Pisa | Ganador | Pisa | 54% | Baja | casas + modelo | — |
@@ -420,18 +371,18 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
 | Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Goles (línea segura) | Más de 1.5 | 69% | Media | modelo | — |
 | Sat 21 Nov 14:00 | Liga Profesional Argentina | Argentinos Juniors vs Independiente | Ambos anotan | No | 54% | Baja | modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ganador | Telstar | 47% | Baja | casas + modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ganador | Telstar | 46% | Baja | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Doble oportunidad | Telstar o PEC Zwolle (no empate) | 75% | Alta | casas + modelo | — |
-| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 21 Nov 14:00 | Eredivisie | Telstar vs PEC Zwolle | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Ganador | Bahia | 67% | Media | casas + modelo | — |
+| Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Ganador | Bahia | 68% | Media | casas + modelo | — |
 | Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Doble oportunidad | Bahia o empate | 86% | Alta | casas + modelo | — |
-| Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Goles | Más de 2.5 | 56% | Media | modelo | — |
 | Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sat 21 Nov 14:30 | Brasileirão | Bahia vs Coritiba | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Sat 21 Nov 15:00 | MLS | FC Dallas vs Portland Timbers | Ganador | FC Dallas | 52% | Baja | casas + modelo | — |
-| Sat 21 Nov 15:00 | MLS | FC Dallas vs Portland Timbers | Doble oportunidad | FC Dallas o Portland Timbers (no empate) | 78% | Alta | casas + modelo | — |
+| Sat 21 Nov 15:00 | MLS | FC Dallas vs Portland Timbers | Ganador | FC Dallas | 53% | Baja | casas + modelo | — |
+| Sat 21 Nov 15:00 | MLS | FC Dallas vs Portland Timbers | Doble oportunidad | FC Dallas o Portland Timbers (no empate) | 77% | Alta | casas + modelo | — |
 | Sat 21 Nov 15:00 | MLS | FC Dallas vs Portland Timbers | Goles | Más de 2.5 | 58% | Media | modelo | — |
 | Sat 21 Nov 15:00 | MLS | FC Dallas vs Portland Timbers | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
 | Sat 21 Nov 15:00 | MLS | FC Dallas vs Portland Timbers | Ambos anotan | Sí | 59% | Media | modelo | — |
@@ -445,7 +396,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Goles | Más de 2.5 | 60% | Media | modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 21 Nov 16:50 | Liga MX | Pachuca vs Toluca | Ambos anotan | Sí | 63% | Media | modelo | — |
-| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Ganador | Santos | 39% | Baja | casas + modelo | — |
+| Sat 21 Nov 17:00 | Liga MX | Santos vs León | Ganador | Santos | 40% | Baja | casas + modelo | — |
 | Sat 21 Nov 17:00 | Liga MX | Santos vs León | Doble oportunidad | Santos o León (no empate) | 75% | Alta | casas + modelo | — |
 | Sat 21 Nov 17:00 | Liga MX | Santos vs León | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Sat 21 Nov 17:00 | Liga MX | Santos vs León | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
@@ -460,34 +411,34 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Sat 21 Nov 18:00 | Brasileirão | Chapecoense vs Cruzeiro | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Sat 21 Nov 18:30 | NBA | Portland Trail Blazers en New York Knicks | Ganador | New York Knicks | 58% | Media | Kalshi + casas + modelo | 58¢ |
+| Sat 21 Nov 18:30 | NBA | Portland Trail Blazers en New York Knicks | Ganador | New York Knicks | 58% | Media | Kalshi + casas + modelo | 59¢ |
 | Sat 21 Nov 18:30 | NBA | Portland Trail Blazers en New York Knicks | Hándicap | New York Knicks gana por más de 3.5 | 50% | Baja | casas | 50¢ |
 | Sat 21 Nov 18:30 | NBA | Portland Trail Blazers en New York Knicks | Total de puntos | Menos de 216.5 | 52% | Baja | casas | 52¢ |
 | Sat 21 Nov 18:30 | NBA | Portland Trail Blazers en New York Knicks | Puntos (línea segura) | Más de 202.5 | 77% | Alta | casas | 78¢ |
-| Sat 21 Nov 19:00 | NBA | LA Clippers en Dallas Mavericks | Ganador | Dallas Mavericks | 66% | Media | Kalshi + casas + modelo | 66¢ |
-| Sat 21 Nov 19:00 | NBA | LA Clippers en Dallas Mavericks | Hándicap | Dallas Mavericks gana por más de 5.5 | 50% | Baja | casas | 50¢ |
-| Sat 21 Nov 19:00 | NBA | LA Clippers en Dallas Mavericks | Total de puntos | Más de 230.5 | 50% | Baja | casas | 49¢ |
-| Sat 21 Nov 19:00 | NBA | LA Clippers en Dallas Mavericks | Puntos (línea segura) | Más de 216.5 | 78% | Alta | casas | 80¢ |
+| Sat 21 Nov 19:00 | NBA | LA Clippers en Dallas Mavericks | Ganador | Dallas Mavericks | 65% | Media | Kalshi + casas + modelo | 66¢ |
+| Sat 21 Nov 19:00 | NBA | LA Clippers en Dallas Mavericks | Hándicap | Dallas Mavericks gana por más de 4.5 | 50% | Baja | casas | 53¢ |
+| Sat 21 Nov 19:00 | NBA | LA Clippers en Dallas Mavericks | Total de puntos | Más de 230.5 | 50% | Baja | casas | 50¢ |
+| Sat 21 Nov 19:00 | NBA | LA Clippers en Dallas Mavericks | Puntos (línea segura) | Más de 216.5 | 78% | Alta | casas | 79¢ |
 | Sat 21 Nov 19:00 | NBA | Memphis Grizzlies en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 68% | Media | Kalshi + casas + modelo | 68¢ |
-| Sat 21 Nov 19:00 | NBA | Memphis Grizzlies en Minnesota Timberwolves | Hándicap | Minnesota Timberwolves gana por más de 6.5 | 50% | Baja | casas | 49¢ |
+| Sat 21 Nov 19:00 | NBA | Memphis Grizzlies en Minnesota Timberwolves | Hándicap | Minnesota Timberwolves gana por más de 6.5 | 50% | Baja | casas | 50¢ |
 | Sat 21 Nov 19:00 | NBA | Memphis Grizzlies en Minnesota Timberwolves | Total de puntos | Más de 228.5 | 50% | Baja | casas | 54¢ |
 | Sat 21 Nov 19:00 | NBA | Memphis Grizzlies en Minnesota Timberwolves | Puntos (línea segura) | Más de 214.5 | 78% | Alta | casas | 80¢ |
-| Sat 21 Nov 19:00 | NBA | New Orleans Pelicans en San Antonio Spurs | Ganador | San Antonio Spurs | 92% | Alta | Kalshi + casas + modelo | 92¢ |
-| Sat 21 Nov 19:00 | NBA | New Orleans Pelicans en San Antonio Spurs | Hándicap | San Antonio Spurs gana por más de 18.5 | 50% | Baja | casas | 49¢ |
+| Sat 21 Nov 19:00 | NBA | New Orleans Pelicans en San Antonio Spurs | Ganador | San Antonio Spurs | 91% | Alta | Kalshi + casas + modelo | 90¢ |
+| Sat 21 Nov 19:00 | NBA | New Orleans Pelicans en San Antonio Spurs | Hándicap | San Antonio Spurs gana por más de 18.5 | 50% | Baja | casas | 50¢ |
 | Sat 21 Nov 19:00 | NBA | New Orleans Pelicans en San Antonio Spurs | Hándicap seguro | San Antonio Spurs gana por más de 10.5 | 72% | Alta | casas | 72¢ |
 | Sat 21 Nov 19:00 | NBA | New Orleans Pelicans en San Antonio Spurs | Total de puntos | Menos de 229.5 | 52% | Baja | casas | 52¢ |
-| Sat 21 Nov 19:00 | NBA | New Orleans Pelicans en San Antonio Spurs | Puntos (línea segura) | Más de 215.5 | 77% | Alta | casas | 78¢ |
+| Sat 21 Nov 19:00 | NBA | New Orleans Pelicans en San Antonio Spurs | Puntos (línea segura) | Más de 215.5 | 77% | Alta | casas | 77¢ |
 | Sat 21 Nov 19:00 | Liga MX | Pumas UNAM vs Monterrey | Ganador | Pumas UNAM | 37% | Baja | casas + modelo | — |
 | Sat 21 Nov 19:00 | Liga MX | Pumas UNAM vs Monterrey | Doble oportunidad | Pumas UNAM o Monterrey (no empate) | 74% | Alta | casas + modelo | — |
 | Sat 21 Nov 19:00 | Liga MX | Pumas UNAM vs Monterrey | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Sat 21 Nov 19:00 | Liga MX | Pumas UNAM vs Monterrey | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sat 21 Nov 19:00 | Liga MX | Pumas UNAM vs Monterrey | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Ganador | Boston Celtics | 87% | Alta | Kalshi + casas + modelo | 86¢ |
-| Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Hándicap | Boston Celtics gana por más de 13.5 | 50% | Baja | casas | 51¢ |
-| Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Hándicap seguro | Boston Celtics gana por más de 5.5 | 72% | Alta | casas | 76¢ |
-| Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Total de puntos | Más de 217.5 | 50% | Baja | casas | 50¢ |
-| Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Puntos (línea segura) | Más de 203.5 | 78% | Alta | casas | 79¢ |
-| Sat 21 Nov 21:00 | Liga MX | Tigres UANL vs América | Ganador | América | 48% | Baja | casas + modelo | — |
+| Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Hándicap | Boston Celtics gana por más de 13.5 | 50% | Baja | casas | 50¢ |
+| Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Hándicap seguro | Boston Celtics gana por más de 5.5 | 72% | Alta | casas | 75¢ |
+| Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Total de puntos | Más de 217.5 | 50% | Baja | casas | 52¢ |
+| Sat 21 Nov 21:00 | NBA | Boston Celtics en Sacramento Kings | Puntos (línea segura) | Más de 203.5 | 78% | Alta | casas | 81¢ |
+| Sat 21 Nov 21:00 | Liga MX | Tigres UANL vs América | Ganador | América | 49% | Baja | casas + modelo | — |
 | Sat 21 Nov 21:00 | Liga MX | Tigres UANL vs América | Doble oportunidad | Tigres UANL o América (no empate) | 75% | Alta | casas + modelo | — |
 | Sat 21 Nov 21:00 | Liga MX | Tigres UANL vs América | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sat 21 Nov 21:00 | Liga MX | Tigres UANL vs América | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
@@ -553,7 +504,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Ambos anotan | No | 50% | Baja | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Ganador | AZ Alkmaar | 59% | Media | casas + modelo | — |
-| Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Doble oportunidad | AZ Alkmaar o empate | 80% | Alta | casas + modelo | — |
+| Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Doble oportunidad | AZ Alkmaar o empate | 81% | Alta | casas + modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Goles | Más de 2.5 | 59% | Media | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Ambos anotan | Sí | 61% | Media | modelo | — |
@@ -607,7 +558,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Ambos anotan | Sí | 55% | Baja | modelo | — |
-| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Ganador | Go Ahead Eagles | 57% | Media | casas + modelo | — |
+| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Ganador | Go Ahead Eagles | 55% | Media | casas + modelo | — |
 | Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Doble oportunidad | Go Ahead Eagles o Fortuna Sittard (no empate) | 78% | Alta | casas + modelo | — |
 | Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Goles | Más de 2.5 | 62% | Media | modelo | — |
 | Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
@@ -647,8 +598,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 11:30 | La Liga | Osasuna vs Malaga | Goles | Menos de 2.5 | 55% | Baja | modelo | — |
 | Sun 22 Nov 11:30 | La Liga | Osasuna vs Malaga | Goles (línea segura) | Más de 1.5 | 71% | Alta | modelo | — |
 | Sun 22 Nov 11:30 | La Liga | Osasuna vs Malaga | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Ganador | Girona | 54% | Baja | casas + modelo | — |
-| Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Doble oportunidad | Girona o empate | 78% | Alta | casas + modelo | — |
+| Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Ganador | Girona | 52% | Baja | casas + modelo | — |
+| Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Doble oportunidad | Girona o empate | 77% | Alta | casas + modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Ambos anotan | Sí | 54% | Baja | modelo | — |
@@ -657,9 +608,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Goles | Menos de 2.5 | 50% | Baja | modelo | — |
 | Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sun 22 Nov 11:30 | Liga de Bélgica | Anderlecht vs OH Leuven | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Ganador | Real Valladolid | 47% | Baja | casas + modelo | — |
-| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Doble oportunidad | RC Celta Fortuna o Real Valladolid (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Ganador | RC Celta Fortuna | 41% | Baja | modelo | — |
+| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Doble oportunidad | RC Celta Fortuna o Real Valladolid (no empate) | 74% | Alta | modelo | — |
+| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Goles | Más de 2.5 | 55% | Baja | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sun 22 Nov 12:00 | NFL | Arizona Cardinals en Kansas City Chiefs | Ganador | Kansas City Chiefs | 90% | Alta | Kalshi + casas + modelo | 92¢ |
