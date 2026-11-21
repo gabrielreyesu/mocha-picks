@@ -892,3 +892,43 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401878935,Goles,Más de 2.5,0.6462,modelo,1
 2026-11-21,liga,401878935,Goles (línea segura),Más de 1.5,0.8513,modelo,1
 2026-11-21,liga,401878935,Ambos anotan,Sí,0.5567,modelo,1
+2026-11-21,liga,559621,Ganador,Monaco,0.7315,Kalshi + modelo,0
+2026-11-21,liga,559621,Doble oportunidad,Monaco o empate,0.8903,Kalshi + modelo,1
+2026-11-21,liga,559621,Goles,Más de 2.5,0.599,modelo,0
+2026-11-21,liga,559621,Goles (línea segura),Más de 1.5,0.8159,modelo,1
+2026-11-21,liga,559621,Ambos anotan,Sí,0.5588,modelo,1
+2026-11-21,liga,564754,Ganador,Real Madrid,0.8459,Kalshi + modelo,1
+2026-11-21,liga,564754,Doble oportunidad,Real Madrid o empate,0.9458,Kalshi + modelo,1
+2026-11-21,liga,564754,Goles,Menos de 2.5,0.5329,modelo,0
+2026-11-21,liga,564754,Goles (línea segura),Más de 1.5,0.7292,modelo,1
+2026-11-21,liga,564754,Ambos anotan,No,0.5002,modelo,0
+2026-11-21,liga,401933755,Ganador,Argentinos Juniors,0.4445,casas + modelo,0
+2026-11-21,liga,401933755,Doble oportunidad,Argentinos Juniors o empate,0.7522,casas + modelo,0
+2026-11-21,liga,401933755,Goles,Menos de 2.5,0.6034,casas + modelo,0
+2026-11-21,liga,401933755,Goles (línea segura),Más de 1.5,0.6856,modelo,1
+2026-11-21,liga,401933755,Ambos anotan,No,0.5373,modelo,0
+2026-11-21,liga,401878333,Ganador,Rangers,0.6647,casas + modelo,1
+2026-11-21,liga,401878333,Doble oportunidad,Rangers o empate,0.8452,casas + modelo,1
+2026-11-21,liga,401878333,Goles,Menos de 2.5,0.5126,modelo,0
+2026-11-21,liga,401878333,Goles (línea segura),Más de 1.5,0.7468,modelo,1
+2026-11-21,liga,401878333,Ambos anotan,Sí,0.5254,modelo,1
+2026-11-21,liga,401883107,Ganador,Mallorca,0.3974,casas + modelo,0
+2026-11-21,liga,401883107,Doble oportunidad,Mallorca o empate,0.7128,casas + modelo,1
+2026-11-21,liga,401883107,Goles,Menos de 2.5,0.6077,casas + modelo,1
+2026-11-21,liga,401883107,Goles (línea segura),Más de 1.5,0.7463,modelo,0
+2026-11-21,liga,401883107,Ambos anotan,Sí,0.5059,modelo,0
+2026-11-21,liga,401875546,Ganador,Heerenveen,0.4171,casas + modelo,1
+2026-11-21,liga,401875546,Doble oportunidad,FC Groningen o Heerenveen (no empate),0.7671,casas + modelo,1
+2026-11-21,liga,401875546,Goles,Más de 2.5,0.6608,modelo,1
+2026-11-21,liga,401875546,Goles (línea segura),Más de 1.5,0.8611,modelo,1
+2026-11-21,liga,401875546,Ambos anotan,Sí,0.6761,modelo,1
+2026-11-21,liga,401875539,Ganador,Telstar,0.4714,casas + modelo,0
+2026-11-21,liga,401875539,Doble oportunidad,Telstar o PEC Zwolle (no empate),0.7492,casas + modelo,1
+2026-11-21,liga,401875539,Goles,Más de 2.5,0.6078,casas + modelo,1
+2026-11-21,liga,401875539,Goles (línea segura),Más de 1.5,0.7941,modelo,1
+2026-11-21,liga,401875539,Ambos anotan,Sí,0.5863,modelo,1
+2026-11-21,liga,401841327,Ganador,Bahia,0.6757,casas + modelo,0
+2026-11-21,liga,401841327,Doble oportunidad,Bahia o empate,0.8622,casas + modelo,0
+2026-11-21,liga,401841327,Goles,Más de 2.5,0.5649,modelo,0
+2026-11-21,liga,401841327,Goles (línea segura),Más de 1.5,0.7772,modelo,0
+2026-11-21,liga,401841327,Ambos anotan,Sí,0.5611,modelo,0
