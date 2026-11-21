@@ -772,3 +772,15 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401875541,Goles,Más de 2.5,0.6037,modelo,1
 2026-11-21,liga,401875541,Goles (línea segura),Más de 1.5,0.8266,modelo,1
 2026-11-21,liga,401875541,Ambos anotan,Sí,0.6087,modelo,1
+2026-11-21,liga,401888244,Ganador,Fenerbahce,0.6462,casas + modelo,0
+2026-11-21,liga,401888244,Doble oportunidad,Fenerbahce o empate,0.8522,casas + modelo,1
+2026-11-21,liga,401888244,Goles,Más de 2.5,0.5833,casas + modelo,1
+2026-11-21,liga,401888244,Goles (línea segura),Más de 1.5,0.7672,modelo,1
+2026-11-21,liga,401888244,Ambos anotan,Sí,0.5452,modelo,1
+2026-11-21,liga,401899545,Ganador,Palermo,0.5698,casas + modelo,0
+2026-11-21,liga,401899545,Doble oportunidad,Palermo o empate,0.8029,casas + modelo,0
+2026-11-21,liga,401899545,Goles,Más de 2.5,0.5504,casas + modelo,1
+2026-11-21,liga,401899545,Goles (línea segura),Más de 1.5,0.8272,modelo,1
+2026-11-21,liga,401899545,Ambos anotan,Sí,0.5881,modelo,1
+2026-11-21,liga,401875544,Ganador,FC Utrecht,0.4908,casas + modelo,0
+2026-11-21,liga,401875544,Doble oportunidad,FC Utrecht o SC Cambuur (no empate),0.7781,casas + modelo,0
