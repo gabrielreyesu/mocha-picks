@@ -932,3 +932,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401841327,Goles,Más de 2.5,0.5649,modelo,0
 2026-11-21,liga,401841327,Goles (línea segura),Más de 1.5,0.7772,modelo,0
 2026-11-21,liga,401841327,Ambos anotan,Sí,0.5611,modelo,0
+2026-11-21,liga,401933732,Ganador,FC Dallas,0.5299,casas + modelo,1
+2026-11-21,liga,401933732,Doble oportunidad,FC Dallas o Portland Timbers (no empate),0.7747,casas + modelo,1
+2026-11-21,liga,401933732,Goles,Más de 2.5,0.5806,modelo,1
+2026-11-21,liga,401933732,Goles (línea segura),Más de 1.5,0.8119,modelo,1
+2026-11-21,liga,401933732,Ambos anotan,Sí,0.5932,modelo,0
