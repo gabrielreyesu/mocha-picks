@@ -572,3 +572,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401888247,Goles,Más de 2.5,0.6081,casas + modelo,0
 2026-11-21,liga,401888247,Goles (línea segura),Más de 1.5,0.7483,modelo,0
 2026-11-21,liga,401888247,Ambos anotan,Sí,0.5329,modelo,0
+2026-11-21,liga,401885051,Ganador,1. FC Nürnberg,0.5918,casas + modelo,0
+2026-11-21,liga,401885051,Doble oportunidad,1. FC Nürnberg o empate,0.7986,casas + modelo,0
+2026-11-21,liga,401885051,Goles,Más de 2.5,0.6441,modelo,1
+2026-11-21,liga,401885051,Goles (línea segura),Más de 1.5,0.8504,modelo,1
+2026-11-21,liga,401885051,Ambos anotan,Sí,0.586,modelo,1
+2026-11-21,liga,401885054,Ganador,Hannover 96,0.6303,casas + modelo,1
+2026-11-21,liga,401885054,Doble oportunidad,Hannover 96 o empate,0.8308,casas + modelo,1
+2026-11-21,liga,401885054,Goles,Más de 2.5,0.55,modelo,1
+2026-11-21,liga,401885054,Goles (línea segura),Más de 1.5,0.7912,modelo,1
+2026-11-21,liga,401885054,Ambos anotan,Sí,0.5513,modelo,1
+2026-11-21,liga,401885056,Ganador,VfL Wolfsburg,0.6185,casas + modelo,1
+2026-11-21,liga,401885056,Doble oportunidad,VfL Wolfsburg o empate,0.8173,casas + modelo,1
+2026-11-21,liga,401885056,Goles,Más de 2.5,0.587,modelo,1
+2026-11-21,liga,401885056,Goles (línea segura),Más de 1.5,0.816,modelo,1
+2026-11-21,liga,401885056,Ambos anotan,Sí,0.5863,modelo,0
