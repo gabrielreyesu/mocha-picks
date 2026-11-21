@@ -544,3 +544,26 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-20,liga,401877054,Goles,Más de 2.5,0.594,casas + modelo,0
 2026-11-20,liga,401877054,Goles (línea segura),Más de 1.5,0.7272,modelo,1
 2026-11-20,liga,401877054,Ambos anotan,Sí,0.5236,modelo,1
+2026-11-20,nba,401909311,Ganador,Phoenix Suns,0.6459,Kalshi + casas + modelo,1
+2026-11-20,nba,401909311,Hándicap,Phoenix Suns gana por más de 4.5,0.5,casas,1
+2026-11-20,nba,401909311,Total de puntos,Menos de 226.5,0.5223,casas,1
+2026-11-20,nba,401909311,Puntos (línea segura),Más de 212.5,0.7662,casas,0
+2026-11-20,nba,401909313,Ganador,Los Angeles Lakers,0.8778,Kalshi + casas + modelo,1
+2026-11-20,nba,401909313,Hándicap,Los Angeles Lakers gana por más de 14.5,0.5,casas,0
+2026-11-20,nba,401909313,Hándicap seguro,Los Angeles Lakers gana por más de 6.5,0.7248,casas,0
+2026-11-20,nba,401909313,Total de puntos,Menos de 230.5,0.5223,casas,1
+2026-11-20,nba,401909313,Puntos (línea segura),Más de 216.5,0.7662,casas,0
+2026-11-20,nba,401909312,Ganador,Houston Rockets,0.5288,Kalshi + casas + modelo,0
+2026-11-20,nba,401909312,Hándicap,Houston Rockets gana por más de 1.5,0.5,casas,0
+2026-11-20,nba,401909312,Total de puntos,Más de 227.5,0.5,casas,1
+2026-11-20,nba,401909312,Puntos (línea segura),Más de 213.5,0.7829,casas,1
+2026-11-20,liga,401877052,Ganador,Tijuana,0.6361,casas + modelo,1
+2026-11-20,liga,401877052,Doble oportunidad,Tijuana o empate,0.8461,casas + modelo,1
+2026-11-20,liga,401877052,Goles,Más de 2.5,0.5583,casas + modelo,0
+2026-11-20,liga,401877052,Goles (línea segura),Más de 1.5,0.7797,modelo,0
+2026-11-20,liga,401877052,Ambos anotan,Sí,0.5421,modelo,0
+2026-11-20,liga,401877053,Ganador,Atlas,0.5227,casas + modelo,0
+2026-11-20,liga,401877053,Doble oportunidad,Atlas o empate,0.7663,casas + modelo,1
+2026-11-20,liga,401877053,Goles,Más de 2.5,0.5756,casas + modelo,1
+2026-11-20,liga,401877053,Goles (línea segura),Más de 1.5,0.7816,modelo,1
+2026-11-20,liga,401877053,Ambos anotan,Sí,0.58,modelo,1
