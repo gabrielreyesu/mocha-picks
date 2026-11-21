@@ -617,3 +617,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401876689,Goles,Más de 2.5,0.5433,casas + modelo,0
 2026-11-21,liga,401876689,Goles (línea segura),Más de 1.5,0.7605,modelo,0
 2026-11-21,liga,401876689,Ambos anotan,Sí,0.5397,modelo,0
+2026-11-21,liga,401882299,Ganador,CD Sabadell,0.3514,casas + modelo,0
+2026-11-21,liga,401882299,Doble oportunidad,CD Sabadell o Granada (no empate),0.6862,casas + modelo,0
+2026-11-21,liga,401882299,Goles,Menos de 2.5,0.5918,casas + modelo,1
+2026-11-21,liga,401882299,Goles (línea segura),Más de 1.5,0.7387,modelo,1
+2026-11-21,liga,401882299,Ambos anotan,Sí,0.525,modelo,1
