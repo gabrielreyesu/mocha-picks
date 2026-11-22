@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 22 Nov 2026 02:11 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 22 Nov 2026 02:53 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -286,9 +286,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Ganador | Goztepe | 38% | Baja | casas + modelo | — |
-| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Doble oportunidad | Erzurum BB o Goztepe (no empate) | 72% | Alta | casas + modelo | — |
-| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
+| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Ganador | Goztepe | 43% | Baja | modelo | — |
+| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Doble oportunidad | Erzurum BB o Goztepe (no empate) | 74% | Alta | modelo | — |
+| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles | Más de 2.5 | 53% | Baja | modelo | — |
 | Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Ganador | FC Twente | 92% | Alta | casas + modelo | — |
@@ -303,7 +303,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Ambos anotan | No | 51% | Baja | modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Ganador | Burnley | 49% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Doble oportunidad | Burnley o Blackburn Rovers (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Ganador | KAA Gent | 56% | Media | casas + modelo | — |
@@ -313,7 +313,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Ganador | Kaiserslautern | 48% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Doble oportunidad | Kaiserslautern o Dynamo Dresden (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Ganador | Karlsruher SC | 42% | Baja | casas + modelo | — |
@@ -341,7 +341,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Ganador | Kasimpasa | 53% | Baja | casas + modelo | — |
+| Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Ganador | Kasimpasa | 54% | Baja | casas + modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Doble oportunidad | Kasimpasa o empate | 79% | Alta | casas + modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
@@ -396,9 +396,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 09:15 | La Liga | Santander vs Sociedad | Goles | Más de 2.5 | 59% | Media | modelo | — |
 | Sun 22 Nov 09:15 | La Liga | Santander vs Sociedad | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
 | Sun 22 Nov 09:15 | La Liga | Santander vs Sociedad | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Ganador | Sporting Gijón | 45% | Baja | casas + modelo | — |
-| Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Doble oportunidad | Sporting Gijón o Las Palmas (no empate) | 73% | Alta | casas + modelo | — |
-| Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Goles | Menos de 2.5 | 50% | Baja | casas + modelo | — |
+| Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Ganador | Sporting Gijón | 43% | Baja | casas + modelo | — |
+| Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Doble oportunidad | Sporting Gijón o Las Palmas (no empate) | 72% | Alta | casas + modelo | — |
+| Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sun 22 Nov 09:15 | LaLiga 2 | Sporting Gijón vs Las Palmas | Ambos anotan | Sí | 55% | Baja | modelo | — |
 | Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Ganador | Go Ahead Eagles | 52% | Baja | casas + modelo | — |
@@ -441,9 +441,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 11:30 | La Liga | Osasuna vs Malaga | Goles | Menos de 2.5 | 55% | Baja | modelo | — |
 | Sun 22 Nov 11:30 | La Liga | Osasuna vs Malaga | Goles (línea segura) | Más de 1.5 | 71% | Alta | modelo | — |
 | Sun 22 Nov 11:30 | La Liga | Osasuna vs Malaga | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Ganador | Real Valladolid | 47% | Baja | casas + modelo | — |
-| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Doble oportunidad | RC Celta Fortuna o Real Valladolid (no empate) | 74% | Alta | casas + modelo | — |
-| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Ganador | RC Celta Fortuna | 41% | Baja | modelo | — |
+| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Doble oportunidad | RC Celta Fortuna o Real Valladolid (no empate) | 74% | Alta | modelo | — |
+| Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Goles | Más de 2.5 | 55% | Baja | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | RC Celta Fortuna vs Real Valladolid | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sun 22 Nov 11:30 | LaLiga 2 | Girona vs Eibar | Ganador | Girona | 50% | Baja | casas + modelo | — |
@@ -499,7 +499,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 13:00 | Liga Profesional Argentina | Rosario Central vs Gimnasia (Mendoza) | Ambos anotan | Sí | 50% | Baja | modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Ganador | Athletico-PR | 63% | Media | casas + modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Doble oportunidad | Athletico-PR o empate | 85% | Alta | casas + modelo | — |
-| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Sun 22 Nov 13:45 | Serie A | Atalanta vs Inter | Ganador | Inter | 64% | Media | Kalshi + modelo | 60¢ |
@@ -563,7 +563,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Hándicap | Miami Heat gana por más de 2.5 | 50% | Baja | casas | 50¢ |
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Total de puntos | Menos de 232.5 | 52% | Baja | casas | 52¢ |
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Puntos (línea segura) | Más de 218.5 | 77% | Alta | casas | 80¢ |
-| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ganador | Guadalajara | 42% | Baja | casas + modelo | — |
+| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ganador | Guadalajara | 43% | Baja | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Doble oportunidad | Guadalajara o Cruz Azul (no empate) | 77% | Alta | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
