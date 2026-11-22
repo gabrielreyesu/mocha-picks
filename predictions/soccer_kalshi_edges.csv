@@ -1,32 +1,32 @@
 liga,kickoff_utc,partido,resultado,p_modelo,ask,ventaja_bruta,volumen_evento
-Premier League,2026-11-22T14:00:00+00:00,Hull - Brighton,Hull,0.2521,0.14,0.1121,235957.84000000003
-La Liga,2026-11-22T20:00:00+00:00,Getafe - Ath Madrid,Getafe,0.2407,0.13,0.1107,151400.64
-La Liga,2026-11-22T15:15:00+00:00,Santander - Sociedad,Santander,0.3944,0.29,0.1044,56543.39
-Bundesliga,2026-11-22T16:30:00+00:00,Werder Bremen - Hamburg,Hamburg,0.268,0.17,0.098,3213.7000000000003
-Serie A,2026-11-22T11:30:00+00:00,Juventus - Venezia,Juventus,0.7227,0.63,0.0927,200087.75
-Ligue 1,2026-11-22T16:15:00+00:00,Lorient - Rennes,Lorient,0.3985,0.31,0.0885,4036.2300000000005
-Ligue 1,2026-11-22T14:00:00+00:00,Paris FC - Angers,Empate,0.2213,0.16,0.0613,15924.81
-La Liga,2026-11-22T13:00:00+00:00,Barcelona - Villarreal,Empate,0.1586,0.1,0.0586,1485581.83
-Bundesliga,2026-11-22T16:30:00+00:00,Werder Bremen - Hamburg,Empate,0.2778,0.22,0.0578,3213.7000000000003
-Bundesliga,2026-11-22T14:30:00+00:00,Augsburg - Mainz,Augsburg,0.4053,0.35,0.0553,9767.44
-La Liga,2026-11-22T17:30:00+00:00,Osasuna - Malaga,Osasuna,0.5841,0.53,0.0541,16640.83
-La Liga,2026-11-23T20:00:00+00:00,Levante - Elche,Levante,0.4921,0.44,0.0521,3952.59
-La Liga,2026-11-22T20:00:00+00:00,Getafe - Ath Madrid,Empate,0.2849,0.24,0.0449,151400.64
-La Liga,2026-11-22T15:15:00+00:00,Santander - Sociedad,Empate,0.2799,0.24,0.0399,56543.39
-Premier League,2026-11-22T16:30:00+00:00,Liverpool - Man United,Empate,0.2671,0.23,0.0371,506792.02
-Serie A,2026-11-22T17:00:00+00:00,Milan - Frosinone,Milan,0.636,0.6,0.036,21670.9
-Premier League,2026-11-22T16:30:00+00:00,Liverpool - Man United,Man United,0.2484,0.22,0.0284,506792.02
-Premier League,2026-11-22T14:00:00+00:00,Hull - Brighton,Empate,0.2467,0.22,0.0267,235957.84000000003
-Ligue 1,2026-11-22T14:00:00+00:00,Paris FC - Angers,Angers,0.1262,0.1,0.0262,15924.81
-Bundesliga,2026-11-22T14:30:00+00:00,Augsburg - Mainz,Empate,0.2756,0.25,0.0256,9767.44
-Serie A,2026-11-22T19:45:00+00:00,Atalanta - Inter,Empate,0.2339,0.21,0.0239,34368.85
-Premier League,2026-11-23T20:00:00+00:00,Brentford - Everton,Brentford,0.4437,0.42,0.0237,29274.98
-Ligue 1,2026-11-22T19:45:00+00:00,Marseille - Le Mans,Le Mans,0.1591,0.14,0.0191,7616.140000000001
-Serie A,2026-11-22T14:00:00+00:00,Sassuolo - Genoa,Sassuolo,0.3682,0.35,0.0182,88020.5
-Ligue 1,2026-11-22T19:45:00+00:00,Marseille - Le Mans,Empate,0.2165,0.2,0.0165,7616.140000000001
-Serie A,2026-11-22T14:00:00+00:00,Bologna - Udinese,Udinese,0.2061,0.19,0.0161,83702.83
-Serie A,2026-11-22T19:45:00+00:00,Atalanta - Inter,Atalanta,0.186,0.17,0.016,34368.85
-Serie A,2026-11-23T19:45:00+00:00,Monza - Fiorentina,Empate,0.2587,0.25,0.0087,836.42
-La Liga,2026-11-22T13:00:00+00:00,Barcelona - Villarreal,Villarreal,0.0779,0.07,0.0079,1485581.83
-Serie A,2026-11-22T17:00:00+00:00,Milan - Frosinone,Empate,0.2258,0.22,0.0058,21670.9
-Serie A,2026-11-22T14:00:00+00:00,Bologna - Udinese,Empate,0.2643,0.26,0.0043,83702.83
+Premier League,2026-11-22T14:00:00+00:00,Hull - Brighton,Hull,0.2521,0.14,0.1121,252470.88
+La Liga,2026-11-22T20:00:00+00:00,Getafe - Ath Madrid,Getafe,0.2407,0.13,0.1107,155262.46
+La Liga,2026-11-22T15:15:00+00:00,Santander - Sociedad,Santander,0.3944,0.29,0.1044,62359.51000000001
+Ligue 1,2026-11-22T16:15:00+00:00,Lorient - Rennes,Lorient,0.3985,0.3,0.0985,4356.9400000000005
+Bundesliga,2026-11-22T16:30:00+00:00,Werder Bremen - Hamburg,Hamburg,0.268,0.17,0.098,3316.18
+Ligue 1,2026-11-22T14:00:00+00:00,Paris FC - Angers,Empate,0.2213,0.16,0.0613,16502.920000000002
+La Liga,2026-11-22T13:00:00+00:00,Barcelona - Villarreal,Empate,0.1586,0.1,0.0586,1819585.69
+Bundesliga,2026-11-22T16:30:00+00:00,Werder Bremen - Hamburg,Empate,0.2778,0.22,0.0578,3316.18
+Bundesliga,2026-11-22T14:30:00+00:00,Augsburg - Mainz,Augsburg,0.4053,0.35,0.0553,10568.83
+La Liga,2026-11-22T17:30:00+00:00,Osasuna - Malaga,Osasuna,0.5841,0.53,0.0541,19466.43
+La Liga,2026-11-23T20:00:00+00:00,Levante - Elche,Levante,0.4921,0.44,0.0521,3976.17
+La Liga,2026-11-22T20:00:00+00:00,Getafe - Ath Madrid,Empate,0.2849,0.24,0.0449,155262.46
+La Liga,2026-11-22T15:15:00+00:00,Santander - Sociedad,Empate,0.2799,0.24,0.0399,62359.51000000001
+Premier League,2026-11-22T16:30:00+00:00,Liverpool - Man United,Empate,0.2671,0.23,0.0371,520749.32999999996
+Serie A,2026-11-22T17:00:00+00:00,Milan - Frosinone,Milan,0.636,0.6,0.036,27777.089999999997
+Premier League,2026-11-22T16:30:00+00:00,Liverpool - Man United,Man United,0.2484,0.22,0.0284,520749.32999999996
+Premier League,2026-11-22T14:00:00+00:00,Hull - Brighton,Empate,0.2467,0.22,0.0267,252470.88
+Ligue 1,2026-11-22T14:00:00+00:00,Paris FC - Angers,Angers,0.1262,0.1,0.0262,16502.920000000002
+Bundesliga,2026-11-22T14:30:00+00:00,Augsburg - Mainz,Empate,0.2756,0.25,0.0256,10568.83
+Serie A,2026-11-22T19:45:00+00:00,Atalanta - Inter,Empate,0.2339,0.21,0.0239,34724.22
+Premier League,2026-11-23T20:00:00+00:00,Brentford - Everton,Brentford,0.4437,0.42,0.0237,29313.25
+Ligue 1,2026-11-22T19:45:00+00:00,Marseille - Le Mans,Le Mans,0.1591,0.14,0.0191,7946.98
+Serie A,2026-11-22T14:00:00+00:00,Sassuolo - Genoa,Sassuolo,0.3682,0.35,0.0182,91425.81999999999
+Ligue 1,2026-11-22T19:45:00+00:00,Marseille - Le Mans,Empate,0.2165,0.2,0.0165,7946.98
+Serie A,2026-11-22T14:00:00+00:00,Bologna - Udinese,Udinese,0.2061,0.19,0.0161,86114.13
+Serie A,2026-11-22T19:45:00+00:00,Atalanta - Inter,Atalanta,0.186,0.17,0.016,34724.22
+Serie A,2026-11-23T19:45:00+00:00,Monza - Fiorentina,Empate,0.2587,0.25,0.0087,838.42
+La Liga,2026-11-22T13:00:00+00:00,Barcelona - Villarreal,Villarreal,0.0779,0.07,0.0079,1819585.69
+Serie A,2026-11-22T17:00:00+00:00,Milan - Frosinone,Empate,0.2258,0.22,0.0058,27777.089999999997
+Serie A,2026-11-22T14:00:00+00:00,Bologna - Udinese,Empate,0.2643,0.26,0.0043,86114.13
+La Liga,2026-11-23T20:00:00+00:00,Levante - Elche,Empate,0.2722,0.27,0.0022,3976.17
