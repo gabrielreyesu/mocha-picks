@@ -1154,3 +1154,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401878941,Goles,Más de 2.5,0.6272,casas + modelo,0
 2026-11-22,liga,401878941,Goles (línea segura),Más de 1.5,0.7542,modelo,0
 2026-11-22,liga,401878941,Ambos anotan,No,0.5104,modelo,1
+2026-11-22,nfl,401873067,Ganador,Kansas City Chiefs,0.8968,Kalshi + casas + modelo,1
+2026-11-22,nfl,401873067,Hándicap,Arizona Cardinals +16.5 (gana o pierde por menos de 16.5),0.5314,casas,0
+2026-11-22,nfl,401873067,Hándicap seguro,Kansas City Chiefs gana por más de 7.5,0.7356,casas,1
+2026-11-22,nfl,401873067,Total de puntos,Más de 40.5,0.5,casas,1
+2026-11-22,nfl,401873067,Puntos (línea segura),Menos de 50.5,0.7791,casas,1
+2026-11-22,liga,401878934,Ganador,Standard Liege,0.4474,casas + modelo,1
+2026-11-22,liga,401878934,Doble oportunidad,Lommel SK o Standard Liege (no empate),0.7529,casas + modelo,1
+2026-11-22,liga,401878934,Goles,Menos de 2.5,0.5024,modelo,0
+2026-11-22,liga,401878934,Goles (línea segura),Más de 1.5,0.7545,modelo,1
+2026-11-22,liga,401878934,Ambos anotan,Sí,0.5426,modelo,1
