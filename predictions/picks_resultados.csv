@@ -1134,3 +1134,23 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,558523,Goles,Más de 2.5,0.5749,modelo,1
 2026-11-22,liga,558523,Goles (línea segura),Más de 1.5,0.8039,modelo,1
 2026-11-22,liga,558523,Ambos anotan,Sí,0.5584,modelo,1
+2026-11-22,liga,564752,Ganador,Osasuna,0.5684,Kalshi + modelo,1
+2026-11-22,liga,564752,Doble oportunidad,Osasuna o empate,0.8169,Kalshi + modelo,1
+2026-11-22,liga,564752,Goles,Menos de 2.5,0.5485,modelo,1
+2026-11-22,liga,564752,Goles (línea segura),Más de 1.5,0.7148,modelo,0
+2026-11-22,liga,564752,Ambos anotan,No,0.5072,modelo,1
+2026-11-22,liga,401883304,Ganador,RC Celta Fortuna,0.411,modelo,0
+2026-11-22,liga,401883304,Doble oportunidad,RC Celta Fortuna o Real Valladolid (no empate),0.7429,modelo,0
+2026-11-22,liga,401883304,Goles,Más de 2.5,0.5482,modelo,0
+2026-11-22,liga,401883304,Goles (línea segura),Más de 1.5,0.7906,modelo,1
+2026-11-22,liga,401883304,Ambos anotan,Sí,0.5891,modelo,1
+2026-11-22,liga,401883109,Ganador,Girona,0.5088,casas + modelo,1
+2026-11-22,liga,401883109,Doble oportunidad,Girona o empate,0.7589,casas + modelo,1
+2026-11-22,liga,401883109,Goles,Más de 2.5,0.5351,casas + modelo,1
+2026-11-22,liga,401883109,Goles (línea segura),Más de 1.5,0.7467,modelo,1
+2026-11-22,liga,401883109,Ambos anotan,Sí,0.537,modelo,1
+2026-11-22,liga,401878941,Ganador,Anderlecht,0.6668,casas + modelo,1
+2026-11-22,liga,401878941,Doble oportunidad,Anderlecht o empate,0.8613,casas + modelo,1
+2026-11-22,liga,401878941,Goles,Más de 2.5,0.6272,casas + modelo,0
+2026-11-22,liga,401878941,Goles (línea segura),Más de 1.5,0.7542,modelo,0
+2026-11-22,liga,401878941,Ambos anotan,No,0.5104,modelo,1
