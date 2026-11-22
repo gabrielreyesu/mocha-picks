@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 22 Nov 2026 02:53 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 22 Nov 2026 03:52 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -301,13 +301,13 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Goles | Más de 2.5 | 52% | Baja | modelo | — |
 | Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sun 22 Nov 05:30 | Serie A | Juventus vs Venezia | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Ganador | Burnley | 49% | Baja | casas + modelo | — |
+| Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Ganador | Burnley | 48% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Doble oportunidad | Burnley o Blackburn Rovers (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sun 22 Nov 06:00 | Championship | Burnley vs Blackburn Rovers | Ambos anotan | Sí | 58% | Media | modelo | — |
-| Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Ganador | KAA Gent | 56% | Media | casas + modelo | — |
-| Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Doble oportunidad | KAA Gent o empate | 80% | Alta | casas + modelo | — |
+| Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Ganador | KAA Gent | 57% | Media | casas + modelo | — |
+| Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Doble oportunidad | KAA Gent o empate | 81% | Alta | casas + modelo | — |
 | Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Ambos anotan | Sí | 52% | Baja | modelo | — |
@@ -318,7 +318,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Ganador | Karlsruher SC | 42% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Doble oportunidad | Karlsruher SC o VfL Osnabruck (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Energie Cottbus vs Hertha Berlin | Ganador | Hertha Berlin | 67% | Media | casas + modelo | — |
@@ -331,7 +331,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 07:00 | La Liga | Barcelona vs Villarreal | Goles | Más de 2.5 | 59% | Media | modelo | — |
 | Sun 22 Nov 07:00 | La Liga | Barcelona vs Villarreal | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
 | Sun 22 Nov 07:00 | La Liga | Barcelona vs Villarreal | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Ganador | Córdoba | 48% | Baja | casas + modelo | — |
+| Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Ganador | Córdoba | 49% | Baja | casas + modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Doble oportunidad | Córdoba o Real Oviedo (no empate) | 76% | Alta | casas + modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
@@ -351,8 +351,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 07:30 | Eredivisie | Ajax Amsterdam vs ADO Den Haag | Goles | Más de 2.5 | 69% | Media | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Ajax Amsterdam vs ADO Den Haag | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Ajax Amsterdam vs ADO Den Haag | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Ganador | AZ Alkmaar | 59% | Media | casas + modelo | — |
-| Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Doble oportunidad | AZ Alkmaar o empate | 80% | Alta | casas + modelo | — |
+| Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Ganador | AZ Alkmaar | 60% | Media | casas + modelo | — |
+| Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Doble oportunidad | AZ Alkmaar o empate | 81% | Alta | casas + modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Goles | Más de 2.5 | 59% | Media | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Ambos anotan | Sí | 61% | Media | modelo | — |
@@ -377,7 +377,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 08:00 | Premier League | Hull vs Brighton | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sun 22 Nov 08:00 | Premier League | Hull vs Brighton | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sun 22 Nov 08:00 | Serie B | US Avellino vs Mantova | Ganador | US Avellino | 38% | Baja | casas + modelo | — |
-| Sun 22 Nov 08:00 | Serie B | US Avellino vs Mantova | Doble oportunidad | US Avellino o Mantova (no empate) | 72% | Alta | casas + modelo | — |
+| Sun 22 Nov 08:00 | Serie B | US Avellino vs Mantova | Doble oportunidad | US Avellino o Mantova (no empate) | 71% | Alta | casas + modelo | — |
 | Sun 22 Nov 08:00 | Serie B | US Avellino vs Mantova | Goles | Más de 2.5 | 50% | Baja | casas + modelo | — |
 | Sun 22 Nov 08:00 | Serie B | US Avellino vs Mantova | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 08:00 | Serie B | US Avellino vs Mantova | Ambos anotan | Sí | 53% | Baja | modelo | — |
@@ -418,7 +418,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 10:15 | Ligue 1 | Lorient vs Rennes | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Ganador | Arezzo | 41% | Baja | casas + modelo | — |
 | Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Doble oportunidad | Arezzo o Padova (no empate) | 71% | Alta | casas + modelo | — |
-| Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
+| Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
 | Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Goles (línea segura) | Más de 1.5 | 70% | Alta | modelo | — |
 | Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Ambos anotan | No | 51% | Baja | modelo | — |
 | Sun 22 Nov 10:30 | Bundesliga | Werder Bremen vs Hamburg | Ganador | Werder Bremen | 59% | Media | Kalshi + modelo | 57¢ |
@@ -563,7 +563,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Hándicap | Miami Heat gana por más de 2.5 | 50% | Baja | casas | 50¢ |
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Total de puntos | Menos de 232.5 | 52% | Baja | casas | 52¢ |
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Puntos (línea segura) | Más de 218.5 | 77% | Alta | casas | 80¢ |
-| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ganador | Guadalajara | 43% | Baja | casas + modelo | — |
+| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ganador | Guadalajara | 44% | Baja | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Doble oportunidad | Guadalajara o Cruz Azul (no empate) | 77% | Alta | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
