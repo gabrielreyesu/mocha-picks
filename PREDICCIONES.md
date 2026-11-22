@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 22 Nov 2026 03:52 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 22 Nov 2026 04:51 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -286,11 +286,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Ganador | Goztepe | 43% | Baja | modelo | — |
-| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Doble oportunidad | Erzurum BB o Goztepe (no empate) | 74% | Alta | modelo | — |
-| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles | Más de 2.5 | 53% | Baja | modelo | — |
-| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Sun 22 Nov 04:30 | Superliga de Turquía | Erzurum BB vs Goztepe | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Ganador | FC Twente | 92% | Alta | casas + modelo | — |
 | Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Doble oportunidad | FC Twente o empate | 97% | Alta | casas + modelo | — |
 | Sun 22 Nov 05:15 | Eredivisie | FC Twente vs Willem II | Goles | Más de 2.5 | 77% | Alta | modelo | — |
@@ -311,14 +306,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sun 22 Nov 06:30 | Liga de Bélgica | Waasland-Beveren vs KAA Gent | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Ganador | Kaiserslautern | 48% | Baja | casas + modelo | — |
+| Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Ganador | Kaiserslautern | 50% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Doble oportunidad | Kaiserslautern o Dynamo Dresden (no empate) | 75% | Alta | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Kaiserslautern vs Dynamo Dresden | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Ganador | Karlsruher SC | 42% | Baja | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Doble oportunidad | Karlsruher SC o VfL Osnabruck (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Karlsruher SC vs VfL Osnabruck | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Sun 22 Nov 06:30 | 2. Bundesliga | Energie Cottbus vs Hertha Berlin | Ganador | Hertha Berlin | 67% | Media | casas + modelo | — |
@@ -333,12 +328,12 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 07:00 | La Liga | Barcelona vs Villarreal | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Ganador | Córdoba | 49% | Baja | casas + modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Doble oportunidad | Córdoba o Real Oviedo (no empate) | 76% | Alta | casas + modelo | — |
-| Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sun 22 Nov 07:00 | LaLiga 2 | Córdoba vs Real Oviedo | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Ganador | Besiktas | 65% | Media | casas + modelo | — |
+| Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Ganador | Besiktas | 66% | Media | casas + modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Doble oportunidad | Besiktas o empate | 86% | Alta | casas + modelo | — |
-| Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Konyaspor vs Besiktas | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Sun 22 Nov 07:00 | Superliga de Turquía | Kasimpasa vs Alanyaspor | Ganador | Kasimpasa | 54% | Baja | casas + modelo | — |
@@ -351,7 +346,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 07:30 | Eredivisie | Ajax Amsterdam vs ADO Den Haag | Goles | Más de 2.5 | 69% | Media | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Ajax Amsterdam vs ADO Den Haag | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Ajax Amsterdam vs ADO Den Haag | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Ganador | AZ Alkmaar | 60% | Media | casas + modelo | — |
+| Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Ganador | AZ Alkmaar | 61% | Media | casas + modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Doble oportunidad | AZ Alkmaar o empate | 81% | Alta | casas + modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Goles | Más de 2.5 | 59% | Media | modelo | — |
 | Sun 22 Nov 07:30 | Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
@@ -416,9 +411,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 10:15 | Ligue 1 | Lorient vs Rennes | Goles | Más de 2.5 | 62% | Media | modelo | — |
 | Sun 22 Nov 10:15 | Ligue 1 | Lorient vs Rennes | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sun 22 Nov 10:15 | Ligue 1 | Lorient vs Rennes | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Ganador | Arezzo | 41% | Baja | casas + modelo | — |
-| Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Doble oportunidad | Arezzo o Padova (no empate) | 71% | Alta | casas + modelo | — |
-| Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
+| Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Ganador | Arezzo | 40% | Baja | casas + modelo | — |
+| Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Doble oportunidad | Arezzo o empate | 70% | Alta | casas + modelo | — |
+| Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Goles (línea segura) | Más de 1.5 | 70% | Alta | modelo | — |
 | Sun 22 Nov 10:15 | Serie B | Arezzo vs Padova | Ambos anotan | No | 51% | Baja | modelo | — |
 | Sun 22 Nov 10:30 | Bundesliga | Werder Bremen vs Hamburg | Ganador | Werder Bremen | 59% | Media | Kalshi + modelo | 57¢ |
@@ -499,7 +494,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 13:00 | Liga Profesional Argentina | Rosario Central vs Gimnasia (Mendoza) | Ambos anotan | Sí | 50% | Baja | modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Ganador | Athletico-PR | 63% | Media | casas + modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Doble oportunidad | Athletico-PR o empate | 85% | Alta | casas + modelo | — |
-| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Sun 22 Nov 13:45 | Serie A | Atalanta vs Inter | Ganador | Inter | 64% | Media | Kalshi + modelo | 60¢ |
@@ -641,4 +636,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Ambos anotan | No | 50% | Baja | modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ganador | Internacional | 58% | Media | casas + modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Doble oportunidad | Internacional o empate | 82% | Alta | casas + modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ambos anotan | Sí | 51% | Baja | modelo | — |
 
