@@ -1014,3 +1014,23 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401880159,Goles,Más de 2.5,0.5502,casas + modelo,1
 2026-11-22,liga,401880159,Goles (línea segura),Más de 1.5,0.7786,modelo,1
 2026-11-22,liga,401880159,Ambos anotan,Sí,0.5773,modelo,1
+2026-11-22,liga,401878942,Ganador,KAA Gent,0.5703,casas + modelo,0
+2026-11-22,liga,401878942,Doble oportunidad,KAA Gent o empate,0.8105,casas + modelo,0
+2026-11-22,liga,401878942,Goles,Más de 2.5,0.5206,casas + modelo,0
+2026-11-22,liga,401878942,Goles (línea segura),Más de 1.5,0.7551,modelo,0
+2026-11-22,liga,401878942,Ambos anotan,Sí,0.5162,modelo,0
+2026-11-22,liga,401885052,Ganador,Kaiserslautern,0.4963,casas + modelo,0
+2026-11-22,liga,401885052,Doble oportunidad,Kaiserslautern o Dynamo Dresden (no empate),0.7521,casas + modelo,0
+2026-11-22,liga,401885052,Goles,Más de 2.5,0.5755,casas + modelo,1
+2026-11-22,liga,401885052,Goles (línea segura),Más de 1.5,0.7425,modelo,1
+2026-11-22,liga,401885052,Ambos anotan,Sí,0.5124,modelo,1
+2026-11-22,liga,401885050,Ganador,Karlsruher SC,0.4178,casas + modelo,0
+2026-11-22,liga,401885050,Doble oportunidad,Karlsruher SC o VfL Osnabruck (no empate),0.7423,casas + modelo,0
+2026-11-22,liga,401885050,Goles,Más de 2.5,0.587,casas + modelo,0
+2026-11-22,liga,401885050,Goles (línea segura),Más de 1.5,0.7899,modelo,0
+2026-11-22,liga,401885050,Ambos anotan,Sí,0.5754,modelo,0
+2026-11-22,liga,401885048,Ganador,Hertha Berlin,0.6736,casas + modelo,1
+2026-11-22,liga,401885048,Doble oportunidad,Hertha Berlin o empate,0.849,casas + modelo,1
+2026-11-22,liga,401885048,Goles,Más de 2.5,0.5735,modelo,1
+2026-11-22,liga,401885048,Goles (línea segura),Más de 1.5,0.8072,modelo,1
+2026-11-22,liga,401885048,Ambos anotan,Sí,0.5806,modelo,0
