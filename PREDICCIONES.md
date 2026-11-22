@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 22 Nov 2026 15:33 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 22 Nov 2026 15:45 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -273,7 +273,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 |---|---|---|---|---|---|---|---|---|
 | Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Ganador | River Plate | 60% | Media | casas + modelo | — |
 | Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Doble oportunidad | River Plate o empate | 85% | Alta | casas + modelo | — |
-| Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Goles | Menos de 2.5 | 58% | Media | casas + modelo | — |
+| Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
 | Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Ambos anotan | No | 50% | Baja | modelo | — |
 | Sun 22 Nov 16:30 | Brasileirão | Red Bull Bragantino vs Vasco da Gama | Ganador | Vasco da Gama | 39% | Baja | casas + modelo | — |
@@ -285,9 +285,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Hándicap | Miami Heat gana por más de 4.5 | 50% | Baja | casas | 54¢ |
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Total de puntos | Menos de 232.5 | 52% | Baja | casas | 55¢ |
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Puntos (línea segura) | Más de 218.5 | 77% | Alta | casas | 76¢ |
-| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ganador | Guadalajara | 43% | Baja | casas + modelo | — |
-| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Doble oportunidad | Guadalajara o Cruz Azul (no empate) | 76% | Alta | casas + modelo | — |
-| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ganador | Guadalajara | 42% | Baja | casas + modelo | — |
+| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Doble oportunidad | Guadalajara o Cruz Azul (no empate) | 75% | Alta | casas + modelo | — |
+| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sun 22 Nov 17:30 | MLS | Chicago Fire FC vs Charlotte FC | Ganador | Chicago Fire FC | 59% | Media | casas + modelo | — |

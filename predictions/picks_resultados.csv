@@ -1200,3 +1200,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401841318,Goles,Más de 2.5,0.5079,casas + modelo,1
 2026-11-22,liga,401841318,Goles (línea segura),Más de 1.5,0.8003,modelo,1
 2026-11-22,liga,401841318,Ambos anotan,Sí,0.5675,modelo,1
+2026-11-22,liga,558520,Ganador,Inter,0.6387,Kalshi + modelo,0
+2026-11-22,liga,558520,Doble oportunidad,Inter o empate,0.83,Kalshi + modelo,1
+2026-11-22,liga,558520,Goles,Más de 2.5,0.5106,modelo,1
+2026-11-22,liga,558520,Goles (línea segura),Más de 1.5,0.7515,modelo,1
+2026-11-22,liga,558520,Ambos anotan,Sí,0.543,modelo,1
+2026-11-22,liga,559629,Ganador,Marseille,0.6956,Kalshi + modelo,0
+2026-11-22,liga,559629,Doble oportunidad,Marseille o empate,0.8723,Kalshi + modelo,0
+2026-11-22,liga,559629,Goles,Más de 2.5,0.6106,modelo,1
+2026-11-22,liga,559629,Goles (línea segura),Más de 1.5,0.8228,modelo,1
+2026-11-22,liga,559629,Ambos anotan,Sí,0.5578,modelo,1
