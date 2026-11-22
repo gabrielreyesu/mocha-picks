@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 22 Nov 2026 13:54 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 22 Nov 2026 14:49 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -17,10 +17,9 @@
 ## NBA
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 14:30 | Detroit Pistons en Atlanta Hawks | Detroit Pistons | 58% | 54% | 54% | 53% | 2.4 pts | 233 pts | 6 / 5 |
 | Sun 22 Nov 17:00 | Oklahoma City Thunder en Miami Heat | Oklahoma City Thunder | 58% | 40% | 40% | 39% | 2.0 pts | 233 pts | 0 / 7 |
 | Sun 22 Nov 18:00 | Denver Nuggets en Chicago Bulls | Denver Nuggets | 69% | 78% | 80% | 78% | 6.1 pts | 237 pts | 2 / 1 |
-| Sun 22 Nov 18:00 | Dallas Mavericks en Utah Jazz | Dallas Mavericks | 68% | 54% | 55% | 53% | 5.7 pts | 232 pts | 3 / 5 |
+| Sun 22 Nov 18:00 | Dallas Mavericks en Utah Jazz | Dallas Mavericks | 68% | 55% | 56% | 54% | 5.7 pts | 232 pts | 3 / 5 |
 | Sun 22 Nov 18:00 | Orlando Magic en Washington Wizards | Orlando Magic | 67% | 64% | 64% | 64% | 4.8 pts | 225 pts | 4 / 4 |
 | Sun 22 Nov 19:00 | Indiana Pacers en New York Knicks | New York Knicks | 87% | 72% | 74% | 72% | 13.8 pts | 222 pts | 3 / 4 |
 | Sun 22 Nov 19:30 | Boston Celtics en Golden State Warriors | Boston Celtics | 62% | 74% | 76% | 74% | 3.4 pts | 225 pts | 5 / 3 |
@@ -86,7 +85,6 @@
 ## Fútbol: ligas (Premier, La Liga, Serie A, Bundesliga, Ligue 1)
 | Fecha (hora Chicago) | Liga | Partido | Modelo: local / empate / visita | Kalshi: local / empate / visita | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 14:00 | La Liga | Getafe vs Ath Madrid | 24% / 28% / 47% | 16% / 22% / 62% | 68% / 42% / 21% | 49% | 13% / 14% | — |
 | Mon 23 Nov 13:45 | Serie A | Monza vs Fiorentina | 25% / 26% / 50% | 26% / 24% / 48% | 78% / 55% / 31% | 57% | 12% / 22% | — |
 | Mon 23 Nov 14:00 | Premier League | Brentford vs Everton | 44% / 28% / 28% | 45% / 26% / 28% | 75% / 49% / 27% | 51% | 24% / 11% | — |
 | Mon 23 Nov 14:00 | La Liga | Levante vs Elche | 49% / 27% / 24% | 44% / 25% / 30% | 78% / 54% / 31% | 57% | 23% / 10% | — |
@@ -270,21 +268,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 14:00 | La Liga | Getafe vs Ath Madrid | Ganador | Ath Madrid | 63% | Media | Kalshi + modelo | 62¢ |
-| Sun 22 Nov 14:00 | La Liga | Getafe vs Ath Madrid | Doble oportunidad | Ath Madrid o empate | 85% | Alta | Kalshi + modelo | — |
-| Sun 22 Nov 14:00 | La Liga | Getafe vs Ath Madrid | Goles | Menos de 2.5 | 58% | Media | modelo | — |
-| Sun 22 Nov 14:00 | La Liga | Getafe vs Ath Madrid | Goles (línea segura) | Más de 1.5 | 68% | Media | modelo | — |
-| Sun 22 Nov 14:00 | La Liga | Getafe vs Ath Madrid | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Ganador | Burgos | 48% | Baja | casas + modelo | — |
-| Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Doble oportunidad | Burgos o empate | 76% | Alta | casas + modelo | — |
-| Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
-| Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
-| Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Sun 22 Nov 14:30 | NBA | Detroit Pistons en Atlanta Hawks | Ganador | Detroit Pistons | 54% | Baja | Kalshi + casas + modelo | 54¢ |
-| Sun 22 Nov 14:30 | NBA | Detroit Pistons en Atlanta Hawks | Hándicap | Detroit Pistons gana por más de 1.5 | 50% | Baja | casas | 52¢ |
-| Sun 22 Nov 14:30 | NBA | Detroit Pistons en Atlanta Hawks | Total de puntos | Más de 223.5 | 50% | Baja | casas | 50¢ |
-| Sun 22 Nov 14:30 | NBA | Detroit Pistons en Atlanta Hawks | Puntos (línea segura) | Más de 209.5 | 78% | Alta | casas | 79¢ |
-| Sun 22 Nov 15:00 | MLS | Nashville SC vs TBD Away | Ganador | Nashville SC | 67% | Media | casas + modelo | — |
+| Sun 22 Nov 15:00 | MLS | Nashville SC vs TBD Away | Ganador | Nashville SC | 68% | Media | casas + modelo | — |
 | Sun 22 Nov 15:00 | MLS | Nashville SC vs TBD Away | Doble oportunidad | Nashville SC o empate | 86% | Alta | casas + modelo | — |
 | Sun 22 Nov 15:00 | MLS | Nashville SC vs TBD Away | Goles | Más de 2.5 | 63% | Media | modelo | — |
 | Sun 22 Nov 15:00 | MLS | Nashville SC vs TBD Away | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
@@ -292,13 +276,13 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 15:05 | NFL | New York Jets en Los Angeles Chargers | Ganador | Los Angeles Chargers | 58% | Media | Kalshi + casas + modelo | 60¢ |
 | Sun 22 Nov 15:05 | NFL | New York Jets en Los Angeles Chargers | Hándicap | New York Jets +3.5 (gana o pierde por menos de 3.5) | 52% | Baja | casas | 55¢ |
 | Sun 22 Nov 15:05 | NFL | New York Jets en Los Angeles Chargers | Total de puntos | Más de 43.5 | 50% | Baja | casas | 48¢ |
-| Sun 22 Nov 15:05 | NFL | New York Jets en Los Angeles Chargers | Puntos (línea segura) | Más de 34.5 | 76% | Alta | casas | 74¢ |
+| Sun 22 Nov 15:05 | NFL | New York Jets en Los Angeles Chargers | Puntos (línea segura) | Más de 34.5 | 76% | Alta | casas | 75¢ |
 | Sun 22 Nov 15:25 | NFL | Las Vegas Raiders en Denver Broncos | Ganador | Denver Broncos | 84% | Alta | Kalshi + casas + modelo | 84¢ |
 | Sun 22 Nov 15:25 | NFL | Las Vegas Raiders en Denver Broncos | Hándicap | Denver Broncos gana por más de 10.5 | 50% | Baja | casas | 52¢ |
 | Sun 22 Nov 15:25 | NFL | Las Vegas Raiders en Denver Broncos | Hándicap seguro | Denver Broncos gana por más de 3.5 | 71% | Alta | casas | 74¢ |
 | Sun 22 Nov 15:25 | NFL | Las Vegas Raiders en Denver Broncos | Total de puntos | Más de 40.5 | 50% | Baja | casas | 54¢ |
 | Sun 22 Nov 15:25 | NFL | Las Vegas Raiders en Denver Broncos | Puntos (línea segura) | Más de 31.5 | 76% | Alta | casas | 80¢ |
-| Sun 22 Nov 15:25 | NFL | Jacksonville Jaguars en New York Giants | Ganador | Jacksonville Jaguars | 75% | Alta | Kalshi + casas + modelo | 72¢ |
+| Sun 22 Nov 15:25 | NFL | Jacksonville Jaguars en New York Giants | Ganador | Jacksonville Jaguars | 74% | Alta | Kalshi + casas + modelo | 72¢ |
 | Sun 22 Nov 15:25 | NFL | Jacksonville Jaguars en New York Giants | Hándicap | New York Giants +6.5 (gana o pierde por menos de 6.5) | 52% | Baja | casas | 52¢ |
 | Sun 22 Nov 15:25 | NFL | Jacksonville Jaguars en New York Giants | Total de puntos | Más de 45.5 | 50% | Baja | casas | 48¢ |
 | Sun 22 Nov 15:25 | NFL | Jacksonville Jaguars en New York Giants | Puntos (línea segura) | Menos de 55.5 | 78% | Alta | casas | 78¢ |
@@ -319,34 +303,34 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 16:30 | Brasileirão | Red Bull Bragantino vs Vasco da Gama | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Ganador | Miami Heat | 61% | Media | Kalshi + casas + modelo | 60¢ |
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Hándicap | Miami Heat gana por más de 3.5 | 50% | Baja | casas | 50¢ |
-| Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Total de puntos | Menos de 232.5 | 52% | Baja | casas | 53¢ |
-| Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Puntos (línea segura) | Más de 218.5 | 77% | Alta | casas | 77¢ |
+| Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Total de puntos | Menos de 232.5 | 52% | Baja | casas | 52¢ |
+| Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Puntos (línea segura) | Más de 218.5 | 77% | Alta | casas | 76¢ |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ganador | Guadalajara | 43% | Baja | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Doble oportunidad | Guadalajara o Cruz Azul (no empate) | 76% | Alta | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sun 22 Nov 17:30 | MLS | Chicago Fire FC vs Charlotte FC | Ganador | Chicago Fire FC | 59% | Media | casas + modelo | — |
-| Sun 22 Nov 17:30 | MLS | Chicago Fire FC vs Charlotte FC | Doble oportunidad | Chicago Fire FC o Charlotte FC (no empate) | 80% | Alta | casas + modelo | — |
+| Sun 22 Nov 17:30 | MLS | Chicago Fire FC vs Charlotte FC | Doble oportunidad | Chicago Fire FC o empate | 79% | Alta | casas + modelo | — |
 | Sun 22 Nov 17:30 | MLS | Chicago Fire FC vs Charlotte FC | Goles | Más de 2.5 | 61% | Media | modelo | — |
 | Sun 22 Nov 17:30 | MLS | Chicago Fire FC vs Charlotte FC | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Sun 22 Nov 17:30 | MLS | Chicago Fire FC vs Charlotte FC | Ambos anotan | Sí | 64% | Media | modelo | — |
 | Sun 22 Nov 18:00 | NBA | Denver Nuggets en Chicago Bulls | Ganador | Denver Nuggets | 80% | Alta | Kalshi + casas + modelo | 78¢ |
-| Sun 22 Nov 18:00 | NBA | Denver Nuggets en Chicago Bulls | Hándicap | Denver Nuggets gana por más de 9.5 | 50% | Baja | casas | 51¢ |
+| Sun 22 Nov 18:00 | NBA | Denver Nuggets en Chicago Bulls | Hándicap | Denver Nuggets gana por más de 9.5 | 50% | Baja | casas | 52¢ |
 | Sun 22 Nov 18:00 | NBA | Denver Nuggets en Chicago Bulls | Hándicap seguro | Denver Nuggets gana por más de 1.5 | 72% | Alta | casas | 77¢ |
-| Sun 22 Nov 18:00 | NBA | Denver Nuggets en Chicago Bulls | Total de puntos | Menos de 236.5 | 52% | Baja | casas | 51¢ |
+| Sun 22 Nov 18:00 | NBA | Denver Nuggets en Chicago Bulls | Total de puntos | Menos de 236.5 | 52% | Baja | casas | 50¢ |
 | Sun 22 Nov 18:00 | NBA | Denver Nuggets en Chicago Bulls | Puntos (línea segura) | Más de 222.5 | 77% | Alta | casas | 78¢ |
-| Sun 22 Nov 18:00 | NBA | Dallas Mavericks en Utah Jazz | Ganador | Dallas Mavericks | 55% | Baja | Kalshi + casas + modelo | 55¢ |
+| Sun 22 Nov 18:00 | NBA | Dallas Mavericks en Utah Jazz | Ganador | Dallas Mavericks | 56% | Media | Kalshi + casas + modelo | 56¢ |
 | Sun 22 Nov 18:00 | NBA | Dallas Mavericks en Utah Jazz | Hándicap | Dallas Mavericks gana por más de 1.5 | 50% | Baja | casas | 52¢ |
-| Sun 22 Nov 18:00 | NBA | Dallas Mavericks en Utah Jazz | Total de puntos | Más de 226.5 | 50% | Baja | casas | 52¢ |
-| Sun 22 Nov 18:00 | NBA | Dallas Mavericks en Utah Jazz | Puntos (línea segura) | Más de 212.5 | 78% | Alta | casas | 79¢ |
+| Sun 22 Nov 18:00 | NBA | Dallas Mavericks en Utah Jazz | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 50¢ |
+| Sun 22 Nov 18:00 | NBA | Dallas Mavericks en Utah Jazz | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 79¢ |
 | Sun 22 Nov 18:00 | NBA | Orlando Magic en Washington Wizards | Ganador | Orlando Magic | 65% | Media | Kalshi + casas + modelo | 64¢ |
-| Sun 22 Nov 18:00 | NBA | Orlando Magic en Washington Wizards | Hándicap | Orlando Magic gana por más de 4.5 | 50% | Baja | casas | 54¢ |
+| Sun 22 Nov 18:00 | NBA | Orlando Magic en Washington Wizards | Hándicap | Orlando Magic gana por más de 4.5 | 50% | Baja | casas | 52¢ |
 | Sun 22 Nov 18:00 | NBA | Orlando Magic en Washington Wizards | Total de puntos | Menos de 221.5 | 52% | Baja | casas | 56¢ |
 | Sun 22 Nov 18:00 | NBA | Orlando Magic en Washington Wizards | Puntos (línea segura) | Más de 207.5 | 77% | Alta | casas | 76¢ |
 | Sun 22 Nov 19:00 | NBA | Indiana Pacers en New York Knicks | Ganador | New York Knicks | 72% | Alta | Kalshi + casas + modelo | 72¢ |
 | Sun 22 Nov 19:00 | NBA | Indiana Pacers en New York Knicks | Hándicap | New York Knicks gana por más de 7.5 | 50% | Baja | casas | 50¢ |
-| Sun 22 Nov 19:00 | NBA | Indiana Pacers en New York Knicks | Total de puntos | Menos de 214.5 | 52% | Baja | casas | 52¢ |
+| Sun 22 Nov 19:00 | NBA | Indiana Pacers en New York Knicks | Total de puntos | Menos de 214.5 | 52% | Baja | casas | 53¢ |
 | Sun 22 Nov 19:00 | NBA | Indiana Pacers en New York Knicks | Puntos (línea segura) | Más de 200.5 | 77% | Alta | casas | 78¢ |
 | Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Ganador | Querétaro | 44% | Baja | casas + modelo | — |
 | Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Doble oportunidad | Querétaro o Necaxa (no empate) | 75% | Alta | casas + modelo | — |
@@ -359,13 +343,13 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 19:00 | Liga Profesional Argentina | Instituto (Córdoba) vs Huracán | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 19:00 | Liga Profesional Argentina | Instituto (Córdoba) vs Huracán | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Ganador | San Francisco 49ers | 59% | Media | Kalshi + casas + modelo | 64¢ |
-| Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Hándicap | San Francisco 49ers gana por más de 3.5 | 50% | Baja | casas | 50¢ |
+| Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Hándicap | San Francisco 49ers gana por más de 3.5 | 50% | Baja | casas | 52¢ |
 | Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Total de puntos | Más de 46.5 | 50% | Baja | casas | 48¢ |
 | Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Puntos (línea segura) | Más de 36.5 | 78% | Alta | casas | 78¢ |
-| Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Ganador | Boston Celtics | 77% | Alta | Kalshi + casas + modelo | 76¢ |
+| Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Ganador | Boston Celtics | 76% | Alta | Kalshi + casas + modelo | 74¢ |
 | Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Hándicap | Boston Celtics gana por más de 8.5 | 50% | Baja | casas | 48¢ |
 | Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Total de puntos | Menos de 211.5 | 52% | Baja | casas | 52¢ |
-| Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Puntos (línea segura) | Más de 197.5 | 77% | Alta | casas | 78¢ |
+| Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Puntos (línea segura) | Más de 197.5 | 77% | Alta | casas | 77¢ |
 | Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Ganador | Vancouver Whitecaps | 69% | Media | casas + modelo | — |
 | Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Doble oportunidad | Vancouver Whitecaps o empate | 86% | Alta | casas + modelo | — |
 | Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Goles | Más de 2.5 | 62% | Media | modelo | — |
@@ -402,7 +386,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 14:00 | Premier League | Brentford vs Everton | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Mon 23 Nov 14:00 | Premier League | Brentford vs Everton | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Ganador | Gimnasia La Plata | 47% | Baja | casas + modelo | — |
-| Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Doble oportunidad | Gimnasia La Plata o empate | 76% | Alta | casas + modelo | — |
+| Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Doble oportunidad | Gimnasia La Plata o empate | 77% | Alta | casas + modelo | — |
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Ambos anotan | No | 50% | Baja | modelo | — |
