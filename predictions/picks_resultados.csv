@@ -1114,3 +1114,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401875542,Goles,Más de 2.5,0.6211,modelo,0
 2026-11-22,liga,401875542,Goles (línea segura),Más de 1.5,0.8376,modelo,0
 2026-11-22,liga,401875542,Ambos anotan,Sí,0.6429,modelo,0
+2026-11-22,liga,401888249,Ganador,Trabzonspor,0.9151,casas + modelo,1
+2026-11-22,liga,401888249,Doble oportunidad,Trabzonspor o empate,0.9746,casas + modelo,1
+2026-11-22,liga,401888249,Goles,Más de 2.5,0.7106,modelo,0
+2026-11-22,liga,401888249,Goles (línea segura),Más de 1.5,0.8856,modelo,0
+2026-11-22,liga,401888249,Ambos anotan,No,0.5273,modelo,1
+2026-11-22,liga,401899549,Ganador,Arezzo,0.3987,casas + modelo,0
+2026-11-22,liga,401899549,Doble oportunidad,Arezzo o Padova (no empate),0.7058,casas + modelo,0
+2026-11-22,liga,401899549,Goles,Menos de 2.5,0.5178,casas + modelo,1
+2026-11-22,liga,401899549,Goles (línea segura),Más de 1.5,0.7015,modelo,1
+2026-11-22,liga,401899549,Ambos anotan,No,0.5053,modelo,0
+2026-11-22,liga,565863,Ganador,Werder Bremen,0.5942,Kalshi + modelo,1
+2026-11-22,liga,565863,Doble oportunidad,Werder Bremen o empate,0.8018,Kalshi + modelo,1
+2026-11-22,liga,565863,Goles,Más de 2.5,0.5607,modelo,1
+2026-11-22,liga,565863,Goles (línea segura),Más de 1.5,0.8043,modelo,1
+2026-11-22,liga,565863,Ambos anotan,Sí,0.5852,modelo,0
