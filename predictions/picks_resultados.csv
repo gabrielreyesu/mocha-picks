@@ -1064,3 +1064,33 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401875540,Goles,Más de 2.5,0.5916,modelo,1
 2026-11-22,liga,401875540,Goles (línea segura),Más de 1.5,0.8192,modelo,1
 2026-11-22,liga,401875540,Ambos anotan,Sí,0.6107,modelo,1
+2026-11-22,liga,558522,Ganador,Bologna,0.5873,Kalshi + modelo,0
+2026-11-22,liga,558522,Doble oportunidad,Bologna o empate,0.8275,Kalshi + modelo,1
+2026-11-22,liga,558522,Goles,Más de 2.5,0.5202,modelo,0
+2026-11-22,liga,558522,Goles (línea segura),Más de 1.5,0.7594,modelo,1
+2026-11-22,liga,558522,Ambos anotan,Sí,0.5534,modelo,1
+2026-11-22,liga,558524,Ganador,Sassuolo,0.3761,Kalshi + modelo,0
+2026-11-22,liga,558524,Doble oportunidad,Sassuolo o Genoa (no empate),0.7209,Kalshi + modelo,1
+2026-11-22,liga,558524,Goles,Más de 2.5,0.5236,modelo,0
+2026-11-22,liga,558524,Goles (línea segura),Más de 1.5,0.7658,modelo,1
+2026-11-22,liga,558524,Ambos anotan,Sí,0.5608,modelo,0
+2026-11-22,liga,559625,Ganador,Paris FC,0.7532,Kalshi + modelo,1
+2026-11-22,liga,559625,Doble oportunidad,Paris FC o empate,0.9155,Kalshi + modelo,1
+2026-11-22,liga,559625,Goles,Más de 2.5,0.529,modelo,1
+2026-11-22,liga,559625,Goles (línea segura),Más de 1.5,0.7744,modelo,1
+2026-11-22,liga,559625,Ambos anotan,Sí,0.523,modelo,0
+2026-11-22,liga,560646,Ganador,Brighton,0.663,Kalshi + modelo,0
+2026-11-22,liga,560646,Doble oportunidad,Brighton o empate,0.8655,Kalshi + modelo,0
+2026-11-22,liga,560646,Goles,Más de 2.5,0.5656,modelo,0
+2026-11-22,liga,560646,Goles (línea segura),Más de 1.5,0.7933,modelo,1
+2026-11-22,liga,560646,Ambos anotan,Sí,0.5614,modelo,0
+2026-11-22,liga,401899547,Ganador,US Avellino,0.3886,casas + modelo,1
+2026-11-22,liga,401899547,Doble oportunidad,US Avellino o Mantova (no empate),0.714,casas + modelo,1
+2026-11-22,liga,401899547,Goles,Más de 2.5,0.5194,casas + modelo,1
+2026-11-22,liga,401899547,Goles (línea segura),Más de 1.5,0.7378,modelo,1
+2026-11-22,liga,401899547,Ambos anotan,Sí,0.5317,modelo,1
+2026-11-22,liga,565864,Ganador,Mainz,0.4017,Kalshi + modelo,0
+2026-11-22,liga,565864,Doble oportunidad,Augsburg o Mainz (no empate),0.7529,Kalshi + modelo,1
+2026-11-22,liga,565864,Goles,Más de 2.5,0.5984,modelo,1
+2026-11-22,liga,565864,Goles (línea segura),Más de 1.5,0.8234,modelo,1
+2026-11-22,liga,565864,Ambos anotan,Sí,0.6083,modelo,1
