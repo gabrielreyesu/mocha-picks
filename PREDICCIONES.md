@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 22 Nov 2026 09:37 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 22 Nov 2026 09:49 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -278,12 +278,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Ganador | Go Ahead Eagles | 52% | Baja | casas + modelo | — |
-| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Doble oportunidad | Go Ahead Eagles o Fortuna Sittard (no empate) | 77% | Alta | casas + modelo | — |
-| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Goles | Más de 2.5 | 62% | Media | modelo | — |
-| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
-| Sun 22 Nov 09:45 | Eredivisie | Go Ahead Eagles vs Fortuna Sittard | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Sun 22 Nov 10:00 | Superliga de Turquía | Trabzonspor vs Eyupspor | Ganador | Trabzonspor | 90% | Alta | casas + modelo | — |
+| Sun 22 Nov 10:00 | Superliga de Turquía | Trabzonspor vs Eyupspor | Ganador | Trabzonspor | 92% | Alta | casas + modelo | — |
 | Sun 22 Nov 10:00 | Superliga de Turquía | Trabzonspor vs Eyupspor | Doble oportunidad | Trabzonspor o empate | 97% | Alta | casas + modelo | — |
 | Sun 22 Nov 10:00 | Superliga de Turquía | Trabzonspor vs Eyupspor | Goles | Más de 2.5 | 71% | Alta | modelo | — |
 | Sun 22 Nov 10:00 | Superliga de Turquía | Trabzonspor vs Eyupspor | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
@@ -423,7 +418,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 15:25 | NFL | Jacksonville Jaguars en New York Giants | Puntos (línea segura) | Menos de 55.5 | 78% | Alta | casas | 78¢ |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Ganador | Fluminense | 61% | Media | casas + modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Doble oportunidad | Fluminense o empate | 84% | Alta | casas + modelo | — |
-| Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Ganador | River Plate | 60% | Media | casas + modelo | — |
@@ -467,9 +462,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 19:00 | NBA | Indiana Pacers en New York Knicks | Hándicap | New York Knicks gana por más de 8.5 | 50% | Baja | casas | 50¢ |
 | Sun 22 Nov 19:00 | NBA | Indiana Pacers en New York Knicks | Total de puntos | Menos de 214.5 | 52% | Baja | casas | 50¢ |
 | Sun 22 Nov 19:00 | NBA | Indiana Pacers en New York Knicks | Puntos (línea segura) | Más de 200.5 | 77% | Alta | casas | 80¢ |
-| Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Ganador | Querétaro | 45% | Baja | casas + modelo | — |
+| Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Ganador | Querétaro | 44% | Baja | casas + modelo | — |
 | Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Doble oportunidad | Querétaro o Necaxa (no empate) | 75% | Alta | casas + modelo | — |
-| Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Goles | Más de 2.5 | 63% | Media | casas + modelo | — |
+| Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
 | Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 19:00 | Liga MX | Querétaro vs Necaxa | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Sun 22 Nov 19:00 | Liga Profesional Argentina | Instituto (Córdoba) vs Huracán | Ganador | Instituto (Córdoba) | 47% | Baja | casas + modelo | — |
