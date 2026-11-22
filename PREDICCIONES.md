@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 22 Nov 2026 12:33 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 22 Nov 2026 12:52 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -277,9 +277,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 13:00 | Liga Profesional Argentina | Rosario Central vs Gimnasia (Mendoza) | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Sun 22 Nov 13:00 | Liga Profesional Argentina | Rosario Central vs Gimnasia (Mendoza) | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sun 22 Nov 13:00 | Liga Profesional Argentina | Rosario Central vs Gimnasia (Mendoza) | Ambos anotan | Sí | 50% | Baja | modelo | — |
-| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Ganador | Athletico-PR | 63% | Media | casas + modelo | — |
-| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Doble oportunidad | Athletico-PR o empate | 85% | Alta | casas + modelo | — |
-| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Ganador | Athletico-PR | 66% | Media | casas + modelo | — |
+| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Doble oportunidad | Athletico-PR o empate | 88% | Alta | casas + modelo | — |
+| Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sun 22 Nov 13:00 | Brasileirão | Athletico-PR vs Remo | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Sun 22 Nov 13:45 | Serie A | Atalanta vs Inter | Ganador | Inter | 64% | Media | Kalshi + modelo | 60¢ |
@@ -299,7 +299,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 14:00 | La Liga | Getafe vs Ath Madrid | Ambos anotan | No | 51% | Baja | modelo | — |
 | Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Ganador | Burgos | 49% | Baja | casas + modelo | — |
 | Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Doble oportunidad | Burgos o empate | 77% | Alta | casas + modelo | — |
-| Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
+| Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sun 22 Nov 14:00 | LaLiga 2 | Burgos vs Albacete | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sun 22 Nov 14:30 | NBA | Detroit Pistons en Atlanta Hawks | Ganador | Detroit Pistons | 54% | Baja | Kalshi + casas + modelo | 52¢ |
@@ -326,7 +326,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 15:25 | NFL | Jacksonville Jaguars en New York Giants | Puntos (línea segura) | Menos de 55.5 | 78% | Alta | casas | 78¢ |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Ganador | Fluminense | 61% | Media | casas + modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Doble oportunidad | Fluminense o empate | 84% | Alta | casas + modelo | — |
-| Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
+| Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Sun 22 Nov 15:30 | Brasileirão | Fluminense vs Mirassol | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Sun 22 Nov 16:00 | Liga Profesional Argentina | River Plate vs Lanús | Ganador | River Plate | 60% | Media | casas + modelo | — |
@@ -345,7 +345,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 17:00 | NBA | Oklahoma City Thunder en Miami Heat | Puntos (línea segura) | Más de 218.5 | 77% | Alta | casas | 77¢ |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ganador | Guadalajara | 43% | Baja | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Doble oportunidad | Guadalajara o Cruz Azul (no empate) | 76% | Alta | casas + modelo | — |
-| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sun 22 Nov 17:07 | Liga MX | Guadalajara vs Cruz Azul | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sun 22 Nov 17:30 | MLS | Chicago Fire FC vs Charlotte FC | Ganador | Chicago Fire FC | 59% | Media | casas + modelo | — |
@@ -388,8 +388,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Hándicap | Boston Celtics gana por más de 8.5 | 50% | Baja | casas | 48¢ |
 | Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Total de puntos | Menos de 211.5 | 52% | Baja | casas | 52¢ |
 | Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Puntos (línea segura) | Más de 197.5 | 77% | Alta | casas | 78¢ |
-| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Ganador | Vancouver Whitecaps | 67% | Media | casas + modelo | — |
-| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Doble oportunidad | Vancouver Whitecaps o empate | 85% | Alta | casas + modelo | — |
+| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Ganador | Vancouver Whitecaps | 68% | Media | casas + modelo | — |
+| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Doble oportunidad | Vancouver Whitecaps o empate | 86% | Alta | casas + modelo | — |
 | Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Goles | Más de 2.5 | 62% | Media | modelo | — |
 | Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Ambos anotan | No | 50% | Baja | modelo | — |

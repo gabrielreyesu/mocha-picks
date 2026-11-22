@@ -1129,3 +1129,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,565863,Goles,Más de 2.5,0.5607,modelo,1
 2026-11-22,liga,565863,Goles (línea segura),Más de 1.5,0.8043,modelo,1
 2026-11-22,liga,565863,Ambos anotan,Sí,0.5852,modelo,0
+2026-11-22,liga,558523,Ganador,Milan,0.652,Kalshi + modelo,1
+2026-11-22,liga,558523,Doble oportunidad,Milan o empate,0.8471,Kalshi + modelo,1
+2026-11-22,liga,558523,Goles,Más de 2.5,0.5749,modelo,1
+2026-11-22,liga,558523,Goles (línea segura),Más de 1.5,0.8039,modelo,1
+2026-11-22,liga,558523,Ambos anotan,Sí,0.5584,modelo,1
