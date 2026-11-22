@@ -1164,3 +1164,39 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401878934,Goles,Menos de 2.5,0.5024,modelo,0
 2026-11-22,liga,401878934,Goles (línea segura),Más de 1.5,0.7545,modelo,1
 2026-11-22,liga,401878934,Ambos anotan,Sí,0.5426,modelo,1
+2026-11-22,nfl,401873072,Ganador,Detroit Lions,0.6384,Kalshi + casas + modelo,1
+2026-11-22,nfl,401873072,Hándicap,Detroit Lions gana por más de 3.5,0.5,casas,1
+2026-11-22,nfl,401873072,Total de puntos,Más de 48.5,0.5,casas,1
+2026-11-22,nfl,401873072,Puntos (línea segura),Menos de 58.5,0.7791,casas,1
+2026-11-22,nfl,401873076,Ganador,Pittsburgh Steelers,0.6805,Kalshi + casas + modelo,0
+2026-11-22,nfl,401873076,Hándicap,Pittsburgh Steelers gana por más de 3.5,0.5,casas,0
+2026-11-22,nfl,401873076,Total de puntos,Más de 37.5,0.5,casas,0
+2026-11-22,nfl,401873076,Puntos (línea segura),Menos de 47.5,0.7791,casas,1
+2026-11-22,nfl,401873073,Ganador,Dallas Cowboys,0.7469,Kalshi + casas + modelo,1
+2026-11-22,nfl,401873073,Hándicap,Dallas Cowboys gana por más de 7.5,0.5,casas,1
+2026-11-22,nfl,401873073,Total de puntos,Más de 55.5,0.5,casas,1
+2026-11-22,nfl,401873073,Puntos (línea segura),Más de 46.5,0.7556,casas,1
+2026-11-22,nfl,401873068,Ganador,Carolina Panthers,0.5432,Kalshi + casas + modelo,1
+2026-11-22,nfl,401873068,Hándicap,Carolina Panthers gana por más de 2.5,0.5,casas,0
+2026-11-22,nfl,401873068,Total de puntos,Más de 44.5,0.5,casas,1
+2026-11-22,nfl,401873068,Puntos (línea segura),Más de 35.5,0.7556,casas,1
+2026-11-22,nfl,401873071,Ganador,Chicago Bears,0.8423,Kalshi + casas + modelo,1
+2026-11-22,nfl,401873071,Hándicap,Chicago Bears gana por más de 10.5,0.5314,casas,0
+2026-11-22,nfl,401873071,Hándicap seguro,Chicago Bears gana por más de 4.5,0.7092,casas,1
+2026-11-22,nfl,401873071,Total de puntos,Más de 47.5,0.5,casas,0
+2026-11-22,nfl,401873071,Puntos (línea segura),Más de 37.5,0.7791,casas,0
+2026-11-22,nfl,401873070,Ganador,Buffalo Bills,0.9119,Kalshi + casas + modelo,1
+2026-11-22,nfl,401873070,Hándicap,Buffalo Bills gana por más de 16.5,0.5,casas,1
+2026-11-22,nfl,401873070,Hándicap seguro,Buffalo Bills gana por más de 9.5,0.7092,casas,1
+2026-11-22,nfl,401873070,Total de puntos,Más de 45.5,0.5,casas,0
+2026-11-22,nfl,401873070,Puntos (línea segura),Menos de 55.5,0.7791,casas,1
+2026-11-22,liga,401933759,Ganador,Rosario Central,0.7188,casas + modelo,1
+2026-11-22,liga,401933759,Doble oportunidad,Rosario Central o empate,0.8965,casas + modelo,1
+2026-11-22,liga,401933759,Goles,Más de 2.5,0.5448,casas + modelo,1
+2026-11-22,liga,401933759,Goles (línea segura),Más de 1.5,0.7712,modelo,1
+2026-11-22,liga,401933759,Ambos anotan,Sí,0.5011,modelo,1
+2026-11-22,liga,401841318,Ganador,Athletico-PR,0.6603,casas + modelo,1
+2026-11-22,liga,401841318,Doble oportunidad,Athletico-PR o empate,0.8757,casas + modelo,1
+2026-11-22,liga,401841318,Goles,Más de 2.5,0.5079,casas + modelo,1
+2026-11-22,liga,401841318,Goles (línea segura),Más de 1.5,0.8003,modelo,1
+2026-11-22,liga,401841318,Ambos anotan,Sí,0.5675,modelo,1
