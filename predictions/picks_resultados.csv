@@ -1034,3 +1034,33 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401885048,Goles,Más de 2.5,0.5735,modelo,1
 2026-11-22,liga,401885048,Goles (línea segura),Más de 1.5,0.8072,modelo,1
 2026-11-22,liga,401885048,Ambos anotan,Sí,0.5806,modelo,0
+2026-11-22,liga,564749,Ganador,Barcelona,0.8307,Kalshi + modelo,1
+2026-11-22,liga,564749,Doble oportunidad,Barcelona o empate,0.9289,Kalshi + modelo,1
+2026-11-22,liga,564749,Goles,Más de 2.5,0.5881,modelo,1
+2026-11-22,liga,564749,Goles (línea segura),Más de 1.5,0.8134,modelo,1
+2026-11-22,liga,564749,Ambos anotan,Sí,0.5196,modelo,1
+2026-11-22,liga,401882300,Ganador,Córdoba,0.4865,casas + modelo,1
+2026-11-22,liga,401882300,Doble oportunidad,Córdoba o Real Oviedo (no empate),0.759,casas + modelo,1
+2026-11-22,liga,401882300,Goles,Más de 2.5,0.5794,casas + modelo,1
+2026-11-22,liga,401882300,Goles (línea segura),Más de 1.5,0.815,modelo,1
+2026-11-22,liga,401882300,Ambos anotan,Sí,0.6164,modelo,0
+2026-11-22,liga,401888246,Ganador,Besiktas,0.6608,casas + modelo,1
+2026-11-22,liga,401888246,Doble oportunidad,Besiktas o empate,0.8612,casas + modelo,1
+2026-11-22,liga,401888246,Goles,Más de 2.5,0.5602,casas + modelo,1
+2026-11-22,liga,401888246,Goles (línea segura),Más de 1.5,0.7586,modelo,1
+2026-11-22,liga,401888246,Ambos anotan,Sí,0.5317,modelo,1
+2026-11-22,liga,401888248,Ganador,Kasimpasa,0.5349,casas + modelo,1
+2026-11-22,liga,401888248,Doble oportunidad,Kasimpasa o empate,0.7931,casas + modelo,1
+2026-11-22,liga,401888248,Goles,Más de 2.5,0.5198,casas + modelo,1
+2026-11-22,liga,401888248,Goles (línea segura),Más de 1.5,0.7359,modelo,1
+2026-11-22,liga,401888248,Ambos anotan,No,0.5001,modelo,0
+2026-11-22,liga,401875547,Ganador,Ajax Amsterdam,0.8204,casas + modelo,1
+2026-11-22,liga,401875547,Doble oportunidad,Ajax Amsterdam o empate,0.9297,casas + modelo,1
+2026-11-22,liga,401875547,Goles,Más de 2.5,0.6929,modelo,1
+2026-11-22,liga,401875547,Goles (línea segura),Más de 1.5,0.8775,modelo,1
+2026-11-22,liga,401875547,Ambos anotan,Sí,0.5933,modelo,0
+2026-11-22,liga,401875540,Ganador,AZ Alkmaar,0.5921,casas + modelo,1
+2026-11-22,liga,401875540,Doble oportunidad,AZ Alkmaar o empate,0.8028,casas + modelo,1
+2026-11-22,liga,401875540,Goles,Más de 2.5,0.5916,modelo,1
+2026-11-22,liga,401875540,Goles (línea segura),Más de 1.5,0.8192,modelo,1
+2026-11-22,liga,401875540,Ambos anotan,Sí,0.6107,modelo,1
