@@ -1215,3 +1215,21 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401883111,Goles,Menos de 2.5,0.5925,casas + modelo,1
 2026-11-22,liga,401883111,Goles (línea segura),Más de 1.5,0.7671,modelo,0
 2026-11-22,liga,401883111,Ambos anotan,Sí,0.535,modelo,0
+2026-11-22,nba,401910029,Ganador,Detroit Pistons,0.5421,Kalshi + casas + modelo,0
+2026-11-22,nba,401910029,Hándicap,Detroit Pistons gana por más de 1.5,0.5,casas,0
+2026-11-22,nba,401910029,Total de puntos,Más de 223.5,0.5,casas,0
+2026-11-22,nba,401910029,Puntos (línea segura),Más de 209.5,0.7829,casas,0
+2026-11-22,liga,401933731,Ganador,Nashville SC,0.6751,casas + modelo,0
+2026-11-22,liga,401933731,Doble oportunidad,Nashville SC o empate,0.8597,casas + modelo,0
+2026-11-22,liga,401933731,Goles,Más de 2.5,0.6277,modelo,0
+2026-11-22,liga,401933731,Goles (línea segura),Más de 1.5,0.8144,modelo,0
+2026-11-22,liga,401933731,Ambos anotan,No,0.5428,modelo,1
+2026-11-22,nfl,401873074,Ganador,Los Angeles Chargers,0.5842,Kalshi + casas + modelo,0
+2026-11-22,nfl,401873074,Hándicap,New York Jets +3.5 (gana o pierde por menos de 3.5),0.5157,casas,1
+2026-11-22,nfl,401873074,Total de puntos,Más de 43.5,0.5,casas,1
+2026-11-22,nfl,401873074,Puntos (línea segura),Más de 34.5,0.7556,casas,1
+2026-11-22,liga,401841324,Ganador,Fluminense,0.6148,casas + modelo,1
+2026-11-22,liga,401841324,Doble oportunidad,Fluminense o empate,0.8352,casas + modelo,1
+2026-11-22,liga,401841324,Goles,Más de 2.5,0.537,casas + modelo,0
+2026-11-22,liga,401841324,Goles (línea segura),Más de 1.5,0.7359,modelo,0
+2026-11-22,liga,401841324,Ambos anotan,Sí,0.5114,modelo,0
