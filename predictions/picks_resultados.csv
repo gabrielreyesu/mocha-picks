@@ -957,3 +957,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401933739,Goles,Más de 2.5,0.6068,modelo,1
 2026-11-21,liga,401933739,Goles (línea segura),Más de 1.5,0.8285,modelo,1
 2026-11-21,liga,401933739,Ambos anotan,Sí,0.6173,modelo,0
+2026-11-21,liga,401841325,Ganador,Cruzeiro,0.7286,casas + modelo,1
+2026-11-21,liga,401841325,Doble oportunidad,Cruzeiro o empate,0.896,casas + modelo,1
+2026-11-21,liga,401841325,Goles,Más de 2.5,0.5971,casas + modelo,1
+2026-11-21,liga,401841325,Goles (línea segura),Más de 1.5,0.8288,modelo,1
+2026-11-21,liga,401841325,Ambos anotan,Sí,0.5301,modelo,1
