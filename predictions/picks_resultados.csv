@@ -937,3 +937,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401933732,Goles,Más de 2.5,0.5806,modelo,1
 2026-11-21,liga,401933732,Goles (línea segura),Más de 1.5,0.8119,modelo,1
 2026-11-21,liga,401933732,Ambos anotan,Sí,0.5932,modelo,0
+2026-11-21,club,401913961,Ganador,Boca Juniors,0.4556,casas + modelo,1
+2026-11-21,club,401913961,Doble oportunidad,Boca Juniors o empate,0.7723,casas + modelo,1
+2026-11-21,club,401913961,Goles,Menos de 2.5,0.5512,modelo,1
+2026-11-21,club,401913961,Goles (línea segura),Más de 1.5,0.7171,modelo,1
+2026-11-21,club,401913961,Ambos anotan,Sí,0.5132,modelo,0
