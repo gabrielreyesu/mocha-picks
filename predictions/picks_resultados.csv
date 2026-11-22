@@ -999,3 +999,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401888243,Goles,Más de 2.5,0.534,modelo,0
 2026-11-22,liga,401888243,Goles (línea segura),Más de 1.5,0.7809,modelo,0
 2026-11-22,liga,401888243,Ambos anotan,Sí,0.5746,modelo,0
+2026-11-22,liga,401875545,Ganador,FC Twente,0.925,casas + modelo,1
+2026-11-22,liga,401875545,Doble oportunidad,FC Twente o empate,0.9743,casas + modelo,1
+2026-11-22,liga,401875545,Goles,Más de 2.5,0.7676,modelo,1
+2026-11-22,liga,401875545,Goles (línea segura),Más de 1.5,0.9148,modelo,1
+2026-11-22,liga,401875545,Ambos anotan,Sí,0.5326,modelo,1
+2026-11-22,liga,558521,Ganador,Juventus,0.7529,Kalshi + modelo,1
+2026-11-22,liga,558521,Doble oportunidad,Juventus o empate,0.9084,Kalshi + modelo,1
+2026-11-22,liga,558521,Goles,Más de 2.5,0.5179,modelo,1
+2026-11-22,liga,558521,Goles (línea segura),Más de 1.5,0.77,modelo,1
+2026-11-22,liga,558521,Ambos anotan,No,0.5054,modelo,1
+2026-11-22,liga,401880159,Ganador,Burnley,0.527,casas + modelo,0
+2026-11-22,liga,401880159,Doble oportunidad,Burnley o empate,0.7682,casas + modelo,1
+2026-11-22,liga,401880159,Goles,Más de 2.5,0.5502,casas + modelo,1
+2026-11-22,liga,401880159,Goles (línea segura),Más de 1.5,0.7786,modelo,1
+2026-11-22,liga,401880159,Ambos anotan,Sí,0.5773,modelo,1
