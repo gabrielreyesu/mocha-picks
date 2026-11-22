@@ -984,3 +984,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401877049,Goles,Más de 2.5,0.5274,casas + modelo,0
 2026-11-21,liga,401877049,Goles (línea segura),Más de 1.5,0.7741,modelo,1
 2026-11-21,liga,401877049,Ambos anotan,Sí,0.5625,modelo,0
+2026-11-21,nba,401910028,Ganador,Boston Celtics,0.8486,Kalshi + casas + modelo,0
+2026-11-21,nba,401910028,Hándicap,Boston Celtics gana por más de 12.5,0.5,casas,0
+2026-11-21,nba,401910028,Hándicap seguro,Boston Celtics gana por más de 3.5,0.7491,casas,0
+2026-11-21,nba,401910028,Total de puntos,Más de 217.5,0.5,casas,0
+2026-11-21,nba,401910028,Puntos (línea segura),Más de 203.5,0.7829,casas,0
+2026-11-21,liga,401877048,Ganador,América,0.5247,casas + modelo,0
+2026-11-21,liga,401877048,Doble oportunidad,América o empate,0.7701,casas + modelo,0
+2026-11-21,liga,401877048,Goles,Más de 2.5,0.5866,casas + modelo,0
+2026-11-21,liga,401877048,Goles (línea segura),Más de 1.5,0.7916,modelo,0
+2026-11-21,liga,401877048,Ambos anotan,Sí,0.5867,modelo,0
