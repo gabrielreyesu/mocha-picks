@@ -935,3 +935,20 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-22T18:23:51.260473+00:00,401910043,2026-11-24T01:30Z,Houston Rockets,LA Clippers,0.78077,0.8062,-0.619,11.314,,,4,1866.0
 2026-11-22T18:23:51.260473+00:00,401910044,2026-11-24T03:00Z,Los Angeles Lakers,Utah Jazz,0.8376,0.83057,-1.793,7.781,Austin Reaves,Lauri Markkanen,2,1956.0
 2026-11-22T18:23:51.260473+00:00,401910045,2026-11-24T03:00Z,Sacramento Kings,San Antonio Spurs,0.12346,0.12301,1.118,-14.272,,Dylan Harper,4,1956.0
+2026-11-22T20:29:24.569935+00:00,401910029,2026-11-22T20:30Z,Atlanta Hawks,Detroit Pistons,0.44444,0.4629,-0.171,-0.457,CJ McCollum; Jock Landale; Asa Newell,Taurean Prince; Ebuka Okorie; Duncan Robinson,3,1.0
+2026-11-22T20:29:24.569935+00:00,401910030,2026-11-22T23:00Z,Miami Heat,Oklahoma City Thunder,0.44344,0.48081,0.048,1.636,,Nikola Topic; Jaylin Williams; Alex Caruso,4,151.0
+2026-11-22T20:29:24.569935+00:00,401910032,2026-11-23T00:00Z,Chicago Bulls,Denver Nuggets,0.34032,0.29296,-0.932,-11.451,Caleb Wilson; Norman Powell; Nic Claxton,,1,211.0
+2026-11-22T20:29:24.569935+00:00,401910033,2026-11-23T00:00Z,Utah Jazz,Dallas Mavericks,0.48608,0.46563,-0.021,-4.876,Lauri Markkanen,Tobi Lawal,5,211.0
+2026-11-22T20:29:24.569935+00:00,401910031,2026-11-23T00:00Z,Washington Wizards,Orlando Magic,0.28772,0.35531,1.34,1.897,,,8,211.0
+2026-11-22T20:29:24.569935+00:00,401910034,2026-11-23T01:00Z,New York Knicks,Indiana Pacers,0.85104,0.81752,0.037,1.764,OG Anunoby; Jordan Clarkson,T.J. McConnell,3,271.0
+2026-11-22T20:29:24.569935+00:00,401910035,2026-11-23T01:30Z,Golden State Warriors,Boston Celtics,0.40599,0.38338,-3.225,-5.348,Brandon Williams; Stephen Curry,,3,301.0
+2026-11-22T20:29:24.569935+00:00,401910036,2026-11-24T00:00Z,Charlotte Hornets,Memphis Grizzlies,0.48781,0.42,0.15,-11.735,Kon Knueppel; Dennis Schroder,GG Jackson,2,1651.0
+2026-11-22T20:29:24.569935+00:00,401910037,2026-11-24T00:00Z,Philadelphia 76ers,Portland Trail Blazers,0.58958,0.61231,-0.69,3.622,Adem Bona,Chris Youngblood; Vit Krejci,3,1651.0
+2026-11-22T20:29:24.569935+00:00,401910038,2026-11-24T00:30Z,Indiana Pacers,Oklahoma City Thunder,0.22579,0.26033,0.956,-3.605,T.J. McConnell,Nikola Topic; Jaylin Williams; Alex Caruso,7,1681.0
+2026-11-22T20:29:24.569935+00:00,401910040,2026-11-24T00:30Z,Minnesota Timberwolves,Brooklyn Nets,0.86379,0.85641,2.468,5.661,Jaylen Clark,,2,1681.0
+2026-11-22T20:29:24.569935+00:00,401910039,2026-11-24T00:30Z,Toronto Raptors,Milwaukee Bucks,0.78108,0.7696,1.381,2.8,RJ Barrett,Ousmane Dieng,2,1681.0
+2026-11-22T20:29:24.569935+00:00,401910041,2026-11-24T01:00Z,Chicago Bulls,Cleveland Cavaliers,0.35098,0.32024,-1.291,-8.41,Caleb Wilson; Norman Powell; Nic Claxton,Jaylon Tyson; Evan Mobley,1,1711.0
+2026-11-22T20:29:24.569935+00:00,401910042,2026-11-24T01:00Z,New Orleans Pelicans,Phoenix Suns,0.28547,0.34858,1.329,0.815,Trendon Watford; Bryce McGowens; Dejounte Murray; Bennedict Mathurin,,1,1711.0
+2026-11-22T20:29:24.569935+00:00,401910043,2026-11-24T01:30Z,Houston Rockets,LA Clippers,0.78077,0.8062,-0.619,11.314,,,4,1741.0
+2026-11-22T20:29:24.569935+00:00,401910044,2026-11-24T03:00Z,Los Angeles Lakers,Utah Jazz,0.8376,0.83057,-1.793,7.781,Austin Reaves,Lauri Markkanen,2,1831.0
+2026-11-22T20:29:24.569935+00:00,401910045,2026-11-24T03:00Z,Sacramento Kings,San Antonio Spurs,0.12346,0.12301,1.118,-14.272,,Dylan Harper,4,1831.0
