@@ -962,3 +962,25 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,liga,401841325,Goles,Más de 2.5,0.5971,casas + modelo,1
 2026-11-21,liga,401841325,Goles (línea segura),Más de 1.5,0.8288,modelo,1
 2026-11-21,liga,401841325,Ambos anotan,Sí,0.5301,modelo,1
+2026-11-21,nba,401910024,Ganador,Portland Trail Blazers,0.5293,Kalshi + casas + modelo,0
+2026-11-21,nba,401910024,Hándicap,Portland Trail Blazers gana por más de 1.5,0.5,casas,0
+2026-11-21,nba,401910024,Total de puntos,Menos de 214.5,0.5223,casas,1
+2026-11-21,nba,401910024,Puntos (línea segura),Más de 200.5,0.7662,casas,0
+2026-11-21,nba,401910027,Ganador,San Antonio Spurs,0.9185,Kalshi + casas + modelo,1
+2026-11-21,nba,401910027,Hándicap,San Antonio Spurs gana por más de 18.5,0.5,casas,1
+2026-11-21,nba,401910027,Hándicap seguro,San Antonio Spurs gana por más de 10.5,0.7248,casas,1
+2026-11-21,nba,401910027,Total de puntos,Más de 229.5,0.5,casas,0
+2026-11-21,nba,401910027,Puntos (línea segura),Más de 215.5,0.7829,casas,0
+2026-11-21,nba,401910026,Ganador,Minnesota Timberwolves,0.6627,Kalshi + casas + modelo,1
+2026-11-21,nba,401910026,Hándicap,Minnesota Timberwolves gana por más de 5.5,0.5,casas,1
+2026-11-21,nba,401910026,Total de puntos,Menos de 228.5,0.5223,casas,1
+2026-11-21,nba,401910026,Puntos (línea segura),Más de 214.5,0.7662,casas,0
+2026-11-21,nba,401910025,Ganador,Dallas Mavericks,0.6403,Kalshi + casas + modelo,1
+2026-11-21,nba,401910025,Hándicap,Dallas Mavericks gana por más de 4.5,0.5,casas,1
+2026-11-21,nba,401910025,Total de puntos,Más de 230.5,0.5,casas,0
+2026-11-21,nba,401910025,Puntos (línea segura),Más de 216.5,0.7829,casas,0
+2026-11-21,liga,401877049,Ganador,Pumas UNAM,0.368,casas + modelo,0
+2026-11-21,liga,401877049,Doble oportunidad,Pumas UNAM o Monterrey (no empate),0.7311,casas + modelo,1
+2026-11-21,liga,401877049,Goles,Más de 2.5,0.5274,casas + modelo,0
+2026-11-21,liga,401877049,Goles (línea segura),Más de 1.5,0.7741,modelo,1
+2026-11-21,liga,401877049,Ambos anotan,Sí,0.5625,modelo,0
