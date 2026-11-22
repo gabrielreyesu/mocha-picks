@@ -1094,3 +1094,23 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,565864,Goles,Más de 2.5,0.5984,modelo,1
 2026-11-22,liga,565864,Goles (línea segura),Más de 1.5,0.8234,modelo,1
 2026-11-22,liga,565864,Ambos anotan,Sí,0.6083,modelo,1
+2026-11-22,liga,401878936,Ganador,Union St.-Gilloise,0.8032,casas + modelo,1
+2026-11-22,liga,401878936,Doble oportunidad,Union St.-Gilloise o empate,0.9349,casas + modelo,1
+2026-11-22,liga,401878936,Goles,Más de 2.5,0.5779,casas + modelo,0
+2026-11-22,liga,401878936,Goles (línea segura),Más de 1.5,0.853,modelo,0
+2026-11-22,liga,401878936,Ambos anotan,No,0.5303,modelo,1
+2026-11-22,liga,564750,Ganador,Sociedad,0.4765,Kalshi + modelo,0
+2026-11-22,liga,564750,Doble oportunidad,Santander o Sociedad (no empate),0.7741,Kalshi + modelo,1
+2026-11-22,liga,564750,Goles,Más de 2.5,0.5948,modelo,1
+2026-11-22,liga,564750,Goles (línea segura),Más de 1.5,0.8062,modelo,1
+2026-11-22,liga,564750,Ambos anotan,Sí,0.5923,modelo,1
+2026-11-22,liga,401882298,Ganador,Sporting Gijón,0.4131,casas + modelo,0
+2026-11-22,liga,401882298,Doble oportunidad,Sporting Gijón o Las Palmas (no empate),0.7179,casas + modelo,1
+2026-11-22,liga,401882298,Goles,Menos de 2.5,0.5152,casas + modelo,1
+2026-11-22,liga,401882298,Goles (línea segura),Más de 1.5,0.7561,modelo,1
+2026-11-22,liga,401882298,Ambos anotan,Sí,0.549,modelo,0
+2026-11-22,liga,401875542,Ganador,Go Ahead Eagles,0.521,casas + modelo,0
+2026-11-22,liga,401875542,Doble oportunidad,Go Ahead Eagles o Fortuna Sittard (no empate),0.7708,casas + modelo,1
+2026-11-22,liga,401875542,Goles,Más de 2.5,0.6211,modelo,0
+2026-11-22,liga,401875542,Goles (línea segura),Más de 1.5,0.8376,modelo,0
+2026-11-22,liga,401875542,Ambos anotan,Sí,0.6429,modelo,0

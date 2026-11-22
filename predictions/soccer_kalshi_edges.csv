@@ -1,15 +1,10 @@
 liga,kickoff_utc,partido,resultado,p_modelo,ask,ventaja_bruta,volumen_evento
-La Liga,2026-11-22T20:00:00+00:00,Getafe - Ath Madrid,Getafe,0.2407,0.13,0.1107,279576.01
-La Liga,2026-11-22T20:00:00+00:00,Getafe - Ath Madrid,Empate,0.2849,0.24,0.0449,279576.01
-La Liga,2026-11-22T17:30:00+00:00,Osasuna - Malaga,Osasuna,0.5841,0.54,0.0441,40535.45
-La Liga,2026-11-23T20:00:00+00:00,Levante - Elche,Levante,0.4921,0.45,0.0421,4424.7
-Serie A,2026-11-22T17:00:00+00:00,Milan - Frosinone,Milan,0.636,0.6,0.036,175822.13
-Ligue 1,2026-11-22T19:45:00+00:00,Marseille - Le Mans,Empate,0.2165,0.19,0.0265,17434.28
-Serie A,2026-11-22T19:45:00+00:00,Atalanta - Inter,Empate,0.2339,0.21,0.0239,57302.25000000001
-Premier League,2026-11-23T20:00:00+00:00,Brentford - Everton,Brentford,0.4437,0.42,0.0237,32566.61
-Ligue 1,2026-11-22T19:45:00+00:00,Marseille - Le Mans,Le Mans,0.1591,0.14,0.0191,17434.28
-Serie A,2026-11-22T19:45:00+00:00,Atalanta - Inter,Atalanta,0.186,0.17,0.016,57302.25000000001
-Bundesliga,2026-11-22T16:30:00+00:00,Werder Bremen - Hamburg,Hamburg,0.268,0.26,0.008,111897.48
-Bundesliga,2026-11-22T16:30:00+00:00,Werder Bremen - Hamburg,Empate,0.2778,0.27,0.0078,111897.48
-Serie A,2026-11-22T17:00:00+00:00,Milan - Frosinone,Empate,0.2258,0.22,0.0058,175822.13
-La Liga,2026-11-23T20:00:00+00:00,Levante - Elche,Empate,0.2722,0.27,0.0022,4424.7
+La Liga,2026-11-22T20:00:00+00:00,Getafe - Ath Madrid,Getafe,0.2407,0.13,0.1107,337347.69
+La Liga,2026-11-23T20:00:00+00:00,Levante - Elche,Levante,0.4921,0.44,0.0521,5005.1900000000005
+La Liga,2026-11-22T20:00:00+00:00,Getafe - Ath Madrid,Empate,0.2849,0.24,0.0449,337347.69
+Ligue 1,2026-11-22T19:45:00+00:00,Marseille - Le Mans,Le Mans,0.1591,0.13,0.0291,22691.84
+Ligue 1,2026-11-22T19:45:00+00:00,Marseille - Le Mans,Empate,0.2165,0.19,0.0265,22691.84
+Serie A,2026-11-22T19:45:00+00:00,Atalanta - Inter,Empate,0.2339,0.21,0.0239,69414.94
+Premier League,2026-11-23T20:00:00+00:00,Brentford - Everton,Brentford,0.4437,0.42,0.0237,36047.58
+Serie A,2026-11-22T19:45:00+00:00,Atalanta - Inter,Atalanta,0.186,0.17,0.016,69414.94
+La Liga,2026-11-23T20:00:00+00:00,Levante - Elche,Empate,0.2722,0.27,0.0022,5005.1900000000005
