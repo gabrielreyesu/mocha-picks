@@ -942,3 +942,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-21,club,401913961,Goles,Menos de 2.5,0.5512,modelo,1
 2026-11-21,club,401913961,Goles (línea segura),Más de 1.5,0.7171,modelo,1
 2026-11-21,club,401913961,Ambos anotan,Sí,0.5132,modelo,0
+2026-11-21,liga,401877050,Ganador,Toluca,0.4201,casas + modelo,0
+2026-11-21,liga,401877050,Doble oportunidad,Pachuca o Toluca (no empate),0.7686,casas + modelo,1
+2026-11-21,liga,401877050,Goles,Más de 2.5,0.5957,modelo,0
+2026-11-21,liga,401877050,Goles (línea segura),Más de 1.5,0.822,modelo,1
+2026-11-21,liga,401877050,Ambos anotan,Sí,0.6263,modelo,0
+2026-11-21,liga,401877051,Ganador,Santos,0.4128,casas + modelo,0
+2026-11-21,liga,401877051,Doble oportunidad,Santos o León (no empate),0.7425,casas + modelo,1
+2026-11-21,liga,401877051,Goles,Más de 2.5,0.6052,casas + modelo,1
+2026-11-21,liga,401877051,Goles (línea segura),Más de 1.5,0.7594,modelo,1
+2026-11-21,liga,401877051,Ambos anotan,Sí,0.5521,modelo,1
+2026-11-21,liga,401933739,Ganador,Inter Miami CF,0.6053,casas + modelo,0
+2026-11-21,liga,401933739,Doble oportunidad,Inter Miami CF o empate,0.8029,casas + modelo,0
+2026-11-21,liga,401933739,Goles,Más de 2.5,0.6068,modelo,1
+2026-11-21,liga,401933739,Goles (línea segura),Más de 1.5,0.8285,modelo,1
+2026-11-21,liga,401933739,Ambos anotan,Sí,0.6173,modelo,0
