@@ -1298,3 +1298,11 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401933729,Goles,Más de 2.5,0.6244,modelo,0
 2026-11-22,liga,401933729,Goles (línea segura),Más de 1.5,0.8046,modelo,1
 2026-11-22,liga,401933729,Ambos anotan,No,0.5047,modelo,1
+2026-11-22,nfl,401873077,Ganador,San Francisco 49ers,0.602,Kalshi + casas + modelo,1
+2026-11-22,nfl,401873077,Hándicap,San Francisco 49ers gana por más de 4.5,0.5,casas,1
+2026-11-22,nfl,401873077,Total de puntos,Más de 44.5,0.5,casas,1
+2026-11-22,nfl,401873077,Puntos (línea segura),Menos de 54.5,0.7791,casas,1
+2026-11-22,nba,401910035,Ganador,Boston Celtics,0.7705,Kalshi + casas + modelo,0
+2026-11-22,nba,401910035,Hándicap,Boston Celtics gana por más de 8.5,0.5,casas,0
+2026-11-22,nba,401910035,Total de puntos,Menos de 213.5,0.5223,casas,1
+2026-11-22,nba,401910035,Puntos (línea segura),Más de 199.5,0.7662,casas,0
