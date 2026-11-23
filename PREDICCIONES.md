@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 23 Nov 2026 02:34 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 23 Nov 2026 09:43 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -280,9 +280,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Ganador | Almería | 57% | Media | casas + modelo | — |
-| Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Doble oportunidad | Almería o empate | 79% | Alta | casas + modelo | — |
-| Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Ganador | Almería | 56% | Media | casas + modelo | — |
+| Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Doble oportunidad | Almería o empate | 80% | Alta | casas + modelo | — |
+| Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Mon 23 Nov 13:45 | Serie A | Monza vs Fiorentina | Ganador | Fiorentina | 50% | Baja | Kalshi + modelo | 48¢ |
@@ -290,9 +290,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 13:45 | Serie A | Monza vs Fiorentina | Goles | Más de 2.5 | 55% | Media | modelo | — |
 | Mon 23 Nov 13:45 | Serie A | Monza vs Fiorentina | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Mon 23 Nov 13:45 | Serie A | Monza vs Fiorentina | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Mon 23 Nov 13:45 | Ligue 2 | Sochaux vs Dunkerque | Ganador | Sochaux | 40% | Baja | casas + modelo | — |
+| Mon 23 Nov 13:45 | Ligue 2 | Sochaux vs Dunkerque | Ganador | Dunkerque | 36% | Baja | casas + modelo | — |
 | Mon 23 Nov 13:45 | Ligue 2 | Sochaux vs Dunkerque | Doble oportunidad | Sochaux o Dunkerque (no empate) | 71% | Alta | casas + modelo | — |
-| Mon 23 Nov 13:45 | Ligue 2 | Sochaux vs Dunkerque | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Mon 23 Nov 13:45 | Ligue 2 | Sochaux vs Dunkerque | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Mon 23 Nov 13:45 | Ligue 2 | Sochaux vs Dunkerque | Goles (línea segura) | Más de 1.5 | 70% | Alta | modelo | — |
 | Mon 23 Nov 13:45 | Ligue 2 | Sochaux vs Dunkerque | Ambos anotan | No | 51% | Baja | modelo | — |
 | Mon 23 Nov 14:00 | La Liga | Levante vs Elche | Ganador | Levante | 46% | Baja | Kalshi + modelo | 44¢ |
@@ -310,9 +310,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Ambos anotan | No | 50% | Baja | modelo | — |
-| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ganador | Internacional | 57% | Media | casas + modelo | — |
-| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Doble oportunidad | Internacional o empate | 81% | Alta | casas + modelo | — |
-| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ganador | Internacional | 59% | Media | casas + modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Doble oportunidad | Internacional o empate | 83% | Alta | casas + modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Ganador | Botafogo | 42% | Baja | casas + modelo | — |
@@ -330,7 +330,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Puntos (línea segura) | Más de 215.5 | 78% | Alta | casas | 79¢ |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Ganador | Santos | 61% | Media | casas + modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Doble oportunidad | Santos o empate | 82% | Alta | casas + modelo | — |
-| Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Goles | Más de 2.5 | 53% | Baja | modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Ganador | Oklahoma City Thunder | 65% | Media | Kalshi + casas + modelo | 64¢ |
@@ -355,7 +355,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Hándicap | Phoenix Suns gana por más de 3.5 | 50% | Baja | casas | 50¢ |
 | Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Total de puntos | Menos de 233.5 | 52% | Baja | casas | 52¢ |
 | Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Puntos (línea segura) | Más de 219.5 | 77% | Alta | casas | 78¢ |
-| Mon 23 Nov 19:00 | MLS | St. Louis CITY SC vs LAFC | Ganador | St. Louis CITY SC | 40% | Baja | casas + modelo | — |
+| Mon 23 Nov 19:00 | MLS | St. Louis CITY SC vs LAFC | Ganador | St. Louis CITY SC | 38% | Baja | casas + modelo | — |
 | Mon 23 Nov 19:00 | MLS | St. Louis CITY SC vs LAFC | Doble oportunidad | St. Louis CITY SC o LAFC (no empate) | 74% | Alta | casas + modelo | — |
 | Mon 23 Nov 19:00 | MLS | St. Louis CITY SC vs LAFC | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Mon 23 Nov 19:00 | MLS | St. Louis CITY SC vs LAFC | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
@@ -504,4 +504,17 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Goles | Más de 2.5 | 67% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Ambos anotan | Sí | 55% | Media | modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ganador | Palmeiras | 65% | Media | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Doble oportunidad | Palmeiras o empate | 83% | Alta | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ambos anotan | No | 53% | Baja | modelo | — |
+| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Ganador | Detroit Pistons | 57% | Media | Kalshi + modelo | 56¢ |
+| Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Ganador | Boston Celtics | 77% | Alta | Kalshi + modelo | 78¢ |
+| Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Ganador | Denver Nuggets | 73% | Alta | Kalshi + modelo | 74¢ |
+| Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Ganador | San Jose Earthquakes | 44% | Baja | casas + modelo | — |
+| Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Doble oportunidad | San Jose Earthquakes o Houston Dynamo FC (no empate) | 74% | Alta | casas + modelo | — |
+| Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Ambos anotan | Sí | 54% | Baja | modelo | — |
 
