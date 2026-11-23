@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 23 Nov 2026 15:42 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 23 Nov 2026 16:29 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -17,13 +17,13 @@
 ## NBA
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Mon 23 Nov 18:00 | Memphis Grizzlies en Charlotte Hornets | Charlotte Hornets | 51% | 42% | 43% | 42% | 0.3 pts | 225 pts | 4 / 4 |
-| Mon 23 Nov 18:00 | Portland Trail Blazers en Philadelphia 76ers | Philadelphia 76ers | 54% | 57% | 58% | 56% | 1.2 pts | 230 pts | 2 / 4 |
-| Mon 23 Nov 18:30 | Oklahoma City Thunder en Indiana Pacers | Oklahoma City Thunder | 77% | 67% | 68% | 67% | 8.4 pts | 226 pts | 4 / 9 |
+| Mon 23 Nov 18:00 | Memphis Grizzlies en Charlotte Hornets | Charlotte Hornets | 51% | 42% | 43% | 43% | 0.3 pts | 225 pts | 4 / 4 |
+| Mon 23 Nov 18:00 | Portland Trail Blazers en Philadelphia 76ers | Philadelphia 76ers | 54% | 57% | 58% | 57% | 1.2 pts | 230 pts | 2 / 4 |
+| Mon 23 Nov 18:30 | Oklahoma City Thunder en Indiana Pacers | Oklahoma City Thunder | 77% | 66% | 68% | 67% | 8.4 pts | 226 pts | 4 / 9 |
 | Mon 23 Nov 18:30 | Brooklyn Nets en Minnesota Timberwolves | Minnesota Timberwolves | 85% | 82% | 82% | 81% | 12.7 pts | 229 pts | 3 / 1 |
 | Mon 23 Nov 18:30 | Milwaukee Bucks en Toronto Raptors | Toronto Raptors | 80% | 80% | 80% | 79% | 10.6 pts | 228 pts | 3 / 1 |
 | Mon 23 Nov 19:00 | Cleveland Cavaliers en Chicago Bulls | Cleveland Cavaliers | 70% | 76% | 74% | 75% | 6.3 pts | 243 pts | 3 / 3 |
-| Mon 23 Nov 19:00 | Phoenix Suns en New Orleans Pelicans | Phoenix Suns | 63% | 58% | 58% | 58% | 3.7 pts | 239 pts | 4 / 1 |
+| Mon 23 Nov 19:00 | Phoenix Suns en New Orleans Pelicans | Phoenix Suns | 63% | 58% | 57% | 58% | 3.7 pts | 239 pts | 4 / 1 |
 | Mon 23 Nov 19:30 | LA Clippers en Houston Rockets | Houston Rockets | 73% | 84% | 84% | 83% | 7.6 pts | 231 pts | 0 / 2 |
 | Mon 23 Nov 21:00 | Utah Jazz en Los Angeles Lakers | Los Angeles Lakers | 90% | 86% | 86% | 85% | 16.4 pts | 234 pts | 1 / 3 |
 | Mon 23 Nov 21:00 | San Antonio Spurs en Sacramento Kings | San Antonio Spurs | 89% | 84% | 84% | 82% | 15.6 pts | 229 pts | 2 / 3 |
@@ -206,10 +206,10 @@
 | Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | 25% / 23% / 52% | 32% / 26% / 42% | 33% / 26% / 41% | 86% / 65% / 43% | 64% | 10% / 34% | — |
 | Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | 67% / 21% / 12% | 68% / 18% / 12% | 68% / 20% / 13% | 78% / 56% / 32% | 50% | 42% / 4% | — |
 | Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | 68% / 19% / 13% | 78% / 14% / 8% | 75% / 15% / 10% | 85% / 66% / 42% | 58% | 45% / 5% | — |
-| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | 11% / 19% / 70% | 8% / 14% / 78% | 9% / 15% / 76% | 83% / 62% / 38% | 52% | 4% / 47% | — |
+| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | 11% / 19% / 70% | 8% / 15% / 78% | 9% / 15% / 76% | 83% / 62% / 38% | 52% | 4% / 47% | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | 73% / 16% / 11% | 84% / 10% / 6% | 81% / 11% / 8% | 89% / 72% / 51% | 60% | 52% / 4% | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | 57% / 22% / 21% | 70% / 16% / 14% | 69% / 17% / 15% | 87% / 64% / 45% | 62% | 39% / 8% | — |
-| Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | 73% / 17% / 10% | 74% / 15% / 11% | 75% / 15% / 11% | 87% / 67% / 46% | 55% | 51% / 4% | — |
+| Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | 73% / 17% / 10% | 74% / 15% / 10% | 75% / 15% / 11% | 87% / 67% / 46% | 55% | 51% / 4% | — |
 | Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | 23% / 25% / 51% | 30% / 24% / 44% | 31% / 24% / 44% | 79% / 55% / 32% | 56% | 9% / 29% | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | 3% / 8% / 89% | — / — / — | 5% / 6% / 89% | 94% / 84% / 67% | 53% | 1% / 76% | — |
 | Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | 13% / 19% / 67% | 18% / 22% / 60% | 19% / 21% / 60% | 85% / 64% / 43% | 56% | 4% / 47% | — |
@@ -274,45 +274,45 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 |---|---|---|---|---|---|---|---|---|
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ganador | Internacional | 60% | Media | casas + modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Doble oportunidad | Internacional o empate | 84% | Alta | casas + modelo | — |
-| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Ganador | Botafogo | 41% | Baja | casas + modelo | — |
-| Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Doble oportunidad | Botafogo o São Paulo (no empate) | 72% | Alta | casas + modelo | — |
-| Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
+| Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Ganador | Botafogo | 42% | Baja | casas + modelo | — |
+| Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Doble oportunidad | Botafogo o São Paulo (no empate) | 71% | Alta | casas + modelo | — |
+| Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Goles | Más de 2.5 | 50% | Baja | casas + modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Goles (línea segura) | Más de 1.5 | 68% | Media | modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Ambos anotan | No | 51% | Baja | modelo | — |
 | Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Ganador | Memphis Grizzlies | 59% | Media | Kalshi + casas + modelo | 57¢ |
 | Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Hándicap | Memphis Grizzlies gana por más de 2.5 | 50% | Baja | casas | 52¢ |
 | Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Total de puntos | Menos de 213.5 | 52% | Baja | casas | 50¢ |
 | Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Puntos (línea segura) | Más de 199.5 | 77% | Alta | casas | 79¢ |
-| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Ganador | Philadelphia 76ers | 56% | Media | Kalshi + casas + modelo | 57¢ |
+| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Ganador | Philadelphia 76ers | 57% | Media | Kalshi + casas + modelo | 57¢ |
 | Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 2.5 | 50% | Baja | casas | 50¢ |
-| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Total de puntos | Más de 231.5 | 50% | Baja | casas | 49¢ |
-| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Puntos (línea segura) | Más de 217.5 | 78% | Alta | casas | 78¢ |
+| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Total de puntos | Más de 231.5 | 50% | Baja | casas | 51¢ |
+| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Puntos (línea segura) | Más de 217.5 | 78% | Alta | casas | 80¢ |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Ganador | Santos | 61% | Media | casas + modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Doble oportunidad | Santos o empate | 82% | Alta | casas + modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Goles | Más de 2.5 | 53% | Baja | modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Ganador | Oklahoma City Thunder | 68% | Media | Kalshi + casas + modelo | 66¢ |
+| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Ganador | Oklahoma City Thunder | 68% | Media | Kalshi + casas + modelo | 67¢ |
 | Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Hándicap | Oklahoma City Thunder gana por más de 5.5 | 50% | Baja | casas | 52¢ |
-| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 52¢ |
+| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Total de puntos | Menos de 225.5 | 52% | Baja | casas | 51¢ |
 | Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Puntos (línea segura) | Más de 211.5 | 77% | Alta | casas | 76¢ |
 | Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 83% | Alta | Kalshi + casas + modelo | 82¢ |
-| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Hándicap | Minnesota Timberwolves gana por más de 11.5 | 50% | Baja | casas | 48¢ |
-| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Hándicap seguro | Minnesota Timberwolves gana por más de 2.5 | 75% | Alta | casas | 78¢ |
-| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Total de puntos | Menos de 224.5 | 52% | Baja | casas | 54¢ |
-| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Puntos (línea segura) | Más de 210.5 | 77% | Alta | casas | 77¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Hándicap | Minnesota Timberwolves gana por más de 10.5 | 50% | Baja | casas | 51¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Hándicap seguro | Minnesota Timberwolves gana por más de 2.5 | 72% | Alta | casas | 78¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Total de puntos | Más de 222.5 | 50% | Baja | casas | 52¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Puntos (línea segura) | Más de 208.5 | 78% | Alta | casas | 80¢ |
 | Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Ganador | Toronto Raptors | 80% | Alta | Kalshi + casas + modelo | 80¢ |
-| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Hándicap | Toronto Raptors gana por más de 10.5 | 50% | Baja | casas | 50¢ |
-| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Hándicap seguro | Toronto Raptors gana por más de 1.5 | 75% | Alta | casas | 78¢ |
+| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Hándicap | Toronto Raptors gana por más de 10.5 | 50% | Baja | casas | 48¢ |
+| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Hándicap seguro | Toronto Raptors gana por más de 1.5 | 75% | Alta | casas | 77¢ |
 | Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Total de puntos | Menos de 223.5 | 52% | Baja | casas | 52¢ |
 | Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Puntos (línea segura) | Más de 209.5 | 77% | Alta | casas | 78¢ |
 | Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Ganador | Cleveland Cavaliers | 77% | Alta | Kalshi + casas + modelo | 76¢ |
 | Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Hándicap | Cleveland Cavaliers gana por más de 8.5 | 50% | Baja | casas | 52¢ |
 | Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Total de puntos | Menos de 243.5 | 52% | Baja | casas | 56¢ |
-| Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Puntos (línea segura) | Más de 229.5 | 77% | Alta | casas | 76¢ |
+| Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Puntos (línea segura) | Más de 229.5 | 77% | Alta | casas | 75¢ |
 | Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Ganador | Phoenix Suns | 59% | Media | Kalshi + casas + modelo | 58¢ |
 | Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Hándicap | Phoenix Suns gana por más de 3.5 | 50% | Baja | casas | 48¢ |
 | Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Total de puntos | Menos de 233.5 | 52% | Baja | casas | 52¢ |
@@ -335,12 +335,12 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Hándicap | San Antonio Spurs gana por más de 12.5 | 50% | Baja | casas | 50¢ |
 | Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Hándicap seguro | San Antonio Spurs gana por más de 3.5 | 75% | Alta | casas | 78¢ |
 | Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Total de puntos | Más de 224.5 | 50% | Baja | casas | 50¢ |
-| Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Puntos (línea segura) | Más de 210.5 | 78% | Alta | casas | 78¢ |
+| Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Puntos (línea segura) | Más de 210.5 | 78% | Alta | casas | 80¢ |
 | Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Ganador | Los Angeles Lakers | 87% | Alta | Kalshi + casas + modelo | 86¢ |
-| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 13.5 | 50% | Baja | casas | 51¢ |
+| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 13.5 | 50% | Baja | casas | 50¢ |
 | Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Hándicap seguro | Los Angeles Lakers gana por más de 4.5 | 75% | Alta | casas | 78¢ |
 | Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 54¢ |
-| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 78¢ |
+| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 77¢ |
 | Tue 24 Nov 11:45 | Champions League | Galatasaray vs Aston Villa | Ganador | Aston Villa | 47% | Baja | Kalshi + casas + modelo | 44¢ |
 | Tue 24 Nov 11:45 | Champions League | Galatasaray vs Aston Villa | Doble oportunidad | Galatasaray o Aston Villa (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
 | Tue 24 Nov 11:45 | Champions League | Galatasaray vs Aston Villa | Goles | Más de 2.5 | 62% | Media | modelo | — |
@@ -456,7 +456,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Goles | Más de 2.5 | 64% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Ganador | Manchester City | 79% | Alta | Kalshi + casas + modelo | 74¢ |
+| Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Ganador | Manchester City | 80% | Alta | Kalshi + casas + modelo | 74¢ |
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Doble oportunidad | Manchester City o empate | 92% | Alta | Kalshi + casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Goles | Más de 2.5 | 67% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
@@ -466,8 +466,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ganador | Palmeiras | 60% | Media | casas + modelo | — |
-| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Doble oportunidad | Palmeiras o empate | 82% | Alta | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ganador | Palmeiras | 61% | Media | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Doble oportunidad | Palmeiras o empate | 83% | Alta | casas + modelo | — |
 | Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
 | Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ambos anotan | No | 53% | Baja | modelo | — |
