@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 22 Nov 2026 19:13 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 22 Nov 2026 21:51 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -17,73 +17,74 @@
 ## NBA
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 19:30 | Boston Celtics en Golden State Warriors | Boston Celtics | 62% | 76% | 76% | 74% | 3.4 pts | 225 pts | 5 / 2 |
-| Mon 23 Nov 18:00 | Memphis Grizzlies en Charlotte Hornets | Charlotte Hornets | 51% | 42% | 42% | 41% | 0.3 pts | 225 pts | 4 / 4 |
-| Mon 23 Nov 18:00 | Portland Trail Blazers en Philadelphia 76ers | Philadelphia 76ers | 54% | 58% | 59% | 57% | 1.2 pts | 230 pts | 2 / 4 |
-| Mon 23 Nov 18:30 | Oklahoma City Thunder en Indiana Pacers | Oklahoma City Thunder | 77% | 62% | 63% | — | 8.4 pts | 226 pts | 4 / 9 |
-| Mon 23 Nov 18:30 | Brooklyn Nets en Minnesota Timberwolves | Minnesota Timberwolves | 85% | 84% | 84% | — | 12.7 pts | 229 pts | 3 / 1 |
-| Mon 23 Nov 18:30 | Milwaukee Bucks en Toronto Raptors | Toronto Raptors | 80% | 80% | 78% | — | 10.6 pts | 228 pts | 3 / 1 |
-| Mon 23 Nov 19:00 | Cleveland Cavaliers en Chicago Bulls | Cleveland Cavaliers | 70% | 75% | 76% | — | 6.3 pts | 243 pts | 3 / 3 |
-| Mon 23 Nov 19:00 | Phoenix Suns en New Orleans Pelicans | Phoenix Suns | 63% | 60% | 60% | — | 3.7 pts | 239 pts | 4 / 1 |
-| Mon 23 Nov 19:30 | LA Clippers en Houston Rockets | Houston Rockets | 73% | 82% | 84% | 82% | 7.6 pts | 231 pts | 0 / 2 |
-| Mon 23 Nov 21:00 | Utah Jazz en Los Angeles Lakers | Los Angeles Lakers | 90% | 86% | 86% | — | 16.4 pts | 234 pts | 1 / 3 |
-| Mon 23 Nov 21:00 | San Antonio Spurs en Sacramento Kings | San Antonio Spurs | 89% | 87% | 88% | — | 15.6 pts | 229 pts | 2 / 3 |
-| Tue 24 Nov 18:00 | Detroit Pistons en Orlando Magic | Detroit Pistons | 58% | 57% | 56% | — | 2.4 pts | 223 pts | 4 / 3 |
-| Tue 24 Nov 19:00 | Boston Celtics en Washington Wizards | Boston Celtics | 85% | 79% | 80% | — | 13.0 pts | 227 pts | 4 / 2 |
-| Tue 24 Nov 21:00 | Dallas Mavericks en Denver Nuggets | Denver Nuggets | 72% | 76% | 76% | — | 6.6 pts | 231 pts | 1 / 5 |
+| Mon 23 Nov 18:00 | Memphis Grizzlies en Charlotte Hornets | Charlotte Hornets | 51% | 40% | 40% | 41% | 0.3 pts | 225 pts | 4 / 4 |
+| Mon 23 Nov 18:00 | Portland Trail Blazers en Philadelphia 76ers | Philadelphia 76ers | 54% | 58% | 59% | 58% | 1.2 pts | 230 pts | 2 / 4 |
+| Mon 23 Nov 18:30 | Oklahoma City Thunder en Indiana Pacers | Oklahoma City Thunder | 77% | 64% | 64% | 63% | 8.4 pts | 226 pts | 4 / 9 |
+| Mon 23 Nov 18:30 | Brooklyn Nets en Minnesota Timberwolves | Minnesota Timberwolves | 85% | 84% | 84% | 84% | 12.7 pts | 229 pts | 3 / 1 |
+| Mon 23 Nov 18:30 | Milwaukee Bucks en Toronto Raptors | Toronto Raptors | 80% | 81% | 80% | 81% | 10.6 pts | 228 pts | 3 / 1 |
+| Mon 23 Nov 19:00 | Cleveland Cavaliers en Chicago Bulls | Cleveland Cavaliers | 70% | 75% | 76% | 75% | 6.3 pts | 243 pts | 3 / 3 |
+| Mon 23 Nov 19:00 | Phoenix Suns en New Orleans Pelicans | Phoenix Suns | 63% | 59% | 58% | 58% | 3.7 pts | 239 pts | 4 / 1 |
+| Mon 23 Nov 19:30 | LA Clippers en Houston Rockets | Houston Rockets | 73% | 84% | 84% | 84% | 7.6 pts | 231 pts | 0 / 2 |
+| Mon 23 Nov 21:00 | Utah Jazz en Los Angeles Lakers | Los Angeles Lakers | 90% | 86% | 86% | 86% | 16.4 pts | 234 pts | 1 / 3 |
+| Mon 23 Nov 21:00 | San Antonio Spurs en Sacramento Kings | San Antonio Spurs | 89% | 81% | 80% | 79% | 15.6 pts | 229 pts | 2 / 3 |
+| Tue 24 Nov 18:00 | Detroit Pistons en Orlando Magic | Detroit Pistons | 58% | 56% | 54% | — | 2.4 pts | 223 pts | 4 / 3 |
+| Tue 24 Nov 19:00 | Boston Celtics en Washington Wizards | Boston Celtics | 85% | 76% | 78% | — | 13.0 pts | 227 pts | 4 / 2 |
+| Tue 24 Nov 21:00 | Dallas Mavericks en Denver Nuggets | Denver Nuggets | 72% | 74% | 76% | — | 6.6 pts | 231 pts | 1 / 5 |
 | Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | 62% | 62% | — | 2.8 pts | 236 pts | 2 / 1 |
-| Wed 25 Nov 18:00 | Chicago Bulls en Charlotte Hornets | Charlotte Hornets | 65% | 55% | 56% | — | 4.4 pts | 229 pts | 4 / 3 |
-| Wed 25 Nov 18:30 | Cleveland Cavaliers en New York Knicks | New York Knicks | 71% | 63% | 64% | — | 6.4 pts | 225 pts | 3 / 3 |
-| Wed 25 Nov 18:30 | Minnesota Timberwolves en Oklahoma City Thunder | Oklahoma City Thunder | 60% | 55% | 54% | — | 2.6 pts | 223 pts | 9 / 3 |
-| Wed 25 Nov 19:00 | LA Clippers en Memphis Grizzlies | Memphis Grizzlies | 65% | 76% | 76% | — | 5.0 pts | 236 pts | 4 / 2 |
-| Wed 25 Nov 19:00 | Brooklyn Nets en Milwaukee Bucks | Milwaukee Bucks | 54% | 50% | 50% | — | 1.2 pts | 232 pts | 1 / 1 |
-| Wed 25 Nov 19:30 | Phoenix Suns en Houston Rockets | Houston Rockets | 70% | 75% | 70% | — | 6.3 pts | 232 pts | 0 / 1 |
-| Wed 25 Nov 21:00 | Sacramento Kings en Golden State Warriors | Golden State Warriors | 77% | 59% | 60% | — | 9.1 pts | 231 pts | 5 / 2 |
-| Wed 25 Nov 21:00 | San Antonio Spurs en Portland Trail Blazers | San Antonio Spurs | 63% | 64% | 66% | — | 3.8 pts | 228 pts | 4 / 3 |
-| Fri 27 Nov 18:00 | Miami Heat en New York Knicks | New York Knicks | 74% | — | 65% | — | 7.5 pts | 230 pts | 3 / 1 |
-| Fri 27 Nov 18:30 | Milwaukee Bucks en Detroit Pistons | Detroit Pistons | 90% | 78% | 80% | — | 16.1 pts | 228 pts | 3 / 1 |
-| Fri 27 Nov 18:30 | Philadelphia 76ers en Indiana Pacers | Philadelphia 76ers | 70% | 72% | 69% | — | 6.2 pts | 230 pts | 4 / 2 |
-| Fri 27 Nov 18:30 | Brooklyn Nets en Toronto Raptors | Toronto Raptors | 76% | 70% | 71% | — | 8.5 pts | 230 pts | 3 / 1 |
-| Fri 27 Nov 19:00 | Atlanta Hawks en Boston Celtics | Boston Celtics | 72% | 63% | 62% | — | 7.0 pts | 226 pts | 2 / 5 |
+| Wed 25 Nov 18:00 | Chicago Bulls en Charlotte Hornets | Charlotte Hornets | 65% | 57% | 56% | — | 4.4 pts | 229 pts | 4 / 3 |
+| Wed 25 Nov 18:30 | Cleveland Cavaliers en New York Knicks | New York Knicks | 71% | 73% | 70% | — | 6.4 pts | 225 pts | 3 / 3 |
+| Wed 25 Nov 18:30 | Minnesota Timberwolves en Oklahoma City Thunder | Oklahoma City Thunder | 60% | 54% | 54% | — | 2.6 pts | 223 pts | 9 / 3 |
+| Wed 25 Nov 19:00 | LA Clippers en Memphis Grizzlies | Memphis Grizzlies | 65% | 74% | 76% | — | 5.0 pts | 236 pts | 4 / 2 |
+| Wed 25 Nov 19:00 | Brooklyn Nets en Milwaukee Bucks | Milwaukee Bucks | 54% | 48% | 48% | — | 1.2 pts | 232 pts | 1 / 1 |
+| Wed 25 Nov 19:30 | Phoenix Suns en Houston Rockets | Houston Rockets | 70% | 77% | 73% | — | 6.3 pts | 232 pts | 0 / 1 |
+| Wed 25 Nov 21:00 | Sacramento Kings en Golden State Warriors | Golden State Warriors | 77% | 61% | 61% | — | 9.1 pts | 231 pts | 5 / 2 |
+| Wed 25 Nov 21:00 | San Antonio Spurs en Portland Trail Blazers | San Antonio Spurs | 63% | 64% | 62% | — | 3.8 pts | 228 pts | 4 / 3 |
+| Fri 27 Nov 18:00 | Miami Heat en New York Knicks | New York Knicks | 74% | — | 62% | — | 7.5 pts | 230 pts | 3 / 1 |
+| Fri 27 Nov 18:30 | Brooklyn Nets en Toronto Raptors | Toronto Raptors | 76% | 77% | 74% | — | 8.5 pts | 230 pts | 3 / 1 |
+| Fri 27 Nov 18:30 | Milwaukee Bucks en Detroit Pistons | Detroit Pistons | 90% | 82% | 82% | — | 16.1 pts | 228 pts | 3 / 1 |
+| Fri 27 Nov 18:30 | Philadelphia 76ers en Indiana Pacers | Philadelphia 76ers | 70% | 64% | 61% | — | 6.2 pts | 230 pts | 4 / 2 |
+| Fri 27 Nov 19:00 | Atlanta Hawks en Boston Celtics | Boston Celtics | 72% | 55% | 59% | — | 7.0 pts | 226 pts | 2 / 5 |
 | Fri 27 Nov 19:30 | Memphis Grizzlies en Minnesota Timberwolves | Minnesota Timberwolves | 68% | — | 65% | — | 5.4 pts | 231 pts | 3 / 4 |
-| Fri 27 Nov 20:00 | Dallas Mavericks en Phoenix Suns | Phoenix Suns | 67% | — | 60% | — | 4.9 pts | 232 pts | 1 / 5 |
-| Fri 27 Nov 20:30 | New Orleans Pelicans en LA Clippers | LA Clippers | 69% | 59% | 57% | — | 5.8 pts | 238 pts | 2 / 4 |
-| Fri 27 Nov 20:30 | Golden State Warriors en Portland Trail Blazers | Portland Trail Blazers | 70% | — | 66% | — | 6.2 pts | 230 pts | 4 / 5 |
-| Fri 27 Nov 20:30 | Los Angeles Lakers en San Antonio Spurs | San Antonio Spurs | 71% | 57% | 58% | — | 6.5 pts | 233 pts | 3 / 1 |
-| Fri 27 Nov 20:30 | Denver Nuggets en Utah Jazz | Denver Nuggets | 71% | 84% | 78% | — | 6.4 pts | 227 pts | 3 / 1 |
-| Sat 28 Nov 16:00 | Orlando Magic en Washington Wizards | Orlando Magic | 70% | 58% | 62% | — | 6.0 pts | 227 pts | 4 / 4 |
+| Fri 27 Nov 20:00 | Dallas Mavericks en Phoenix Suns | Phoenix Suns | 67% | 57% | 58% | — | 4.9 pts | 232 pts | 1 / 5 |
+| Fri 27 Nov 20:30 | New Orleans Pelicans en LA Clippers | LA Clippers | 69% | 61% | 62% | — | 5.8 pts | 238 pts | 2 / 4 |
+| Fri 27 Nov 20:30 | Golden State Warriors en Portland Trail Blazers | Portland Trail Blazers | 70% | — | 68% | — | 6.2 pts | 230 pts | 4 / 5 |
+| Fri 27 Nov 20:30 | Los Angeles Lakers en San Antonio Spurs | San Antonio Spurs | 71% | 62% | 61% | — | 6.5 pts | 233 pts | 3 / 1 |
+| Fri 27 Nov 20:30 | Denver Nuggets en Utah Jazz | Denver Nuggets | 71% | 89% | 80% | — | 6.4 pts | 227 pts | 3 / 1 |
+| Sat 28 Nov 16:00 | Orlando Magic en Washington Wizards | Orlando Magic | 70% | 61% | 59% | — | 6.0 pts | 227 pts | 4 / 4 |
 | Sat 28 Nov 17:00 | Brooklyn Nets en Charlotte Hornets | Charlotte Hornets | 71% | — | — | — | 6.1 pts | 221 pts | 4 / 1 |
+| Sat 28 Nov 19:00 | Oklahoma City Thunder en Milwaukee Bucks | Oklahoma City Thunder | 84% | — | 76% | — | 12.5 pts | 228 pts | 1 / 9 |
 | Sat 28 Nov 19:00 | Indiana Pacers en Chicago Bulls | Chicago Bulls | 61% | — | 55% | — | 3.0 pts | 236 pts | 3 / 4 |
-| Sat 28 Nov 19:00 | Oklahoma City Thunder en Milwaukee Bucks | Oklahoma City Thunder | 84% | — | 75% | — | 12.5 pts | 228 pts | 1 / 9 |
-| Sat 28 Nov 19:30 | Philadelphia 76ers en Houston Rockets | Houston Rockets | 62% | — | 67% | — | 3.9 pts | 233 pts | 0 / 2 |
+| Sat 28 Nov 19:30 | Philadelphia 76ers en Houston Rockets | Houston Rockets | 62% | — | 68% | — | 3.9 pts | 233 pts | 0 / 2 |
 | Sun 29 Nov 14:30 | Miami Heat en Cleveland Cavaliers | Cleveland Cavaliers | 59% | — | 52% | — | 2.6 pts | 243 pts | 3 / 1 |
 | Sun 29 Nov 15:00 | Los Angeles Lakers en Memphis Grizzlies | Los Angeles Lakers | 57% | — | 54% | — | 1.6 pts | 237 pts | 4 / 1 |
 | Sun 29 Nov 15:00 | Boston Celtics en San Antonio Spurs | San Antonio Spurs | 66% | — | 62% | — | 4.8 pts | 221 pts | 3 / 2 |
-| Sun 29 Nov 16:00 | Phoenix Suns en Utah Jazz | Phoenix Suns | 68% | — | 66% | — | 5.3 pts | 228 pts | 3 / 1 |
+| Sun 29 Nov 16:00 | Phoenix Suns en Utah Jazz | Phoenix Suns | 68% | — | 64% | — | 5.3 pts | 228 pts | 3 / 1 |
 | Sun 29 Nov 17:00 | Orlando Magic en Detroit Pistons | Detroit Pistons | 68% | — | 72% | — | 5.7 pts | 224 pts | 3 / 4 |
-| Sun 29 Nov 17:00 | Atlanta Hawks en New York Knicks | New York Knicks | 74% | — | 66% | — | 7.6 pts | 223 pts | 3 / 5 |
+| Sun 29 Nov 17:00 | Atlanta Hawks en New York Knicks | New York Knicks | 74% | — | 65% | — | 7.6 pts | 223 pts | 3 / 5 |
 | Sun 29 Nov 17:00 | New Orleans Pelicans en Portland Trail Blazers | Portland Trail Blazers | 83% | — | 76% | — | 11.8 pts | 234 pts | 4 / 4 |
-| Sun 29 Nov 17:00 | Denver Nuggets en Toronto Raptors | Denver Nuggets | 55% | — | 54% | — | 1.5 pts | 227 pts | 3 / 1 |
+| Sun 29 Nov 17:00 | Denver Nuggets en Toronto Raptors | Denver Nuggets | 55% | — | 56% | — | 1.5 pts | 227 pts | 3 / 1 |
+| Sun 29 Nov 19:30 | LA Clippers en Golden State Warriors | Golden State Warriors | 63% | — | 63% | — | 4.1 pts | 230 pts | 5 / 2 |
+| Sun 29 Nov 20:00 | Minnesota Timberwolves en Sacramento Kings | Minnesota Timberwolves | 80% | — | 74% | — | 10.3 pts | 226 pts | 2 / 3 |
 
 ## NFL
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 19:20 | Minnesota Vikings en San Francisco 49ers | San Francisco 49ers | 53% | 66% | 66% | 64% | 1.5 pts | 47 pts | 10 / 6 |
 | Mon 23 Nov 19:15 | Cincinnati Bengals en Washington Commanders | Cincinnati Bengals | 64% | 72% | 72% | 72% | 4.6 pts | 48 pts | 2 / 4 |
-| Wed 25 Nov 19:00 | Green Bay Packers en Los Angeles Rams | Los Angeles Rams | 64% | — | 60% | — | 4.6 pts | 47 pts | 8 / 6 |
+| Wed 25 Nov 19:00 | Green Bay Packers en Los Angeles Rams | Los Angeles Rams | 64% | — | 59% | — | 4.6 pts | 47 pts | 8 / 6 |
 | Thu 26 Nov 12:00 | Chicago Bears en Detroit Lions | Detroit Lions | 53% | 44% | 44% | 43% | 1.6 pts | 47 pts | 8 / 5 |
-| Thu 26 Nov 15:30 | Philadelphia Eagles en Dallas Cowboys | Dallas Cowboys | 60% | 78% | 78% | 78% | 4.0 pts | 47 pts | 8 / 7 |
-| Thu 26 Nov 19:20 | Kansas City Chiefs en Buffalo Bills | Buffalo Bills | 68% | 57% | 58% | 59% | 5.7 pts | 49 pts | 8 / 8 |
-| Fri 27 Nov 14:00 | Denver Broncos en Pittsburgh Steelers | Denver Broncos | 59% | 55% | 55% | 57% | 1.8 pts | 44 pts | 10 / 8 |
-| Sun 29 Nov 12:00 | New Orleans Saints en Cincinnati Bengals | Cincinnati Bengals | 81% | 83% | 84% | 82% | 10.8 pts | 49 pts | 4 / 8 |
-| Sun 29 Nov 12:00 | Baltimore Ravens en Houston Texans | Houston Texans | 69% | 72% | 72% | 72% | 7.0 pts | 47 pts | 6 / 8 |
-| Sun 29 Nov 12:00 | New York Giants en Indianapolis Colts | New York Giants | 68% | 75% | 76% | 74% | 4.6 pts | 42 pts | 8 / 8 |
+| Thu 26 Nov 15:30 | Philadelphia Eagles en Dallas Cowboys | Dallas Cowboys | 60% | 78% | 78% | 77% | 4.0 pts | 47 pts | 8 / 7 |
+| Thu 26 Nov 19:20 | Kansas City Chiefs en Buffalo Bills | Buffalo Bills | 68% | 58% | 58% | 58% | 5.7 pts | 49 pts | 8 / 8 |
+| Fri 27 Nov 14:00 | Denver Broncos en Pittsburgh Steelers | Denver Broncos | 59% | 55% | 57% | 58% | 1.8 pts | 44 pts | 10 / 8 |
+| Sun 29 Nov 12:00 | New Orleans Saints en Cincinnati Bengals | Cincinnati Bengals | 81% | 83% | 83% | 83% | 10.8 pts | 49 pts | 4 / 8 |
+| Sun 29 Nov 12:00 | Baltimore Ravens en Houston Texans | Houston Texans | 69% | 72% | 73% | 71% | 7.0 pts | 47 pts | 6 / 8 |
+| Sun 29 Nov 12:00 | New York Giants en Indianapolis Colts | New York Giants | 68% | 76% | 74% | 72% | 4.6 pts | 42 pts | 8 / 8 |
 | Sun 29 Nov 12:00 | Tennessee Titans en Jacksonville Jaguars | Jacksonville Jaguars | 90% | 88% | 88% | 88% | 15.9 pts | 47 pts | 7 / 9 |
 | Sun 29 Nov 12:00 | New York Jets en Miami Dolphins | Miami Dolphins | 60% | 34% | 32% | 36% | 3.3 pts | 42 pts | 8 / 7 |
-| Sun 29 Nov 12:00 | Atlanta Falcons en Minnesota Vikings | Minnesota Vikings | 79% | 76% | 76% | 74% | 9.9 pts | 42 pts | 6 / 2 |
-| Sun 29 Nov 15:05 | New England Patriots en Los Angeles Chargers | New England Patriots | 66% | 48% | 46% | 44% | 4.3 pts | 44 pts | 7 / 6 |
+| Sun 29 Nov 12:00 | Atlanta Falcons en Minnesota Vikings | Minnesota Vikings | 79% | 76% | 77% | — | 9.9 pts | 42 pts | 6 / 2 |
+| Sun 29 Nov 15:05 | New England Patriots en Los Angeles Chargers | New England Patriots | 66% | 50% | 50% | 48% | 4.3 pts | 44 pts | 7 / 6 |
 | Sun 29 Nov 15:25 | Washington Commanders en Arizona Cardinals | Washington Commanders | 67% | 75% | 75% | 75% | 4.5 pts | 42 pts | 9 / 2 |
-| Sun 29 Nov 15:25 | Seattle Seahawks en San Francisco 49ers | San Francisco 49ers | 57% | 58% | 59% | 59% | 2.4 pts | 49 pts | 10 / 4 |
+| Sun 29 Nov 15:25 | Seattle Seahawks en San Francisco 49ers | San Francisco 49ers | 57% | 70% | 68% | — | 2.4 pts | 49 pts | 10 / 4 |
+| Sun 29 Nov 19:20 | Las Vegas Raiders en Cleveland Browns | Cleveland Browns | 71% | 66% | 68% | 66% | 6.6 pts | 47 pts | 2 / 7 |
 
 ## Fútbol: ligas (Premier, La Liga, Serie A, Bundesliga, Ligue 1)
 | Fecha (hora Chicago) | Liga | Partido | Modelo: local / empate / visita | Kalshi: local / empate / visita | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
@@ -271,19 +272,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Ganador | San Francisco 49ers | 60% | Media | Kalshi + casas + modelo | 66¢ |
-| Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Hándicap | San Francisco 49ers gana por más de 4.5 | 50% | Baja | casas | 48¢ |
-| Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Total de puntos | Más de 44.5 | 50% | Baja | casas | 52¢ |
-| Sun 22 Nov 19:20 | NFL | Minnesota Vikings en San Francisco 49ers | Puntos (línea segura) | Menos de 54.5 | 78% | Alta | casas | 74¢ |
-| Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Ganador | Boston Celtics | 77% | Alta | Kalshi + casas + modelo | 75¢ |
-| Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Hándicap | Boston Celtics gana por más de 8.5 | 50% | Baja | casas | 49¢ |
-| Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Total de puntos | Menos de 213.5 | 52% | Baja | casas | 54¢ |
-| Sun 22 Nov 19:30 | NBA | Boston Celtics en Golden State Warriors | Puntos (línea segura) | Más de 199.5 | 77% | Alta | casas | 74¢ |
-| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Ganador | Vancouver Whitecaps | 69% | Media | casas + modelo | — |
-| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Doble oportunidad | Vancouver Whitecaps o empate | 86% | Alta | casas + modelo | — |
-| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Goles | Más de 2.5 | 62% | Media | modelo | — |
-| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
-| Sun 22 Nov 19:30 | MLS | Vancouver Whitecaps vs TBD Away | Ambos anotan | No | 50% | Baja | modelo | — |
 | Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Ganador | Istanbul Basaksehir | 52% | Baja | casas + modelo | — |
 | Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Doble oportunidad | Istanbul Basaksehir o Çorum FK (no empate) | 77% | Alta | casas + modelo | — |
 | Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
@@ -329,24 +317,41 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Goles (línea segura) | Más de 1.5 | 68% | Media | modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Ambos anotan | No | 51% | Baja | modelo | — |
-| Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Ganador | Memphis Grizzlies | 60% | Media | Kalshi + casas + modelo | 57¢ |
-| Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Hándicap | Memphis Grizzlies gana por más de 3.5 | 50% | Baja | casas | 49¢ |
-| Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Total de puntos | Menos de 219.5 | 52% | Baja | casas | 54¢ |
-| Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Puntos (línea segura) | Más de 205.5 | 77% | Alta | casas | 75¢ |
-| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Ganador | Philadelphia 76ers | 57% | Media | Kalshi + casas + modelo | 58¢ |
-| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 2.5 | 50% | Baja | casas | 54¢ |
-| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Total de puntos | Menos de 229.5 | 52% | Baja | casas | 52¢ |
-| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Puntos (línea segura) | Más de 215.5 | 77% | Alta | casas | 78¢ |
+| Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Ganador | Memphis Grizzlies | 61% | Media | Kalshi + casas + modelo | 60¢ |
+| Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Hándicap | Memphis Grizzlies gana por más de 3.5 | 50% | Baja | casas | 51¢ |
+| Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Total de puntos | Menos de 217.5 | 52% | Baja | casas | 54¢ |
+| Mon 23 Nov 18:00 | NBA | Memphis Grizzlies en Charlotte Hornets | Puntos (línea segura) | Más de 203.5 | 77% | Alta | casas | 76¢ |
+| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Ganador | Philadelphia 76ers | 58% | Media | Kalshi + casas + modelo | 58¢ |
+| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 3.5 | 50% | Baja | casas | 48¢ |
+| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Total de puntos | Más de 229.5 | 50% | Baja | casas | 50¢ |
+| Mon 23 Nov 18:00 | NBA | Portland Trail Blazers en Philadelphia 76ers | Puntos (línea segura) | Más de 215.5 | 78% | Alta | casas | 79¢ |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Ganador | Santos | 61% | Media | casas + modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Doble oportunidad | Santos o empate | 82% | Alta | casas + modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Mon 23 Nov 18:00 | Brasileirão | Santos vs Grêmio | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Ganador | Oklahoma City Thunder | 63% | Media | Kalshi + modelo | 63¢ |
-| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 84% | Alta | Kalshi + modelo | 84¢ |
-| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Ganador | Toronto Raptors | 80% | Alta | Kalshi + modelo | 80¢ |
-| Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Ganador | Cleveland Cavaliers | 76% | Alta | Kalshi + modelo | 75¢ |
-| Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Ganador | Phoenix Suns | 61% | Media | Kalshi + modelo | 60¢ |
+| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Ganador | Oklahoma City Thunder | 65% | Media | Kalshi + casas + modelo | 64¢ |
+| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Hándicap | Oklahoma City Thunder gana por más de 5.5 | 50% | Baja | casas | 52¢ |
+| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Total de puntos | Menos de 223.5 | 52% | Baja | casas | 53¢ |
+| Mon 23 Nov 18:30 | NBA | Oklahoma City Thunder en Indiana Pacers | Puntos (línea segura) | Más de 209.5 | 77% | Alta | casas | 77¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Ganador | Minnesota Timberwolves | 84% | Alta | Kalshi + casas + modelo | 84¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Hándicap | Minnesota Timberwolves gana por más de 12.5 | 50% | Baja | casas | 48¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Hándicap seguro | Minnesota Timberwolves gana por más de 4.5 | 72% | Alta | casas | 74¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Total de puntos | Menos de 224.5 | 52% | Baja | casas | 52¢ |
+| Mon 23 Nov 18:30 | NBA | Brooklyn Nets en Minnesota Timberwolves | Puntos (línea segura) | Más de 210.5 | 77% | Alta | casas | 78¢ |
+| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Ganador | Toronto Raptors | 82% | Alta | Kalshi + casas + modelo | 81¢ |
+| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Hándicap | Toronto Raptors gana por más de 10.5 | 50% | Baja | casas | 52¢ |
+| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Hándicap seguro | Toronto Raptors gana por más de 1.5 | 75% | Alta | casas | 80¢ |
+| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Total de puntos | Más de 223.5 | 50% | Baja | casas | 50¢ |
+| Mon 23 Nov 18:30 | NBA | Milwaukee Bucks en Toronto Raptors | Puntos (línea segura) | Más de 209.5 | 78% | Alta | casas | 80¢ |
+| Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Ganador | Cleveland Cavaliers | 77% | Alta | Kalshi + casas + modelo | 76¢ |
+| Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Hándicap | Cleveland Cavaliers gana por más de 8.5 | 50% | Baja | casas | 50¢ |
+| Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Total de puntos | Menos de 241.5 | 52% | Baja | casas | 50¢ |
+| Mon 23 Nov 19:00 | NBA | Cleveland Cavaliers en Chicago Bulls | Puntos (línea segura) | Más de 227.5 | 77% | Alta | casas | 76¢ |
+| Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Ganador | Phoenix Suns | 59% | Media | Kalshi + casas + modelo | 60¢ |
+| Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Hándicap | Phoenix Suns gana por más de 3.5 | 50% | Baja | casas | 50¢ |
+| Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Total de puntos | Menos de 233.5 | 52% | Baja | casas | 52¢ |
+| Mon 23 Nov 19:00 | NBA | Phoenix Suns en New Orleans Pelicans | Puntos (línea segura) | Más de 219.5 | 77% | Alta | casas | 78¢ |
 | Mon 23 Nov 19:00 | MLS | St. Louis CITY SC vs LAFC | Ganador | St. Louis CITY SC | 41% | Baja | casas + modelo | — |
 | Mon 23 Nov 19:00 | MLS | St. Louis CITY SC vs LAFC | Doble oportunidad | St. Louis CITY SC o LAFC (no empate) | 75% | Alta | casas + modelo | — |
 | Mon 23 Nov 19:00 | MLS | St. Louis CITY SC vs LAFC | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
@@ -356,11 +361,19 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 19:15 | NFL | Cincinnati Bengals en Washington Commanders | Hándicap | Washington Commanders +6.5 (gana o pierde por menos de 6.5) | 52% | Baja | casas | 52¢ |
 | Mon 23 Nov 19:15 | NFL | Cincinnati Bengals en Washington Commanders | Total de puntos | Más de 54.5 | 50% | Baja | casas | 50¢ |
 | Mon 23 Nov 19:15 | NFL | Cincinnati Bengals en Washington Commanders | Puntos (línea segura) | Menos de 64.5 | 78% | Alta | casas | 76¢ |
-| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Ganador | Houston Rockets | 84% | Alta | Kalshi + casas + modelo | 82¢ |
-| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Hándicap | Houston Rockets gana por más de 13.5 | 50% | Baja | casas | 44¢ |
-| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Hándicap seguro | Houston Rockets gana por más de 4.5 | 75% | Alta | casas | 72¢ |
-| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 51¢ |
-| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 77¢ |
-| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Ganador | Los Angeles Lakers | 86% | Alta | Kalshi + modelo | 86¢ |
-| Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Ganador | San Antonio Spurs | 88% | Alta | Kalshi + modelo | 86¢ |
+| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Ganador | Houston Rockets | 85% | Alta | Kalshi + casas + modelo | 84¢ |
+| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Hándicap | Houston Rockets gana por más de 12.5 | 50% | Baja | casas | 49¢ |
+| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Hándicap seguro | Houston Rockets gana por más de 4.5 | 72% | Alta | casas | 74¢ |
+| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Total de puntos | Más de 224.5 | 50% | Baja | casas | 50¢ |
+| Mon 23 Nov 19:30 | NBA | LA Clippers en Houston Rockets | Puntos (línea segura) | Más de 210.5 | 78% | Alta | casas | 80¢ |
+| Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Ganador | San Antonio Spurs | 81% | Alta | Kalshi + casas + modelo | 81¢ |
+| Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Hándicap | San Antonio Spurs gana por más de 10.5 | 50% | Baja | casas | 50¢ |
+| Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Hándicap seguro | San Antonio Spurs gana por más de 1.5 | 75% | Alta | casas | 78¢ |
+| Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 56¢ |
+| Mon 23 Nov 21:00 | NBA | San Antonio Spurs en Sacramento Kings | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 77¢ |
+| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Ganador | Los Angeles Lakers | 87% | Alta | Kalshi + casas + modelo | 86¢ |
+| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Hándicap | Los Angeles Lakers gana por más de 13.5 | 50% | Baja | casas | 48¢ |
+| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Hándicap seguro | Los Angeles Lakers gana por más de 4.5 | 75% | Alta | casas | 79¢ |
+| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Total de puntos | Más de 230.5 | 50% | Baja | casas | 44¢ |
+| Mon 23 Nov 21:00 | NBA | Utah Jazz en Los Angeles Lakers | Puntos (línea segura) | Más de 216.5 | 78% | Alta | casas | 78¢ |
 
