@@ -1233,3 +1233,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401841324,Goles,Más de 2.5,0.537,casas + modelo,0
 2026-11-22,liga,401841324,Goles (línea segura),Más de 1.5,0.7359,modelo,0
 2026-11-22,liga,401841324,Ambos anotan,Sí,0.5114,modelo,0
+2026-11-22,liga,401933761,Ganador,River Plate,0.5963,casas + modelo,1
+2026-11-22,liga,401933761,Doble oportunidad,River Plate o empate,0.8475,casas + modelo,1
+2026-11-22,liga,401933761,Goles,Menos de 2.5,0.5713,casas + modelo,0
+2026-11-22,liga,401933761,Goles (línea segura),Más de 1.5,0.7238,modelo,1
+2026-11-22,liga,401933761,Ambos anotan,No,0.5043,modelo,0
+2026-11-22,liga,401841321,Ganador,Vasco da Gama,0.3906,casas + modelo,0
+2026-11-22,liga,401841321,Doble oportunidad,Red Bull Bragantino o Vasco da Gama (no empate),0.7375,casas + modelo,1
+2026-11-22,liga,401841321,Goles,Más de 2.5,0.595,casas + modelo,0
+2026-11-22,liga,401841321,Goles (línea segura),Más de 1.5,0.7673,modelo,0
+2026-11-22,liga,401841321,Ambos anotan,Sí,0.5565,modelo,0
