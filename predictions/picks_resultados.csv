@@ -1326,3 +1326,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-23,liga,401876683,Goles,Más de 2.5,0.5471,casas + modelo,1
 2026-11-23,liga,401876683,Goles (línea segura),Más de 1.5,0.7005,modelo,1
 2026-11-23,liga,401876683,Ambos anotan,No,0.5096,modelo,0
+2026-11-23,liga,564757,Ganador,Levante,0.4594,Kalshi + modelo,0
+2026-11-23,liga,564757,Doble oportunidad,Levante o Elche (no empate),0.7495,Kalshi + modelo,0
+2026-11-23,liga,564757,Goles,Más de 2.5,0.545,modelo,0
+2026-11-23,liga,564757,Goles (línea segura),Más de 1.5,0.7812,modelo,1
+2026-11-23,liga,564757,Ambos anotan,Sí,0.565,modelo,1
+2026-11-23,liga,560649,Ganador,Brentford,0.47,Kalshi + modelo,1
+2026-11-23,liga,560649,Doble oportunidad,Brentford o Everton (no empate),0.7428,Kalshi + modelo,1
+2026-11-23,liga,560649,Goles,Menos de 2.5,0.5112,modelo,0
+2026-11-23,liga,560649,Goles (línea segura),Más de 1.5,0.745,modelo,1
+2026-11-23,liga,560649,Ambos anotan,Sí,0.5091,modelo,0
