@@ -1257,3 +1257,44 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-22,liga,401877047,Goles,Más de 2.5,0.5433,casas + modelo,0
 2026-11-22,liga,401877047,Goles (línea segura),Más de 1.5,0.8159,modelo,0
 2026-11-22,liga,401877047,Ambos anotan,Sí,0.6192,modelo,0
+2026-11-22,nba,401910030,Ganador,Miami Heat,0.642,Kalshi + casas + modelo,1
+2026-11-22,nba,401910030,Hándicap,Miami Heat gana por más de 4.5,0.5,casas,1
+2026-11-22,nba,401910030,Total de puntos,Más de 226.5,0.5,casas,1
+2026-11-22,nba,401910030,Puntos (línea segura),Más de 212.5,0.7829,casas,1
+2026-11-22,liga,401933730,Ganador,Chicago Fire FC,0.6056,casas + modelo,0
+2026-11-22,liga,401933730,Doble oportunidad,Chicago Fire FC o empate,0.8075,casas + modelo,0
+2026-11-22,liga,401933730,Goles,Más de 2.5,0.6084,modelo,1
+2026-11-22,liga,401933730,Goles (línea segura),Más de 1.5,0.83,modelo,1
+2026-11-22,liga,401933730,Ambos anotan,Sí,0.635,modelo,1
+2026-11-22,nba,401910032,Ganador,Denver Nuggets,0.7968,Kalshi + casas + modelo,1
+2026-11-22,nba,401910032,Hándicap,Denver Nuggets gana por más de 9.5,0.5,casas,0
+2026-11-22,nba,401910032,Hándicap seguro,Denver Nuggets gana por más de 1.5,0.7248,casas,1
+2026-11-22,nba,401910032,Total de puntos,Menos de 238.5,0.5223,casas,0
+2026-11-22,nba,401910032,Puntos (línea segura),Más de 224.5,0.7662,casas,1
+2026-11-22,nba,401910033,Ganador,Dallas Mavericks,0.5656,Kalshi + casas + modelo,1
+2026-11-22,nba,401910033,Hándicap,Dallas Mavericks gana por más de 2.5,0.5,casas,0
+2026-11-22,nba,401910033,Total de puntos,Menos de 226.5,0.5223,casas,0
+2026-11-22,nba,401910033,Puntos (línea segura),Más de 212.5,0.7662,casas,1
+2026-11-22,nba,401910031,Ganador,Orlando Magic,0.6524,Kalshi + casas + modelo,0
+2026-11-22,nba,401910031,Hándicap,Orlando Magic gana por más de 4.5,0.5,casas,0
+2026-11-22,nba,401910031,Total de puntos,Más de 219.5,0.5,casas,0
+2026-11-22,nba,401910031,Puntos (línea segura),Más de 205.5,0.7829,casas,1
+2026-11-22,nba,401910034,Ganador,New York Knicks,0.6853,Kalshi + casas + modelo,1
+2026-11-22,nba,401910034,Hándicap,New York Knicks gana por más de 6.5,0.5,casas,1
+2026-11-22,nba,401910034,Total de puntos,Más de 214.5,0.5,casas,1
+2026-11-22,nba,401910034,Puntos (línea segura),Más de 200.5,0.7829,casas,1
+2026-11-22,liga,401877046,Ganador,Querétaro,0.4431,casas + modelo,0
+2026-11-22,liga,401877046,Doble oportunidad,Querétaro o Necaxa (no empate),0.7516,casas + modelo,0
+2026-11-22,liga,401877046,Goles,Más de 2.5,0.6217,casas + modelo,1
+2026-11-22,liga,401877046,Goles (línea segura),Más de 1.5,0.7404,modelo,1
+2026-11-22,liga,401877046,Ambos anotan,Sí,0.524,modelo,1
+2026-11-22,liga,401933762,Ganador,Instituto (Córdoba),0.4717,casas + modelo,1
+2026-11-22,liga,401933762,Doble oportunidad,Instituto (Córdoba) o empate,0.7839,casas + modelo,1
+2026-11-22,liga,401933762,Goles,Menos de 2.5,0.6266,casas + modelo,0
+2026-11-22,liga,401933762,Goles (línea segura),Más de 1.5,0.7385,modelo,1
+2026-11-22,liga,401933762,Ambos anotan,Sí,0.5099,modelo,1
+2026-11-22,liga,401933729,Ganador,Vancouver Whitecaps,0.6899,casas + modelo,1
+2026-11-22,liga,401933729,Doble oportunidad,Vancouver Whitecaps o empate,0.8643,casas + modelo,1
+2026-11-22,liga,401933729,Goles,Más de 2.5,0.6244,modelo,0
+2026-11-22,liga,401933729,Goles (línea segura),Más de 1.5,0.8046,modelo,1
+2026-11-22,liga,401933729,Ambos anotan,No,0.5047,modelo,1
