@@ -1311,3 +1311,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-23,liga,401888370,Goles,Más de 2.5,0.5969,casas + modelo,1
 2026-11-23,liga,401888370,Goles (línea segura),Más de 1.5,0.8272,modelo,1
 2026-11-23,liga,401888370,Ambos anotan,Sí,0.6057,modelo,1
+2026-11-23,liga,401883110,Ganador,Almería,0.5632,casas + modelo,1
+2026-11-23,liga,401883110,Doble oportunidad,Almería o empate,0.8006,casas + modelo,1
+2026-11-23,liga,401883110,Goles,Más de 2.5,0.5527,casas + modelo,1
+2026-11-23,liga,401883110,Goles (línea segura),Más de 1.5,0.7846,modelo,1
+2026-11-23,liga,401883110,Ambos anotan,Sí,0.5295,modelo,1
+2026-11-23,liga,558519,Ganador,Fiorentina,0.4952,Kalshi + modelo,0
+2026-11-23,liga,558519,Doble oportunidad,Monza o Fiorentina (no empate),0.7546,Kalshi + modelo,1
+2026-11-23,liga,558519,Goles,Más de 2.5,0.5541,modelo,1
+2026-11-23,liga,558519,Goles (línea segura),Más de 1.5,0.782,modelo,1
+2026-11-23,liga,558519,Ambos anotan,Sí,0.5729,modelo,0
