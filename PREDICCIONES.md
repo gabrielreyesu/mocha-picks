@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 23 Nov 2026 14:08 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 23 Nov 2026 15:28 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -208,7 +208,7 @@
 | Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | 68% / 19% / 13% | 78% / 14% / 8% | 75% / 15% / 10% | 85% / 66% / 42% | 58% | 45% / 5% | — |
 | Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | 11% / 19% / 70% | 8% / 14% / 78% | 9% / 15% / 76% | 83% / 62% / 38% | 52% | 4% / 47% | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | 73% / 16% / 11% | 84% / 10% / 6% | 81% / 11% / 8% | 89% / 72% / 51% | 60% | 52% / 4% | — |
-| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | 57% / 22% / 21% | 70% / 16% / 14% | 68% / 16% / 16% | 87% / 64% / 45% | 62% | 39% / 8% | — |
+| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | 57% / 22% / 21% | 70% / 16% / 14% | 69% / 17% / 15% | 87% / 64% / 45% | 62% | 39% / 8% | — |
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | 73% / 17% / 10% | 74% / 15% / 11% | 75% / 15% / 11% | 87% / 67% / 46% | 55% | 51% / 4% | — |
 | Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | 23% / 25% / 51% | 30% / 24% / 44% | 31% / 24% / 44% | 79% / 55% / 32% | 56% | 9% / 29% | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | 3% / 8% / 89% | — / — / — | 5% / 6% / 89% | 94% / 84% / 67% | 53% | 1% / 76% | — |
@@ -277,7 +277,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Ganador | Botafogo | 42% | Baja | casas + modelo | — |
+| Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Ganador | Botafogo | 41% | Baja | casas + modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Doble oportunidad | Botafogo o São Paulo (no empate) | 72% | Alta | casas + modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Goles (línea segura) | Más de 1.5 | 68% | Media | modelo | — |
@@ -421,9 +421,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Ganador | Wolverhampton Wanderers | 76% | Alta | casas + modelo | — |
+| Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Ganador | Wolverhampton Wanderers | 75% | Alta | casas + modelo | — |
 | Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Doble oportunidad | Wolverhampton Wanderers o empate | 91% | Alta | casas + modelo | — |
-| Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Goles | Más de 2.5 | 64% | Media | casas + modelo | — |
+| Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
 | Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Ambos anotan | No | 51% | Baja | modelo | — |
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Ganador | Rangers | 82% | Alta | casas + modelo | — |
@@ -431,8 +431,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Goles | Más de 2.5 | 58% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Ambos anotan | No | 54% | Baja | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Ganador | Arsenal | 73% | Alta | Kalshi + casas + modelo | 68¢ |
-| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Doble oportunidad | Arsenal o empate | 90% | Alta | Kalshi + casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Ganador | Arsenal | 72% | Alta | Kalshi + casas + modelo | 68¢ |
+| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Doble oportunidad | Arsenal o empate | 89% | Alta | Kalshi + casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Ambos anotan | No | 50% | Baja | modelo | — |
@@ -451,8 +451,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Goles | Más de 2.5 | 72% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Ambos anotan | Sí | 60% | Media | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Ganador | RB Leipzig | 72% | Alta | Kalshi + casas + modelo | 70¢ |
-| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Doble oportunidad | RB Leipzig o empate | 87% | Alta | Kalshi + casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Ganador | RB Leipzig | 73% | Alta | Kalshi + casas + modelo | 70¢ |
+| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Doble oportunidad | RB Leipzig o empate | 88% | Alta | Kalshi + casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Goles | Más de 2.5 | 64% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Ambos anotan | Sí | 62% | Media | modelo | — |
@@ -466,9 +466,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ganador | Palmeiras | 65% | Media | casas + modelo | — |
-| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Doble oportunidad | Palmeiras o empate | 83% | Alta | casas + modelo | — |
-| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ganador | Palmeiras | 60% | Media | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Doble oportunidad | Palmeiras o empate | 82% | Alta | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
 | Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ambos anotan | No | 53% | Baja | modelo | — |
 | Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Ganador | Detroit Pistons | 56% | Media | Kalshi + modelo | 56¢ |
