@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 23 Nov 2026 09:56 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 23 Nov 2026 11:06 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -275,11 +275,6 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Ganador | Istanbul Basaksehir | 52% | Baja | casas + modelo | — |
-| Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Doble oportunidad | Istanbul Basaksehir o Çorum FK (no empate) | 77% | Alta | casas + modelo | — |
-| Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
-| Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
-| Mon 23 Nov 11:00 | Superliga de Turquía | Istanbul Basaksehir vs Çorum FK | Ambos anotan | Sí | 61% | Media | modelo | — |
 | Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Ganador | Almería | 56% | Media | casas + modelo | — |
 | Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Doble oportunidad | Almería o empate | 80% | Alta | casas + modelo | — |
 | Mon 23 Nov 13:30 | LaLiga 2 | Ceuta vs Almería | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
@@ -312,7 +307,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Mon 23 Nov 14:00 | Liga Profesional Argentina | Gimnasia La Plata vs Newell's Old Boys | Ambos anotan | No | 50% | Baja | modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ganador | Internacional | 59% | Media | casas + modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Doble oportunidad | Internacional o empate | 83% | Alta | casas + modelo | — |
-| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
+| Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Mon 23 Nov 16:30 | Brasileirão | Internacional vs Vitória | Ambos anotan | Sí | 51% | Baja | modelo | — |
 | Mon 23 Nov 17:00 | Brasileirão | Botafogo vs São Paulo | Ganador | Botafogo | 42% | Baja | casas + modelo | — |
