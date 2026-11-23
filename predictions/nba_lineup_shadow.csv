@@ -995,3 +995,13 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-23T00:28:05.969640+00:00,401910043,2026-11-24T01:30Z,Houston Rockets,LA Clippers,0.78079,0.80618,-0.619,11.302,,,2,1502.0
 2026-11-23T00:28:05.969640+00:00,401910044,2026-11-24T03:00Z,Los Angeles Lakers,Utah Jazz,0.8376,0.83054,-1.791,7.772,Austin Reaves,Lauri Markkanen,2,1592.0
 2026-11-23T00:28:05.969640+00:00,401910045,2026-11-24T03:00Z,Sacramento Kings,San Antonio Spurs,0.12352,0.1231,1.116,-14.258,,Dylan Harper,4,1592.0
+2026-11-23T02:00:52.589071+00:00,401910036,2026-11-24T00:00Z,Charlotte Hornets,Memphis Grizzlies,0.48801,0.41512,-0.217,-12.073,Grayson Allen; Kon Knueppel; Grant Williams; Dennis Schroder,Cameron Boozer; GG Jackson,2,1319.0
+2026-11-23T02:00:52.589071+00:00,401910037,2026-11-24T00:00Z,Philadelphia 76ers,Portland Trail Blazers,0.5897,0.61248,-0.689,3.622,Adem Bona,Vit Krejci; Chris Youngblood,3,1319.0
+2026-11-23T02:00:52.589071+00:00,401910038,2026-11-24T00:30Z,Indiana Pacers,Oklahoma City Thunder,0.30587,0.49496,11.039,8.841,T.J. McConnell,Shai Gilgeous-Alexander; Aday Mara; Alex Caruso; Nikola Topic; Jaylin Williams,7,1349.0
+2026-11-23T02:00:52.589071+00:00,401910040,2026-11-24T00:30Z,Minnesota Timberwolves,Brooklyn Nets,0.86371,0.8558,2.4,5.588,Jaylen Clark,Nolan Traore,2,1349.0
+2026-11-23T02:00:52.589071+00:00,401910039,2026-11-24T00:30Z,Toronto Raptors,Milwaukee Bucks,0.78121,0.76965,1.38,2.797,RJ Barrett,Ousmane Dieng,2,1349.0
+2026-11-23T02:00:52.589071+00:00,401910041,2026-11-24T01:00Z,Chicago Bulls,Cleveland Cavaliers,0.35115,0.32045,-1.288,-8.399,Nic Claxton; Caleb Wilson; Norman Powell,Jaylon Tyson; Evan Mobley,1,1379.0
+2026-11-23T02:00:52.589071+00:00,401910042,2026-11-24T01:00Z,New Orleans Pelicans,Phoenix Suns,0.28551,0.34869,1.327,0.813,Bennedict Mathurin; Bryce McGowens; Dejounte Murray; Trendon Watford,,1,1379.0
+2026-11-23T02:00:52.589071+00:00,401910043,2026-11-24T01:30Z,Houston Rockets,LA Clippers,0.78092,0.8063,-0.619,11.302,,,2,1409.0
+2026-11-23T02:00:52.589071+00:00,401910044,2026-11-24T03:00Z,Los Angeles Lakers,Utah Jazz,0.8376,0.83721,-0.958,8.604,Austin Reaves,Jaxson Hayes; Lauri Markkanen,2,1499.0
+2026-11-23T02:00:52.589071+00:00,401910045,2026-11-24T03:00Z,Sacramento Kings,San Antonio Spurs,0.12358,0.12335,1.187,-14.257,,Dylan Harper,4,1499.0
