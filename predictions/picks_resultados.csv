@@ -1348,3 +1348,43 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-23,liga,401841326,Goles,Más de 2.5,0.5006,casas + modelo,0
 2026-11-23,liga,401841326,Goles (línea segura),Más de 1.5,0.6834,modelo,1
 2026-11-23,liga,401841326,Ambos anotan,No,0.5105,modelo,0
+2026-11-23,nba,401910036,Ganador,Memphis Grizzlies,0.5884,Kalshi + casas + modelo,1
+2026-11-23,nba,401910036,Hándicap,Memphis Grizzlies gana por más de 2.5,0.5,casas,1
+2026-11-23,nba,401910036,Total de puntos,Más de 213.5,0.5,casas,1
+2026-11-23,nba,401910036,Puntos (línea segura),Más de 199.5,0.7829,casas,1
+2026-11-23,nba,401910037,Ganador,Portland Trail Blazers,0.5015,Kalshi + casas + modelo,1
+2026-11-23,nba,401910037,Hándicap,Philadelphia 76ers gana por más de 1.5,0.5,casas,0
+2026-11-23,nba,401910037,Total de puntos,Más de 231.5,0.5,casas,1
+2026-11-23,nba,401910037,Puntos (línea segura),Más de 217.5,0.7829,casas,1
+2026-11-23,liga,401841320,Ganador,Santos,0.607,casas + modelo,0
+2026-11-23,liga,401841320,Doble oportunidad,Santos o empate,0.82,casas + modelo,0
+2026-11-23,liga,401841320,Goles,Más de 2.5,0.5265,modelo,0
+2026-11-23,liga,401841320,Goles (línea segura),Más de 1.5,0.7581,modelo,1
+2026-11-23,liga,401841320,Ambos anotan,Sí,0.5368,modelo,0
+2026-11-23,nba,401910038,Ganador,Oklahoma City Thunder,0.6368,Kalshi + casas + modelo,0
+2026-11-23,nba,401910038,Hándicap,Oklahoma City Thunder gana por más de 4.5,0.5,casas,0
+2026-11-23,nba,401910038,Total de puntos,Menos de 227.5,0.5223,casas,0
+2026-11-23,nba,401910038,Puntos (línea segura),Más de 213.5,0.7662,casas,1
+2026-11-23,nba,401910040,Ganador,Minnesota Timberwolves,0.8166,Kalshi + casas + modelo,1
+2026-11-23,nba,401910040,Hándicap,Minnesota Timberwolves gana por más de 10.5,0.5,casas,1
+2026-11-23,nba,401910040,Hándicap seguro,Minnesota Timberwolves gana por más de 2.5,0.7248,casas,1
+2026-11-23,nba,401910040,Total de puntos,Más de 222.5,0.5,casas,1
+2026-11-23,nba,401910040,Puntos (línea segura),Más de 208.5,0.7829,casas,1
+2026-11-23,nba,401910039,Ganador,Toronto Raptors,0.7931,Kalshi + casas + modelo,0
+2026-11-23,nba,401910039,Hándicap,Toronto Raptors gana por más de 10.5,0.5,casas,0
+2026-11-23,nba,401910039,Hándicap seguro,Toronto Raptors gana por más de 1.5,0.7491,casas,0
+2026-11-23,nba,401910039,Total de puntos,Menos de 223.5,0.5223,casas,0
+2026-11-23,nba,401910039,Puntos (línea segura),Más de 209.5,0.7662,casas,1
+2026-11-23,nba,401910041,Ganador,Cleveland Cavaliers,0.7657,Kalshi + casas + modelo,0
+2026-11-23,nba,401910041,Hándicap,Cleveland Cavaliers gana por más de 8.5,0.5,casas,0
+2026-11-23,nba,401910041,Total de puntos,Menos de 241.5,0.5223,casas,1
+2026-11-23,nba,401910041,Puntos (línea segura),Más de 227.5,0.7662,casas,1
+2026-11-23,nba,401910042,Ganador,Phoenix Suns,0.5912,Kalshi + casas + modelo,1
+2026-11-23,nba,401910042,Hándicap,Phoenix Suns gana por más de 3.5,0.5,casas,1
+2026-11-23,nba,401910042,Total de puntos,Menos de 233.5,0.5223,casas,0
+2026-11-23,nba,401910042,Puntos (línea segura),Más de 219.5,0.7662,casas,1
+2026-11-23,liga,401933728,Ganador,St. Louis CITY SC,0.3679,casas + modelo,1
+2026-11-23,liga,401933728,Doble oportunidad,St. Louis CITY SC o LAFC (no empate),0.7285,casas + modelo,1
+2026-11-23,liga,401933728,Goles,Más de 2.5,0.5547,casas + modelo,1
+2026-11-23,liga,401933728,Goles (línea segura),Más de 1.5,0.8018,modelo,1
+2026-11-23,liga,401933728,Ambos anotan,Sí,0.5923,modelo,1
