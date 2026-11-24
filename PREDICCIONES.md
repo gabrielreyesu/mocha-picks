@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 24 Nov 2026 12:46 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 24 Nov 2026 13:38 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -198,13 +198,13 @@
 ## Fútbol: copas europeas (Champions, Europa League, Conference)
 | Fecha (hora Chicago) | Competición | Partido | Modelo: local / empate / visita | Kalshi | Casas | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | 25% / 23% / 52% | 29% / 26% / 46% | 28% / 27% / 45% | 86% / 65% / 43% | 64% | 10% / 34% | — |
-| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | 67% / 21% / 12% | 66% / 20% / 14% | 65% / 21% / 15% | 78% / 56% / 32% | 50% | 42% / 4% | — |
-| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | 68% / 19% / 13% | 76% / 14% / 10% | 76% / 15% / 10% | 85% / 66% / 42% | 58% | 45% / 5% | — |
-| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | 11% / 19% / 70% | 8% / 14% / 78% | 9% / 15% / 77% | 83% / 62% / 38% | 52% | 4% / 47% | — |
+| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | 25% / 23% / 52% | 26% / 26% / 46% | 26% / 26% / 48% | 86% / 65% / 43% | 64% | 10% / 34% | — |
+| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | 67% / 21% / 12% | 68% / 20% / 14% | 66% / 20% / 14% | 78% / 56% / 32% | 50% | 42% / 4% | — |
+| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | 68% / 19% / 13% | 76% / 14% / 10% | 75% / 15% / 11% | 85% / 66% / 42% | 58% | 45% / 5% | — |
+| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | 11% / 19% / 70% | 10% / 15% / 76% | 11% / 16% / 74% | 83% / 62% / 38% | 52% | 4% / 47% | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | 73% / 16% / 11% | 86% / 8% / 6% | 84% / 10% / 6% | 89% / 72% / 51% | 60% | 52% / 4% | — |
-| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | 57% / 22% / 21% | 72% / 16% / 12% | 71% / 16% / 13% | 87% / 64% / 45% | 62% | 39% / 8% | — |
-| Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | 73% / 17% / 10% | 76% / 14% / 10% | 76% / 15% / 9% | 87% / 67% / 46% | 55% | 51% / 4% | — |
+| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | 57% / 22% / 21% | 70% / 16% / 12% | 69% / 17% / 14% | 87% / 64% / 45% | 62% | 39% / 8% | — |
+| Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | 73% / 17% / 10% | 76% / 14% / 10% | 76% / 15% / 10% | 87% / 67% / 46% | 55% | 51% / 4% | — |
 | Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | 23% / 25% / 51% | 32% / 24% / 44% | 32% / 24% / 44% | 79% / 55% / 32% | 56% | 9% / 29% | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | 3% / 8% / 89% | — / — / — | 5% / 7% / 88% | 94% / 84% / 67% | 53% | 1% / 76% | — |
 | Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | 13% / 19% / 67% | 18% / 22% / 60% | 19% / 22% / 59% | 85% / 64% / 43% | 56% | 4% / 46% | — |
@@ -267,93 +267,83 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Tue 24 Nov 13:00 | Serie B | Virtus Entella vs Hellas Verona | Ganador | Hellas Verona | 51% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Virtus Entella vs Hellas Verona | Doble oportunidad | Hellas Verona o empate | 79% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Virtus Entella vs Hellas Verona | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Virtus Entella vs Hellas Verona | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Virtus Entella vs Hellas Verona | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Palermo vs Sudtirol | Ganador | Palermo | 72% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Palermo vs Sudtirol | Doble oportunidad | Palermo o empate | 89% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Palermo vs Sudtirol | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Palermo vs Sudtirol | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Palermo vs Sudtirol | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Benevento vs Empoli | Ganador | Benevento | 67% | Media | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Benevento vs Empoli | Doble oportunidad | Benevento o empate | 87% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Benevento vs Empoli | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Benevento vs Empoli | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Benevento vs Empoli | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Cesena vs Ascoli | Ganador | Cesena | 36% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Cesena vs Ascoli | Doble oportunidad | Cesena o Ascoli (no empate) | 71% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Cesena vs Ascoli | Goles | Menos de 2.5 | 50% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Cesena vs Ascoli | Goles (línea segura) | Más de 1.5 | 71% | Alta | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Cesena vs Ascoli | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Vicenza vs Carrarese | Ganador | Carrarese | 36% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Vicenza vs Carrarese | Doble oportunidad | Vicenza o Carrarese (no empate) | 69% | Media | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Vicenza vs Carrarese | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Vicenza vs Carrarese | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
-| Tue 24 Nov 13:00 | Serie B | Vicenza vs Carrarese | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Tue 24 Nov 13:45 | Premiership de Escocia | Hibernian vs Dundee | Ganador | Hibernian | 63% | Media | casas + modelo | — |
-| Tue 24 Nov 13:45 | Premiership de Escocia | Hibernian vs Dundee | Doble oportunidad | Hibernian o empate | 83% | Alta | casas + modelo | — |
+| Tue 24 Nov 13:45 | Premiership de Escocia | Hibernian vs Dundee | Doble oportunidad | Hibernian o empate | 84% | Alta | casas + modelo | — |
 | Tue 24 Nov 13:45 | Premiership de Escocia | Hibernian vs Dundee | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Tue 24 Nov 13:45 | Premiership de Escocia | Hibernian vs Dundee | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Tue 24 Nov 13:45 | Premiership de Escocia | Hibernian vs Dundee | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Ganador | West Ham United | 53% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Doble oportunidad | West Ham United o empate | 77% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Ganador | Norwich City | 48% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Doble oportunidad | Norwich City o Queens Park Rangers (no empate) | 75% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Ganador | Middlesbrough | 71% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Doble oportunidad | Middlesbrough o empate | 88% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Goles | Más de 2.5 | 55% | Media | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Ganador | Southampton | 39% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Doble oportunidad | Sheffield United o Southampton (no empate) | 74% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Ganador | Bristol City | 36% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Doble oportunidad | Bristol City o Wrexham (no empate) | 70% | Alta | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Goles (línea segura) | Más de 1.5 | 71% | Alta | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Cardiff City vs Preston North End | Ganador | Cardiff City | 69% | Media | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Cardiff City vs Preston North End | Doble oportunidad | Cardiff City o empate | 86% | Alta | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Cardiff City vs Preston North End | Ganador | Cardiff City | 70% | Media | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Cardiff City vs Preston North End | Doble oportunidad | Cardiff City o empate | 87% | Alta | casas + modelo | — |
 | Tue 24 Nov 13:45 | Championship | Cardiff City vs Preston North End | Goles | Más de 2.5 | 60% | Media | modelo | — |
 | Tue 24 Nov 13:45 | Championship | Cardiff City vs Preston North End | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Tue 24 Nov 13:45 | Championship | Cardiff City vs Preston North End | Ambos anotan | Sí | 55% | Media | modelo | — |
-| Tue 24 Nov 13:45 | Championship | Charlton Athletic vs Lincoln City | Ganador | Lincoln City | 41% | Baja | casas + modelo | — |
-| Tue 24 Nov 13:45 | Championship | Charlton Athletic vs Lincoln City | Doble oportunidad | Lincoln City o empate | 71% | Alta | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Ganador | West Ham United | 56% | Media | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Doble oportunidad | West Ham United o empate | 80% | Alta | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Portsmouth vs West Ham United | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Ganador | Norwich City | 50% | Baja | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Doble oportunidad | Norwich City o Queens Park Rangers (no empate) | 75% | Alta | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Norwich City vs Queens Park Rangers | Ambos anotan | Sí | 61% | Media | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Ganador | Middlesbrough | 67% | Media | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Doble oportunidad | Middlesbrough o empate | 86% | Alta | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Goles | Más de 2.5 | 55% | Media | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Middlesbrough vs Swansea City | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Ganador | Bristol City | 39% | Baja | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Doble oportunidad | Bristol City o Wrexham (no empate) | 70% | Alta | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Goles | Menos de 2.5 | 58% | Media | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Goles (línea segura) | Más de 1.5 | 71% | Alta | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Bristol City vs Wrexham | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Ganador | Sheffield United | 42% | Baja | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Doble oportunidad | Sheffield United o Southampton (no empate) | 73% | Alta | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Sheffield United vs Southampton | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Tue 24 Nov 13:45 | Championship | Charlton Athletic vs Lincoln City | Ganador | Lincoln City | 36% | Baja | casas + modelo | — |
+| Tue 24 Nov 13:45 | Championship | Charlton Athletic vs Lincoln City | Doble oportunidad | Charlton Athletic o Lincoln City (no empate) | 70% | Alta | casas + modelo | — |
 | Tue 24 Nov 13:45 | Championship | Charlton Athletic vs Lincoln City | Goles | Menos de 2.5 | 57% | Media | casas + modelo | — |
 | Tue 24 Nov 13:45 | Championship | Charlton Athletic vs Lincoln City | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Tue 24 Nov 13:45 | Championship | Charlton Athletic vs Lincoln City | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Ganador | FC Porto | 53% | Baja | Kalshi + casas + modelo | 46¢ |
+| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Doble oportunidad | FC Porto o empate | 77% | Alta | Kalshi + casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Ambos anotan | Sí | 64% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Ganador | Rangers | 83% | Alta | casas + modelo | — |
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Doble oportunidad | Rangers o empate | 94% | Alta | casas + modelo | — |
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Goles | Más de 2.5 | 58% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Premiership de Escocia | Rangers vs Aberdeen | Ambos anotan | No | 54% | Baja | modelo | — |
 | Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Ganador | Wolverhampton Wanderers | 78% | Alta | casas + modelo | — |
-| Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Doble oportunidad | Wolverhampton Wanderers o empate | 92% | Alta | casas + modelo | — |
+| Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Doble oportunidad | Wolverhampton Wanderers o empate | 93% | Alta | casas + modelo | — |
 | Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Championship | Wolverhampton Wanderers vs Derby County | Ambos anotan | No | 51% | Baja | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | Ganador | Real Betis | 83% | Alta | Kalshi + casas + modelo | 78¢ |
-| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | Doble oportunidad | Real Betis o empate | 94% | Alta | Kalshi + casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Ganador | Arsenal | 71% | Alta | Kalshi + casas + modelo | 68¢ |
+| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Doble oportunidad | Arsenal o empate | 89% | Alta | Kalshi + casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Ambos anotan | No | 50% | Baja | modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Ganador | Como | 80% | Alta | Kalshi + casas + modelo | 76¢ |
+| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Doble oportunidad | Como o empate | 92% | Alta | Kalshi + casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Goles | Más de 2.5 | 66% | Media | modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | Ganador | Real Betis | 81% | Alta | Kalshi + casas + modelo | 76¢ |
+| Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | Doble oportunidad | Real Betis o empate | 93% | Alta | Kalshi + casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | Goles | Más de 2.5 | 62% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Slovan Bratislava vs Real Betis | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Ganador | Real Madrid | 88% | Alta | Kalshi + casas + modelo | 86¢ |
+| Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Ganador | Real Madrid | 89% | Alta | Kalshi + casas + modelo | 86¢ |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Doble oportunidad | Real Madrid o empate | 96% | Alta | Kalshi + casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Goles | Más de 2.5 | 72% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Real Madrid vs PSV Eindhoven | Ambos anotan | Sí | 60% | Media | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Ganador | RB Leipzig | 76% | Alta | Kalshi + casas + modelo | 72¢ |
-| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Doble oportunidad | RB Leipzig o empate | 89% | Alta | Kalshi + casas + modelo | — |
+| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Ganador | RB Leipzig | 73% | Alta | Kalshi + casas + modelo | 70¢ |
+| Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Doble oportunidad | RB Leipzig o empate | 88% | Alta | Kalshi + casas + modelo | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Goles | Más de 2.5 | 64% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | RB Leipzig vs Lens | Ambos anotan | Sí | 62% | Media | modelo | — |
@@ -362,22 +352,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Goles | Más de 2.5 | 67% | Media | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
 | Tue 24 Nov 14:00 | Champions League | Manchester City vs Napoli | Ambos anotan | Sí | 55% | Media | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Ganador | FC Porto | 51% | Baja | Kalshi + casas + modelo | 46¢ |
-| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Doble oportunidad | FC Porto o empate | 75% | Alta | Kalshi + casas + modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Feyenoord Rotterdam vs FC Porto | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Ganador | Arsenal | 70% | Alta | Kalshi + casas + modelo | 66¢ |
-| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Doble oportunidad | Arsenal o empate | 88% | Alta | Kalshi + casas + modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Arsenal vs Borussia Dortmund | Ambos anotan | No | 50% | Baja | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Ganador | Como | 80% | Alta | Kalshi + casas + modelo | 76¢ |
-| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Doble oportunidad | Como o empate | 92% | Alta | Kalshi + casas + modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Goles | Más de 2.5 | 66% | Media | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Tue 24 Nov 14:00 | Champions League | Como vs AEK Athens | Ambos anotan | Sí | 58% | Media | modelo | — |
-| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ganador | Palmeiras | 55% | Baja | casas + modelo | — |
+| Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Ganador | Palmeiras | 56% | Media | casas + modelo | — |
 | Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Doble oportunidad | Palmeiras o empate | 79% | Alta | casas + modelo | — |
 | Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Tue 24 Nov 15:00 | Brasileirão | Chapecoense vs Palmeiras | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
@@ -415,13 +390,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 25 Nov 12:00 | Serie B | Cremonese vs US Avellino | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
 | Wed 25 Nov 12:00 | Serie B | Cremonese vs US Avellino | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Wed 25 Nov 12:00 | Serie B | Cremonese vs US Avellino | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Ganador | Sampdoria | 36% | Baja | casas + modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Doble oportunidad | Padova o Sampdoria (no empate) | 70% | Alta | casas + modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Ambos anotan | No | 50% | Baja | modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Ganador | Pisa | 38% | Baja | casas + modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Doble oportunidad | Pisa o Modena (no empate) | 71% | Alta | casas + modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Doble oportunidad | Pisa o Modena (no empate) | 72% | Alta | casas + modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Ambos anotan | Sí | 59% | Media | modelo | — |
@@ -430,16 +400,21 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 25 Nov 13:00 | Serie B | Mantova vs Arezzo | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Mantova vs Arezzo | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Mantova vs Arezzo | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Ganador | West Bromwich Albion | 50% | Baja | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Doble oportunidad | Bolton Wanderers o West Bromwich Albion (no empate) | 75% | Alta | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Ganador | Sampdoria | 40% | Baja | casas + modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Doble oportunidad | Sampdoria o empate | 70% | Alta | casas + modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Ambos anotan | No | 50% | Baja | modelo | — |
 | Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Ganador | Birmingham City | 44% | Baja | casas + modelo | — |
 | Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Doble oportunidad | Burnley o Birmingham City (no empate) | 76% | Alta | casas + modelo | — |
 | Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Ganador | West Bromwich Albion | 50% | Baja | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Doble oportunidad | Bolton Wanderers o West Bromwich Albion (no empate) | 75% | Alta | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Wed 25 Nov 13:45 | Championship | Watford vs Blackburn Rovers | Ganador | Blackburn Rovers | 39% | Baja | casas + modelo | — |
 | Wed 25 Nov 13:45 | Championship | Watford vs Blackburn Rovers | Doble oportunidad | Watford o Blackburn Rovers (no empate) | 74% | Alta | casas + modelo | — |
 | Wed 25 Nov 13:45 | Championship | Watford vs Blackburn Rovers | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
@@ -450,41 +425,41 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 25 Nov 14:00 | Championship | Stoke City vs Millwall | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
 | Wed 25 Nov 14:00 | Championship | Stoke City vs Millwall | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 25 Nov 14:00 | Championship | Stoke City vs Millwall | Ambos anotan | Sí | 55% | Baja | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Ganador | Liverpool | 62% | Media | Kalshi + casas + modelo | 60¢ |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Doble oportunidad | Club Brugge o Liverpool (no empate) | 82% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Goles | Más de 2.5 | 61% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ganador | Atlético Madrid | 89% | Alta | Kalshi + casas + modelo | 88¢ |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Doble oportunidad | Atlético Madrid o empate | 96% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles | Más de 2.5 | 63% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Ganador | Sporting CP | 40% | Baja | Kalshi + casas + modelo | 40¢ |
-| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Doble oportunidad | Sporting CP o Manchester United (no empate) | 76% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Goles | Más de 2.5 | 54% | Baja | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Ganador | Paris Saint-Germain | 72% | Alta | casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Doble oportunidad | Paris Saint-Germain o empate | 88% | Alta | casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Goles | Más de 2.5 | 73% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Goles (línea segura) | Más de 1.5 | 91% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Ganador | Fenerbahce | 39% | Baja | Kalshi + casas + modelo | 36¢ |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Doble oportunidad | Shakhtar Donetsk o Fenerbahce (no empate) | 74% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Ganador | Internazionale | 72% | Alta | Kalshi + casas + modelo | 68¢ |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Doble oportunidad | Internazionale o empate | 87% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Goles | Más de 2.5 | 62% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Ganador | Bayern Munich | 67% | Media | Kalshi + casas + modelo | 60¢ |
 | Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Doble oportunidad | Bayern Munich o empate | 86% | Alta | Kalshi + casas + modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Ambos anotan | Sí | 56% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Ganador | Internazionale | 72% | Alta | Kalshi + casas + modelo | 68¢ |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Doble oportunidad | Internazionale o empate | 87% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Goles | Más de 2.5 | 62% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Ganador | Fenerbahce | 39% | Baja | Kalshi + casas + modelo | 36¢ |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Doble oportunidad | Shakhtar Donetsk o Fenerbahce (no empate) | 74% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Ganador | Paris Saint-Germain | 72% | Alta | casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Doble oportunidad | Paris Saint-Germain o empate | 88% | Alta | casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Goles | Más de 2.5 | 73% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Goles (línea segura) | Más de 1.5 | 91% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Ambos anotan | Sí | 64% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Ganador | Sporting CP | 40% | Baja | Kalshi + casas + modelo | 40¢ |
+| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Doble oportunidad | Sporting CP o Manchester United (no empate) | 76% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Goles | Más de 2.5 | 54% | Baja | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ganador | Atlético Madrid | 89% | Alta | Kalshi + casas + modelo | 88¢ |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Doble oportunidad | Atlético Madrid o empate | 96% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles | Más de 2.5 | 63% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ambos anotan | Sí | 62% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Ganador | Liverpool | 62% | Media | Kalshi + casas + modelo | 60¢ |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Doble oportunidad | Club Brugge o Liverpool (no empate) | 82% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Goles | Más de 2.5 | 61% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Ambos anotan | Sí | 64% | Media | modelo | — |
 | Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Ganador | Philadelphia 76ers | 58% | Media | Kalshi + casas + modelo | 57¢ |
 | Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 3.5 | 50% | Baja | casas | 47¢ |
 | Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Total de puntos | Más de 238.5 | 50% | Baja | casas | 50¢ |

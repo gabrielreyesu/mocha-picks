@@ -1406,3 +1406,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-23,nba,401910045,Hándicap,San Antonio Spurs gana por más de 8.5,0.5,casas,1
 2026-11-23,nba,401910045,Total de puntos,Menos de 226.5,0.5223,casas,0
 2026-11-23,nba,401910045,Puntos (línea segura),Más de 212.5,0.7662,casas,1
+2026-11-24,club,401915380,Ganador,Bodo/Glimt,0.7615,casas + modelo,1
+2026-11-24,club,401915380,Doble oportunidad,Bodo/Glimt o empate,0.8975,casas + modelo,1
+2026-11-24,club,401915380,Goles,Más de 2.5,0.6571,modelo,0
+2026-11-24,club,401915380,Goles (línea segura),Más de 1.5,0.8649,modelo,0
+2026-11-24,club,401915380,Ambos anotan,Sí,0.5985,modelo,0
