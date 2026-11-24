@@ -1093,3 +1093,6 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-24T01:59:40.188388+00:00,401909314,2026-11-25T00:00Z,Orlando Magic,Detroit Pistons,0.41042,0.40295,-1.317,-3.916,,Duncan Robinson; Taurean Prince; Ebuka Okorie,5,1320.0
 2026-11-24T01:59:40.188388+00:00,401909315,2026-11-25T01:00Z,Washington Wizards,Boston Celtics,0.19813,0.25863,0.506,0.105,,Mitchell Robinson,4,1380.0
 2026-11-24T01:59:40.188388+00:00,401909316,2026-11-25T03:00Z,Denver Nuggets,Dallas Mavericks,0.71125,0.73179,-1.324,7.647,,Tobi Lawal,3,1500.0
+2026-11-24T03:40:40.501211+00:00,401909314,2026-11-25T00:00Z,Orlando Magic,Detroit Pistons,0.41015,0.40274,-1.317,-3.916,,Ebuka Okorie; Taurean Prince; Duncan Robinson,5,1219.0
+2026-11-24T03:40:40.501211+00:00,401909315,2026-11-25T01:00Z,Washington Wizards,Boston Celtics,0.19824,0.25894,0.505,0.103,,Mitchell Robinson,4,1279.0
+2026-11-24T03:40:40.501211+00:00,401909316,2026-11-25T03:00Z,Denver Nuggets,Dallas Mavericks,0.7106,0.73133,-1.322,7.646,,Tobi Lawal,3,1399.0
