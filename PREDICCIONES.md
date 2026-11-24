@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 24 Nov 2026 16:00 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 24 Nov 2026 17:00 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -20,7 +20,7 @@
 | Tue 24 Nov 18:00 | Detroit Pistons en Orlando Magic | Detroit Pistons | 58% | 54% | 55% | 54% | 2.4 pts | 223 pts | 4 / 4 |
 | Tue 24 Nov 19:00 | Boston Celtics en Washington Wizards | Boston Celtics | 85% | 78% | 78% | 78% | 13.0 pts | 227 pts | 4 / 1 |
 | Tue 24 Nov 21:00 | Dallas Mavericks en Denver Nuggets | Denver Nuggets | 72% | 72% | 72% | 73% | 6.6 pts | 231 pts | 0 / 4 |
-| Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | 57% | 57% | 58% | 2.8 pts | 236 pts | 2 / 0 |
+| Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | 50% | 52% | 51% | 2.8 pts | 236 pts | 2 / 0 |
 | Wed 25 Nov 18:00 | Chicago Bulls en Charlotte Hornets | Charlotte Hornets | 65% | 57% | 59% | — | 4.4 pts | 229 pts | 4 / 2 |
 | Wed 25 Nov 18:30 | Cleveland Cavaliers en New York Knicks | New York Knicks | 71% | 67% | 68% | 66% | 6.4 pts | 225 pts | 1 / 3 |
 | Wed 25 Nov 18:30 | Minnesota Timberwolves en Oklahoma City Thunder | Oklahoma City Thunder | 60% | 55% | 55% | 56% | 2.6 pts | 223 pts | 8 / 3 |
@@ -260,17 +260,17 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Ganador | Detroit Pistons | 55% | Media | Kalshi + casas + modelo | 54¢ |
-| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Hándicap | Detroit Pistons gana por más de 1.5 | 50% | Baja | casas | 52¢ |
+| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Ganador | Detroit Pistons | 55% | Media | Kalshi + casas + modelo | 55¢ |
+| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Hándicap | Detroit Pistons gana por más de 2.5 | 50% | Baja | casas | 48¢ |
 | Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Total de puntos | Más de 212.5 | 50% | Baja | casas | 48¢ |
 | Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Puntos (línea segura) | Más de 198.5 | 78% | Alta | casas | 80¢ |
 | Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Ganador | Boston Celtics | 80% | Alta | Kalshi + casas + modelo | 78¢ |
 | Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Hándicap | Boston Celtics gana por más de 10.5 | 50% | Baja | casas | 52¢ |
-| Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Hándicap seguro | Boston Celtics gana por más de 2.5 | 72% | Alta | casas | 75¢ |
-| Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Total de puntos | Más de 218.5 | 50% | Baja | casas | 51¢ |
-| Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Puntos (línea segura) | Más de 204.5 | 78% | Alta | casas | 81¢ |
+| Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Hándicap seguro | Boston Celtics gana por más de 2.5 | 72% | Alta | casas | 76¢ |
+| Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Total de puntos | Más de 218.5 | 50% | Baja | casas | 50¢ |
+| Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Puntos (línea segura) | Más de 204.5 | 78% | Alta | casas | 80¢ |
 | Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Ganador | Denver Nuggets | 73% | Alta | Kalshi + casas + modelo | 72¢ |
-| Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Hándicap | Denver Nuggets gana por más de 8.5 | 50% | Baja | casas | 49¢ |
+| Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Hándicap | Denver Nuggets gana por más de 8.5 | 50% | Baja | casas | 50¢ |
 | Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Total de puntos | Menos de 235.5 | 52% | Baja | casas | 54¢ |
 | Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Puntos (línea segura) | Más de 221.5 | 77% | Alta | casas | 76¢ |
 | Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Ganador | San Jose Earthquakes | 50% | Baja | casas + modelo | — |
@@ -278,16 +278,16 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Ganador | Villarreal | 49% | Baja | Kalshi + casas + modelo | 44¢ |
-| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Doble oportunidad | Slavia Prague o Villarreal (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Goles | Más de 2.5 | 55% | Baja | modelo | — |
-| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
-| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | Ganador | Barcelona | 94% | Alta | casas + modelo | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | Doble oportunidad | Barcelona o empate | 98% | Alta | casas + modelo | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | Goles | Más de 2.5 | 84% | Alta | modelo | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | Goles (línea segura) | Más de 1.5 | 94% | Alta | modelo | — |
 | Wed 25 Nov 11:45 | Champions League | Sabah FK vs Barcelona | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Ganador | Villarreal | 49% | Baja | Kalshi + casas + modelo | 44¢ |
+| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Doble oportunidad | Slavia Prague o Villarreal (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Goles | Más de 2.5 | 55% | Baja | modelo | — |
+| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
+| Wed 25 Nov 11:45 | Champions League | Slavia Prague vs Villarreal | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 25 Nov 12:00 | Serie B | Cremonese vs US Avellino | Ganador | Cremonese | 47% | Baja | casas + modelo | — |
 | Wed 25 Nov 12:00 | Serie B | Cremonese vs US Avellino | Doble oportunidad | Cremonese o empate | 76% | Alta | casas + modelo | — |
 | Wed 25 Nov 12:00 | Serie B | Cremonese vs US Avellino | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
@@ -298,74 +298,74 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Padova vs Sampdoria | Ambos anotan | No | 50% | Baja | modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Ganador | Pisa | 38% | Baja | casas + modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Doble oportunidad | Pisa o Modena (no empate) | 72% | Alta | casas + modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Mantova vs Arezzo | Ganador | Mantova | 58% | Media | casas + modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Mantova vs Arezzo | Doble oportunidad | Mantova o empate | 81% | Alta | casas + modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Mantova vs Arezzo | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Mantova vs Arezzo | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 25 Nov 13:00 | Serie B | Mantova vs Arezzo | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Ganador | Birmingham City | 44% | Baja | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Doble oportunidad | Burnley o Birmingham City (no empate) | 76% | Alta | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
-| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Ganador | West Bromwich Albion | 50% | Baja | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Doble oportunidad | Bolton Wanderers o West Bromwich Albion (no empate) | 75% | Alta | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
-| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Ganador | Pisa | 38% | Baja | casas + modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Doble oportunidad | Pisa o Modena (no empate) | 72% | Alta | casas + modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Wed 25 Nov 13:00 | Serie B | Pisa vs Modena | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Wed 25 Nov 13:45 | Championship | Watford vs Blackburn Rovers | Ganador | Blackburn Rovers | 39% | Baja | casas + modelo | — |
 | Wed 25 Nov 13:45 | Championship | Watford vs Blackburn Rovers | Doble oportunidad | Watford o Blackburn Rovers (no empate) | 74% | Alta | casas + modelo | — |
 | Wed 25 Nov 13:45 | Championship | Watford vs Blackburn Rovers | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Wed 25 Nov 13:45 | Championship | Watford vs Blackburn Rovers | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 25 Nov 13:45 | Championship | Watford vs Blackburn Rovers | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Ganador | Internazionale | 72% | Alta | Kalshi + casas + modelo | 68¢ |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Doble oportunidad | Internazionale o empate | 87% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Goles | Más de 2.5 | 62% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Ganador | Fenerbahce | 39% | Baja | Kalshi + casas + modelo | 36¢ |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Doble oportunidad | Shakhtar Donetsk o Fenerbahce (no empate) | 74% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Ganador | Bayern Munich | 67% | Media | Kalshi + casas + modelo | 60¢ |
-| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Doble oportunidad | Bayern Munich o empate | 86% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Ganador | Liverpool | 62% | Media | Kalshi + casas + modelo | 60¢ |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Doble oportunidad | Club Brugge o Liverpool (no empate) | 82% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Goles | Más de 2.5 | 61% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ganador | Atlético Madrid | 89% | Alta | Kalshi + casas + modelo | 88¢ |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Doble oportunidad | Atlético Madrid o empate | 96% | Alta | Kalshi + casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles | Más de 2.5 | 63% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Ganador | Paris Saint-Germain | 72% | Alta | casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Doble oportunidad | Paris Saint-Germain o empate | 88% | Alta | casas + modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Goles | Más de 2.5 | 73% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Goles (línea segura) | Más de 1.5 | 91% | Alta | modelo | — |
-| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Ambos anotan | Sí | 64% | Media | modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Ganador | West Bromwich Albion | 50% | Baja | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Doble oportunidad | Bolton Wanderers o West Bromwich Albion (no empate) | 75% | Alta | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Wed 25 Nov 13:45 | Championship | Bolton Wanderers vs West Bromwich Albion | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Ganador | Birmingham City | 44% | Baja | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Doble oportunidad | Burnley o Birmingham City (no empate) | 76% | Alta | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
+| Wed 25 Nov 13:45 | Championship | Burnley vs Birmingham City | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Ganador | Sporting CP | 40% | Baja | Kalshi + casas + modelo | 40¢ |
 | Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Doble oportunidad | Sporting CP o Manchester United (no empate) | 76% | Alta | Kalshi + casas + modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Goles | Más de 2.5 | 54% | Baja | modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Sporting CP vs Manchester United | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Ganador | Liverpool | 62% | Media | Kalshi + casas + modelo | 60¢ |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Doble oportunidad | Club Brugge o Liverpool (no empate) | 82% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Goles | Más de 2.5 | 61% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Club Brugge vs Liverpool | Ambos anotan | Sí | 64% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Ganador | Paris Saint-Germain | 72% | Alta | casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Doble oportunidad | Paris Saint-Germain o empate | 88% | Alta | casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Goles | Más de 2.5 | 73% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Goles (línea segura) | Más de 1.5 | 91% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Paris Saint-Germain vs AS Roma | Ambos anotan | Sí | 64% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Ganador | Fenerbahce | 39% | Baja | Kalshi + casas + modelo | 36¢ |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Doble oportunidad | Shakhtar Donetsk o Fenerbahce (no empate) | 74% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Shakhtar Donetsk vs Fenerbahce | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Ganador | Internazionale | 72% | Alta | Kalshi + casas + modelo | 68¢ |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Doble oportunidad | Internazionale o empate | 87% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Goles | Más de 2.5 | 62% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Internazionale vs VfB Stuttgart | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Ganador | Bayern Munich | 67% | Media | Kalshi + casas + modelo | 60¢ |
+| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Doble oportunidad | Bayern Munich o empate | 86% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Lille vs Bayern Munich | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Wed 25 Nov 14:00 | Championship | Stoke City vs Millwall | Ganador | Stoke City | 43% | Baja | casas + modelo | — |
 | Wed 25 Nov 14:00 | Championship | Stoke City vs Millwall | Doble oportunidad | Stoke City o Millwall (no empate) | 72% | Alta | casas + modelo | — |
 | Wed 25 Nov 14:00 | Championship | Stoke City vs Millwall | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
 | Wed 25 Nov 14:00 | Championship | Stoke City vs Millwall | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Wed 25 Nov 14:00 | Championship | Stoke City vs Millwall | Ambos anotan | Sí | 55% | Baja | modelo | — |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Ganador | Philadelphia 76ers | 58% | Media | Kalshi + casas + modelo | 57¢ |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 3.5 | 50% | Baja | casas | 47¢ |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Total de puntos | Más de 238.5 | 50% | Baja | casas | 50¢ |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ganador | Atlético Madrid | 89% | Alta | Kalshi + casas + modelo | 88¢ |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Doble oportunidad | Atlético Madrid o empate | 96% | Alta | Kalshi + casas + modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles | Más de 2.5 | 63% | Media | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
+| Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ambos anotan | Sí | 62% | Media | modelo | — |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Ganador | Philadelphia 76ers | 50% | Baja | Kalshi + casas + modelo | 50¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 1.5 | 50% | Baja | casas | 49¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Total de puntos | Más de 238.5 | 50% | Baja | casas | 52¢ |
 | Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Puntos (línea segura) | Más de 224.5 | 78% | Alta | casas | 78¢ |
 | Wed 25 Nov 17:00 | Brasileirão | Atlético-MG vs Corinthians | Ganador | Atlético-MG | 41% | Baja | casas + modelo | — |
 | Wed 25 Nov 17:00 | Brasileirão | Atlético-MG vs Corinthians | Doble oportunidad | Atlético-MG o Corinthians (no empate) | 72% | Alta | casas + modelo | — |
