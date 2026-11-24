@@ -1,0 +1,3 @@
+snapshot_utc,event_id,kickoff_utc,competicion,home,away,base_H,base_D,base_A,xi_H,xi_D,xi_A,xi_cont,xi_ok,cont_home,cont_away,minutes_to_kick
+2026-11-24T17:18:25.498592+00:00,401915300,2026-11-24T17:45:00Z,uefa.champions,Galatasaray,Aston Villa,0.28796,0.24684,0.4652,0.28451,0.24623,0.46926,-0.0223,1,0.853,0.875,27.0
+2026-11-24T17:18:25.498592+00:00,401915380,2026-11-24T17:45:00Z,uefa.champions,Bodo/Glimt,LASK Linz,0.65663,0.19452,0.14885,0.69437,0.17983,0.12581,0.2881,1,0.944,0.656,27.0
