@@ -1338,3 +1338,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-23,liga,560649,Ambos anotan,Sí,0.5091,modelo,0
 2026-11-23,liga,401933756,Ganador,Gimnasia La Plata,0.4699,casas + modelo,0
 2026-11-23,liga,401933756,Doble oportunidad,Gimnasia La Plata o empate,0.762,casas + modelo,1
+2026-11-23,liga,401841323,Ganador,Internacional,0.6021,casas + modelo,0
+2026-11-23,liga,401841323,Doble oportunidad,Internacional o empate,0.8413,casas + modelo,0
+2026-11-23,liga,401841323,Goles,Menos de 2.5,0.5095,casas + modelo,0
+2026-11-23,liga,401841323,Goles (línea segura),Más de 1.5,0.7427,modelo,1
+2026-11-23,liga,401841323,Ambos anotan,Sí,0.5127,modelo,1
