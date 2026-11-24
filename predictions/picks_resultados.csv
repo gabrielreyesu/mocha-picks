@@ -1531,3 +1531,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-24,liga,401880141,Goles,Más de 2.5,0.606,casas + modelo,1
 2026-11-24,liga,401880141,Goles (línea segura),Más de 1.5,0.7412,modelo,1
 2026-11-24,liga,401880141,Ambos anotan,No,0.5055,modelo,1
+2026-11-24,liga,401841335,Ganador,Palmeiras,0.5588,casas + modelo,0
+2026-11-24,liga,401841335,Doble oportunidad,Palmeiras o empate,0.7908,casas + modelo,0
+2026-11-24,liga,401841335,Goles,Más de 2.5,0.6045,casas + modelo,1
+2026-11-24,liga,401841335,Goles (línea segura),Más de 1.5,0.8074,modelo,1
+2026-11-24,liga,401841335,Ambos anotan,No,0.5329,modelo,1
