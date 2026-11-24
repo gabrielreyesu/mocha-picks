@@ -1120,3 +1120,15 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-24T18:37:43.539982+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65021,0.66141,-1.403,4.477,,,1,1852.0
 2026-11-24T18:37:43.539982+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77271,0.73902,-2.074,1.47,Brandon Williams; Stephen Curry,,5,1942.0
 2026-11-24T18:37:43.539982+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37923,0.38735,1.26,-4.659,Chris Youngblood,Dylan Harper,5,1942.0
+2026-11-24T20:34:16.469285+00:00,401909314,2026-11-25T00:00Z,Orlando Magic,Detroit Pistons,0.41009,0.40267,-1.317,-3.916,,Ebuka Okorie; Taurean Prince; Duncan Robinson,5,206.0
+2026-11-24T20:34:16.469285+00:00,401909315,2026-11-25T01:00Z,Washington Wizards,Boston Celtics,0.19803,0.2586,0.505,0.103,,Mitchell Robinson,4,266.0
+2026-11-24T20:34:16.469285+00:00,401909316,2026-11-25T03:00Z,Denver Nuggets,Dallas Mavericks,0.71067,0.73141,-1.323,7.647,,Tobi Lawal,3,386.0
+2026-11-24T20:34:16.469285+00:00,401909317,2026-11-25T22:00Z,Philadelphia 76ers,Miami Heat,0.5445,0.53138,-0.992,-1.424,,,1,1526.0
+2026-11-24T20:34:16.469285+00:00,401909318,2026-11-26T00:00Z,Charlotte Hornets,Chicago Bulls,0.59683,0.54991,0.597,-6.684,Grayson Allen; Dennis Schroder; Kon Knueppel,Caleb Wilson; Norman Powell,0,1646.0
+2026-11-24T20:34:16.469285+00:00,401909319,2026-11-26T00:30Z,New York Knicks,Cleveland Cavaliers,0.73677,0.70706,2.347,-1.782,Jordan Clarkson,Evan Mobley,1,1676.0
+2026-11-24T20:34:16.469285+00:00,401909320,2026-11-26T00:30Z,Oklahoma City Thunder,Minnesota Timberwolves,0.54562,0.5444,-1.006,0.064,Nikola Topic; Alex Caruso,Jaylen Clark,6,1676.0
+2026-11-24T20:34:16.469285+00:00,401909321,2026-11-26T01:00Z,Memphis Grizzlies,LA Clippers,0.68098,0.70537,-0.302,7.407,Cameron Boozer; Jerami Grant; GG Jackson,,4,1706.0
+2026-11-24T20:34:16.469285+00:00,401909322,2026-11-26T01:00Z,Milwaukee Bucks,Brooklyn Nets,0.56287,0.57386,0.9,0.735,,Nolan Traore,0,1706.0
+2026-11-24T20:34:16.469285+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65021,0.66141,-1.403,4.477,,,1,1736.0
+2026-11-24T20:34:16.469285+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77271,0.73902,-2.074,1.47,Brandon Williams; Stephen Curry,,5,1826.0
+2026-11-24T20:34:16.469285+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37923,0.38735,1.26,-4.659,Chris Youngblood,Dylan Harper,5,1826.0
