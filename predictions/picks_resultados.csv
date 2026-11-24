@@ -1388,3 +1388,21 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-23,liga,401933728,Goles,Más de 2.5,0.5547,casas + modelo,1
 2026-11-23,liga,401933728,Goles (línea segura),Más de 1.5,0.8018,modelo,1
 2026-11-23,liga,401933728,Ambos anotan,Sí,0.5923,modelo,1
+2026-11-23,nfl,401873078,Ganador,Cincinnati Bengals,0.7467,Kalshi + casas + modelo,0
+2026-11-23,nfl,401873078,Hándicap,Washington Commanders +6.5 (gana o pierde por menos de 6.5),0.5157,casas,1
+2026-11-23,nfl,401873078,Total de puntos,Más de 54.5,0.5,casas,0
+2026-11-23,nfl,401873078,Puntos (línea segura),Menos de 64.5,0.7791,casas,1
+2026-11-23,nba,401910043,Ganador,Houston Rockets,0.8593,Kalshi + casas + modelo,1
+2026-11-23,nba,401910043,Hándicap,Houston Rockets gana por más de 13.5,0.5,casas,0
+2026-11-23,nba,401910043,Hándicap seguro,Houston Rockets gana por más de 4.5,0.7491,casas,1
+2026-11-23,nba,401910043,Total de puntos,Menos de 224.5,0.5223,casas,1
+2026-11-23,nba,401910043,Puntos (línea segura),Más de 210.5,0.7662,casas,1
+2026-11-23,nba,401910044,Ganador,Los Angeles Lakers,0.8677,Kalshi + casas + modelo,1
+2026-11-23,nba,401910044,Hándicap,Los Angeles Lakers gana por más de 13.5,0.5,casas,1
+2026-11-23,nba,401910044,Hándicap seguro,Los Angeles Lakers gana por más de 4.5,0.7491,casas,1
+2026-11-23,nba,401910044,Total de puntos,Más de 224.5,0.5,casas,0
+2026-11-23,nba,401910044,Puntos (línea segura),Más de 210.5,0.7829,casas,0
+2026-11-23,nba,401910045,Ganador,San Antonio Spurs,0.7343,Kalshi + casas + modelo,1
+2026-11-23,nba,401910045,Hándicap,San Antonio Spurs gana por más de 8.5,0.5,casas,1
+2026-11-23,nba,401910045,Total de puntos,Menos de 226.5,0.5223,casas,0
+2026-11-23,nba,401910045,Puntos (línea segura),Más de 212.5,0.7662,casas,1
