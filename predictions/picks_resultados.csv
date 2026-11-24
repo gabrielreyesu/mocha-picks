@@ -1411,3 +1411,123 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-24,club,401915380,Goles,Más de 2.5,0.6571,modelo,0
 2026-11-24,club,401915380,Goles (línea segura),Más de 1.5,0.8649,modelo,0
 2026-11-24,club,401915380,Ambos anotan,Sí,0.5985,modelo,0
+2026-11-24,club,401915300,Ganador,Aston Villa,0.5113,Kalshi + casas + modelo,0
+2026-11-24,club,401915300,Doble oportunidad,Galatasaray o Aston Villa (no empate),0.7663,Kalshi + casas + modelo,1
+2026-11-24,club,401915300,Goles,Más de 2.5,0.5933,casas + modelo,0
+2026-11-24,club,401915300,Goles (línea segura),Más de 1.5,0.8332,modelo,0
+2026-11-24,club,401915300,Ambos anotan,Sí,0.6373,modelo,0
+2026-11-24,liga,401899536,Ganador,Juve Stabia,0.4803,casas + modelo,0
+2026-11-24,liga,401899536,Doble oportunidad,Juve Stabia o empate,0.7521,casas + modelo,0
+2026-11-24,liga,401899536,Goles,Más de 2.5,0.563,casas + modelo,1
+2026-11-24,liga,401899536,Goles (línea segura),Más de 1.5,0.733,modelo,1
+2026-11-24,liga,401899536,Ambos anotan,Sí,0.5246,modelo,1
+2026-11-24,liga,401899530,Ganador,Hellas Verona,0.5142,casas + modelo,0
+2026-11-24,liga,401899530,Doble oportunidad,Hellas Verona o empate,0.7912,casas + modelo,0
+2026-11-24,liga,401899530,Goles,Menos de 2.5,0.5229,casas + modelo,0
+2026-11-24,liga,401899530,Goles (línea segura),Más de 1.5,0.723,modelo,1
+2026-11-24,liga,401899530,Ambos anotan,Sí,0.5367,modelo,1
+2026-11-24,liga,401899532,Ganador,Palermo,0.7208,casas + modelo,1
+2026-11-24,liga,401899532,Doble oportunidad,Palermo o empate,0.8923,casas + modelo,1
+2026-11-24,liga,401899532,Goles,Más de 2.5,0.5872,casas + modelo,1
+2026-11-24,liga,401899532,Goles (línea segura),Más de 1.5,0.8266,modelo,1
+2026-11-24,liga,401899532,Ambos anotan,Sí,0.526,modelo,1
+2026-11-24,liga,401899535,Ganador,Carrarese,0.3584,casas + modelo,1
+2026-11-24,liga,401899535,Doble oportunidad,Vicenza o Carrarese (no empate),0.6883,casas + modelo,1
+2026-11-24,liga,401899535,Goles,Menos de 2.5,0.5262,casas + modelo,1
+2026-11-24,liga,401899535,Goles (línea segura),Más de 1.5,0.7433,modelo,0
+2026-11-24,liga,401899535,Ambos anotan,Sí,0.5272,modelo,0
+2026-11-24,liga,401899538,Ganador,Cesena,0.362,casas + modelo,1
+2026-11-24,liga,401899538,Doble oportunidad,Cesena o Ascoli (no empate),0.7055,casas + modelo,1
+2026-11-24,liga,401899538,Goles,Menos de 2.5,0.5046,casas + modelo,0
+2026-11-24,liga,401899538,Goles (línea segura),Más de 1.5,0.7131,modelo,1
+2026-11-24,liga,401899538,Ambos anotan,Sí,0.5117,modelo,1
+2026-11-24,liga,401899539,Ganador,Benevento,0.6689,casas + modelo,1
+2026-11-24,liga,401899539,Doble oportunidad,Benevento o empate,0.8652,casas + modelo,1
+2026-11-24,liga,401899539,Goles,Más de 2.5,0.5851,casas + modelo,1
+2026-11-24,liga,401899539,Goles (línea segura),Más de 1.5,0.7392,modelo,1
+2026-11-24,liga,401899539,Ambos anotan,Sí,0.5226,modelo,0
+2026-11-24,liga,401878348,Ganador,Hibernian,0.6321,casas + modelo,1
+2026-11-24,liga,401878348,Doble oportunidad,Hibernian o empate,0.8423,casas + modelo,1
+2026-11-24,liga,401878348,Goles,Más de 2.5,0.6072,casas + modelo,1
+2026-11-24,liga,401878348,Goles (línea segura),Más de 1.5,0.7747,modelo,1
+2026-11-24,liga,401878348,Ambos anotan,Sí,0.5342,modelo,1
+2026-11-24,liga,401880143,Ganador,West Ham United,0.5619,casas + modelo,0
+2026-11-24,liga,401880143,Doble oportunidad,West Ham United o empate,0.8007,casas + modelo,0
+2026-11-24,liga,401880143,Goles,Más de 2.5,0.51,casas + modelo,0
+2026-11-24,liga,401880143,Goles (línea segura),Más de 1.5,0.7887,modelo,0
+2026-11-24,liga,401880143,Ambos anotan,Sí,0.5925,modelo,0
+2026-11-24,liga,401880144,Ganador,Norwich City,0.5024,casas + modelo,0
+2026-11-24,liga,401880144,Doble oportunidad,Norwich City o Queens Park Rangers (no empate),0.754,casas + modelo,0
+2026-11-24,liga,401880144,Goles,Más de 2.5,0.5675,casas + modelo,0
+2026-11-24,liga,401880144,Goles (línea segura),Más de 1.5,0.8177,modelo,1
+2026-11-24,liga,401880144,Ambos anotan,Sí,0.6132,modelo,1
+2026-11-24,liga,401880142,Ganador,Sheffield United,0.4171,casas + modelo,0
+2026-11-24,liga,401880142,Doble oportunidad,Sheffield United o Southampton (no empate),0.7306,casas + modelo,0
+2026-11-24,liga,401880142,Goles,Más de 2.5,0.5188,casas + modelo,0
+2026-11-24,liga,401880142,Goles (línea segura),Más de 1.5,0.7456,modelo,1
+2026-11-24,liga,401880142,Ambos anotan,Sí,0.535,modelo,1
+2026-11-24,liga,401880145,Ganador,Middlesbrough,0.6703,casas + modelo,1
+2026-11-24,liga,401880145,Doble oportunidad,Middlesbrough o empate,0.855,casas + modelo,1
+2026-11-24,liga,401880145,Goles,Más de 2.5,0.5545,modelo,1
+2026-11-24,liga,401880145,Goles (línea segura),Más de 1.5,0.8062,modelo,1
+2026-11-24,liga,401880145,Ambos anotan,Sí,0.5689,modelo,1
+2026-11-24,liga,401880148,Ganador,Bristol City,0.3877,casas + modelo,0
+2026-11-24,liga,401880148,Doble oportunidad,Bristol City o Wrexham (no empate),0.7045,casas + modelo,0
+2026-11-24,liga,401880148,Goles,Menos de 2.5,0.5781,casas + modelo,1
+2026-11-24,liga,401880148,Goles (línea segura),Más de 1.5,0.7073,modelo,1
+2026-11-24,liga,401880148,Ambos anotan,Sí,0.5217,modelo,1
+2026-11-24,liga,401880147,Ganador,Cardiff City,0.6994,casas + modelo,0
+2026-11-24,liga,401880147,Doble oportunidad,Cardiff City o empate,0.8688,casas + modelo,0
+2026-11-24,liga,401880147,Goles,Más de 2.5,0.604,modelo,1
+2026-11-24,liga,401880147,Goles (línea segura),Más de 1.5,0.8163,modelo,1
+2026-11-24,liga,401880147,Ambos anotan,Sí,0.5529,modelo,0
+2026-11-24,liga,401880146,Ganador,Lincoln City,0.3629,casas + modelo,0
+2026-11-24,liga,401880146,Doble oportunidad,Charlton Athletic o Lincoln City (no empate),0.7017,casas + modelo,1
+2026-11-24,liga,401880146,Goles,Menos de 2.5,0.5662,casas + modelo,0
+2026-11-24,liga,401880146,Goles (línea segura),Más de 1.5,0.7315,modelo,1
+2026-11-24,liga,401880146,Ambos anotan,Sí,0.5212,modelo,0
+2026-11-24,club,401915379,Ganador,Manchester City,0.8079,Kalshi + casas + modelo,0
+2026-11-24,club,401915379,Doble oportunidad,Manchester City o empate,0.9255,Kalshi + casas + modelo,1
+2026-11-24,club,401915379,Goles,Más de 2.5,0.6746,modelo,1
+2026-11-24,club,401915379,Goles (línea segura),Más de 1.5,0.8664,modelo,1
+2026-11-24,club,401915379,Ambos anotan,Sí,0.5512,modelo,1
+2026-11-24,club,401915299,Ganador,RB Leipzig,0.7343,Kalshi + casas + modelo,1
+2026-11-24,club,401915299,Doble oportunidad,RB Leipzig o empate,0.8849,Kalshi + casas + modelo,1
+2026-11-24,club,401915299,Goles,Más de 2.5,0.6417,modelo,1
+2026-11-24,club,401915299,Goles (línea segura),Más de 1.5,0.8651,modelo,1
+2026-11-24,club,401915299,Ambos anotan,Sí,0.623,modelo,1
+2026-11-24,club,401915298,Ganador,Real Madrid,0.8866,Kalshi + casas + modelo,1
+2026-11-24,club,401915298,Doble oportunidad,Real Madrid o empate,0.9574,Kalshi + casas + modelo,1
+2026-11-24,club,401915298,Goles,Más de 2.5,0.7191,modelo,1
+2026-11-24,club,401915298,Goles (línea segura),Más de 1.5,0.8914,modelo,1
+2026-11-24,club,401915298,Ambos anotan,Sí,0.5958,modelo,1
+2026-11-24,club,401915297,Ganador,Real Betis,0.8124,Kalshi + casas + modelo,1
+2026-11-24,club,401915297,Doble oportunidad,Real Betis o empate,0.9329,Kalshi + casas + modelo,1
+2026-11-24,club,401915297,Goles,Más de 2.5,0.6221,modelo,0
+2026-11-24,club,401915297,Goles (línea segura),Más de 1.5,0.826,modelo,1
+2026-11-24,club,401915297,Ambos anotan,Sí,0.5247,modelo,0
+2026-11-24,club,401915296,Ganador,Como,0.7986,Kalshi + casas + modelo,1
+2026-11-24,club,401915296,Doble oportunidad,Como o empate,0.9187,Kalshi + casas + modelo,1
+2026-11-24,club,401915296,Goles,Más de 2.5,0.6647,modelo,0
+2026-11-24,club,401915296,Goles (línea segura),Más de 1.5,0.8508,modelo,0
+2026-11-24,club,401915296,Ambos anotan,Sí,0.5811,modelo,0
+2026-11-24,club,401915295,Ganador,Arsenal,0.7075,Kalshi + casas + modelo,0
+2026-11-24,club,401915295,Doble oportunidad,Arsenal o empate,0.8866,Kalshi + casas + modelo,1
+2026-11-24,club,401915295,Goles,Más de 2.5,0.577,casas + modelo,0
+2026-11-24,club,401915295,Goles (línea segura),Más de 1.5,0.7845,modelo,1
+2026-11-24,club,401915295,Ambos anotan,No,0.5045,modelo,0
+2026-11-24,club,401915294,Ganador,FC Porto,0.5273,Kalshi + casas + modelo,1
+2026-11-24,club,401915294,Doble oportunidad,FC Porto o empate,0.7712,Kalshi + casas + modelo,1
+2026-11-24,club,401915294,Goles,Más de 2.5,0.5443,casas + modelo,0
+2026-11-24,club,401915294,Goles (línea segura),Más de 1.5,0.8568,modelo,0
+2026-11-24,club,401915294,Ambos anotan,Sí,0.6436,modelo,0
+2026-11-24,liga,401878345,Ganador,Rangers,0.8311,casas + modelo,1
+2026-11-24,liga,401878345,Doble oportunidad,Rangers o empate,0.9406,casas + modelo,1
+2026-11-24,liga,401878345,Goles,Más de 2.5,0.5771,modelo,1
+2026-11-24,liga,401878345,Goles (línea segura),Más de 1.5,0.8173,modelo,1
+2026-11-24,liga,401878345,Ambos anotan,No,0.5415,modelo,0
+2026-11-24,liga,401880141,Ganador,Wolverhampton Wanderers,0.7812,casas + modelo,1
+2026-11-24,liga,401880141,Doble oportunidad,Wolverhampton Wanderers o empate,0.9271,casas + modelo,1
+2026-11-24,liga,401880141,Goles,Más de 2.5,0.606,casas + modelo,1
+2026-11-24,liga,401880141,Goles (línea segura),Más de 1.5,0.7412,modelo,1
+2026-11-24,liga,401880141,Ambos anotan,No,0.5055,modelo,1
