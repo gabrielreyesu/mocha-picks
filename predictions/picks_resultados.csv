@@ -1343,3 +1343,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-23,liga,401841323,Goles,Menos de 2.5,0.5095,casas + modelo,0
 2026-11-23,liga,401841323,Goles (línea segura),Más de 1.5,0.7427,modelo,1
 2026-11-23,liga,401841323,Ambos anotan,Sí,0.5127,modelo,1
+2026-11-23,liga,401841326,Ganador,Botafogo,0.4153,casas + modelo,0
+2026-11-23,liga,401841326,Doble oportunidad,Botafogo o São Paulo (no empate),0.7114,casas + modelo,0
+2026-11-23,liga,401841326,Goles,Más de 2.5,0.5006,casas + modelo,0
+2026-11-23,liga,401841326,Goles (línea segura),Más de 1.5,0.6834,modelo,1
+2026-11-23,liga,401841326,Ambos anotan,No,0.5105,modelo,0
