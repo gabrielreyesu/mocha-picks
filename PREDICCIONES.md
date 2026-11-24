@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 24 Nov 2026 17:00 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 24 Nov 2026 17:52 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -17,10 +17,10 @@
 ## NBA
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Tue 24 Nov 18:00 | Detroit Pistons en Orlando Magic | Detroit Pistons | 58% | 54% | 55% | 54% | 2.4 pts | 223 pts | 4 / 4 |
-| Tue 24 Nov 19:00 | Boston Celtics en Washington Wizards | Boston Celtics | 85% | 78% | 78% | 78% | 13.0 pts | 227 pts | 4 / 1 |
+| Tue 24 Nov 18:00 | Detroit Pistons en Orlando Magic | Detroit Pistons | 58% | 44% | 43% | 43% | 2.4 pts | 223 pts | 4 / 4 |
+| Tue 24 Nov 19:00 | Boston Celtics en Washington Wizards | Boston Celtics | 85% | 78% | 78% | 79% | 13.0 pts | 227 pts | 4 / 1 |
 | Tue 24 Nov 21:00 | Dallas Mavericks en Denver Nuggets | Denver Nuggets | 72% | 72% | 72% | 73% | 6.6 pts | 231 pts | 0 / 4 |
-| Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | 50% | 52% | 51% | 2.8 pts | 236 pts | 2 / 0 |
+| Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | 52% | 52% | 52% | 2.8 pts | 236 pts | 2 / 0 |
 | Wed 25 Nov 18:00 | Chicago Bulls en Charlotte Hornets | Charlotte Hornets | 65% | 57% | 59% | — | 4.4 pts | 229 pts | 4 / 2 |
 | Wed 25 Nov 18:30 | Cleveland Cavaliers en New York Knicks | New York Knicks | 71% | 67% | 68% | 66% | 6.4 pts | 225 pts | 1 / 3 |
 | Wed 25 Nov 18:30 | Minnesota Timberwolves en Oklahoma City Thunder | Oklahoma City Thunder | 60% | 55% | 55% | 56% | 2.6 pts | 223 pts | 8 / 3 |
@@ -260,17 +260,17 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Ganador | Detroit Pistons | 55% | Media | Kalshi + casas + modelo | 55¢ |
-| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Hándicap | Detroit Pistons gana por más de 2.5 | 50% | Baja | casas | 48¢ |
-| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Total de puntos | Más de 212.5 | 50% | Baja | casas | 48¢ |
-| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Puntos (línea segura) | Más de 198.5 | 78% | Alta | casas | 80¢ |
+| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Ganador | Orlando Magic | 57% | Media | Kalshi + casas + modelo | 56¢ |
+| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Hándicap | Orlando Magic gana por más de 3.5 | 50% | Baja | casas | 48¢ |
+| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Total de puntos | Más de 210.5 | 50% | Baja | casas | 50¢ |
+| Tue 24 Nov 18:00 | NBA | Detroit Pistons en Orlando Magic | Puntos (línea segura) | Más de 196.5 | 78% | Alta | casas | 80¢ |
 | Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Ganador | Boston Celtics | 80% | Alta | Kalshi + casas + modelo | 78¢ |
 | Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Hándicap | Boston Celtics gana por más de 10.5 | 50% | Baja | casas | 52¢ |
 | Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Hándicap seguro | Boston Celtics gana por más de 2.5 | 72% | Alta | casas | 76¢ |
 | Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Total de puntos | Más de 218.5 | 50% | Baja | casas | 50¢ |
 | Tue 24 Nov 19:00 | NBA | Boston Celtics en Washington Wizards | Puntos (línea segura) | Más de 204.5 | 78% | Alta | casas | 80¢ |
 | Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Ganador | Denver Nuggets | 73% | Alta | Kalshi + casas + modelo | 72¢ |
-| Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Hándicap | Denver Nuggets gana por más de 8.5 | 50% | Baja | casas | 50¢ |
+| Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Hándicap | Denver Nuggets gana por más de 8.5 | 50% | Baja | casas | 48¢ |
 | Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Total de puntos | Menos de 235.5 | 52% | Baja | casas | 54¢ |
 | Tue 24 Nov 21:00 | NBA | Dallas Mavericks en Denver Nuggets | Puntos (línea segura) | Más de 221.5 | 77% | Alta | casas | 76¢ |
 | Tue 24 Nov 21:00 | MLS | San Jose Earthquakes vs Houston Dynamo FC | Ganador | San Jose Earthquakes | 50% | Baja | casas + modelo | — |
@@ -363,9 +363,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles | Más de 2.5 | 63% | Media | modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
 | Wed 25 Nov 14:00 | Champions League | Atlético Madrid vs Viking FK | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Ganador | Philadelphia 76ers | 50% | Baja | Kalshi + casas + modelo | 50¢ |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 1.5 | 50% | Baja | casas | 49¢ |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Total de puntos | Más de 238.5 | 50% | Baja | casas | 52¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Ganador | Philadelphia 76ers | 51% | Baja | Kalshi + casas + modelo | 52¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Hándicap | Philadelphia 76ers gana por más de 1.5 | 50% | Baja | casas | 48¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Total de puntos | Más de 238.5 | 50% | Baja | casas | 48¢ |
 | Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Puntos (línea segura) | Más de 224.5 | 78% | Alta | casas | 78¢ |
 | Wed 25 Nov 17:00 | Brasileirão | Atlético-MG vs Corinthians | Ganador | Atlético-MG | 41% | Baja | casas + modelo | — |
 | Wed 25 Nov 17:00 | Brasileirão | Atlético-MG vs Corinthians | Doble oportunidad | Atlético-MG o Corinthians (no empate) | 72% | Alta | casas + modelo | — |
