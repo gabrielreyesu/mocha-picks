@@ -28,7 +28,7 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho (aporta) · ❌ hecho (no a
 | 13 | Viaje y husos horarios en copas europeas y selecciones | fútbol | Probado en NBA/NFL, no en fútbol internacional | ⬜ |
 | 14 | Mercado de córners y tarjetas con modelo propio frente a las casas (si hay cuotas) | fútbol | Mercados menos eficientes que el 1X2 | ⬜ |
 | 15 | Proyección propia de jugadores (NBA) frente a Kalshi en los picks de jugadores | NBA | Medir si nuestro modelo de jugador iguala al mercado (JUGADORES_RESEARCH.md) | ❌ muy por detrás de Kalshi; no aporta |
-| 16 | Tiros en el modelo de las 5 grandes ligas (`kalshi_soccer`) y en copas europeas / selecciones | fútbol | Lo mismo que funcionó en el grupo `ligas` | ⬜ |
+| 16 | Tiros en el modelo de las 5 grandes ligas (`kalshi_soccer`) y en copas europeas / selecciones | fútbol | Lo mismo que funcionó en el grupo `ligas` | 🟡 5 grandes: pasa (+0,0067, brecha −30%), en sombra (TIROS5_RESEARCH.md); falta copas europeas / selecciones |
 | 17 | Activar la sombra de tiros del grupo `ligas` | fútbol | Pasó la prueba histórica | ⏳ 300 partidos resueltos con sombra |
 | 18 | Modelo de jugadores con minutos previstos, rival (defensa por posición) y bajas de compañeros | NBA | La media simple no basta; el mercado ve el rol y los minutos | ⬜ |
 | 19 | Repetir la idea 3 (empates por liga): la sesión automática del 21/11 la probó (sin efecto, +0,00003 [−0,00004; +0,00011]) pero no pudo subir el PR | fútbol | Dejarla documentada | ✅ hecho: −0,00001, sin efecto (EMPATES_RESEARCH.md) |

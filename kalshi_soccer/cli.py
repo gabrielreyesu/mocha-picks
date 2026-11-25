@@ -63,7 +63,7 @@ def cmd_predict(a):
     markets = {n: DerivedMarket(n).fit(scored) for n in MARKETS}
 
     fx = fetch_fixtures(key, days=a.days)
-    rows, unresolved = [], []
+    rows, unresolved, pre_rows = [], [], []
     for r in fx.itertuples():
         known = eng.known_teams(r.competition)
         home, mh = resolve_team(r.competition, r.home_api, known)
@@ -75,6 +75,8 @@ def cmd_predict(a):
         season = season_code_for_date(r.kickoff_utc)
         pre = eng.predict(r.competition, season, home, away)
         row = pd.DataFrame([{**pre, "competition": r.competition}])
+        pre_rows.append({**pre, "match_id": str(r.match_id), "kickoff_utc": r.kickoff_utc.isoformat(), "competition": r.competition,
+                         "season": season, "home": home, "away": away})
         P = model.predict_proba(row)[0]
         out = {"match_id": r.match_id, "kickoff_utc": r.kickoff_utc.isoformat(), "competition": r.competition,
                "home": home, "away": away, "model_version": MODEL_VERSION,
@@ -115,6 +117,15 @@ def cmd_predict(a):
     if not a.allow_new:
         preds = preds[~(preds["new_team_home"] | preds["new_team_away"])]
     print(register(preds, REGISTRY))
+    try:                                   # SOMBRA de tiros (TIROS5_RESEARCH.md): archivo aparte, no cambia ningún pick
+        from .tiros5 import record_shadow, shadow
+        up = pd.DataFrame(pre_rows)
+        up = up[up["match_id"].isin(preds["match_id"].astype(str))]
+        if len(up):
+            n = record_shadow(shadow(feats, up), dict(zip(up["match_id"], up["kickoff_utc"])))
+            print(f"Sombra de tiros (5 grandes): {n} partidos nuevos")
+    except Exception as ex:  # noqa: BLE001
+        print("AVISO sombra de tiros (5 grandes):", type(ex).__name__, ex)
 
 
 def cmd_evaluate(a):

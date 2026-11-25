@@ -69,6 +69,13 @@ def report(now=None) -> tuple[str, list]:
             L += ["", f"## Sombra de tiros (fútbol): {done} partidos ya jugados con sombra (objetivo 300)"]
             if done >= 300:
                 alerts.append("Sombra de tiros: ya hay 300 partidos jugados → evaluarla (TIROS_RESEARCH.md) y pedir autorización si mejora")
+    s5 = P / "soccer_tiros_shadow.csv"
+    if s5.exists():
+        sh = pd.read_csv(s5, dtype={"match_id": str})
+        done = int((pd.to_datetime(sh["kickoff_utc"], utc=True) < now).sum())
+        L += ["", f"## Sombra de tiros (5 grandes ligas): {done} partidos ya jugados con sombra (objetivo 300)"]
+        if done >= 300:
+            alerts.append("Sombra de tiros de las 5 grandes: 300 partidos jugados → evaluarla (TIROS5_RESEARCH.md) y pedir autorización si mejora")
     L += ["", "## Combinadas"]
     from .combinadas import summary
     s = summary(P)
