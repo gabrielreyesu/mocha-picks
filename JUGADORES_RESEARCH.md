@@ -16,5 +16,16 @@
    IC 95% > 0, y con la autorización del dueño. Si no, se sigue publicando solo Kalshi y el modelo queda como dato.
 4. **Brecha:** el log loss del modelo solo frente a Kalshi se informa siempre, como en los partidos.
 
-## Resultados
-(pendiente: esperando 300 picks resueltos; la revisión semanal avisará)
+## Resultados (25/11/2026)
+- **Muestra:** 2,370 picks NBA resueltos en 8 días; 1,491 evaluados con walk-forward (40% de calentamiento).
+- **Kalshi:** log loss 0.5469, ECE 0.021, acierto 73.0%. Muy bien calibrado.
+- **Proyección propia sola:** log loss 0.6865, ECE 0.102. Mucho peor y demasiado segura de sí
+  misma. Brecha frente a Kalshi: -0.140 [-0.186; -0.096].
+- **Kalshi + proyección frente a Kalshi recalibrado:** -0.00054 [-0.00190; +0.00056]. → **❌ No aporta.**
+  Se sigue publicando solo Kalshi.
+- **Aviso:** solo hay 8 fechas, así que el intervalo por fecha es aproximado. Aun así, la diferencia del modelo solo es
+  enorme y clara.
+
+**Lectura:** una media de 10 partidos con desviación no sabe lo que sabe el mercado: minutos previstos, rival, bajas de
+compañeros y rol. Para cerrar esta brecha haría falta un modelo de minutos y de uso por rival, que queda como idea nueva
+(IDEAS.md).
