@@ -1204,3 +1204,12 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-25T18:32:05.026844+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65019,0.66127,-1.402,4.472,,,1,418.0
 2026-11-25T18:32:05.026844+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77269,0.73901,-2.07,1.46,Stephen Curry; Brandon Williams,,5,508.0
 2026-11-25T18:32:05.026844+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37902,0.38711,1.259,-4.66,Chris Youngblood,Dylan Harper,5,508.0
+2026-11-25T20:38:32.911029+00:00,401909317,2026-11-25T22:00Z,Philadelphia 76ers,Miami Heat,0.54436,0.49033,-3.83,-4.253,Joel Embiid,,1,81.0
+2026-11-25T20:38:32.911029+00:00,401909318,2026-11-26T00:00Z,Charlotte Hornets,Chicago Bulls,0.59647,0.54218,0.066,-7.2,Kon Knueppel; Grayson Allen; Ryan Kalkbrenner; Dennis Schroder,Norman Powell; Caleb Wilson,0,201.0
+2026-11-25T20:38:32.911029+00:00,401909319,2026-11-26T00:30Z,New York Knicks,Cleveland Cavaliers,0.73662,0.71139,2.7,-1.414,OG Anunoby; Jordan Clarkson; Miles McBride,Evan Mobley,1,231.0
+2026-11-25T20:38:32.911029+00:00,401909320,2026-11-26T00:30Z,Oklahoma City Thunder,Minnesota Timberwolves,0.54538,0.55237,-0.43,0.641,Jaylin Williams; Aday Mara; Nikola Topic,Jaylen Clark,6,231.0
+2026-11-25T20:38:32.911029+00:00,401909321,2026-11-26T01:00Z,Memphis Grizzlies,LA Clippers,0.68118,0.70539,-0.3,7.389,Cameron Boozer; GG Jackson; Jerami Grant,,4,261.0
+2026-11-25T20:38:32.911029+00:00,401909322,2026-11-26T01:00Z,Milwaukee Bucks,Brooklyn Nets,0.5627,0.57363,0.896,0.731,,Nolan Traore,0,261.0
+2026-11-25T20:38:32.911029+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65019,0.66127,-1.402,4.472,,,1,291.0
+2026-11-25T20:38:32.911029+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77269,0.73901,-2.07,1.46,Brandon Williams; Stephen Curry,,5,381.0
+2026-11-25T20:38:32.911029+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37902,0.38711,1.259,-4.66,Chris Youngblood,Dylan Harper,5,381.0
