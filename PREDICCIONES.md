@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 25 Nov 2026 14:30 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 25 Nov 2026 15:36 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -17,15 +17,15 @@
 ## NBA
 | Fecha (hora Chicago) | Partido | Favorito del modelo | Modelo | Kalshi | Polymarket | Casas | Diferencia esperada | Total esperado | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
-| Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | 48% | 48% | 47% | 2.8 pts | 236 pts | 1 / 0 |
+| Wed 25 Nov 16:00 | Miami Heat en Philadelphia 76ers | Philadelphia 76ers | 59% | 50% | 50% | 49% | 2.8 pts | 236 pts | 1 / 0 |
 | Wed 25 Nov 18:00 | Chicago Bulls en Charlotte Hornets | Charlotte Hornets | 65% | 60% | 60% | 60% | 4.4 pts | 229 pts | 3 / 2 |
-| Wed 25 Nov 18:30 | Cleveland Cavaliers en New York Knicks | New York Knicks | 71% | 55% | 54% | 54% | 6.4 pts | 225 pts | 2 / 2 |
-| Wed 25 Nov 18:30 | Minnesota Timberwolves en Oklahoma City Thunder | Oklahoma City Thunder | 60% | 55% | 55% | 54% | 2.6 pts | 223 pts | 7 / 3 |
+| Wed 25 Nov 18:30 | Cleveland Cavaliers en New York Knicks | New York Knicks | 71% | 62% | 62% | 59% | 6.4 pts | 225 pts | 2 / 2 |
+| Wed 25 Nov 18:30 | Minnesota Timberwolves en Oklahoma City Thunder | Oklahoma City Thunder | 60% | 55% | 55% | 53% | 2.6 pts | 223 pts | 7 / 3 |
 | Wed 25 Nov 19:00 | LA Clippers en Memphis Grizzlies | Memphis Grizzlies | 65% | 70% | 70% | 70% | 5.0 pts | 236 pts | 5 / 2 |
 | Wed 25 Nov 19:00 | Brooklyn Nets en Milwaukee Bucks | Milwaukee Bucks | 54% | 52% | 52% | 52% | 1.2 pts | 232 pts | 0 / 1 |
-| Wed 25 Nov 19:30 | Phoenix Suns en Houston Rockets | Houston Rockets | 70% | 77% | 76% | 77% | 6.3 pts | 232 pts | 0 / 1 |
-| Wed 25 Nov 21:00 | Sacramento Kings en Golden State Warriors | Golden State Warriors | 77% | 72% | 70% | 70% | 9.1 pts | 231 pts | 5 / 2 |
-| Wed 25 Nov 21:00 | San Antonio Spurs en Portland Trail Blazers | San Antonio Spurs | 63% | 58% | 60% | 59% | 3.8 pts | 228 pts | 4 / 3 |
+| Wed 25 Nov 19:30 | Phoenix Suns en Houston Rockets | Houston Rockets | 70% | 76% | 76% | 77% | 6.3 pts | 232 pts | 0 / 1 |
+| Wed 25 Nov 21:00 | Sacramento Kings en Golden State Warriors | Golden State Warriors | 77% | 72% | 72% | 72% | 9.1 pts | 231 pts | 5 / 2 |
+| Wed 25 Nov 21:00 | San Antonio Spurs en Portland Trail Blazers | San Antonio Spurs | 63% | 60% | 60% | 59% | 3.8 pts | 228 pts | 4 / 3 |
 | Fri 27 Nov 18:00 | Miami Heat en New York Knicks | New York Knicks | 74% | 60% | 60% | — | 7.5 pts | 230 pts | 2 / 0 |
 | Fri 27 Nov 18:30 | Brooklyn Nets en Toronto Raptors | Toronto Raptors | 76% | 77% | 76% | — | 8.5 pts | 230 pts | 3 / 1 |
 | Fri 27 Nov 18:30 | Philadelphia 76ers en Indiana Pacers | Philadelphia 76ers | 70% | 54% | 54% | — | 6.2 pts | 230 pts | 2 / 1 |
@@ -204,41 +204,41 @@
 | Fecha (hora Chicago) | Competición | Partido | Modelo: local / empate / visita | Kalshi | Casas | Goles: +1.5 / +2.5 / +3.5 | Ambos anotan | Gana por 2+: local / visita | Bajas: local / visita |
 |---|---|---|---|---|---|---|---|---|---|
 | Thu 26 Nov 09:30 | Conference League | Kairat Almaty vs Mjällby AIF | 36% / 29% / 35% | 44% / 28% / 28% | 44% / 27% / 28% | 72% / 45% / 24% | 51% | 16% / 15% | Sin datos de bajas |
-| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | 73% / 17% / 11% | 83% / 11% / 6% | 81% / 11% / 8% | 88% / 69% / 48% | 57% | 52% / 3% | Sin datos de bajas |
+| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | 73% / 17% / 11% | 84% / 11% / 6% | 81% / 11% / 8% | 88% / 69% / 48% | 57% | 52% / 3% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | 82% / 13% / 5% | — / — / — | 85% / 10% / 5% | 84% / 67% / 40% | 45% | 57% / 2% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | 30% / 29% / 41% | 12% / 20% / 66% | 14% / 22% / 65% | 72% / 46% / 24% | 52% | 13% / 19% | Sin datos de bajas |
-| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | 42% / 28% / 30% | 28% / 26% / 46% | 28% / 25% / 46% | 75% / 49% / 27% | 54% | 21% / 13% | Sin datos de bajas |
+| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | 42% / 28% / 30% | 30% / 26% / 44% | 30% / 25% / 45% | 75% / 49% / 27% | 54% | 21% / 13% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | 53% / 26% / 21% | 60% / 22% / 18% | 60% / 21% / 19% | 76% / 50% / 28% | 53% | 29% / 8% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | 32% / 27% / 41% | 32% / 26% / 42% | — / — / — | 79% / 55% / 33% | 59% | 14% / 22% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | SK Brann vs AGF | 41% / 28% / 31% | — / — / — | 44% / 24% / 32% | 78% / 49% / 31% | 54% | 22% / 13% | Sin datos de bajas |
-| Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | 33% / 29% / 39% | 27% / 28% / 44% | 27% / 28% / 45% | 73% / 47% / 25% | 53% | 14% / 18% | Sin datos de bajas |
+| Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | 33% / 29% / 39% | 26% / 29% / 44% | 27% / 28% / 45% | 73% / 47% / 25% | 53% | 14% / 18% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | 20% / 24% / 56% | 17% / 21% / 62% | 18% / 21% / 61% | 81% / 58% / 36% | 57% | 9% / 30% | Sin datos de bajas |
-| Thu 26 Nov 11:45 | Europa League | RB Salzburg vs Ararat-Armenia | 61% / 22% / 17% | 84% / 11% / 6% | 82% / 11% / 7% | 81% / 61% / 35% | 58% | 34% / 7% | Sin datos de bajas |
-| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | 17% / 24% / 59% | 26% / 26% / 46% | 27% / 27% / 46% | 78% / 53% / 31% | 52% | 6% / 35% | Sin datos de bajas |
+| Thu 26 Nov 11:45 | Europa League | RB Salzburg vs Ararat-Armenia | 61% / 22% / 17% | 84% / 11% / 5% | 82% / 11% / 7% | 81% / 61% / 35% | 58% | 34% / 7% | Sin datos de bajas |
+| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | 17% / 24% / 59% | 28% / 28% / 46% | 28% / 27% / 45% | 78% / 53% / 31% | 52% | 6% / 35% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | 16% / 23% / 62% | 15% / 18% / 68% | 16% / 19% / 65% | 79% / 55% / 33% | 52% | 5% / 38% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | 23% / 25% / 52% | 20% / 22% / 57% | 21% / 22% / 57% | 81% / 58% / 36% | 59% | 9% / 31% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Europa League | Union St.-Gilloise vs Lech Poznan | 75% / 16% / 9% | — / — / — | 71% / 17% / 12% | 85% / 66% / 43% | 52% | 53% / 3% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Europa League | Marseille vs Levski Sofia | 64% / 22% / 14% | 72% / 18% / 11% | 70% / 18% / 12% | 79% / 55% / 32% | 51% | 38% / 5% | Sin datos de bajas |
-| Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | 51% / 25% / 25% | — / — / — | 79% / 14% / 8% | 83% / 59% / 38% | 60% | 31% / 10% | Sin datos de bajas |
+| Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | 51% / 25% / 25% | — / — / — | 78% / 14% / 9% | 83% / 59% / 38% | 60% | 31% / 10% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Europa League | Olympiacos vs AC Milan | 41% / 28% / 32% | 34% / 28% / 38% | 33% / 28% / 39% | 79% / 50% / 32% | 55% | 20% / 15% | Sin datos de bajas |
 | Thu 26 Nov 14:00 | Conference League | SC Freiburg vs FC Twente | 54% / 23% / 22% | — / — / — | 46% / 24% / 30% | 82% / 62% / 37% | 61% | 33% / 9% | Sin datos de bajas |
 | Thu 26 Nov 14:00 | Conference League | Braga vs KuPS Kuopio | 61% / 25% / 15% | — / — / — | 84% / 11% / 5% | 72% / 45% / 24% | 44% | 35% / 4% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | 22% / 25% / 53% | 22% / 24% / 54% | 23% / 25% / 52% | 78% / 54% / 31% | 55% | 8% / 31% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | 30% / 26% / 44% | — / — / — | 36% / 27% / 37% | 82% / 58% / 36% | 61% | 15% / 21% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | 42% / 28% / 31% | — / — / — | 44% / 27% / 29% | 75% / 50% / 28% | 55% | 20% / 13% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | 24% / 27% / 48% | 15% / 20% / 66% | 16% / 20% / 64% | 76% / 48% / 28% | 52% | 9% / 27% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | 21% / 26% / 53% | — / — / — | 9% / 16% / 75% | 77% / 52% / 29% | 53% | 9% / 27% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | 22% / 25% / 53% | 22% / 24% / 55% | 23% / 24% / 54% | 78% / 54% / 31% | 55% | 8% / 31% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | 30% / 26% / 44% | — / — / — | 38% / 27% / 35% | 82% / 58% / 36% | 61% | 15% / 21% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | 42% / 28% / 31% | — / — / — | 43% / 26% / 30% | 75% / 50% / 28% | 55% | 20% / 13% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | 24% / 27% / 48% | 14% / 18% / 68% | 16% / 19% / 65% | 76% / 48% / 28% | 52% | 9% / 27% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | 21% / 26% / 53% | — / — / — | 8% / 15% / 77% | 77% / 52% / 29% | 53% | 9% / 27% | Sin datos de bajas |
 | Thu 26 Nov 14:00 | Conference League | KAA Gent vs Red Star Belgrade | 48% / 28% / 24% | — / — / — | 44% / 27% / 29% | 70% / 44% / 22% | 49% | 23% / 9% | Sin datos de bajas |
 | Thu 26 Nov 14:00 | Europa League | Ferencvaros vs NK Celje | 56% / 24% / 20% | 72% / 17% / 11% | 70% / 17% / 13% | 80% / 56% / 33% | 56% | 33% / 7% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | 29% / 26% / 46% | 31% / 24% / 46% | 32% / 24% / 44% | 80% / 57% / 34% | 60% | 12% / 26% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | 38% / 28% / 34% | 32% / 26% / 42% | 34% / 26% / 41% | 76% / 50% / 29% | 55% | 17% / 17% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | 60% / 24% / 16% | 78% / 15% / 6% | 77% / 15% / 9% | 75% / 50% / 27% | 48% | 35% / 5% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | 31% / 26% / 42% | 19% / 22% / 58% | 20% / 23% / 57% | 81% / 56% / 36% | 60% | 14% / 23% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | 46% / 25% / 29% | 47% / 24% / 29% | 46% / 24% / 30% | 82% / 60% / 37% | 62% | 25% / 13% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | 29% / 28% / 42% | 22% / 24% / 54% | 22% / 24% / 54% | 73% / 47% / 25% | 52% | 11% / 22% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | Juventus vs Omonia Nicosia | 54% / 24% / 22% | 82% / 12% / 6% | 81% / 13% / 7% | 82% / 59% / 37% | 59% | 33% / 8% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | 72% / 18% / 10% | — / — / — | 81% / 12% / 7% | 81% / 61% / 36% | 50% | 48% / 3% | Sin datos de bajas |
-| Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | 60% / 22% / 18% | 73% / 16% / 12% | 71% / 17% / 13% | 81% / 60% / 35% | 57% | 37% / 6% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | 29% / 26% / 46% | 30% / 24% / 46% | 31% / 24% / 45% | 80% / 57% / 34% | 60% | 12% / 26% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | 38% / 28% / 34% | 32% / 26% / 42% | 33% / 25% / 42% | 76% / 50% / 29% | 55% | 17% / 17% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | 60% / 24% / 16% | 78% / 15% / 8% | 76% / 16% / 9% | 75% / 50% / 27% | 48% | 35% / 5% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | 31% / 26% / 42% | 18% / 22% / 58% | 20% / 22% / 58% | 81% / 56% / 36% | 60% | 14% / 23% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | 46% / 25% / 29% | 46% / 24% / 30% | 46% / 24% / 30% | 82% / 60% / 37% | 62% | 25% / 13% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | 29% / 28% / 42% | 22% / 24% / 55% | 22% / 24% / 54% | 73% / 47% / 25% | 52% | 11% / 22% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | Juventus vs Omonia Nicosia | 54% / 24% / 22% | 82% / 11% / 6% | 81% / 13% / 7% | 82% / 59% / 37% | 59% | 33% / 8% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | 72% / 18% / 10% | — / — / — | 80% / 13% / 7% | 81% / 61% / 36% | 50% | 48% / 3% | Sin datos de bajas |
+| Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | 60% / 22% / 18% | 74% / 16% / 11% | 71% / 17% / 13% | 81% / 60% / 35% | 57% | 37% / 6% | Sin datos de bajas |
 | Tue 08 Dec 11:45 | Champions League | Villarreal vs Sabah FK | 67% / 20% / 13% | — / — / — | — / — / — | 82% / 60% / 38% | 53% | 44% / 4% | Sin datos de bajas |
 | Tue 08 Dec 11:45 | Champions League | Viking FK vs Feyenoord Rotterdam | 62% / 19% / 18% | 46% / 43% / 48% | — / — / — | 90% / 73% / 53% | 68% | 42% / 8% | Sin datos de bajas |
 | Tue 08 Dec 14:00 | Champions League | Bayern Munich vs Slavia Prague | 94% / 4% / 1% | 90% / 2% / 2% | — / — / — | 96% / 86% / 71% | 43% | 85% / 0% | Sin datos de bajas |
@@ -265,10 +265,10 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Ganador | Miami Heat | 54% | Baja | Kalshi + casas + modelo | 52¢ |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Hándicap | Miami Heat gana por más de 1.5 | 50% | Baja | casas | 52¢ |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Total de puntos | Más de 238.5 | 50% | Baja | casas | 48¢ |
-| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Puntos (línea segura) | Más de 224.5 | 78% | Alta | casas | 78¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Ganador | Miami Heat | 52% | Baja | Kalshi + casas + modelo | 50¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Hándicap | Miami Heat gana por más de 1.5 | 50% | Baja | casas | 50¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Total de puntos | Menos de 238.5 | 52% | Baja | casas | 52¢ |
+| Wed 25 Nov 16:00 | NBA | Miami Heat en Philadelphia 76ers | Puntos (línea segura) | Más de 224.5 | 77% | Alta | casas | 78¢ |
 | Wed 25 Nov 17:00 | Brasileirão | Atlético-MG vs Corinthians | Ganador | Atlético-MG | 38% | Baja | casas + modelo | — |
 | Wed 25 Nov 17:00 | Brasileirão | Atlético-MG vs Corinthians | Doble oportunidad | Atlético-MG o Corinthians (no empate) | 72% | Alta | casas + modelo | — |
 | Wed 25 Nov 17:00 | Brasileirão | Atlético-MG vs Corinthians | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
@@ -283,20 +283,20 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 25 Nov 18:00 | Liga Profesional Argentina | Boca Juniors vs Independiente Rivadavia | Goles | Menos de 2.5 | 55% | Baja | casas + modelo | — |
 | Wed 25 Nov 18:00 | Liga Profesional Argentina | Boca Juniors vs Independiente Rivadavia | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Wed 25 Nov 18:00 | Liga Profesional Argentina | Boca Juniors vs Independiente Rivadavia | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Wed 25 Nov 18:30 | NBA | Cleveland Cavaliers en New York Knicks | Ganador | New York Knicks | 53% | Baja | Kalshi + casas + modelo | 55¢ |
-| Wed 25 Nov 18:30 | NBA | Cleveland Cavaliers en New York Knicks | Hándicap | New York Knicks gana por más de 1.5 | 50% | Baja | casas | 52¢ |
-| Wed 25 Nov 18:30 | NBA | Cleveland Cavaliers en New York Knicks | Total de puntos | Más de 216.5 | 50% | Baja | casas | 50¢ |
-| Wed 25 Nov 18:30 | NBA | Cleveland Cavaliers en New York Knicks | Puntos (línea segura) | Más de 202.5 | 78% | Alta | casas | 80¢ |
-| Wed 25 Nov 18:30 | NBA | Minnesota Timberwolves en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 54% | Baja | Kalshi + casas + modelo | 55¢ |
+| Wed 25 Nov 18:30 | NBA | Cleveland Cavaliers en New York Knicks | Ganador | New York Knicks | 60% | Media | Kalshi + casas + modelo | 62¢ |
+| Wed 25 Nov 18:30 | NBA | Cleveland Cavaliers en New York Knicks | Hándicap | New York Knicks gana por más de 3.5 | 50% | Baja | casas | 52¢ |
+| Wed 25 Nov 18:30 | NBA | Cleveland Cavaliers en New York Knicks | Total de puntos | Menos de 218.5 | 52% | Baja | casas | 50¢ |
+| Wed 25 Nov 18:30 | NBA | Cleveland Cavaliers en New York Knicks | Puntos (línea segura) | Más de 204.5 | 77% | Alta | casas | 78¢ |
+| Wed 25 Nov 18:30 | NBA | Minnesota Timberwolves en Oklahoma City Thunder | Ganador | Oklahoma City Thunder | 53% | Baja | Kalshi + casas + modelo | 55¢ |
 | Wed 25 Nov 18:30 | NBA | Minnesota Timberwolves en Oklahoma City Thunder | Hándicap | Oklahoma City Thunder gana por más de 1.5 | 50% | Baja | casas | 52¢ |
-| Wed 25 Nov 18:30 | NBA | Minnesota Timberwolves en Oklahoma City Thunder | Total de puntos | Menos de 222.5 | 52% | Baja | casas | 52¢ |
-| Wed 25 Nov 18:30 | NBA | Minnesota Timberwolves en Oklahoma City Thunder | Puntos (línea segura) | Más de 208.5 | 77% | Alta | casas | 78¢ |
+| Wed 25 Nov 18:30 | NBA | Minnesota Timberwolves en Oklahoma City Thunder | Total de puntos | Más de 222.5 | 50% | Baja | casas | 50¢ |
+| Wed 25 Nov 18:30 | NBA | Minnesota Timberwolves en Oklahoma City Thunder | Puntos (línea segura) | Más de 208.5 | 78% | Alta | casas | 79¢ |
 | Wed 25 Nov 19:00 | NBA | LA Clippers en Memphis Grizzlies | Ganador | Memphis Grizzlies | 71% | Alta | Kalshi + casas + modelo | 70¢ |
 | Wed 25 Nov 19:00 | NBA | LA Clippers en Memphis Grizzlies | Hándicap | Memphis Grizzlies gana por más de 7.5 | 50% | Baja | casas | 48¢ |
 | Wed 25 Nov 19:00 | NBA | LA Clippers en Memphis Grizzlies | Total de puntos | Menos de 228.5 | 52% | Baja | casas | 52¢ |
 | Wed 25 Nov 19:00 | NBA | LA Clippers en Memphis Grizzlies | Puntos (línea segura) | Más de 214.5 | 77% | Alta | casas | 78¢ |
 | Wed 25 Nov 19:00 | NBA | Brooklyn Nets en Milwaukee Bucks | Ganador | Milwaukee Bucks | 51% | Baja | Kalshi + casas + modelo | 52¢ |
-| Wed 25 Nov 19:00 | NBA | Brooklyn Nets en Milwaukee Bucks | Hándicap | Milwaukee Bucks gana por más de 1.5 | 50% | Baja | casas | 52¢ |
+| Wed 25 Nov 19:00 | NBA | Brooklyn Nets en Milwaukee Bucks | Hándicap | Milwaukee Bucks gana por más de 1.5 | 50% | Baja | casas | 50¢ |
 | Wed 25 Nov 19:00 | NBA | Brooklyn Nets en Milwaukee Bucks | Total de puntos | Menos de 235.5 | 52% | Baja | casas | 52¢ |
 | Wed 25 Nov 19:00 | NBA | Brooklyn Nets en Milwaukee Bucks | Puntos (línea segura) | Más de 221.5 | 77% | Alta | casas | 74¢ |
 | Wed 25 Nov 19:00 | NFL | Green Bay Packers en Los Angeles Rams | Ganador | Los Angeles Rams | 64% | Media | modelo | — |
@@ -305,19 +305,19 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 25 Nov 19:00 | Liga MX | Toluca vs Atlas | Goles | Más de 2.5 | 66% | Media | casas + modelo | — |
 | Wed 25 Nov 19:00 | Liga MX | Toluca vs Atlas | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
 | Wed 25 Nov 19:00 | Liga MX | Toluca vs Atlas | Ambos anotan | Sí | 63% | Media | modelo | — |
-| Wed 25 Nov 19:30 | NBA | Phoenix Suns en Houston Rockets | Ganador | Houston Rockets | 78% | Alta | Kalshi + casas + modelo | 77¢ |
+| Wed 25 Nov 19:30 | NBA | Phoenix Suns en Houston Rockets | Ganador | Houston Rockets | 78% | Alta | Kalshi + casas + modelo | 76¢ |
 | Wed 25 Nov 19:30 | NBA | Phoenix Suns en Houston Rockets | Hándicap | Houston Rockets gana por más de 9.5 | 50% | Baja | casas | 49¢ |
 | Wed 25 Nov 19:30 | NBA | Phoenix Suns en Houston Rockets | Hándicap seguro | Houston Rockets gana por más de 1.5 | 72% | Alta | casas | 74¢ |
 | Wed 25 Nov 19:30 | NBA | Phoenix Suns en Houston Rockets | Total de puntos | Menos de 223.5 | 52% | Baja | casas | 52¢ |
 | Wed 25 Nov 19:30 | NBA | Phoenix Suns en Houston Rockets | Puntos (línea segura) | Más de 209.5 | 77% | Alta | casas | 78¢ |
-| Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Ganador | Golden State Warriors | 71% | Alta | Kalshi + casas + modelo | 72¢ |
-| Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Hándicap | Golden State Warriors gana por más de 6.5 | 50% | Baja | casas | 52¢ |
-| Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Total de puntos | Más de 216.5 | 50% | Baja | casas | 50¢ |
-| Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Puntos (línea segura) | Más de 202.5 | 78% | Alta | casas | 80¢ |
-| Wed 25 Nov 21:00 | NBA | San Antonio Spurs en Portland Trail Blazers | Ganador | San Antonio Spurs | 60% | Media | Kalshi + casas + modelo | 58¢ |
+| Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Ganador | Golden State Warriors | 73% | Alta | Kalshi + casas + modelo | 72¢ |
+| Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Hándicap | Golden State Warriors gana por más de 7.5 | 50% | Baja | casas | 52¢ |
+| Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Total de puntos | Menos de 216.5 | 52% | Baja | casas | 54¢ |
+| Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Puntos (línea segura) | Más de 202.5 | 77% | Alta | casas | 78¢ |
+| Wed 25 Nov 21:00 | NBA | San Antonio Spurs en Portland Trail Blazers | Ganador | San Antonio Spurs | 61% | Media | Kalshi + casas + modelo | 60¢ |
 | Wed 25 Nov 21:00 | NBA | San Antonio Spurs en Portland Trail Blazers | Hándicap | San Antonio Spurs gana por más de 3.5 | 50% | Baja | casas | 48¢ |
 | Wed 25 Nov 21:00 | NBA | San Antonio Spurs en Portland Trail Blazers | Total de puntos | Menos de 226.5 | 52% | Baja | casas | 55¢ |
-| Wed 25 Nov 21:00 | NBA | San Antonio Spurs en Portland Trail Blazers | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 76¢ |
+| Wed 25 Nov 21:00 | NBA | San Antonio Spurs en Portland Trail Blazers | Puntos (línea segura) | Más de 212.5 | 77% | Alta | casas | 77¢ |
 | Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Ganador | Monterrey | 40% | Baja | casas + modelo | — |
 | Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Doble oportunidad | Monterrey o América (no empate) | 72% | Alta | casas + modelo | — |
 | Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
@@ -343,38 +343,68 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Ambos anotan | Sí | 51% | Baja | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Ganador | Brighton & Hove Albion | 89% | Alta | casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Doble oportunidad | Brighton & Hove Albion o empate | 97% | Alta | casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Goles | Más de 2.5 | 67% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Ambos anotan | No | 55% | Media | modelo | — |
 | Thu 26 Nov 11:45 | Conference League | SK Brann vs AGF | Ganador | SK Brann | 44% | Baja | casas + modelo | — |
 | Thu 26 Nov 11:45 | Conference League | SK Brann vs AGF | Doble oportunidad | SK Brann o AGF (no empate) | 77% | Alta | casas + modelo | — |
 | Thu 26 Nov 11:45 | Conference League | SK Brann vs AGF | Goles | Menos de 2.5 | 51% | Baja | modelo | — |
 | Thu 26 Nov 11:45 | Conference League | SK Brann vs AGF | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Thu 26 Nov 11:45 | Conference League | SK Brann vs AGF | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Ganador | AFC Bournemouth | 52% | Baja | Kalshi + casas + modelo | 46¢ |
-| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Doble oportunidad | AFC Bournemouth o empate | 78% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Goles | Más de 2.5 | 50% | Baja | casas + modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Ganador | Benfica | 73% | Alta | Kalshi + casas + modelo | 68¢ |
-| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Doble oportunidad | Benfica o empate | 89% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Goles | Más de 2.5 | 55% | Media | modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Ganador | Bayer Leverkusen | 63% | Media | Kalshi + casas + modelo | 57¢ |
-| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Doble oportunidad | Bayer Leverkusen o empate | 83% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Goles | Más de 2.5 | 58% | Media | modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Ganador | Ajax Amsterdam | 86% | Alta | Kalshi + casas + modelo | 84¢ |
+| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Doble oportunidad | Ajax Amsterdam o empate | 95% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Goles | Más de 2.5 | 69% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Ganador | Getafe | 70% | Media | Kalshi + casas + modelo | 66¢ |
+| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Doble oportunidad | Getafe o empate | 89% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Ganador | FC Lugano | 46% | Baja | Kalshi + casas + modelo | 44¢ |
+| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Doble oportunidad | Jablonec o FC Lugano (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Ambos anotan | Sí | 54% | Baja | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Ganador | AS Monaco | 67% | Media | Kalshi + casas + modelo | 62¢ |
+| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Doble oportunidad | AS Monaco o empate | 86% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Goles | Más de 2.5 | 58% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Ganador | Egnatia | 62% | Media | Kalshi + casas + modelo | 60¢ |
+| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Doble oportunidad | Egnatia o empate | 83% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Union St.-Gilloise vs Lech Poznan | Ganador | Union St.-Gilloise | 78% | Alta | casas + modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Union St.-Gilloise vs Lech Poznan | Doble oportunidad | Union St.-Gilloise o empate | 92% | Alta | casas + modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Union St.-Gilloise vs Lech Poznan | Goles | Más de 2.5 | 66% | Media | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Union St.-Gilloise vs Lech Poznan | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Union St.-Gilloise vs Lech Poznan | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Ganador | Bayer Leverkusen | 63% | Media | Kalshi + casas + modelo | 57¢ |
+| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Doble oportunidad | Bayer Leverkusen o empate | 83% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Goles | Más de 2.5 | 58% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Dinamo Zagreb vs Bayer Leverkusen | Ambos anotan | Sí | 59% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Ganador | AFC Bournemouth | 52% | Baja | Kalshi + casas + modelo | 46¢ |
+| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Doble oportunidad | AFC Bournemouth o empate | 77% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Ganador | FC Midtjylland | 43% | Baja | Kalshi + modelo | 42¢ |
+| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Doble oportunidad | Pafos o FC Midtjylland (no empate) | 75% | Alta | Kalshi + modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Goles | Más de 2.5 | 55% | Baja | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Olympiacos vs AC Milan | Ganador | AC Milan | 40% | Baja | Kalshi + casas + modelo | 38¢ |
 | Thu 26 Nov 11:45 | Europa League | Olympiacos vs AC Milan | Doble oportunidad | Olympiacos o AC Milan (no empate) | 73% | Alta | Kalshi + casas + modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Olympiacos vs AC Milan | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Olympiacos vs AC Milan | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Olympiacos vs AC Milan | Ambos anotan | Sí | 55% | Baja | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | Ganador | Besiktas | 80% | Alta | casas + modelo | — |
-| Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | Doble oportunidad | Besiktas o empate | 93% | Alta | casas + modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | Doble oportunidad | Besiktas o empate | 92% | Alta | casas + modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | Goles | Más de 2.5 | 59% | Media | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Besiktas vs Hapoel Be'er | Ambos anotan | Sí | 60% | Media | modelo | — |
@@ -388,46 +418,16 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 26 Nov 11:45 | Europa League | Marseille vs Levski Sofia | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Marseille vs Levski Sofia | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Thu 26 Nov 11:45 | Europa League | Marseille vs Levski Sofia | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Ganador | FC Midtjylland | 43% | Baja | Kalshi + modelo | 42¢ |
-| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Doble oportunidad | Pafos o FC Midtjylland (no empate) | 74% | Alta | Kalshi + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Goles | Más de 2.5 | 55% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Ganador | Egnatia | 62% | Media | Kalshi + casas + modelo | 60¢ |
-| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Doble oportunidad | Egnatia o empate | 83% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Ganador | AS Monaco | 67% | Media | Kalshi + casas + modelo | 62¢ |
-| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Doble oportunidad | AS Monaco o empate | 86% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Goles | Más de 2.5 | 58% | Media | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | Ambos anotan | Sí | 57% | Media | modelo | — |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Ganador | Riga FC | 48% | Baja | Kalshi + casas + modelo | 44¢ |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Doble oportunidad | Riga FC o empate | 75% | Alta | Kalshi + casas + modelo | — |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Ganador | FC Lugano | 48% | Baja | Kalshi + casas + modelo | 46¢ |
-| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Doble oportunidad | Jablonec o FC Lugano (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Jablonec vs FC Lugano | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Ganador | Getafe | 70% | Media | Kalshi + casas + modelo | 66¢ |
-| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Doble oportunidad | Getafe o empate | 89% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Iberia 1999 vs Getafe | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Ganador | Brighton & Hove Albion | 89% | Alta | casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Doble oportunidad | Brighton & Hove Albion o empate | 97% | Alta | casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Goles | Más de 2.5 | 67% | Media | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Goles (línea segura) | Más de 1.5 | 84% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Brighton & Hove Albion vs CSU Craiova | Ambos anotan | No | 55% | Media | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Ganador | Ajax Amsterdam | 86% | Alta | Kalshi + casas + modelo | 83¢ |
-| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Doble oportunidad | Ajax Amsterdam o empate | 95% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Goles | Más de 2.5 | 69% | Media | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Ajax Amsterdam vs FC Thun | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Ganador | Benfica | 73% | Alta | Kalshi + casas + modelo | 68¢ |
+| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Doble oportunidad | Benfica o empate | 89% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Goles | Más de 2.5 | 55% | Media | modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
+| Thu 26 Nov 11:45 | Europa League | Viktoria Plzen vs Benfica | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Thu 26 Nov 12:00 | NFL | Chicago Bears en Detroit Lions | Ganador | Chicago Bears | 52% | Baja | Kalshi + casas + modelo | 52¢ |
 | Thu 26 Nov 12:00 | NFL | Chicago Bears en Detroit Lions | Hándicap | Chicago Bears gana por más de 1.5 | 50% | Baja | casas | 48¢ |
 | Thu 26 Nov 12:00 | NFL | Chicago Bears en Detroit Lions | Total de puntos | Más de 55.5 | 50% | Baja | casas | 50¢ |
@@ -437,29 +437,54 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 26 Nov 14:00 | Europa League | Juventus vs Omonia Nicosia | Goles | Más de 2.5 | 59% | Media | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Juventus vs Omonia Nicosia | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Juventus vs Omonia Nicosia | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | Ganador | TSG Hoffenheim | 75% | Alta | Kalshi + casas + modelo | 73¢ |
+| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Ganador | Anderlecht | 58% | Media | Kalshi + casas + modelo | 55¢ |
+| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Doble oportunidad | Anderlecht o empate | 81% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Ambos anotan | Sí | 52% | Baja | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | Ganador | TSG Hoffenheim | 76% | Alta | Kalshi + casas + modelo | 74¢ |
 | Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | Doble oportunidad | TSG Hoffenheim o empate | 90% | Alta | Kalshi + casas + modelo | — |
 | Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | Goles | Más de 2.5 | 60% | Media | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | TSG Hoffenheim vs SK Sturm Graz | Ambos anotan | Sí | 57% | Media | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Ganador | Crystal Palace | 47% | Baja | Kalshi + casas + modelo | 46¢ |
+| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Doble oportunidad | Crystal Palace o Real Sociedad (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | Ganador | AZ Alkmaar | 44% | Baja | Kalshi + casas + modelo | 42¢ |
 | Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | Doble oportunidad | Sparta Prague o AZ Alkmaar (no empate) | 75% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Sparta Prague vs AZ Alkmaar | Ambos anotan | Sí | 55% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | Ganador | Panathinaikos | 41% | Baja | casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Ganador | Stade Rennais | 50% | Baja | Kalshi + casas + modelo | 46¢ |
+| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Doble oportunidad | NEC Nijmegen o Stade Rennais (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Goles | Más de 2.5 | 57% | Media | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Ambos anotan | Sí | 60% | Media | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Ganador | Celtic | 63% | Media | Kalshi + casas + modelo | 58¢ |
+| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Doble oportunidad | Celtic o empate | 83% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Ambos anotan | Sí | 60% | Media | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Ganador | Sunderland | 80% | Alta | Kalshi + casas + modelo | 78¢ |
+| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Doble oportunidad | Sunderland o empate | 93% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Ambos anotan | No | 52% | Baja | modelo | — |
+| Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | Ganador | Panathinaikos | 38% | Baja | casas + modelo | — |
 | Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | Doble oportunidad | FC Nordsjælland o Panathinaikos (no empate) | 74% | Alta | casas + modelo | — |
 | Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Conference League | FC Nordsjælland vs Panathinaikos | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | Ganador | Atalanta | 70% | Alta | Kalshi + casas + modelo | 66¢ |
-| Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | Doble oportunidad | Atalanta o empate | 87% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | Ganador | Atalanta | 72% | Alta | Kalshi + casas + modelo | 68¢ |
+| Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | Doble oportunidad | Atalanta o empate | 88% | Alta | Kalshi + casas + modelo | — |
 | Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | Goles | Menos de 2.5 | 52% | Baja | modelo | — |
 | Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Conference League | Borac Banja Luka vs Atalanta | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | Ganador | Hajduk Split | 44% | Baja | casas + modelo | — |
+| Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | Ganador | Hajduk Split | 43% | Baja | casas + modelo | — |
 | Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | Doble oportunidad | Hajduk Split o Sint-Truidense (no empate) | 74% | Alta | casas + modelo | — |
-| Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Conference League | Hajduk Split vs Sint-Truidense | Ambos anotan | Sí | 55% | Media | modelo | — |
 | Thu 26 Nov 14:00 | Conference League | KAA Gent vs Red Star Belgrade | Ganador | KAA Gent | 45% | Baja | casas + modelo | — |
@@ -477,51 +502,26 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 26 Nov 14:00 | Conference League | SC Freiburg vs FC Twente | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Thu 26 Nov 14:00 | Conference League | SC Freiburg vs FC Twente | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Conference League | SC Freiburg vs FC Twente | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Ganador | Trabzonspor | 59% | Media | Kalshi + casas + modelo | 54¢ |
-| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Doble oportunidad | Trabzonspor o empate | 81% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
-| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Ambos anotan | Sí | 55% | Media | modelo | — |
+| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Ganador | F.C. København | 81% | Alta | casas + modelo | — |
+| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Doble oportunidad | F.C. København o empate | 94% | Alta | casas + modelo | — |
+| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Goles | Más de 2.5 | 52% | Baja | modelo | — |
+| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
+| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Ferencvaros vs NK Celje | Ganador | Ferencvaros | 74% | Alta | Kalshi + casas + modelo | 72¢ |
 | Thu 26 Nov 14:00 | Europa League | Ferencvaros vs NK Celje | Doble oportunidad | Ferencvaros o empate | 90% | Alta | Kalshi + casas + modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Ferencvaros vs NK Celje | Goles | Más de 2.5 | 56% | Media | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Ferencvaros vs NK Celje | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Ferencvaros vs NK Celje | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | Ganador | Lyon | 85% | Alta | casas + modelo | — |
+| Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | Ganador | Lyon | 84% | Alta | casas + modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | Doble oportunidad | Lyon o empate | 95% | Alta | casas + modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | Goles | Más de 2.5 | 61% | Media | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
 | Thu 26 Nov 14:00 | Europa League | Lyon vs Lillestrom | Ambos anotan | No | 50% | Baja | modelo | — |
-| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Ganador | F.C. København | 79% | Alta | casas + modelo | — |
-| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Doble oportunidad | F.C. København o empate | 93% | Alta | casas + modelo | — |
-| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Goles | Más de 2.5 | 52% | Baja | modelo | — |
-| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
-| Thu 26 Nov 14:00 | Conference League | Inter D'Escaldes vs F.C. København | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Ganador | Anderlecht | 58% | Media | Kalshi + casas + modelo | 54¢ |
-| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Doble oportunidad | Anderlecht o empate | 81% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | OFI Crete vs Anderlecht | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Ganador | Crystal Palace | 47% | Baja | Kalshi + casas + modelo | 47¢ |
-| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Doble oportunidad | Crystal Palace o Real Sociedad (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Crystal Palace vs Real Sociedad | Ambos anotan | Sí | 62% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Ganador | Stade Rennais | 49% | Baja | Kalshi + casas + modelo | 46¢ |
-| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Doble oportunidad | NEC Nijmegen o Stade Rennais (no empate) | 77% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Goles | Más de 2.5 | 57% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | NEC Nijmegen vs Stade Rennais | Ambos anotan | Sí | 60% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Ganador | Celtic | 62% | Media | Kalshi + casas + modelo | 58¢ |
-| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Doble oportunidad | Celtic o empate | 83% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Torreense vs Celtic | Ambos anotan | Sí | 60% | Media | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Ganador | Sunderland | 81% | Alta | Kalshi + casas + modelo | 78¢ |
-| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Doble oportunidad | Sunderland o empate | 94% | Alta | Kalshi + casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
-| Thu 26 Nov 14:00 | Europa League | Sunderland vs Jagiellonia Bialystok | Ambos anotan | No | 52% | Baja | modelo | — |
+| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Ganador | Trabzonspor | 60% | Media | Kalshi + casas + modelo | 55¢ |
+| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Doble oportunidad | Trabzonspor o empate | 82% | Alta | Kalshi + casas + modelo | — |
+| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Thu 26 Nov 14:00 | Conference League | CSKA Sofia vs Trabzonspor | Ambos anotan | Sí | 55% | Media | modelo | — |
 | Thu 26 Nov 15:30 | NFL | Philadelphia Eagles en Dallas Cowboys | Ganador | Dallas Cowboys | 76% | Alta | Kalshi + casas + modelo | 80¢ |
 | Thu 26 Nov 15:30 | NFL | Philadelphia Eagles en Dallas Cowboys | Hándicap | Dallas Cowboys gana por más de 8.5 | 50% | Baja | casas | 50¢ |
 | Thu 26 Nov 15:30 | NFL | Philadelphia Eagles en Dallas Cowboys | Hándicap seguro | Dallas Cowboys gana por más de 1.5 | 71% | Alta | casas | 78¢ |
