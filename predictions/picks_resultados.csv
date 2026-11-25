@@ -1545,3 +1545,12 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-24,nba,401909315,Hándicap seguro,Boston Celtics gana por más de 2.5,0.7248,casas,1
 2026-11-24,nba,401909315,Total de puntos,Más de 218.5,0.5,casas,1
 2026-11-24,nba,401909315,Puntos (línea segura),Más de 204.5,0.7829,casas,1
+2026-11-24,nba,401909316,Ganador,Denver Nuggets,0.7096,Kalshi + casas + modelo,0
+2026-11-24,nba,401909316,Hándicap,Denver Nuggets gana por más de 7.5,0.5,casas,0
+2026-11-24,nba,401909316,Total de puntos,Menos de 235.5,0.5223,casas,1
+2026-11-24,nba,401909316,Puntos (línea segura),Más de 221.5,0.7662,casas,0
+2026-11-24,liga,401933738,Ganador,San Jose Earthquakes,0.4964,casas + modelo,1
+2026-11-24,liga,401933738,Doble oportunidad,San Jose Earthquakes o empate,0.7487,casas + modelo,1
+2026-11-24,liga,401933738,Goles,Más de 2.5,0.5809,casas + modelo,1
+2026-11-24,liga,401933738,Goles (línea segura),Más de 1.5,0.7483,modelo,1
+2026-11-24,liga,401933738,Ambos anotan,Sí,0.54,modelo,1
