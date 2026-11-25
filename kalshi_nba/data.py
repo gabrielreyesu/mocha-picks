@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import json
 import time
+import warnings
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 from pathlib import Path
@@ -75,13 +76,19 @@ def parse_event(e: dict, day: str) -> dict | None:
             "hs": sc(side["home"]), "as_": sc(side["away"]), "neutral": bool(c.get("neutralSite", False))}
 
 
-def fetch_day(day: date, cache: Path, force=False, league="nba") -> list:
+def fetch_day(day: date, cache: Path, force=False, league="nba", *, allow_missing_future=False) -> list:
     p = cache / "sb" / f"{day:%Y%m%d}.json"
     closed = day < date.today() - timedelta(days=2)
     if p.exists() and closed and not force:
         return json.loads(p.read_text())
     L = LEAGUES[league]
-    j = _json(SB.format(path=L["path"]), {"dates": f"{day:%Y%m%d}", **L["params"]})
+    try:
+        j = _json(SB.format(path=L["path"]), {"dates": f"{day:%Y%m%d}", **L["params"]})
+    except RuntimeError as exc:
+        if not allow_missing_future or day <= date.today():
+            raise
+        warnings.warn(f"Calendario ESPN incompleto para {league} el {day}: {exc}", stacklevel=2)
+        return []
     rows = [r for r in (parse_event(e, day.isoformat()) for e in (j or {}).get("events", [])) if r]
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(rows))
@@ -190,13 +197,13 @@ def pick_line(items: list, total_range=(150.0, 300.0), max_spread=30.0) -> dict:
 
 
 def load_league(league="nba", first_season: int = 2016, last_season: int | None = None, cache_dir: str | None = None,
-                workers=8, with_odds=True, verbose=True, *, future_days=7) -> pd.DataFrame:
+                workers=8, with_odds=True, verbose=True, *, future_days=7, allow_missing_future=False) -> pd.DataFrame:
     L = LEAGUES[league]
     cache = Path(cache_dir or f"data/{league}")
     last_season = last_season or current_season(league)
     days = [d for y in range(first_season, last_season + 1) for d in season_days(y, league=league, future_days=future_days)]
     with ThreadPoolExecutor(workers) as ex:
-        res = list(ex.map(lambda d: fetch_day(d, cache, league=league), days))
+        res = list(ex.map(lambda d: fetch_day(d, cache, league=league, allow_missing_future=allow_missing_future), days))
     games = pd.DataFrame([r for day in res for r in day])
     if games.empty:
         raise RuntimeError("ESPN no devolvió partidos")
