@@ -1186,3 +1186,12 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-25T03:43:41.313252+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65024,0.66137,-1.402,4.472,,,1,1306.0
 2026-11-25T03:43:41.313252+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77274,0.73904,-2.07,1.46,Brandon Williams; Stephen Curry,,5,1396.0
 2026-11-25T03:43:41.313252+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.3791,0.38717,1.259,-4.66,Chris Youngblood,Dylan Harper,5,1396.0
+2026-11-25T16:47:53.707640+00:00,401909317,2026-11-25T22:00Z,Philadelphia 76ers,Miami Heat,0.54436,0.53133,-0.99,-1.414,,,1,312.0
+2026-11-25T16:47:53.707640+00:00,401909318,2026-11-26T00:00Z,Charlotte Hornets,Chicago Bulls,0.59647,0.54979,0.597,-6.669,Dennis Schroder; Kon Knueppel; Grayson Allen,Caleb Wilson; Norman Powell,0,432.0
+2026-11-25T16:47:53.707640+00:00,401909319,2026-11-26T00:30Z,New York Knicks,Cleveland Cavaliers,0.73662,0.70022,1.77,-2.344,OG Anunoby; Jordan Clarkson,Evan Mobley,1,462.0
+2026-11-25T16:47:53.707640+00:00,401909320,2026-11-26T00:30Z,Oklahoma City Thunder,Minnesota Timberwolves,0.54538,0.55237,-0.43,0.641,Jaylin Williams; Nikola Topic; Aday Mara,Jaylen Clark,6,462.0
+2026-11-25T16:47:53.707640+00:00,401909321,2026-11-26T01:00Z,Memphis Grizzlies,LA Clippers,0.68118,0.70539,-0.3,7.389,Jerami Grant; GG Jackson; Cameron Boozer,,4,492.0
+2026-11-25T16:47:53.707640+00:00,401909322,2026-11-26T01:00Z,Milwaukee Bucks,Brooklyn Nets,0.5627,0.57363,0.896,0.731,,Nolan Traore,0,492.0
+2026-11-25T16:47:53.707640+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65019,0.66127,-1.402,4.472,,,1,522.0
+2026-11-25T16:47:53.707640+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77269,0.73901,-2.07,1.46,Brandon Williams; Stephen Curry,,5,612.0
+2026-11-25T16:47:53.707640+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37902,0.38711,1.259,-4.66,Chris Youngblood,Dylan Harper,5,612.0
