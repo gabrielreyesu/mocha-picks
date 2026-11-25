@@ -1554,3 +1554,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-24,liga,401933738,Goles,Más de 2.5,0.5809,casas + modelo,1
 2026-11-24,liga,401933738,Goles (línea segura),Más de 1.5,0.7483,modelo,1
 2026-11-24,liga,401933738,Ambos anotan,Sí,0.54,modelo,1
+2026-11-25,club,401915378,Ganador,Barcelona,0.9435,casas + modelo,1
+2026-11-25,club,401915378,Doble oportunidad,Barcelona o empate,0.9847,casas + modelo,1
+2026-11-25,club,401915378,Goles,Más de 2.5,0.8375,modelo,1
+2026-11-25,club,401915378,Goles (línea segura),Más de 1.5,0.9441,modelo,1
+2026-11-25,club,401915378,Ambos anotan,Sí,0.5333,modelo,1
