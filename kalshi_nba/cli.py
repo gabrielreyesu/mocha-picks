@@ -127,7 +127,8 @@ def cmd_evaluate(a):
     if not SNAP.exists():
         print("Aún no hay fotos de precios."); return
     from .data import current_season
-    g = load_league(lg, first_season=current_season(lg), with_odds=False, verbose=False)
+    # La evaluación solo liquida partidos terminados; no necesita el calendario futuro.
+    g = load_league(lg, first_season=current_season(lg), with_odds=False, verbose=False, future_days=0)
     fin = g[g["status"] == "STATUS_FINAL"]
     s = pd.read_csv(SNAP, dtype={"event_id": str}).sort_values("snapshot_utc").drop_duplicates("ticker")   # primera foto de cada mercado
     for c in ("p_model", "mid", "ask", "bid", "p_book"):
