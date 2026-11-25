@@ -1599,3 +1599,43 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-25,liga,401880140,Goles,Más de 2.5,0.5402,casas + modelo,1
 2026-11-25,liga,401880140,Goles (línea segura),Más de 1.5,0.7676,modelo,1
 2026-11-25,liga,401880140,Ambos anotan,Sí,0.5698,modelo,1
+2026-11-25,club,401915375,Ganador,Fenerbahce,0.3734,Kalshi + casas + modelo,1
+2026-11-25,club,401915375,Doble oportunidad,Shakhtar Donetsk o Fenerbahce (no empate),0.7312,Kalshi + casas + modelo,1
+2026-11-25,club,401915375,Goles,Más de 2.5,0.5284,casas + modelo,0
+2026-11-25,club,401915375,Goles (línea segura),Más de 1.5,0.799,modelo,0
+2026-11-25,club,401915375,Ambos anotan,Sí,0.5934,modelo,0
+2026-11-25,club,401915376,Ganador,Internazionale,0.7347,Kalshi + casas + modelo,1
+2026-11-25,club,401915376,Doble oportunidad,Internazionale o empate,0.8847,Kalshi + casas + modelo,1
+2026-11-25,club,401915376,Goles,Más de 2.5,0.6221,modelo,0
+2026-11-25,club,401915376,Goles (línea segura),Más de 1.5,0.8365,modelo,1
+2026-11-25,club,401915376,Ambos anotan,Sí,0.5735,modelo,0
+2026-11-25,club,401915291,Ganador,Atlético Madrid,0.8975,Kalshi + casas + modelo,1
+2026-11-25,club,401915291,Doble oportunidad,Atlético Madrid o empate,0.9637,Kalshi + casas + modelo,1
+2026-11-25,club,401915291,Goles,Más de 2.5,0.6311,modelo,0
+2026-11-25,club,401915291,Goles (línea segura),Más de 1.5,0.8584,modelo,1
+2026-11-25,club,401915291,Ambos anotan,Sí,0.6159,modelo,0
+2026-11-25,liga,401880138,Ganador,Stoke City,0.473,casas + modelo,1
+2026-11-25,liga,401880138,Doble oportunidad,Stoke City o empate,0.744,casas + modelo,1
+2026-11-25,liga,401880138,Goles,Menos de 2.5,0.5357,casas + modelo,0
+2026-11-25,liga,401880138,Goles (línea segura),Más de 1.5,0.7501,modelo,1
+2026-11-25,liga,401880138,Ambos anotan,Sí,0.5474,modelo,1
+2026-11-25,club,401915374,Ganador,Paris Saint-Germain,0.7009,casas + modelo,0
+2026-11-25,club,401915374,Doble oportunidad,Paris Saint-Germain o empate,0.8693,casas + modelo,1
+2026-11-25,club,401915374,Goles,Más de 2.5,0.7266,modelo,1
+2026-11-25,club,401915374,Goles (línea segura),Más de 1.5,0.9093,modelo,1
+2026-11-25,club,401915374,Ambos anotan,Sí,0.6444,modelo,1
+2026-11-25,club,401915292,Ganador,Liverpool,0.608,Kalshi + casas + modelo,1
+2026-11-25,club,401915292,Doble oportunidad,Club Brugge o Liverpool (no empate),0.8086,Kalshi + casas + modelo,1
+2026-11-25,club,401915292,Goles,Más de 2.5,0.6114,modelo,1
+2026-11-25,club,401915292,Goles (línea segura),Más de 1.5,0.85,modelo,1
+2026-11-25,club,401915292,Ambos anotan,Sí,0.6388,modelo,0
+2026-11-25,club,401915377,Ganador,Bayern Munich,0.6704,Kalshi + casas + modelo,0
+2026-11-25,club,401915377,Doble oportunidad,Bayern Munich o empate,0.8728,Kalshi + casas + modelo,0
+2026-11-25,club,401915377,Goles,Más de 2.5,0.5612,casas + modelo,1
+2026-11-25,club,401915377,Goles (línea segura),Más de 1.5,0.8535,modelo,1
+2026-11-25,club,401915377,Ambos anotan,Sí,0.561,modelo,1
+2026-11-25,club,401915373,Ganador,Manchester United,0.3925,Kalshi + casas + modelo,0
+2026-11-25,club,401915373,Doble oportunidad,Sporting CP o Manchester United (no empate),0.7525,Kalshi + casas + modelo,0
+2026-11-25,club,401915373,Goles,Más de 2.5,0.5395,modelo,1
+2026-11-25,club,401915373,Goles (línea segura),Más de 1.5,0.7839,modelo,1
+2026-11-25,club,401915373,Ambos anotan,Sí,0.5726,modelo,1
