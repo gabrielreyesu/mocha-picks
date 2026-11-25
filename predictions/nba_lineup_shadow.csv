@@ -1213,3 +1213,11 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-25T20:38:32.911029+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65019,0.66127,-1.402,4.472,,,1,291.0
 2026-11-25T20:38:32.911029+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77269,0.73901,-2.07,1.46,Brandon Williams; Stephen Curry,,5,381.0
 2026-11-25T20:38:32.911029+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37902,0.38711,1.259,-4.66,Chris Youngblood,Dylan Harper,5,381.0
+2026-11-25T22:38:37.167181+00:00,401909318,2026-11-26T00:00Z,Charlotte Hornets,Chicago Bulls,0.59647,0.57187,2.148,-5.118,Grayson Allen; Ryan Kalkbrenner; Dennis Schroder; Kon Knueppel,Norman Powell; Jalen Smith; Caleb Wilson,0,81.0
+2026-11-25T22:38:37.167181+00:00,401909319,2026-11-26T00:30Z,New York Knicks,Cleveland Cavaliers,0.73662,0.71139,2.7,-1.414,OG Anunoby; Miles McBride; Jordan Clarkson,Evan Mobley,1,111.0
+2026-11-25T22:38:37.167181+00:00,401909320,2026-11-26T00:30Z,Oklahoma City Thunder,Minnesota Timberwolves,0.54538,0.55237,-0.43,0.641,Jaylin Williams; Nikola Topic; Aday Mara,Jaylen Clark,6,111.0
+2026-11-25T22:38:37.167181+00:00,401909321,2026-11-26T01:00Z,Memphis Grizzlies,LA Clippers,0.68118,0.70539,-0.3,7.389,Jerami Grant; GG Jackson; Cameron Boozer,,4,141.0
+2026-11-25T22:38:37.167181+00:00,401909322,2026-11-26T01:00Z,Milwaukee Bucks,Brooklyn Nets,0.5627,0.57363,0.896,0.731,,Nolan Traore,0,141.0
+2026-11-25T22:38:37.167181+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65019,0.66127,-1.402,4.472,,,1,171.0
+2026-11-25T22:38:37.167181+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77269,0.73901,-2.07,1.46,Brandon Williams; Stephen Curry,,5,261.0
+2026-11-25T22:38:37.167181+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37902,0.38711,1.259,-4.66,Chris Youngblood,Dylan Harper,5,261.0
