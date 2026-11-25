@@ -1584,3 +1584,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-25,liga,401899531,Goles,Más de 2.5,0.5523,casas + modelo,0
 2026-11-25,liga,401899531,Goles (línea segura),Más de 1.5,0.7789,modelo,1
 2026-11-25,liga,401899531,Ambos anotan,Sí,0.5856,modelo,1
+2026-11-25,liga,401880139,Ganador,Birmingham City,0.4368,casas + modelo,1
+2026-11-25,liga,401880139,Doble oportunidad,Burnley o Birmingham City (no empate),0.7419,casas + modelo,1
+2026-11-25,liga,401880139,Goles,Más de 2.5,0.5406,casas + modelo,0
+2026-11-25,liga,401880139,Goles (línea segura),Más de 1.5,0.797,modelo,1
+2026-11-25,liga,401880139,Ambos anotan,Sí,0.5746,modelo,0
+2026-11-25,liga,401880137,Ganador,Blackburn Rovers,0.369,casas + modelo,1
+2026-11-25,liga,401880137,Doble oportunidad,Watford o Blackburn Rovers (no empate),0.7202,casas + modelo,1
+2026-11-25,liga,401880137,Goles,Menos de 2.5,0.5206,casas + modelo,1
+2026-11-25,liga,401880137,Goles (línea segura),Más de 1.5,0.7543,modelo,0
+2026-11-25,liga,401880137,Ambos anotan,Sí,0.5253,modelo,0
+2026-11-25,liga,401880140,Ganador,West Bromwich Albion,0.5073,casas + modelo,1
+2026-11-25,liga,401880140,Doble oportunidad,West Bromwich Albion o empate,0.7588,casas + modelo,1
+2026-11-25,liga,401880140,Goles,Más de 2.5,0.5402,casas + modelo,1
+2026-11-25,liga,401880140,Goles (línea segura),Más de 1.5,0.7676,modelo,1
+2026-11-25,liga,401880140,Ambos anotan,Sí,0.5698,modelo,1
