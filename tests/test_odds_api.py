@@ -46,3 +46,29 @@ class TestOddsApi(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestMatchAndCarry(unittest.TestCase):
+    def test_match_one_name_same_time(self):
+        t = pd.Timestamp("2026-11-28T15:00Z")
+        evs = [{"home": "Sheffield Wednesday", "away": "Hull City", "t": t.isoformat()},
+               {"home": "Leeds United", "away": "Burnley", "t": t.isoformat()}]
+        self.assertEqual(odds_api._match(evs, "Sheffield Wed", "Hull City", t)["away"], "Hull City")      # coinciden ambos (alias)
+        self.assertEqual(odds_api._match(evs, "Leeds United", "Burnley FC Sub", t)["home"], "Leeds United")  # uno coincide y misma hora
+        self.assertIsNone(odds_api._match(evs, "Otro", "Equipo", t))
+
+    def test_carry_market_from_previous_snapshot(self):
+        import tempfile
+        from pathlib import Path
+        from kalshi_intl import cli
+        now = pd.Timestamp.now(tz="UTC")
+        with tempfile.TemporaryDirectory() as tmp:
+            old = cli.SNAP; cli.SNAP = Path(tmp) / "s.csv"
+            try:
+                pd.DataFrame([{"event_id": "9", "snapshot_utc": (now - pd.Timedelta(hours=5)).isoformat(), "mkt_H": .5, "mkt_D": .3, "mkt_A": .2, "n_books": 4}]).to_csv(cli.SNAP, index=False)
+                d = pd.DataFrame([{"event_id": "9", "mkt_H": np.nan, "mkt_D": np.nan, "mkt_A": np.nan, "mkt_over": np.nan, "n_books": np.nan},
+                                  {"event_id": "8", "mkt_H": np.nan, "mkt_D": np.nan, "mkt_A": np.nan, "mkt_over": np.nan, "n_books": np.nan}])
+                out = cli._carry_market(d)
+            finally:
+                cli.SNAP = old
+        self.assertEqual(out.loc[0, "mkt_H"], .5); self.assertTrue(np.isnan(out.loc[1, "mkt_H"]))

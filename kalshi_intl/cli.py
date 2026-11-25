@@ -71,6 +71,24 @@ def match_kalshi(home: str, away: str, kick, events: list) -> dict:
     return out
 
 
+def _carry_market(d: pd.DataFrame, hours: int = 48) -> pd.DataFrame:
+    """Si un partido no trae cuotas en esta foto pero sí en una foto anterior (≤ 48 h), se reutiliza la última."""
+    if not SNAP.exists() or d.empty:
+        return d
+    cols = ["mkt_H", "mkt_D", "mkt_A", "mkt_over", "n_books"]
+    s = pd.read_csv(SNAP, dtype={"event_id": str}, usecols=lambda c: c in ["event_id", "snapshot_utc"] + cols)
+    s = s[s["mkt_H"].notna() & (pd.to_datetime(s["snapshot_utc"], utc=True) >= pd.Timestamp.now(tz="UTC") - pd.Timedelta(hours=hours))]
+    last = s.sort_values("snapshot_utc").drop_duplicates("event_id", keep="last").set_index("event_id")
+    d = d.copy()
+    miss = d["mkt_H"].isna() & d["event_id"].astype(str).isin(last.index)
+    for c in cols:
+        if c in last:
+            d.loc[miss, c] = d.loc[miss, "event_id"].astype(str).map(last[c])
+    if miss.any():
+        print(f"Cuotas reutilizadas de fotos anteriores: {int(miss.sum())} partidos")
+    return d
+
+
 def _tiros_shadow(f, up) -> dict:
     """SOMBRA (TIROS_RESEARCH.md): el mismo modelo + tiros y tiros a puerta. Se registra como s_H/s_D/s_A en el registro
     y las fotos; NO cambia el pick publicado. Si algo falla, no hay sombra y todo sigue igual."""
@@ -135,6 +153,10 @@ def cmd_predict(days=14):
             "p_btts", "lambda_h", "lambda_a", "elo_diff", "partidos_previos_local", "partidos_previos_visita", "model_version",
             "created_utc", "k_event"] + [f"k_{a}_{c}" for a in ("bid", "ask", "mid") for c in "HDA"] + ["mkt_H", "mkt_D", "mkt_A", "mkt_over", "n_books"] + ["p_over_1_5", "p_over_3_5", "p_home_m1_5", "p_away_m1_5"] + ["s_H", "s_D", "s_A"]
     d = d.reindex(columns=cols)
+    try:                                            # se conservan las cuotas ya conseguidas (p. ej. de The Odds API en la
+        d = _carry_market(d)                        # corrida diaria) en las fotos siguientes, si ahora no hay
+    except Exception as ex:  # noqa: BLE001
+        print("AVISO arrastre de cuotas:", type(ex).__name__)
     try:                                            # cuotas de The Odds API donde ESPN no tiene (copas nacionales…)
         from .odds_api import fill
         d = fill(d)
