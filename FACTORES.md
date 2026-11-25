@@ -24,6 +24,7 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Quarterback titular | NFL | 🟡 | Backtest −0,0133; sombra en curso; ≈ Kalshi. En el combinador sube el peso del modelo a 0,44 y mejora el pick +0,0014 [−0,0035; +0,0062] (no significativo, 246 partidos): activar si la sombra lo confirma | `LINEUP_RESEARCH.md` |
 | Once titular (continuidad) | copas | 🟡 | Backtest −0,0030 (débil); sombra en curso | `LINEUP_RESEARCH.md` |
 | Once titular | selecciones | ❌ | Sin efecto | `LINEUP_RESEARCH.md` |
+| Once titular (continuidad) | 5 grandes ligas | ❌ | Modelo +0,0011 [−0,0004; +0,0026], ECE empeora; frente a casas −0,0001 (nada) | `XI_LIGAS_RESEARCH.md` |
 | Suspensiones (tarjetas) | fútbol | ⏳ | — | — |
 | Valor individual de jugador (no solo presencia) | fútbol | ⏳ | — | — |
 | Descanso / back-to-back | NBA | ✅ | En el modelo base | `engine.py` |

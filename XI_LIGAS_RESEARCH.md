@@ -34,4 +34,25 @@ Cuotas de casas: caché de `data/intl/odds` (mediana sin margen, cierre ESPN).
 
 ## Resultados
 
-(pendiente — se rellena tras una sola ejecución de `python -m kalshi_lineup.xi_ligas`)
+Una sola ejecución (25/11/2026), `python -m kalshi_lineup.xi_ligas`.
+
+**Cobertura:** 100% de los 11.498 partidos con once válido (98,8% de los evaluados con ≥3 onces previos por equipo).
+Desarrollo n = 5.400; confirmación n = 4.051 (2024/25 y 2025/26 hasta hoy).
+
+| Comparación | Mejora log loss | IC95% | Veredicto |
+|---|---|---|---|
+| Desarrollo: modelo + `xi_cont` frente a modelo | +0,00105 | [+0,00014; +0,00200] | (solo para mirar) |
+| **Confirmación: modelo + `xi_cont` frente a modelo** | +0,00114 | [−0,00038; +0,00255] | ❌ IC incluye 0; ECE 0,012 → 0,026 |
+| (descriptivo) variante B, con ataque | +0,00124 | [−0,00028; +0,00268] | — |
+| **Confirmación: casas recalibradas + `xi_cont`** (n = 4.021) | −0,00011 | [−0,00065; +0,00037] | ❌ nada |
+
+Brecha en confirmación (log loss): casas 0,9665 · modelo 0,9909 · modelo + once 0,9897 (cierra ~5% de la brecha).
+
+**Conclusión (resultado negativo).** En las 5 grandes ligas, la continuidad del once aporta como mucho una mejora
+mínima al modelo propio, que no se confirma y además empeora la calibración. Frente a las casas no aporta nada: el
+mercado de cierre ya incorpora las rotaciones y los titulares ausentes (igual que vimos con racha, descanso, viajes
+y suspensiones). **No entra en sombra.** Se mantiene la sombra de copas europeas, que es independiente.
+
+**Qué queda abierto.** El valor del once, si existe, está en el *momento*: el mercado se mueve cuando sale el once
+oficial. Probarlo exige precios de antes y después de la publicación del once (por ejemplo, Kalshi histórico por
+minuto), no la cuota de cierre. Queda anotado en `IDEAS.md`.
