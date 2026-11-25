@@ -75,7 +75,8 @@ def cmd_predict(a):
     if lg not in LEAGUE_SERIES:
         raise SystemExit(f"predict aún no está disponible para {lg} (falta unir equipos con Kalshi)")
     REG, SNAP = _paths(lg)
-    g = load_league(lg, first_season=a.first_season or DEFAULTS[lg]["first_season"], with_odds=False)
+    g = load_league(lg, first_season=a.first_season or DEFAULTS[lg]["first_season"], with_odds=False,
+                    allow_missing_future=True)
     f = NBAEngine(CONFIGS[lg]).process(g)
     models = NBAModels(features=LEAGUE_FEATURES[lg]).fit(f)
     kick = pd.to_datetime(f["kickoff_utc"], utc=True)
