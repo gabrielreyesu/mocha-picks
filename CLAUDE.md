@@ -23,6 +23,9 @@ El pick final debe salir de combinar todas las fuentes disponibles, no de una so
 - **Contexto de competición**: clasificación, qué se juega cada equipo, sede, calendario.
 - Cualquier fuente nueva se **prueba** y, si aporta, se suma al combinador (`kalshi_nba/final_pick.py`).
 
+## Equipo
+Este repositorio lo trabajan Claude y ChatGPT (Codex) en equipo; la coordinación (issues, etiquetas, revisión cruzada) está en `AGENTS.md`.
+
 ## Reglas de trabajo
 - Sin fugas de datos futuros: todo dato de un partido debe conocerse antes del inicio.
 - Validación temporal fuera de muestra; comparar con log loss, Brier, calibración (ECE) y acierto, con IC95% por fecha.
