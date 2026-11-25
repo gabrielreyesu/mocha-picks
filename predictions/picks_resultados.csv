@@ -1569,3 +1569,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-25,liga,401899537,Goles,Menos de 2.5,0.5136,casas + modelo,1
 2026-11-25,liga,401899537,Goles (línea segura),Más de 1.5,0.737,modelo,0
 2026-11-25,liga,401899537,Ambos anotan,Sí,0.5064,modelo,0
+2026-11-25,liga,401899534,Ganador,Mantova,0.6165,casas + modelo,1
+2026-11-25,liga,401899534,Doble oportunidad,Mantova o empate,0.8442,casas + modelo,1
+2026-11-25,liga,401899534,Goles,Más de 2.5,0.5241,casas + modelo,1
+2026-11-25,liga,401899534,Goles (línea segura),Más de 1.5,0.7488,modelo,1
+2026-11-25,liga,401899534,Ambos anotan,Sí,0.5149,modelo,0
+2026-11-25,liga,401899533,Ganador,Sampdoria,0.4008,casas + modelo,1
+2026-11-25,liga,401899533,Doble oportunidad,Sampdoria o empate,0.7042,casas + modelo,1
+2026-11-25,liga,401899533,Goles,Menos de 2.5,0.5317,casas + modelo,0
+2026-11-25,liga,401899533,Goles (línea segura),Más de 1.5,0.7235,modelo,1
+2026-11-25,liga,401899533,Ambos anotan,No,0.5045,modelo,0
+2026-11-25,liga,401899531,Ganador,Pisa,0.3769,casas + modelo,0
+2026-11-25,liga,401899531,Doble oportunidad,Pisa o Modena (no empate),0.7231,casas + modelo,0
+2026-11-25,liga,401899531,Goles,Más de 2.5,0.5523,casas + modelo,0
+2026-11-25,liga,401899531,Goles (línea segura),Más de 1.5,0.7789,modelo,1
+2026-11-25,liga,401899531,Ambos anotan,Sí,0.5856,modelo,1
