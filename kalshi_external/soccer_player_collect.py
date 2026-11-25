@@ -417,9 +417,9 @@ def run(archive="data/external_signals", output="reports/external_learning/socce
                 injuries["provider_fixtures"]=mapping
                 new_reports.append(injuries)
             except (ValueError,RuntimeError,requests.RequestException) as exc:
-                issues.append(f"API-Football {day}: {type(exc).__name__}")
+                issues.append(f"API-Football {day}: sin datos de bajas ({type(exc).__name__})")
     elif not key:
-        issues.append("API_FOOTBALL_KEY not configured; no provider injury statuses")
+        issues.append("API_FOOTBALL_KEY no configurada: sin datos de bajas del proveedor")
     all_stats,n_stats=append_history(cache/"soccer_player_games.jsonl",new_stats,max_bytes=100_000_000)
     all_lineups,n_lineups=append_history(cache/"soccer_lineups.jsonl",new_lineups,max_bytes=100_000_000)
     all_injuries,n_injuries=append_history(cache/"soccer_injuries.jsonl",new_reports,max_bytes=100_000_000)
