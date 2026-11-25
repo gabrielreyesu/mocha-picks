@@ -1540,3 +1540,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-24,nba,401909314,Hándicap,Orlando Magic gana por más de 3.5,0.5,casas,0
 2026-11-24,nba,401909314,Total de puntos,Más de 210.5,0.5,casas,0
 2026-11-24,nba,401909314,Puntos (línea segura),Más de 196.5,0.7829,casas,0
+2026-11-24,nba,401909315,Ganador,Boston Celtics,0.8029,Kalshi + casas + modelo,1
+2026-11-24,nba,401909315,Hándicap,Boston Celtics gana por más de 10.5,0.5,casas,1
+2026-11-24,nba,401909315,Hándicap seguro,Boston Celtics gana por más de 2.5,0.7248,casas,1
+2026-11-24,nba,401909315,Total de puntos,Más de 218.5,0.5,casas,1
+2026-11-24,nba,401909315,Puntos (línea segura),Más de 204.5,0.7829,casas,1
