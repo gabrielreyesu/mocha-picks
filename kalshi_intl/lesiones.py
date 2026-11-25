@@ -39,10 +39,18 @@ def record(days: int = 3) -> int:
     rows = []
     for k in range(days):
         d = (today + pd.Timedelta(days=k)).strftime("%Y-%m-%d")
-        r = requests.get(URL, params={"date": d}, headers={"x-apisports-key": key}, timeout=40)
-        j = r.json() if r.headers.get("content-type", "").startswith("application/json") else {}
-        if r.status_code != 200 or j.get("errors"):
-            print(f"API-Football {d}: HTTP {r.status_code} | aviso: {j.get('errors') or r.text[:200]}")
+        try:
+            r = requests.get(URL, params={"date": d}, headers={"x-apisports-key": key}, timeout=40)
+            j = r.json() if r.headers.get("content-type", "").startswith("application/json") else None
+        except (requests.RequestException, ValueError):
+            print(f"API-Football {d}: sin datos de bajas (respuesta no disponible o inválida).")
+            continue
+        if r.status_code != 200 or not isinstance(j, dict) or j.get("errors"):
+            error = j.get("errors") if isinstance(j, dict) else None
+            print(f"API-Football {d}: sin datos de bajas (HTTP {r.status_code}, {error or 'respuesta inválida'}).")
+            continue
+        if not isinstance(j.get("response"), list):
+            print(f"API-Football {d}: sin datos de bajas (respuesta sin lista de resultados).")
             continue
         got = parse(j)
         print(f"API-Football {d}: {len(got)} bajas")

@@ -62,7 +62,9 @@ def liga_us(lg: str, now) -> str:
 def _bajas_fut(x, lat):
     from kalshi_intl.lesiones import count_out
     a, b = count_out(lat, x.home, x.kickoff_utc), count_out(lat, x.away, x.kickoff_utc)
-    return "—" if a is None and b is None else f"{'—' if a is None else a} / {'—' if b is None else b}"
+    if a is None and b is None:
+        return "Sin datos de bajas"
+    return f"{'Sin datos' if a is None else a} / {'Sin datos' if b is None else b}"
 
 
 def _lat():
