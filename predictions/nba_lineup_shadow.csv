@@ -1177,3 +1177,12 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-25T02:05:51.023994+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65021,0.66137,-1.402,4.472,,,1,1404.0
 2026-11-25T02:05:51.023994+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77271,0.73897,-2.07,1.46,Brandon Williams; Stephen Curry,,5,1494.0
 2026-11-25T02:05:51.023994+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37923,0.38734,1.258,-4.659,Chris Youngblood,Dylan Harper,5,1494.0
+2026-11-25T03:43:41.313252+00:00,401909317,2026-11-25T22:00Z,Philadelphia 76ers,Miami Heat,0.54447,0.53144,-0.99,-1.414,,,1,1096.0
+2026-11-25T03:43:41.313252+00:00,401909318,2026-11-26T00:00Z,Charlotte Hornets,Chicago Bulls,0.59664,0.54988,0.597,-6.669,Kon Knueppel; Dennis Schroder; Grayson Allen,Norman Powell; Caleb Wilson,0,1216.0
+2026-11-25T03:43:41.313252+00:00,401909319,2026-11-26T00:30Z,New York Knicks,Cleveland Cavaliers,0.73677,0.70029,1.77,-2.344,Jordan Clarkson; OG Anunoby,Evan Mobley,1,1246.0
+2026-11-25T03:43:41.313252+00:00,401909320,2026-11-26T00:30Z,Oklahoma City Thunder,Minnesota Timberwolves,0.54558,0.5526,-0.43,0.641,Nikola Topic; Aday Mara; Jaylin Williams,Jaylen Clark,6,1246.0
+2026-11-25T03:43:41.313252+00:00,401909321,2026-11-26T01:00Z,Memphis Grizzlies,LA Clippers,0.6811,0.70535,-0.301,7.389,Jerami Grant; Cameron Boozer; GG Jackson,,4,1276.0
+2026-11-25T03:43:41.313252+00:00,401909322,2026-11-26T01:00Z,Milwaukee Bucks,Brooklyn Nets,0.56285,0.57378,0.896,0.731,,Nolan Traore,0,1276.0
+2026-11-25T03:43:41.313252+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65024,0.66137,-1.402,4.472,,,1,1306.0
+2026-11-25T03:43:41.313252+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77274,0.73904,-2.07,1.46,Brandon Williams; Stephen Curry,,5,1396.0
+2026-11-25T03:43:41.313252+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.3791,0.38717,1.259,-4.66,Chris Youngblood,Dylan Harper,5,1396.0
