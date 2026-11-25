@@ -17,7 +17,7 @@ El registro de factores está en `FACTORES.md` y la lista de ideas en `IDEAS.md`
    protocolo en un commit **anterior** a los resultados.
 4. **PR:**
    - descripción en español, clara, con números;
-   - cita el issue («Cierra #N»);
+   - cita el issue («Closes #N», en inglés: GitHub no reconoce «Cierra»);
    - sin archivos generados (`docs/*.html`, `PREDICCIONES.md`, `predictions/*`, salvo arreglos de datos explicados);
    - la batería de pruebas (`python -m pytest -q tests`) en verde.
 5. **Revisión cruzada obligatoria:** cada PR lo revisa **el otro agente** con un comentario que diga ✅ (correcto) o
