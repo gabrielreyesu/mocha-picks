@@ -35,4 +35,23 @@ Si no pasa, se documenta como resultado negativo en `FACTORES.md`.
 
 ## Resultados
 
-(pendiente — una sola ejecución de `python -m kalshi_soccer.tiros5`)
+Una sola ejecución (25/11/2026), `python -m kalshi_soccer.tiros5`. 20.311 partidos desde 2015/16; el 100% trae tiros.
+
+| Ventana | n | Mejora log loss | IC95% | ECE base → tiros | Acierto base → tiros |
+|---|---|---|---|---|---|
+| Desarrollo 2021/22–2023/24 | 5.404 | +0,0061 | [+0,0030; +0,0090] | 0,0165 → 0,0138 | 52,2% → 53,0% |
+| **Confirmación 2024/25+** | 4.052 | **+0,0067** | **[+0,0030; +0,0104]** | 0,0110 → 0,0142 | 52,5% → 53,5% |
+| Frente a las casas (recalibradas + tiros) | 4.052 | −0,0001 | [−0,0004; +0,0002] | — | — |
+
+**Brecha con las casas (confirmación):** casas 0,9665 · modelo 0,9887 → modelo con tiros 0,9821. La brecha baja de
+0,0222 a 0,0156 (**−30%**).
+
+**Veredicto.** ✅ **Pasa frente al modelo** (IC95% > 0; el ECE sube 0,003, dentro del margen de 0,005). Igual que en
+el grupo `ligas`, **frente a las casas no aporta**: el mercado ya ve los tiros. Por eso no cambia el pick final
+(que ya combina con las casas), pero sí acerca el modelo propio al mercado, que es el indicador para algún día
+publicar.
+
+**Sombra (desde este PR).** `kalshi_soccer.cli predict` guarda, en `predictions/soccer_tiros_shadow.csv` (archivo
+aparte, solo añade, solo partidos que aún no empezaron), la predicción del modelo con tiros. El pick publicado no
+cambia. El informe semanal cuenta los partidos jugados y avisa al llegar a 300. Entonces se evalúa y, si se
+confirma, se pide autorización al dueño para pasarlo a producción.

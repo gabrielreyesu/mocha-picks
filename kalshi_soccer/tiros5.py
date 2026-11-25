@@ -129,3 +129,42 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ------------------------------------------------------------------ SOMBRA (no cambia el pick publicado)
+SHADOW_FILE = "predictions/soccer_tiros_shadow.csv"
+
+
+def shadow(feats: pd.DataFrame, upcoming: pd.DataFrame, cache_dir: str = "data/raw") -> pd.DataFrame:
+    """Modelo + tiros para los partidos próximos. upcoming: match_id, kickoff_utc, competition, season, home, away + NUM_1X2.
+    -> match_id, s_A, s_D, s_H."""
+    from .models import CLASSES, NUM_1X2, Soccer1X2
+    up = upcoming.copy()
+    up["date"] = pd.to_datetime(up["kickoff_utc"], utc=True).dt.tz_localize(None).dt.normalize()
+    allr = pd.concat([feats[["date", "competition", "season", "home", "away"]], up[["date", "competition", "season", "home", "away"]]],
+                     ignore_index=True)
+    sf = shot_features(allr, load_shots(cache_dir))
+    f2 = feats.reset_index(drop=True).copy()
+    f2[EXTRA] = sf.iloc[:len(f2)].to_numpy()
+    up[EXTRA] = sf.iloc[len(f2):].to_numpy()
+    m = Soccer1X2(num_cols=NUM_1X2 + EXTRA).fit(f2[f2["target"].notna()])
+    P = m.predict_proba(up)
+    out = up[["match_id"]].copy()
+    for j, c in enumerate(CLASSES):
+        out[f"s_{c}"] = P[:, j]
+    return out
+
+
+def record_shadow(sh: pd.DataFrame, kick: dict, path: str = SHADOW_FILE, now=None) -> int:
+    """Solo añade partidos nuevos que aún no empezaron (registro prospectivo, nunca reescribe)."""
+    now = now or pd.Timestamp.now(tz="UTC")
+    p = Path(path)
+    seen = set(pd.read_csv(p, dtype={"match_id": str})["match_id"]) if p.exists() else set()
+    sh = sh.assign(match_id=sh["match_id"].astype(str))
+    sh = sh[~sh["match_id"].isin(seen) & sh["match_id"].map(lambda m: pd.Timestamp(kick[m]) > now)]
+    if sh.empty:
+        return 0
+    sh = sh.assign(kickoff_utc=sh["match_id"].map(kick), created_utc=now.isoformat())
+    p.parent.mkdir(parents=True, exist_ok=True)
+    sh[["match_id", "kickoff_utc", "created_utc", "s_A", "s_D", "s_H"]].to_csv(p, mode="a", header=not p.exists(), index=False)
+    return len(sh)
