@@ -148,12 +148,12 @@ def fix_same_day_conflicts(games: pd.DataFrame, verbose=True) -> pd.DataFrame:
     return g
 
 
-def season_days(season_year: int, today: date | None = None, league="nba"):
+def season_days(season_year: int, today: date | None = None, league="nba", *, future_days=7):
     today = today or date.today()
     L = LEAGUES[league]
     y0 = season_year - L["year_offset"]
     d = date(y0, *L["start"])
-    end = min(date(y0 + (1 if L["end"] < L["start"] else 0), *L["end"]), today + timedelta(days=7))
+    end = min(date(y0 + (1 if L["end"] < L["start"] else 0), *L["end"]), today + timedelta(days=future_days))
     while d <= end:
         yield d
         d += timedelta(days=1)
@@ -190,11 +190,11 @@ def pick_line(items: list, total_range=(150.0, 300.0), max_spread=30.0) -> dict:
 
 
 def load_league(league="nba", first_season: int = 2016, last_season: int | None = None, cache_dir: str | None = None,
-                workers=8, with_odds=True, verbose=True) -> pd.DataFrame:
+                workers=8, with_odds=True, verbose=True, *, future_days=7) -> pd.DataFrame:
     L = LEAGUES[league]
     cache = Path(cache_dir or f"data/{league}")
     last_season = last_season or current_season(league)
-    days = [d for y in range(first_season, last_season + 1) for d in season_days(y, league=league)]
+    days = [d for y in range(first_season, last_season + 1) for d in season_days(y, league=league, future_days=future_days)]
     with ThreadPoolExecutor(workers) as ex:
         res = list(ex.map(lambda d: fetch_day(d, cache, league=league), days))
     games = pd.DataFrame([r for day in res for r in day])
