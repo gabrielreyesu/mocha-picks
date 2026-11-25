@@ -32,3 +32,4 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho (aporta) · ❌ hecho (no a
 | 17 | Activar la sombra de tiros del grupo `ligas` | fútbol | Pasó la prueba histórica | ⏳ 300 partidos resueltos con sombra |
 | 18 | Modelo de jugadores con minutos previstos, rival (defensa por posición) y bajas de compañeros | NBA | La media simple no basta; el mercado ve el rol y los minutos | ⬜ |
 | 19 | Repetir la idea 3 (empates por liga): la sesión automática del 21/11 la probó (sin efecto, +0,00003 [−0,00004; +0,00011]) pero no pudo subir el PR | fútbol | Dejarla documentada | ⬜ |
+| 20 | Once oficial y movimiento del mercado: ¿hay valor en los minutos entre que sale el once y el cierre? (precios Kalshi antes/después del once) | fútbol | La cuota de cierre ya incorpora el once (XI_LIGAS_RESEARCH.md); el valor estaría en el momento | ⬜ |
