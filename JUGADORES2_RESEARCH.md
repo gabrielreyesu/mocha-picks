@@ -46,4 +46,50 @@ el 17/11/2026), con la misma receta que `JUGADORES_RESEARCH.md`:
 
 ## Resultados
 
-(pendiente — una sola ejecución de `python -m kalshi_nba.jugadores2`)
+Ejecución del 25/11/2026, `python -m kalshi_nba.jugadores2`.
+
+**Nota sobre la ejecución.** La primera ejecución solo cubrió el 24% de los picks (2 de 8 fechas). Era un fallo de
+datos, no de la prueba: los días del 17 al 22/11 estaban en la caché local de ESPN con el estado «programado», y el
+filtro «solo partidos terminados» los descartaba (también del historial). Se corrigió el filtro para usar la hora del
+partido (el box score de ESPN ya comprueba que terminó) y se volvió a ejecutar **sin cambiar nada del modelo ni del
+protocolo**. Los números de abajo son los de la ejecución corregida. Los de la primera (n = 574) iban en la misma
+dirección: A frente a la antigua −0,006 y combinación +0,002 con una sola fecha.
+
+**Parámetros de entrenamiento** (140.587 partidos de jugador anteriores al 17/11/2026):
+
+| Estadística | Dispersión α | β (bajas) |
+|---|---|---|
+| Puntos | 0,167 | 0,69 |
+| Rebotes | 0,113 | 0,67 |
+| Asistencias | 0,091 | 0,60 |
+
+**Picks de Kalshi resueltos** (n = 2.413, 8 fechas, cobertura 100%):
+
+| | Log loss | Brier | ECE | Acierto |
+|---|---|---|---|---|
+| Kalshi | **0,5536** | 0,186 | 0,014 | 72,9% |
+| Proyección antigua (media de 10) | 0,6763 | 0,226 | 0,110 | 66,2% |
+| **Modelo A** (minutos × ritmo × rival) | 0,6643 | 0,231 | 0,125 | 64,5% |
+| Modelo B (A + bajas, descriptivo) | 0,6557 | 0,227 | 0,114 | 65,4% |
+
+| Comparación | Mejora log loss | IC95% por fecha |
+|---|---|---|
+| A frente a la proyección antigua | +0,012 | [−0,005; +0,024] ❌ (no se confirma) |
+| Brecha A frente a Kalshi | −0,111 | [−0,135; −0,087] (antes −0,123) |
+| Kalshi + A frente a Kalshi recalibrado (n = 1.177, 4 fechas) | −0,0012 | [−0,0026; +0,0001] ❌ |
+
+**Conclusión (resultado negativo).** Un modelo con minutos previstos, ritmo por minuto y rival se acerca algo más a
+Kalshi (la brecha pasa de −0,123 a −0,111), pero:
+- no mejora con seguridad a la media simple;
+- sigue mal calibrado (ECE 0,12 frente a 0,01 de Kalshi);
+- no aporta nada al combinarlo con Kalshi.
+
+Las bajas de compañeros (B) ayudan un poco (0,664 → 0,656), en línea con lo esperado (β ≈ 0,6–0,7).
+**No cambia nada:** se sigue publicando el precio de Kalshi y la proyección antigua queda como dato.
+
+**Lectura.** El problema principal es de calibración, no de la media: Kalshi ofrece sobre todo líneas extremas (las
+que su precio pone en 75–90%), donde una binomial negativa con dispersión común se equivoca más. Para seguir haría
+falta, y queda como idea nueva:
+1. dispersión por jugador o por rol;
+2. calibrar con las propias líneas de Kalshi cuando haya varios meses de historial de precios;
+3. la lista oficial de bajas a la hora del precio.

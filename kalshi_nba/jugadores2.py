@@ -25,7 +25,10 @@ def player_games(first_season: int = 2022, box_dir: str = "data/nba/box") -> pd.
     from kalshi_lineup.box import load_boxes
     from kalshi_nba.data import load_league
     g = load_league("nba", first_season=first_season, with_odds=False, verbose=False)
-    g = g[g["status"] == "STATUS_FINAL"]
+    # Por la hora y no por el estado: el estado en caché de días recientes puede seguir como «programado».
+    # Si un partido no se jugó, su box score no trae jugadores con minutos y no aporta nada.
+    dead = {"STATUS_CANCELED", "STATUS_POSTPONED"}
+    g = g[~g["status"].isin(dead) & (pd.to_datetime(g["kickoff_utc"], utc=True) < pd.Timestamp.now(tz="UTC") - pd.Timedelta(hours=4))]
     boxes = load_boxes(g["event_id"].astype(str), cache_dir=box_dir, workers=8)
     kick = dict(zip(g["event_id"].astype(str), pd.to_datetime(g["kickoff_utc"], utc=True)))
     rows = []
