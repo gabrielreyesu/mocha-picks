@@ -23,4 +23,18 @@ Descriptivo (no decide): el mismo ajuste sobre las casas (5 grandes ligas, cuota
 
 ## Resultados
 
-(pendiente — una sola ejecución de `python -m kalshi_intl.empates`)
+Una sola ejecución (25/11/2026), `python -m kalshi_intl.empates`. 20 competiciones de liga.
+
+| Ventana | n | Mejora log loss | IC95% | ECE base → ajuste |
+|---|---|---|---|---|
+| Desarrollo 2021/22–2023/24 | 21.490 | +0,00012 | [−0,00025; +0,00047] | 0,0089 → 0,0064 |
+| **Confirmación 2024/25+** | 17.448 | **−0,00001** | [−0,00045; +0,00044] | 0,0076 → 0,0090 ❌ |
+| Descriptivo: mismo ajuste sobre las casas (5 grandes) | 4.021 | −0,00041 | [−0,00105; +0,00027] | — |
+
+Empate real frente a previsto por el modelo (2021/22+): casi todas las ligas están dentro de ±1 punto. Las
+únicas desviaciones visibles son Serie B (31,7% real frente a 27,7%), Argentina (31,2% frente a 28,9%), Arabia
+Saudí (22,2% frente a 24,8%) y Escocia (23,0% frente a 25,3%), pero corregirlas con temporadas anteriores no mejora
+la temporada siguiente: la desviación no es estable.
+
+**Conclusión (resultado negativo, igual que la prueba automática del 21/11).** El modelo ya acierta la frecuencia
+del empate por liga; un ajuste por liga no aporta, ni al modelo ni a las casas. **No entra en sombra.**

@@ -25,6 +25,7 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Once titular (continuidad) | copas | 🟡 | Backtest −0,0030 (débil); sombra en curso | `LINEUP_RESEARCH.md` |
 | Once titular | selecciones | ❌ | Sin efecto | `LINEUP_RESEARCH.md` |
 | Once titular (continuidad) | 5 grandes ligas | ❌ | Modelo +0,0011 [−0,0004; +0,0026], ECE empeora; frente a casas −0,0001 (nada) | `XI_LIGAS_RESEARCH.md` |
+| Empate ajustado por liga | ligas | ❌ | Confirmación −0,00001 [−0,00045; +0,00044]; el modelo ya acierta el % de empates | `EMPATES_RESEARCH.md` |
 | Suspensiones (tarjetas) | fútbol | ⏳ | — | — |
 | Valor individual de jugador (no solo presencia) | fútbol | ⏳ | — | — |
 | Descanso / back-to-back | NBA | ✅ | En el modelo base | `engine.py` |
