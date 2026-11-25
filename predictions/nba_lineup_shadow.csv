@@ -1167,3 +1167,13 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-25T00:34:36.020616+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65021,0.66137,-1.402,4.472,,,1,1495.0
 2026-11-25T00:34:36.020616+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77271,0.73897,-2.07,1.46,Brandon Williams; Stephen Curry,,5,1585.0
 2026-11-25T00:34:36.020616+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37923,0.38734,1.258,-4.659,Chris Youngblood,Dylan Harper,5,1585.0
+2026-11-25T02:05:51.023994+00:00,401909316,2026-11-25T03:00Z,Denver Nuggets,Dallas Mavericks,0.71067,0.7314,-1.321,7.644,,Tobi Lawal,3,54.0
+2026-11-25T02:05:51.023994+00:00,401909317,2026-11-25T22:00Z,Philadelphia 76ers,Miami Heat,0.5445,0.53146,-0.99,-1.415,,,1,1194.0
+2026-11-25T02:05:51.023994+00:00,401909318,2026-11-26T00:00Z,Charlotte Hornets,Chicago Bulls,0.59683,0.55003,0.597,-6.669,Kon Knueppel; Dennis Schroder; Grayson Allen,Caleb Wilson; Norman Powell,0,1314.0
+2026-11-25T02:05:51.023994+00:00,401909319,2026-11-26T00:30Z,New York Knicks,Cleveland Cavaliers,0.73677,0.7002,1.77,-2.345,OG Anunoby; Jordan Clarkson,Evan Mobley,1,1344.0
+2026-11-25T02:05:51.023994+00:00,401909320,2026-11-26T00:30Z,Oklahoma City Thunder,Minnesota Timberwolves,0.54562,0.55267,-0.43,0.641,Nikola Topic; Jaylin Williams; Aday Mara,Jaylen Clark,6,1344.0
+2026-11-25T02:05:51.023994+00:00,401909321,2026-11-26T01:00Z,Memphis Grizzlies,LA Clippers,0.68098,0.70526,-0.301,7.39,GG Jackson; Cameron Boozer; Jerami Grant,,4,1374.0
+2026-11-25T02:05:51.023994+00:00,401909322,2026-11-26T01:00Z,Milwaukee Bucks,Brooklyn Nets,0.56287,0.57381,0.896,0.731,,Nolan Traore,0,1374.0
+2026-11-25T02:05:51.023994+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65021,0.66137,-1.402,4.472,,,1,1404.0
+2026-11-25T02:05:51.023994+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77271,0.73897,-2.07,1.46,Brandon Williams; Stephen Curry,,5,1494.0
+2026-11-25T02:05:51.023994+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37923,0.38734,1.258,-4.659,Chris Youngblood,Dylan Harper,5,1494.0
