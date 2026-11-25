@@ -92,7 +92,7 @@ def collect(now=None) -> dict:
                         "mejora": ci.get("mejora"), "ic_inf": ci.get("ic95_inf"), "ic_sup": ci.get("ic95_sup"),
                         "minutos_antes": r.get("minutos_antes_mediana")})
     fs = _load("final_shadow_scoreboard.json") or {}
-    names = {"nba": "NBA", "nfl": "NFL", "club": "Copas europeas", "intl": "Selecciones"}
+    names = {"nba": "NBA", "nfl": "NFL", "club": "Clubes (copas y otras ligas)", "intl": "Selecciones"}
     picks = [{"deporte": names.get(x.get("sport"), x.get("sport")), "n": x.get("n"), "acierto": x.get("acierto_final"),
               "logloss": x.get("logloss_final"), "con_mercado": x.get("con_mercado"),
               "brecha_n": x.get("brecha_n"), "ll_modelo": x.get("logloss_modelo_con_mercado"), "ll_mercado": x.get("logloss_mercado"),

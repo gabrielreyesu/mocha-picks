@@ -27,7 +27,7 @@ SPORT = {"eng.fa": "soccer_fa_cup", "eng.league_cup": "soccer_england_efl_cup", 
 # prioridad: primero donde más falta (copas y competiciones sin validar), luego el resto
 PRIORITY = ["eng.fa", "eng.league_cup", "esp.copa_del_rey", "ita.coppa_italia", "ger.dfb_pokal", "fra.coupe_de_france",
             "usa.1", "conmebol.sudamericana"]
-MAX_CALLS, MIN_LEFT = 6, 20
+MAX_CALLS, MIN_LEFT = 14, 25          # 14 consultas/día solo de 1X2 (1 crédito cada una) ≈ 420 créditos/mes (plan gratis: 500)
 
 
 def _devig(prices: list) -> list | None:
@@ -65,12 +65,22 @@ def parse_event(ev: dict) -> dict | None:
             "mkt_A": float(m[2]), "mkt_over": float(np.median(ov)) if ov else np.nan, "n_books": len(x3)}
 
 
-def fill(d: pd.DataFrame, key: str | None = None, session=None, days: int = 4) -> pd.DataFrame:
+def _match(evs, home, away, kick):
+    """Mismo partido: los dos nombres coinciden; si no, uno coincide, la hora es casi la misma (±3 h) y es el único."""
+    from kalshi_soccer.kalshi import _same
+    near = [e for e in evs if abs(pd.Timestamp(e["t"]) - kick) <= pd.Timedelta(hours=12)]
+    both = [e for e in near if _same(e["home"], home) and _same(e["away"], away)]
+    if len(both) == 1:
+        return both[0]
+    one = [e for e in near if (_same(e["home"], home) or _same(e["away"], away)) and abs(pd.Timestamp(e["t"]) - kick) <= pd.Timedelta(hours=3)]
+    return one[0] if len(one) == 1 else None
+
+
+def fill(d: pd.DataFrame, key: str | None = None, session=None, days: int = 3) -> pd.DataFrame:
     """Completa mkt_* de los partidos sin cuotas (las cuotas de ESPN, si existen, no se tocan)."""
     key = key if key is not None else (os.environ.get("ODDS_API_KEY") or "").strip()
     if not key or d.empty:
         return d
-    from kalshi_soccer.kalshi import _same
     s = session or requests.Session()
     d = d.copy()
     now = pd.Timestamp.now(tz="UTC")
@@ -82,26 +92,34 @@ def fill(d: pd.DataFrame, key: str | None = None, session=None, days: int = 4) -
         active = {x["key"] for x in s.get(f"{BASE}/sports", params={"apiKey": key}, timeout=30).json() if x.get("active")}  # gratis
     except Exception as ex:  # noqa: BLE001
         print("AVISO The Odds API:", type(ex).__name__); return d
-    codes = sorted(need["code"].unique(), key=lambda c: (PRIORITY.index(c) if c in PRIORITY else 99, -int((need["code"] == c).sum())))
+    # primero las competiciones con MÁS partidos sin cuotas (más partidos arreglados por crédito)
+    codes = sorted(need["code"].unique(), key=lambda c: -int((need["code"] == c).sum()))
+    inactive = [c for c in codes if SPORT[c] not in active]
+    if inactive:
+        print("The Odds API: sin mercado ahora para", inactive)
     calls = filled = 0
+    unmatched = 0
     for code in codes:
         if calls >= MAX_CALLS or SPORT[code] not in active:
             continue
-        r = s.get(f"{BASE}/sports/{SPORT[code]}/odds", params={"apiKey": key, "regions": "eu", "markets": "h2h,totals",
+        r = s.get(f"{BASE}/sports/{SPORT[code]}/odds", params={"apiKey": key, "regions": "eu", "markets": "h2h",
                                                                "oddsFormat": "decimal"}, timeout=30)
         calls += 1
         if r.status_code != 200:
             print(f"AVISO The Odds API {code}: HTTP {r.status_code}"); continue
         evs = [e for e in (parse_event(x) for x in r.json()) if e]
         for i in need[need["code"] == code].index:
-            hit = [e for e in evs if _same(e["home"], d.at[i, "home"]) and _same(e["away"], d.at[i, "away"])
-                   and abs(pd.Timestamp(e["t"]) - kick[i]) <= pd.Timedelta(hours=12)]
-            if len(hit) == 1:
-                for c in ("mkt_H", "mkt_D", "mkt_A", "mkt_over", "n_books"):
-                    d.at[i, c] = hit[0][c]
+            hit = _match(evs, d.at[i, "home"], d.at[i, "away"], kick[i])
+            if hit:
+                for c in ("mkt_H", "mkt_D", "mkt_A", "n_books"):
+                    d.at[i, c] = hit[c]
+                if pd.notna(hit.get("mkt_over")):
+                    d.at[i, "mkt_over"] = hit["mkt_over"]
                 filled += 1
+            else:
+                unmatched += 1
         left = r.headers.get("x-requests-remaining")
         if left is not None and float(left) < MIN_LEFT:
             print(f"The Odds API: quedan {left} créditos; se detiene."); break
-    print(f"The Odds API: {calls} consultas, {filled} partidos con cuotas nuevas")
+    print(f"The Odds API: {calls} consultas, {filled} partidos con cuotas nuevas, {unmatched} sin emparejar")
     return d
