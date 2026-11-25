@@ -1559,3 +1559,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-25,club,401915378,Goles,Más de 2.5,0.8375,modelo,1
 2026-11-25,club,401915378,Goles (línea segura),Más de 1.5,0.9441,modelo,1
 2026-11-25,club,401915378,Ambos anotan,Sí,0.5333,modelo,1
+2026-11-25,club,401915293,Ganador,Villarreal,0.4467,Kalshi + casas + modelo,1
+2026-11-25,club,401915293,Doble oportunidad,Slavia Prague o Villarreal (no empate),0.7469,Kalshi + casas + modelo,1
+2026-11-25,club,401915293,Goles,Más de 2.5,0.6125,casas + modelo,0
+2026-11-25,club,401915293,Goles (línea segura),Más de 1.5,0.7881,modelo,0
+2026-11-25,club,401915293,Ambos anotan,Sí,0.5634,modelo,0
+2026-11-25,liga,401899537,Ganador,Cremonese,0.5172,casas + modelo,0
+2026-11-25,liga,401899537,Doble oportunidad,Cremonese o empate,0.786,casas + modelo,0
+2026-11-25,liga,401899537,Goles,Menos de 2.5,0.5136,casas + modelo,1
+2026-11-25,liga,401899537,Goles (línea segura),Más de 1.5,0.737,modelo,0
+2026-11-25,liga,401899537,Ambos anotan,Sí,0.5064,modelo,0
