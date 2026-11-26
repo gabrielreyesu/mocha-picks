@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 26 Nov 2026 16:32 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 26 Nov 2026 17:32 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -237,19 +237,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Ganador | São Paulo | 73% | Alta | casas + modelo | — |
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Doble oportunidad | São Paulo o empate | 91% | Alta | casas + modelo | — |
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Ambos anotan | No | 52% | Baja | modelo | — |
-| Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Ganador | Guadalajara | 39% | Baja | casas + modelo | — |
+| Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Ganador | Guadalajara | 40% | Baja | casas + modelo | — |
 | Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Doble oportunidad | Pachuca o Guadalajara (no empate) | 71% | Alta | casas + modelo | — |
-| Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
+| Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
 | Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Thu 26 Nov 19:20 | NFL | Kansas City Chiefs en Buffalo Bills | Ganador | Buffalo Bills | 59% | Media | Kalshi + casas + modelo | 60¢ |
 | Thu 26 Nov 19:20 | NFL | Kansas City Chiefs en Buffalo Bills | Hándicap | Kansas City Chiefs +3.5 (gana o pierde por menos de 3.5) | 52% | Baja | casas | 56¢ |
-| Thu 26 Nov 19:20 | NFL | Kansas City Chiefs en Buffalo Bills | Total de puntos | Más de 44.5 | 53% | Baja | casas | 55¢ |
+| Thu 26 Nov 19:20 | NFL | Kansas City Chiefs en Buffalo Bills | Total de puntos | Más de 44.5 | 53% | Baja | casas | 56¢ |
 | Thu 26 Nov 19:20 | NFL | Kansas City Chiefs en Buffalo Bills | Puntos (línea segura) | Más de 35.5 | 78% | Alta | casas | 82¢ |
 | Thu 26 Nov 21:10 | Liga MX | León vs Cruz Azul | Ganador | Cruz Azul | 49% | Baja | casas + modelo | — |
 | Thu 26 Nov 21:10 | Liga MX | León vs Cruz Azul | Doble oportunidad | León o Cruz Azul (no empate) | 75% | Alta | casas + modelo | — |
@@ -271,21 +266,21 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ganador | Alanyaspor | 36% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ganador | Konyaspor | 36% | Baja | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Doble oportunidad | Alanyaspor o Konyaspor (no empate) | 71% | Alta | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles (línea segura) | Más de 1.5 | 70% | Media | modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ambos anotan | No | 52% | Baja | modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ganador | VfL Bochum | 53% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Doble oportunidad | VfL Bochum o SV Darmstadt 98 (no empate) | 77% | Alta | casas + modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles | Más de 2.5 | 63% | Media | casas + modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ambos anotan | Sí | 50% | Baja | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ganador | 1. FC Heidenheim 1846 | 40% | Baja | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Doble oportunidad | 1. FC Heidenheim 1846 o 1. FC Nürnberg (no empate) | 76% | Alta | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Goles | Más de 2.5 | 62% | Media | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ambos anotan | Sí | 64% | Media | modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ganador | VfL Bochum | 53% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Doble oportunidad | VfL Bochum o SV Darmstadt 98 (no empate) | 77% | Alta | casas + modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ambos anotan | Sí | 50% | Baja | modelo | — |
 | Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ganador | Al Ittihad | 53% | Baja | casas + modelo | — |
 | Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Doble oportunidad | Al Ittihad o Neom SC (no empate) | 77% | Alta | casas + modelo | — |
 | Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
@@ -321,7 +316,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 13:45 | Liga de Bélgica | OH Leuven vs KV Kortrijk | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
 | Fri 27 Nov 13:45 | Liga de Bélgica | OH Leuven vs KV Kortrijk | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Fri 27 Nov 13:45 | Liga de Bélgica | OH Leuven vs KV Kortrijk | Ambos anotan | No | 50% | Baja | modelo | — |
-| Fri 27 Nov 14:00 | NFL | Denver Broncos en Pittsburgh Steelers | Ganador | Denver Broncos | 70% | Alta | Kalshi + casas + modelo | 68¢ |
+| Fri 27 Nov 14:00 | NFL | Denver Broncos en Pittsburgh Steelers | Ganador | Denver Broncos | 71% | Alta | Kalshi + casas + modelo | 68¢ |
 | Fri 27 Nov 14:00 | NFL | Denver Broncos en Pittsburgh Steelers | Hándicap | Denver Broncos gana por más de 4.5 | 50% | Baja | casas | 50¢ |
 | Fri 27 Nov 14:00 | NFL | Denver Broncos en Pittsburgh Steelers | Total de puntos | Menos de 37.5 | 53% | Baja | casas | 52¢ |
 | Fri 27 Nov 14:00 | NFL | Denver Broncos en Pittsburgh Steelers | Puntos (línea segura) | Menos de 46.5 | 78% | Alta | casas | 78¢ |
@@ -346,8 +341,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Ganador | Fluminense | 46% | Baja | casas + modelo | — |
-| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Doble oportunidad | Fluminense o Cruzeiro (no empate) | 74% | Alta | casas + modelo | — |
-| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Doble oportunidad | Fluminense o Cruzeiro (no empate) | 75% | Alta | casas + modelo | — |
+| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Goles | Más de 2.5 | 55% | Media | casas + modelo | — |
 | Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Fri 27 Nov 18:00 | NBA | Miami Heat en New York Knicks | Ganador | New York Knicks | 60% | Media | Kalshi + casas + modelo | 60¢ |
