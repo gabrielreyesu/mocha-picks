@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 25 Nov 2026 19:59 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 25 Nov 2026 20:58 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -206,7 +206,7 @@
 | Thu 26 Nov 11:45 | Conference League | Egnatia vs Lincoln Red Imps | 53% / 26% / 21% | 60% / 22% / 18% | 60% / 21% / 19% | 76% / 50% / 28% | 53% | 29% / 8% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | Pafos vs FC Midtjylland | 32% / 27% / 41% | 32% / 26% / 42% | — / — / — | 79% / 55% / 33% | 59% | 14% / 22% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | SK Brann vs AGF | 41% / 28% / 31% | — / — / — | 44% / 24% / 32% | 78% / 49% / 31% | 54% | 21% / 14% | Sin datos de bajas |
-| Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | 33% / 29% / 39% | 26% / 29% / 44% | 27% / 28% / 45% | 73% / 47% / 25% | 53% | 14% / 18% | Sin datos de bajas |
+| Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | 33% / 29% / 39% | 26% / 29% / 46% | 27% / 28% / 45% | 73% / 47% / 25% | 53% | 14% / 18% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Conference League | Heart of Midlothian vs AS Monaco | 20% / 24% / 56% | 16% / 20% / 62% | 17% / 21% / 61% | 82% / 58% / 36% | 57% | 9% / 31% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Europa League | RB Salzburg vs Ararat-Armenia | 61% / 22% / 17% | 86% / 10% / 6% | 82% / 11% / 6% | 81% / 61% / 35% | 58% | 34% / 7% | Sin datos de bajas |
 | Thu 26 Nov 11:45 | Europa League | Celta Vigo vs AFC Bournemouth | 17% / 24% / 59% | 26% / 28% / 46% | 28% / 27% / 45% | 78% / 53% / 31% | 52% | 6% / 36% | Sin datos de bajas |
@@ -268,9 +268,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Hándicap | Golden State Warriors gana por más de 8.5 | 50% | Baja | casas | 50¢ |
 | Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Total de puntos | Más de 216.5 | 50% | Baja | casas | 48¢ |
 | Wed 25 Nov 21:00 | NBA | Sacramento Kings en Golden State Warriors | Puntos (línea segura) | Más de 202.5 | 78% | Alta | casas | 78¢ |
-| Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Ganador | Monterrey | 40% | Baja | casas + modelo | — |
-| Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Doble oportunidad | Monterrey o América (no empate) | 72% | Alta | casas + modelo | — |
-| Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
+| Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Ganador | Monterrey | 44% | Baja | casas + modelo | — |
+| Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Doble oportunidad | Monterrey o América (no empate) | 74% | Alta | casas + modelo | — |
+| Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Wed 25 Nov 21:10 | Liga MX | Monterrey vs América | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Thu 26 Nov 08:25 | Liga Saudí | Al Fateh vs Al Riyadh | Ganador | Al Fateh | 42% | Baja | casas + modelo | — |
@@ -288,12 +288,12 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 26 Nov 09:30 | Conference League | Kairat Almaty vs Mjällby AIF | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Thu 26 Nov 09:30 | Conference League | Kairat Almaty vs Mjällby AIF | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Thu 26 Nov 09:30 | Conference League | Kairat Almaty vs Mjällby AIF | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Ganador | Al Diriyah | 50% | Baja | casas + modelo | — |
-| Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Doble oportunidad | Al Diriyah o empate | 75% | Alta | casas + modelo | — |
-| Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
+| Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Ganador | Al Diriyah | 51% | Baja | casas + modelo | — |
+| Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Doble oportunidad | Al Diriyah o empate | 76% | Alta | casas + modelo | — |
+| Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Thu 26 Nov 11:30 | Liga Saudí | Al Faisaly vs Al Diriyah | Ambos anotan | Sí | 51% | Baja | modelo | — |
-| Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Ganador | Riga FC | 48% | Baja | Kalshi + casas + modelo | 44¢ |
+| Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Ganador | Riga FC | 48% | Baja | Kalshi + casas + modelo | 46¢ |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Doble oportunidad | Riga FC o empate | 75% | Alta | Kalshi + casas + modelo | — |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
 | Thu 26 Nov 11:45 | Conference League | Kauno Zalgiris vs Riga FC | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
@@ -501,4 +501,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Ambos anotan | Sí | 58% | Media | modelo | — |
+| Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Ganador | Al Qadsiah | 84% | Alta | casas + modelo | — |
+| Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Doble oportunidad | Al Qadsiah o empate | 94% | Alta | casas + modelo | — |
+| Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Goles | Más de 2.5 | 71% | Alta | modelo | — |
+| Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
+| Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Ambos anotan | Sí | 52% | Baja | modelo | — |
 

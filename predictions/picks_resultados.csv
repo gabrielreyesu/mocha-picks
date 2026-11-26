@@ -1653,3 +1653,16 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-25,liga,401933757,Goles,Menos de 2.5,0.5302,casas + modelo,1
 2026-11-25,liga,401933757,Goles (línea segura),Más de 1.5,0.7742,modelo,1
 2026-11-25,liga,401933757,Ambos anotan,Sí,0.5162,modelo,0
+2026-11-25,nba,401909318,Ganador,Charlotte Hornets,0.6218,Kalshi + casas + modelo,0
+2026-11-25,nba,401909318,Hándicap,Charlotte Hornets gana por más de 4.5,0.5,casas,0
+2026-11-25,nba,401909318,Total de puntos,Menos de 218.5,0.5223,casas,1
+2026-11-25,nba,401909318,Puntos (línea segura),Más de 204.5,0.7662,casas,1
+2026-11-25,nba,401909319,Ganador,New York Knicks,0.6156,Kalshi + casas + modelo,1
+2026-11-25,nba,401909319,Hándicap,New York Knicks gana por más de 4.5,0.5,casas,1
+2026-11-25,nba,401909319,Total de puntos,Menos de 222.5,0.5223,casas,0
+2026-11-25,nba,401909319,Puntos (línea segura),Más de 208.5,0.7662,casas,1
+2026-11-25,liga,401931986,Ganador,Toluca,0.6967,casas + modelo,1
+2026-11-25,liga,401931986,Doble oportunidad,Toluca o empate,0.8675,casas + modelo,1
+2026-11-25,liga,401931986,Goles,Más de 2.5,0.5891,casas + modelo,0
+2026-11-25,liga,401931986,Goles (línea segura),Más de 1.5,0.8739,modelo,1
+2026-11-25,liga,401931986,Ambos anotan,Sí,0.6345,modelo,0
