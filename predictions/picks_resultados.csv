@@ -1678,3 +1678,22 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-25,nba,401909321,Hándicap,Memphis Grizzlies gana por más de 7.5,0.5,casas,1
 2026-11-25,nba,401909321,Total de puntos,Menos de 228.5,0.5223,casas,1
 2026-11-25,nba,401909321,Puntos (línea segura),Más de 214.5,0.7662,casas,0
+2026-11-25,nfl,401873079,Ganador,Los Angeles Rams,0.6428,modelo,1
+2026-11-25,nba,401909323,Ganador,Houston Rockets,0.7769,Kalshi + casas + modelo,1
+2026-11-25,nba,401909323,Hándicap,Houston Rockets gana por más de 9.5,0.5,casas,1
+2026-11-25,nba,401909323,Hándicap seguro,Houston Rockets gana por más de 1.5,0.7248,casas,1
+2026-11-25,nba,401909323,Total de puntos,Menos de 223.5,0.5223,casas,1
+2026-11-25,nba,401909323,Puntos (línea segura),Más de 209.5,0.7662,casas,1
+2026-11-25,nba,401909324,Ganador,Golden State Warriors,0.744,Kalshi + casas + modelo,1
+2026-11-25,nba,401909324,Hándicap,Golden State Warriors gana por más de 8.5,0.5,casas,1
+2026-11-25,nba,401909324,Total de puntos,Más de 216.5,0.5,casas,1
+2026-11-25,nba,401909324,Puntos (línea segura),Más de 202.5,0.7829,casas,1
+2026-11-25,nba,401909325,Ganador,San Antonio Spurs,0.6059,Kalshi + casas + modelo,0
+2026-11-25,nba,401909325,Hándicap,San Antonio Spurs gana por más de 3.5,0.5,casas,0
+2026-11-25,nba,401909325,Total de puntos,Menos de 228.5,0.5223,casas,1
+2026-11-25,nba,401909325,Puntos (línea segura),Más de 214.5,0.7662,casas,1
+2026-11-25,liga,401931998,Ganador,Monterrey,0.4429,casas + modelo,0
+2026-11-25,liga,401931998,Doble oportunidad,Monterrey o América (no empate),0.7351,casas + modelo,0
+2026-11-25,liga,401931998,Goles,Menos de 2.5,0.5213,casas + modelo,1
+2026-11-25,liga,401931998,Goles (línea segura),Más de 1.5,0.8165,modelo,0
+2026-11-25,liga,401931998,Ambos anotan,Sí,0.6201,modelo,0
