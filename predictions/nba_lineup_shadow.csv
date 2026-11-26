@@ -1229,3 +1229,8 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-25T23:34:48.717033+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65019,0.66127,-1.402,4.472,,,1,115.0
 2026-11-25T23:34:48.717033+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77269,0.75896,-0.233,3.296,Stephen Curry; Brandon Williams,Zach LaVine,5,205.0
 2026-11-25T23:34:48.717033+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.37902,0.38711,1.259,-4.66,Chris Youngblood,Dylan Harper,5,205.0
+2026-11-26T00:35:50.461019+00:00,401909321,2026-11-26T01:00Z,Memphis Grizzlies,LA Clippers,0.68122,0.70532,-0.299,7.372,Jerami Grant; Cameron Boozer; GG Jackson,,4,24.0
+2026-11-26T00:35:50.461019+00:00,401909322,2026-11-26T01:00Z,Milwaukee Bucks,Brooklyn Nets,0.5628,0.57368,0.892,0.727,,Nolan Traore,0,24.0
+2026-11-26T00:35:50.461019+00:00,401909323,2026-11-26T01:30Z,Houston Rockets,Phoenix Suns,0.65029,0.66134,-1.401,4.466,,,1,54.0
+2026-11-26T00:35:50.461019+00:00,401909324,2026-11-26T03:00Z,Golden State Warriors,Sacramento Kings,0.77268,0.75887,-0.232,3.283,Brandon Williams; Stephen Curry,Zach LaVine,5,144.0
+2026-11-26T00:35:50.461019+00:00,401909325,2026-11-26T03:00Z,Portland Trail Blazers,San Antonio Spurs,0.3791,0.38717,1.256,-4.661,Chris Youngblood,Dylan Harper,5,144.0
