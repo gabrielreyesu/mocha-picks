@@ -1802,3 +1802,7 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-26,club,401915506,Goles,Más de 2.5,0.587,modelo,1
 2026-11-26,club,401915506,Goles (línea segura),Más de 1.5,0.8277,modelo,1
 2026-11-26,club,401915506,Ambos anotan,Sí,0.6,modelo,1
+2026-11-26,nfl,401873081,Ganador,Chicago Bears,0.5143,Kalshi + casas + modelo,1
+2026-11-26,nfl,401873081,Hándicap,Chicago Bears gana por más de 1.5,0.5,casas,1
+2026-11-26,nfl,401873081,Total de puntos,Más de 56.5,0.5,casas,1
+2026-11-26,nfl,401873081,Puntos (línea segura),Más de 46.5,0.7791,casas,1
