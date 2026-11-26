@@ -1643,3 +1643,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-25,nba,401909317,Hándicap,Miami Heat gana por más de 1.5,0.5,casas,0
 2026-11-25,nba,401909317,Total de puntos,Menos de 238.5,0.5223,casas,1
 2026-11-25,nba,401909317,Puntos (línea segura),Más de 224.5,0.7662,casas,0
+2026-11-25,liga,401841319,Ganador,Atlético-MG,0.3699,casas + modelo,0
+2026-11-25,liga,401841319,Doble oportunidad,Atlético-MG o Corinthians (no empate),0.7111,casas + modelo,0
+2026-11-25,liga,401841319,Goles,Menos de 2.5,0.5605,casas + modelo,1
+2026-11-25,liga,401841319,Goles (línea segura),Más de 1.5,0.7236,modelo,1
+2026-11-25,liga,401841319,Ambos anotan,Sí,0.5034,modelo,1
+2026-11-25,liga,401933757,Ganador,Boca Juniors,0.6961,casas + modelo,1
+2026-11-25,liga,401933757,Doble oportunidad,Boca Juniors o empate,0.8929,casas + modelo,1
+2026-11-25,liga,401933757,Goles,Menos de 2.5,0.5302,casas + modelo,1
+2026-11-25,liga,401933757,Goles (línea segura),Más de 1.5,0.7742,modelo,1
+2026-11-25,liga,401933757,Ambos anotan,Sí,0.5162,modelo,0
