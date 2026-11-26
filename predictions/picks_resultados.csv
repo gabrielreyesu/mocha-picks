@@ -1714,3 +1714,88 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-26,club,401915816,Ambos anotan,Sí,0.5137,modelo,0
 2026-11-26,club,401915506,Ganador,Besiktas,0.7581,casas + modelo,0
 2026-11-26,club,401915506,Doble oportunidad,Besiktas o empate,0.9032,casas + modelo,1
+2026-11-26,liga,401900871,Ganador,Al Diriyah,0.489,casas + modelo,0
+2026-11-26,liga,401900871,Doble oportunidad,Al Faisaly o Al Diriyah (no empate),0.755,casas + modelo,0
+2026-11-26,liga,401900871,Goles,Más de 2.5,0.616,casas + modelo,1
+2026-11-26,liga,401900871,Goles (línea segura),Más de 1.5,0.7171,modelo,1
+2026-11-26,liga,401900871,Ambos anotan,Sí,0.5133,modelo,1
+2026-11-26,club,401915808,Ganador,SK Brann,0.4432,casas + modelo,0
+2026-11-26,club,401915808,Doble oportunidad,SK Brann o AGF (no empate),0.7596,casas + modelo,1
+2026-11-26,club,401915808,Goles,Menos de 2.5,0.5131,modelo,0
+2026-11-26,club,401915808,Goles (línea segura),Más de 1.5,0.7774,modelo,1
+2026-11-26,club,401915808,Ambos anotan,Sí,0.5401,modelo,1
+2026-11-26,club,401915815,Ganador,Ajax Amsterdam,0.832,Kalshi + casas + modelo,1
+2026-11-26,club,401915815,Doble oportunidad,Ajax Amsterdam o empate,0.9357,Kalshi + casas + modelo,1
+2026-11-26,club,401915815,Goles,Más de 2.5,0.6883,modelo,1
+2026-11-26,club,401915815,Goles (línea segura),Más de 1.5,0.876,modelo,1
+2026-11-26,club,401915815,Ambos anotan,Sí,0.5702,modelo,0
+2026-11-26,club,401915814,Ganador,Brighton & Hove Albion,0.8896,casas + modelo,1
+2026-11-26,club,401915814,Doble oportunidad,Brighton & Hove Albion o empate,0.9692,casas + modelo,1
+2026-11-26,club,401915814,Goles,Más de 2.5,0.6687,modelo,1
+2026-11-26,club,401915814,Goles (línea segura),Más de 1.5,0.8382,modelo,1
+2026-11-26,club,401915814,Ambos anotan,No,0.5505,modelo,1
+2026-11-26,club,401915517,Ganador,Bayer Leverkusen,0.6493,Kalshi + casas + modelo,1
+2026-11-26,club,401915517,Doble oportunidad,Bayer Leverkusen o empate,0.8445,Kalshi + casas + modelo,1
+2026-11-26,club,401915517,Goles,Más de 2.5,0.5789,modelo,0
+2026-11-26,club,401915517,Goles (línea segura),Más de 1.5,0.8115,modelo,1
+2026-11-26,club,401915517,Ambos anotan,Sí,0.5883,modelo,0
+2026-11-26,club,401915521,Ganador,AC Milan,0.4095,Kalshi + casas + modelo,1
+2026-11-26,club,401915521,Doble oportunidad,Olympiacos o AC Milan (no empate),0.7325,Kalshi + casas + modelo,1
+2026-11-26,club,401915521,Goles,Menos de 2.5,0.5093,casas + modelo,0
+2026-11-26,club,401915521,Goles (línea segura),Más de 1.5,0.7869,modelo,1
+2026-11-26,club,401915521,Ambos anotan,Sí,0.5492,modelo,1
+2026-11-26,club,401915508,Ganador,Union St.-Gilloise,0.76,casas + modelo,0
+2026-11-26,club,401915508,Doble oportunidad,Union St.-Gilloise o empate,0.9094,casas + modelo,1
+2026-11-26,club,401915508,Goles,Más de 2.5,0.658,modelo,1
+2026-11-26,club,401915508,Goles (línea segura),Más de 1.5,0.8498,modelo,1
+2026-11-26,club,401915508,Ambos anotan,Sí,0.5197,modelo,1
+2026-11-26,club,401915518,Ganador,Benfica,0.714,Kalshi + casas + modelo,0
+2026-11-26,club,401915518,Doble oportunidad,Benfica o empate,0.8793,Kalshi + casas + modelo,0
+2026-11-26,club,401915518,Goles,Más de 2.5,0.5548,modelo,1
+2026-11-26,club,401915518,Goles (línea segura),Más de 1.5,0.7943,modelo,1
+2026-11-26,club,401915518,Ambos anotan,Sí,0.5241,modelo,0
+2026-11-26,club,401915519,Ganador,AFC Bournemouth,0.5459,Kalshi + casas + modelo,1
+2026-11-26,club,401915519,Doble oportunidad,AFC Bournemouth o empate,0.7902,Kalshi + casas + modelo,1
+2026-11-26,club,401915519,Goles,Más de 2.5,0.5086,casas + modelo,1
+2026-11-26,club,401915519,Goles (línea segura),Más de 1.5,0.7775,modelo,1
+2026-11-26,club,401915519,Ambos anotan,Sí,0.5201,modelo,1
+2026-11-26,club,401915507,Ganador,Marseille,0.7295,Kalshi + casas + modelo,1
+2026-11-26,club,401915507,Doble oportunidad,Marseille o empate,0.8982,Kalshi + casas + modelo,1
+2026-11-26,club,401915507,Goles,Más de 2.5,0.575,casas + modelo,0
+2026-11-26,club,401915507,Goles (línea segura),Más de 1.5,0.7863,modelo,0
+2026-11-26,club,401915507,Ambos anotan,Sí,0.5073,modelo,0
+2026-11-26,club,401915520,Ganador,RB Salzburg,0.874,Kalshi + casas + modelo,1
+2026-11-26,club,401915520,Doble oportunidad,RB Salzburg o empate,0.9577,Kalshi + casas + modelo,1
+2026-11-26,club,401915520,Goles,Más de 2.5,0.6118,modelo,0
+2026-11-26,club,401915520,Goles (línea segura),Más de 1.5,0.8086,modelo,1
+2026-11-26,club,401915520,Ambos anotan,Sí,0.5804,modelo,0
+2026-11-26,club,401915809,Ganador,FC Midtjylland,0.4343,Kalshi + modelo,1
+2026-11-26,club,401915809,Doble oportunidad,Pafos o FC Midtjylland (no empate),0.7459,Kalshi + modelo,1
+2026-11-26,club,401915809,Goles,Más de 2.5,0.5474,modelo,0
+2026-11-26,club,401915809,Goles (línea segura),Más de 1.5,0.7909,modelo,1
+2026-11-26,club,401915809,Ambos anotan,Sí,0.5877,modelo,0
+2026-11-26,club,401915810,Ganador,Egnatia,0.626,Kalshi + casas + modelo,1
+2026-11-26,club,401915810,Doble oportunidad,Egnatia o empate,0.8293,Kalshi + casas + modelo,1
+2026-11-26,club,401915810,Goles,Más de 2.5,0.5919,casas + modelo,1
+2026-11-26,club,401915810,Goles (línea segura),Más de 1.5,0.7594,modelo,1
+2026-11-26,club,401915810,Ambos anotan,Sí,0.5254,modelo,1
+2026-11-26,club,401915811,Ganador,AS Monaco,0.6839,Kalshi + casas + modelo,1
+2026-11-26,club,401915811,Doble oportunidad,AS Monaco o empate,0.8681,Kalshi + casas + modelo,1
+2026-11-26,club,401915811,Goles,Más de 2.5,0.6066,casas + modelo,1
+2026-11-26,club,401915811,Goles (línea segura),Más de 1.5,0.8153,modelo,1
+2026-11-26,club,401915811,Ambos anotan,Sí,0.5689,modelo,1
+2026-11-26,club,401915812,Ganador,FC Lugano,0.4264,Kalshi + casas + modelo,0
+2026-11-26,club,401915812,Doble oportunidad,Jablonec o FC Lugano (no empate),0.742,Kalshi + casas + modelo,1
+2026-11-26,club,401915812,Goles,Más de 2.5,0.5913,casas + modelo,0
+2026-11-26,club,401915812,Goles (línea segura),Más de 1.5,0.7487,modelo,1
+2026-11-26,club,401915812,Ambos anotan,Sí,0.5413,modelo,0
+2026-11-26,club,401915813,Ganador,Getafe,0.6537,Kalshi + casas + modelo,0
+2026-11-26,club,401915813,Doble oportunidad,Getafe o empate,0.8747,Kalshi + casas + modelo,0
+2026-11-26,club,401915813,Goles,Menos de 2.5,0.564,casas + modelo,1
+2026-11-26,club,401915813,Goles (línea segura),Más de 1.5,0.7244,modelo,0
+2026-11-26,club,401915813,Ambos anotan,Sí,0.5172,modelo,0
+2026-11-26,club,401915739,Ganador,Riga FC,0.506,Kalshi + casas + modelo,0
+2026-11-26,club,401915739,Doble oportunidad,Riga FC o empate,0.7721,Kalshi + casas + modelo,0
+2026-11-26,club,401915739,Goles,Más de 2.5,0.5085,casas + modelo,0
+2026-11-26,club,401915739,Goles (línea segura),Más de 1.5,0.7343,modelo,1
+2026-11-26,club,401915739,Ambos anotan,Sí,0.5298,modelo,0
