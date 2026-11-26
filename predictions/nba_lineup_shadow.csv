@@ -1269,3 +1269,14 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-26T20:35:29.659317+00:00,401909336,2026-11-28T02:30Z,Portland Trail Blazers,Golden State Warriors,0.69893,0.72749,1.699,6.512,Chris Youngblood; Ja Morant,Stephen Curry,5,1795.0
 2026-11-26T20:35:29.659317+00:00,401909333,2026-11-28T02:30Z,San Antonio Spurs,Los Angeles Lakers,0.69651,0.70125,0.554,3.733,Dylan Harper,Austin Reaves,2,1795.0
 2026-11-26T20:35:29.659317+00:00,401909334,2026-11-28T02:30Z,Utah Jazz,Denver Nuggets,0.29895,0.27384,2.22,-11.796,,,3,1795.0
+2026-11-26T22:38:56.269818+00:00,401909326,2026-11-28T00:00Z,New York Knicks,Miami Heat,0.72208,0.64958,-0.791,-5.614,OG Anunoby; Jordan Clarkson,,0,1521.0
+2026-11-26T22:38:56.269818+00:00,401909327,2026-11-28T00:30Z,Detroit Pistons,Milwaukee Bucks,0.88263,0.8417,-2.472,1.467,Cade Cunningham; Duncan Robinson; Ebuka Okorie; Taurean Prince,,1,1551.0
+2026-11-26T22:38:56.269818+00:00,401909328,2026-11-28T00:30Z,Indiana Pacers,Philadelphia 76ers,0.32799,0.37436,2.524,-1.059,,Jaylen Brown,3,1551.0
+2026-11-26T22:38:56.269818+00:00,401909329,2026-11-28T00:30Z,Toronto Raptors,Brooklyn Nets,0.75195,0.76695,3.921,4.069,RJ Barrett,Nolan Traore; Moritz Wagner,2,1551.0
+2026-11-26T22:38:56.269818+00:00,401909330,2026-11-28T01:00Z,Boston Celtics,Atlanta Hawks,0.67518,0.64761,-0.886,-0.091,Mitchell Robinson,Asa Newell; Jock Landale; CJ McCollum,2,1581.0
+2026-11-26T22:38:56.269818+00:00,401909331,2026-11-28T01:30Z,Minnesota Timberwolves,Memphis Grizzlies,0.6824,0.65494,-0.53,-0.844,Jaylen Clark,Cameron Boozer; Jerami Grant; GG Jackson,4,1611.0
+2026-11-26T22:38:56.269818+00:00,401909332,2026-11-28T02:00Z,Phoenix Suns,Dallas Mavericks,0.62311,0.60346,-0.182,-1.214,,Tobi Lawal,4,1641.0
+2026-11-26T22:38:56.269818+00:00,401909335,2026-11-28T02:30Z,LA Clippers,New Orleans Pelicans,0.67741,0.61236,0.031,-6.041,,Dejounte Murray; Trendon Watford; Bennedict Mathurin,2,1671.0
+2026-11-26T22:38:56.269818+00:00,401909336,2026-11-28T02:30Z,Portland Trail Blazers,Golden State Warriors,0.69893,0.72749,1.699,6.512,Ja Morant; Chris Youngblood,Stephen Curry,5,1671.0
+2026-11-26T22:38:56.269818+00:00,401909333,2026-11-28T02:30Z,San Antonio Spurs,Los Angeles Lakers,0.69651,0.70125,0.554,3.733,Dylan Harper,Austin Reaves,2,1671.0
+2026-11-26T22:38:56.269818+00:00,401909334,2026-11-28T02:30Z,Utah Jazz,Denver Nuggets,0.29895,0.27384,2.22,-11.796,,,3,1671.0
