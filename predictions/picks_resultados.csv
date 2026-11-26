@@ -1712,3 +1712,5 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-26,club,401915816,Goles,Menos de 2.5,0.5048,casas + modelo,1
 2026-11-26,club,401915816,Goles (línea segura),Más de 1.5,0.7171,modelo,0
 2026-11-26,club,401915816,Ambos anotan,Sí,0.5137,modelo,0
+2026-11-26,club,401915506,Ganador,Besiktas,0.7581,casas + modelo,0
+2026-11-26,club,401915506,Doble oportunidad,Besiktas o empate,0.9032,casas + modelo,1
