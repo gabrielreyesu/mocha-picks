@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 26 Nov 2026 14:09 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 26 Nov 2026 15:29 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -245,10 +245,10 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Thu 26 Nov 15:30 | NFL | Philadelphia Eagles en Dallas Cowboys | Puntos (línea segura) | Menos de 59.5 | 78% | Alta | casas | 78¢ |
 | Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Ganador | São Paulo | 71% | Alta | casas + modelo | — |
 | Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Doble oportunidad | São Paulo o empate | 90% | Alta | casas + modelo | — |
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Goles | Más de 2.5 | 51% | Baja | casas + modelo | — |
+| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Ambos anotan | No | 52% | Baja | modelo | — |
-| Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Ganador | Guadalajara | 38% | Baja | casas + modelo | — |
+| Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Ganador | Guadalajara | 39% | Baja | casas + modelo | — |
 | Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Doble oportunidad | Pachuca o Guadalajara (no empate) | 71% | Alta | casas + modelo | — |
 | Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Goles | Menos de 2.5 | 52% | Baja | casas + modelo | — |
 | Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
@@ -298,7 +298,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ambos anotan | Sí | 50% | Baja | modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ganador | FC Groningen | 71% | Alta | casas + modelo | — |
-| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Doble oportunidad | FC Groningen o empate | 87% | Alta | casas + modelo | — |
+| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Doble oportunidad | FC Groningen o empate | 88% | Alta | casas + modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Goles | Más de 2.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ambos anotan | Sí | 66% | Media | modelo | — |
@@ -341,14 +341,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 14:00 | La Liga | Levante vs Santander | Goles | Más de 2.5 | 61% | Media | modelo | — |
 | Fri 27 Nov 14:00 | La Liga | Levante vs Santander | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Fri 27 Nov 14:00 | La Liga | Levante vs Santander | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Ganador | Middlesbrough | 41% | Baja | casas + modelo | — |
-| Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Doble oportunidad | Southampton o Middlesbrough (no empate) | 76% | Alta | casas + modelo | — |
-| Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Goles | Más de 2.5 | 54% | Baja | modelo | — |
+| Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Ganador | Middlesbrough | 40% | Baja | casas + modelo | — |
+| Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Doble oportunidad | Southampton o Middlesbrough (no empate) | 75% | Alta | casas + modelo | — |
+| Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Goles | Más de 2.5 | 61% | Media | casas + modelo | — |
 | Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Ganador | Maritimo | 45% | Baja | casas + modelo | — |
-| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Doble oportunidad | Maritimo o empate | 73% | Alta | casas + modelo | — |
-| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles | Menos de 2.5 | 53% | Baja | casas + modelo | — |
+| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Ganador | Maritimo | 44% | Baja | casas + modelo | — |
+| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Doble oportunidad | Maritimo o empate | 72% | Alta | casas + modelo | — |
+| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles | Menos de 2.5 | 54% | Baja | casas + modelo | — |
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Ganador | Fluminense | 46% | Baja | casas + modelo | — |
