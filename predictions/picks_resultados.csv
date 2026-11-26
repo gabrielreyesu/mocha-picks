@@ -1639,3 +1639,7 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-25,club,401915373,Goles,Más de 2.5,0.5395,modelo,1
 2026-11-25,club,401915373,Goles (línea segura),Más de 1.5,0.7839,modelo,1
 2026-11-25,club,401915373,Ambos anotan,Sí,0.5726,modelo,1
+2026-11-25,nba,401909317,Ganador,Miami Heat,0.5171,Kalshi + casas + modelo,0
+2026-11-25,nba,401909317,Hándicap,Miami Heat gana por más de 1.5,0.5,casas,0
+2026-11-25,nba,401909317,Total de puntos,Menos de 238.5,0.5223,casas,1
+2026-11-25,nba,401909317,Puntos (línea segura),Más de 224.5,0.7662,casas,0
