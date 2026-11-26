@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 26 Nov 2026 15:43 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 26 Nov 2026 16:32 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -237,9 +237,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Ganador | São Paulo | 71% | Alta | casas + modelo | — |
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Doble oportunidad | São Paulo o empate | 90% | Alta | casas + modelo | — |
-| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Ganador | São Paulo | 73% | Alta | casas + modelo | — |
+| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Doble oportunidad | São Paulo o empate | 91% | Alta | casas + modelo | — |
+| Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Goles (línea segura) | Más de 1.5 | 72% | Alta | modelo | — |
 | Thu 26 Nov 17:00 | Brasileirão | São Paulo vs Remo | Ambos anotan | No | 52% | Baja | modelo | — |
 | Thu 26 Nov 19:00 | Liga MX | Pachuca vs Guadalajara | Ganador | Guadalajara | 39% | Baja | casas + modelo | — |
@@ -266,31 +266,31 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Goles | Más de 2.5 | 71% | Alta | modelo | — |
 | Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
 | Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ganador | Alanyaspor | 36% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Doble oportunidad | Alanyaspor o Konyaspor (no empate) | 71% | Alta | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles (línea segura) | Más de 1.5 | 70% | Media | modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ambos anotan | No | 52% | Baja | modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Ganador | Caykur Rizespor | 48% | Baja | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Doble oportunidad | Caykur Rizespor o Kasimpasa (no empate) | 75% | Alta | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ganador | Al Ittihad | 53% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Doble oportunidad | Al Ittihad o Neom SC (no empate) | 77% | Alta | casas + modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ganador | 1. FC Heidenheim 1846 | 40% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Doble oportunidad | 1. FC Heidenheim 1846 o 1. FC Nürnberg (no empate) | 76% | Alta | casas + modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Goles | Más de 2.5 | 62% | Media | modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ambos anotan | Sí | 64% | Media | modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ganador | Alanyaspor | 36% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Doble oportunidad | Alanyaspor o Konyaspor (no empate) | 71% | Alta | casas + modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles (línea segura) | Más de 1.5 | 70% | Media | modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ambos anotan | No | 52% | Baja | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ganador | VfL Bochum | 53% | Baja | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Doble oportunidad | VfL Bochum o SV Darmstadt 98 (no empate) | 77% | Alta | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles | Más de 2.5 | 63% | Media | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ambos anotan | Sí | 50% | Baja | modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ganador | 1. FC Heidenheim 1846 | 40% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Doble oportunidad | 1. FC Heidenheim 1846 o 1. FC Nürnberg (no empate) | 76% | Alta | casas + modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Goles | Más de 2.5 | 62% | Media | modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ambos anotan | Sí | 64% | Media | modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ganador | Al Ittihad | 53% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Doble oportunidad | Al Ittihad o Neom SC (no empate) | 77% | Alta | casas + modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ganador | FC Groningen | 71% | Alta | casas + modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Doble oportunidad | FC Groningen o empate | 88% | Alta | casas + modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Goles | Más de 2.5 | 73% | Alta | modelo | — |

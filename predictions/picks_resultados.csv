@@ -1806,3 +1806,93 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-26,nfl,401873081,Hándicap,Chicago Bears gana por más de 1.5,0.5,casas,1
 2026-11-26,nfl,401873081,Total de puntos,Más de 56.5,0.5,casas,1
 2026-11-26,nfl,401873081,Puntos (línea segura),Más de 46.5,0.7791,casas,1
+2026-11-26,club,401915807,Ganador,FC Nordsjælland,0.3844,casas + modelo,1
+2026-11-26,club,401915807,Doble oportunidad,FC Nordsjælland o Panathinaikos (no empate),0.7467,casas + modelo,1
+2026-11-26,club,401915807,Goles,Más de 2.5,0.5631,casas + modelo,1
+2026-11-26,club,401915807,Goles (línea segura),Más de 1.5,0.8152,modelo,1
+2026-11-26,club,401915807,Ambos anotan,Sí,0.6065,modelo,1
+2026-11-26,club,401915806,Ganador,Atalanta,0.7257,Kalshi + casas + modelo,1
+2026-11-26,club,401915806,Doble oportunidad,Atalanta o empate,0.8924,Kalshi + casas + modelo,1
+2026-11-26,club,401915806,Goles,Menos de 2.5,0.5216,modelo,0
+2026-11-26,club,401915806,Goles (línea segura),Más de 1.5,0.76,modelo,1
+2026-11-26,club,401915806,Ambos anotan,Sí,0.5183,modelo,1
+2026-11-26,club,401915805,Ganador,Hajduk Split,0.454,casas + modelo,0
+2026-11-26,club,401915805,Doble oportunidad,Hajduk Split o Sint-Truidense (no empate),0.7469,casas + modelo,1
+2026-11-26,club,401915805,Goles,Más de 2.5,0.5672,casas + modelo,0
+2026-11-26,club,401915805,Goles (línea segura),Más de 1.5,0.753,modelo,1
+2026-11-26,club,401915805,Ambos anotan,Sí,0.5526,modelo,0
+2026-11-26,club,401915804,Ganador,KAA Gent,0.406,casas + modelo,0
+2026-11-26,club,401915804,Doble oportunidad,KAA Gent o Red Star Belgrade (no empate),0.7252,casas + modelo,0
+2026-11-26,club,401915804,Goles,Más de 2.5,0.5267,casas + modelo,0
+2026-11-26,club,401915804,Goles (línea segura),Más de 1.5,0.6989,modelo,1
+2026-11-26,club,401915804,Ambos anotan,No,0.5115,modelo,0
+2026-11-26,club,401915802,Ganador,Braga,0.8559,casas + modelo,1
+2026-11-26,club,401915802,Doble oportunidad,Braga o empate,0.956,casas + modelo,1
+2026-11-26,club,401915802,Goles,Menos de 2.5,0.5465,modelo,0
+2026-11-26,club,401915802,Goles (línea segura),Más de 1.5,0.7194,modelo,1
+2026-11-26,club,401915802,Ambos anotan,No,0.5588,modelo,1
+2026-11-26,club,401915801,Ganador,SC Freiburg,0.5211,casas + modelo,1
+2026-11-26,club,401915801,Doble oportunidad,SC Freiburg o empate,0.7671,casas + modelo,1
+2026-11-26,club,401915801,Goles,Más de 2.5,0.5279,casas + modelo,1
+2026-11-26,club,401915801,Goles (línea segura),Más de 1.5,0.8202,modelo,1
+2026-11-26,club,401915801,Ambos anotan,Sí,0.6119,modelo,1
+2026-11-26,club,401915513,Ganador,Sunderland,0.7917,Kalshi + casas + modelo,0
+2026-11-26,club,401915513,Doble oportunidad,Sunderland o empate,0.9342,Kalshi + casas + modelo,1
+2026-11-26,club,401915513,Goles,Más de 2.5,0.6,casas + modelo,0
+2026-11-26,club,401915513,Goles (línea segura),Más de 1.5,0.7469,modelo,1
+2026-11-26,club,401915513,Ambos anotan,No,0.5179,modelo,0
+2026-11-26,club,401915503,Ganador,Anderlecht,0.5867,Kalshi + casas + modelo,1
+2026-11-26,club,401915503,Doble oportunidad,Anderlecht o empate,0.8223,Kalshi + casas + modelo,1
+2026-11-26,club,401915503,Goles,Más de 2.5,0.5457,casas + modelo,1
+2026-11-26,club,401915503,Goles (línea segura),Más de 1.5,0.7319,modelo,1
+2026-11-26,club,401915503,Ambos anotan,Sí,0.5243,modelo,1
+2026-11-26,club,401915502,Ganador,Juventus,0.8389,Kalshi + casas + modelo,1
+2026-11-26,club,401915502,Doble oportunidad,Juventus o empate,0.9484,Kalshi + casas + modelo,1
+2026-11-26,club,401915502,Goles,Más de 2.5,0.5864,modelo,1
+2026-11-26,club,401915502,Goles (línea segura),Más de 1.5,0.8181,modelo,1
+2026-11-26,club,401915502,Ambos anotan,Sí,0.5868,modelo,1
+2026-11-26,club,401915738,Ganador,F.C. København,0.7558,casas + modelo,0
+2026-11-26,club,401915738,Doble oportunidad,F.C. København o empate,0.9248,casas + modelo,0
+2026-11-26,club,401915738,Goles,Más de 2.5,0.5114,casas + modelo,0
+2026-11-26,club,401915738,Goles (línea segura),Más de 1.5,0.7664,modelo,1
+2026-11-26,club,401915738,Ambos anotan,Sí,0.5339,modelo,0
+2026-11-26,club,401915505,Ganador,Stade Rennais,0.4802,Kalshi + casas + modelo,0
+2026-11-26,club,401915505,Doble oportunidad,NEC Nijmegen o Stade Rennais (no empate),0.7668,Kalshi + casas + modelo,1
+2026-11-26,club,401915505,Goles,Más de 2.5,0.5671,modelo,1
+2026-11-26,club,401915505,Goles (línea segura),Más de 1.5,0.8028,modelo,1
+2026-11-26,club,401915505,Ambos anotan,Sí,0.5965,modelo,1
+2026-11-26,club,401915516,Ganador,Ferencvaros,0.7312,Kalshi + casas + modelo,0
+2026-11-26,club,401915516,Doble oportunidad,Ferencvaros o empate,0.8933,Kalshi + casas + modelo,1
+2026-11-26,club,401915516,Goles,Más de 2.5,0.5575,modelo,0
+2026-11-26,club,401915516,Goles (línea segura),Más de 1.5,0.7962,modelo,0
+2026-11-26,club,401915516,Ambos anotan,Sí,0.5555,modelo,0
+2026-11-26,club,401915501,Ganador,Lyon,0.8169,casas + modelo,0
+2026-11-26,club,401915501,Doble oportunidad,Lyon o empate,0.9382,casas + modelo,1
+2026-11-26,club,401915501,Goles,Más de 2.5,0.6114,modelo,0
+2026-11-26,club,401915501,Goles (línea segura),Más de 1.5,0.816,modelo,0
+2026-11-26,club,401915501,Ambos anotan,No,0.503,modelo,1
+2026-11-26,club,401915803,Ganador,Trabzonspor,0.6299,Kalshi + casas + modelo,1
+2026-11-26,club,401915803,Doble oportunidad,Trabzonspor o empate,0.8343,Kalshi + casas + modelo,1
+2026-11-26,club,401915803,Goles,Más de 2.5,0.5424,modelo,1
+2026-11-26,club,401915803,Goles (línea segura),Más de 1.5,0.7824,modelo,1
+2026-11-26,club,401915803,Ambos anotan,Sí,0.5537,modelo,1
+2026-11-26,club,401915512,Ganador,Celtic,0.6278,Kalshi + casas + modelo,1
+2026-11-26,club,401915512,Doble oportunidad,Celtic o empate,0.8249,Kalshi + casas + modelo,1
+2026-11-26,club,401915512,Goles,Más de 2.5,0.6175,casas + modelo,1
+2026-11-26,club,401915512,Goles (línea segura),Más de 1.5,0.8148,modelo,1
+2026-11-26,club,401915512,Ambos anotan,Sí,0.598,modelo,1
+2026-11-26,club,401915504,Ganador,Crystal Palace,0.5018,Kalshi + casas + modelo,1
+2026-11-26,club,401915504,Doble oportunidad,Crystal Palace o Real Sociedad (no empate),0.7701,Kalshi + casas + modelo,1
+2026-11-26,club,401915504,Goles,Más de 2.5,0.6068,casas + modelo,1
+2026-11-26,club,401915504,Goles (línea segura),Más de 1.5,0.8233,modelo,1
+2026-11-26,club,401915504,Ambos anotan,Sí,0.6232,modelo,1
+2026-11-26,club,401915514,Ganador,AZ Alkmaar,0.3891,Kalshi + casas + modelo,1
+2026-11-26,club,401915514,Doble oportunidad,Sparta Prague o AZ Alkmaar (no empate),0.7394,Kalshi + casas + modelo,1
+2026-11-26,club,401915514,Goles,Más de 2.5,0.5637,casas + modelo,1
+2026-11-26,club,401915514,Goles (línea segura),Más de 1.5,0.7615,modelo,1
+2026-11-26,club,401915514,Ambos anotan,Sí,0.5522,modelo,1
+2026-11-26,club,401915515,Ganador,TSG Hoffenheim,0.7856,Kalshi + casas + modelo,1
+2026-11-26,club,401915515,Doble oportunidad,TSG Hoffenheim o empate,0.9148,Kalshi + casas + modelo,1
+2026-11-26,club,401915515,Goles,Más de 2.5,0.6,modelo,1
+2026-11-26,club,401915515,Goles (línea segura),Más de 1.5,0.8042,modelo,1
+2026-11-26,club,401915515,Ambos anotan,Sí,0.5732,modelo,1
