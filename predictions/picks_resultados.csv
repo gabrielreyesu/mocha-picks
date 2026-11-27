@@ -1911,3 +1911,12 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-26,liga,401931982,Goles,Menos de 2.5,0.5565,casas + modelo,0
 2026-11-26,liga,401931982,Goles (línea segura),Más de 1.5,0.7621,modelo,1
 2026-11-26,liga,401931982,Ambos anotan,Sí,0.5556,modelo,1
+2026-11-26,nfl,401873082,Ganador,Buffalo Bills,0.5949,Kalshi + casas + modelo,1
+2026-11-26,nfl,401873082,Hándicap,Kansas City Chiefs +3.5 (gana o pierde por menos de 3.5),0.5157,casas,1
+2026-11-26,nfl,401873082,Total de puntos,Menos de 47.5,0.5307,casas,1
+2026-11-26,nfl,401873082,Puntos (línea segura),Menos de 56.5,0.7791,casas,1
+2026-11-26,liga,401931995,Ganador,Cruz Azul,0.5047,casas + modelo,1
+2026-11-26,liga,401931995,Doble oportunidad,León o Cruz Azul (no empate),0.7538,casas + modelo,1
+2026-11-26,liga,401931995,Goles,Más de 2.5,0.5483,casas + modelo,1
+2026-11-26,liga,401931995,Goles (línea segura),Más de 1.5,0.8131,modelo,1
+2026-11-26,liga,401931995,Ambos anotan,Sí,0.6012,modelo,0
