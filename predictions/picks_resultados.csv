@@ -1965,3 +1965,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-27,liga,401883102,Goles,Menos de 2.5,0.592,casas + modelo,1
 2026-11-27,liga,401883102,Goles (línea segura),Más de 1.5,0.7327,modelo,0
 2026-11-27,liga,401883102,Ambos anotan,Sí,0.5138,modelo,0
+2026-11-27,liga,558515,Ganador,Bologna,0.4871,Kalshi + modelo,0
+2026-11-27,liga,558515,Doble oportunidad,Bologna o empate,0.7453,Kalshi + modelo,1
+2026-11-27,liga,558515,Goles,Menos de 2.5,0.5205,modelo,1
+2026-11-27,liga,558515,Goles (línea segura),Más de 1.5,0.7259,modelo,0
+2026-11-27,liga,558515,Ambos anotan,Sí,0.5127,modelo,0
+2026-11-27,liga,559616,Ganador,Paris FC,0.421,Kalshi + modelo,0
+2026-11-27,liga,559616,Doble oportunidad,Brest o Paris FC (no empate),0.7272,Kalshi + modelo,1
+2026-11-27,liga,559616,Goles,Menos de 2.5,0.5196,modelo,1
+2026-11-27,liga,559616,Goles (línea segura),Más de 1.5,0.7335,modelo,0
+2026-11-27,liga,559616,Ambos anotan,Sí,0.5234,modelo,0
+2026-11-27,liga,401878930,Ganador,OH Leuven,0.502,casas + modelo,0
+2026-11-27,liga,401878930,Doble oportunidad,OH Leuven o empate,0.7518,casas + modelo,1
+2026-11-27,liga,401878930,Goles,Más de 2.5,0.5881,casas + modelo,1
+2026-11-27,liga,401878930,Goles (línea segura),Más de 1.5,0.7198,modelo,1
+2026-11-27,liga,401878930,Ambos anotan,No,0.5024,modelo,0
