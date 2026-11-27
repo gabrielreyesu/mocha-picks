@@ -1896,3 +1896,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-26,club,401915515,Goles,Más de 2.5,0.6,modelo,1
 2026-11-26,club,401915515,Goles (línea segura),Más de 1.5,0.8042,modelo,1
 2026-11-26,club,401915515,Ambos anotan,Sí,0.5732,modelo,1
+2026-11-26,nfl,401873080,Ganador,Dallas Cowboys,0.7599,Kalshi + casas + modelo,0
+2026-11-26,nfl,401873080,Hándicap,Dallas Cowboys gana por más de 8.5,0.5,casas,0
+2026-11-26,nfl,401873080,Hándicap seguro,Dallas Cowboys gana por más de 1.5,0.7092,casas,0
+2026-11-26,nfl,401873080,Total de puntos,Más de 49.5,0.5,casas,1
+2026-11-26,nfl,401873080,Puntos (línea segura),Menos de 59.5,0.7791,casas,0
+2026-11-26,liga,401841329,Ganador,São Paulo,0.7267,casas + modelo,1
+2026-11-26,liga,401841329,Doble oportunidad,São Paulo o empate,0.9084,casas + modelo,1
+2026-11-26,liga,401841329,Goles,Más de 2.5,0.5312,casas + modelo,1
+2026-11-26,liga,401841329,Goles (línea segura),Más de 1.5,0.7236,modelo,1
+2026-11-26,liga,401841329,Ambos anotan,No,0.5163,modelo,0
