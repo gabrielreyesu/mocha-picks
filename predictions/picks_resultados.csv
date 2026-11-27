@@ -1955,3 +1955,13 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-27,liga,401900873,Goles,Más de 2.5,0.5808,casas + modelo,0
 2026-11-27,liga,401900873,Goles (línea segura),Más de 1.5,0.7758,modelo,0
 2026-11-27,liga,401900873,Ambos anotan,Sí,0.5385,modelo,0
+2026-11-27,liga,401875536,Ganador,FC Groningen,0.7812,casas + modelo,0
+2026-11-27,liga,401875536,Doble oportunidad,FC Groningen o empate,0.9137,casas + modelo,1
+2026-11-27,liga,401875536,Goles,Más de 2.5,0.7316,modelo,0
+2026-11-27,liga,401875536,Goles (línea segura),Más de 1.5,0.892,modelo,1
+2026-11-27,liga,401875536,Ambos anotan,Sí,0.6562,modelo,1
+2026-11-27,liga,401883102,Ganador,Leganés,0.392,casas + modelo,0
+2026-11-27,liga,401883102,Doble oportunidad,Leganés o empate,0.6987,casas + modelo,1
+2026-11-27,liga,401883102,Goles,Menos de 2.5,0.592,casas + modelo,1
+2026-11-27,liga,401883102,Goles (línea segura),Más de 1.5,0.7327,modelo,0
+2026-11-27,liga,401883102,Ambos anotan,Sí,0.5138,modelo,0
