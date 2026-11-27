@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 27 Nov 2026 02:32 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 27 Nov 2026 04:34 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -282,19 +282,19 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Ganador | Al Kholood | 41% | Baja | casas + modelo | — |
+| Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Ganador | Al Kholood | 38% | Baja | casas + modelo | — |
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Doble oportunidad | Al Kholood o Al Khaleej (no empate) | 74% | Alta | casas + modelo | — |
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Ambos anotan | Sí | 58% | Media | modelo | — |
-| Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Ganador | Al Qadsiah | 85% | Alta | casas + modelo | — |
+| Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Ganador | Al Qadsiah | 88% | Alta | casas + modelo | — |
 | Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Doble oportunidad | Al Qadsiah o empate | 95% | Alta | casas + modelo | — |
 | Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Goles | Más de 2.5 | 71% | Alta | modelo | — |
 | Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Goles (línea segura) | Más de 1.5 | 88% | Alta | modelo | — |
 | Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Ambos anotan | Sí | 52% | Baja | modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ganador | Alanyaspor | 34% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Doble oportunidad | Alanyaspor o Konyaspor (no empate) | 69% | Media | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ganador | Alanyaspor | 35% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Doble oportunidad | Alanyaspor o Konyaspor (no empate) | 70% | Media | casas + modelo | — |
+| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles (línea segura) | Más de 1.5 | 70% | Media | modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ambos anotan | No | 52% | Baja | modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Ganador | Caykur Rizespor | 48% | Baja | casas + modelo | — |
@@ -302,9 +302,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ganador | Al Ittihad | 53% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ganador | Al Ittihad | 52% | Baja | casas + modelo | — |
 | Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Doble oportunidad | Al Ittihad o empate | 77% | Alta | casas + modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ganador | 1. FC Heidenheim 1846 | 40% | Baja | casas + modelo | — |
@@ -312,8 +312,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Goles | Más de 2.5 | 62% | Media | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ganador | VfL Bochum | 55% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Doble oportunidad | VfL Bochum o empate | 78% | Alta | casas + modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ganador | VfL Bochum | 57% | Media | casas + modelo | — |
+| Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Doble oportunidad | VfL Bochum o empate | 80% | Alta | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ambos anotan | Sí | 50% | Baja | modelo | — |
@@ -328,7 +328,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 13:30 | Bundesliga | Werder Bremen vs M'gladbach | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Fri 27 Nov 13:30 | Bundesliga | Werder Bremen vs M'gladbach | Ambos anotan | Sí | 60% | Media | modelo | — |
 | Fri 27 Nov 13:30 | LaLiga 2 | Leganés vs CD Sabadell | Ganador | Leganés | 39% | Baja | casas + modelo | — |
-| Fri 27 Nov 13:30 | LaLiga 2 | Leganés vs CD Sabadell | Doble oportunidad | Leganés o CD Sabadell (no empate) | 70% | Media | casas + modelo | — |
+| Fri 27 Nov 13:30 | LaLiga 2 | Leganés vs CD Sabadell | Doble oportunidad | Leganés o empate | 70% | Media | casas + modelo | — |
 | Fri 27 Nov 13:30 | LaLiga 2 | Leganés vs CD Sabadell | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 27 Nov 13:30 | LaLiga 2 | Leganés vs CD Sabadell | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 13:30 | LaLiga 2 | Leganés vs CD Sabadell | Ambos anotan | Sí | 51% | Baja | modelo | — |
@@ -363,12 +363,12 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 14:00 | La Liga | Levante vs Santander | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Ganador | Middlesbrough | 43% | Baja | casas + modelo | — |
 | Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Doble oportunidad | Southampton o Middlesbrough (no empate) | 76% | Alta | casas + modelo | — |
-| Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
+| Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Goles | Más de 2.5 | 63% | Media | casas + modelo | — |
 | Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Fri 27 Nov 14:00 | Championship | Southampton vs Middlesbrough | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Ganador | Maritimo | 42% | Baja | casas + modelo | — |
+| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Ganador | Maritimo | 43% | Baja | casas + modelo | — |
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Doble oportunidad | Maritimo o empate | 72% | Alta | casas + modelo | — |
-| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles | Menos de 2.5 | 60% | Media | casas + modelo | — |
+| Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Ganador | Fluminense | 46% | Baja | casas + modelo | — |
@@ -429,7 +429,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 20:30 | NBA | Denver Nuggets en Utah Jazz | Hándicap seguro | Denver Nuggets gana por más de 1.5 | 72% | Alta | casas | 77¢ |
 | Fri 27 Nov 20:30 | NBA | Denver Nuggets en Utah Jazz | Total de puntos | Más de 228.5 | 50% | Baja | casas | 52¢ |
 | Fri 27 Nov 20:30 | NBA | Denver Nuggets en Utah Jazz | Puntos (línea segura) | Más de 214.5 | 78% | Alta | casas | 80¢ |
-| Fri 27 Nov 21:00 | MLS | TBD Home vs Vancouver Whitecaps | Ganador | Vancouver Whitecaps | 44% | Baja | casas + modelo | — |
+| Fri 27 Nov 21:00 | MLS | TBD Home vs Vancouver Whitecaps | Ganador | Vancouver Whitecaps | 45% | Baja | casas + modelo | — |
 | Fri 27 Nov 21:00 | MLS | TBD Home vs Vancouver Whitecaps | Doble oportunidad | TBD Home o Vancouver Whitecaps (no empate) | 75% | Alta | casas + modelo | — |
 | Fri 27 Nov 21:00 | MLS | TBD Home vs Vancouver Whitecaps | Goles | Más de 2.5 | 56% | Media | modelo | — |
 | Fri 27 Nov 21:00 | MLS | TBD Home vs Vancouver Whitecaps | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
@@ -1006,4 +1006,10 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 14:30 | Liga Portugal | Vitória de Guimaraes vs Estrela | Goles | Más de 2.5 | 54% | Baja | casas + modelo | — |
 | Sat 28 Nov 14:30 | Liga Portugal | Vitória de Guimaraes vs Estrela | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sat 28 Nov 14:30 | Liga Portugal | Vitória de Guimaraes vs Estrela | Ambos anotan | Sí | 53% | Baja | modelo | — |
+| Sat 28 Nov 15:30 | MLS | Philadelphia Union vs New England Revolution | Ganador | Philadelphia Union | 64% | Media | casas + modelo | — |
+| Sat 28 Nov 15:30 | MLS | Philadelphia Union vs New England Revolution | Doble oportunidad | Philadelphia Union o empate | 83% | Alta | casas + modelo | — |
+| Sat 28 Nov 15:30 | MLS | Philadelphia Union vs New England Revolution | Goles | Más de 2.5 | 63% | Media | modelo | — |
+| Sat 28 Nov 15:30 | MLS | Philadelphia Union vs New England Revolution | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
+| Sat 28 Nov 15:30 | MLS | Philadelphia Union vs New England Revolution | Ambos anotan | Sí | 60% | Media | modelo | — |
+| Sat 28 Nov 16:00 | NBA | Orlando Magic en Washington Wizards | Ganador | Orlando Magic | 61% | Media | Kalshi + modelo | 60¢ |
 
