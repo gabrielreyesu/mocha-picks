@@ -1925,3 +1925,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-27,liga,401900872,Goles,Más de 2.5,0.5802,casas + modelo,1
 2026-11-27,liga,401900872,Goles (línea segura),Más de 1.5,0.7788,modelo,1
 2026-11-27,liga,401900872,Ambos anotan,Sí,0.5765,modelo,1
+2026-11-27,liga,401900870,Ganador,Al Qadsiah,0.856,casas + modelo,1
+2026-11-27,liga,401900870,Doble oportunidad,Al Qadsiah o empate,0.95,casas + modelo,1
+2026-11-27,liga,401900870,Goles,Más de 2.5,0.7058,modelo,0
+2026-11-27,liga,401900870,Goles (línea segura),Más de 1.5,0.8835,modelo,1
+2026-11-27,liga,401900870,Ambos anotan,Sí,0.5219,modelo,0

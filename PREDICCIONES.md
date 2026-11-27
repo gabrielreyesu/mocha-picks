@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 27 Nov 2026 10:07 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 27 Nov 2026 11:16 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -282,19 +282,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ganador | Alanyaspor | 35% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Doble oportunidad | Alanyaspor o Konyaspor (no empate) | 70% | Media | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles | Menos de 2.5 | 55% | Media | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Goles (línea segura) | Más de 1.5 | 70% | Media | modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Alanyaspor vs Konyaspor | Ambos anotan | No | 52% | Baja | modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Ganador | Caykur Rizespor | 49% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Doble oportunidad | Caykur Rizespor o Kasimpasa (no empate) | 75% | Alta | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
-| Fri 27 Nov 11:00 | Superliga de Turquía | Caykur Rizespor vs Kasimpasa | Ambos anotan | Sí | 53% | Baja | modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ganador | Al Ittihad | 48% | Baja | casas + modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Doble oportunidad | Al Ittihad o Neom SC (no empate) | 75% | Alta | casas + modelo | — |
-| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ganador | Al Ittihad | 52% | Baja | casas + modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Doble oportunidad | Al Ittihad o Neom SC (no empate) | 76% | Alta | casas + modelo | — |
+| Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | Liga Saudí | Al Ittihad vs Neom SC | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | 1. FC Heidenheim 1846 vs 1. FC Nürnberg | Ganador | 1. FC Heidenheim 1846 | 40% | Baja | casas + modelo | — |
@@ -307,8 +297,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ambos anotan | Sí | 50% | Baja | modelo | — |
-| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ganador | FC Groningen | 79% | Alta | casas + modelo | — |
-| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Doble oportunidad | FC Groningen o empate | 92% | Alta | casas + modelo | — |
+| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ganador | FC Groningen | 78% | Alta | casas + modelo | — |
+| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Doble oportunidad | FC Groningen o empate | 91% | Alta | casas + modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Goles | Más de 2.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ambos anotan | Sí | 66% | Media | modelo | — |
@@ -361,9 +351,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles | Menos de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Goles (línea segura) | Más de 1.5 | 74% | Alta | modelo | — |
 | Fri 27 Nov 14:15 | Liga Portugal | Maritimo vs C.D. Nacional | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Ganador | Fluminense | 51% | Baja | casas + modelo | — |
-| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Doble oportunidad | Fluminense o Cruzeiro (no empate) | 75% | Alta | casas + modelo | — |
-| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Ganador | Fluminense | 49% | Baja | casas + modelo | — |
+| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Doble oportunidad | Fluminense o empate | 75% | Alta | casas + modelo | — |
+| Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Goles | Menos de 2.5 | 50% | Baja | casas + modelo | — |
 | Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 27 Nov 17:00 | Brasileirão | Fluminense vs Cruzeiro | Ambos anotan | Sí | 59% | Media | modelo | — |
 | Fri 27 Nov 18:00 | NBA | Miami Heat en New York Knicks | Ganador | New York Knicks | 61% | Media | Kalshi + casas + modelo | 62¢ |
@@ -426,7 +416,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 21:00 | MLS | TBD Home vs Vancouver Whitecaps | Ambos anotan | Sí | 55% | Baja | modelo | — |
 | Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Ganador | St. Pauli | 38% | Baja | casas + modelo | — |
 | Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Doble oportunidad | Dynamo Dresden o St. Pauli (no empate) | 74% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sat 28 Nov 06:00 | 2. Bundesliga | Holstein Kiel vs Kaiserslautern | Ganador | Holstein Kiel | 37% | Baja | casas + modelo | — |
@@ -971,9 +961,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 14:00 | Copa de Francia | Racing Chambery vs Anglet Genets | Goles | Más de 2.5 | 62% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Racing Chambery vs Anglet Genets | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Racing Chambery vs Anglet Genets | Ambos anotan | Sí | 64% | Media | modelo | — |
-| Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Ganador | Grenoble | 38% | Baja | modelo | — |
-| Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Doble oportunidad | Nimes o Grenoble (no empate) | 75% | Alta | modelo | — |
-| Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Goles | Más de 2.5 | 58% | Media | modelo | — |
+| Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Ganador | Grenoble | 46% | Baja | casas + modelo | — |
+| Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Doble oportunidad | Nimes o Grenoble (no empate) | 74% | Alta | casas + modelo | — |
+| Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Eredivisie | SC Cambuur vs Sparta Rotterdam | Ganador | SC Cambuur | 48% | Baja | casas + modelo | — |
