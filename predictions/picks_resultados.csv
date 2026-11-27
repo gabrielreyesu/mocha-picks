@@ -1980,3 +1980,18 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-27,liga,401878930,Goles,Más de 2.5,0.5881,casas + modelo,1
 2026-11-27,liga,401878930,Goles (línea segura),Más de 1.5,0.7198,modelo,1
 2026-11-27,liga,401878930,Ambos anotan,No,0.5024,modelo,0
+2026-11-27,liga,564765,Ganador,Levante,0.4632,Kalshi + modelo,0
+2026-11-27,liga,564765,Doble oportunidad,Levante o Santander (no empate),0.7598,Kalshi + modelo,1
+2026-11-27,liga,564765,Goles,Más de 2.5,0.6064,modelo,1
+2026-11-27,liga,564765,Goles (línea segura),Más de 1.5,0.8199,modelo,1
+2026-11-27,liga,564765,Ambos anotan,Sí,0.5644,modelo,1
+2026-11-27,liga,401880129,Ganador,Middlesbrough,0.426,casas + modelo,0
+2026-11-27,liga,401880129,Doble oportunidad,Southampton o Middlesbrough (no empate),0.7487,casas + modelo,1
+2026-11-27,liga,401880129,Goles,Más de 2.5,0.614,casas + modelo,0
+2026-11-27,liga,401880129,Goles (línea segura),Más de 1.5,0.7887,modelo,1
+2026-11-27,liga,401880129,Ambos anotan,Sí,0.5631,modelo,0
+2026-11-27,liga,401885389,Ganador,Maritimo,0.4324,casas + modelo,0
+2026-11-27,liga,401885389,Doble oportunidad,Maritimo o empate,0.7304,casas + modelo,0
+2026-11-27,liga,401885389,Goles,Menos de 2.5,0.5755,casas + modelo,0
+2026-11-27,liga,401885389,Goles (línea segura),Más de 1.5,0.7403,modelo,1
+2026-11-27,liga,401885389,Ambos anotan,Sí,0.5361,modelo,1
