@@ -1930,3 +1930,28 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-27,liga,401900870,Goles,Más de 2.5,0.7058,modelo,0
 2026-11-27,liga,401900870,Goles (línea segura),Más de 1.5,0.8835,modelo,1
 2026-11-27,liga,401900870,Ambos anotan,Sí,0.5219,modelo,0
+2026-11-27,liga,401888240,Ganador,Caykur Rizespor,0.489,casas + modelo,1
+2026-11-27,liga,401888240,Doble oportunidad,Caykur Rizespor o Kasimpasa (no empate),0.7543,casas + modelo,1
+2026-11-27,liga,401888240,Goles,Más de 2.5,0.6021,casas + modelo,1
+2026-11-27,liga,401888240,Goles (línea segura),Más de 1.5,0.736,modelo,1
+2026-11-27,liga,401888240,Ambos anotan,Sí,0.5305,modelo,1
+2026-11-27,liga,401888241,Ganador,Alanyaspor,0.3521,casas + modelo,0
+2026-11-27,liga,401888241,Doble oportunidad,Alanyaspor o Konyaspor (no empate),0.6951,casas + modelo,1
+2026-11-27,liga,401888241,Goles,Menos de 2.5,0.5519,casas + modelo,0
+2026-11-27,liga,401888241,Goles (línea segura),Más de 1.5,0.6994,modelo,1
+2026-11-27,liga,401888241,Ambos anotan,No,0.5205,modelo,0
+2026-11-27,liga,401885045,Ganador,VfL Bochum,0.592,casas + modelo,1
+2026-11-27,liga,401885045,Doble oportunidad,VfL Bochum o empate,0.8128,casas + modelo,1
+2026-11-27,liga,401885045,Goles,Más de 2.5,0.5806,casas + modelo,0
+2026-11-27,liga,401885045,Goles (línea segura),Más de 1.5,0.734,modelo,1
+2026-11-27,liga,401885045,Ambos anotan,Sí,0.5046,modelo,0
+2026-11-27,liga,401885047,Ganador,1. FC Heidenheim 1846,0.3998,casas + modelo,1
+2026-11-27,liga,401885047,Doble oportunidad,1. FC Heidenheim 1846 o 1. FC Nürnberg (no empate),0.7591,casas + modelo,1
+2026-11-27,liga,401885047,Goles,Más de 2.5,0.6242,modelo,1
+2026-11-27,liga,401885047,Goles (línea segura),Más de 1.5,0.8165,modelo,1
+2026-11-27,liga,401885047,Ambos anotan,Sí,0.642,modelo,1
+2026-11-27,liga,401900873,Ganador,Al Ittihad,0.5156,casas + modelo,1
+2026-11-27,liga,401900873,Doble oportunidad,Al Ittihad o Neom SC (no empate),0.7628,casas + modelo,1
+2026-11-27,liga,401900873,Goles,Más de 2.5,0.5808,casas + modelo,0
+2026-11-27,liga,401900873,Goles (línea segura),Más de 1.5,0.7758,modelo,0
+2026-11-27,liga,401900873,Ambos anotan,Sí,0.5385,modelo,0
