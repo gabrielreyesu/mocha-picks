@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 27 Nov 2026 04:34 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 27 Nov 2026 05:29 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -282,9 +282,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Ganador | Al Kholood | 38% | Baja | casas + modelo | — |
-| Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Doble oportunidad | Al Kholood o Al Khaleej (no empate) | 74% | Alta | casas + modelo | — |
-| Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
+| Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Ganador | Al Kholood | 40% | Baja | casas + modelo | — |
+| Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Doble oportunidad | Al Kholood o Al Khaleej (no empate) | 75% | Alta | casas + modelo | — |
+| Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Fri 27 Nov 06:15 | Liga Saudí | Al Kholood vs Al Khaleej | Ambos anotan | Sí | 58% | Media | modelo | — |
 | Fri 27 Nov 08:20 | Liga Saudí | Al Qadsiah vs Al Fayha | Ganador | Al Qadsiah | 88% | Alta | casas + modelo | — |
@@ -317,8 +317,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 11:30 | 2. Bundesliga | VfL Bochum vs SV Darmstadt 98 | Ambos anotan | Sí | 50% | Baja | modelo | — |
-| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ganador | FC Groningen | 77% | Alta | casas + modelo | — |
-| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Doble oportunidad | FC Groningen o empate | 90% | Alta | casas + modelo | — |
+| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ganador | FC Groningen | 78% | Alta | casas + modelo | — |
+| Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Doble oportunidad | FC Groningen o empate | 91% | Alta | casas + modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Goles | Más de 2.5 | 73% | Alta | modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
 | Fri 27 Nov 13:00 | Eredivisie | FC Groningen vs Willem II | Ambos anotan | Sí | 66% | Media | modelo | — |
@@ -1012,4 +1012,5 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 15:30 | MLS | Philadelphia Union vs New England Revolution | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Sat 28 Nov 15:30 | MLS | Philadelphia Union vs New England Revolution | Ambos anotan | Sí | 60% | Media | modelo | — |
 | Sat 28 Nov 16:00 | NBA | Orlando Magic en Washington Wizards | Ganador | Orlando Magic | 61% | Media | Kalshi + modelo | 60¢ |
+| Sat 28 Nov 17:00 | NBA | Brooklyn Nets en Charlotte Hornets | Ganador | Charlotte Hornets | 70% | Alta | Kalshi + modelo | 70¢ |
 
