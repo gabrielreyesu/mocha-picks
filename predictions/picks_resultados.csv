@@ -1999,3 +1999,8 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-27,nfl,401873083,Hándicap,Denver Broncos gana por más de 4.5,0.5,casas,0
 2026-11-27,nfl,401873083,Total de puntos,Menos de 37.5,0.5307,casas,1
 2026-11-27,nfl,401873083,Puntos (línea segura),Menos de 46.5,0.7791,casas,1
+2026-11-27,liga,401841337,Ganador,Fluminense,0.4938,casas + modelo,0
+2026-11-27,liga,401841337,Doble oportunidad,Fluminense o empate,0.7621,casas + modelo,0
+2026-11-27,liga,401841337,Goles,Menos de 2.5,0.5251,casas + modelo,1
+2026-11-27,liga,401841337,Goles (línea segura),Más de 1.5,0.778,modelo,0
+2026-11-27,liga,401841337,Ambos anotan,Sí,0.5891,modelo,0
