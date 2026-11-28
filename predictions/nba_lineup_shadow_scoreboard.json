@@ -1,19 +1,19 @@
 {
   "status": "SHADOW_ONLY_PRODUCTION_UNCHANGED",
-  "updated_utc": "2026-11-28T02:01:57.293530+00:00",
+  "updated_utc": "2026-11-28T03:39:39.371469+00:00",
   "regla": "Activar solo con n >= 200, IC95% de mejora_logloss > 0 y autorización explícita.",
-  "nuevas_filas": 9,
+  "nuevas_filas": 5,
   "resultado": {
-    "n": 96,
-    "acierto_base": 0.6458,
-    "acierto_lineup": 0.6562,
-    "logloss_base": 0.65279,
-    "logloss_lineup": 0.62573,
+    "n": 101,
+    "acierto_base": 0.6436,
+    "acierto_lineup": 0.6535,
+    "logloss_base": 0.65228,
+    "logloss_lineup": 0.62472,
     "minutos_antes_mediana": 36.0,
     "mejora_logloss": {
-      "mejora": 0.02706,
-      "ic95_inf": 0.00986,
-      "ic95_sup": 0.04426,
+      "mejora": 0.02756,
+      "ic95_inf": 0.01097,
+      "ic95_sup": 0.04361,
       "excluye_0": true
     }
   }
