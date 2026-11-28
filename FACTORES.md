@@ -63,3 +63,4 @@ Estados: ✅ en producción · 🟡 aporta al modelo / en sombra · ⚪ no concl
 | Tiros y tiros a puerta en el modelo de las 5 grandes (`kalshi_soccer`) | fútbol | 🟡 sombra | Confirmación +0,0067 [+0,0030; +0,0104] en 4.052 partidos; brecha con las casas −30%; frente al mercado no aporta | `TIROS5_RESEARCH.md` |
 | Tiros y tiros a puerta en copas europeas y selecciones | fútbol | ❌ | Copas −0,0007 [−0,0044; +0,0031]; selecciones −0,0005 [−0,0021; +0,0011]; frente a casas en copas empeora | `TIROS_COPAS_RESEARCH.md` |
 | Proyección propia de jugadores (media de 10 partidos) junto a Kalshi | NBA | ❌ | Kalshi + proyección -0.0005 (IC con 0); la proyección sola es mucho peor (log loss 0.686 frente a 0.547) | `JUGADORES_RESEARCH.md` |
+| Modelo de jugadores NBA con minutos, ritmo y rival (idea 18) | NBA | ❌ | Frente a la media de 10: +0,012 [−0,005; +0,024]; brecha con Kalshi −0,111; combinado con Kalshi −0,0012 | `JUGADORES2_RESEARCH.md` |
