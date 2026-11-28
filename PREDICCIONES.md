@@ -1,4 +1,4 @@
-# Mocha Picks — predicciones actualizadas 28 Nov 2026 05:28 (hora Chicago)
+# Mocha Picks — predicciones actualizadas 28 Nov 2026 06:28 (hora Chicago)
 
 📱 **Versión para el teléfono:** https://gabrielreyesu.github.io/mocha-picks/ (tarjetas, filtros por deporte y día, buscador).
 
@@ -287,39 +287,19 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 
 | Hora (Chicago) | Competición | Partido | Mercado | Pick | Probabilidad | Confianza | Fuente | Kalshi |
 |---|---|---|---|---|---|---|---|---|
-| Sat 28 Nov 06:00 | 2. Bundesliga | Holstein Kiel vs Kaiserslautern | Ganador | Kaiserslautern | 38% | Baja | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Holstein Kiel vs Kaiserslautern | Doble oportunidad | Holstein Kiel o Kaiserslautern (no empate) | 73% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Holstein Kiel vs Kaiserslautern | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Holstein Kiel vs Kaiserslautern | Goles (línea segura) | Más de 1.5 | 68% | Media | modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Holstein Kiel vs Kaiserslautern | Ambos anotan | No | 54% | Baja | modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Ganador | St. Pauli | 42% | Baja | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Doble oportunidad | Dynamo Dresden o St. Pauli (no empate) | 74% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Dynamo Dresden vs St. Pauli | Ambos anotan | Sí | 56% | Media | modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Hertha Berlin vs Karlsruher SC | Ganador | Hertha Berlin | 73% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Hertha Berlin vs Karlsruher SC | Doble oportunidad | Hertha Berlin o empate | 89% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Hertha Berlin vs Karlsruher SC | Goles | Más de 2.5 | 63% | Media | modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Hertha Berlin vs Karlsruher SC | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
-| Sat 28 Nov 06:00 | 2. Bundesliga | Hertha Berlin vs Karlsruher SC | Ambos anotan | Sí | 54% | Baja | modelo | — |
-| Sat 28 Nov 06:15 | Liga Saudí | Al Hazem vs Al Nassr | Ganador | Al Nassr | 83% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:15 | Liga Saudí | Al Hazem vs Al Nassr | Doble oportunidad | Al Nassr o empate | 94% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:15 | Liga Saudí | Al Hazem vs Al Nassr | Goles | Más de 2.5 | 63% | Media | modelo | — |
-| Sat 28 Nov 06:15 | Liga Saudí | Al Hazem vs Al Nassr | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
-| Sat 28 Nov 06:15 | Liga Saudí | Al Hazem vs Al Nassr | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sat 28 Nov 06:30 | Championship | Preston North End vs Norwich City | Ganador | Norwich City | 59% | Media | casas + modelo | — |
 | Sat 28 Nov 06:30 | Championship | Preston North End vs Norwich City | Doble oportunidad | Norwich City o empate | 81% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:30 | Championship | Preston North End vs Norwich City | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
+| Sat 28 Nov 06:30 | Championship | Preston North End vs Norwich City | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sat 28 Nov 06:30 | Championship | Preston North End vs Norwich City | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sat 28 Nov 06:30 | Championship | Preston North End vs Norwich City | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sat 28 Nov 06:30 | Championship | Blackburn Rovers vs Charlton Athletic | Ganador | Blackburn Rovers | 49% | Baja | casas + modelo | — |
-| Sat 28 Nov 06:30 | Championship | Blackburn Rovers vs Charlton Athletic | Doble oportunidad | Blackburn Rovers o empate | 75% | Alta | casas + modelo | — |
+| Sat 28 Nov 06:30 | Championship | Blackburn Rovers vs Charlton Athletic | Ganador | Blackburn Rovers | 50% | Baja | casas + modelo | — |
+| Sat 28 Nov 06:30 | Championship | Blackburn Rovers vs Charlton Athletic | Doble oportunidad | Blackburn Rovers o empate | 76% | Alta | casas + modelo | — |
 | Sat 28 Nov 06:30 | Championship | Blackburn Rovers vs Charlton Athletic | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Sat 28 Nov 06:30 | Championship | Blackburn Rovers vs Charlton Athletic | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sat 28 Nov 06:30 | Championship | Blackburn Rovers vs Charlton Athletic | Ambos anotan | Sí | 52% | Baja | modelo | — |
 | Sat 28 Nov 06:30 | Championship | Lincoln City vs Wolverhampton Wanderers | Ganador | Wolverhampton Wanderers | 64% | Media | casas + modelo | — |
 | Sat 28 Nov 06:30 | Championship | Lincoln City vs Wolverhampton Wanderers | Doble oportunidad | Wolverhampton Wanderers o empate | 85% | Alta | casas + modelo | — |
-| Sat 28 Nov 06:30 | Championship | Lincoln City vs Wolverhampton Wanderers | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Sat 28 Nov 06:30 | Championship | Lincoln City vs Wolverhampton Wanderers | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Sat 28 Nov 06:30 | Championship | Lincoln City vs Wolverhampton Wanderers | Goles (línea segura) | Más de 1.5 | 73% | Alta | modelo | — |
 | Sat 28 Nov 06:30 | Championship | Lincoln City vs Wolverhampton Wanderers | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Sat 28 Nov 07:00 | La Liga | Betis vs Vallecano | Ganador | Betis | 66% | Media | Kalshi + modelo | 62¢ |
@@ -332,8 +312,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 07:00 | Superliga de Turquía | Samsunspor vs Genclerbirligi | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Sat 28 Nov 07:00 | Superliga de Turquía | Samsunspor vs Genclerbirligi | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sat 28 Nov 07:00 | Superliga de Turquía | Samsunspor vs Genclerbirligi | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Sat 28 Nov 07:00 | LaLiga 2 | Las Palmas vs FC Andorra | Ganador | Las Palmas | 44% | Baja | casas + modelo | — |
-| Sat 28 Nov 07:00 | LaLiga 2 | Las Palmas vs FC Andorra | Doble oportunidad | Las Palmas o FC Andorra (no empate) | 73% | Alta | casas + modelo | — |
+| Sat 28 Nov 07:00 | LaLiga 2 | Las Palmas vs FC Andorra | Ganador | Las Palmas | 45% | Baja | casas + modelo | — |
+| Sat 28 Nov 07:00 | LaLiga 2 | Las Palmas vs FC Andorra | Doble oportunidad | Las Palmas o FC Andorra (no empate) | 74% | Alta | casas + modelo | — |
 | Sat 28 Nov 07:00 | LaLiga 2 | Las Palmas vs FC Andorra | Goles | Más de 2.5 | 57% | Media | casas + modelo | — |
 | Sat 28 Nov 07:00 | LaLiga 2 | Las Palmas vs FC Andorra | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sat 28 Nov 07:00 | LaLiga 2 | Las Palmas vs FC Andorra | Ambos anotan | Sí | 53% | Baja | modelo | — |
@@ -398,8 +378,8 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 09:00 | Premiership de Escocia | Dundee United vs St Johnstone | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
 | Sat 28 Nov 09:00 | Premiership de Escocia | Dundee United vs St Johnstone | Ambos anotan | Sí | 53% | Baja | modelo | — |
 | Sat 28 Nov 09:00 | Championship | Queens Park Rangers vs Sheffield United | Ganador | Queens Park Rangers | 48% | Baja | casas + modelo | — |
-| Sat 28 Nov 09:00 | Championship | Queens Park Rangers vs Sheffield United | Doble oportunidad | Queens Park Rangers o empate | 74% | Alta | casas + modelo | — |
-| Sat 28 Nov 09:00 | Championship | Queens Park Rangers vs Sheffield United | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
+| Sat 28 Nov 09:00 | Championship | Queens Park Rangers vs Sheffield United | Doble oportunidad | Queens Park Rangers o Sheffield United (no empate) | 74% | Alta | casas + modelo | — |
+| Sat 28 Nov 09:00 | Championship | Queens Park Rangers vs Sheffield United | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Sat 28 Nov 09:00 | Championship | Queens Park Rangers vs Sheffield United | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 28 Nov 09:00 | Championship | Queens Park Rangers vs Sheffield United | Ambos anotan | Sí | 55% | Baja | modelo | — |
 | Sat 28 Nov 09:00 | Premiership de Escocia | Rangers vs Falkirk | Ganador | Rangers | 80% | Alta | casas + modelo | — |
@@ -412,12 +392,12 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 09:00 | Championship | Millwall vs Burnley | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sat 28 Nov 09:00 | Championship | Millwall vs Burnley | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 28 Nov 09:00 | Championship | Millwall vs Burnley | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Sat 28 Nov 09:00 | Liga de Bélgica | KVC Westerlo vs RAAL La Louvière | Ganador | KVC Westerlo | 54% | Baja | casas + modelo | — |
-| Sat 28 Nov 09:00 | Liga de Bélgica | KVC Westerlo vs RAAL La Louvière | Doble oportunidad | KVC Westerlo o empate | 77% | Alta | casas + modelo | — |
+| Sat 28 Nov 09:00 | Liga de Bélgica | KVC Westerlo vs RAAL La Louvière | Ganador | KVC Westerlo | 55% | Media | casas + modelo | — |
+| Sat 28 Nov 09:00 | Liga de Bélgica | KVC Westerlo vs RAAL La Louvière | Doble oportunidad | KVC Westerlo o empate | 78% | Alta | casas + modelo | — |
 | Sat 28 Nov 09:00 | Liga de Bélgica | KVC Westerlo vs RAAL La Louvière | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Sat 28 Nov 09:00 | Liga de Bélgica | KVC Westerlo vs RAAL La Louvière | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
 | Sat 28 Nov 09:00 | Liga de Bélgica | KVC Westerlo vs RAAL La Louvière | Ambos anotan | Sí | 66% | Media | modelo | — |
-| Sat 28 Nov 09:00 | Premiership de Escocia | St Mirren vs Kilmarnock | Ganador | St Mirren | 43% | Baja | casas + modelo | — |
+| Sat 28 Nov 09:00 | Premiership de Escocia | St Mirren vs Kilmarnock | Ganador | St Mirren | 42% | Baja | casas + modelo | — |
 | Sat 28 Nov 09:00 | Premiership de Escocia | St Mirren vs Kilmarnock | Doble oportunidad | St Mirren o Kilmarnock (no empate) | 75% | Alta | casas + modelo | — |
 | Sat 28 Nov 09:00 | Premiership de Escocia | St Mirren vs Kilmarnock | Goles | Más de 2.5 | 62% | Media | casas + modelo | — |
 | Sat 28 Nov 09:00 | Premiership de Escocia | St Mirren vs Kilmarnock | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
@@ -472,7 +452,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 09:30 | Liga Portugal | Arouca vs Rio Ave | Goles | Más de 2.5 | 52% | Baja | casas + modelo | — |
 | Sat 28 Nov 09:30 | Liga Portugal | Arouca vs Rio Ave | Goles (línea segura) | Más de 1.5 | 75% | Alta | modelo | — |
 | Sat 28 Nov 09:30 | Liga Portugal | Arouca vs Rio Ave | Ambos anotan | No | 51% | Baja | modelo | — |
-| Sat 28 Nov 09:30 | Eredivisie | Excelsior vs Telstar | Ganador | Excelsior | 44% | Baja | casas + modelo | — |
+| Sat 28 Nov 09:30 | Eredivisie | Excelsior vs Telstar | Ganador | Excelsior | 43% | Baja | casas + modelo | — |
 | Sat 28 Nov 09:30 | Eredivisie | Excelsior vs Telstar | Doble oportunidad | Excelsior o Telstar (no empate) | 74% | Alta | casas + modelo | — |
 | Sat 28 Nov 09:30 | Eredivisie | Excelsior vs Telstar | Goles | Más de 2.5 | 53% | Baja | casas + modelo | — |
 | Sat 28 Nov 09:30 | Eredivisie | Excelsior vs Telstar | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
@@ -526,7 +506,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 11:30 | La Liga | Elche vs Ath Madrid | Ambos anotan | Sí | 55% | Media | modelo | — |
 | Sat 28 Nov 11:30 | Liga Saudí | Al Ahli vs Al Taawoun | Ganador | Al Ahli | 75% | Alta | casas + modelo | — |
 | Sat 28 Nov 11:30 | Liga Saudí | Al Ahli vs Al Taawoun | Doble oportunidad | Al Ahli o empate | 91% | Alta | casas + modelo | — |
-| Sat 28 Nov 11:30 | Liga Saudí | Al Ahli vs Al Taawoun | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
+| Sat 28 Nov 11:30 | Liga Saudí | Al Ahli vs Al Taawoun | Goles | Más de 2.5 | 58% | Media | casas + modelo | — |
 | Sat 28 Nov 11:30 | Liga Saudí | Al Ahli vs Al Taawoun | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
 | Sat 28 Nov 11:30 | Liga Saudí | Al Ahli vs Al Taawoun | Ambos anotan | Sí | 54% | Baja | modelo | — |
 | Sat 28 Nov 11:30 | MLS | Charlotte FC vs Chicago Fire FC | Ganador | Chicago Fire FC | 38% | Baja | casas + modelo | — |
@@ -635,7 +615,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 14:00 | Copa de Francia | La Roche-sur-Yon vs Chateaubriant | Goles (línea segura) | Más de 1.5 | 83% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | La Roche-sur-Yon vs Chateaubriant | Ambos anotan | Sí | 63% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Saint-Étienne vs Villefranche | Ganador | Saint-Étienne | 76% | Alta | casas + modelo | — |
-| Sat 28 Nov 14:00 | Copa de Francia | Saint-Étienne vs Villefranche | Doble oportunidad | Saint-Étienne o empate | 90% | Alta | casas + modelo | — |
+| Sat 28 Nov 14:00 | Copa de Francia | Saint-Étienne vs Villefranche | Doble oportunidad | Saint-Étienne o empate | 91% | Alta | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Saint-Étienne vs Villefranche | Goles | Más de 2.5 | 61% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Saint-Étienne vs Villefranche | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Saint-Étienne vs Villefranche | Ambos anotan | Sí | 60% | Media | modelo | — |
@@ -644,7 +624,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 14:00 | Copa de Francia | Talange vs Oberlauterbach | Goles | Más de 2.5 | 56% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Talange vs Oberlauterbach | Goles (línea segura) | Más de 1.5 | 80% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Talange vs Oberlauterbach | Ambos anotan | Sí | 60% | Media | modelo | — |
-| Sat 28 Nov 14:00 | Copa de Francia | Vannes OC vs Concarneau | Ganador | Concarneau | 45% | Baja | casas + modelo | — |
+| Sat 28 Nov 14:00 | Copa de Francia | Vannes OC vs Concarneau | Ganador | Concarneau | 49% | Baja | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Vannes OC vs Concarneau | Doble oportunidad | Vannes OC o Concarneau (no empate) | 77% | Alta | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Vannes OC vs Concarneau | Goles | Más de 2.5 | 67% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Vannes OC vs Concarneau | Goles (línea segura) | Más de 1.5 | 86% | Alta | modelo | — |
@@ -724,7 +704,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 14:00 | Copa de Francia | Le Pays Du Valois vs Valenciennes | Goles | Más de 2.5 | 55% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Le Pays Du Valois vs Valenciennes | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Le Pays Du Valois vs Valenciennes | Ambos anotan | Sí | 59% | Media | modelo | — |
-| Sat 28 Nov 14:00 | Copa de Francia | US Feurs vs Annecy | Ganador | Annecy | 60% | Media | casas + modelo | — |
+| Sat 28 Nov 14:00 | Copa de Francia | US Feurs vs Annecy | Ganador | Annecy | 59% | Media | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | US Feurs vs Annecy | Doble oportunidad | US Feurs o Annecy (no empate) | 82% | Alta | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | US Feurs vs Annecy | Goles | Más de 2.5 | 56% | Media | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | US Feurs vs Annecy | Goles (línea segura) | Más de 1.5 | 87% | Alta | modelo | — |
@@ -749,7 +729,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 14:00 | Copa de Francia | St-Ouen L'Aumone vs Calais | Goles | Más de 2.5 | 58% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | St-Ouen L'Aumone vs Calais | Goles (línea segura) | Más de 1.5 | 81% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | St-Ouen L'Aumone vs Calais | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Sat 28 Nov 14:00 | Copa Libertadores | Palmeiras vs Estudiantes de La Plata | Ganador | Palmeiras | 49% | Baja | casas + modelo | — |
+| Sat 28 Nov 14:00 | Copa Libertadores | Palmeiras vs Estudiantes de La Plata | Ganador | Palmeiras | 48% | Baja | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa Libertadores | Palmeiras vs Estudiantes de La Plata | Doble oportunidad | Palmeiras o empate | 80% | Alta | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa Libertadores | Palmeiras vs Estudiantes de La Plata | Goles | Menos de 2.5 | 63% | Media | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa Libertadores | Palmeiras vs Estudiantes de La Plata | Goles (línea segura) | Más de 1.5 | 76% | Alta | modelo | — |
@@ -759,7 +739,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 14:00 | LaLiga 2 | Real Valladolid vs Real Sociedad II | Goles | Más de 2.5 | 55% | Baja | casas + modelo | — |
 | Sat 28 Nov 14:00 | LaLiga 2 | Real Valladolid vs Real Sociedad II | Goles (línea segura) | Más de 1.5 | 79% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | LaLiga 2 | Real Valladolid vs Real Sociedad II | Ambos anotan | Sí | 57% | Media | modelo | — |
-| Sat 28 Nov 14:00 | Eredivisie | SC Cambuur vs Sparta Rotterdam | Ganador | SC Cambuur | 55% | Baja | casas + modelo | — |
+| Sat 28 Nov 14:00 | Eredivisie | SC Cambuur vs Sparta Rotterdam | Ganador | SC Cambuur | 54% | Baja | casas + modelo | — |
 | Sat 28 Nov 14:00 | Eredivisie | SC Cambuur vs Sparta Rotterdam | Doble oportunidad | SC Cambuur o Sparta Rotterdam (no empate) | 79% | Alta | casas + modelo | — |
 | Sat 28 Nov 14:00 | Eredivisie | SC Cambuur vs Sparta Rotterdam | Goles | Más de 2.5 | 68% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Eredivisie | SC Cambuur vs Sparta Rotterdam | Goles (línea segura) | Más de 1.5 | 89% | Alta | modelo | — |
@@ -851,7 +831,7 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 14:00 | Copa de Francia | Racing Chambery vs Anglet Genets | Ambos anotan | Sí | 64% | Media | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Ganador | Grenoble | 44% | Baja | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Doble oportunidad | Nimes o Grenoble (no empate) | 72% | Alta | casas + modelo | — |
-| Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Goles | Menos de 2.5 | 59% | Media | casas + modelo | — |
+| Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Goles | Menos de 2.5 | 58% | Media | casas + modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Goles (línea segura) | Más de 1.5 | 82% | Alta | modelo | — |
 | Sat 28 Nov 14:00 | Copa de Francia | Nimes vs Grenoble | Ambos anotan | Sí | 62% | Media | modelo | — |
 | Sat 28 Nov 14:30 | Liga Portugal | Vitória de Guimaraes vs Estrela | Ganador | Vitória de Guimaraes | 57% | Media | casas + modelo | — |
@@ -912,14 +892,14 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sat 28 Nov 21:30 | MLS | Portland Timbers vs FC Dallas | Goles | Más de 2.5 | 57% | Media | modelo | — |
 | Sat 28 Nov 21:30 | MLS | Portland Timbers vs FC Dallas | Goles (línea segura) | Más de 1.5 | 77% | Alta | modelo | — |
 | Sat 28 Nov 21:30 | MLS | Portland Timbers vs FC Dallas | Ambos anotan | Sí | 61% | Media | modelo | — |
-| Sun 29 Nov 04:30 | Superliga de Turquía | Çorum FK vs Kocaelispor | Ganador | Çorum FK | 50% | Baja | casas + modelo | — |
-| Sun 29 Nov 04:30 | Superliga de Turquía | Çorum FK vs Kocaelispor | Doble oportunidad | Çorum FK o empate | 76% | Alta | casas + modelo | — |
+| Sun 29 Nov 04:30 | Superliga de Turquía | Çorum FK vs Kocaelispor | Ganador | Çorum FK | 48% | Baja | casas + modelo | — |
+| Sun 29 Nov 04:30 | Superliga de Turquía | Çorum FK vs Kocaelispor | Doble oportunidad | Çorum FK o empate | 75% | Alta | casas + modelo | — |
 | Sun 29 Nov 04:30 | Superliga de Turquía | Çorum FK vs Kocaelispor | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
 | Sun 29 Nov 04:30 | Superliga de Turquía | Çorum FK vs Kocaelispor | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
 | Sun 29 Nov 04:30 | Superliga de Turquía | Çorum FK vs Kocaelispor | Ambos anotan | Sí | 56% | Media | modelo | — |
 | Sun 29 Nov 05:15 | Eredivisie | ADO Den Haag vs FC Utrecht | Ganador | FC Utrecht | 40% | Baja | casas + modelo | — |
 | Sun 29 Nov 05:15 | Eredivisie | ADO Den Haag vs FC Utrecht | Doble oportunidad | ADO Den Haag o FC Utrecht (no empate) | 76% | Alta | casas + modelo | — |
-| Sun 29 Nov 05:15 | Eredivisie | ADO Den Haag vs FC Utrecht | Goles | Más de 2.5 | 60% | Media | casas + modelo | — |
+| Sun 29 Nov 05:15 | Eredivisie | ADO Den Haag vs FC Utrecht | Goles | Más de 2.5 | 59% | Media | casas + modelo | — |
 | Sun 29 Nov 05:15 | Eredivisie | ADO Den Haag vs FC Utrecht | Goles (línea segura) | Más de 1.5 | 85% | Alta | modelo | — |
 | Sun 29 Nov 05:15 | Eredivisie | ADO Den Haag vs FC Utrecht | Ambos anotan | Sí | 65% | Media | modelo | — |
 | Sun 29 Nov 05:30 | Serie A | Udinese vs Fiorentina | Ganador | Fiorentina | 45% | Baja | Kalshi + modelo | 45¢ |
@@ -1238,4 +1218,9 @@ frente a las casas, por eso ahí se usa su probabilidad. No es una recomendació
 | Sun 29 Nov 17:00 | NBA | Denver Nuggets en Toronto Raptors | Ganador | Denver Nuggets | 58% | Media | Kalshi + modelo | 58¢ |
 | Sun 29 Nov 17:00 | NBA | Orlando Magic en Detroit Pistons | Ganador | Detroit Pistons | 68% | Media | Kalshi + modelo | 68¢ |
 | Sun 29 Nov 17:00 | NBA | Atlanta Hawks en New York Knicks | Ganador | New York Knicks | 70% | Alta | Kalshi + modelo | 70¢ |
+| Sun 29 Nov 17:30 | Liga Profesional Argentina | Boca Juniors vs Gimnasia La Plata | Ganador | Boca Juniors | 69% | Media | casas + modelo | — |
+| Sun 29 Nov 17:30 | Liga Profesional Argentina | Boca Juniors vs Gimnasia La Plata | Doble oportunidad | Boca Juniors o empate | 89% | Alta | casas + modelo | — |
+| Sun 29 Nov 17:30 | Liga Profesional Argentina | Boca Juniors vs Gimnasia La Plata | Goles | Menos de 2.5 | 51% | Baja | casas + modelo | — |
+| Sun 29 Nov 17:30 | Liga Profesional Argentina | Boca Juniors vs Gimnasia La Plata | Goles (línea segura) | Más de 1.5 | 78% | Alta | modelo | — |
+| Sun 29 Nov 17:30 | Liga Profesional Argentina | Boca Juniors vs Gimnasia La Plata | Ambos anotan | Sí | 52% | Baja | modelo | — |
 
