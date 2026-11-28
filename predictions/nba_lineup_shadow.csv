@@ -1404,3 +1404,15 @@ snapshot_utc,event_id,kickoff_utc,home,away,p_base,p_lineup,lineup_gs,abs_gs,out
 2026-11-27T23:37:23.693906+00:00,401910048,2026-11-29T01:00Z,Chicago Bulls,Indiana Pacers,0.6303,0.60112,0.285,-2.264,Norman Powell; Caleb Wilson,T.J. McConnell,2,1523.0
 2026-11-27T23:37:23.693906+00:00,401910049,2026-11-29T01:00Z,Milwaukee Bucks,Oklahoma City Thunder,0.20932,0.21973,-1.092,-6.509,Kasparas Jakucionis,Aday Mara; Nikola Topic; Jaylin Williams,4,1523.0
 2026-11-27T23:37:23.693906+00:00,401910050,2026-11-29T01:30Z,Houston Rockets,Philadelphia 76ers,0.66373,0.6784,1.382,3.279,,Jaylen Brown,1,1553.0
+2026-11-28T00:37:06.872423+00:00,401909330,2026-11-28T01:00Z,Boston Celtics,Atlanta Hawks,0.67518,0.64761,-0.883,-0.094,Mitchell Robinson,Asa Newell; CJ McCollum; Jock Landale,2,23.0
+2026-11-28T00:37:06.872423+00:00,401909331,2026-11-28T01:30Z,Minnesota Timberwolves,Memphis Grizzlies,0.6824,0.62743,-2.609,-2.907,LaMelo Ball; Jaylen Clark,GG Jackson; Cameron Boozer; Isaiah Stewart; Jerami Grant,4,53.0
+2026-11-28T00:37:06.872423+00:00,401909332,2026-11-28T02:00Z,Phoenix Suns,Dallas Mavericks,0.62311,0.60356,-0.181,-1.203,,Tobi Lawal,4,83.0
+2026-11-28T00:37:06.872423+00:00,401909335,2026-11-28T02:30Z,LA Clippers,New Orleans Pelicans,0.67741,0.61246,0.029,-6.026,,Trendon Watford; Bennedict Mathurin; Dejounte Murray,2,113.0
+2026-11-28T00:37:06.872423+00:00,401909336,2026-11-28T02:30Z,Portland Trail Blazers,Golden State Warriors,0.69893,0.70354,-0.337,4.474,Ja Morant; Chris Youngblood; Damian Lillard,Stephen Curry,5,113.0
+2026-11-28T00:37:06.872423+00:00,401909333,2026-11-28T02:30Z,San Antonio Spurs,Los Angeles Lakers,0.69651,0.67828,-1.306,1.877,Dylan Harper,,2,113.0
+2026-11-28T00:37:06.872423+00:00,401909334,2026-11-28T02:30Z,Utah Jazz,Denver Nuggets,0.29895,0.27395,2.216,-11.774,,,3,113.0
+2026-11-28T00:37:06.872423+00:00,401910046,2026-11-28T22:00Z,Washington Wizards,Orlando Magic,0.37068,0.43607,0.858,3.006,,,9,1283.0
+2026-11-28T00:37:06.872423+00:00,401910047,2026-11-28T23:00Z,Charlotte Hornets,Brooklyn Nets,0.69122,0.66519,2.314,-2.66,Grayson Allen; Kon Knueppel; Dennis Schroder,Nolan Traore; Moritz Wagner,0,1343.0
+2026-11-28T00:37:06.872423+00:00,401910048,2026-11-29T01:00Z,Chicago Bulls,Indiana Pacers,0.6303,0.60113,0.283,-2.261,Caleb Wilson; Norman Powell,T.J. McConnell,2,1463.0
+2026-11-28T00:37:06.872423+00:00,401910049,2026-11-29T01:00Z,Milwaukee Bucks,Oklahoma City Thunder,0.20932,0.21973,-1.094,-6.507,Kasparas Jakucionis,Nikola Topic; Aday Mara; Jaylin Williams,4,1463.0
+2026-11-28T00:37:06.872423+00:00,401910050,2026-11-29T01:30Z,Houston Rockets,Philadelphia 76ers,0.66373,0.64387,-1.285,0.609,,Dean Wade; Jaylen Brown,1,1493.0
