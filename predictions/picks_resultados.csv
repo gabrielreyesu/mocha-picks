@@ -2004,3 +2004,31 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-27,liga,401841337,Goles,Menos de 2.5,0.5251,casas + modelo,1
 2026-11-27,liga,401841337,Goles (línea segura),Más de 1.5,0.778,modelo,0
 2026-11-27,liga,401841337,Ambos anotan,Sí,0.5891,modelo,0
+2026-11-27,nba,401909326,Ganador,New York Knicks,0.5804,Kalshi + casas + modelo,0
+2026-11-27,nba,401909326,Hándicap,New York Knicks gana por más de 2.5,0.5,casas,0
+2026-11-27,nba,401909326,Total de puntos,Más de 221.5,0.5,casas,0
+2026-11-27,nba,401909326,Puntos (línea segura),Más de 207.5,0.7829,casas,1
+2026-11-27,nba,401909328,Ganador,Philadelphia 76ers,0.6403,Kalshi + casas + modelo,1
+2026-11-27,nba,401909328,Hándicap,Philadelphia 76ers gana por más de 4.5,0.5,casas,1
+2026-11-27,nba,401909328,Total de puntos,Más de 228.5,0.5,casas,0
+2026-11-27,nba,401909328,Puntos (línea segura),Más de 214.5,0.7829,casas,0
+2026-11-27,nba,401909329,Ganador,Toronto Raptors,0.7633,Kalshi + casas + modelo,1
+2026-11-27,nba,401909329,Hándicap,Toronto Raptors gana por más de 9.5,0.5,casas,1
+2026-11-27,nba,401909329,Hándicap seguro,Toronto Raptors gana por más de 1.5,0.7248,casas,1
+2026-11-27,nba,401909329,Total de puntos,Más de 218.5,0.5,casas,1
+2026-11-27,nba,401909329,Puntos (línea segura),Más de 204.5,0.7829,casas,1
+2026-11-27,nba,401909327,Ganador,Detroit Pistons,0.7835,Kalshi + casas + modelo,1
+2026-11-27,nba,401909327,Hándicap,Detroit Pistons gana por más de 9.5,0.5,casas,1
+2026-11-27,nba,401909327,Hándicap seguro,Detroit Pistons gana por más de 1.5,0.7248,casas,1
+2026-11-27,nba,401909327,Total de puntos,Más de 218.5,0.5,casas,0
+2026-11-27,nba,401909327,Puntos (línea segura),Más de 204.5,0.7829,casas,1
+2026-11-27,nba,401909330,Ganador,Boston Celtics,0.7724,Kalshi + casas + modelo,0
+2026-11-27,nba,401909330,Hándicap,Boston Celtics gana por más de 9.5,0.5,casas,0
+2026-11-27,nba,401909330,Hándicap seguro,Boston Celtics gana por más de 1.5,0.7248,casas,0
+2026-11-27,nba,401909330,Total de puntos,Más de 224.5,0.5,casas,0
+2026-11-27,nba,401909330,Puntos (línea segura),Más de 210.5,0.7829,casas,0
+2026-11-27,liga,401933727,Ganador,Columbus Crew,0.411,casas + modelo,1
+2026-11-27,liga,401933727,Doble oportunidad,Columbus Crew o Inter Miami CF (no empate),0.7793,casas + modelo,1
+2026-11-27,liga,401933727,Goles,Más de 2.5,0.5936,modelo,0
+2026-11-27,liga,401933727,Goles (línea segura),Más de 1.5,0.8195,modelo,0
+2026-11-27,liga,401933727,Ambos anotan,Sí,0.6239,modelo,0
