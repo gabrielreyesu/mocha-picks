@@ -2032,3 +2032,33 @@ fecha,sport,id,mercado,pick,prob,fuente,acierto
 2026-11-27,liga,401933727,Goles,Más de 2.5,0.5936,modelo,0
 2026-11-27,liga,401933727,Goles (línea segura),Más de 1.5,0.8195,modelo,0
 2026-11-27,liga,401933727,Ambos anotan,Sí,0.6239,modelo,0
+2026-11-27,nba,401909331,Ganador,Minnesota Timberwolves,0.5711,Kalshi + casas + modelo,0
+2026-11-27,nba,401909331,Hándicap,Minnesota Timberwolves gana por más de 2.5,0.5,casas,0
+2026-11-27,nba,401909331,Total de puntos,Más de 219.5,0.5,casas,1
+2026-11-27,nba,401909331,Puntos (línea segura),Más de 205.5,0.7829,casas,1
+2026-11-27,nba,401909332,Ganador,Phoenix Suns,0.6055,Kalshi + casas + modelo,0
+2026-11-27,nba,401909332,Hándicap,Phoenix Suns gana por más de 4.5,0.5,casas,0
+2026-11-27,nba,401909332,Total de puntos,Menos de 226.5,0.5223,casas,1
+2026-11-27,nba,401909332,Puntos (línea segura),Más de 212.5,0.7662,casas,1
+2026-11-27,nba,401909335,Ganador,LA Clippers,0.5433,Kalshi + casas + modelo,0
+2026-11-27,nba,401909335,Hándicap,LA Clippers gana por más de 2.5,0.5,casas,0
+2026-11-27,nba,401909335,Total de puntos,Menos de 231.5,0.5223,casas,1
+2026-11-27,nba,401909335,Puntos (línea segura),Más de 217.5,0.7662,casas,0
+2026-11-27,nba,401909336,Ganador,Portland Trail Blazers,0.7453,Kalshi + casas + modelo,1
+2026-11-27,nba,401909336,Hándicap,Portland Trail Blazers gana por más de 8.5,0.5,casas,1
+2026-11-27,nba,401909336,Total de puntos,Menos de 217.5,0.5223,casas,1
+2026-11-27,nba,401909336,Puntos (línea segura),Más de 203.5,0.7662,casas,1
+2026-11-27,nba,401909333,Ganador,San Antonio Spurs,0.6771,Kalshi + casas + modelo,1
+2026-11-27,nba,401909333,Hándicap,San Antonio Spurs gana por más de 6.5,0.5,casas,0
+2026-11-27,nba,401909333,Total de puntos,Menos de 228.5,0.5223,casas,1
+2026-11-27,nba,401909333,Puntos (línea segura),Más de 214.5,0.7662,casas,0
+2026-11-27,nba,401909334,Ganador,Denver Nuggets,0.7991,Kalshi + casas + modelo,1
+2026-11-27,nba,401909334,Hándicap,Denver Nuggets gana por más de 9.5,0.5,casas,1
+2026-11-27,nba,401909334,Hándicap seguro,Denver Nuggets gana por más de 1.5,0.7248,casas,1
+2026-11-27,nba,401909334,Total de puntos,Más de 232.5,0.5,casas,0
+2026-11-27,nba,401909334,Puntos (línea segura),Más de 218.5,0.7829,casas,1
+2026-11-27,liga,401933725,Ganador,Vancouver Whitecaps,0.4471,casas + modelo,1
+2026-11-27,liga,401933725,Doble oportunidad,TBD Home o Vancouver Whitecaps (no empate),0.7417,casas + modelo,1
+2026-11-27,liga,401933725,Goles,Más de 2.5,0.577,casas + modelo,0
+2026-11-27,liga,401933725,Goles (línea segura),Más de 1.5,0.7722,modelo,0
+2026-11-27,liga,401933725,Ambos anotan,Sí,0.5455,modelo,0
